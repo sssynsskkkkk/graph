@@ -1,0 +1,29 @@
+Example 1:
+Text: Lipitor (atorvastatin) belongs to a group of drugs called statins. Lipitor is used together with diet to lower blood levels of "bad" cholesterol (LDL) and to reduce the risk of stroke and heart attack.
+Triples: [["Lipitor", "has generic name", "atorvastatin"], ["Lipitor", "belongs to drug class", "statins"], ["Lipitor", "treats", "high LDL cholesterol"], ["Lipitor", "reduces risk of", "stroke"]]
+Relations: ["has generic name", "belongs to drug class", "treats", "reduces risk of"]
+Answer:
+has generic name: The subject drug is known by the generic (non-proprietary) name specified by the object entity.
+belongs to drug class: The subject drug is a member of the pharmacological drug class specified by the object entity.
+treats: The subject drug is used to treat or manage the medical condition specified by the object entity.
+reduces risk of: The subject drug is used to lower the risk of the medical event or condition specified by the object entity.
+
+Example 2:
+Text: You should not use metformin if you have severe kidney disease. Tell your doctor if you have ever had liver disease. Metformin may cause lactic acidosis, a serious condition. Avoid drinking alcohol while taking metformin.
+Triples: [["metformin", "contraindicated in", "severe kidney disease"], ["metformin", "use with caution in", "liver disease"], ["metformin", "has serious side effect", "lactic acidosis"], ["metformin", "should be avoided with", "alcohol"]]
+Relations: ["contraindicated in", "use with caution in", "has serious side effect", "should be avoided with"]
+Answer:
+contraindicated in: The subject drug should not be used by patients who have the condition specified by the object entity.
+use with caution in: The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.
+has serious side effect: The subject drug may cause the serious or dangerous adverse effect specified by the object entity.
+should be avoided with: Patients taking the subject drug should avoid the substance or activity specified by the object entity.
+
+Example 3:
+Text: Amlodipine is available as oral tablets in strengths of 2.5 mg, 5 mg, and 10 mg. Overdose symptoms may include rapid heartbeats and fainting. Norvasc is made by Pfizer.
+Triples: [["amlodipine", "has dosage form", "oral tablet"], ["amlodipine", "has strength", "2.5 mg"], ["amlodipine", "has overdose symptom", "fainting"], ["Norvasc", "manufactured by", "Pfizer"]]
+Relations: ["has dosage form", "has strength", "has overdose symptom", "manufactured by"]
+Answer:
+has dosage form: The subject drug is available in the pharmaceutical dosage form specified by the object entity.
+has strength: The subject drug is available in the dose strength specified by the object entity.
+has overdose symptom: An overdose of the subject drug may cause the symptom specified by the object entity.
+manufactured by: The subject drug is manufactured or marketed by the company specified by the object entity.

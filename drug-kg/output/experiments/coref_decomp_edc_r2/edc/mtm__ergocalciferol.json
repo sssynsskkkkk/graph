@@ -1,0 +1,3821 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "mtm__ergocalciferol#what-is-ergocalciferol#0",
+     "section_id": "what-is-ergocalciferol",
+     "section_heading": "What is ergocalciferol?",
+     "text": "Ergocalciferol is vitamin D2.\nVitamin D helps your body absorb calcium.\nErgocalciferol is used to treat hypoparathyroidism (decreased functioning of the parathyroid glands).\nErgocalciferol is also used to treat rickets.\nRickets is the softening of the bones caused by vitamin D deficiency.\nErgocalciferol is also used to treat low levels of phosphate in the blood.\nLow levels of phosphate in the blood are known as hypophosphatemia.\nErgocalciferol may also be used for purposes not listed in this medication guide.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Ergocalciferol\", \"is\", \"vitamin D2\"], [\"Vitamin D\", \"helps body absorb\", \"calcium\"], [\"Ergocalciferol\", \"treats\", \"hypoparathyroidism\"], [\"Ergocalciferol\", \"treats\", \"rickets\"], [\"Rickets\", \"is\", \"softening of the bones caused by vitamin D deficiency\"], [\"Ergocalciferol\", \"treats\", \"hypophosphatemia\"], [\"Hypophosphatemia\", \"is\", \"low levels of phosphate in the blood\"], [\"Ergocalciferol\", \"may be used for\", \"purposes not listed in this medication guide\"]]",
+     "oie": [
+      [
+       "Ergocalciferol",
+       "is",
+       "vitamin D2"
+      ],
+      [
+       "Vitamin D",
+       "helps body absorb",
+       "calcium"
+      ],
+      [
+       "Ergocalciferol",
+       "treats",
+       "hypoparathyroidism"
+      ],
+      [
+       "Ergocalciferol",
+       "treats",
+       "rickets"
+      ],
+      [
+       "Rickets",
+       "is",
+       "softening of the bones caused by vitamin D deficiency"
+      ],
+      [
+       "Ergocalciferol",
+       "treats",
+       "hypophosphatemia"
+      ],
+      [
+       "Hypophosphatemia",
+       "is",
+       "low levels of phosphate in the blood"
+      ],
+      [
+       "Ergocalciferol",
+       "may be used for",
+       "purposes not listed in this medication guide"
+      ]
+     ],
+     "schema_definition": {
+      "helps body absorb": "The subject entity aids the body in absorbing the substance specified by the object entity.",
+      "is": "The subject entity is identical to or synonymous with the object entity.",
+      "may be used for": "The subject entity can be used for the purposes or conditions specified by the object entity.",
+      "treats": "The subject drug is used to treat or manage the medical condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "is",
+        "vitamin D2"
+       ],
+       "raw_relation": "is",
+       "definition": "The subject entity is identical to or synonymous with the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Vitamin D",
+        "has effect",
+        "calcium"
+       ],
+       "raw_relation": "helps body absorb",
+       "definition": "The subject entity aids the body in absorbing the substance specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "can build up in",
+         0.8541
+        ],
+        [
+         "can be administered by",
+         0.8339
+        ],
+        [
+         "has benefit",
+         0.8306
+        ],
+        [
+         "has effect",
+         0.8205
+        ],
+        [
+         "reduced absorption by",
+         0.8189
+        ]
+       ],
+       "answer": "D. 'has effect"
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "treats",
+        "hypoparathyroidism"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "treats",
+        "rickets"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Rickets",
+        "is",
+        "softening of the bones caused by vitamin D deficiency"
+       ],
+       "raw_relation": "is",
+       "definition": "The subject entity is identical to or synonymous with the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "treats",
+        "hypophosphatemia"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Hypophosphatemia",
+        "is",
+        "low levels of phosphate in the blood"
+       ],
+       "raw_relation": "is",
+       "definition": "The subject entity is identical to or synonymous with the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "may be used for",
+        "purposes not listed in this medication guide"
+       ],
+       "raw_relation": "may be used for",
+       "definition": "The subject entity can be used for the purposes or conditions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+     "section_id": "ergocalciferol-side-effects",
+     "section_heading": "Ergocalciferol side effects",
+     "text": "Get emergency medical help if you have signs of an allergic reaction: hives; difficult breathing; swelling of your face, lips, tongue, or throat.\nStop taking ergocalciferol and call your doctor at once if you have:\nchest pain, feeling short of breath;\ngrowth problems (in a child taking ergocalciferol); or\nearly signs of vitamin D overdose --weakness, metallic taste in your mouth, weight loss, muscle or bone pain, constipation, nausea, and vomiting.\nLess serious side effects may be more likely.\nYou may have none at all.\nThis is not a complete list of side effects and others may occur.\nCall your doctor for medical advice about side effects.\nYou may report side effects to FDA at 1-800-FDA-1088.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Ergocalciferol\", \"has serious side effect\", \"allergic reaction\"], [\"Ergocalciferol\", \"has serious side effect\", \"hives\"], [\"Ergocalciferol\", \"has serious side effect\", \"difficulty breathing\"], [\"Ergocalciferol\", \"has serious side effect\", \"swelling of face\"], [\"Ergocalciferol\", \"has serious side effect\", \"swelling of lips\"], [\"Ergocalciferol\", \"has serious side effect\", \"swelling of tongue\"], [\"Ergocalciferol\", \"has serious side effect\", \"swelling of throat\"], [\"Ergocalciferol\", \"has serious side effect\", \"chest pain\"], [\"Ergocalciferol\", \"has serious side effect\", \"feeling short of breath\"], [\"Ergocalciferol\", \"has serious side effect\", \"growth problems in children\"], [\"Ergocalciferol\", \"has serious side effect\", \"weakness\"], [\"Ergocalciferol\", \"has serious side effect\", \"metallic taste in mouth\"], [\"Ergocalciferol\", \"has serious side effect\", \"weight loss\"], [\"Ergocalciferol\", \"has serious side effect\", \"muscle or bone pain\"], [\"Ergocalciferol\", \"has serious side effect\", \"constipation\"], [\"Ergocalciferol\", \"has serious side effect\", \"nausea\"], [\"Ergocalciferol\", \"has serious side effect\", \"vomiting\"], [\"Ergocalciferol\", \"has administration instruction\", \"stop taking and call doctor at once if symptoms occur\"], [\"Ergocalciferol\", \"has administration instruction\", \"call doctor for medical advice about side effects\"], [\"Ergocalciferol\", \"has administration instruction\", \"report side effects to FDA at 1-800-FDA-1088\"]]",
+     "oie": [
+      [
+       "Ergocalciferol",
+       "has serious side effect",
+       "allergic reaction"
+      ],
+      [
+       "Ergocalciferol",
+       "has serious side effect",
+       "hives"
+      ],
+      [
+       "Ergocalciferol",
+       "has serious side effect",
+       "difficulty breathing"
+      ],
+      [
+       "Ergocalciferol",
+       "has serious side effect",
+       "swelling of face"
+      ],
+      [
+       "Ergocalciferol",
+       "has serious side effect",
+       "swelling of lips"
+      ],
+      [
+       "Ergocalciferol",
+       "has serious side effect",
+       "swelling of tongue"
+      ],
+      [
+       "Ergocalciferol",
+       "has serious side effect",
+       "swelling of throat"
+      ],
+      [
+       "Ergocalciferol",
+       "has serious side effect",
+       "chest pain"
+      ],
+      [
+       "Ergocalciferol",
+       "has serious side effect",
+       "feeling short of breath"
+      ],
+      [
+       "Ergocalciferol",
+       "has serious side effect",
+       "growth problems in children"
+      ],
+      [
+       "Ergocalciferol",
+       "has serious side effect",
+       "weakness"
+      ],
+      [
+       "Ergocalciferol",
+       "has serious side effect",
+       "metallic taste in mouth"
+      ],
+      [
+       "Ergocalciferol",
+       "has serious side effect",
+       "weight loss"
+      ],
+      [
+       "Ergocalciferol",
+       "has serious side effect",
+       "muscle or bone pain"
+      ],
+      [
+       "Ergocalciferol",
+       "has serious side effect",
+       "constipation"
+      ],
+      [
+       "Ergocalciferol",
+       "has serious side effect",
+       "nausea"
+      ],
+      [
+       "Ergocalciferol",
+       "has serious side effect",
+       "vomiting"
+      ],
+      [
+       "Ergocalciferol",
+       "has administration instruction",
+       "stop taking and call doctor at once if symptoms occur"
+      ],
+      [
+       "Ergocalciferol",
+       "has administration instruction",
+       "call doctor for medical advice about side effects"
+      ],
+      [
+       "Ergocalciferol",
+       "has administration instruction",
+       "report side effects to FDA at 1-800-FDA-1088"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the specific action or instruction specified by the object entity to be followed by the patient or healthcare provider.",
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has serious side effect",
+        "hives"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has serious side effect",
+        "difficulty breathing"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has serious side effect",
+        "swelling of face"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has serious side effect",
+        "swelling of lips"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has serious side effect",
+        "swelling of tongue"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has serious side effect",
+        "swelling of throat"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has serious side effect",
+        "chest pain"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has serious side effect",
+        "feeling short of breath"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has serious side effect",
+        "growth problems in children"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has serious side effect",
+        "weakness"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has serious side effect",
+        "metallic taste in mouth"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has serious side effect",
+        "weight loss"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has serious side effect",
+        "muscle or bone pain"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has serious side effect",
+        "constipation"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has serious side effect",
+        "nausea"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has serious side effect",
+        "vomiting"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has administration instruction",
+        "stop taking and call doctor at once if symptoms occur"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or instruction specified by the object entity to be followed by the patient or healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has administration instruction",
+        "call doctor for medical advice about side effects"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or instruction specified by the object entity to be followed by the patient or healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has administration instruction",
+        "report side effects to FDA at 1-800-FDA-1088"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or instruction specified by the object entity to be followed by the patient or healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "mtm__ergocalciferol#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "You should not take ergocalciferol if you have had an allergic reaction to vitamin D.\nYou should not take ergocalciferol if you have high levels of calcium in your body.\nYou should not take ergocalciferol if you have high levels of vitamin D in your body.\nYou should not take ergocalciferol if you have a condition that makes it hard for your body to absorb nutrients from food.\nMalabsorption is a condition that makes it hard for your body to absorb nutrients from food.\nUse only the recommended dose of ergocalciferol.\nAn overdose could cause serious or life-threatening side effects.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"ergocalciferol\", \"contraindicated in\", \"allergic reaction to vitamin D\"], [\"ergocalciferol\", \"contraindicated in\", \"high calcium levels\"], [\"ergocalciferol\", \"contraindicated in\", \"high vitamin D levels\"], [\"ergocalciferol\", \"contraindicated in\", \"malabsorption\"], [\"malabsorption\", \"defined as\", \"condition that makes it hard for your body to absorb nutrients from food\"], [\"ergocalciferol\", \"has recommended dose\", \"recommended dose\"], [\"ergocalciferol\", \"has serious side effect\", \"overdose\"]]",
+     "oie": [
+      [
+       "ergocalciferol",
+       "contraindicated in",
+       "allergic reaction to vitamin D"
+      ],
+      [
+       "ergocalciferol",
+       "contraindicated in",
+       "high calcium levels"
+      ],
+      [
+       "ergocalciferol",
+       "contraindicated in",
+       "high vitamin D levels"
+      ],
+      [
+       "ergocalciferol",
+       "contraindicated in",
+       "malabsorption"
+      ],
+      [
+       "malabsorption",
+       "defined as",
+       "condition that makes it hard for your body to absorb nutrients from food"
+      ],
+      [
+       "ergocalciferol",
+       "has recommended dose",
+       "recommended dose"
+      ],
+      [
+       "ergocalciferol",
+       "has serious side effect",
+       "overdose"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "defined as": "The subject condition is defined or described by the object condition.",
+      "has recommended dose": "The subject drug has a specific recommended dose specified by the object entity.",
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "ergocalciferol",
+        "contraindicated in",
+        "allergic reaction to vitamin D"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "contraindicated in",
+        "high calcium levels"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "contraindicated in",
+        "high vitamin D levels"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "contraindicated in",
+        "malabsorption"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "malabsorption",
+        "is defined as",
+        "condition that makes it hard for your body to absorb nutrients from food"
+       ],
+       "raw_relation": "defined as",
+       "definition": "The subject condition is defined or described by the object condition.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "is defined as",
+         0.9047
+        ],
+        [
+         "is first sign of",
+         0.8827
+        ],
+        [
+         "can occur when",
+         0.8748
+        ],
+        [
+         "is different from",
+         0.8746
+        ],
+        [
+         "requires",
+         0.8718
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "has recommended dose",
+        "recommended dose"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug has a specific recommended dose specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "has serious side effect",
+        "overdose"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+     "section_id": "before-taking-this-medicine",
+     "section_heading": "Before taking this medicine",
+     "text": "You should not take ergocalciferol if you have had an allergic reaction to vitamin D, or if you have:\nhigh levels of vitamin D in your body (hypervitaminosis D);\nhigh levels of calcium in your blood (hypercalcemia); or\nany condition that makes it hard for your body to absorb nutrients from food (malabsorption).\nTell your doctor if you have ever had:\nheart disease;\nkidney disease; or\nan electrolyte imbalance.\nCertain forms of ergocalciferol may contain ingredients you should know about.\nThese ingredients include peanut or soybean oil, sugar, aspartame (phenylalanine), or certain food dyes.\nAsk a doctor before using ergocalciferol if you have allergies, diabetes, or phenylketonuria (PKU).\nToo much vitamin D could harm an unborn baby.\nYour dose needs may be different during pregnancy.\nTell your doctor if you are pregnant or if you become pregnant while taking ergocalciferol.\nErgocalciferol can pass into breast milk.\nIt may cause side effects in the nursing baby.\nTell your doctor if you are breast-feeding.\nDo not give ergocalciferol to a child without medical advice.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Ergocalciferol\", \"contraindicated in\", \"allergic reaction to vitamin D\"], [\"Ergocalciferol\", \"contraindicated in\", \"hypervitaminosis D\"], [\"Ergocalciferol\", \"contraindicated in\", \"hypercalcemia\"], [\"Ergocalciferol\", \"contraindicated in\", \"malabsorption\"], [\"Ergocalciferol\", \"use with caution in\", \"heart disease\"], [\"Ergocalciferol\", \"use with caution in\", \"kidney disease\"], [\"Ergocalciferol\", \"use with caution in\", \"electrolyte imbalance\"], [\"Ergocalciferol\", \"has ingredient\", \"peanut or soybean oil\"], [\"Ergocalciferol\", \"has ingredient\", \"sugar\"], [\"Ergocalciferol\", \"has ingredient\", \"aspartame (phenylalanine)\"], [\"Ergocalciferol\", \"has ingredient\", \"certain food dyes\"], [\"Ergocalciferol\", \"use with caution in\", \"allergies\"], [\"Ergocalciferol\", \"use with caution in\", \"diabetes\"], [\"Ergocalciferol\", \"use with caution in\", \"phenylketonuria (PKU)\"], [\"Ergocalciferol\", \"has pregnancy or breastfeeding warning\", \"could harm an unborn baby\"], [\"Ergocalciferol\", \"has pregnancy or breastfeeding warning\", \"dose needs may be different during pregnancy\"], [\"Ergocalciferol\", \"has pregnancy or breastfeeding warning\", \"should inform doctor if pregnant\"], [\"Ergocalciferol\", \"has pregnancy or breastfeeding warning\", \"can pass into breast milk\"], [\"Ergocalciferol\", \"has pregnancy or breastfeeding warning\", \"may cause side effects in nursing baby\"], [\"Ergocalciferol\", \"has pregnancy or breastfeeding warning\", \"should inform doctor if breast-feeding\"], [\"Ergocalciferol\", \"has administration instruction\", \"do not give to a child without medical advice\"]]",
+     "oie": [
+      [
+       "Ergocalciferol",
+       "contraindicated in",
+       "allergic reaction to vitamin D"
+      ],
+      [
+       "Ergocalciferol",
+       "contraindicated in",
+       "hypervitaminosis D"
+      ],
+      [
+       "Ergocalciferol",
+       "contraindicated in",
+       "hypercalcemia"
+      ],
+      [
+       "Ergocalciferol",
+       "contraindicated in",
+       "malabsorption"
+      ],
+      [
+       "Ergocalciferol",
+       "use with caution in",
+       "heart disease"
+      ],
+      [
+       "Ergocalciferol",
+       "use with caution in",
+       "kidney disease"
+      ],
+      [
+       "Ergocalciferol",
+       "use with caution in",
+       "electrolyte imbalance"
+      ],
+      [
+       "Ergocalciferol",
+       "has ingredient",
+       "peanut or soybean oil"
+      ],
+      [
+       "Ergocalciferol",
+       "has ingredient",
+       "sugar"
+      ],
+      [
+       "Ergocalciferol",
+       "has ingredient",
+       "aspartame (phenylalanine)"
+      ],
+      [
+       "Ergocalciferol",
+       "has ingredient",
+       "certain food dyes"
+      ],
+      [
+       "Ergocalciferol",
+       "use with caution in",
+       "allergies"
+      ],
+      [
+       "Ergocalciferol",
+       "use with caution in",
+       "diabetes"
+      ],
+      [
+       "Ergocalciferol",
+       "use with caution in",
+       "phenylketonuria (PKU)"
+      ],
+      [
+       "Ergocalciferol",
+       "has pregnancy or breastfeeding warning",
+       "could harm an unborn baby"
+      ],
+      [
+       "Ergocalciferol",
+       "has pregnancy or breastfeeding warning",
+       "dose needs may be different during pregnancy"
+      ],
+      [
+       "Ergocalciferol",
+       "has pregnancy or breastfeeding warning",
+       "should inform doctor if pregnant"
+      ],
+      [
+       "Ergocalciferol",
+       "has pregnancy or breastfeeding warning",
+       "can pass into breast milk"
+      ],
+      [
+       "Ergocalciferol",
+       "has pregnancy or breastfeeding warning",
+       "may cause side effects in nursing baby"
+      ],
+      [
+       "Ergocalciferol",
+       "has pregnancy or breastfeeding warning",
+       "should inform doctor if breast-feeding"
+      ],
+      [
+       "Ergocalciferol",
+       "has administration instruction",
+       "do not give to a child without medical advice"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "has administration instruction": "The subject drug should be administered according to the specific instruction specified by the object entity.",
+      "has ingredient": "The subject drug contains the ingredient specified by the object entity.",
+      "has pregnancy or breastfeeding warning": "The subject drug has a specific warning or precaution related to pregnancy or breastfeeding as specified by the object entity.",
+      "use with caution in": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "contraindicated in",
+        "allergic reaction to vitamin D"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "contraindicated in",
+        "hypervitaminosis D"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "contraindicated in",
+        "hypercalcemia"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "contraindicated in",
+        "malabsorption"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "use with caution in",
+        "heart disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "use with caution in",
+        "kidney disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "use with caution in",
+        "electrolyte imbalance"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "contains ingredient",
+        "peanut or soybean oil"
+       ],
+       "raw_relation": "has ingredient",
+       "definition": "The subject drug contains the ingredient specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contains ingredient",
+         0.9501
+        ],
+        [
+         "may be used for",
+         0.9144
+        ],
+        [
+         "releases medicine",
+         0.9023
+        ],
+        [
+         "has dosage form",
+         0.9
+        ],
+        [
+         "is salt form of",
+         0.8986
+        ]
+       ],
+       "answer": "A. 'contains ingredient"
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "contains ingredient",
+        "sugar"
+       ],
+       "raw_relation": "has ingredient",
+       "definition": "The subject drug contains the ingredient specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contains ingredient",
+         0.9501
+        ],
+        [
+         "may be used for",
+         0.9144
+        ],
+        [
+         "releases medicine",
+         0.9023
+        ],
+        [
+         "has dosage form",
+         0.9
+        ],
+        [
+         "is salt form of",
+         0.8986
+        ]
+       ],
+       "answer": "A. 'contains ingredient"
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "contains ingredient",
+        "aspartame (phenylalanine)"
+       ],
+       "raw_relation": "has ingredient",
+       "definition": "The subject drug contains the ingredient specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contains ingredient",
+         0.9501
+        ],
+        [
+         "may be used for",
+         0.9144
+        ],
+        [
+         "releases medicine",
+         0.9023
+        ],
+        [
+         "has dosage form",
+         0.9
+        ],
+        [
+         "is salt form of",
+         0.8986
+        ]
+       ],
+       "answer": "A. 'contains ingredient"
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "contains ingredient",
+        "certain food dyes"
+       ],
+       "raw_relation": "has ingredient",
+       "definition": "The subject drug contains the ingredient specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contains ingredient",
+         0.9501
+        ],
+        [
+         "may be used for",
+         0.9144
+        ],
+        [
+         "releases medicine",
+         0.9023
+        ],
+        [
+         "has dosage form",
+         0.9
+        ],
+        [
+         "is salt form of",
+         0.8986
+        ]
+       ],
+       "answer": "A. 'contains ingredient"
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "use with caution in",
+        "allergies"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "use with caution in",
+        "diabetes"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "use with caution in",
+        "phenylketonuria (PKU)"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has pregnancy or breastfeeding warning",
+        "could harm an unborn baby"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug has a specific warning or precaution related to pregnancy or breastfeeding as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has pregnancy or breastfeeding warning",
+        "dose needs may be different during pregnancy"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug has a specific warning or precaution related to pregnancy or breastfeeding as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has pregnancy or breastfeeding warning",
+        "should inform doctor if pregnant"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug has a specific warning or precaution related to pregnancy or breastfeeding as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has pregnancy or breastfeeding warning",
+        "can pass into breast milk"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug has a specific warning or precaution related to pregnancy or breastfeeding as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has pregnancy or breastfeeding warning",
+        "may cause side effects in nursing baby"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug has a specific warning or precaution related to pregnancy or breastfeeding as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has pregnancy or breastfeeding warning",
+        "should inform doctor if breast-feeding"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug has a specific warning or precaution related to pregnancy or breastfeeding as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has administration instruction",
+        "do not give to a child without medical advice"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instruction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#1",
+     "section_id": "before-taking-this-medicine",
+     "section_heading": "Before taking this medicine",
+     "text": "Your child's dose will depend on age, weight, diet, and other factors.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Ergocalciferol\", \"has recommended dose\", \"depends on age, weight, diet, and other factors\"]]",
+     "oie": [
+      [
+       "Ergocalciferol",
+       "has recommended dose",
+       "depends on age, weight, diet, and other factors"
+      ]
+     ],
+     "schema_definition": {
+      "has recommended dose": "The subject drug's recommended dose is determined by the factors specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has recommended dose",
+        "depends on age, weight, diet, and other factors"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug's recommended dose is determined by the factors specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#0",
+     "section_id": "how-should-i-take-ergocalciferol",
+     "section_heading": "How should I take ergocalciferol?",
+     "text": "Follow all directions on your prescription label and read all medication guides or instruction sheets.\nUse only the recommended dose of ergocalciferol.\nIt may be best to take ergocalciferol after a meal.\nYou may take ergocalciferol with or without food.\nMeasure liquid medicine carefully.\nUse the dosing syringe provided, or use a medicine dose-measuring device (not a kitchen spoon).\nYou will need frequent medical tests.\nYour doctor may begin to reduce your ergocalciferol dose as your condition improves.\nCarefully follow all instructions about adjusting your dose.\nIn some cases, there may be a very small difference in amount.\nThe difference is between safe and dangerous doses.\nThe doses are of ergocalciferol.\nYour doctor will determine how long to treat you with this medicine.\nErgocalciferol may be only part of a complete program of treatment that also includes dietary changes and taking calcium and vitamin supplements.\nFollow your doctor's instructions very closely.\nLearn about the foods you should eat to make sure you get enough calcium and vitamin D in your diet.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"ergocalciferol\", \"has administration instruction\", \"follow all directions on prescription label\"], [\"ergocalciferol\", \"has administration instruction\", \"read all medication guides or instruction sheets\"], [\"ergocalciferol\", \"has recommended dose\", \"recommended dose\"], [\"ergocalciferol\", \"has administration instruction\", \"take after a meal\"], [\"ergocalciferol\", \"has administration instruction\", \"take with or without food\"], [\"ergocalciferol\", \"has administration instruction\", \"measure liquid medicine carefully\"], [\"ergocalciferol\", \"has administration instruction\", \"use dosing syringe provided or medicine dose-measuring device\"], [\"ergocalciferol\", \"has administration instruction\", \"need frequent medical tests\"], [\"ergocalciferol\", \"has administration instruction\", \"doctor may reduce dose as condition improves\"], [\"ergocalciferol\", \"has administration instruction\", \"carefully follow instructions about adjusting dose\"], [\"ergocalciferol\", \"has administration instruction\", \"there may be very small difference in amount\"], [\"ergocalciferol\", \"has administration instruction\", \"difference is between safe and dangerous doses\"], [\"ergocalciferol\", \"has administration instruction\", \"doctor will determine how long to treat\"], [\"ergocalciferol\", \"part of treatment program\", \"dietary changes\"], [\"ergocalciferol\", \"part of treatment program\", \"taking calcium and vitamin supplements\"], [\"ergocalciferol\", \"has administration instruction\", \"follow doctor's instructions very closely\"], [\"ergocalciferol\", \"has administration instruction\", \"learn about foods to eat for enough calcium and vitamin D in diet\"]]",
+     "oie": [
+      [
+       "ergocalciferol",
+       "has administration instruction",
+       "follow all directions on prescription label"
+      ],
+      [
+       "ergocalciferol",
+       "has administration instruction",
+       "read all medication guides or instruction sheets"
+      ],
+      [
+       "ergocalciferol",
+       "has recommended dose",
+       "recommended dose"
+      ],
+      [
+       "ergocalciferol",
+       "has administration instruction",
+       "take after a meal"
+      ],
+      [
+       "ergocalciferol",
+       "has administration instruction",
+       "take with or without food"
+      ],
+      [
+       "ergocalciferol",
+       "has administration instruction",
+       "measure liquid medicine carefully"
+      ],
+      [
+       "ergocalciferol",
+       "has administration instruction",
+       "use dosing syringe provided or medicine dose-measuring device"
+      ],
+      [
+       "ergocalciferol",
+       "has administration instruction",
+       "need frequent medical tests"
+      ],
+      [
+       "ergocalciferol",
+       "has administration instruction",
+       "doctor may reduce dose as condition improves"
+      ],
+      [
+       "ergocalciferol",
+       "has administration instruction",
+       "carefully follow instructions about adjusting dose"
+      ],
+      [
+       "ergocalciferol",
+       "has administration instruction",
+       "there may be very small difference in amount"
+      ],
+      [
+       "ergocalciferol",
+       "has administration instruction",
+       "difference is between safe and dangerous doses"
+      ],
+      [
+       "ergocalciferol",
+       "has administration instruction",
+       "doctor will determine how long to treat"
+      ],
+      [
+       "ergocalciferol",
+       "part of treatment program",
+       "dietary changes"
+      ],
+      [
+       "ergocalciferol",
+       "part of treatment program",
+       "taking calcium and vitamin supplements"
+      ],
+      [
+       "ergocalciferol",
+       "has administration instruction",
+       "follow doctor's instructions very closely"
+      ],
+      [
+       "ergocalciferol",
+       "has administration instruction",
+       "learn about foods to eat for enough calcium and vitamin D in diet"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the administration or usage method specified by the object entity.",
+      "has recommended dose": "The subject drug has a specific dose amount that is recommended for use.",
+      "part of treatment program": "The subject drug is a component of the comprehensive treatment program that includes the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "ergocalciferol",
+        "has administration instruction",
+        "follow all directions on prescription label"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "has administration instruction",
+        "read all medication guides or instruction sheets"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "has recommended dose",
+        "recommended dose"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug has a specific dose amount that is recommended for use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "has administration instruction",
+        "take after a meal"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "has administration instruction",
+        "take with or without food"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "has administration instruction",
+        "measure liquid medicine carefully"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "has administration instruction",
+        "use dosing syringe provided or medicine dose-measuring device"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "has administration instruction",
+        "need frequent medical tests"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "has administration instruction",
+        "doctor may reduce dose as condition improves"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "has administration instruction",
+        "carefully follow instructions about adjusting dose"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "has administration instruction",
+        "there may be very small difference in amount"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "has administration instruction",
+        "difference is between safe and dangerous doses"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "has administration instruction",
+        "doctor will determine how long to treat"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "is part of",
+        "dietary changes"
+       ],
+       "raw_relation": "part of treatment program",
+       "definition": "The subject drug is a component of the comprehensive treatment program that includes the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "is part of",
+         0.9163
+        ],
+        [
+         "has related treatment guide",
+         0.8765
+        ],
+        [
+         "applies to patients who are to be managed with",
+         0.8758
+        ],
+        [
+         "used after",
+         0.8741
+        ],
+        [
+         "belongs to drug class",
+         0.8678
+        ]
+       ],
+       "answer": "A. 'is part"
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "is part of",
+        "taking calcium and vitamin supplements"
+       ],
+       "raw_relation": "part of treatment program",
+       "definition": "The subject drug is a component of the comprehensive treatment program that includes the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "is part of",
+         0.9163
+        ],
+        [
+         "has related treatment guide",
+         0.8765
+        ],
+        [
+         "applies to patients who are to be managed with",
+         0.8758
+        ],
+        [
+         "used after",
+         0.8741
+        ],
+        [
+         "belongs to drug class",
+         0.8678
+        ]
+       ],
+       "answer": "A. 'is part"
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "has administration instruction",
+        "follow doctor's instructions very closely"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ergocalciferol",
+        "has administration instruction",
+        "learn about foods to eat for enough calcium and vitamin D in diet"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#1",
+     "section_id": "how-should-i-take-ergocalciferol",
+     "section_heading": "How should I take ergocalciferol?",
+     "text": "Your ergocalciferol dose may need to be adjusted as you make changes to your diet.\nStore at room temperature away from moisture, heat, and light.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Ergocalciferol\", \"has administration instruction\", \"dose may need to be adjusted as diet changes\"], [\"Ergocalciferol\", \"has storage instruction\", \"store at room temperature away from moisture, heat, and light\"]]",
+     "oie": [
+      [
+       "Ergocalciferol",
+       "has administration instruction",
+       "dose may need to be adjusted as diet changes"
+      ],
+      [
+       "Ergocalciferol",
+       "has storage instruction",
+       "store at room temperature away from moisture, heat, and light"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the administration instruction specified by the object entity to be followed by the patient.",
+      "has storage instruction": "The subject drug requires the storage condition specified by the object entity to be followed to maintain its efficacy and safety."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has administration instruction",
+        "dose may need to be adjusted as diet changes"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has storage instruction",
+        "store at room temperature away from moisture, heat, and light"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug requires the storage condition specified by the object entity to be followed to maintain its efficacy and safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "mtm__ergocalciferol#what-happens-if-i-miss-a-dose#0",
+     "section_id": "what-happens-if-i-miss-a-dose",
+     "section_heading": "What happens if I miss a dose?",
+     "text": "Take the medicine as soon as you can.\nSkip the missed dose if it is almost time for your next dose.\nDo not take two doses at one time.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Ergocalciferol\", \"has missed dose instruction\", \"take the medicine as soon as you can\"], [\"Ergocalciferol\", \"has missed dose instruction\", \"skip the missed dose if it is almost time for your next dose\"], [\"Ergocalciferol\", \"has administration instruction\", \"do not take two doses at one time\"]]",
+     "oie": [
+      [
+       "Ergocalciferol",
+       "has missed dose instruction",
+       "take the medicine as soon as you can"
+      ],
+      [
+       "Ergocalciferol",
+       "has missed dose instruction",
+       "skip the missed dose if it is almost time for your next dose"
+      ],
+      [
+       "Ergocalciferol",
+       "has administration instruction",
+       "do not take two doses at one time"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug is associated with the specific instruction regarding its administration provided by the object entity.",
+      "has missed dose instruction": "The subject drug is associated with the specific instruction to be followed if a dose is missed, as specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has missed dose instruction",
+        "take the medicine as soon as you can"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug is associated with the specific instruction to be followed if a dose is missed, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has missed dose instruction",
+        "skip the missed dose if it is almost time for your next dose"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug is associated with the specific instruction to be followed if a dose is missed, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has administration instruction",
+        "do not take two doses at one time"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug is associated with the specific instruction regarding its administration provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "mtm__ergocalciferol#what-happens-if-i-overdose#0",
+     "section_id": "what-happens-if-i-overdose",
+     "section_heading": "What happens if I overdose?",
+     "text": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.\nAn overdose of vitamin D can cause serious or life-threatening side effects.\nOverdose symptoms may include nausea.\nOverdose symptoms may include loss of appetite.\nOverdose symptoms may include thirst.\nOverdose symptoms may include urinating more or less than usual.\nOverdose symptoms may include body aches.\nOverdose symptoms may include stiffness.\nOverdose symptoms may include confusion.\nOverdose symptoms may include irregular heartbeats.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Ergocalciferol\", \"has overdose instruction\", \"seek emergency medical attention\"], [\"Ergocalciferol\", \"has overdose instruction\", \"call Poison Help line at 1-800-222-1222\"], [\"Ergocalciferol\", \"has overdose symptom\", \"nausea\"], [\"Ergocalciferol\", \"has overdose symptom\", \"loss of appetite\"], [\"Ergocalciferol\", \"has overdose symptom\", \"thirst\"], [\"Ergocalciferol\", \"has overdose symptom\", \"urinating more or less than usual\"], [\"Ergocalciferol\", \"has overdose symptom\", \"body aches\"], [\"Ergocalciferol\", \"has overdose symptom\", \"stiffness\"], [\"Ergocalciferol\", \"has overdose symptom\", \"confusion\"], [\"Ergocalciferol\", \"has overdose symptom\", \"irregular heartbeats\"]]",
+     "oie": [
+      [
+       "Ergocalciferol",
+       "has overdose instruction",
+       "seek emergency medical attention"
+      ],
+      [
+       "Ergocalciferol",
+       "has overdose instruction",
+       "call Poison Help line at 1-800-222-1222"
+      ],
+      [
+       "Ergocalciferol",
+       "has overdose symptom",
+       "nausea"
+      ],
+      [
+       "Ergocalciferol",
+       "has overdose symptom",
+       "loss of appetite"
+      ],
+      [
+       "Ergocalciferol",
+       "has overdose symptom",
+       "thirst"
+      ],
+      [
+       "Ergocalciferol",
+       "has overdose symptom",
+       "urinating more or less than usual"
+      ],
+      [
+       "Ergocalciferol",
+       "has overdose symptom",
+       "body aches"
+      ],
+      [
+       "Ergocalciferol",
+       "has overdose symptom",
+       "stiffness"
+      ],
+      [
+       "Ergocalciferol",
+       "has overdose symptom",
+       "confusion"
+      ],
+      [
+       "Ergocalciferol",
+       "has overdose symptom",
+       "irregular heartbeats"
+      ]
+     ],
+     "schema_definition": {
+      "has overdose instruction": "The subject drug requires the action specified by the object entity to be taken in case of an overdose.",
+      "has overdose symptom": "An overdose of the subject drug may cause the symptom specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has overdose instruction",
+        "seek emergency medical attention"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity to be taken in case of an overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has overdose instruction",
+        "call Poison Help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity to be taken in case of an overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has overdose symptom",
+        "nausea"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has overdose symptom",
+        "loss of appetite"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has overdose symptom",
+        "thirst"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has overdose symptom",
+        "urinating more or less than usual"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has overdose symptom",
+        "body aches"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has overdose symptom",
+        "stiffness"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has overdose symptom",
+        "confusion"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has overdose symptom",
+        "irregular heartbeats"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "mtm__ergocalciferol#what-should-i-avoid-while-taking-ergocalciferol#0",
+     "section_id": "what-should-i-avoid-while-taking-ergocalciferol",
+     "section_heading": "What should I avoid while taking ergocalciferol?",
+     "text": "Ask a doctor or pharmacist before taking any multivitamins, mineral supplements, or antacids while you are taking ergocalciferol.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Ergocalciferol\", \"should be avoided with\", \"multivitamins\"], [\"Ergocalciferol\", \"should be avoided with\", \"mineral supplements\"], [\"Ergocalciferol\", \"should be avoided with\", \"antacids\"], [\"Ergocalciferol\", \"has administration instruction\", \"consult a doctor or pharmacist before taking multivitamins, mineral supplements, or antacids\"]]",
+     "oie": [
+      [
+       "Ergocalciferol",
+       "should be avoided with",
+       "multivitamins"
+      ],
+      [
+       "Ergocalciferol",
+       "should be avoided with",
+       "mineral supplements"
+      ],
+      [
+       "Ergocalciferol",
+       "should be avoided with",
+       "antacids"
+      ],
+      [
+       "Ergocalciferol",
+       "has administration instruction",
+       "consult a doctor or pharmacist before taking multivitamins, mineral supplements, or antacids"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the administration instruction specified by the object entity to be followed by the patient.",
+      "should be avoided with": "The subject drug should not be taken concurrently with the substance or product specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "should be avoided with",
+        "multivitamins"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "The subject drug should not be taken concurrently with the substance or product specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "should be avoided with",
+        "mineral supplements"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "The subject drug should not be taken concurrently with the substance or product specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "should be avoided with",
+        "antacids"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "The subject drug should not be taken concurrently with the substance or product specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has administration instruction",
+        "consult a doctor or pharmacist before taking multivitamins, mineral supplements, or antacids"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+     "section_id": "what-other-drugs-will-affect-ergocalciferol",
+     "section_heading": "What other drugs will affect ergocalciferol?",
+     "text": "Certain medications can make it harder for your body to absorb vitamin D.\nIf you take other medications, take them at least 2 hours before or 2 hours after you take ergocalciferol.\nTell your doctor about all your other medicines, especially:\na diuretic or \"water pill\"; or\nmineral oil (sometimes taken as a laxative).\nThis list is not complete.\nOther drugs may affect ergocalciferol.\nThese other drugs include prescription and over-the-counter medicines.\nThese other drugs also include vitamins and herbal products.\nNot all possible drug interactions are listed here.\nCheck interactions\nCompare alternatives\nPricing & coupons\nReviews (34)\nDrug images\nSide effects\nDosage information\nDuring pregnancy\nDrug class: vitamins\nEn español\nPatient resources:\nOther brands:\nDrisdol, Calciferol, Calcidol\nProfessional resources:\nErgocalciferol monograph\nErgocalciferol (FDA)\nVitamin D Ergocalciferol (FDA)\nOther brands:\nDrisdol\nRelated treatment guides:\nHypoparathyroidism\nFamilial Hypophosphatemia\nHypophosphatemia\nHypocalcemia",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Ergocalciferol\", \"interacts with\", \"medications that affect vitamin D absorption\"], [\"Ergocalciferol\", \"has administration instruction\", \"take other medications at least 2 hours before or after\"], [\"Ergocalciferol\", \"has administration instruction\", \"tell doctor about all other medicines\"], [\"Ergocalciferol\", \"interacts with\", \"diuretic or water pill\"], [\"Ergocalciferol\", \"interacts with\", \"mineral oil\"], [\"Ergocalciferol\", \"has warning\", \"not all possible drug interactions are listed\"], [\"Ergocalciferol\", \"interacts with\", \"prescription medicines\"], [\"Ergocalciferol\", \"interacts with\", \"over-the-counter medicines\"], [\"Ergocalciferol\", \"interacts with\", \"vitamins\"], [\"Ergocalciferol\", \"interacts with\", \"herbal products\"], [\"Ergocalciferol\", \"has drug class\", \"vitamins\"], [\"Ergocalciferol\", \"has brand name\", \"Drisdol\"], [\"Ergocalciferol\", \"has brand name\", \"Calciferol\"], [\"Ergocalciferol\", \"has brand name\", \"Calcidol\"], [\"Ergocalciferol\", \"treats\", \"Hypoparathyroidism\"], [\"Ergocalciferol\", \"treats\", \"Familial Hypophosphatemia\"], [\"Ergocalciferol\", \"treats\", \"Hypophosphatemia\"], [\"Ergocalciferol\", \"treats\", \"Hypocalcemia\"], [\"Ergocalciferol\", \"has related resource\", \"Ergocalciferol monograph\"], [\"Ergocalciferol\", \"has related resource\", \"Ergocalciferol (FDA)\"], [\"Ergocalciferol\", \"has related resource\", \"Vitamin D Ergocalciferol (FDA)\"], [\"Ergocalciferol\", \"has related resource\", \"Drisdol\"], [\"Ergocalciferol\", \"has related treatment guide\", \"Hypoparathyroidism\"], [\"Ergocalciferol\", \"has related treatment guide\", \"Familial Hypophosphatemia\"], [\"Ergocalciferol\", \"has related treatment guide\", \"Hypophosphatemia\"], [\"Ergocalciferol\", \"has related treatment guide\", \"Hypocalcemia\"]]",
+     "oie": [
+      [
+       "Ergocalciferol",
+       "interacts with",
+       "medications that affect vitamin D absorption"
+      ],
+      [
+       "Ergocalciferol",
+       "has administration instruction",
+       "take other medications at least 2 hours before or after"
+      ],
+      [
+       "Ergocalciferol",
+       "has administration instruction",
+       "tell doctor about all other medicines"
+      ],
+      [
+       "Ergocalciferol",
+       "interacts with",
+       "diuretic or water pill"
+      ],
+      [
+       "Ergocalciferol",
+       "interacts with",
+       "mineral oil"
+      ],
+      [
+       "Ergocalciferol",
+       "has warning",
+       "not all possible drug interactions are listed"
+      ],
+      [
+       "Ergocalciferol",
+       "interacts with",
+       "prescription medicines"
+      ],
+      [
+       "Ergocalciferol",
+       "interacts with",
+       "over-the-counter medicines"
+      ],
+      [
+       "Ergocalciferol",
+       "interacts with",
+       "vitamins"
+      ],
+      [
+       "Ergocalciferol",
+       "interacts with",
+       "herbal products"
+      ],
+      [
+       "Ergocalciferol",
+       "has drug class",
+       "vitamins"
+      ],
+      [
+       "Ergocalciferol",
+       "has brand name",
+       "Drisdol"
+      ],
+      [
+       "Ergocalciferol",
+       "has brand name",
+       "Calciferol"
+      ],
+      [
+       "Ergocalciferol",
+       "has brand name",
+       "Calcidol"
+      ],
+      [
+       "Ergocalciferol",
+       "treats",
+       "Hypoparathyroidism"
+      ],
+      [
+       "Ergocalciferol",
+       "treats",
+       "Familial Hypophosphatemia"
+      ],
+      [
+       "Ergocalciferol",
+       "treats",
+       "Hypophosphatemia"
+      ],
+      [
+       "Ergocalciferol",
+       "treats",
+       "Hypocalcemia"
+      ],
+      [
+       "Ergocalciferol",
+       "has related resource",
+       "Ergocalciferol monograph"
+      ],
+      [
+       "Ergocalciferol",
+       "has related resource",
+       "Ergocalciferol (FDA)"
+      ],
+      [
+       "Ergocalciferol",
+       "has related resource",
+       "Vitamin D Ergocalciferol (FDA)"
+      ],
+      [
+       "Ergocalciferol",
+       "has related resource",
+       "Drisdol"
+      ],
+      [
+       "Ergocalciferol",
+       "has related treatment guide",
+       "Hypoparathyroidism"
+      ],
+      [
+       "Ergocalciferol",
+       "has related treatment guide",
+       "Familial Hypophosphatemia"
+      ],
+      [
+       "Ergocalciferol",
+       "has related treatment guide",
+       "Hypophosphatemia"
+      ],
+      [
+       "Ergocalciferol",
+       "has related treatment guide",
+       "Hypocalcemia"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the administration or usage instruction specified by the object entity.",
+      "has brand name": "The subject drug is marketed under the brand name specified by the object entity.",
+      "has drug class": "The subject drug is classified under the pharmacological category specified by the object entity.",
+      "has related resource": "The subject drug is associated with the resource or document specified by the object entity.",
+      "has related treatment guide": "The subject drug is associated with the treatment guide specified by the object entity.",
+      "has warning": "The subject drug has a warning or caution specified by the object entity.",
+      "interacts with": "The subject drug may have a pharmacological interaction with the substance or category specified by the object entity.",
+      "treats": "The subject drug is used to treat or manage the medical condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "interacts with",
+        "medications that affect vitamin D absorption"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has administration instruction",
+        "take other medications at least 2 hours before or after"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage instruction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has administration instruction",
+        "tell doctor about all other medicines"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage instruction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "interacts with",
+        "diuretic or water pill"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "interacts with",
+        "mineral oil"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has warning",
+        "not all possible drug interactions are listed"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a warning or caution specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "interacts with",
+        "prescription medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "interacts with",
+        "over-the-counter medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "interacts with",
+        "vitamins"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "interacts with",
+        "herbal products"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "belongs to drug class",
+        "vitamins"
+       ],
+       "raw_relation": "has drug class",
+       "definition": "The subject drug is classified under the pharmacological category specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "belongs to drug class",
+         0.9429
+        ],
+        [
+         "includes",
+         0.9057
+        ],
+        [
+         "has controlled substance schedule",
+         0.9009
+        ],
+        [
+         "has dosage form",
+         0.8735
+        ],
+        [
+         "related to",
+         0.8688
+        ]
+       ],
+       "answer": "A. 'belongs to"
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has brand name",
+        "Drisdol"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has brand name",
+        "Calciferol"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has brand name",
+        "Calcidol"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "treats",
+        "Hypoparathyroidism"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "treats",
+        "Familial Hypophosphatemia"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "treats",
+        "Hypophosphatemia"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "treats",
+        "Hypocalcemia"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has related treatment guide",
+        "Ergocalciferol monograph"
+       ],
+       "raw_relation": "has related resource",
+       "definition": "The subject drug is associated with the resource or document specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "related to",
+         0.8974
+        ],
+        [
+         "may be used for",
+         0.8915
+        ],
+        [
+         "similar to",
+         0.8904
+        ],
+        [
+         "has related treatment guide",
+         0.8867
+        ],
+        [
+         "now available as",
+         0.8776
+        ]
+       ],
+       "answer": "D. 'has related"
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has related treatment guide",
+        "Ergocalciferol (FDA)"
+       ],
+       "raw_relation": "has related resource",
+       "definition": "The subject drug is associated with the resource or document specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "related to",
+         0.8974
+        ],
+        [
+         "may be used for",
+         0.8915
+        ],
+        [
+         "similar to",
+         0.8904
+        ],
+        [
+         "has related treatment guide",
+         0.8867
+        ],
+        [
+         "now available as",
+         0.8776
+        ]
+       ],
+       "answer": "D. 'has related"
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has related treatment guide",
+        "Vitamin D Ergocalciferol (FDA)"
+       ],
+       "raw_relation": "has related resource",
+       "definition": "The subject drug is associated with the resource or document specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "related to",
+         0.8974
+        ],
+        [
+         "may be used for",
+         0.8915
+        ],
+        [
+         "similar to",
+         0.8904
+        ],
+        [
+         "has related treatment guide",
+         0.8867
+        ],
+        [
+         "now available as",
+         0.8776
+        ]
+       ],
+       "answer": "D. 'has related"
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "similar to",
+        "Drisdol"
+       ],
+       "raw_relation": "has related resource",
+       "definition": "The subject drug is associated with the resource or document specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "related to",
+         0.8974
+        ],
+        [
+         "may be used for",
+         0.8915
+        ],
+        [
+         "similar to",
+         0.8904
+        ],
+        [
+         "has related treatment guide",
+         0.8867
+        ],
+        [
+         "now available as",
+         0.8776
+        ]
+       ],
+       "answer": "C. 'similar to"
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has related treatment guide",
+        "Hypoparathyroidism"
+       ],
+       "raw_relation": "has related treatment guide",
+       "definition": "The subject drug is associated with the treatment guide specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has related treatment guide",
+        "Familial Hypophosphatemia"
+       ],
+       "raw_relation": "has related treatment guide",
+       "definition": "The subject drug is associated with the treatment guide specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has related treatment guide",
+        "Hypophosphatemia"
+       ],
+       "raw_relation": "has related treatment guide",
+       "definition": "The subject drug is associated with the treatment guide specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ergocalciferol",
+        "has related treatment guide",
+        "Hypocalcemia"
+       ],
+       "raw_relation": "has related treatment guide",
+       "definition": "The subject drug is associated with the treatment guide specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "mtm__ergocalciferol#what-is-ergocalciferol#0",
+   "section_id": "what-is-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "is",
+    "vitamin D2"
+   ],
+   "raw_relation": "is",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-is-ergocalciferol#0",
+   "section_id": "what-is-ergocalciferol",
+   "triplet": [
+    "Vitamin D",
+    "has effect",
+    "calcium"
+   ],
+   "raw_relation": "helps body absorb",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-is-ergocalciferol#0",
+   "section_id": "what-is-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "treats",
+    "hypoparathyroidism"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-is-ergocalciferol#0",
+   "section_id": "what-is-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "treats",
+    "rickets"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-is-ergocalciferol#0",
+   "section_id": "what-is-ergocalciferol",
+   "triplet": [
+    "Rickets",
+    "is",
+    "softening of the bones caused by vitamin D deficiency"
+   ],
+   "raw_relation": "is",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-is-ergocalciferol#0",
+   "section_id": "what-is-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "treats",
+    "hypophosphatemia"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-is-ergocalciferol#0",
+   "section_id": "what-is-ergocalciferol",
+   "triplet": [
+    "Hypophosphatemia",
+    "is",
+    "low levels of phosphate in the blood"
+   ],
+   "raw_relation": "is",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-is-ergocalciferol#0",
+   "section_id": "what-is-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "may be used for",
+    "purposes not listed in this medication guide"
+   ],
+   "raw_relation": "may be used for",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has serious side effect",
+    "hives"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has serious side effect",
+    "difficulty breathing"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has serious side effect",
+    "swelling of face"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has serious side effect",
+    "swelling of lips"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has serious side effect",
+    "swelling of tongue"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has serious side effect",
+    "swelling of throat"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has serious side effect",
+    "chest pain"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has serious side effect",
+    "feeling short of breath"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has serious side effect",
+    "growth problems in children"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has serious side effect",
+    "weakness"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has serious side effect",
+    "metallic taste in mouth"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has serious side effect",
+    "weight loss"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has serious side effect",
+    "muscle or bone pain"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has serious side effect",
+    "constipation"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has serious side effect",
+    "nausea"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has serious side effect",
+    "vomiting"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has administration instruction",
+    "stop taking and call doctor at once if symptoms occur"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has administration instruction",
+    "call doctor for medical advice about side effects"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#ergocalciferol-side-effects#0",
+   "section_id": "ergocalciferol-side-effects",
+   "triplet": [
+    "Ergocalciferol",
+    "has administration instruction",
+    "report side effects to FDA at 1-800-FDA-1088"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ergocalciferol",
+    "contraindicated in",
+    "allergic reaction to vitamin D"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ergocalciferol",
+    "contraindicated in",
+    "high calcium levels"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ergocalciferol",
+    "contraindicated in",
+    "high vitamin D levels"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ergocalciferol",
+    "contraindicated in",
+    "malabsorption"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "malabsorption",
+    "is defined as",
+    "condition that makes it hard for your body to absorb nutrients from food"
+   ],
+   "raw_relation": "defined as",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ergocalciferol",
+    "has recommended dose",
+    "recommended dose"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ergocalciferol",
+    "has serious side effect",
+    "overdose"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "contraindicated in",
+    "allergic reaction to vitamin D"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "contraindicated in",
+    "hypervitaminosis D"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "contraindicated in",
+    "hypercalcemia"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "contraindicated in",
+    "malabsorption"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "use with caution in",
+    "heart disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "use with caution in",
+    "kidney disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "use with caution in",
+    "electrolyte imbalance"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "contains ingredient",
+    "peanut or soybean oil"
+   ],
+   "raw_relation": "has ingredient",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "contains ingredient",
+    "sugar"
+   ],
+   "raw_relation": "has ingredient",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "contains ingredient",
+    "aspartame (phenylalanine)"
+   ],
+   "raw_relation": "has ingredient",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "contains ingredient",
+    "certain food dyes"
+   ],
+   "raw_relation": "has ingredient",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "use with caution in",
+    "allergies"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "use with caution in",
+    "diabetes"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "use with caution in",
+    "phenylketonuria (PKU)"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "has pregnancy or breastfeeding warning",
+    "could harm an unborn baby"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "has pregnancy or breastfeeding warning",
+    "dose needs may be different during pregnancy"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "has pregnancy or breastfeeding warning",
+    "should inform doctor if pregnant"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "has pregnancy or breastfeeding warning",
+    "can pass into breast milk"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "has pregnancy or breastfeeding warning",
+    "may cause side effects in nursing baby"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "has pregnancy or breastfeeding warning",
+    "should inform doctor if breast-feeding"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "has administration instruction",
+    "do not give to a child without medical advice"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#before-taking-this-medicine#1",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Ergocalciferol",
+    "has recommended dose",
+    "depends on age, weight, diet, and other factors"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#0",
+   "section_id": "how-should-i-take-ergocalciferol",
+   "triplet": [
+    "ergocalciferol",
+    "has administration instruction",
+    "follow all directions on prescription label"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#0",
+   "section_id": "how-should-i-take-ergocalciferol",
+   "triplet": [
+    "ergocalciferol",
+    "has administration instruction",
+    "read all medication guides or instruction sheets"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#0",
+   "section_id": "how-should-i-take-ergocalciferol",
+   "triplet": [
+    "ergocalciferol",
+    "has recommended dose",
+    "recommended dose"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#0",
+   "section_id": "how-should-i-take-ergocalciferol",
+   "triplet": [
+    "ergocalciferol",
+    "has administration instruction",
+    "take after a meal"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#0",
+   "section_id": "how-should-i-take-ergocalciferol",
+   "triplet": [
+    "ergocalciferol",
+    "has administration instruction",
+    "take with or without food"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#0",
+   "section_id": "how-should-i-take-ergocalciferol",
+   "triplet": [
+    "ergocalciferol",
+    "has administration instruction",
+    "measure liquid medicine carefully"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#0",
+   "section_id": "how-should-i-take-ergocalciferol",
+   "triplet": [
+    "ergocalciferol",
+    "has administration instruction",
+    "use dosing syringe provided or medicine dose-measuring device"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#0",
+   "section_id": "how-should-i-take-ergocalciferol",
+   "triplet": [
+    "ergocalciferol",
+    "has administration instruction",
+    "need frequent medical tests"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#0",
+   "section_id": "how-should-i-take-ergocalciferol",
+   "triplet": [
+    "ergocalciferol",
+    "has administration instruction",
+    "doctor may reduce dose as condition improves"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#0",
+   "section_id": "how-should-i-take-ergocalciferol",
+   "triplet": [
+    "ergocalciferol",
+    "has administration instruction",
+    "carefully follow instructions about adjusting dose"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#0",
+   "section_id": "how-should-i-take-ergocalciferol",
+   "triplet": [
+    "ergocalciferol",
+    "has administration instruction",
+    "there may be very small difference in amount"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#0",
+   "section_id": "how-should-i-take-ergocalciferol",
+   "triplet": [
+    "ergocalciferol",
+    "has administration instruction",
+    "difference is between safe and dangerous doses"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#0",
+   "section_id": "how-should-i-take-ergocalciferol",
+   "triplet": [
+    "ergocalciferol",
+    "has administration instruction",
+    "doctor will determine how long to treat"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#0",
+   "section_id": "how-should-i-take-ergocalciferol",
+   "triplet": [
+    "ergocalciferol",
+    "is part of",
+    "dietary changes"
+   ],
+   "raw_relation": "part of treatment program",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#0",
+   "section_id": "how-should-i-take-ergocalciferol",
+   "triplet": [
+    "ergocalciferol",
+    "is part of",
+    "taking calcium and vitamin supplements"
+   ],
+   "raw_relation": "part of treatment program",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#0",
+   "section_id": "how-should-i-take-ergocalciferol",
+   "triplet": [
+    "ergocalciferol",
+    "has administration instruction",
+    "follow doctor's instructions very closely"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#0",
+   "section_id": "how-should-i-take-ergocalciferol",
+   "triplet": [
+    "ergocalciferol",
+    "has administration instruction",
+    "learn about foods to eat for enough calcium and vitamin D in diet"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#1",
+   "section_id": "how-should-i-take-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "has administration instruction",
+    "dose may need to be adjusted as diet changes"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#how-should-i-take-ergocalciferol#1",
+   "section_id": "how-should-i-take-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "has storage instruction",
+    "store at room temperature away from moisture, heat, and light"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Ergocalciferol",
+    "has missed dose instruction",
+    "take the medicine as soon as you can"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Ergocalciferol",
+    "has missed dose instruction",
+    "skip the missed dose if it is almost time for your next dose"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Ergocalciferol",
+    "has administration instruction",
+    "do not take two doses at one time"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Ergocalciferol",
+    "has overdose instruction",
+    "seek emergency medical attention"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Ergocalciferol",
+    "has overdose instruction",
+    "call Poison Help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Ergocalciferol",
+    "has overdose symptom",
+    "nausea"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Ergocalciferol",
+    "has overdose symptom",
+    "loss of appetite"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Ergocalciferol",
+    "has overdose symptom",
+    "thirst"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Ergocalciferol",
+    "has overdose symptom",
+    "urinating more or less than usual"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Ergocalciferol",
+    "has overdose symptom",
+    "body aches"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Ergocalciferol",
+    "has overdose symptom",
+    "stiffness"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Ergocalciferol",
+    "has overdose symptom",
+    "confusion"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Ergocalciferol",
+    "has overdose symptom",
+    "irregular heartbeats"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-should-i-avoid-while-taking-ergocalciferol#0",
+   "section_id": "what-should-i-avoid-while-taking-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "should be avoided with",
+    "multivitamins"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-should-i-avoid-while-taking-ergocalciferol#0",
+   "section_id": "what-should-i-avoid-while-taking-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "should be avoided with",
+    "mineral supplements"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-should-i-avoid-while-taking-ergocalciferol#0",
+   "section_id": "what-should-i-avoid-while-taking-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "should be avoided with",
+    "antacids"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-should-i-avoid-while-taking-ergocalciferol#0",
+   "section_id": "what-should-i-avoid-while-taking-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "has administration instruction",
+    "consult a doctor or pharmacist before taking multivitamins, mineral supplements, or antacids"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "interacts with",
+    "medications that affect vitamin D absorption"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "has administration instruction",
+    "take other medications at least 2 hours before or after"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "has administration instruction",
+    "tell doctor about all other medicines"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "interacts with",
+    "diuretic or water pill"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "interacts with",
+    "mineral oil"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "has warning",
+    "not all possible drug interactions are listed"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "interacts with",
+    "prescription medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "interacts with",
+    "over-the-counter medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "interacts with",
+    "vitamins"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "interacts with",
+    "herbal products"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "belongs to drug class",
+    "vitamins"
+   ],
+   "raw_relation": "has drug class",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "has brand name",
+    "Drisdol"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "has brand name",
+    "Calciferol"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "has brand name",
+    "Calcidol"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "treats",
+    "Hypoparathyroidism"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "treats",
+    "Familial Hypophosphatemia"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "treats",
+    "Hypophosphatemia"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "treats",
+    "Hypocalcemia"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "has related treatment guide",
+    "Ergocalciferol monograph"
+   ],
+   "raw_relation": "has related resource",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "has related treatment guide",
+    "Ergocalciferol (FDA)"
+   ],
+   "raw_relation": "has related resource",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "has related treatment guide",
+    "Vitamin D Ergocalciferol (FDA)"
+   ],
+   "raw_relation": "has related resource",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "similar to",
+    "Drisdol"
+   ],
+   "raw_relation": "has related resource",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "has related treatment guide",
+    "Hypoparathyroidism"
+   ],
+   "raw_relation": "has related treatment guide",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "has related treatment guide",
+    "Familial Hypophosphatemia"
+   ],
+   "raw_relation": "has related treatment guide",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "has related treatment guide",
+    "Hypophosphatemia"
+   ],
+   "raw_relation": "has related treatment guide",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "mtm__ergocalciferol#what-other-drugs-will-affect-ergocalciferol#0",
+   "section_id": "what-other-drugs-will-affect-ergocalciferol",
+   "triplet": [
+    "Ergocalciferol",
+    "has related treatment guide",
+    "Hypocalcemia"
+   ],
+   "raw_relation": "has related treatment guide",
+   "status": "direct"
+  }
+ ],
+ "name": "Ergocalciferol",
+ "slug": "mtm__ergocalciferol",
+ "n_chunks": 11,
+ "seconds": 18.7,
+ "llm_model": "Qwen/Qwen3-14B-AWQ"
+}

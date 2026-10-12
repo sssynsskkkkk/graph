@@ -1,0 +1,72 @@
+{
+  "prepare": {
+    "seconds": 0.2,
+    "finished_at": "2026-10-07 15:36:25",
+    "input": "sentences",
+    "n_drugs": 1,
+    "n_chunks": 24,
+    "sentence_level": false
+  },
+  "extract": {
+    "seconds": 26.7,
+    "finished_at": "2026-10-07 15:36:52",
+    "drugs_extracted": 1,
+    "llm_model": "Qwen/Qwen3-14B-AWQ",
+    "llm_stats": {
+      "calls": 23,
+      "cache_hits": 0,
+      "prompt_tokens": 14318,
+      "completion_tokens": 1007,
+      "errors": 0
+    },
+    "schema_size": 43
+  },
+  "consolidate": {
+    "seconds": 6.0,
+    "finished_at": "2026-10-07 15:36:58",
+    "n_merges": 0,
+    "llm_stats": {
+      "calls": 5,
+      "cache_hits": 0,
+      "prompt_tokens": 1035,
+      "completion_tokens": 10,
+      "errors": 0
+    }
+  },
+  "export": {
+    "seconds": 5.8,
+    "finished_at": "2026-10-07 15:37:04",
+    "n_entities": 40,
+    "n_triples": 41,
+    "n_relations": 15
+  },
+  "canon_entities": {
+    "seconds": 39.9,
+    "finished_at": "2026-10-07 15:39:27",
+    "n_entities_in": 40,
+    "n_edges_in": 15,
+    "numeric_guard": true,
+    "type_guard": true,
+    "strict_prompt": true,
+    "entities_after_semhash": 39,
+    "edges_after_semhash": 15,
+    "entities_after_lm": 34,
+    "edges_after_lm": 15,
+    "lm_calls": 49,
+    "n_node_clusters": 1,
+    "n_edge_clusters": 1,
+    "n_entities_out": 34,
+    "n_triples_out": 34,
+    "llm_calls": {
+      "calls": 49,
+      "cache_hits": 0,
+      "prompt_tokens": 11922,
+      "completion_tokens": 836,
+      "errors": 0
+    }
+  },
+  "audit": {
+    "seconds": 0.2,
+    "finished_at": "2026-10-07 15:37:24"
+  }
+}

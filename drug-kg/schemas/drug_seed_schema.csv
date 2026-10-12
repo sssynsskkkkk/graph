@@ -1,0 +1,41 @@
+relation,definition,subject_type,object_type
+has generic name,The subject drug is sold under or known by the generic (non-proprietary) name specified by the object entity.,Drug,Drug
+has brand name,The subject drug is marketed under the brand or trade name specified by the object entity.,Drug,Drug
+belongs to drug class,The subject drug is a member of the pharmacological or therapeutic drug class specified by the object entity.,Drug,DrugClass
+contains ingredient,The subject drug product contains the active ingredient specified by the object entity.,Drug,Ingredient
+treats,The subject drug is used to treat or manage the disease or medical condition specified by the object entity.,Drug,Condition
+reduces risk of,The subject drug is used to prevent or lower the risk of the medical event or condition specified by the object entity.,Drug,Condition
+used in combination with,The subject drug is used together with the other treatment or lifestyle measure specified by the object entity.,Drug,Therapy
+has mechanism of action,The subject drug produces its therapeutic effect through the biological mechanism specified by the object entity.,Drug,Mechanism
+has side effect,The subject drug may cause the adverse effect or symptom specified by the object entity.,Drug,SideEffect
+has serious side effect,The subject drug may cause the serious or potentially dangerous adverse effect specified by the object entity that requires medical attention.,Drug,SideEffect
+increases risk of,Taking the subject drug may raise the patient's likelihood of experiencing the condition or event specified by the object entity.,Drug,Condition
+has boxed warning,The subject drug carries an official boxed (black box) safety warning about the risk specified by the object entity.,Drug,Warning
+has warning,The subject drug carries a safety warning or precaution about the risk or situation specified by the object entity.,Drug,Warning
+contraindicated in,The subject drug should not be used by patients who have the condition or characteristic specified by the object entity.,Drug,Condition
+use with caution in,The subject drug may be unsafe or require medical supervision for patients who have the condition or characteristic specified by the object entity.,Drug,Condition
+not approved for,The subject drug is not approved or not recommended for use in the patient population specified by the object entity.,Drug,Population
+has pregnancy or breastfeeding warning,The subject drug carries the warning specified by the object entity regarding use during pregnancy or while breastfeeding.,Drug,Warning
+interacts with,The subject drug has a drug interaction with the drug or substance specified by the object entity that may change effects or cause harm.,Drug,Substance
+should be avoided with,Patients taking the subject drug should avoid the substance or activity specified by the object entity.,Drug,Substance
+has dosage form,The subject drug is available in the pharmaceutical dosage form specified by the object entity.,Drug,DosageForm
+has strength,The subject drug is available in the dose strength specified by the object entity.,Drug,Strength
+administered via,The subject drug is given through the route of administration specified by the object entity.,Drug,Route
+has recommended dose,The subject drug is typically prescribed at the dose or dosing regimen specified by the object entity.,Drug,Dose
+has overdose symptom,An overdose of the subject drug may cause the symptom specified by the object entity.,Drug,Symptom
+requires monitoring of,Patients taking the subject drug may need the medical test or monitoring specified by the object entity.,Drug,LabTest
+has controlled substance schedule,The subject drug is classified under the controlled substance schedule specified by the object entity.,Drug,Schedule
+manufactured by,The subject drug is manufactured or marketed by the company specified by the object entity.,Drug,Organization
+fda approval year,The subject drug was approved by the US FDA in the year specified by the object entity.,Drug,Year
+similar to,The subject drug is related to or an alternative for the drug specified by the object entity.,Drug,Drug
+has storage instruction,The subject drug should be stored according to the instruction specified by the object entity.,Drug,Instruction
+has availability,The subject drug is available under the regulatory status specified by the object entity (for example prescription only or over the counter).,Drug,Availability
+used in population,The subject drug is used in or approved for the patient population or age group specified by the object entity.,Drug,Population
+lowers level of,The subject drug decreases the level of the substance or biomarker specified by the object entity in the body.,Drug,Substance
+increases level of,The subject drug increases the level of the substance or biomarker specified by the object entity in the body.,Drug,Substance
+has onset of effect,The subject drug starts to work or shows its effect within the time period specified by the object entity.,Drug,Instruction
+has administration instruction,The subject drug should be taken or used in the manner specified by the object entity (for example with food or at a fixed time).,Drug,Instruction
+has duration of treatment,The subject drug is typically taken for the length of time specified by the object entity.,Drug,Instruction
+has missed dose instruction,If a dose of the subject drug is missed the patient should follow the instruction specified by the object entity.,Drug,Instruction
+has overdose instruction,In case of an overdose of the subject drug the patient should follow the instruction specified by the object entity.,Drug,Instruction
+should inform doctor about,Patients taking the subject drug should tell their doctor about the condition or circumstance specified by the object entity.,Drug,Condition

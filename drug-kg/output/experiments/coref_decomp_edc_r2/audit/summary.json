@@ -1,0 +1,262 @@
+{
+  "n_entities": 8470,
+  "n_entities_with_any_issue": 4972,
+  "by_issue": {
+    "A1_core_label_case": {
+      "entities": 14,
+      "triples_touched": 3612,
+      "examples": [
+        "sertraline",
+        "spironolactone",
+        "tramadol",
+        "prednisone",
+        "venlafaxine",
+        "meloxicam",
+        "metformin",
+        "ondansetron"
+      ]
+    },
+    "A2_core_label_from_title": {
+      "entities": 3,
+      "triples_touched": 461,
+      "examples": [
+        "Hydrocodone and Acetaminophen",
+        "Albuterol Inhalation",
+        "Flonase Nasal Spray"
+      ]
+    },
+    "A3_alias_split_from_core": {
+      "entities": 46,
+      "triples_touched": 559,
+      "examples": [
+        "Zepbound",
+        "Mounjaro",
+        "Wegovy",
+        "Rybelsus",
+        "Ozempic",
+        "Tonmya",
+        "Amrix",
+        "Mounjaro KwikPen"
+      ]
+    },
+    "B1_non_drug_typed_as_drug": {
+      "entities": 47,
+      "triples_touched": 383,
+      "examples": [
+        "allergic reaction",
+        "serotonin syndrome",
+        "high blood pressure",
+        "MAO inhibitors",
+        "kidney disease",
+        "heart attack",
+        "chest pain",
+        "serious genital infection"
+      ]
+    },
+    "B2_untyped_other": {
+      "entities": 263,
+      "triples_touched": 298,
+      "examples": [
+        "yes",
+        "this page",
+        "short",
+        "FDA",
+        "mild",
+        "United States",
+        "reducing cardiovascular event risks",
+        "drug interactions"
+      ]
+    },
+    "B3_type_mismatch_with_relation": {
+      "entities": 365,
+      "triples_touched": 5330,
+      "examples": [
+        "sertraline",
+        "Fluoxetine",
+        "Hydrochlorothiazide",
+        "Gabapentin",
+        "Furosemide",
+        "Tirzepatide",
+        "pantoprazole",
+        "Famotidine"
+      ]
+    },
+    "B4_both_indication_and_side_effect": {
+      "entities": 22,
+      "triples_touched": 213,
+      "examples": [
+        "seizures",
+        "swelling",
+        "itching",
+        "low blood sugar",
+        "heart failure",
+        "weight loss",
+        "pain",
+        "glaucoma"
+      ]
+    },
+    "C1_exact_variant": {
+      "entities": 114,
+      "triples_touched": 447,
+      "examples": [
+        "severe skin reaction",
+        "stroke",
+        "NSAIDs",
+        "seizures",
+        "tablet",
+        "oral tablet",
+        "low sodium levels",
+        "high potassium level"
+      ]
+    },
+    "C2_modifier_or_form_variant": {
+      "entities": 405,
+      "triples_touched": 7391,
+      "examples": [
+        "sertraline",
+        "tramadol",
+        "Levothyroxine",
+        "Cyclobenzaprine",
+        "Semaglutide",
+        "Adderall",
+        "Metoprolol",
+        "Gabapentin"
+      ]
+    },
+    "D1_sentence_like_concept": {
+      "entities": 761,
+      "triples_touched": 938,
+      "examples": [
+        "swelling of face, lips, tongue, or throat",
+        "new or sudden changes in mood or behavior",
+        "high levels of serotonin in the body",
+        "new or worsening symptoms with Trazodone",
+        "red or purple skin rash with blistering and peeling",
+        "feeling like you might pass out",
+        "unusual changes in mood or behavior",
+        "vomit that looks like coffee grounds"
+      ]
+    },
+    "D2_multiple_concepts": {
+      "entities": 640,
+      "triples_touched": 908,
+      "examples": [
+        "swelling of face, lips, tongue, or throat",
+        "new or sudden changes in mood or behavior",
+        "new or worsening symptoms",
+        "new or worsening symptoms with Trazodone",
+        "red or purple skin rash with blistering and peeling",
+        "swelling in face or throat",
+        "heart or blood pressure medication",
+        "unusual changes in mood or behavior"
+      ]
+    },
+    "D3_sentence_literal": {
+      "entities": 2773,
+      "triples_touched": 3352,
+      "examples": [
+        "call your doctor for medical advice about side effects",
+        "call poison help line at 1-800-222-1222",
+        "read all medication guides or instruction sheets",
+        "follow all directions on your prescription label",
+        "take exactly as prescribed by your doctor",
+        "do not take two doses at one time",
+        "report side effects to FDA at 1-800-FDA-1088",
+        "store at room temperature away from moisture and heat"
+      ]
+    },
+    "E1_relation_word_in_entity": {
+      "entities": 43,
+      "triples_touched": 46,
+      "examples": [
+        "reduces nausea and vomiting",
+        "lower sex drive",
+        "lower blood pressure",
+        "causes high levels of serotonin to build up in your body",
+        "increase occurs after at least 30 days on the 4 mg dose",
+        "reduce inflammation",
+        "decreases appetite and food intake",
+        "lower potassium further"
+      ]
+    },
+    "F1_vague_or_generic": {
+      "entities": 223,
+      "triples_touched": 398,
+      "examples": [
+        "adults",
+        "other medicines",
+        "certain other medicines",
+        "children",
+        "this is not a complete list of side effects and others may occur",
+        "this is not a complete list of side effects",
+        "this list is not complete",
+        "certain medicines"
+      ]
+    },
+    "F2_too_short_or_bare_number": {
+      "entities": 29,
+      "triples_touched": 33,
+      "examples": [
+        "12%",
+        "TG",
+        "4",
+        "No",
+        "20%",
+        "13.0%",
+        "PE",
+        "2"
+      ]
+    },
+    "G1_boilerplate_hub": {
+      "entities": 12,
+      "triples_touched": 331,
+      "examples": [
+        "seek emergency medical attention",
+        "Prescription only",
+        "call your doctor for medical advice about side effects",
+        "call poison help line at 1-800-222-1222",
+        "read all medication guides or instruction sheets",
+        "follow all directions on your prescription label",
+        "take exactly as prescribed by your doctor",
+        "do not take two doses at one time"
+      ]
+    },
+    "H1_unit_format": {
+      "entities": 14,
+      "triples_touched": 14,
+      "examples": [
+        "250mg",
+        "60mg per day for bulimia",
+        "20mg/5ml",
+        "20mg per day for most conditions",
+        "Week 5 to week 8: 0.5mg once a week",
+        "Week 1 to week 4: 0.25mg once a week",
+        "Week 13 to week 16: 1.7mg once a week",
+        "Week 9 to week 12: 1mg once a week"
+      ]
+    }
+  },
+  "duplicate_groups": {
+    "C1_exact_variant": 57,
+    "C2_modifier_or_form_variant": 170
+  },
+  "same_surface_different_type": 58,
+  "top_type_mismatches": [
+    "has side effect: expects SideEffect, got Drug ×388",
+    "has serious side effect: expects SideEffect, got Drug ×200",
+    "has overdose symptom: expects Symptom, got Drug ×82",
+    "has symptom: expects Symptom, got Drug ×73",
+    "treats: expects Condition, got Drug ×59",
+    "use with caution in: expects Condition, got Drug ×53",
+    "contraindicated in: expects Condition, got Drug ×32",
+    "has dosage form: expects DosageForm, got Drug ×23",
+    "belongs to drug class: expects DrugClass, got Drug ×19",
+    "not approved for: expects Population, got Condition ×12",
+    "involves: expects Substance, got SideEffect ×11",
+    "has warning: expects Warning, got Condition ×10"
+  ],
+  "literal_vs_concept": {
+    "concept": 4683,
+    "literal": 3787
+  }
+}

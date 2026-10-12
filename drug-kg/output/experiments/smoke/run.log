@@ -1,0 +1,25 @@
+2026-10-07 15:36:25,338 INFO drugkg.exp: experiment=smoke stage=all input=sentences args={'exp': 'smoke', 'config': '/home/dbstjr9611/drug-kg-edc/config.yaml', 'stage': 'all', 'input': 'sentences', 'text_dir': None, 'sentences_file': None, 'sentence_level': False, 'drop_incomplete': False, 'from_exp': None, 'entity_canon': 'kggen', 'no_canon_edges': False, 'no_structured': False, 'drugs': '1', 'max_chunks': 2, 'iterations': None, 'force': False, 'verbose': False}
+2026-10-07 15:36:25,498 INFO drugkg.exp: prepared 1 drugs, 24 chunks from input=sentences
+2026-10-07 15:36:41,079 INFO drugkg.edc.schema: schema loaded from /home/dbstjr9611/drug-kg-edc/schemas/drug_seed_schema.csv: 40 relations
+2026-10-07 15:36:41,080 INFO drugkg.exp: === adderall: 2 chunks
+2026-10-07 15:36:52,237 INFO drugkg.edc.framework: iteration 0: 2 chunks, 27 open triplets, 27 canonical triplets, schema size 43
+2026-10-07 15:36:52,242 INFO drugkg.exp: adderall: 27 final triplets in 11s; schema 43; llm {'calls': 23, 'cache_hits': 0, 'prompt_tokens': 14318, 'completion_tokens': 1007, 'errors': 0}
+2026-10-07 15:36:57,808 INFO drugkg.edc.schema: schema loaded from /home/dbstjr9611/drug-kg-edc/output/experiments/smoke/schema/schema.csv: 43 relations
+2026-10-07 15:36:58,228 INFO drugkg.exp: consolidation: 0 merges
+2026-10-07 15:37:03,759 INFO drugkg.edc.schema: schema loaded from /home/dbstjr9611/drug-kg-edc/output/experiments/smoke/schema/schema.csv: 43 relations
+2026-10-07 15:37:04,069 INFO drugkg.exp: exported smoke: 40 entities, 41 triples, 15 relations
+2026-10-07 15:37:09,350 INFO drugkg.edc.schema: schema loaded from /home/dbstjr9611/drug-kg-edc/output/experiments/smoke/schema/schema.csv: 43 relations
+2026-10-07 15:37:13,276 INFO drugkg.entity_canon: semhash: entities 40 -> 38, edges 15 -> 15
+2026-10-07 15:37:13,830 INFO drugkg.entity_canon: node k-means: 38 items -> 1 clusters (sizes [38]...)
+2026-10-07 15:37:13,830 INFO drugkg.entity_canon: edge k-means: 15 items -> 1 clusters (sizes [15]...)
+2026-10-07 15:37:24,527 INFO drugkg.exp: KGGen canonicalization: {'n_entities_in': 40, 'n_edges_in': 15, 'numeric_guard': True, 'entities_after_semhash': 38, 'edges_after_semhash': 15, 'entities_after_lm': 28, 'edges_after_lm': 15, 'lm_calls': 43, 'n_node_clusters': 1, 'n_edge_clusters': 1}
+2026-10-07 15:37:24,547 INFO drugkg.exp: kg_canon: 28 entities, 33 triples, 15 relations (from 40 / 41)
+2026-10-07 15:37:24,659 INFO drugkg.exp: audit written to /home/dbstjr9611/drug-kg-edc/output/experiments/smoke/audit
+2026-10-07 15:37:24,763 INFO drugkg.exp: audit written to /home/dbstjr9611/drug-kg-edc/output/experiments/smoke/audit_canon
+2026-10-07 15:38:46,496 INFO drugkg.exp: experiment=smoke stage=canon_entities input=text args={'exp': 'smoke', 'config': '/home/dbstjr9611/drug-kg-edc/config.yaml', 'stage': 'canon_entities', 'input': 'text', 'text_dir': None, 'sentences_file': None, 'sentence_level': False, 'drop_incomplete': False, 'from_exp': None, 'entity_canon': 'kggen_guarded', 'no_canon_edges': False, 'no_structured': False, 'drugs': 'all', 'max_chunks': None, 'iterations': None, 'force': False, 'verbose': False}
+2026-10-07 15:39:00,619 INFO drugkg.edc.schema: schema loaded from /home/dbstjr9611/drug-kg-edc/output/experiments/smoke/schema/schema.csv: 43 relations
+2026-10-07 15:39:04,934 INFO drugkg.entity_canon: semhash: entities 40 -> 39, edges 15 -> 15
+2026-10-07 15:39:05,302 INFO drugkg.entity_canon: node k-means: 39 items -> 1 clusters (sizes [39]...)
+2026-10-07 15:39:05,302 INFO drugkg.entity_canon: edge k-means: 15 items -> 1 clusters (sizes [15]...)
+2026-10-07 15:39:27,050 INFO drugkg.exp: KGGen canonicalization: {'n_entities_in': 40, 'n_edges_in': 15, 'numeric_guard': True, 'type_guard': True, 'strict_prompt': True, 'entities_after_semhash': 39, 'edges_after_semhash': 15, 'entities_after_lm': 34, 'edges_after_lm': 15, 'lm_calls': 49, 'n_node_clusters': 1, 'n_edge_clusters': 1}
+2026-10-07 15:39:27,293 INFO drugkg.exp: kg_canon: 34 entities, 34 triples, 15 relations (from 40 / 41)

@@ -1,0 +1,6436 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "simvastatin#uses#0",
+     "section_id": "uses",
+     "section_heading": "What is simvastatin?",
+     "text": "Simvastatin belongs to a group of drugs called HMG CoA reductase inhibitors, or \"statins.\"\nSimvastatin is used to lower blood levels of \"bad\" cholesterol (low-density lipoprotein, or LDL), to increase levels of \"good\" cholesterol (high-density lipoprotein, or HDL), and to lower triglycerides (a type of fat in the blood).\nSimvastatin is also used to lower the risk of stroke, heart attack, and other heart complications in people with diabetes, coronary heart disease, or other risk factors.\nSimvastatin is used in adults and children who are at least 10 years old.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"simvastatin\", \"belongs to drug class\", \"HMG CoA reductase inhibitors\"], [\"simvastatin\", \"belongs to drug class\", \"statins\"], [\"simvastatin\", \"treats\", \"high LDL cholesterol\"], [\"simvastatin\", \"increases levels of\", \"HDL cholesterol\"], [\"simvastatin\", \"lowers levels of\", \"triglycerides\"], [\"simvastatin\", \"reduces risk of\", \"stroke\"], [\"simvastatin\", \"reduces risk of\", \"heart attack\"], [\"simvastatin\", \"reduces risk of\", \"heart complications\"], [\"simvastatin\", \"used in\", \"people with diabetes\"], [\"simvastatin\", \"used in\", \"people with coronary heart disease\"], [\"simvastatin\", \"used in\", \"people with other risk factors\"], [\"simvastatin\", \"used in\", \"adults at least 10 years old\"], [\"simvastatin\", \"used in\", \"children at least 10 years old\"]]",
+     "oie": [
+      [
+       "simvastatin",
+       "belongs to drug class",
+       "HMG CoA reductase inhibitors"
+      ],
+      [
+       "simvastatin",
+       "belongs to drug class",
+       "statins"
+      ],
+      [
+       "simvastatin",
+       "treats",
+       "high LDL cholesterol"
+      ],
+      [
+       "simvastatin",
+       "increases levels of",
+       "HDL cholesterol"
+      ],
+      [
+       "simvastatin",
+       "lowers levels of",
+       "triglycerides"
+      ],
+      [
+       "simvastatin",
+       "reduces risk of",
+       "stroke"
+      ],
+      [
+       "simvastatin",
+       "reduces risk of",
+       "heart attack"
+      ],
+      [
+       "simvastatin",
+       "reduces risk of",
+       "heart complications"
+      ],
+      [
+       "simvastatin",
+       "used in",
+       "people with diabetes"
+      ],
+      [
+       "simvastatin",
+       "used in",
+       "people with coronary heart disease"
+      ],
+      [
+       "simvastatin",
+       "used in",
+       "people with other risk factors"
+      ],
+      [
+       "simvastatin",
+       "used in",
+       "adults at least 10 years old"
+      ],
+      [
+       "simvastatin",
+       "used in",
+       "children at least 10 years old"
+      ]
+     ],
+     "schema_definition": {
+      "belongs to drug class": "The subject drug is a member of the pharmacological drug class specified by the object entity.",
+      "increases levels of": "The subject drug is used to raise or enhance the concentration of the biomolecule specified by the object entity.",
+      "lowers levels of": "The subject drug is used to decrease or reduce the concentration of the biomolecule specified by the object entity.",
+      "reduces risk of": "The subject drug is used to lower the risk of the medical event or condition specified by the object entity.",
+      "treats": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+      "used in": "The subject drug is indicated for use in individuals who have the medical condition or demographic characteristic specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "simvastatin",
+        "belongs to drug class",
+        "HMG CoA reductase inhibitors"
+       ],
+       "raw_relation": "belongs to drug class",
+       "definition": "The subject drug is a member of the pharmacological drug class specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "belongs to drug class",
+        "statins"
+       ],
+       "raw_relation": "belongs to drug class",
+       "definition": "The subject drug is a member of the pharmacological drug class specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "treats",
+        "high LDL cholesterol"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "increases level of",
+        "HDL cholesterol"
+       ],
+       "raw_relation": "increases levels of",
+       "definition": "The subject drug is used to raise or enhance the concentration of the biomolecule specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "increases level of",
+         0.8877
+        ],
+        [
+         "has mechanism of action",
+         0.8528
+        ],
+        [
+         "can pass into",
+         0.8473
+        ],
+        [
+         "has dose adjustment based on",
+         0.836
+        ],
+        [
+         "has strength",
+         0.8359
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "lowers level of",
+        "triglycerides"
+       ],
+       "raw_relation": "lowers levels of",
+       "definition": "The subject drug is used to decrease or reduce the concentration of the biomolecule specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "lowers level of",
+         0.8827
+        ],
+        [
+         "treats",
+         0.8495
+        ],
+        [
+         "may reduce response to",
+         0.8455
+        ],
+        [
+         "reduces risk of",
+         0.8447
+        ],
+        [
+         "has inactive ingredient",
+         0.84
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "reduces risk of",
+        "stroke"
+       ],
+       "raw_relation": "reduces risk of",
+       "definition": "The subject drug is used to lower the risk of the medical event or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "reduces risk of",
+        "heart attack"
+       ],
+       "raw_relation": "reduces risk of",
+       "definition": "The subject drug is used to lower the risk of the medical event or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "reduces risk of",
+        "heart complications"
+       ],
+       "raw_relation": "reduces risk of",
+       "definition": "The subject drug is used to lower the risk of the medical event or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "treats",
+        "people with diabetes"
+       ],
+       "raw_relation": "used in",
+       "definition": "The subject drug is indicated for use in individuals who have the medical condition or demographic characteristic specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "can occur with",
+         0.915
+        ],
+        [
+         "used in population",
+         0.9028
+        ],
+        [
+         "treats",
+         0.899
+        ],
+        [
+         "reduces risk of",
+         0.8652
+        ],
+        [
+         "belongs to drug class",
+         0.8595
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "treats",
+        "people with coronary heart disease"
+       ],
+       "raw_relation": "used in",
+       "definition": "The subject drug is indicated for use in individuals who have the medical condition or demographic characteristic specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "can occur with",
+         0.915
+        ],
+        [
+         "used in population",
+         0.9028
+        ],
+        [
+         "treats",
+         0.899
+        ],
+        [
+         "reduces risk of",
+         0.8652
+        ],
+        [
+         "belongs to drug class",
+         0.8595
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "used in population",
+        "people with other risk factors"
+       ],
+       "raw_relation": "used in",
+       "definition": "The subject drug is indicated for use in individuals who have the medical condition or demographic characteristic specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "can occur with",
+         0.915
+        ],
+        [
+         "used in population",
+         0.9028
+        ],
+        [
+         "treats",
+         0.899
+        ],
+        [
+         "reduces risk of",
+         0.8652
+        ],
+        [
+         "belongs to drug class",
+         0.8595
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "used in population",
+        "adults at least 10 years old"
+       ],
+       "raw_relation": "used in",
+       "definition": "The subject drug is indicated for use in individuals who have the medical condition or demographic characteristic specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "can occur with",
+         0.915
+        ],
+        [
+         "used in population",
+         0.9028
+        ],
+        [
+         "treats",
+         0.899
+        ],
+        [
+         "reduces risk of",
+         0.8652
+        ],
+        [
+         "belongs to drug class",
+         0.8595
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "used in population",
+        "children at least 10 years old"
+       ],
+       "raw_relation": "used in",
+       "definition": "The subject drug is indicated for use in individuals who have the medical condition or demographic characteristic specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "can occur with",
+         0.915
+        ],
+        [
+         "used in population",
+         0.9028
+        ],
+        [
+         "treats",
+         0.899
+        ],
+        [
+         "reduces risk of",
+         0.8652
+        ],
+        [
+         "belongs to drug class",
+         0.8595
+        ]
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "chunk_id": "simvastatin#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "In rare cases, simvastatin can cause a condition that results in the breakdown of skeletal muscle tissue, potentially leading to kidney failure. Call your doctor right away if you have unexplained muscle pain, tenderness, or weakness especially if you also have fever, unusual tiredness, and dark colored urine.\nNever take simvastatin in larger amounts, or for longer than recommended by your doctor. Follow your doctor's dosing instructions very carefully. Taking too much of this medication may cause serious or life-threatening side effects.\nBefore taking this medicine, tell your doctor if you have ever had liver or kidney disease, diabetes, a thyroid disorder, a muscle weakness condition (such as myasthenia gravis or ocular myasthenia), if you are of Chinese descent, or if you drink more than 2 alcoholic beverages daily.\nSimvastatin can harm an unborn baby or cause birth defects. Do not use if you are pregnant or planning to become pregnant.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"simvastatin\", \"has serious side effect\", \"skeletal muscle breakdown\"], [\"simvastatin\", \"has serious side effect\", \"kidney failure\"], [\"simvastatin\", \"has warning\", \"unexplained muscle pain\"], [\"simvastatin\", \"has warning\", \"muscle tenderness\"], [\"simvastatin\", \"has warning\", \"muscle weakness\"], [\"simvastatin\", \"has warning\", \"fever\"], [\"simvastatin\", \"has warning\", \"unusual tiredness\"], [\"simvastatin\", \"has warning\", \"dark colored urine\"], [\"simvastatin\", \"has dosage instruction\", \"do not take in larger amounts\"], [\"simvastatin\", \"has dosage instruction\", \"do not use for longer than recommended\"], [\"simvastatin\", \"has administration instruction\", \"follow doctor's dosing instructions\"], [\"simvastatin\", \"has contraindication\", \"pregnancy\"], [\"simvastatin\", \"has contraindication\", \"planning to become pregnant\"], [\"simvastatin\", \"has warning\", \"liver disease\"], [\"simvastatin\", \"has warning\", \"kidney disease\"], [\"simvastatin\", \"has warning\", \"diabetes\"], [\"simvastatin\", \"has warning\", \"thyroid disorder\"], [\"simvastatin\", \"has warning\", \"muscle weakness condition\"], [\"simvastatin\", \"has warning\", \"Chinese descent\"], [\"simvastatin\", \"has warning\", \"alcohol consumption more than 2 beverages daily\"], [\"simvastatin\", \"has teratogenic effect\", \"unborn baby\"], [\"simvastatin\", \"has risk of causing\", \"birth defects\"]]",
+     "oie": [
+      [
+       "simvastatin",
+       "has serious side effect",
+       "skeletal muscle breakdown"
+      ],
+      [
+       "simvastatin",
+       "has serious side effect",
+       "kidney failure"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "unexplained muscle pain"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "muscle tenderness"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "muscle weakness"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "fever"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "unusual tiredness"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "dark colored urine"
+      ],
+      [
+       "simvastatin",
+       "has dosage instruction",
+       "do not take in larger amounts"
+      ],
+      [
+       "simvastatin",
+       "has dosage instruction",
+       "do not use for longer than recommended"
+      ],
+      [
+       "simvastatin",
+       "has administration instruction",
+       "follow doctor's dosing instructions"
+      ],
+      [
+       "simvastatin",
+       "has contraindication",
+       "pregnancy"
+      ],
+      [
+       "simvastatin",
+       "has contraindication",
+       "planning to become pregnant"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "liver disease"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "kidney disease"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "diabetes"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "thyroid disorder"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "muscle weakness condition"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "Chinese descent"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "alcohol consumption more than 2 beverages daily"
+      ],
+      [
+       "simvastatin",
+       "has teratogenic effect",
+       "unborn baby"
+      ],
+      [
+       "simvastatin",
+       "has risk of causing",
+       "birth defects"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the patient to follow the specific dosing guidance provided by the doctor as specified by the object entity.",
+      "has contraindication": "The subject drug should not be used by individuals who have the condition or situation specified by the object entity.",
+      "has dosage instruction": "The subject drug must be taken in the amount and duration specified by the object entity to ensure safety and efficacy.",
+      "has risk of causing": "The subject drug may lead to the adverse condition or outcome specified by the object entity.",
+      "has serious side effect": "The subject drug may cause the serious or life-threatening adverse effect specified by the object entity.",
+      "has teratogenic effect": "The subject drug can cause developmental abnormalities in an unborn baby when used during pregnancy.",
+      "has warning": "The subject drug requires caution or alerts for the condition, symptom, or demographic factor specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "simvastatin",
+        "has serious side effect",
+        "skeletal muscle breakdown"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or life-threatening adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has serious side effect",
+        "kidney failure"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or life-threatening adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "unexplained muscle pain"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires caution or alerts for the condition, symptom, or demographic factor specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "muscle tenderness"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires caution or alerts for the condition, symptom, or demographic factor specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "muscle weakness"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires caution or alerts for the condition, symptom, or demographic factor specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "fever"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires caution or alerts for the condition, symptom, or demographic factor specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "unusual tiredness"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires caution or alerts for the condition, symptom, or demographic factor specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "dark colored urine"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires caution or alerts for the condition, symptom, or demographic factor specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has recommended dose",
+        "do not take in larger amounts"
+       ],
+       "raw_relation": "has dosage instruction",
+       "definition": "The subject drug must be taken in the amount and duration specified by the object entity to ensure safety and efficacy.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has duration of treatment",
+         0.8937
+        ],
+        [
+         "has administration instruction",
+         0.8777
+        ],
+        [
+         "has recommended dose",
+         0.8706
+        ],
+        [
+         "has dosage form",
+         0.8627
+        ],
+        [
+         "has strength",
+         0.8589
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has recommended dose",
+        "do not use for longer than recommended"
+       ],
+       "raw_relation": "has dosage instruction",
+       "definition": "The subject drug must be taken in the amount and duration specified by the object entity to ensure safety and efficacy.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has duration of treatment",
+         0.8937
+        ],
+        [
+         "has administration instruction",
+         0.8777
+        ],
+        [
+         "has recommended dose",
+         0.8706
+        ],
+        [
+         "has dosage form",
+         0.8627
+        ],
+        [
+         "has strength",
+         0.8589
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has administration instruction",
+        "follow doctor's dosing instructions"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific dosing guidance provided by the doctor as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "contraindicated in",
+        "pregnancy"
+       ],
+       "raw_relation": "has contraindication",
+       "definition": "The subject drug should not be used by individuals who have the condition or situation specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.9628
+        ],
+        [
+         "should be avoided with",
+         0.8833
+        ],
+        [
+         "should not be taken",
+         0.8823
+        ],
+        [
+         "does not reduce risk of",
+         0.8569
+        ],
+        [
+         "should not be stored in",
+         0.8358
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "contraindicated in",
+        "planning to become pregnant"
+       ],
+       "raw_relation": "has contraindication",
+       "definition": "The subject drug should not be used by individuals who have the condition or situation specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.9628
+        ],
+        [
+         "should be avoided with",
+         0.8833
+        ],
+        [
+         "should not be taken",
+         0.8823
+        ],
+        [
+         "does not reduce risk of",
+         0.8569
+        ],
+        [
+         "should not be stored in",
+         0.8358
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "liver disease"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires caution or alerts for the condition, symptom, or demographic factor specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "kidney disease"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires caution or alerts for the condition, symptom, or demographic factor specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "diabetes"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires caution or alerts for the condition, symptom, or demographic factor specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "thyroid disorder"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires caution or alerts for the condition, symptom, or demographic factor specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "muscle weakness condition"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires caution or alerts for the condition, symptom, or demographic factor specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "Chinese descent"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires caution or alerts for the condition, symptom, or demographic factor specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "alcohol consumption more than 2 beverages daily"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires caution or alerts for the condition, symptom, or demographic factor specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has pregnancy or breastfeeding warning",
+        "unborn baby"
+       ],
+       "raw_relation": "has teratogenic effect",
+       "definition": "The subject drug can cause developmental abnormalities in an unborn baby when used during pregnancy.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has pregnancy or breastfeeding warning",
+         0.7996
+        ],
+        [
+         "has test interference effect",
+         0.7338
+        ],
+        [
+         "has increased risk of hypokalemia after",
+         0.7312
+        ],
+        [
+         "has side effect",
+         0.7293
+        ],
+        [
+         "interacts with",
+         0.7141
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has side effect",
+        "birth defects"
+       ],
+       "raw_relation": "has risk of causing",
+       "definition": "The subject drug may lead to the adverse condition or outcome specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9616
+        ],
+        [
+         "has serious side effect",
+         0.9111
+        ],
+        [
+         "can occur with",
+         0.9
+        ],
+        [
+         "interacts with",
+         0.8983
+        ],
+        [
+         "not used to treat",
+         0.8914
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "simvastatin#warnings#1",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "Grapefruit and grapefruit juice may interact with simvastatin and lead to potentially dangerous effects. Do not consume grapefruit products while taking this medication.\nSome medicines can cause unwanted or dangerous effects when used with simvastatin. Your doctor may need to change your treatment plan if you use certain antibiotics or antifungal medicines, heart medication, antiviral medications such as hepatitis C medications, HIV/AIDS medications, or Paxlovid for COVID-19.\nStop taking this medication and tell your doctor right away if you become pregnant.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"simvastatin\", \"interacts with\", \"grapefruit products\"], [\"simvastatin\", \"has interaction warning\", \"grapefruit juice\"], [\"simvastatin\", \"has interaction warning\", \"antibiotics\"], [\"simvastatin\", \"has interaction warning\", \"antifungal medicines\"], [\"simvastatin\", \"has interaction warning\", \"heart medication\"], [\"simvastatin\", \"has interaction warning\", \"antiviral medications\"], [\"simvastatin\", \"has interaction warning\", \"hepatitis C medications\"], [\"simvastatin\", \"has interaction warning\", \"HIV/AIDS medications\"], [\"simvastatin\", \"has interaction warning\", \"Paxlovid for COVID-19\"], [\"simvastatin\", \"has pregnancy warning\", \"stop taking medication and tell doctor\"]]",
+     "oie": [
+      [
+       "simvastatin",
+       "interacts with",
+       "grapefruit products"
+      ],
+      [
+       "simvastatin",
+       "has interaction warning",
+       "grapefruit juice"
+      ],
+      [
+       "simvastatin",
+       "has interaction warning",
+       "antibiotics"
+      ],
+      [
+       "simvastatin",
+       "has interaction warning",
+       "antifungal medicines"
+      ],
+      [
+       "simvastatin",
+       "has interaction warning",
+       "heart medication"
+      ],
+      [
+       "simvastatin",
+       "has interaction warning",
+       "antiviral medications"
+      ],
+      [
+       "simvastatin",
+       "has interaction warning",
+       "hepatitis C medications"
+      ],
+      [
+       "simvastatin",
+       "has interaction warning",
+       "HIV/AIDS medications"
+      ],
+      [
+       "simvastatin",
+       "has interaction warning",
+       "Paxlovid for COVID-19"
+      ],
+      [
+       "simvastatin",
+       "has pregnancy warning",
+       "stop taking medication and tell doctor"
+      ]
+     ],
+     "schema_definition": {
+      "interacts with": "The subject medication may produce potentially dangerous effects when consumed together with the substance specified by the object entity.",
+      "has interaction warning": "The subject medication may cause unwanted or dangerous effects when used in combination with the specified medication or substance, and medical supervision or treatment adjustment may be required.",
+      "has pregnancy warning": "The subject medication poses a risk during pregnancy, and the patient should stop taking it and inform their doctor immediately if they become pregnant."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "grapefruit products"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject medication may produce potentially dangerous effects when consumed together with the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "grapefruit juice"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject medication may cause unwanted or dangerous effects when used in combination with the specified medication or substance, and medical supervision or treatment adjustment may be required.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8541
+        ],
+        [
+         "has serious side effect",
+         0.8399
+        ],
+        [
+         "has side effect",
+         0.8222
+        ],
+        [
+         "not used to treat",
+         0.8205
+        ],
+        [
+         "interacts with",
+         0.8187
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "antibiotics"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject medication may cause unwanted or dangerous effects when used in combination with the specified medication or substance, and medical supervision or treatment adjustment may be required.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8541
+        ],
+        [
+         "has serious side effect",
+         0.8399
+        ],
+        [
+         "has side effect",
+         0.8222
+        ],
+        [
+         "not used to treat",
+         0.8205
+        ],
+        [
+         "interacts with",
+         0.8187
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "antifungal medicines"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject medication may cause unwanted or dangerous effects when used in combination with the specified medication or substance, and medical supervision or treatment adjustment may be required.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8541
+        ],
+        [
+         "has serious side effect",
+         0.8399
+        ],
+        [
+         "has side effect",
+         0.8222
+        ],
+        [
+         "not used to treat",
+         0.8205
+        ],
+        [
+         "interacts with",
+         0.8187
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "heart medication"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject medication may cause unwanted or dangerous effects when used in combination with the specified medication or substance, and medical supervision or treatment adjustment may be required.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8541
+        ],
+        [
+         "has serious side effect",
+         0.8399
+        ],
+        [
+         "has side effect",
+         0.8222
+        ],
+        [
+         "not used to treat",
+         0.8205
+        ],
+        [
+         "interacts with",
+         0.8187
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "antiviral medications"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject medication may cause unwanted or dangerous effects when used in combination with the specified medication or substance, and medical supervision or treatment adjustment may be required.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8541
+        ],
+        [
+         "has serious side effect",
+         0.8399
+        ],
+        [
+         "has side effect",
+         0.8222
+        ],
+        [
+         "not used to treat",
+         0.8205
+        ],
+        [
+         "interacts with",
+         0.8187
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "hepatitis C medications"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject medication may cause unwanted or dangerous effects when used in combination with the specified medication or substance, and medical supervision or treatment adjustment may be required.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8541
+        ],
+        [
+         "has serious side effect",
+         0.8399
+        ],
+        [
+         "has side effect",
+         0.8222
+        ],
+        [
+         "not used to treat",
+         0.8205
+        ],
+        [
+         "interacts with",
+         0.8187
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "HIV/AIDS medications"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject medication may cause unwanted or dangerous effects when used in combination with the specified medication or substance, and medical supervision or treatment adjustment may be required.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8541
+        ],
+        [
+         "has serious side effect",
+         0.8399
+        ],
+        [
+         "has side effect",
+         0.8222
+        ],
+        [
+         "not used to treat",
+         0.8205
+        ],
+        [
+         "interacts with",
+         0.8187
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "Paxlovid for COVID-19"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject medication may cause unwanted or dangerous effects when used in combination with the specified medication or substance, and medical supervision or treatment adjustment may be required.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8541
+        ],
+        [
+         "has serious side effect",
+         0.8399
+        ],
+        [
+         "has side effect",
+         0.8222
+        ],
+        [
+         "not used to treat",
+         0.8205
+        ],
+        [
+         "interacts with",
+         0.8187
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has pregnancy or breastfeeding warning",
+        "stop taking medication and tell doctor"
+       ],
+       "raw_relation": "has pregnancy warning",
+       "definition": "The subject medication poses a risk during pregnancy, and the patient should stop taking it and inform their doctor immediately if they become pregnant.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may require temporary discontinuation before",
+         0.7904
+        ],
+        [
+         "has pregnancy or breastfeeding warning",
+         0.7663
+        ],
+        [
+         "has repeat course interval restriction",
+         0.7541
+        ],
+        [
+         "requires doctor consultation before discontinuation",
+         0.728
+        ],
+        [
+         "may require dose adjustment",
+         0.7268
+        ]
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "chunk_id": "simvastatin#before-taking#0",
+     "section_id": "before-taking",
+     "section_heading": "Before taking this medicine",
+     "text": "You should not take this medicine if you are allergic to simvastatin, or if:\n- you have active liver disease; or\n- you are pregnant or breastfeeding.\nThe following drugs can increase your risk of serious muscle problems if you take them together with simvastatin. These drugs should not be used while you are taking this medicine:\n- cyclosporine;\n- danazol;\n- gemfibrozil;\n- nefazodone;\n- an antibiotic - clarithromycin, erythromycin, telithromycin;\n- antifungal medication - itraconazole, ketoconazole, posaconazole, voriconazole;\n- hepatitis C medications - boceprevir, telaprevir; or\n- HIV/AIDS medication - atazanavir, cobicistat (Stribild, Tybost), darunavir, fosamprenavir, indinavir, nelfinavir, ritonavir, saquinavir, tipranavir.\nBefore you start taking simvastatin, tell your doctor if you are already using any of these other medicines:\n- lomitapide; or\n- heart medication - amiodarone, amlodipine, diltiazem, dronedarone, ranolazine, verapamil.\nTo make sure simvastatin is safe for you, tell your doctor if you have:\n- history of liver disease;\n- history of kidney disease;\n- diabetes;",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"simvastatin\", \"contraindicated in\", \"allergy to simvastatin\"], [\"simvastatin\", \"contraindicated in\", \"active liver disease\"], [\"simvastatin\", \"contraindicated in\", \"pregnancy\"], [\"simvastatin\", \"contraindicated in\", \"breastfeeding\"], [\"simvastatin\", \"interacts with\", \"cyclosporine\"], [\"simvastatin\", \"interacts with\", \"danazol\"], [\"simvastatin\", \"interacts with\", \"gemfibrozil\"], [\"simvastatin\", \"interacts with\", \"nefazodone\"], [\"simvastatin\", \"interacts with\", \"clarithromycin\"], [\"simvastatin\", \"interacts with\", \"erythromycin\"], [\"simvastatin\", \"interacts with\", \"telithromycin\"], [\"simvastatin\", \"interacts with\", \"itraconazole\"], [\"simvastatin\", \"interacts with\", \"ketoconazole\"], [\"simvastatin\", \"interacts with\", \"posaconazole\"], [\"simvastatin\", \"interacts with\", \"voriconazole\"], [\"simvastatin\", \"interacts with\", \"boceprevir\"], [\"simvastatin\", \"interacts with\", \"telaprevir\"], [\"simvastatin\", \"interacts with\", \"atazanavir\"], [\"simvastatin\", \"interacts with\", \"cobicistat\"], [\"simvastatin\", \"interacts with\", \"darunavir\"], [\"simvastatin\", \"interacts with\", \"fosamprenavir\"], [\"simvastatin\", \"interacts with\", \"indinavir\"], [\"simvastatin\", \"interacts with\", \"nelfinavir\"], [\"simvastatin\", \"interacts with\", \"ritonavir\"], [\"simvastatin\", \"interacts with\", \"saquinavir\"], [\"simvastatin\", \"interacts with\", \"tipranavir\"], [\"simvastatin\", \"has drug interaction warning\", \"amiodarone\"], [\"simvastatin\", \"has drug interaction warning\", \"amlodipine\"], [\"simvastatin\", \"has drug interaction warning\", \"diltiazem\"], [\"simvastatin\", \"has drug interaction warning\", \"dronedarone\"], [\"simvastatin\", \"has drug interaction warning\", \"ranolazine\"], [\"simvastatin\", \"has drug interaction warning\", \"verapamil\"], [\"simvastatin\", \"requires disclosure of\", \"lomitapide use\"], [\"simvastatin\", \"requires disclosure of\", \"heart medication use\"], [\"simvastatin\", \"requires disclosure of\", \"history of liver disease\"], [\"simvastatin\", \"requires disclosure of\", \"history of kidney disease\"], [\"simvastatin\", \"requires disclosure of\", \"diabetes\"]]",
+     "oie": [
+      [
+       "simvastatin",
+       "contraindicated in",
+       "allergy to simvastatin"
+      ],
+      [
+       "simvastatin",
+       "contraindicated in",
+       "active liver disease"
+      ],
+      [
+       "simvastatin",
+       "contraindicated in",
+       "pregnancy"
+      ],
+      [
+       "simvastatin",
+       "contraindicated in",
+       "breastfeeding"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "cyclosporine"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "danazol"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "gemfibrozil"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "nefazodone"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "clarithromycin"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "erythromycin"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "telithromycin"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "itraconazole"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "ketoconazole"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "posaconazole"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "voriconazole"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "boceprevir"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "telaprevir"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "atazanavir"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "cobicistat"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "darunavir"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "fosamprenavir"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "indinavir"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "nelfinavir"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "ritonavir"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "saquinavir"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "tipranavir"
+      ],
+      [
+       "simvastatin",
+       "has drug interaction warning",
+       "amiodarone"
+      ],
+      [
+       "simvastatin",
+       "has drug interaction warning",
+       "amlodipine"
+      ],
+      [
+       "simvastatin",
+       "has drug interaction warning",
+       "diltiazem"
+      ],
+      [
+       "simvastatin",
+       "has drug interaction warning",
+       "dronedarone"
+      ],
+      [
+       "simvastatin",
+       "has drug interaction warning",
+       "ranolazine"
+      ],
+      [
+       "simvastatin",
+       "has drug interaction warning",
+       "verapamil"
+      ],
+      [
+       "simvastatin",
+       "requires disclosure of",
+       "lomitapide use"
+      ],
+      [
+       "simvastatin",
+       "requires disclosure of",
+       "heart medication use"
+      ],
+      [
+       "simvastatin",
+       "requires disclosure of",
+       "history of liver disease"
+      ],
+      [
+       "simvastatin",
+       "requires disclosure of",
+       "history of kidney disease"
+      ],
+      [
+       "simvastatin",
+       "requires disclosure of",
+       "diabetes"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+      "has drug interaction warning": "The subject drug may have dangerous interactions with the specified medication, and patients should be advised to consult a doctor before use.",
+      "interacts with": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+      "requires disclosure of": "Patients must inform their doctor about the use of the specified condition, medication, or medical history before starting the subject drug."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "simvastatin",
+        "contraindicated in",
+        "allergy to simvastatin"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "contraindicated in",
+        "active liver disease"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "contraindicated in",
+        "pregnancy"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "contraindicated in",
+        "breastfeeding"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "cyclosporine"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "danazol"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "gemfibrozil"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "nefazodone"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "clarithromycin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "erythromycin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "telithromycin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "itraconazole"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "ketoconazole"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "posaconazole"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "voriconazole"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "boceprevir"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "telaprevir"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "atazanavir"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "cobicistat"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "darunavir"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "fosamprenavir"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "indinavir"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "nelfinavir"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "ritonavir"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "saquinavir"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "tipranavir"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or serious interaction when taken concurrently with the specified drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "amiodarone"
+       ],
+       "raw_relation": "has drug interaction warning",
+       "definition": "The subject drug may have dangerous interactions with the specified medication, and patients should be advised to consult a doctor before use.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.8139
+        ],
+        [
+         "use with caution in",
+         0.8125
+        ],
+        [
+         "requires use of",
+         0.796
+        ],
+        [
+         "may require temporary discontinuation before",
+         0.7959
+        ],
+        [
+         "interacts with",
+         0.7923
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "amlodipine"
+       ],
+       "raw_relation": "has drug interaction warning",
+       "definition": "The subject drug may have dangerous interactions with the specified medication, and patients should be advised to consult a doctor before use.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.8139
+        ],
+        [
+         "use with caution in",
+         0.8125
+        ],
+        [
+         "requires use of",
+         0.796
+        ],
+        [
+         "may require temporary discontinuation before",
+         0.7959
+        ],
+        [
+         "interacts with",
+         0.7923
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "diltiazem"
+       ],
+       "raw_relation": "has drug interaction warning",
+       "definition": "The subject drug may have dangerous interactions with the specified medication, and patients should be advised to consult a doctor before use.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.8139
+        ],
+        [
+         "use with caution in",
+         0.8125
+        ],
+        [
+         "requires use of",
+         0.796
+        ],
+        [
+         "may require temporary discontinuation before",
+         0.7959
+        ],
+        [
+         "interacts with",
+         0.7923
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "dronedarone"
+       ],
+       "raw_relation": "has drug interaction warning",
+       "definition": "The subject drug may have dangerous interactions with the specified medication, and patients should be advised to consult a doctor before use.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.8139
+        ],
+        [
+         "use with caution in",
+         0.8125
+        ],
+        [
+         "requires use of",
+         0.796
+        ],
+        [
+         "may require temporary discontinuation before",
+         0.7959
+        ],
+        [
+         "interacts with",
+         0.7923
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "ranolazine"
+       ],
+       "raw_relation": "has drug interaction warning",
+       "definition": "The subject drug may have dangerous interactions with the specified medication, and patients should be advised to consult a doctor before use.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.8139
+        ],
+        [
+         "use with caution in",
+         0.8125
+        ],
+        [
+         "requires use of",
+         0.796
+        ],
+        [
+         "may require temporary discontinuation before",
+         0.7959
+        ],
+        [
+         "interacts with",
+         0.7923
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "verapamil"
+       ],
+       "raw_relation": "has drug interaction warning",
+       "definition": "The subject drug may have dangerous interactions with the specified medication, and patients should be advised to consult a doctor before use.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.8139
+        ],
+        [
+         "use with caution in",
+         0.8125
+        ],
+        [
+         "requires use of",
+         0.796
+        ],
+        [
+         "may require temporary discontinuation before",
+         0.7959
+        ],
+        [
+         "interacts with",
+         0.7923
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "should inform doctor about",
+        "lomitapide use"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients must inform their doctor about the use of the specified condition, medication, or medical history before starting the subject drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8717
+        ],
+        [
+         "may require temporary discontinuation before",
+         0.7974
+        ],
+        [
+         "requires use of",
+         0.7944
+        ],
+        [
+         "requires patient to read",
+         0.7893
+        ],
+        [
+         "has indication for initial dose",
+         0.7828
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "should inform doctor about",
+        "heart medication use"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients must inform their doctor about the use of the specified condition, medication, or medical history before starting the subject drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8717
+        ],
+        [
+         "may require temporary discontinuation before",
+         0.7974
+        ],
+        [
+         "requires use of",
+         0.7944
+        ],
+        [
+         "requires patient to read",
+         0.7893
+        ],
+        [
+         "has indication for initial dose",
+         0.7828
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "should inform doctor about",
+        "history of liver disease"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients must inform their doctor about the use of the specified condition, medication, or medical history before starting the subject drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8717
+        ],
+        [
+         "may require temporary discontinuation before",
+         0.7974
+        ],
+        [
+         "requires use of",
+         0.7944
+        ],
+        [
+         "requires patient to read",
+         0.7893
+        ],
+        [
+         "has indication for initial dose",
+         0.7828
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "should inform doctor about",
+        "history of kidney disease"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients must inform their doctor about the use of the specified condition, medication, or medical history before starting the subject drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8717
+        ],
+        [
+         "may require temporary discontinuation before",
+         0.7974
+        ],
+        [
+         "requires use of",
+         0.7944
+        ],
+        [
+         "requires patient to read",
+         0.7893
+        ],
+        [
+         "has indication for initial dose",
+         0.7828
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "should inform doctor about",
+        "diabetes"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients must inform their doctor about the use of the specified condition, medication, or medical history before starting the subject drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8717
+        ],
+        [
+         "may require temporary discontinuation before",
+         0.7974
+        ],
+        [
+         "requires use of",
+         0.7944
+        ],
+        [
+         "requires patient to read",
+         0.7893
+        ],
+        [
+         "has indication for initial dose",
+         0.7828
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "simvastatin#before-taking#1",
+     "section_id": "before-taking",
+     "section_heading": "Before taking this medicine",
+     "text": "- a thyroid disorder; or\n- if you drink more than 2 alcoholic beverages daily\n- a muscle weakness condition (such as myasthenia gravis or ocular myasthenia).\nSimvastatin can cause a condition that results in the breakdown of skeletal muscle tissue, potentially leading to kidney failure. This condition may be more likely to occur in older adults and in people who have kidney disease or poorly controlled hypothyroidism (underactive thyroid).\nThis medicine can harm an unborn baby or cause birth defects. Do not take simvastatin if you are pregnant. Stop taking this medication and tell your doctor right away if you become pregnant. Use effective birth control to avoid pregnancy while you are taking this medicine.\nSimvastatin may pass into breast milk and could harm a nursing baby. Do not breast-feed while you are taking this medicine.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"simvastatin\", \"contraindicated in\", \"pregnancy\"], [\"simvastatin\", \"has pregnancy warning\", \"may harm an unborn baby\"], [\"simvastatin\", \"has pregnancy warning\", \"cause birth defects\"], [\"simvastatin\", \"has missed dose instruction\", \"stop taking and consult doctor if pregnant\"], [\"simvastatin\", \"has birth control instruction\", \"use effective birth control\"], [\"simvastatin\", \"has side effect\", \"skeletal muscle breakdown\"], [\"simvastatin\", \"has side effect\", \"risk of kidney failure\"], [\"simvastatin\", \"has increased risk in\", \"older adults\"], [\"simvastatin\", \"has increased risk in\", \"people with kidney disease\"], [\"simvastatin\", \"has increased risk in\", \"people with poorly controlled hypothyroidism\"], [\"simvastatin\", \"interacts with\", \"alcohol\"], [\"simvastatin\", \"has contraindication\", \"thyroid disorder\"], [\"simvastatin\", \"may pass into\", \"breast milk\"], [\"simvastatin\", \"has risk to nursing baby\", \"could harm a nursing baby\"], [\"simvastatin\", \"should not be used during\", \"breastfeeding\"]]",
+     "oie": [
+      [
+       "simvastatin",
+       "contraindicated in",
+       "pregnancy"
+      ],
+      [
+       "simvastatin",
+       "has pregnancy warning",
+       "may harm an unborn baby"
+      ],
+      [
+       "simvastatin",
+       "has pregnancy warning",
+       "cause birth defects"
+      ],
+      [
+       "simvastatin",
+       "has missed dose instruction",
+       "stop taking and consult doctor if pregnant"
+      ],
+      [
+       "simvastatin",
+       "has birth control instruction",
+       "use effective birth control"
+      ],
+      [
+       "simvastatin",
+       "has side effect",
+       "skeletal muscle breakdown"
+      ],
+      [
+       "simvastatin",
+       "has side effect",
+       "risk of kidney failure"
+      ],
+      [
+       "simvastatin",
+       "has increased risk in",
+       "older adults"
+      ],
+      [
+       "simvastatin",
+       "has increased risk in",
+       "people with kidney disease"
+      ],
+      [
+       "simvastatin",
+       "has increased risk in",
+       "people with poorly controlled hypothyroidism"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "alcohol"
+      ],
+      [
+       "simvastatin",
+       "has contraindication",
+       "thyroid disorder"
+      ],
+      [
+       "simvastatin",
+       "may pass into",
+       "breast milk"
+      ],
+      [
+       "simvastatin",
+       "has risk to nursing baby",
+       "could harm a nursing baby"
+      ],
+      [
+       "simvastatin",
+       "should not be used during",
+       "breastfeeding"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "has birth control instruction": "Patients taking the subject drug should use effective birth control to prevent pregnancy.",
+      "has contraindication": "The subject drug is not recommended for use in patients with the condition specified by the object entity.",
+      "has increased risk in": "The subject drug is associated with a higher likelihood of adverse effects in individuals who have the condition specified by the object entity.",
+      "has missed dose instruction": "If the patient becomes pregnant while taking the subject drug, they should stop taking it and consult a doctor immediately.",
+      "has pregnancy warning": "The subject drug may harm an unborn baby or cause birth defects in pregnant individuals.",
+      "has risk to nursing baby": "The subject drug, when present in breast milk, may cause harm to a nursing infant.",
+      "has side effect": "The subject drug may cause the adverse effect specified by the object entity.",
+      "interacts with": "The subject drug may have a pharmacological interaction with the substance or activity specified by the object entity, potentially altering its effect or increasing risk.",
+      "may pass into": "The subject drug can be transferred into the biological fluid or milk specified by the object entity.",
+      "should not be used during": "The subject drug is not safe to use during the condition or activity specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "simvastatin",
+        "contraindicated in",
+        "pregnancy"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has pregnancy or breastfeeding warning",
+        "may harm an unborn baby"
+       ],
+       "raw_relation": "has pregnancy warning",
+       "definition": "The subject drug may harm an unborn baby or cause birth defects in pregnant individuals.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has pregnancy or breastfeeding warning",
+         0.8065
+        ],
+        [
+         "has side effect",
+         0.7697
+        ],
+        [
+         "has serious side effect",
+         0.765
+        ],
+        [
+         "has test interference effect",
+         0.7526
+        ],
+        [
+         "interacts with",
+         0.7517
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has pregnancy or breastfeeding warning",
+        "cause birth defects"
+       ],
+       "raw_relation": "has pregnancy warning",
+       "definition": "The subject drug may harm an unborn baby or cause birth defects in pregnant individuals.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has pregnancy or breastfeeding warning",
+         0.8065
+        ],
+        [
+         "has side effect",
+         0.7697
+        ],
+        [
+         "has serious side effect",
+         0.765
+        ],
+        [
+         "has test interference effect",
+         0.7526
+        ],
+        [
+         "interacts with",
+         0.7517
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has missed dose instruction",
+        "stop taking and consult doctor if pregnant"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "If the patient becomes pregnant while taking the subject drug, they should stop taking it and consult a doctor immediately.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "requires use of",
+        "use effective birth control"
+       ],
+       "raw_relation": "has birth control instruction",
+       "definition": "Patients taking the subject drug should use effective birth control to prevent pregnancy.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires use of",
+         0.7582
+        ],
+        [
+         "reduces risk of",
+         0.7174
+        ],
+        [
+         "used in population",
+         0.694
+        ],
+        [
+         "requires doctor consultation before discontinuation",
+         0.688
+        ],
+        [
+         "has pregnancy or breastfeeding warning",
+         0.6876
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has side effect",
+        "skeletal muscle breakdown"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has side effect",
+        "risk of kidney failure"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "increases risk of",
+        "older adults"
+       ],
+       "raw_relation": "has increased risk in",
+       "definition": "The subject drug is associated with a higher likelihood of adverse effects in individuals who have the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9126
+        ],
+        [
+         "can occur with",
+         0.9003
+        ],
+        [
+         "has serious side effect",
+         0.8795
+        ],
+        [
+         "increases risk of",
+         0.8789
+        ],
+        [
+         "has warning",
+         0.8661
+        ]
+       ],
+       "answer": "D"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "increases risk of",
+        "people with kidney disease"
+       ],
+       "raw_relation": "has increased risk in",
+       "definition": "The subject drug is associated with a higher likelihood of adverse effects in individuals who have the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9126
+        ],
+        [
+         "can occur with",
+         0.9003
+        ],
+        [
+         "has serious side effect",
+         0.8795
+        ],
+        [
+         "increases risk of",
+         0.8789
+        ],
+        [
+         "has warning",
+         0.8661
+        ]
+       ],
+       "answer": "D"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "increases risk of",
+        "people with poorly controlled hypothyroidism"
+       ],
+       "raw_relation": "has increased risk in",
+       "definition": "The subject drug is associated with a higher likelihood of adverse effects in individuals who have the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9126
+        ],
+        [
+         "can occur with",
+         0.9003
+        ],
+        [
+         "has serious side effect",
+         0.8795
+        ],
+        [
+         "increases risk of",
+         0.8789
+        ],
+        [
+         "has warning",
+         0.8661
+        ]
+       ],
+       "answer": "D"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "alcohol"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or activity specified by the object entity, potentially altering its effect or increasing risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "contraindicated in",
+        "thyroid disorder"
+       ],
+       "raw_relation": "has contraindication",
+       "definition": "The subject drug is not recommended for use in patients with the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "not approved for",
+         0.9364
+        ],
+        [
+         "contraindicated in",
+         0.9223
+        ],
+        [
+         "does not reduce risk of",
+         0.87
+        ],
+        [
+         "should not be taken",
+         0.8583
+        ],
+        [
+         "not used to treat",
+         0.8548
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "can pass into",
+        "breast milk"
+       ],
+       "raw_relation": "may pass into",
+       "definition": "The subject drug can be transferred into the biological fluid or milk specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "can pass into",
+         0.9487
+        ],
+        [
+         "has metabolism pathway",
+         0.8214
+        ],
+        [
+         "has dosage form",
+         0.8153
+        ],
+        [
+         "contains ingredient",
+         0.8075
+        ],
+        [
+         "has mechanism of action",
+         0.8072
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has pregnancy or breastfeeding warning",
+        "could harm a nursing baby"
+       ],
+       "raw_relation": "has risk to nursing baby",
+       "definition": "The subject drug, when present in breast milk, may cause harm to a nursing infant.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has pregnancy or breastfeeding warning",
+         0.8251
+        ],
+        [
+         "has side effect",
+         0.7234
+        ],
+        [
+         "has serious side effect",
+         0.7208
+        ],
+        [
+         "has warning",
+         0.7126
+        ],
+        [
+         "use with caution in",
+         0.7051
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "contraindicated in",
+        "breastfeeding"
+       ],
+       "raw_relation": "should not be used during",
+       "definition": "The subject drug is not safe to use during the condition or activity specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "not approved for",
+         0.8731
+        ],
+        [
+         "has legal restriction",
+         0.8622
+        ],
+        [
+         "contraindicated in",
+         0.8611
+        ],
+        [
+         "should be avoided with",
+         0.8581
+        ],
+        [
+         "should not be taken",
+         0.8521
+        ]
+       ],
+       "answer": "C"
+      }
+     ]
+    },
+    {
+     "chunk_id": "simvastatin#dosage#0",
+     "section_id": "dosage",
+     "section_heading": "How should I take simvastatin?",
+     "text": "Take simvastatin exactly as prescribed. Follow all directions on your prescription label. Never take this medicine in larger amounts, or for longer than prescribed. Taking too much of this medication may cause serious or life-threatening side effects.\nSimvastatin is usually taken once a day in the evening. If you are taking the oral suspension, take it on an empty stomach. Your doctor may occasionally change your dose to make sure you get the best results.\nIf you are taking the oral suspension, shake the bottle well for at least 20 seconds before each use. Measure the medicine with an accurate measuring device, not a regular household spoon.\nWhile using simvastatin, you may need frequent blood tests at your doctor's office.\nYou may need to take simvastatin on a long-term basis for the treatment of high cholesterol. You may need to stop using this medicine for a short time if you have surgery or a medical emergency. Do not stop taking this medicine unless your doctor tells you to.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"simvastatin\", \"has administration instruction\", \"take exactly as prescribed\"], [\"simvastatin\", \"has administration instruction\", \"follow all directions on prescription label\"], [\"simvastatin\", \"has dosage instruction\", \"never take in larger amounts\"], [\"simvastatin\", \"has dosage instruction\", \"not for longer than prescribed\"], [\"simvastatin\", \"has overdose risk\", \"serious or life-threatening side effects\"], [\"simvastatin\", \"has recommended dosing frequency\", \"once a day in the evening\"], [\"simvastatin\", \"has administration instruction\", \"take on empty stomach if oral suspension\"], [\"simvastatin\", \"has preparation instruction\", \"shake bottle well for at least 20 seconds before each use\"], [\"simvastatin\", \"has administration instruction\", \"measure with accurate measuring device not regular household spoon\"], [\"simvastatin\", \"requires monitoring of\", \"blood levels\"], [\"simvastatin\", \"treats\", \"high cholesterol\"], [\"simvastatin\", \"has temporary discontinuation instruction\", \"stop use for short time if surgery or medical emergency\"], [\"simvastatin\", \"has discontinuation instruction\", \"do not stop unless doctor tells you to\"]]",
+     "oie": [
+      [
+       "simvastatin",
+       "has administration instruction",
+       "take exactly as prescribed"
+      ],
+      [
+       "simvastatin",
+       "has administration instruction",
+       "follow all directions on prescription label"
+      ],
+      [
+       "simvastatin",
+       "has dosage instruction",
+       "never take in larger amounts"
+      ],
+      [
+       "simvastatin",
+       "has dosage instruction",
+       "not for longer than prescribed"
+      ],
+      [
+       "simvastatin",
+       "has overdose risk",
+       "serious or life-threatening side effects"
+      ],
+      [
+       "simvastatin",
+       "has recommended dosing frequency",
+       "once a day in the evening"
+      ],
+      [
+       "simvastatin",
+       "has administration instruction",
+       "take on empty stomach if oral suspension"
+      ],
+      [
+       "simvastatin",
+       "has preparation instruction",
+       "shake bottle well for at least 20 seconds before each use"
+      ],
+      [
+       "simvastatin",
+       "has administration instruction",
+       "measure with accurate measuring device not regular household spoon"
+      ],
+      [
+       "simvastatin",
+       "requires monitoring of",
+       "blood levels"
+      ],
+      [
+       "simvastatin",
+       "treats",
+       "high cholesterol"
+      ],
+      [
+       "simvastatin",
+       "has temporary discontinuation instruction",
+       "stop use for short time if surgery or medical emergency"
+      ],
+      [
+       "simvastatin",
+       "has discontinuation instruction",
+       "do not stop unless doctor tells you to"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+      "has discontinuation instruction": "Patients should not stop taking the subject drug without explicit guidance from a healthcare provider.",
+      "has dosage instruction": "The subject drug should be taken in the amount and duration specified by the object entity.",
+      "has overdose risk": "Excessive intake of the subject drug may lead to the serious or life-threatening condition specified by the object entity.",
+      "has preparation instruction": "The subject drug should be prepared as specified by the object entity before use.",
+      "has recommended dosing frequency": "The subject drug is typically taken at the frequency specified by the object entity.",
+      "has temporary discontinuation instruction": "The subject drug should be stopped for a short period in specific medical situations as specified by the object entity.",
+      "requires monitoring of": "The subject drug's effectiveness or safety requires regular measurement or assessment of the specified parameter.",
+      "treats": "The subject drug is used to manage or treat the medical condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "simvastatin",
+        "has administration instruction",
+        "take exactly as prescribed"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has administration instruction",
+        "follow all directions on prescription label"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has recommended dose",
+        "never take in larger amounts"
+       ],
+       "raw_relation": "has dosage instruction",
+       "definition": "The subject drug should be taken in the amount and duration specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has duration of treatment",
+         0.93
+        ],
+        [
+         "has administration instruction",
+         0.9235
+        ],
+        [
+         "has dosage form",
+         0.8855
+        ],
+        [
+         "has half life",
+         0.8719
+        ],
+        [
+         "has recommended dose",
+         0.8658
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has duration of treatment",
+        "not for longer than prescribed"
+       ],
+       "raw_relation": "has dosage instruction",
+       "definition": "The subject drug should be taken in the amount and duration specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has duration of treatment",
+         0.93
+        ],
+        [
+         "has administration instruction",
+         0.9235
+        ],
+        [
+         "has dosage form",
+         0.8855
+        ],
+        [
+         "has half life",
+         0.8719
+        ],
+        [
+         "has recommended dose",
+         0.8658
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has serious side effect",
+        "serious or life-threatening side effects"
+       ],
+       "raw_relation": "has overdose risk",
+       "definition": "Excessive intake of the subject drug may lead to the serious or life-threatening condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.8901
+        ],
+        [
+         "has overdose symptom",
+         0.8789
+        ],
+        [
+         "has side effect",
+         0.856
+        ],
+        [
+         "can occur with",
+         0.8478
+        ],
+        [
+         "use with caution in",
+         0.8387
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has administration instruction",
+        "once a day in the evening"
+       ],
+       "raw_relation": "has recommended dosing frequency",
+       "definition": "The subject drug is typically taken at the frequency specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.8791
+        ],
+        [
+         "has duration of treatment",
+         0.8783
+        ],
+        [
+         "has administration instruction",
+         0.8718
+        ],
+        [
+         "has dosage form",
+         0.8524
+        ],
+        [
+         "can occur with",
+         0.8468
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has administration instruction",
+        "take on empty stomach if oral suspension"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has administration instruction",
+        "shake bottle well for at least 20 seconds before each use"
+       ],
+       "raw_relation": "has preparation instruction",
+       "definition": "The subject drug should be prepared as specified by the object entity before use.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.8916
+        ],
+        [
+         "has storage instruction",
+         0.8616
+        ],
+        [
+         "can occur with",
+         0.8518
+        ],
+        [
+         "has dosage form",
+         0.8455
+        ],
+        [
+         "has warning",
+         0.8421
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has administration instruction",
+        "measure with accurate measuring device not regular household spoon"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "requires monitoring of",
+        "blood levels"
+       ],
+       "raw_relation": "requires monitoring of",
+       "definition": "The subject drug's effectiveness or safety requires regular measurement or assessment of the specified parameter.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "treats",
+        "high cholesterol"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or treat the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "may require temporary discontinuation before",
+        "stop use for short time if surgery or medical emergency"
+       ],
+       "raw_relation": "has temporary discontinuation instruction",
+       "definition": "The subject drug should be stopped for a short period in specific medical situations as specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has withdrawal symptom",
+         0.851
+        ],
+        [
+         "may require temporary discontinuation before",
+         0.8431
+        ],
+        [
+         "has duration of treatment",
+         0.8355
+        ],
+        [
+         "should be avoided with",
+         0.8219
+        ],
+        [
+         "must be started after",
+         0.8218
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "requires doctor consultation before discontinuation",
+        "do not stop unless doctor tells you to"
+       ],
+       "raw_relation": "has discontinuation instruction",
+       "definition": "Patients should not stop taking the subject drug without explicit guidance from a healthcare provider.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires doctor consultation before discontinuation",
+         0.8389
+        ],
+        [
+         "should not be stopped during",
+         0.7855
+        ],
+        [
+         "requires prescriber decision",
+         0.7835
+        ],
+        [
+         "requires use of",
+         0.7779
+        ],
+        [
+         "has repeat course interval restriction",
+         0.7644
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "simvastatin#dosage#1",
+     "section_id": "dosage",
+     "section_heading": "How should I take simvastatin?",
+     "text": "Simvastatin is only part of a complete program of treatment that also includes diet, exercise, and weight control. Follow your diet, medication, and exercise routines very closely.\nStore at room temperature away from moisture, heat, and light.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"simvastatin\", \"is part of\", \"diet and exercise program\"], [\"simvastatin\", \"requires adherence to\", \"diet\"], [\"simvastatin\", \"requires adherence to\", \"medication\"], [\"simvastatin\", \"requires adherence to\", \"exercise\"], [\"simvastatin\", \"has storage instruction\", \"store at room temperature away from moisture, heat, and light\"]]",
+     "oie": [
+      [
+       "simvastatin",
+       "is part of",
+       "diet and exercise program"
+      ],
+      [
+       "simvastatin",
+       "requires adherence to",
+       "diet"
+      ],
+      [
+       "simvastatin",
+       "requires adherence to",
+       "medication"
+      ],
+      [
+       "simvastatin",
+       "requires adherence to",
+       "exercise"
+      ],
+      [
+       "simvastatin",
+       "has storage instruction",
+       "store at room temperature away from moisture, heat, and light"
+      ]
+     ],
+     "schema_definition": {
+      "has storage instruction": "The subject drug should be stored under the conditions specified by the object entity to maintain its efficacy and safety.",
+      "is part of": "The subject drug is a component of a comprehensive treatment program that includes the activities or interventions specified by the object entity.",
+      "requires adherence to": "The subject drug's effectiveness depends on consistent compliance with the specified lifestyle or medical practices."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "simvastatin",
+        "used in combination with",
+        "diet and exercise program"
+       ],
+       "raw_relation": "is part of",
+       "definition": "The subject drug is a component of a comprehensive treatment program that includes the activities or interventions specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "treats",
+         0.8699
+        ],
+        [
+         "belongs to drug class",
+         0.8633
+        ],
+        [
+         "used in combination with",
+         0.8598
+        ],
+        [
+         "has recommended dose",
+         0.8424
+        ],
+        [
+         "can occur with",
+         0.838
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "requires patient adherence to",
+        "diet"
+       ],
+       "raw_relation": "requires adherence to",
+       "definition": "The subject drug's effectiveness depends on consistent compliance with the specified lifestyle or medical practices.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires patient adherence to",
+         0.8259
+        ],
+        [
+         "requires use of",
+         0.8238
+        ],
+        [
+         "used in combination with",
+         0.7791
+        ],
+        [
+         "may require dose adjustment",
+         0.7741
+        ],
+        [
+         "has recommended dose",
+         0.7722
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "requires patient adherence to",
+        "medication"
+       ],
+       "raw_relation": "requires adherence to",
+       "definition": "The subject drug's effectiveness depends on consistent compliance with the specified lifestyle or medical practices.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires patient adherence to",
+         0.8259
+        ],
+        [
+         "requires use of",
+         0.8238
+        ],
+        [
+         "used in combination with",
+         0.7791
+        ],
+        [
+         "may require dose adjustment",
+         0.7741
+        ],
+        [
+         "has recommended dose",
+         0.7722
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "requires patient adherence to",
+        "exercise"
+       ],
+       "raw_relation": "requires adherence to",
+       "definition": "The subject drug's effectiveness depends on consistent compliance with the specified lifestyle or medical practices.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires patient adherence to",
+         0.8259
+        ],
+        [
+         "requires use of",
+         0.8238
+        ],
+        [
+         "used in combination with",
+         0.7791
+        ],
+        [
+         "may require dose adjustment",
+         0.7741
+        ],
+        [
+         "has recommended dose",
+         0.7722
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has storage instruction",
+        "store at room temperature away from moisture, heat, and light"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug should be stored under the conditions specified by the object entity to maintain its efficacy and safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "simvastatin#missed-dose#0",
+     "section_id": "missed-dose",
+     "section_heading": "What happens if I miss a dose?",
+     "text": "Take the missed dose as soon as you remember. Skip the missed dose if it is almost time for your next scheduled dose. Do not take extra medicine to make up the missed dose.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"simvastatin\", \"has missed dose instruction\", \"take as soon as remembered\"], [\"simvastatin\", \"has missed dose instruction\", \"skip if nearly time for next dose\"], [\"simvastatin\", \"has missed dose instruction\", \"do not take extra medicine\"]]",
+     "oie": [
+      [
+       "simvastatin",
+       "has missed dose instruction",
+       "take as soon as remembered"
+      ],
+      [
+       "simvastatin",
+       "has missed dose instruction",
+       "skip if nearly time for next dose"
+      ],
+      [
+       "simvastatin",
+       "has missed dose instruction",
+       "do not take extra medicine"
+      ]
+     ],
+     "schema_definition": {
+      "has missed dose instruction": "The subject drug includes specific guidance on how to manage a missed dose, as specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "simvastatin",
+        "has missed dose instruction",
+        "take as soon as remembered"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug includes specific guidance on how to manage a missed dose, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has missed dose instruction",
+        "skip if nearly time for next dose"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug includes specific guidance on how to manage a missed dose, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has missed dose instruction",
+        "do not take extra medicine"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug includes specific guidance on how to manage a missed dose, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "simvastatin#overdose#0",
+     "section_id": "overdose",
+     "section_heading": "What happens if I overdose?",
+     "text": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"simvastatin\", \"has overdose instruction\", \"seek emergency medical attention\"], [\"simvastatin\", \"has overdose instruction\", \"call Poison Help line at 1-800-222-1222\"]]",
+     "oie": [
+      [
+       "simvastatin",
+       "has overdose instruction",
+       "seek emergency medical attention"
+      ],
+      [
+       "simvastatin",
+       "has overdose instruction",
+       "call Poison Help line at 1-800-222-1222"
+      ]
+     ],
+     "schema_definition": {
+      "has overdose instruction": "The subject drug requires the action specified by the object entity in case of overdose."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "simvastatin",
+        "has overdose instruction",
+        "seek emergency medical attention"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has overdose instruction",
+        "call Poison Help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "simvastatin#what-to-avoid#0",
+     "section_id": "what-to-avoid",
+     "section_heading": "What to avoid",
+     "text": "Grapefruit and grapefruit juice may interact with simvastatin and lead to unwanted side effects. Avoid the use of grapefruit products while taking this medicine.\nAvoid eating foods that are high in fat or cholesterol. Simvastatin will not be as effective in lowering your cholesterol if you do not follow a cholesterol-lowering diet plan.\nAvoid drinking alcohol. It can raise triglyceride levels and may increase your risk of liver damage.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"simvastatin\", \"interacts with\", \"grapefruit products\"], [\"simvastatin\", \"should be avoided with\", \"alcohol\"], [\"simvastatin\", \"has dietary instruction\", \"avoid high fat and cholesterol foods\"], [\"simvastatin\", \"has dietary instruction\", \"follow cholesterol-lowering diet plan\"], [\"simvastatin\", \"has warning\", \"may increase risk of liver damage due to alcohol\"]]",
+     "oie": [
+      [
+       "simvastatin",
+       "interacts with",
+       "grapefruit products"
+      ],
+      [
+       "simvastatin",
+       "should be avoided with",
+       "alcohol"
+      ],
+      [
+       "simvastatin",
+       "has dietary instruction",
+       "avoid high fat and cholesterol foods"
+      ],
+      [
+       "simvastatin",
+       "has dietary instruction",
+       "follow cholesterol-lowering diet plan"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "may increase risk of liver damage due to alcohol"
+      ]
+     ],
+     "schema_definition": {
+      "interacts with": "The subject drug may produce an adverse or unintended effect when used concurrently with the substance specified by the object entity.",
+      "should be avoided with": "The subject drug should not be used in combination with the substance or activity specified by the object entity.",
+      "has dietary instruction": "The subject drug requires the patient to follow a specific dietary practice specified by the object entity to achieve optimal therapeutic effect.",
+      "has warning": "The subject drug may cause the adverse effect or condition specified by the object entity, particularly when used in conjunction with the specified substance or activity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "grapefruit products"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce an adverse or unintended effect when used concurrently with the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "should be avoided with",
+        "alcohol"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "The subject drug should not be used in combination with the substance or activity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "requires patient adherence to",
+        "avoid high fat and cholesterol foods"
+       ],
+       "raw_relation": "has dietary instruction",
+       "definition": "The subject drug requires the patient to follow a specific dietary practice specified by the object entity to achieve optimal therapeutic effect.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires use of",
+         0.8367
+        ],
+        [
+         "has administration instruction",
+         0.8293
+        ],
+        [
+         "requires patient adherence to",
+         0.8287
+        ],
+        [
+         "has recommended dose",
+         0.8241
+        ],
+        [
+         "has instruction",
+         0.8129
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "requires patient adherence to",
+        "follow cholesterol-lowering diet plan"
+       ],
+       "raw_relation": "has dietary instruction",
+       "definition": "The subject drug requires the patient to follow a specific dietary practice specified by the object entity to achieve optimal therapeutic effect.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires use of",
+         0.8367
+        ],
+        [
+         "has administration instruction",
+         0.8293
+        ],
+        [
+         "requires patient adherence to",
+         0.8287
+        ],
+        [
+         "has recommended dose",
+         0.8241
+        ],
+        [
+         "has instruction",
+         0.8129
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "may increase risk of liver damage due to alcohol"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may cause the adverse effect or condition specified by the object entity, particularly when used in conjunction with the specified substance or activity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "simvastatin#side-effects#0",
+     "section_id": "side-effects",
+     "section_heading": "Simvastatin side effects",
+     "text": "Get emergency medical help if you have signs of an allergic reaction to simvastatin (hives, difficult breathing, swelling in your face or throat) or a severe skin reaction (fever, sore throat, burning eyes, skin pain, red or purple skin rash with blistering and peeling).\nSimvastatin can cause the breakdown of muscle tissue, which can lead to kidney failure. Call your doctor right away if you have unexplained muscle pain, tenderness, or weakness especially if you also have fever, unusual tiredness, or dark urine.\nAlso call your doctor at once if you have:\n- signs of a kidney problem - little or no urinating; painful or difficult urination; swelling in your feet or ankles; feeling tired or short of breath; or\n- muscle weakness in your hips, shoulders, neck, and back;\n- trouble lifting your arms, trouble climbing or standing; or\n- liver problems - nausea, upper stomach pain, itching, tired feeling, loss of appetite, dark urine, clay-colored stools, jaundice (yellowing of the skin or eyes).\nCommon simvastatin side effects may include:\n- headache;\n- constipation, nausea, stomach pain; or",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"simvastatin\", \"has side effect\", \"headache\"], [\"simvastatin\", \"has side effect\", \"constipation\"], [\"simvastatin\", \"has side effect\", \"nausea\"], [\"simvastatin\", \"has side effect\", \"stomach pain\"], [\"simvastatin\", \"has serious side effect\", \"allergic reaction\"], [\"simvastatin\", \"has serious side effect\", \"severe skin reaction\"], [\"simvastatin\", \"has serious side effect\", \"muscle tissue breakdown\"], [\"simvastatin\", \"has side effect\", \"kidney failure\"], [\"simvastatin\", \"has warning\", \"unexplained muscle pain\"], [\"simvastatin\", \"has warning\", \"muscle tenderness\"], [\"simvastatin\", \"has warning\", \"muscle weakness\"], [\"simvastatin\", \"has warning\", \"fever\"], [\"simvastatin\", \"has warning\", \"unusual tiredness\"], [\"simvastatin\", \"has warning\", \"dark urine\"], [\"simvastatin\", \"has warning\", \"kidney problem\"], [\"simvastatin\", \"has warning\", \"little or no urinating\"], [\"simvastatin\", \"has warning\", \"painful or difficult urination\"], [\"simvastatin\", \"has warning\", \"swelling in feet or ankles\"], [\"simvastatin\", \"has warning\", \"feeling tired or short of breath\"], [\"simvastatin\", \"has warning\", \"muscle weakness in hips, shoulders, neck, and back\"], [\"simvastatin\", \"has warning\", \"trouble lifting arms\"], [\"simvastatin\", \"has warning\", \"trouble climbing or standing\"], [\"simvastatin\", \"has warning\", \"liver problem\"], [\"simvastatin\", \"has warning\", \"nausea\"], [\"simvastatin\", \"has warning\", \"upper stomach pain\"], [\"simvastatin\", \"has warning\", \"itching\"], [\"simvastatin\", \"has warning\", \"tired feeling\"], [\"simvastatin\", \"has warning\", \"loss of appetite\"], [\"simvastatin\", \"has warning\", \"dark urine\"], [\"simvastatin\", \"has warning\", \"clay-colored stools\"], [\"simvastatin\", \"has warning\", \"jaundice\"]]",
+     "oie": [
+      [
+       "simvastatin",
+       "has side effect",
+       "headache"
+      ],
+      [
+       "simvastatin",
+       "has side effect",
+       "constipation"
+      ],
+      [
+       "simvastatin",
+       "has side effect",
+       "nausea"
+      ],
+      [
+       "simvastatin",
+       "has side effect",
+       "stomach pain"
+      ],
+      [
+       "simvastatin",
+       "has serious side effect",
+       "allergic reaction"
+      ],
+      [
+       "simvastatin",
+       "has serious side effect",
+       "severe skin reaction"
+      ],
+      [
+       "simvastatin",
+       "has serious side effect",
+       "muscle tissue breakdown"
+      ],
+      [
+       "simvastatin",
+       "has side effect",
+       "kidney failure"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "unexplained muscle pain"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "muscle tenderness"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "muscle weakness"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "fever"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "unusual tiredness"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "dark urine"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "kidney problem"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "little or no urinating"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "painful or difficult urination"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "swelling in feet or ankles"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "feeling tired or short of breath"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "muscle weakness in hips, shoulders, neck, and back"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "trouble lifting arms"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "trouble climbing or standing"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "liver problem"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "nausea"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "upper stomach pain"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "itching"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "tired feeling"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "loss of appetite"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "clay-colored stools"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "jaundice"
+      ]
+     ],
+     "schema_definition": {
+      "has serious side effect": "The subject drug may cause the serious or life-threatening adverse effect specified by the object entity.",
+      "has side effect": "The subject drug may cause the symptom or condition specified by the object entity as a common adverse reaction.",
+      "has warning": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "simvastatin",
+        "has side effect",
+        "headache"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity as a common adverse reaction.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has side effect",
+        "constipation"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity as a common adverse reaction.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has side effect",
+        "nausea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity as a common adverse reaction.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has side effect",
+        "stomach pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity as a common adverse reaction.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or life-threatening adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has serious side effect",
+        "severe skin reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or life-threatening adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has serious side effect",
+        "muscle tissue breakdown"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or life-threatening adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has side effect",
+        "kidney failure"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity as a common adverse reaction.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "unexplained muscle pain"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "muscle tenderness"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "muscle weakness"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "fever"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "unusual tiredness"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "dark urine"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "kidney problem"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "little or no urinating"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "painful or difficult urination"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "swelling in feet or ankles"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "feeling tired or short of breath"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "muscle weakness in hips, shoulders, neck, and back"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "trouble lifting arms"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "trouble climbing or standing"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "liver problem"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "nausea"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "upper stomach pain"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "itching"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "tired feeling"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "loss of appetite"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "clay-colored stools"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "jaundice"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires medical attention if the patient experiences the symptom or condition specified by the object entity, indicating a potential serious or urgent health concern.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "simvastatin#side-effects#1",
+     "section_id": "side-effects",
+     "section_heading": "Simvastatin side effects",
+     "text": "- cold symptoms such as stuffy nose, sneezing, sore throat.\nThis is not a complete list of side effects and others may occur. Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"simvastatin\", \"has side effect\", \"stuffy nose\"], [\"simvastatin\", \"has side effect\", \"sneezing\"], [\"simvastatin\", \"has side effect\", \"sore throat\"], [\"simvastatin\", \"has warning\", \"not a complete list of side effects\"], [\"simvastatin\", \"has instruction\", \"call doctor for medical advice about side effects\"], [\"simvastatin\", \"has reporting instruction\", \"report side effects to FDA at 1-800-FDA-1088\"]]",
+     "oie": [
+      [
+       "simvastatin",
+       "has side effect",
+       "stuffy nose"
+      ],
+      [
+       "simvastatin",
+       "has side effect",
+       "sneezing"
+      ],
+      [
+       "simvastatin",
+       "has side effect",
+       "sore throat"
+      ],
+      [
+       "simvastatin",
+       "has warning",
+       "not a complete list of side effects"
+      ],
+      [
+       "simvastatin",
+       "has instruction",
+       "call doctor for medical advice about side effects"
+      ],
+      [
+       "simvastatin",
+       "has reporting instruction",
+       "report side effects to FDA at 1-800-FDA-1088"
+      ]
+     ],
+     "schema_definition": {
+      "has side effect": "The subject drug may cause the medical symptom or condition specified by the object entity.",
+      "has instruction": "The subject drug comes with a recommendation or directive for patients to take specific action regarding potential adverse effects.",
+      "has reporting instruction": "Patients taking the subject drug are instructed to report certain adverse effects to the specified authority or contact.",
+      "has warning": "The subject drug includes a caution that the listed effects are not exhaustive and other side effects may occur."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "simvastatin",
+        "has side effect",
+        "stuffy nose"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has side effect",
+        "sneezing"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has side effect",
+        "sore throat"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has warning",
+        "not a complete list of side effects"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug includes a caution that the listed effects are not exhaustive and other side effects may occur.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has instruction",
+        "call doctor for medical advice about side effects"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug comes with a recommendation or directive for patients to take specific action regarding potential adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "should inform doctor about",
+        "report side effects to FDA at 1-800-FDA-1088"
+       ],
+       "raw_relation": "has reporting instruction",
+       "definition": "Patients taking the subject drug are instructed to report certain adverse effects to the specified authority or contact.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.844
+        ],
+        [
+         "should inform doctor about",
+         0.8321
+        ],
+        [
+         "has serious side effect",
+         0.8186
+        ],
+        [
+         "use with caution in",
+         0.8151
+        ],
+        [
+         "requires monitoring of",
+         0.7865
+        ]
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "chunk_id": "simvastatin#interactions#0",
+     "section_id": "interactions",
+     "section_heading": "What other drugs will affect simvastatin?",
+     "text": "Many drugs can interact with simvastatin. Not all possible interactions are listed here. Tell your doctor about all your medications and any you start or stop using during treatment, especially:\n- delavirdine;\n- fenofibrate; or\n- fluconazole.\nYour doctor may need to change your treatment plan if you use certain antibiotics or antifungal medicines, heart medication, antiviral medications such as hepatitis C medications, HIV/AIDS medications, or Paxlovid for COVID-19. This list is not complete and many other drugs can interact with simvastatin. This includes prescription and over-the-counter medicines, vitamins, and herbal products. Give a list of all your medicines to any healthcare provider who treats you.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"simvastatin\", \"interacts with\", \"delavirdine\"], [\"simvastatin\", \"interacts with\", \"fenofibrate\"], [\"simvastatin\", \"interacts with\", \"fluconazole\"], [\"simvastatin\", \"interacts with\", \"antibiotics\"], [\"simvastatin\", \"interacts with\", \"antifungal medicines\"], [\"simvastatin\", \"interacts with\", \"heart medication\"], [\"simvastatin\", \"interacts with\", \"antiviral medications\"], [\"simvastatin\", \"interacts with\", \"HIV/AIDS medications\"], [\"simvastatin\", \"interacts with\", \"Paxlovid\"], [\"simvastatin\", \"interacts with\", \"prescription medicines\"], [\"simvastatin\", \"interacts with\", \"over-the-counter medicines\"], [\"simvastatin\", \"interacts with\", \"vitamins\"], [\"simvastatin\", \"interacts with\", \"herbal products\"], [\"simvastatin\", \"requires patient instruction\", \"tell doctor about all medications\"], [\"simvastatin\", \"requires patient instruction\", \"provide full list of medicines to healthcare providers\"]]",
+     "oie": [
+      [
+       "simvastatin",
+       "interacts with",
+       "delavirdine"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "fenofibrate"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "fluconazole"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "antibiotics"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "antifungal medicines"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "heart medication"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "antiviral medications"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "HIV/AIDS medications"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "Paxlovid"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "prescription medicines"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "over-the-counter medicines"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "vitamins"
+      ],
+      [
+       "simvastatin",
+       "interacts with",
+       "herbal products"
+      ],
+      [
+       "simvastatin",
+       "requires patient instruction",
+       "tell doctor about all medications"
+      ],
+      [
+       "simvastatin",
+       "requires patient instruction",
+       "provide full list of medicines to healthcare providers"
+      ]
+     ],
+     "schema_definition": {
+      "interacts with": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+      "requires patient instruction": "Patients taking the subject drug are advised to follow specific instructions regarding medication disclosure and reporting to healthcare providers."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "delavirdine"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "fenofibrate"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "fluconazole"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "antibiotics"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "antifungal medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "heart medication"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "antiviral medications"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "HIV/AIDS medications"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "Paxlovid"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "prescription medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "over-the-counter medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "vitamins"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "interacts with",
+        "herbal products"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "should inform doctor about",
+        "tell doctor about all medications"
+       ],
+       "raw_relation": "requires patient instruction",
+       "definition": "Patients taking the subject drug are advised to follow specific instructions regarding medication disclosure and reporting to healthcare providers.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.808
+        ],
+        [
+         "requires use of",
+         0.8054
+        ],
+        [
+         "requires patient to read",
+         0.8017
+        ],
+        [
+         "has overdose instruction",
+         0.7956
+        ],
+        [
+         "has missed dose instruction",
+         0.7753
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "should inform doctor about",
+        "provide full list of medicines to healthcare providers"
+       ],
+       "raw_relation": "requires patient instruction",
+       "definition": "Patients taking the subject drug are advised to follow specific instructions regarding medication disclosure and reporting to healthcare providers.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.808
+        ],
+        [
+         "requires use of",
+         0.8054
+        ],
+        [
+         "requires patient to read",
+         0.8017
+        ],
+        [
+         "has overdose instruction",
+         0.7956
+        ],
+        [
+         "has missed dose instruction",
+         0.7753
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "simvastatin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "simvastatin",
+    "belongs to drug class",
+    "HMG CoA reductase inhibitors"
+   ],
+   "raw_relation": "belongs to drug class",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "simvastatin",
+    "belongs to drug class",
+    "statins"
+   ],
+   "raw_relation": "belongs to drug class",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "simvastatin",
+    "treats",
+    "high LDL cholesterol"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "simvastatin",
+    "increases level of",
+    "HDL cholesterol"
+   ],
+   "raw_relation": "increases levels of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "simvastatin",
+    "lowers level of",
+    "triglycerides"
+   ],
+   "raw_relation": "lowers levels of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "simvastatin",
+    "reduces risk of",
+    "stroke"
+   ],
+   "raw_relation": "reduces risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "simvastatin",
+    "reduces risk of",
+    "heart attack"
+   ],
+   "raw_relation": "reduces risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "simvastatin",
+    "reduces risk of",
+    "heart complications"
+   ],
+   "raw_relation": "reduces risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "simvastatin",
+    "treats",
+    "people with diabetes"
+   ],
+   "raw_relation": "used in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "simvastatin",
+    "treats",
+    "people with coronary heart disease"
+   ],
+   "raw_relation": "used in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "simvastatin",
+    "used in population",
+    "people with other risk factors"
+   ],
+   "raw_relation": "used in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "simvastatin",
+    "used in population",
+    "adults at least 10 years old"
+   ],
+   "raw_relation": "used in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "simvastatin",
+    "used in population",
+    "children at least 10 years old"
+   ],
+   "raw_relation": "used in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has serious side effect",
+    "skeletal muscle breakdown"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has serious side effect",
+    "kidney failure"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "unexplained muscle pain"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "muscle tenderness"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "muscle weakness"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "fever"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "unusual tiredness"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "dark colored urine"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has recommended dose",
+    "do not take in larger amounts"
+   ],
+   "raw_relation": "has dosage instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has recommended dose",
+    "do not use for longer than recommended"
+   ],
+   "raw_relation": "has dosage instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has administration instruction",
+    "follow doctor's dosing instructions"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "contraindicated in",
+    "pregnancy"
+   ],
+   "raw_relation": "has contraindication",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "contraindicated in",
+    "planning to become pregnant"
+   ],
+   "raw_relation": "has contraindication",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "liver disease"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "kidney disease"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "diabetes"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "thyroid disorder"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "muscle weakness condition"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "Chinese descent"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "alcohol consumption more than 2 beverages daily"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has pregnancy or breastfeeding warning",
+    "unborn baby"
+   ],
+   "raw_relation": "has teratogenic effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has side effect",
+    "birth defects"
+   ],
+   "raw_relation": "has risk of causing",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "grapefruit products"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "grapefruit juice"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "antibiotics"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "antifungal medicines"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "heart medication"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "antiviral medications"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "hepatitis C medications"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "HIV/AIDS medications"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "Paxlovid for COVID-19"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "simvastatin",
+    "has pregnancy or breastfeeding warning",
+    "stop taking medication and tell doctor"
+   ],
+   "raw_relation": "has pregnancy warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "contraindicated in",
+    "allergy to simvastatin"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "contraindicated in",
+    "active liver disease"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "contraindicated in",
+    "pregnancy"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "contraindicated in",
+    "breastfeeding"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "cyclosporine"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "danazol"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "gemfibrozil"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "nefazodone"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "clarithromycin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "erythromycin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "telithromycin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "itraconazole"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "ketoconazole"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "posaconazole"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "voriconazole"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "boceprevir"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "telaprevir"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "atazanavir"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "cobicistat"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "darunavir"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "fosamprenavir"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "indinavir"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "nelfinavir"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "ritonavir"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "saquinavir"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "tipranavir"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "amiodarone"
+   ],
+   "raw_relation": "has drug interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "amlodipine"
+   ],
+   "raw_relation": "has drug interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "diltiazem"
+   ],
+   "raw_relation": "has drug interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "dronedarone"
+   ],
+   "raw_relation": "has drug interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "ranolazine"
+   ],
+   "raw_relation": "has drug interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "verapamil"
+   ],
+   "raw_relation": "has drug interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "should inform doctor about",
+    "lomitapide use"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "should inform doctor about",
+    "heart medication use"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "should inform doctor about",
+    "history of liver disease"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "should inform doctor about",
+    "history of kidney disease"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "should inform doctor about",
+    "diabetes"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#1",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "contraindicated in",
+    "pregnancy"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#1",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "has pregnancy or breastfeeding warning",
+    "may harm an unborn baby"
+   ],
+   "raw_relation": "has pregnancy warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#1",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "has pregnancy or breastfeeding warning",
+    "cause birth defects"
+   ],
+   "raw_relation": "has pregnancy warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#1",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "has missed dose instruction",
+    "stop taking and consult doctor if pregnant"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#1",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "requires use of",
+    "use effective birth control"
+   ],
+   "raw_relation": "has birth control instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#1",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "has side effect",
+    "skeletal muscle breakdown"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#1",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "has side effect",
+    "risk of kidney failure"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#1",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "increases risk of",
+    "older adults"
+   ],
+   "raw_relation": "has increased risk in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#1",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "increases risk of",
+    "people with kidney disease"
+   ],
+   "raw_relation": "has increased risk in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#1",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "increases risk of",
+    "people with poorly controlled hypothyroidism"
+   ],
+   "raw_relation": "has increased risk in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#1",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "alcohol"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#1",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "contraindicated in",
+    "thyroid disorder"
+   ],
+   "raw_relation": "has contraindication",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#1",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "can pass into",
+    "breast milk"
+   ],
+   "raw_relation": "may pass into",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#1",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "has pregnancy or breastfeeding warning",
+    "could harm a nursing baby"
+   ],
+   "raw_relation": "has risk to nursing baby",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#before-taking#1",
+   "section_id": "before-taking",
+   "triplet": [
+    "simvastatin",
+    "contraindicated in",
+    "breastfeeding"
+   ],
+   "raw_relation": "should not be used during",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "simvastatin",
+    "has administration instruction",
+    "take exactly as prescribed"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "simvastatin",
+    "has administration instruction",
+    "follow all directions on prescription label"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "simvastatin",
+    "has recommended dose",
+    "never take in larger amounts"
+   ],
+   "raw_relation": "has dosage instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "simvastatin",
+    "has duration of treatment",
+    "not for longer than prescribed"
+   ],
+   "raw_relation": "has dosage instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "simvastatin",
+    "has serious side effect",
+    "serious or life-threatening side effects"
+   ],
+   "raw_relation": "has overdose risk",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "simvastatin",
+    "has administration instruction",
+    "once a day in the evening"
+   ],
+   "raw_relation": "has recommended dosing frequency",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "simvastatin",
+    "has administration instruction",
+    "take on empty stomach if oral suspension"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "simvastatin",
+    "has administration instruction",
+    "shake bottle well for at least 20 seconds before each use"
+   ],
+   "raw_relation": "has preparation instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "simvastatin",
+    "has administration instruction",
+    "measure with accurate measuring device not regular household spoon"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "simvastatin",
+    "requires monitoring of",
+    "blood levels"
+   ],
+   "raw_relation": "requires monitoring of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "simvastatin",
+    "treats",
+    "high cholesterol"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "simvastatin",
+    "may require temporary discontinuation before",
+    "stop use for short time if surgery or medical emergency"
+   ],
+   "raw_relation": "has temporary discontinuation instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "simvastatin",
+    "requires doctor consultation before discontinuation",
+    "do not stop unless doctor tells you to"
+   ],
+   "raw_relation": "has discontinuation instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "simvastatin",
+    "used in combination with",
+    "diet and exercise program"
+   ],
+   "raw_relation": "is part of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "simvastatin",
+    "requires patient adherence to",
+    "diet"
+   ],
+   "raw_relation": "requires adherence to",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "simvastatin",
+    "requires patient adherence to",
+    "medication"
+   ],
+   "raw_relation": "requires adherence to",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "simvastatin",
+    "requires patient adherence to",
+    "exercise"
+   ],
+   "raw_relation": "requires adherence to",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "simvastatin",
+    "has storage instruction",
+    "store at room temperature away from moisture, heat, and light"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "simvastatin",
+    "has missed dose instruction",
+    "take as soon as remembered"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "simvastatin",
+    "has missed dose instruction",
+    "skip if nearly time for next dose"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "simvastatin",
+    "has missed dose instruction",
+    "do not take extra medicine"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "simvastatin",
+    "has overdose instruction",
+    "seek emergency medical attention"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "simvastatin",
+    "has overdose instruction",
+    "call Poison Help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "grapefruit products"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "simvastatin",
+    "should be avoided with",
+    "alcohol"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "simvastatin",
+    "requires patient adherence to",
+    "avoid high fat and cholesterol foods"
+   ],
+   "raw_relation": "has dietary instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "simvastatin",
+    "requires patient adherence to",
+    "follow cholesterol-lowering diet plan"
+   ],
+   "raw_relation": "has dietary instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "may increase risk of liver damage due to alcohol"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has side effect",
+    "headache"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has side effect",
+    "constipation"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has side effect",
+    "nausea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has side effect",
+    "stomach pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has serious side effect",
+    "severe skin reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has serious side effect",
+    "muscle tissue breakdown"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has side effect",
+    "kidney failure"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "unexplained muscle pain"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "muscle tenderness"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "muscle weakness"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "fever"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "unusual tiredness"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "dark urine"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "kidney problem"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "little or no urinating"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "painful or difficult urination"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "swelling in feet or ankles"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "feeling tired or short of breath"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "muscle weakness in hips, shoulders, neck, and back"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "trouble lifting arms"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "trouble climbing or standing"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "liver problem"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "nausea"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "upper stomach pain"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "itching"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "tired feeling"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "loss of appetite"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "clay-colored stools"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "jaundice"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has side effect",
+    "stuffy nose"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has side effect",
+    "sneezing"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has side effect",
+    "sore throat"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has warning",
+    "not a complete list of side effects"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "has instruction",
+    "call doctor for medical advice about side effects"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "simvastatin",
+    "should inform doctor about",
+    "report side effects to FDA at 1-800-FDA-1088"
+   ],
+   "raw_relation": "has reporting instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "delavirdine"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "fenofibrate"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "fluconazole"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "antibiotics"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "antifungal medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "heart medication"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "antiviral medications"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "HIV/AIDS medications"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "Paxlovid"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "prescription medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "over-the-counter medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "vitamins"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "simvastatin",
+    "interacts with",
+    "herbal products"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "simvastatin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "simvastatin",
+    "should inform doctor about",
+    "tell doctor about all medications"
+   ],
+   "raw_relation": "requires patient instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "simvastatin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "simvastatin",
+    "should inform doctor about",
+    "provide full list of medicines to healthcare providers"
+   ],
+   "raw_relation": "requires patient instruction",
+   "status": "mapped"
+  }
+ ],
+ "name": "Simvastatin",
+ "slug": "simvastatin",
+ "n_chunks": 13,
+ "seconds": 20.2,
+ "llm_model": "drugkg-llm"
+}

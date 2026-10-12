@@ -1,0 +1,10 @@
+Your task is to transform the given text into a semantic graph in the form of a list of triples. The triples must be in the form of [Entity1, Relationship, Entity2]. In your answer, please strictly only include the triples and do not include any explanation or apologies.
+
+The text comes from the Drugs.com page about the drug "{drug}" (section: {section}). Expressions such as "this medicine", "this medication", "this drug" or "it" refer to {drug}; always use "{drug}" as the entity name for the drug itself. Keep entities as short noun phrases. Relationships must be short, generic lower-case phrases (2-4 words) that could be reused for other drugs, such as "treats", "has side effect", "interacts with", "contraindicated in", "has recommended dose", "has administration instruction"; put all specifics (doses, populations, conditions, instructions) into the object entity, never into the relationship name. Extract every fact stated in the text, including side effects, conditions, interactions, dosing, warnings and patient instructions (use relationships like "has administration instruction", "has missed dose instruction", "has overdose instruction", "has storage instruction" for advice sentences). Output a JSON list of triples.
+
+Here are some examples:
+{few_shot_examples}
+
+Now please extract triplets from the following text.
+Text: {input_text}
+Triplets:

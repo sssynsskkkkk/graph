@@ -1,0 +1,76 @@
+chunking:
+  exclude_sections:
+  - related-drugs
+  - faq
+  - references
+  - more-about
+  - further-information
+  - images
+  - popular-faq
+  include_sections:
+  - uses
+  - warnings
+  - before-taking
+  - dosage
+  - missed-dose
+  - overdose
+  - what-to-avoid
+  - side-effects
+  - interactions
+  - ingredients
+  - manufacturer
+  - contraindications
+  include_unlisted_sections: true
+  max_chars: 1100
+  min_chars: 150
+edc:
+  auto_accept_sim: 0.97
+  consolidate_schema: true
+  consolidate_sim: 0.8
+  enrich_schema: true
+  new_relation_merge_sim: 0.8
+  refinement_iterations: 0
+  relation_hint_top_k: 10
+  schema_path: schemas/drug_seed_schema.csv
+  top_k_candidates: 5
+embedder:
+  device: cpu
+  model: BAAI/bge-base-en-v1.5
+entity_canon:
+  cluster_size: 128
+  numeric_guard: true
+  semhash_threshold: 0.95
+  top_k: 16
+  workers: 16
+llm:
+  api_key: EMPTY
+  base_url: http://localhost:8000/v1
+  cache_dir: output/cache/llm
+  concurrency: 16
+  extra_body:
+    chat_template_kwargs:
+      enable_thinking: false
+  max_tokens: 1024
+  model: drugkg-llm
+  temperature: 0.0
+  timeout: 300
+output:
+  dir: output
+  edc_dir: output/edc
+  kg_dir: output/kg
+  schema_dir: output/schema
+postprocess:
+  drop_relations: []
+  max_entity_chars: 120
+  min_enriched_relation_count: 2
+  relation_merges:
+    has instruction: has administration instruction
+scrape:
+  delay_range:
+  - 6
+  - 10
+  max_retries: 4
+  pages:
+  - main
+  raw_dir: data/raw_html
+  url_map: data/drug_urls.json

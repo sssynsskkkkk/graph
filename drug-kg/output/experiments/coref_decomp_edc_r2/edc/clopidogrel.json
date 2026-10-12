@@ -1,0 +1,4837 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "clopidogrel#what-is-clopidogrel#0",
+     "section_id": "what-is-clopidogrel",
+     "section_heading": "What is clopidogrel?",
+     "text": "Clopidogrel is used to lower your risk of having a stroke, blood clot, or serious heart problem.\nThis is done after you've had a heart attack, severe chest pain (angina), or circulation problems.\nClopidogrel may also be used for purposes not listed in this medication guide.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Clopidogrel\", \"treats\", \"stroke\"], [\"Clopidogrel\", \"treats\", \"blood clot\"], [\"Clopidogrel\", \"treats\", \"serious heart problem\"], [\"Clopidogrel\", \"used after\", \"heart attack\"], [\"Clopidogrel\", \"used after\", \"severe chest pain\"], [\"Clopidogrel\", \"used after\", \"circulation problems\"], [\"Clopidogrel\", \"has other uses\", \"not listed in this medication guide\"]]",
+     "oie": [
+      [
+       "Clopidogrel",
+       "treats",
+       "stroke"
+      ],
+      [
+       "Clopidogrel",
+       "treats",
+       "blood clot"
+      ],
+      [
+       "Clopidogrel",
+       "treats",
+       "serious heart problem"
+      ],
+      [
+       "Clopidogrel",
+       "used after",
+       "heart attack"
+      ],
+      [
+       "Clopidogrel",
+       "used after",
+       "severe chest pain"
+      ],
+      [
+       "Clopidogrel",
+       "used after",
+       "circulation problems"
+      ],
+      [
+       "Clopidogrel",
+       "has other uses",
+       "not listed in this medication guide"
+      ]
+     ],
+     "schema_definition": {
+      "has other uses": "The subject drug may be used for purposes that are not specified or listed in the provided medication guide.",
+      "treats": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+      "used after": "The subject drug is used following the medical event or condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Clopidogrel",
+        "treats",
+        "stroke"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "treats",
+        "blood clot"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "treats",
+        "serious heart problem"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "used after",
+        "heart attack"
+       ],
+       "raw_relation": "used after",
+       "definition": "The subject drug is used following the medical event or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "used after",
+        "severe chest pain"
+       ],
+       "raw_relation": "used after",
+       "definition": "The subject drug is used following the medical event or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "used after",
+        "circulation problems"
+       ],
+       "raw_relation": "used after",
+       "definition": "The subject drug is used following the medical event or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has other uses",
+        "not listed in this medication guide"
+       ],
+       "raw_relation": "has other uses",
+       "definition": "The subject drug may be used for purposes that are not specified or listed in the provided medication guide.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "has related treatment guide",
+         0.844
+        ],
+        [
+         "may be used for",
+         0.8316
+        ],
+        [
+         "may be prescribed with",
+         0.8299
+        ],
+        [
+         "has example of unapproved use",
+         0.8147
+        ],
+        [
+         "used after",
+         0.8123
+        ]
+       ],
+       "answer": "F. None of the"
+      }
+     ]
+    },
+    {
+     "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+     "section_id": "clopidogrel-side-effects",
+     "section_heading": "Clopidogrel side effects",
+     "text": "Get emergency medical help if you have signs of an allergic reaction: hives; difficult breathing; swelling of your face, lips, tongue, or throat.\nClopidogrel increases your risk of bleeding, which can be severe or life-threatening.\nCall your doctor or seek emergency medical attention if you have bleeding that will not stop.\nCall your doctor or seek emergency medical attention if you have blood in your urine.\nCall your doctor or seek emergency medical attention if you have black or bloody stools.\nCall your doctor or seek emergency medical attention if you cough up blood or vomit that looks like coffee grounds.\nAlso call your doctor at once if you have:\nnosebleeds, pale skin, easy bruising, purple spots under your skin or in your mouth;\njaundice (yellowing of your skin or eyes);\nfast heartbeats, shortness of breath;\nheadache, fever, weakness, feeling tired;\nlittle or no urination;\na seizure;\nlow blood sugar --headache, hunger, sweating, irritability, dizziness, fast heart rate, and feeling anxious or shaky; or",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Clopidogrel\", \"has serious side effect\", \"allergic reaction\"], [\"Clopidogrel\", \"has serious side effect\", \"hives\"], [\"Clopidogrel\", \"has serious side effect\", \"difficulty breathing\"], [\"Clopidogrel\", \"has serious side effect\", \"swelling of face\"], [\"Clopidogrel\", \"has serious side effect\", \"swelling of lips\"], [\"Clopidogrel\", \"has serious side effect\", \"swelling of tongue\"], [\"Clopidogrel\", \"has serious side effect\", \"swelling of throat\"], [\"Clopidogrel\", \"increases risk of\", \"bleeding\"], [\"Clopidogrel\", \"has administration instruction\", \"seek emergency medical attention if bleeding will not stop\"], [\"Clopidogrel\", \"has administration instruction\", \"seek emergency medical attention if blood in urine\"], [\"Clopidogrel\", \"has administration instruction\", \"seek emergency medical attention if black or bloody stools\"], [\"Clopidogrel\", \"has administration instruction\", \"seek emergency medical attention if cough up blood\"], [\"Clopidogrel\", \"has administration instruction\", \"seek emergency medical attention if vomit looks like coffee grounds\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if nosebleeds\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if pale skin\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if easy bruising\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if purple spots under skin\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if purple spots in mouth\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if jaundice\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if fast heartbeats\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if shortness of breath\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if headache\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if fever\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if weakness\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if feeling tired\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if little or no urination\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if seizure\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if low blood sugar\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if headache (low blood sugar)\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if hunger (low blood sugar)\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if sweating (low blood sugar)\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if irritability (low blood sugar)\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if dizziness (low blood sugar)\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if fast heart rate (low blood sugar)\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if feeling anxious (low blood sugar)\"], [\"Clopidogrel\", \"has administration instruction\", \"call doctor if shaky (low blood sugar)\"]]",
+     "oie": [
+      [
+       "Clopidogrel",
+       "has serious side effect",
+       "allergic reaction"
+      ],
+      [
+       "Clopidogrel",
+       "has serious side effect",
+       "hives"
+      ],
+      [
+       "Clopidogrel",
+       "has serious side effect",
+       "difficulty breathing"
+      ],
+      [
+       "Clopidogrel",
+       "has serious side effect",
+       "swelling of face"
+      ],
+      [
+       "Clopidogrel",
+       "has serious side effect",
+       "swelling of lips"
+      ],
+      [
+       "Clopidogrel",
+       "has serious side effect",
+       "swelling of tongue"
+      ],
+      [
+       "Clopidogrel",
+       "has serious side effect",
+       "swelling of throat"
+      ],
+      [
+       "Clopidogrel",
+       "increases risk of",
+       "bleeding"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "seek emergency medical attention if bleeding will not stop"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "seek emergency medical attention if blood in urine"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "seek emergency medical attention if black or bloody stools"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "seek emergency medical attention if cough up blood"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "seek emergency medical attention if vomit looks like coffee grounds"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if nosebleeds"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if pale skin"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if easy bruising"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if purple spots under skin"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if purple spots in mouth"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if jaundice"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if fast heartbeats"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if shortness of breath"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if headache"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if fever"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if weakness"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if feeling tired"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if little or no urination"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if seizure"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if low blood sugar"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if headache (low blood sugar)"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if hunger (low blood sugar)"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if sweating (low blood sugar)"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if irritability (low blood sugar)"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if dizziness (low blood sugar)"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if fast heart rate (low blood sugar)"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if feeling anxious (low blood sugar)"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "call doctor if shaky (low blood sugar)"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+      "increases risk of": "The subject drug increases the likelihood of the medical condition or event specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has serious side effect",
+        "hives"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has serious side effect",
+        "difficulty breathing"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has serious side effect",
+        "swelling of face"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has serious side effect",
+        "swelling of lips"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has serious side effect",
+        "swelling of tongue"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has serious side effect",
+        "swelling of throat"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "increases risk of",
+        "bleeding"
+       ],
+       "raw_relation": "increases risk of",
+       "definition": "The subject drug increases the likelihood of the medical condition or event specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "seek emergency medical attention if bleeding will not stop"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "seek emergency medical attention if blood in urine"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "seek emergency medical attention if black or bloody stools"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "seek emergency medical attention if cough up blood"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "seek emergency medical attention if vomit looks like coffee grounds"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if nosebleeds"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if pale skin"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if easy bruising"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if purple spots under skin"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if purple spots in mouth"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if jaundice"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if fast heartbeats"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if shortness of breath"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if headache"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if fever"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if weakness"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if feeling tired"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if little or no urination"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if seizure"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if low blood sugar"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if headache (low blood sugar)"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if hunger (low blood sugar)"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if sweating (low blood sugar)"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if irritability (low blood sugar)"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if dizziness (low blood sugar)"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if fast heart rate (low blood sugar)"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if feeling anxious (low blood sugar)"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "call doctor if shaky (low blood sugar)"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific medical guidance or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "clopidogrel#clopidogrel-side-effects#1",
+     "section_id": "clopidogrel-side-effects",
+     "section_heading": "Clopidogrel side effects",
+     "text": "signs of a blood clot --sudden numbness or weakness, confusion, problems with vision or speech.\nCommon side effects of clopidogrel may include:\nbleeding.\nThis is not a complete list of side effects and others may occur.\nCall your doctor for medical advice about side effects.\nYou may report side effects to FDA at 1-800-FDA-1088.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"clopidogrel\", \"has side effect\", \"bleeding\"], [\"clopidogrel\", \"has warning sign\", \"sudden numbness or weakness\"], [\"clopidogrel\", \"has warning sign\", \"confusion\"], [\"clopidogrel\", \"has warning sign\", \"problems with vision or speech\"], [\"clopidogrel\", \"has administration instruction\", \"call your doctor for medical advice about side effects\"], [\"clopidogrel\", \"has administration instruction\", \"report side effects to FDA at 1-800-FDA-1088\"]]",
+     "oie": [
+      [
+       "clopidogrel",
+       "has side effect",
+       "bleeding"
+      ],
+      [
+       "clopidogrel",
+       "has warning sign",
+       "sudden numbness or weakness"
+      ],
+      [
+       "clopidogrel",
+       "has warning sign",
+       "confusion"
+      ],
+      [
+       "clopidogrel",
+       "has warning sign",
+       "problems with vision or speech"
+      ],
+      [
+       "clopidogrel",
+       "has administration instruction",
+       "call your doctor for medical advice about side effects"
+      ],
+      [
+       "clopidogrel",
+       "has administration instruction",
+       "report side effects to FDA at 1-800-FDA-1088"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the action or instruction specified by the object entity to be followed by the patient.",
+      "has side effect": "The subject drug may cause the adverse effect specified by the object entity.",
+      "has warning sign": "The subject drug may be associated with the symptom or condition specified by the object entity, which may indicate a serious medical issue."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "clopidogrel",
+        "has side effect",
+        "bleeding"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has side effect",
+        "sudden numbness or weakness"
+       ],
+       "raw_relation": "has warning sign",
+       "definition": "The subject drug may be associated with the symptom or condition specified by the object entity, which may indicate a serious medical issue.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "related to",
+         0.9385
+        ],
+        [
+         "has side effect",
+         0.9049
+        ],
+        [
+         "has serious side effect",
+         0.9048
+        ],
+        [
+         "may be used for",
+         0.8836
+        ],
+        [
+         "has overdose symptom",
+         0.883
+        ]
+       ],
+       "answer": "B. 'has side"
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has side effect",
+        "confusion"
+       ],
+       "raw_relation": "has warning sign",
+       "definition": "The subject drug may be associated with the symptom or condition specified by the object entity, which may indicate a serious medical issue.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "related to",
+         0.9385
+        ],
+        [
+         "has side effect",
+         0.9049
+        ],
+        [
+         "has serious side effect",
+         0.9048
+        ],
+        [
+         "may be used for",
+         0.8836
+        ],
+        [
+         "has overdose symptom",
+         0.883
+        ]
+       ],
+       "answer": "B. 'has side"
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has side effect",
+        "problems with vision or speech"
+       ],
+       "raw_relation": "has warning sign",
+       "definition": "The subject drug may be associated with the symptom or condition specified by the object entity, which may indicate a serious medical issue.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "related to",
+         0.9385
+        ],
+        [
+         "has side effect",
+         0.9049
+        ],
+        [
+         "has serious side effect",
+         0.9048
+        ],
+        [
+         "may be used for",
+         0.8836
+        ],
+        [
+         "has overdose symptom",
+         0.883
+        ]
+       ],
+       "answer": "B. 'has side"
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has administration instruction",
+        "call your doctor for medical advice about side effects"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the action or instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has administration instruction",
+        "report side effects to FDA at 1-800-FDA-1088"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the action or instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "clopidogrel#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "You should not use clopidogrel if you have any active bleeding such as a stomach ulcer or bleeding in the brain.\nClopidogrel increases your risk of bleeding, which can be severe or life-threatening.\nCall your doctor or seek emergency medical attention if you have bleeding that will not stop.\nCall your doctor or seek emergency medical attention if you have blood in your urine.\nCall your doctor or seek emergency medical attention if you have black or bloody stools.\nCall your doctor or seek emergency medical attention if you cough up blood or vomit that looks like coffee grounds.\nDo not stop taking clopidogrel without first talking to your doctor, even if you have signs of bleeding.\nStopping clopidogrel may increase your risk of a heart attack or stroke.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"clopidogrel\", \"contraindicated in\", \"active bleeding\"], [\"clopidogrel\", \"contraindicated in\", \"stomach ulcer\"], [\"clopidogrel\", \"contraindicated in\", \"bleeding in the brain\"], [\"clopidogrel\", \"increases risk of\", \"bleeding\"], [\"clopidogrel\", \"has serious side effect\", \"severe or life-threatening bleeding\"], [\"clopidogrel\", \"has overdose instruction\", \"call your doctor or seek emergency medical attention if you have bleeding that will not stop\"], [\"clopidogrel\", \"has overdose instruction\", \"call your doctor or seek emergency medical attention if you have blood in your urine\"], [\"clopidogrel\", \"has overdose instruction\", \"call your doctor or seek emergency medical attention if you have black or bloody stools\"], [\"clopidogrel\", \"has overdose instruction\", \"call your doctor or seek emergency medical attention if you cough up blood or vomit that looks like coffee grounds\"], [\"clopidogrel\", \"has missed dose instruction\", \"do not stop taking clopidogrel without first talking to your doctor\"], [\"clopidogrel\", \"has warning\", \"stopping may increase risk of heart attack or stroke\"]]",
+     "oie": [
+      [
+       "clopidogrel",
+       "contraindicated in",
+       "active bleeding"
+      ],
+      [
+       "clopidogrel",
+       "contraindicated in",
+       "stomach ulcer"
+      ],
+      [
+       "clopidogrel",
+       "contraindicated in",
+       "bleeding in the brain"
+      ],
+      [
+       "clopidogrel",
+       "increases risk of",
+       "bleeding"
+      ],
+      [
+       "clopidogrel",
+       "has serious side effect",
+       "severe or life-threatening bleeding"
+      ],
+      [
+       "clopidogrel",
+       "has overdose instruction",
+       "call your doctor or seek emergency medical attention if you have bleeding that will not stop"
+      ],
+      [
+       "clopidogrel",
+       "has overdose instruction",
+       "call your doctor or seek emergency medical attention if you have blood in your urine"
+      ],
+      [
+       "clopidogrel",
+       "has overdose instruction",
+       "call your doctor or seek emergency medical attention if you have black or bloody stools"
+      ],
+      [
+       "clopidogrel",
+       "has overdose instruction",
+       "call your doctor or seek emergency medical attention if you cough up blood or vomit that looks like coffee grounds"
+      ],
+      [
+       "clopidogrel",
+       "has missed dose instruction",
+       "do not stop taking clopidogrel without first talking to your doctor"
+      ],
+      [
+       "clopidogrel",
+       "has warning",
+       "stopping may increase risk of heart attack or stroke"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "has missed dose instruction": "Patients taking the subject drug should follow the specific instruction provided for missing a dose.",
+      "has overdose instruction": "Patients taking the subject drug should follow the specific instruction provided in case of overdose or adverse effects.",
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+      "has warning": "The subject drug has a specific warning or caution related to the object entity.",
+      "increases risk of": "The subject drug is associated with an increased risk of the medical condition or event specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "clopidogrel",
+        "contraindicated in",
+        "active bleeding"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "contraindicated in",
+        "stomach ulcer"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "contraindicated in",
+        "bleeding in the brain"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "increases risk of",
+        "bleeding"
+       ],
+       "raw_relation": "increases risk of",
+       "definition": "The subject drug is associated with an increased risk of the medical condition or event specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has serious side effect",
+        "severe or life-threatening bleeding"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has overdose instruction",
+        "call your doctor or seek emergency medical attention if you have bleeding that will not stop"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "Patients taking the subject drug should follow the specific instruction provided in case of overdose or adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has overdose instruction",
+        "call your doctor or seek emergency medical attention if you have blood in your urine"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "Patients taking the subject drug should follow the specific instruction provided in case of overdose or adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has overdose instruction",
+        "call your doctor or seek emergency medical attention if you have black or bloody stools"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "Patients taking the subject drug should follow the specific instruction provided in case of overdose or adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has overdose instruction",
+        "call your doctor or seek emergency medical attention if you cough up blood or vomit that looks like coffee grounds"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "Patients taking the subject drug should follow the specific instruction provided in case of overdose or adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has missed dose instruction",
+        "do not stop taking clopidogrel without first talking to your doctor"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "Patients taking the subject drug should follow the specific instruction provided for missing a dose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has warning",
+        "stopping may increase risk of heart attack or stroke"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a specific warning or caution related to the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "clopidogrel#before-taking-this-medicine#0",
+     "section_id": "before-taking-this-medicine",
+     "section_heading": "Before taking this medicine",
+     "text": "You should not use clopidogrel if you are allergic to clopidogrel, or if you have:\nany active bleeding; or\na stomach ulcer or bleeding in the brain (such as from a head injury).\nTell your doctor if you have ever had:\nan ulcer in your stomach or intestines; or\na bleeding disorder or blood clotting disorder.\nClopidogrel may not work as well.\nThis may happen if you have certain genetic factors.\nThese genetic factors affect the breakdown of this medicine in your body.\nYour doctor may perform a blood test to make sure clopidogrel is right for you.\nThis medicine is not expected to harm an unborn baby.\nHowever, taking clopidogrel within 1 week before childbirth can cause bleeding in the mother.\nTell your doctor if you are pregnant or plan to become pregnant.\nYou should not breastfeed while using this medicine.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"clopidogrel\", \"contraindicated in\", \"allergy to clopidogrel\"], [\"clopidogrel\", \"contraindicated in\", \"active bleeding\"], [\"clopidogrel\", \"contraindicated in\", \"stomach ulcer\"], [\"clopidogrel\", \"contraindicated in\", \"brain bleeding\"], [\"clopidogrel\", \"use with caution in\", \"stomach or intestinal ulcer\"], [\"clopidogrel\", \"use with caution in\", \"bleeding disorder\"], [\"clopidogrel\", \"use with caution in\", \"blood clotting disorder\"], [\"clopidogrel\", \"has reduced efficacy in\", \"certain genetic factors\"], [\"clopidogrel\", \"has mechanism of action\", \"breakdown affected by genetic factors\"], [\"clopidogrel\", \"requires monitoring of\", \"blood test\"], [\"clopidogrel\", \"has pregnancy or breastfeeding warning\", \"not expected to harm unborn baby\"], [\"clopidogrel\", \"has pregnancy or breastfeeding warning\", \"can cause bleeding in mother if taken within 1 week before childbirth\"], [\"clopidogrel\", \"use with caution in\", \"pregnancy\"], [\"clopidogrel\", \"contraindicated in\", \"breastfeeding\"]]",
+     "oie": [
+      [
+       "clopidogrel",
+       "contraindicated in",
+       "allergy to clopidogrel"
+      ],
+      [
+       "clopidogrel",
+       "contraindicated in",
+       "active bleeding"
+      ],
+      [
+       "clopidogrel",
+       "contraindicated in",
+       "stomach ulcer"
+      ],
+      [
+       "clopidogrel",
+       "contraindicated in",
+       "brain bleeding"
+      ],
+      [
+       "clopidogrel",
+       "use with caution in",
+       "stomach or intestinal ulcer"
+      ],
+      [
+       "clopidogrel",
+       "use with caution in",
+       "bleeding disorder"
+      ],
+      [
+       "clopidogrel",
+       "use with caution in",
+       "blood clotting disorder"
+      ],
+      [
+       "clopidogrel",
+       "has reduced efficacy in",
+       "certain genetic factors"
+      ],
+      [
+       "clopidogrel",
+       "has mechanism of action",
+       "breakdown affected by genetic factors"
+      ],
+      [
+       "clopidogrel",
+       "requires monitoring of",
+       "blood test"
+      ],
+      [
+       "clopidogrel",
+       "has pregnancy or breastfeeding warning",
+       "not expected to harm unborn baby"
+      ],
+      [
+       "clopidogrel",
+       "has pregnancy or breastfeeding warning",
+       "can cause bleeding in mother if taken within 1 week before childbirth"
+      ],
+      [
+       "clopidogrel",
+       "use with caution in",
+       "pregnancy"
+      ],
+      [
+       "clopidogrel",
+       "contraindicated in",
+       "breastfeeding"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition or situation specified by the object entity.",
+      "has mechanism of action": "The subject drug functions through the mechanism or process specified by the object entity.",
+      "has pregnancy or breastfeeding warning": "The subject drug has specific warnings or considerations related to pregnancy or breastfeeding as described by the object entity.",
+      "has reduced efficacy in": "The subject drug may be less effective in patients with the condition or factor specified by the object entity.",
+      "requires monitoring of": "The subject drug requires medical monitoring or testing as specified by the object entity.",
+      "use with caution in": "The subject drug may require medical supervision or caution for patients with the condition or situation specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "clopidogrel",
+        "contraindicated in",
+        "allergy to clopidogrel"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "contraindicated in",
+        "active bleeding"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "contraindicated in",
+        "stomach ulcer"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "contraindicated in",
+        "brain bleeding"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "use with caution in",
+        "stomach or intestinal ulcer"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients with the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "use with caution in",
+        "bleeding disorder"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients with the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "use with caution in",
+        "blood clotting disorder"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients with the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has reduced efficacy in",
+        "certain genetic factors"
+       ],
+       "raw_relation": "has reduced efficacy in",
+       "definition": "The subject drug may be less effective in patients with the condition or factor specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "reduces",
+         0.8831
+        ],
+        [
+         "has dose adjustment instruction",
+         0.869
+        ],
+        [
+         "used after",
+         0.8532
+        ],
+        [
+         "related to",
+         0.8502
+        ],
+        [
+         "may be used for",
+         0.8458
+        ]
+       ],
+       "answer": "F. None of the"
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has mechanism of action",
+        "breakdown affected by genetic factors"
+       ],
+       "raw_relation": "has mechanism of action",
+       "definition": "The subject drug functions through the mechanism or process specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "requires monitoring of",
+        "blood test"
+       ],
+       "raw_relation": "requires monitoring of",
+       "definition": "The subject drug requires medical monitoring or testing as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has pregnancy or breastfeeding warning",
+        "not expected to harm unborn baby"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug has specific warnings or considerations related to pregnancy or breastfeeding as described by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has pregnancy or breastfeeding warning",
+        "can cause bleeding in mother if taken within 1 week before childbirth"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug has specific warnings or considerations related to pregnancy or breastfeeding as described by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "use with caution in",
+        "pregnancy"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients with the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "contraindicated in",
+        "breastfeeding"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "clopidogrel#how-should-i-take-clopidogrel#0",
+     "section_id": "how-should-i-take-clopidogrel",
+     "section_heading": "How should I take clopidogrel?",
+     "text": "Follow all directions on your prescription label and read all medication guides or instruction sheets.\nUse these medicines exactly as directed.\nClopidogrel can be taken with or without food.\nClopidogrel is sometimes taken together with aspirin.\nTake aspirin only if your doctor tells you to.\nClopidogrel keeps your blood from coagulating (clotting).\nIt can make it easier for you to bleed, even from a minor injury.\nContact your doctor or seek emergency medical attention if you have any bleeding that will not stop.\nYou may need to stop using clopidogrel for a short time before a surgery, medical procedure, or dental work.\nAny healthcare provider who treats you should know that you are taking clopidogrel.\nDo not stop taking clopidogrel without first talking to your doctor, even if you have signs of bleeding.\nStopping the medicine could increase your risk of a heart attack or stroke.\nStore at room temperature away from moisture and heat.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"clopidogrel\", \"has administration instruction\", \"follow all directions on prescription label\"], [\"clopidogrel\", \"has administration instruction\", \"read all medication guides or instruction sheets\"], [\"clopidogrel\", \"has administration instruction\", \"use exactly as directed\"], [\"clopidogrel\", \"can be taken with or without\", \"food\"], [\"clopidogrel\", \"used in combination with\", \"aspirin\"], [\"aspirin\", \"has administration instruction\", \"take only if doctor tells you to\"], [\"clopidogrel\", \"has mechanism of action\", \"prevents blood coagulation\"], [\"clopidogrel\", \"has side effect\", \"increased risk of bleeding from minor injury\"], [\"clopidogrel\", \"has overdose instruction\", \"contact doctor or seek emergency medical attention for uncontrolled bleeding\"], [\"clopidogrel\", \"has administration instruction\", \"may need to stop use before surgery, medical procedure, or dental work\"], [\"clopidogrel\", \"has administration instruction\", \"healthcare provider should know you are taking it\"], [\"clopidogrel\", \"has administration instruction\", \"do not stop without talking to doctor even with signs of bleeding\"], [\"clopidogrel\", \"has warning\", \"stopping medicine could increase risk of heart attack or stroke\"], [\"clopidogrel\", \"has storage instruction\", \"store at room temperature away from moisture and heat\"]]",
+     "oie": [
+      [
+       "clopidogrel",
+       "has administration instruction",
+       "follow all directions on prescription label"
+      ],
+      [
+       "clopidogrel",
+       "has administration instruction",
+       "read all medication guides or instruction sheets"
+      ],
+      [
+       "clopidogrel",
+       "has administration instruction",
+       "use exactly as directed"
+      ],
+      [
+       "clopidogrel",
+       "can be taken with or without",
+       "food"
+      ],
+      [
+       "clopidogrel",
+       "used in combination with",
+       "aspirin"
+      ],
+      [
+       "aspirin",
+       "has administration instruction",
+       "take only if doctor tells you to"
+      ],
+      [
+       "clopidogrel",
+       "has mechanism of action",
+       "prevents blood coagulation"
+      ],
+      [
+       "clopidogrel",
+       "has side effect",
+       "increased risk of bleeding from minor injury"
+      ],
+      [
+       "clopidogrel",
+       "has overdose instruction",
+       "contact doctor or seek emergency medical attention for uncontrolled bleeding"
+      ],
+      [
+       "clopidogrel",
+       "has administration instruction",
+       "may need to stop use before surgery, medical procedure, or dental work"
+      ],
+      [
+       "clopidogrel",
+       "has administration instruction",
+       "healthcare provider should know you are taking it"
+      ],
+      [
+       "clopidogrel",
+       "has administration instruction",
+       "do not stop without talking to doctor even with signs of bleeding"
+      ],
+      [
+       "clopidogrel",
+       "has warning",
+       "stopping medicine could increase risk of heart attack or stroke"
+      ],
+      [
+       "clopidogrel",
+       "has storage instruction",
+       "store at room temperature away from moisture and heat"
+      ]
+     ],
+     "schema_definition": {
+      "can be taken with or without": "The subject drug may be administered with or without the object entity, indicating flexibility in its administration regarding food intake.",
+      "has administration instruction": "The subject drug requires the specific administrative guidance or action specified by the object entity to be followed by the patient.",
+      "has mechanism of action": "The subject drug functions by the biological or pharmacological mechanism specified by the object entity.",
+      "has overdose instruction": "The subject drug requires the specific action or response specified by the object entity in case of overdose or adverse effects.",
+      "has side effect": "The subject drug may cause the adverse effect or complication specified by the object entity.",
+      "has storage instruction": "The subject drug should be stored under the specific environmental conditions specified by the object entity.",
+      "has warning": "The subject drug carries a caution or risk specified by the object entity that patients should be aware of.",
+      "used in combination with": "The subject drug is administered together with the object entity to achieve a therapeutic effect or manage a medical condition."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "clopidogrel",
+        "has administration instruction",
+        "follow all directions on prescription label"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administrative guidance or action specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has administration instruction",
+        "read all medication guides or instruction sheets"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administrative guidance or action specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has administration instruction",
+        "use exactly as directed"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administrative guidance or action specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has administration instruction",
+        "food"
+       ],
+       "raw_relation": "can be taken with or without",
+       "definition": "The subject drug may be administered with or without the object entity, indicating flexibility in its administration regarding food intake.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.8532
+        ],
+        [
+         "may be used for",
+         0.828
+        ],
+        [
+         "administered via",
+         0.8255
+        ],
+        [
+         "has dosage form",
+         0.8223
+        ],
+        [
+         "has recommended dose",
+         0.8176
+        ]
+       ],
+       "answer": "A. 'has administration"
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "used in combination with",
+        "aspirin"
+       ],
+       "raw_relation": "used in combination with",
+       "definition": "The subject drug is administered together with the object entity to achieve a therapeutic effect or manage a medical condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "aspirin",
+        "has administration instruction",
+        "take only if doctor tells you to"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administrative guidance or action specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has mechanism of action",
+        "prevents blood coagulation"
+       ],
+       "raw_relation": "has mechanism of action",
+       "definition": "The subject drug functions by the biological or pharmacological mechanism specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has side effect",
+        "increased risk of bleeding from minor injury"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or complication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has overdose instruction",
+        "contact doctor or seek emergency medical attention for uncontrolled bleeding"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the specific action or response specified by the object entity in case of overdose or adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has administration instruction",
+        "may need to stop use before surgery, medical procedure, or dental work"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administrative guidance or action specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has administration instruction",
+        "healthcare provider should know you are taking it"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administrative guidance or action specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has administration instruction",
+        "do not stop without talking to doctor even with signs of bleeding"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administrative guidance or action specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has warning",
+        "stopping medicine could increase risk of heart attack or stroke"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or risk specified by the object entity that patients should be aware of.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clopidogrel",
+        "has storage instruction",
+        "store at room temperature away from moisture and heat"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug should be stored under the specific environmental conditions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "clopidogrel#clopidogrel-dosing-information#0",
+     "section_id": "clopidogrel-dosing-information",
+     "section_heading": "Clopidogrel dosing information",
+     "text": "Usual Adult Dose for Acute Coronary Syndrome:\nUnstable Angina (UA)/Non-ST-Elevation Myocardial Infarction (NSTEMI) has a loading dose of 300 mg orally once.\nThe maintenance dose is 75 mg orally once a day.\nThe duration of therapy is optimal unknown.\nST-Elevation Myocardial Infarction (STEMI) has an optional loading dose of 300 mg orally once.\nThe maintenance dose is 75 mg orally once a day, with or without thrombolytics.\nThe optimal duration of therapy is unknown.\nComments: -Administer Clopidogrel in combination with aspirin 75 mg to 325 mg orally once a day.\nThe benefit of Clopidogrel is unknown.\nThis applies to patients who undergo primary percutaneous coronary intervention.\nUses include prevention of atherothrombotic events.\nThis applies to patients with non-ST-segment elevation acute coronary syndrome.\nThis includes patients with UA.\nThis includes patients with NSTEMI.\nThis includes those who are to be managed medically.\nThis includes those who are to be managed with coronary revascularization.\nThis also applies to patients with STEMI.\nUsual Adult Dose for Ischemic Stroke:",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Clopidogrel\", \"has recommended dose\", \"300 mg orally once\"], [\"Clopidogrel\", \"has recommended dose\", \"75 mg orally once a day\"], [\"Clopidogrel\", \"has duration of therapy\", \"optimal unknown\"], [\"Clopidogrel\", \"has optional loading dose\", \"300 mg orally once\"], [\"Clopidogrel\", \"has maintenance dose\", \"75 mg orally once a day\"], [\"Clopidogrel\", \"has maintenance dose with or without\", \"thrombolytics\"], [\"Clopidogrel\", \"administered in combination with\", \"aspirin 75 mg to 325 mg orally once a day\"], [\"Clopidogrel\", \"has use\", \"prevention of atherothrombotic events\"], [\"Clopidogrel\", \"applies to patients with\", \"non-ST-segment elevation acute coronary syndrome\"], [\"Clopidogrel\", \"applies to patients with\", \"unstable angina (UA)\"], [\"Clopidogrel\", \"applies to patients with\", \"non-ST-elevation myocardial infarction (NSTEMI)\"], [\"Clopidogrel\", \"applies to patients who are to be managed\", \"medically\"], [\"Clopidogrel\", \"applies to patients who are to be managed with\", \"coronary revascularization\"], [\"Clopidogrel\", \"applies to patients with\", \"ST-elevation myocardial infarction (STEMI)\"], [\"Clopidogrel\", \"has benefit\", \"unknown\"], [\"Clopidogrel\", \"applies to patients who undergo\", \"primary percutaneous coronary intervention\"], [\"Clopidogrel\", \"has use\", \"ischemic stroke\"]]",
+     "oie": [
+      [
+       "Clopidogrel",
+       "has recommended dose",
+       "300 mg orally once"
+      ],
+      [
+       "Clopidogrel",
+       "has recommended dose",
+       "75 mg orally once a day"
+      ],
+      [
+       "Clopidogrel",
+       "has duration of therapy",
+       "optimal unknown"
+      ],
+      [
+       "Clopidogrel",
+       "has optional loading dose",
+       "300 mg orally once"
+      ],
+      [
+       "Clopidogrel",
+       "has maintenance dose",
+       "75 mg orally once a day"
+      ],
+      [
+       "Clopidogrel",
+       "has maintenance dose with or without",
+       "thrombolytics"
+      ],
+      [
+       "Clopidogrel",
+       "administered in combination with",
+       "aspirin 75 mg to 325 mg orally once a day"
+      ],
+      [
+       "Clopidogrel",
+       "has use",
+       "prevention of atherothrombotic events"
+      ],
+      [
+       "Clopidogrel",
+       "applies to patients with",
+       "non-ST-segment elevation acute coronary syndrome"
+      ],
+      [
+       "Clopidogrel",
+       "applies to patients with",
+       "unstable angina (UA)"
+      ],
+      [
+       "Clopidogrel",
+       "applies to patients with",
+       "non-ST-elevation myocardial infarction (NSTEMI)"
+      ],
+      [
+       "Clopidogrel",
+       "applies to patients who are to be managed",
+       "medically"
+      ],
+      [
+       "Clopidogrel",
+       "applies to patients who are to be managed with",
+       "coronary revascularization"
+      ],
+      [
+       "Clopidogrel",
+       "applies to patients with",
+       "ST-elevation myocardial infarction (STEMI)"
+      ],
+      [
+       "Clopidogrel",
+       "has benefit",
+       "unknown"
+      ],
+      [
+       "Clopidogrel",
+       "applies to patients who undergo",
+       "primary percutaneous coronary intervention"
+      ],
+      [
+       "Clopidogrel",
+       "has use",
+       "ischemic stroke"
+      ]
+     ],
+     "schema_definition": {
+      "administered in combination with": "The subject drug is given together with the substance or medication specified by the object entity.",
+      "applies to patients who are to be managed": "The subject drug is used for patients who are managed in the manner specified by the object entity.",
+      "applies to patients who are to be managed with": "The subject drug is used for patients who are managed with the procedure or treatment specified by the object entity.",
+      "applies to patients who undergo": "The subject drug is used for patients who undergo the procedure specified by the object entity.",
+      "applies to patients with": "The subject drug is used for patients who have the condition specified by the object entity.",
+      "has benefit": "The subject drug has the benefit or therapeutic effect specified by the object entity.",
+      "has duration of therapy": "The subject drug has a duration of therapy specified by the object entity.",
+      "has maintenance dose": "The subject drug has a maintenance dose specified by the object entity.",
+      "has maintenance dose with or without": "The subject drug has a maintenance dose that may be used with or without the substance or treatment specified by the object entity.",
+      "has optional loading dose": "The subject drug has an optional loading dose specified by the object entity.",
+      "has recommended dose": "The subject drug has a recommended dose specified by the object entity.",
+      "has use": "The subject drug is used for the purpose or indication specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has recommended dose",
+        "300 mg orally once"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug has a recommended dose specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has recommended dose",
+        "75 mg orally once a day"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug has a recommended dose specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has duration of treatment",
+        "optimal unknown"
+       ],
+       "raw_relation": "has duration of therapy",
+       "definition": "The subject drug has a duration of therapy specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has duration of treatment",
+         0.9282
+        ],
+        [
+         "used after",
+         0.8963
+        ],
+        [
+         "has related treatment guide",
+         0.8801
+        ],
+        [
+         "has recommended dose",
+         0.8757
+        ],
+        [
+         "may be used for",
+         0.875
+        ]
+       ],
+       "answer": "A. 'has duration"
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has recommended dose",
+        "300 mg orally once"
+       ],
+       "raw_relation": "has optional loading dose",
+       "definition": "The subject drug has an optional loading dose specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has dose limitation",
+         0.8877
+        ],
+        [
+         "has strength",
+         0.8876
+        ],
+        [
+         "has recommended dose",
+         0.8682
+        ],
+        [
+         "has dosage form",
+         0.8679
+        ],
+        [
+         "has dose adjustment instruction",
+         0.838
+        ]
+       ],
+       "answer": "C. 'has recommended"
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has recommended dose",
+        "75 mg orally once a day"
+       ],
+       "raw_relation": "has maintenance dose",
+       "definition": "The subject drug has a maintenance dose specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has dose limitation",
+         0.9034
+        ],
+        [
+         "has strength",
+         0.8808
+        ],
+        [
+         "has recommended dose",
+         0.8786
+        ],
+        [
+         "has dosage form",
+         0.8736
+        ],
+        [
+         "has dose adjustment instruction",
+         0.8582
+        ]
+       ],
+       "answer": "C. 'has recommended"
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has dose adjustment instruction",
+        "thrombolytics"
+       ],
+       "raw_relation": "has maintenance dose with or without",
+       "definition": "The subject drug has a maintenance dose that may be used with or without the substance or treatment specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.881
+        ],
+        [
+         "has dose limitation",
+         0.8801
+        ],
+        [
+         "used after",
+         0.8724
+        ],
+        [
+         "may be used for",
+         0.8715
+        ],
+        [
+         "has dose adjustment instruction",
+         0.865
+        ]
+       ],
+       "answer": "E. 'has dose"
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "may be prescribed with",
+        "aspirin 75 mg to 325 mg orally once a day"
+       ],
+       "raw_relation": "administered in combination with",
+       "definition": "The subject drug is given together with the substance or medication specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may be prescribed with",
+         0.9503
+        ],
+        [
+         "may be used for",
+         0.9148
+        ],
+        [
+         "used after",
+         0.9101
+        ],
+        [
+         "has dosage form",
+         0.9042
+        ],
+        [
+         "related to",
+         0.9037
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "may be used for",
+        "prevention of atherothrombotic events"
+       ],
+       "raw_relation": "has use",
+       "definition": "The subject drug is used for the purpose or indication specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may be used for",
+         0.9692
+        ],
+        [
+         "used after",
+         0.9328
+        ],
+        [
+         "treats",
+         0.9309
+        ],
+        [
+         "related to",
+         0.9116
+        ],
+        [
+         "has dosage form",
+         0.9112
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "may be used for",
+        "non-ST-segment elevation acute coronary syndrome"
+       ],
+       "raw_relation": "applies to patients with",
+       "definition": "The subject drug is used for patients who have the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may be used for",
+         0.9426
+        ],
+        [
+         "treats",
+         0.9414
+        ],
+        [
+         "used after",
+         0.941
+        ],
+        [
+         "related to",
+         0.9328
+        ],
+        [
+         "used in population",
+         0.9156
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "treats",
+        "unstable angina (UA)"
+       ],
+       "raw_relation": "applies to patients with",
+       "definition": "The subject drug is used for patients who have the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may be used for",
+         0.9426
+        ],
+        [
+         "treats",
+         0.9414
+        ],
+        [
+         "used after",
+         0.941
+        ],
+        [
+         "related to",
+         0.9328
+        ],
+        [
+         "used in population",
+         0.9156
+        ]
+       ],
+       "answer": "B. 'treat"
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "treats",
+        "non-ST-elevation myocardial infarction (NSTEMI)"
+       ],
+       "raw_relation": "applies to patients with",
+       "definition": "The subject drug is used for patients who have the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may be used for",
+         0.9426
+        ],
+        [
+         "treats",
+         0.9414
+        ],
+        [
+         "used after",
+         0.941
+        ],
+        [
+         "related to",
+         0.9328
+        ],
+        [
+         "used in population",
+         0.9156
+        ]
+       ],
+       "answer": "B. 'treat"
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "may be used for",
+        "medically"
+       ],
+       "raw_relation": "applies to patients who are to be managed",
+       "definition": "The subject drug is used for patients who are managed in the manner specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "treats",
+         0.9407
+        ],
+        [
+         "used after",
+         0.9136
+        ],
+        [
+         "may be used for",
+         0.9104
+        ],
+        [
+         "used in population",
+         0.9055
+        ],
+        [
+         "has recommended dose",
+         0.8992
+        ]
+       ],
+       "answer": "C. 'may be"
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "applies to patients who are to be managed with",
+        "coronary revascularization"
+       ],
+       "raw_relation": "applies to patients who are to be managed with",
+       "definition": "The subject drug is used for patients who are managed with the procedure or treatment specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "treats",
+         0.9408
+        ],
+        [
+         "used after",
+         0.9215
+        ],
+        [
+         "has related treatment guide",
+         0.9034
+        ],
+        [
+         "used in population",
+         0.8999
+        ],
+        [
+         "may be used for",
+         0.8972
+        ]
+       ],
+       "answer": "F. None of the"
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "treats",
+        "ST-elevation myocardial infarction (STEMI)"
+       ],
+       "raw_relation": "applies to patients with",
+       "definition": "The subject drug is used for patients who have the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may be used for",
+         0.9426
+        ],
+        [
+         "treats",
+         0.9414
+        ],
+        [
+         "used after",
+         0.941
+        ],
+        [
+         "related to",
+         0.9328
+        ],
+        [
+         "used in population",
+         0.9156
+        ]
+       ],
+       "answer": "B. 'treat"
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has benefit",
+        "unknown"
+       ],
+       "raw_relation": "has benefit",
+       "definition": "The subject drug has the benefit or therapeutic effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "used after",
+        "primary percutaneous coronary intervention"
+       ],
+       "raw_relation": "applies to patients who undergo",
+       "definition": "The subject drug is used for patients who undergo the procedure specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used after",
+         0.9265
+        ],
+        [
+         "treats",
+         0.9101
+        ],
+        [
+         "may be used for",
+         0.9101
+        ],
+        [
+         "has related treatment guide",
+         0.9018
+        ],
+        [
+         "used in population",
+         0.8991
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "treats",
+        "ischemic stroke"
+       ],
+       "raw_relation": "has use",
+       "definition": "The subject drug is used for the purpose or indication specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may be used for",
+         0.9692
+        ],
+        [
+         "used after",
+         0.9328
+        ],
+        [
+         "treats",
+         0.9309
+        ],
+        [
+         "related to",
+         0.9116
+        ],
+        [
+         "has dosage form",
+         0.9112
+        ]
+       ],
+       "answer": "C. 'treat"
+      }
+     ]
+    },
+    {
+     "chunk_id": "clopidogrel#clopidogrel-dosing-information#1",
+     "section_id": "clopidogrel-dosing-information",
+     "section_heading": "Clopidogrel dosing information",
+     "text": "75 mg is taken orally once a day.\nThe uses include prevention of atherothrombotic events.\nThis applies to patients with a history of recent myocardial infarction.\nThis applies to patients with a history of recent stroke.\nThis applies to patients with established peripheral arterial disease.\nUsual Adult Dose for Myocardial Infarction:\n75 mg is taken orally once a day.\nThe uses include prevention of atherothrombotic events.\nThis applies to patients with a history of recent myocardial infarction.\nThis applies to patients with a history of recent stroke.\nThis applies to patients with established peripheral arterial disease.\nUsual Adult Dose for Peripheral Arterial Disease:\n75 mg is taken orally once a day.\nThe uses include prevention of atherothrombotic events.\nThis applies to patients with a history of recent myocardial infarction.\nThis applies to patients with a history of recent stroke.\nThis applies to patients with established peripheral arterial disease.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Clopidogrel\", \"has recommended dose\", \"75 mg orally once a day\"], [\"Clopidogrel\", \"used for\", \"prevention of atherothrombotic events\"], [\"Clopidogrel\", \"applies to\", \"patients with history of recent myocardial infarction\"], [\"Clopidogrel\", \"applies to\", \"patients with history of recent stroke\"], [\"Clopidogrel\", \"applies to\", \"patients with established peripheral arterial disease\"], [\"Clopidogrel\", \"has recommended dose\", \"75 mg orally once a day\"], [\"Clopidogrel\", \"used for\", \"prevention of atherothrombotic events\"], [\"Clopidogrel\", \"applies to\", \"patients with history of recent myocardial infarction\"], [\"Clopidogrel\", \"applies to\", \"patients with history of recent stroke\"], [\"Clopidogrel\", \"applies to\", \"patients with established peripheral arterial disease\"], [\"Clopidogrel\", \"has recommended dose\", \"75 mg orally once a day\"], [\"Clopidogrel\", \"used for\", \"prevention of atherothrombotic events\"], [\"Clopidogrel\", \"applies to\", \"patients with history of recent myocardial infarction\"], [\"Clopidogrel\", \"applies to\", \"patients with history of recent stroke\"], [\"Clopidogrel\", \"applies to\", \"patients with established peripheral arterial disease\"]]",
+     "oie": [
+      [
+       "Clopidogrel",
+       "has recommended dose",
+       "75 mg orally once a day"
+      ],
+      [
+       "Clopidogrel",
+       "used for",
+       "prevention of atherothrombotic events"
+      ],
+      [
+       "Clopidogrel",
+       "applies to",
+       "patients with history of recent myocardial infarction"
+      ],
+      [
+       "Clopidogrel",
+       "applies to",
+       "patients with history of recent stroke"
+      ],
+      [
+       "Clopidogrel",
+       "applies to",
+       "patients with established peripheral arterial disease"
+      ]
+     ],
+     "schema_definition": {
+      "applies to": "The subject drug is indicated or applicable for the patient group or condition specified by the object entity.",
+      "has recommended dose": "The subject drug is administered at the dose regimen specified by the object entity.",
+      "used for": "The subject drug is used to prevent or manage the medical condition or event specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has recommended dose",
+        "75 mg orally once a day"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug is administered at the dose regimen specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "reduces risk of",
+        "prevention of atherothrombotic events"
+       ],
+       "raw_relation": "used for",
+       "definition": "The subject drug is used to prevent or manage the medical condition or event specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "reduces risk of",
+         0.9594
+        ],
+        [
+         "treats",
+         0.9555
+        ],
+        [
+         "may be used for",
+         0.9127
+        ],
+        [
+         "related to",
+         0.9081
+        ],
+        [
+         "used after",
+         0.8944
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "used in population",
+        "patients with history of recent myocardial infarction"
+       ],
+       "raw_relation": "applies to",
+       "definition": "The subject drug is indicated or applicable for the patient group or condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.921
+        ],
+        [
+         "treats",
+         0.9205
+        ],
+        [
+         "may be used for",
+         0.92
+        ],
+        [
+         "used after",
+         0.9139
+        ],
+        [
+         "related to",
+         0.9123
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "used in population",
+        "patients with history of recent stroke"
+       ],
+       "raw_relation": "applies to",
+       "definition": "The subject drug is indicated or applicable for the patient group or condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.921
+        ],
+        [
+         "treats",
+         0.9205
+        ],
+        [
+         "may be used for",
+         0.92
+        ],
+        [
+         "used after",
+         0.9139
+        ],
+        [
+         "related to",
+         0.9123
+        ]
+       ],
+       "answer": "A. 'used in"
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "used in population",
+        "patients with established peripheral arterial disease"
+       ],
+       "raw_relation": "applies to",
+       "definition": "The subject drug is indicated or applicable for the patient group or condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.921
+        ],
+        [
+         "treats",
+         0.9205
+        ],
+        [
+         "may be used for",
+         0.92
+        ],
+        [
+         "used after",
+         0.9139
+        ],
+        [
+         "related to",
+         0.9123
+        ]
+       ],
+       "answer": "A. 'used in"
+      }
+     ]
+    },
+    {
+     "chunk_id": "clopidogrel#what-happens-if-i-miss-a-dose#0",
+     "section_id": "what-happens-if-i-miss-a-dose",
+     "section_heading": "What happens if I miss a dose?",
+     "text": "Take the medicine as soon as you can.\nSkip the missed dose if it is almost time for your next dose.\nDo not take two doses at one time.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Clopidogrel\", \"has missed dose instruction\", \"take the medicine as soon as you can\"], [\"Clopidogrel\", \"has missed dose instruction\", \"skip the missed dose if it is almost time for your next dose\"], [\"Clopidogrel\", \"has missed dose instruction\", \"do not take two doses at one time\"]]",
+     "oie": [
+      [
+       "Clopidogrel",
+       "has missed dose instruction",
+       "take the medicine as soon as you can"
+      ],
+      [
+       "Clopidogrel",
+       "has missed dose instruction",
+       "skip the missed dose if it is almost time for your next dose"
+      ],
+      [
+       "Clopidogrel",
+       "has missed dose instruction",
+       "do not take two doses at one time"
+      ]
+     ],
+     "schema_definition": {
+      "has missed dose instruction": "The subject drug has a specific instruction provided for what to do if a dose is missed, as specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has missed dose instruction",
+        "take the medicine as soon as you can"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug has a specific instruction provided for what to do if a dose is missed, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has missed dose instruction",
+        "skip the missed dose if it is almost time for your next dose"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug has a specific instruction provided for what to do if a dose is missed, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has missed dose instruction",
+        "do not take two doses at one time"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug has a specific instruction provided for what to do if a dose is missed, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "clopidogrel#what-happens-if-i-overdose#0",
+     "section_id": "what-happens-if-i-overdose",
+     "section_heading": "What happens if I overdose?",
+     "text": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.\nOverdose can cause excessive bleeding.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Clopidogrel\", \"has overdose instruction\", \"seek emergency medical attention\"], [\"Clopidogrel\", \"has overdose instruction\", \"call Poison Help line at 1-800-222-1222\"], [\"Clopidogrel\", \"has overdose symptom\", \"excessive bleeding\"]]",
+     "oie": [
+      [
+       "Clopidogrel",
+       "has overdose instruction",
+       "seek emergency medical attention"
+      ],
+      [
+       "Clopidogrel",
+       "has overdose instruction",
+       "call Poison Help line at 1-800-222-1222"
+      ],
+      [
+       "Clopidogrel",
+       "has overdose symptom",
+       "excessive bleeding"
+      ]
+     ],
+     "schema_definition": {
+      "has overdose instruction": "The subject drug requires the action or measure specified by the object entity to be taken in case of an overdose.",
+      "has overdose symptom": "An overdose of the subject drug may cause the symptom specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has overdose instruction",
+        "seek emergency medical attention"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action or measure specified by the object entity to be taken in case of an overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has overdose instruction",
+        "call Poison Help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action or measure specified by the object entity to be taken in case of an overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has overdose symptom",
+        "excessive bleeding"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "clopidogrel#what-should-i-avoid-while-taking-clopidogrel#0",
+     "section_id": "what-should-i-avoid-while-taking-clopidogrel",
+     "section_heading": "What should I avoid while taking clopidogrel?",
+     "text": "Avoid alcohol.\nAlcohol can increase your risk of stomach bleeding.\nAvoid activities that may increase your risk of bleeding or injury.\nUse extra care to prevent bleeding while shaving or brushing your teeth.\nIf you also take aspirin.\nAsk a doctor or pharmacist.\nDo this before using medicines for pain, fever, swelling, or cold/flu symptoms.\nThey may contain ingredients similar to aspirin.\nThese ingredients include salicylates, ibuprofen, ketoprofen, or naproxen.\nTaking these products together can increase your risk of bleeding.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Clopidogrel\", \"should be avoided with\", \"alcohol\"], [\"alcohol\", \"increases risk of\", \"stomach bleeding\"], [\"Clopidogrel\", \"has administration instruction\", \"avoid activities that may increase risk of bleeding or injury\"], [\"Clopidogrel\", \"has administration instruction\", \"use extra care to prevent bleeding while shaving or brushing teeth\"], [\"Clopidogrel\", \"has administration instruction\", \"ask a doctor or pharmacist before using medicines for pain, fever, swelling, or cold/flu symptoms\"], [\"medicines for pain, fever, swelling, or cold/flu symptoms\", \"may contain\", \"ingredients similar to aspirin\"], [\"ingredients similar to aspirin\", \"include\", \"salicylates\"], [\"ingredients similar to aspirin\", \"include\", \"ibuprofen\"], [\"ingredients similar to aspirin\", \"include\", \"ketoprofen\"], [\"ingredients similar to aspirin\", \"include\", \"naproxen\"], [\"Clopidogrel\", \"has warning\", \"taking these products together can increase risk of bleeding\"]]",
+     "oie": [
+      [
+       "Clopidogrel",
+       "should be avoided with",
+       "alcohol"
+      ],
+      [
+       "alcohol",
+       "increases risk of",
+       "stomach bleeding"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "avoid activities that may increase risk of bleeding or injury"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "use extra care to prevent bleeding while shaving or brushing teeth"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "ask a doctor or pharmacist before using medicines for pain, fever, swelling, or cold/flu symptoms"
+      ],
+      [
+       "medicines for pain, fever, swelling, or cold/flu symptoms",
+       "may contain",
+       "ingredients similar to aspirin"
+      ],
+      [
+       "ingredients similar to aspirin",
+       "include",
+       "salicylates"
+      ],
+      [
+       "ingredients similar to aspirin",
+       "include",
+       "ibuprofen"
+      ],
+      [
+       "ingredients similar to aspirin",
+       "include",
+       "ketoprofen"
+      ],
+      [
+       "ingredients similar to aspirin",
+       "include",
+       "naproxen"
+      ],
+      [
+       "Clopidogrel",
+       "has warning",
+       "taking these products together can increase risk of bleeding"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the action or precaution specified by the object entity to be followed during its administration.",
+      "has warning": "The subject drug carries a caution or risk associated with the object entity when used concurrently.",
+      "include": "The subject entity is composed of or contains the specific components listed in the object entity.",
+      "increases risk of": "The subject entity raises the likelihood of the adverse event or condition specified by the object entity.",
+      "may contain": "The subject entity could include or have the components specified by the object entity.",
+      "should be avoided with": "The subject drug should not be used in conjunction with the substance or activity specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Clopidogrel",
+        "should be avoided with",
+        "alcohol"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "The subject drug should not be used in conjunction with the substance or activity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "alcohol",
+        "increases risk of",
+        "stomach bleeding"
+       ],
+       "raw_relation": "increases risk of",
+       "definition": "The subject entity raises the likelihood of the adverse event or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "avoid activities that may increase risk of bleeding or injury"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the action or precaution specified by the object entity to be followed during its administration.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "use extra care to prevent bleeding while shaving or brushing teeth"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the action or precaution specified by the object entity to be followed during its administration.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "ask a doctor or pharmacist before using medicines for pain, fever, swelling, or cold/flu symptoms"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the action or precaution specified by the object entity to be followed during its administration.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "medicines for pain, fever, swelling, or cold/flu symptoms",
+        "involves",
+        "ingredients similar to aspirin"
+       ],
+       "raw_relation": "may contain",
+       "definition": "The subject entity could include or have the components specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "involves",
+         0.8571
+        ],
+        [
+         "can cause",
+         0.841
+        ],
+        [
+         "keeps",
+         0.836
+        ],
+        [
+         "is defined as",
+         0.8353
+        ],
+        [
+         "has information page",
+         0.8327
+        ]
+       ],
+       "answer": "A. 'invol"
+      },
+      {
+       "triplet": [
+        "ingredients similar to aspirin",
+        "involves",
+        "salicylates"
+       ],
+       "raw_relation": "include",
+       "definition": "The subject entity is composed of or contains the specific components listed in the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "involves",
+         0.8694
+        ],
+        [
+         "is defined as",
+         0.8367
+        ],
+        [
+         "keeps",
+         0.8329
+        ],
+        [
+         "has information page",
+         0.8321
+        ],
+        [
+         "can cause",
+         0.8201
+        ]
+       ],
+       "answer": "A. 'invol"
+      },
+      {
+       "triplet": [
+        "ingredients similar to aspirin",
+        "involves",
+        "ibuprofen"
+       ],
+       "raw_relation": "include",
+       "definition": "The subject entity is composed of or contains the specific components listed in the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "involves",
+         0.8694
+        ],
+        [
+         "is defined as",
+         0.8367
+        ],
+        [
+         "keeps",
+         0.8329
+        ],
+        [
+         "has information page",
+         0.8321
+        ],
+        [
+         "can cause",
+         0.8201
+        ]
+       ],
+       "answer": "A. 'invol"
+      },
+      {
+       "triplet": [
+        "ingredients similar to aspirin",
+        "involves",
+        "ketoprofen"
+       ],
+       "raw_relation": "include",
+       "definition": "The subject entity is composed of or contains the specific components listed in the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "involves",
+         0.8694
+        ],
+        [
+         "is defined as",
+         0.8367
+        ],
+        [
+         "keeps",
+         0.8329
+        ],
+        [
+         "has information page",
+         0.8321
+        ],
+        [
+         "can cause",
+         0.8201
+        ]
+       ],
+       "answer": "A. 'invol"
+      },
+      {
+       "triplet": [
+        "ingredients similar to aspirin",
+        "involves",
+        "naproxen"
+       ],
+       "raw_relation": "include",
+       "definition": "The subject entity is composed of or contains the specific components listed in the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "involves",
+         0.8694
+        ],
+        [
+         "is defined as",
+         0.8367
+        ],
+        [
+         "keeps",
+         0.8329
+        ],
+        [
+         "has information page",
+         0.8321
+        ],
+        [
+         "can cause",
+         0.8201
+        ]
+       ],
+       "answer": "A. 'invol"
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has warning",
+        "taking these products together can increase risk of bleeding"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or risk associated with the object entity when used concurrently.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "clopidogrel#what-other-drugs-will-affect-clopidogrel#0",
+     "section_id": "what-other-drugs-will-affect-clopidogrel",
+     "section_heading": "What other drugs will affect clopidogrel?",
+     "text": "Sometimes it is not safe to use certain medications at the same time.\nSome drugs can affect your blood levels of other drugs you take.\nThis may increase side effects.\nThis may make the medications less effective.\nTell your doctor about all your other medicines, especially:\na stomach acid reducer such as omeprazole, Nexium, or Prilosec;\nan antidepressant such as citalopram, fluoxetine, sertraline, Cymbalta, Effexor, Lexapro, Pristiq, or Prozac;\nrifampin;\na blood thinner --warfarin, Coumadin, Jantoven; or\nNSAIDs (nonsteroidal anti-inflammatory drugs) --aspirin, ibuprofen (Advil, Motrin), naproxen (Aleve), celecoxib, diclofenac, indomethacin, meloxicam, and others.\nThis list is not complete.\nOther drugs may affect clopidogrel.\nThese other drugs include prescription and over-the-counter medicines.\nThese other drugs also include vitamins and herbal products.\nNot all possible drug interactions are listed here.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Clopidogrel\", \"interacts with\", \"stomach acid reducer\"], [\"Clopidogrel\", \"interacts with\", \"antidepressant\"], [\"Clopidogrel\", \"interacts with\", \"rifampin\"], [\"Clopidogrel\", \"interacts with\", \"blood thinner\"], [\"Clopidogrel\", \"interacts with\", \"NSAIDs\"], [\"Clopidogrel\", \"has administration instruction\", \"tell your doctor about all other medicines\"], [\"Clopidogrel\", \"has administration instruction\", \"include stomach acid reducer\"], [\"Clopidogrel\", \"has administration instruction\", \"include antidepressant\"], [\"Clopidogrel\", \"has administration instruction\", \"include rifampin\"], [\"Clopidogrel\", \"has administration instruction\", \"include blood thinner\"], [\"Clopidogrel\", \"has administration instruction\", \"include NSAIDs\"], [\"Clopidogrel\", \"has administration instruction\", \"include prescription and over-the-counter medicines\"], [\"Clopidogrel\", \"has administration instruction\", \"include vitamins and herbal products\"], [\"Clopidogrel\", \"has warning\", \"not all possible drug interactions are listed here\"], [\"Clopidogrel\", \"has warning\", \"this list is not complete\"]]",
+     "oie": [
+      [
+       "Clopidogrel",
+       "interacts with",
+       "stomach acid reducer"
+      ],
+      [
+       "Clopidogrel",
+       "interacts with",
+       "antidepressant"
+      ],
+      [
+       "Clopidogrel",
+       "interacts with",
+       "rifampin"
+      ],
+      [
+       "Clopidogrel",
+       "interacts with",
+       "blood thinner"
+      ],
+      [
+       "Clopidogrel",
+       "interacts with",
+       "NSAIDs"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "tell your doctor about all other medicines"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "include stomach acid reducer"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "include antidepressant"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "include rifampin"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "include blood thinner"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "include NSAIDs"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "include prescription and over-the-counter medicines"
+      ],
+      [
+       "Clopidogrel",
+       "has administration instruction",
+       "include vitamins and herbal products"
+      ],
+      [
+       "Clopidogrel",
+       "has warning",
+       "not all possible drug interactions are listed here"
+      ],
+      [
+       "Clopidogrel",
+       "has warning",
+       "this list is not complete"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "Patients taking the subject drug should inform their healthcare provider about the specific substance or category of substances specified by the object entity.",
+      "has warning": "The subject drug has a caution or limitation related to the information specified by the object entity.",
+      "interacts with": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Clopidogrel",
+        "interacts with",
+        "stomach acid reducer"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "interacts with",
+        "antidepressant"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "interacts with",
+        "rifampin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "interacts with",
+        "blood thinner"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "interacts with",
+        "NSAIDs"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "tell your doctor about all other medicines"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should inform their healthcare provider about the specific substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "include stomach acid reducer"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should inform their healthcare provider about the specific substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "include antidepressant"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should inform their healthcare provider about the specific substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "include rifampin"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should inform their healthcare provider about the specific substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "include blood thinner"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should inform their healthcare provider about the specific substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "include NSAIDs"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should inform their healthcare provider about the specific substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "include prescription and over-the-counter medicines"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should inform their healthcare provider about the specific substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has administration instruction",
+        "include vitamins and herbal products"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should inform their healthcare provider about the specific substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has warning",
+        "not all possible drug interactions are listed here"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a caution or limitation related to the information specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Clopidogrel",
+        "has warning",
+        "this list is not complete"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a caution or limitation related to the information specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "clopidogrel#what-is-clopidogrel#0",
+   "section_id": "what-is-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "treats",
+    "stroke"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-is-clopidogrel#0",
+   "section_id": "what-is-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "treats",
+    "blood clot"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-is-clopidogrel#0",
+   "section_id": "what-is-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "treats",
+    "serious heart problem"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-is-clopidogrel#0",
+   "section_id": "what-is-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "used after",
+    "heart attack"
+   ],
+   "raw_relation": "used after",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-is-clopidogrel#0",
+   "section_id": "what-is-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "used after",
+    "severe chest pain"
+   ],
+   "raw_relation": "used after",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-is-clopidogrel#0",
+   "section_id": "what-is-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "used after",
+    "circulation problems"
+   ],
+   "raw_relation": "used after",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-is-clopidogrel#0",
+   "section_id": "what-is-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "has other uses",
+    "not listed in this medication guide"
+   ],
+   "raw_relation": "has other uses",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has serious side effect",
+    "hives"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has serious side effect",
+    "difficulty breathing"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has serious side effect",
+    "swelling of face"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has serious side effect",
+    "swelling of lips"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has serious side effect",
+    "swelling of tongue"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has serious side effect",
+    "swelling of throat"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "increases risk of",
+    "bleeding"
+   ],
+   "raw_relation": "increases risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "seek emergency medical attention if bleeding will not stop"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "seek emergency medical attention if blood in urine"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "seek emergency medical attention if black or bloody stools"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "seek emergency medical attention if cough up blood"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "seek emergency medical attention if vomit looks like coffee grounds"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if nosebleeds"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if pale skin"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if easy bruising"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if purple spots under skin"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if purple spots in mouth"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if jaundice"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if fast heartbeats"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if shortness of breath"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if headache"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if fever"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if weakness"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if feeling tired"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if little or no urination"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if seizure"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if low blood sugar"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if headache (low blood sugar)"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if hunger (low blood sugar)"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if sweating (low blood sugar)"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if irritability (low blood sugar)"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if dizziness (low blood sugar)"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if fast heart rate (low blood sugar)"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if feeling anxious (low blood sugar)"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#0",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "call doctor if shaky (low blood sugar)"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#1",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "clopidogrel",
+    "has side effect",
+    "bleeding"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#1",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "clopidogrel",
+    "has side effect",
+    "sudden numbness or weakness"
+   ],
+   "raw_relation": "has warning sign",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#1",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "clopidogrel",
+    "has side effect",
+    "confusion"
+   ],
+   "raw_relation": "has warning sign",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#1",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "clopidogrel",
+    "has side effect",
+    "problems with vision or speech"
+   ],
+   "raw_relation": "has warning sign",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#1",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "clopidogrel",
+    "has administration instruction",
+    "call your doctor for medical advice about side effects"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-side-effects#1",
+   "section_id": "clopidogrel-side-effects",
+   "triplet": [
+    "clopidogrel",
+    "has administration instruction",
+    "report side effects to FDA at 1-800-FDA-1088"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "clopidogrel",
+    "contraindicated in",
+    "active bleeding"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "clopidogrel",
+    "contraindicated in",
+    "stomach ulcer"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "clopidogrel",
+    "contraindicated in",
+    "bleeding in the brain"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "clopidogrel",
+    "increases risk of",
+    "bleeding"
+   ],
+   "raw_relation": "increases risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "clopidogrel",
+    "has serious side effect",
+    "severe or life-threatening bleeding"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "clopidogrel",
+    "has overdose instruction",
+    "call your doctor or seek emergency medical attention if you have bleeding that will not stop"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "clopidogrel",
+    "has overdose instruction",
+    "call your doctor or seek emergency medical attention if you have blood in your urine"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "clopidogrel",
+    "has overdose instruction",
+    "call your doctor or seek emergency medical attention if you have black or bloody stools"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "clopidogrel",
+    "has overdose instruction",
+    "call your doctor or seek emergency medical attention if you cough up blood or vomit that looks like coffee grounds"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "clopidogrel",
+    "has missed dose instruction",
+    "do not stop taking clopidogrel without first talking to your doctor"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "clopidogrel",
+    "has warning",
+    "stopping may increase risk of heart attack or stroke"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "clopidogrel",
+    "contraindicated in",
+    "allergy to clopidogrel"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "clopidogrel",
+    "contraindicated in",
+    "active bleeding"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "clopidogrel",
+    "contraindicated in",
+    "stomach ulcer"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "clopidogrel",
+    "contraindicated in",
+    "brain bleeding"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "clopidogrel",
+    "use with caution in",
+    "stomach or intestinal ulcer"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "clopidogrel",
+    "use with caution in",
+    "bleeding disorder"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "clopidogrel",
+    "use with caution in",
+    "blood clotting disorder"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "clopidogrel",
+    "has reduced efficacy in",
+    "certain genetic factors"
+   ],
+   "raw_relation": "has reduced efficacy in",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "clopidogrel#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "clopidogrel",
+    "has mechanism of action",
+    "breakdown affected by genetic factors"
+   ],
+   "raw_relation": "has mechanism of action",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "clopidogrel",
+    "requires monitoring of",
+    "blood test"
+   ],
+   "raw_relation": "requires monitoring of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "clopidogrel",
+    "has pregnancy or breastfeeding warning",
+    "not expected to harm unborn baby"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "clopidogrel",
+    "has pregnancy or breastfeeding warning",
+    "can cause bleeding in mother if taken within 1 week before childbirth"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "clopidogrel",
+    "use with caution in",
+    "pregnancy"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "clopidogrel",
+    "contraindicated in",
+    "breastfeeding"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#how-should-i-take-clopidogrel#0",
+   "section_id": "how-should-i-take-clopidogrel",
+   "triplet": [
+    "clopidogrel",
+    "has administration instruction",
+    "follow all directions on prescription label"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#how-should-i-take-clopidogrel#0",
+   "section_id": "how-should-i-take-clopidogrel",
+   "triplet": [
+    "clopidogrel",
+    "has administration instruction",
+    "read all medication guides or instruction sheets"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#how-should-i-take-clopidogrel#0",
+   "section_id": "how-should-i-take-clopidogrel",
+   "triplet": [
+    "clopidogrel",
+    "has administration instruction",
+    "use exactly as directed"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#how-should-i-take-clopidogrel#0",
+   "section_id": "how-should-i-take-clopidogrel",
+   "triplet": [
+    "clopidogrel",
+    "has administration instruction",
+    "food"
+   ],
+   "raw_relation": "can be taken with or without",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#how-should-i-take-clopidogrel#0",
+   "section_id": "how-should-i-take-clopidogrel",
+   "triplet": [
+    "clopidogrel",
+    "used in combination with",
+    "aspirin"
+   ],
+   "raw_relation": "used in combination with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#how-should-i-take-clopidogrel#0",
+   "section_id": "how-should-i-take-clopidogrel",
+   "triplet": [
+    "aspirin",
+    "has administration instruction",
+    "take only if doctor tells you to"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#how-should-i-take-clopidogrel#0",
+   "section_id": "how-should-i-take-clopidogrel",
+   "triplet": [
+    "clopidogrel",
+    "has mechanism of action",
+    "prevents blood coagulation"
+   ],
+   "raw_relation": "has mechanism of action",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#how-should-i-take-clopidogrel#0",
+   "section_id": "how-should-i-take-clopidogrel",
+   "triplet": [
+    "clopidogrel",
+    "has side effect",
+    "increased risk of bleeding from minor injury"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#how-should-i-take-clopidogrel#0",
+   "section_id": "how-should-i-take-clopidogrel",
+   "triplet": [
+    "clopidogrel",
+    "has overdose instruction",
+    "contact doctor or seek emergency medical attention for uncontrolled bleeding"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#how-should-i-take-clopidogrel#0",
+   "section_id": "how-should-i-take-clopidogrel",
+   "triplet": [
+    "clopidogrel",
+    "has administration instruction",
+    "may need to stop use before surgery, medical procedure, or dental work"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#how-should-i-take-clopidogrel#0",
+   "section_id": "how-should-i-take-clopidogrel",
+   "triplet": [
+    "clopidogrel",
+    "has administration instruction",
+    "healthcare provider should know you are taking it"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#how-should-i-take-clopidogrel#0",
+   "section_id": "how-should-i-take-clopidogrel",
+   "triplet": [
+    "clopidogrel",
+    "has administration instruction",
+    "do not stop without talking to doctor even with signs of bleeding"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#how-should-i-take-clopidogrel#0",
+   "section_id": "how-should-i-take-clopidogrel",
+   "triplet": [
+    "clopidogrel",
+    "has warning",
+    "stopping medicine could increase risk of heart attack or stroke"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#how-should-i-take-clopidogrel#0",
+   "section_id": "how-should-i-take-clopidogrel",
+   "triplet": [
+    "clopidogrel",
+    "has storage instruction",
+    "store at room temperature away from moisture and heat"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#0",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "has recommended dose",
+    "300 mg orally once"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#0",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "has recommended dose",
+    "75 mg orally once a day"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#0",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "has duration of treatment",
+    "optimal unknown"
+   ],
+   "raw_relation": "has duration of therapy",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#0",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "has recommended dose",
+    "300 mg orally once"
+   ],
+   "raw_relation": "has optional loading dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#0",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "has recommended dose",
+    "75 mg orally once a day"
+   ],
+   "raw_relation": "has maintenance dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#0",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "has dose adjustment instruction",
+    "thrombolytics"
+   ],
+   "raw_relation": "has maintenance dose with or without",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#0",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "may be prescribed with",
+    "aspirin 75 mg to 325 mg orally once a day"
+   ],
+   "raw_relation": "administered in combination with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#0",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "may be used for",
+    "prevention of atherothrombotic events"
+   ],
+   "raw_relation": "has use",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#0",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "may be used for",
+    "non-ST-segment elevation acute coronary syndrome"
+   ],
+   "raw_relation": "applies to patients with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#0",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "treats",
+    "unstable angina (UA)"
+   ],
+   "raw_relation": "applies to patients with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#0",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "treats",
+    "non-ST-elevation myocardial infarction (NSTEMI)"
+   ],
+   "raw_relation": "applies to patients with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#0",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "may be used for",
+    "medically"
+   ],
+   "raw_relation": "applies to patients who are to be managed",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#0",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "applies to patients who are to be managed with",
+    "coronary revascularization"
+   ],
+   "raw_relation": "applies to patients who are to be managed with",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#0",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "treats",
+    "ST-elevation myocardial infarction (STEMI)"
+   ],
+   "raw_relation": "applies to patients with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#0",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "has benefit",
+    "unknown"
+   ],
+   "raw_relation": "has benefit",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#0",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "used after",
+    "primary percutaneous coronary intervention"
+   ],
+   "raw_relation": "applies to patients who undergo",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#0",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "treats",
+    "ischemic stroke"
+   ],
+   "raw_relation": "has use",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#1",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "has recommended dose",
+    "75 mg orally once a day"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#1",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "reduces risk of",
+    "prevention of atherothrombotic events"
+   ],
+   "raw_relation": "used for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#1",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "used in population",
+    "patients with history of recent myocardial infarction"
+   ],
+   "raw_relation": "applies to",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#1",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "used in population",
+    "patients with history of recent stroke"
+   ],
+   "raw_relation": "applies to",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#clopidogrel-dosing-information#1",
+   "section_id": "clopidogrel-dosing-information",
+   "triplet": [
+    "Clopidogrel",
+    "used in population",
+    "patients with established peripheral arterial disease"
+   ],
+   "raw_relation": "applies to",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Clopidogrel",
+    "has missed dose instruction",
+    "take the medicine as soon as you can"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Clopidogrel",
+    "has missed dose instruction",
+    "skip the missed dose if it is almost time for your next dose"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Clopidogrel",
+    "has missed dose instruction",
+    "do not take two doses at one time"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Clopidogrel",
+    "has overdose instruction",
+    "seek emergency medical attention"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Clopidogrel",
+    "has overdose instruction",
+    "call Poison Help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Clopidogrel",
+    "has overdose symptom",
+    "excessive bleeding"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-should-i-avoid-while-taking-clopidogrel#0",
+   "section_id": "what-should-i-avoid-while-taking-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "should be avoided with",
+    "alcohol"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-should-i-avoid-while-taking-clopidogrel#0",
+   "section_id": "what-should-i-avoid-while-taking-clopidogrel",
+   "triplet": [
+    "alcohol",
+    "increases risk of",
+    "stomach bleeding"
+   ],
+   "raw_relation": "increases risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-should-i-avoid-while-taking-clopidogrel#0",
+   "section_id": "what-should-i-avoid-while-taking-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "avoid activities that may increase risk of bleeding or injury"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-should-i-avoid-while-taking-clopidogrel#0",
+   "section_id": "what-should-i-avoid-while-taking-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "use extra care to prevent bleeding while shaving or brushing teeth"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-should-i-avoid-while-taking-clopidogrel#0",
+   "section_id": "what-should-i-avoid-while-taking-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "ask a doctor or pharmacist before using medicines for pain, fever, swelling, or cold/flu symptoms"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-should-i-avoid-while-taking-clopidogrel#0",
+   "section_id": "what-should-i-avoid-while-taking-clopidogrel",
+   "triplet": [
+    "medicines for pain, fever, swelling, or cold/flu symptoms",
+    "involves",
+    "ingredients similar to aspirin"
+   ],
+   "raw_relation": "may contain",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#what-should-i-avoid-while-taking-clopidogrel#0",
+   "section_id": "what-should-i-avoid-while-taking-clopidogrel",
+   "triplet": [
+    "ingredients similar to aspirin",
+    "involves",
+    "salicylates"
+   ],
+   "raw_relation": "include",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#what-should-i-avoid-while-taking-clopidogrel#0",
+   "section_id": "what-should-i-avoid-while-taking-clopidogrel",
+   "triplet": [
+    "ingredients similar to aspirin",
+    "involves",
+    "ibuprofen"
+   ],
+   "raw_relation": "include",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#what-should-i-avoid-while-taking-clopidogrel#0",
+   "section_id": "what-should-i-avoid-while-taking-clopidogrel",
+   "triplet": [
+    "ingredients similar to aspirin",
+    "involves",
+    "ketoprofen"
+   ],
+   "raw_relation": "include",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#what-should-i-avoid-while-taking-clopidogrel#0",
+   "section_id": "what-should-i-avoid-while-taking-clopidogrel",
+   "triplet": [
+    "ingredients similar to aspirin",
+    "involves",
+    "naproxen"
+   ],
+   "raw_relation": "include",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "clopidogrel#what-should-i-avoid-while-taking-clopidogrel#0",
+   "section_id": "what-should-i-avoid-while-taking-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "has warning",
+    "taking these products together can increase risk of bleeding"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-other-drugs-will-affect-clopidogrel#0",
+   "section_id": "what-other-drugs-will-affect-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "interacts with",
+    "stomach acid reducer"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-other-drugs-will-affect-clopidogrel#0",
+   "section_id": "what-other-drugs-will-affect-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "interacts with",
+    "antidepressant"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-other-drugs-will-affect-clopidogrel#0",
+   "section_id": "what-other-drugs-will-affect-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "interacts with",
+    "rifampin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-other-drugs-will-affect-clopidogrel#0",
+   "section_id": "what-other-drugs-will-affect-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "interacts with",
+    "blood thinner"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-other-drugs-will-affect-clopidogrel#0",
+   "section_id": "what-other-drugs-will-affect-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "interacts with",
+    "NSAIDs"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-other-drugs-will-affect-clopidogrel#0",
+   "section_id": "what-other-drugs-will-affect-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "tell your doctor about all other medicines"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-other-drugs-will-affect-clopidogrel#0",
+   "section_id": "what-other-drugs-will-affect-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "include stomach acid reducer"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-other-drugs-will-affect-clopidogrel#0",
+   "section_id": "what-other-drugs-will-affect-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "include antidepressant"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-other-drugs-will-affect-clopidogrel#0",
+   "section_id": "what-other-drugs-will-affect-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "include rifampin"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-other-drugs-will-affect-clopidogrel#0",
+   "section_id": "what-other-drugs-will-affect-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "include blood thinner"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-other-drugs-will-affect-clopidogrel#0",
+   "section_id": "what-other-drugs-will-affect-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "include NSAIDs"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-other-drugs-will-affect-clopidogrel#0",
+   "section_id": "what-other-drugs-will-affect-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "include prescription and over-the-counter medicines"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-other-drugs-will-affect-clopidogrel#0",
+   "section_id": "what-other-drugs-will-affect-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "has administration instruction",
+    "include vitamins and herbal products"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-other-drugs-will-affect-clopidogrel#0",
+   "section_id": "what-other-drugs-will-affect-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "has warning",
+    "not all possible drug interactions are listed here"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "clopidogrel#what-other-drugs-will-affect-clopidogrel#0",
+   "section_id": "what-other-drugs-will-affect-clopidogrel",
+   "triplet": [
+    "Clopidogrel",
+    "has warning",
+    "this list is not complete"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  }
+ ],
+ "name": "Clopidogrel",
+ "slug": "clopidogrel",
+ "n_chunks": 12,
+ "seconds": 26.3,
+ "llm_model": "Qwen/Qwen3-14B-AWQ"
+}

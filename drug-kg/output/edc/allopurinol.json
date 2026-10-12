@@ -1,0 +1,4396 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "allopurinol#uses#0",
+     "section_id": "uses",
+     "section_heading": "What is allopurinol?",
+     "text": "Allopurinol belongs to a class of medications called xanthine oxidase inhibitors. It works by reducing the production of uric acid in the body. High levels of uric acid may cause gout attacks or kidney stones.\nAllopurinol is used to treat gout (a type of arthritis in which uric acid, a naturally occurring substance in the body, builds up in the joints and causes sudden attacks of redness, swelling, pain, and heat in one or more joints). Allopurinol is used to prevent gout attacks, not to treat them once they occur. Allopurinol does not need to be stopped during an acute flare.\nAllopurinol is also used to treat high levels of uric acid that builds up in the blood as tumors break down in people with certain types of cancer who are being treated with chemotherapy medications. It is also used to treat kidney stones that have come back in people who have high levels of uric acid in their urine.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"allopurinol\", \"belongs to drug class\", \"xanthine oxidase inhibitors\"], [\"allopurinol\", \"has mechanism of action\", \"reducing production of uric acid\"], [\"allopurinol\", \"treats\", \"gout\"], [\"allopurinol\", \"used for prevention of\", \"gout attacks\"], [\"allopurinol\", \"does not require discontinuation during\", \"acute flare\"], [\"allopurinol\", \"treats\", \"high uric acid levels in blood due to tumor breakdown\"], [\"allopurinol\", \"treats\", \"recurrent kidney stones with high uric acid in urine\"]]",
+     "oie": [
+      [
+       "allopurinol",
+       "belongs to drug class",
+       "xanthine oxidase inhibitors"
+      ],
+      [
+       "allopurinol",
+       "has mechanism of action",
+       "reducing production of uric acid"
+      ],
+      [
+       "allopurinol",
+       "treats",
+       "gout"
+      ],
+      [
+       "allopurinol",
+       "used for prevention of",
+       "gout attacks"
+      ],
+      [
+       "allopurinol",
+       "does not require discontinuation during",
+       "acute flare"
+      ],
+      [
+       "allopurinol",
+       "treats",
+       "high uric acid levels in blood due to tumor breakdown"
+      ],
+      [
+       "allopurinol",
+       "treats",
+       "recurrent kidney stones with high uric acid in urine"
+      ]
+     ],
+     "schema_definition": {
+      "belongs to drug class": "The subject drug is a member of the pharmacological drug class specified by the object entity.",
+      "does not require discontinuation during": "The subject drug does not need to be stopped when the specified medical condition or event occurs.",
+      "has mechanism of action": "The subject drug exerts its therapeutic effect by reducing the production of the substance specified by the object entity.",
+      "treats": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+      "used for prevention of": "The subject drug is used to prevent the occurrence of the specified medical condition or event."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "allopurinol",
+        "belongs to drug class",
+        "xanthine oxidase inhibitors"
+       ],
+       "raw_relation": "belongs to drug class",
+       "definition": "The subject drug is a member of the pharmacological drug class specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has mechanism of action",
+        "reducing production of uric acid"
+       ],
+       "raw_relation": "has mechanism of action",
+       "definition": "The subject drug exerts its therapeutic effect by reducing the production of the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "treats",
+        "gout"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "reduces risk of",
+        "gout attacks"
+       ],
+       "raw_relation": "used for prevention of",
+       "definition": "The subject drug is used to prevent the occurrence of the specified medical condition or event.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "reduces risk of",
+         0.9358
+        ],
+        [
+         "treats",
+         0.8515
+        ],
+        [
+         "does not reduce risk of",
+         0.8275
+        ],
+        [
+         "has off label use",
+         0.8275
+        ],
+        [
+         "has warning",
+         0.8254
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "should not be stopped during",
+        "acute flare"
+       ],
+       "raw_relation": "does not require discontinuation during",
+       "definition": "The subject drug does not need to be stopped when the specified medical condition or event occurs.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "dose not affected by",
+         0.8714
+        ],
+        [
+         "should not be stopped during",
+         0.8556
+        ],
+        [
+         "does not reduce risk of",
+         0.8351
+        ],
+        [
+         "reduces risk of",
+         0.803
+        ],
+        [
+         "has side effect impact",
+         0.7654
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "treats",
+        "high uric acid levels in blood due to tumor breakdown"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "treats",
+        "recurrent kidney stones with high uric acid in urine"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "allopurinol#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "You should not use this medicine if you have ever had an allergic reaction to allopurinol.\nAllopurinol can lower blood cells that help your body fight infections. This can make it easier for you to bleed from an injury or get sick from being around others who are ill. Your blood may need to be tested often. Visit your doctor regularly.\nIn rare cases, allopurinol may cause a severe allergic reaction. Stop taking this medicine and call your doctor right away if you have painful urination, blood in your urine, burning in your eyes, swelling in your face or throat, skin redness or a rash that spreads and causes blistering and peeling.\nAvoid drinking alcohol. It can make your condition worse. Allopurinol may impair your thinking or reactions. Be careful if you drive or do anything that requires you to be alert.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Allopurinol\", \"contraindicated in\", \"allergic reaction to allopurinol\"], [\"Allopurinol\", \"lowers\", \"blood cells that fight infections\"], [\"Allopurinol\", \"increases risk of\", \"bleeding from injury\"], [\"Allopurinol\", \"increases risk of\", \"getting sick from exposure to others\"], [\"Allopurinol\", \"requires frequent blood testing\"], [\"Allopurinol\", \"has serious side effect\", \"severe allergic reaction\"], [\"Allopurinol\", \"has side effect\", \"painful urination\"], [\"Allopurinol\", \"has side effect\", \"blood in urine\"], [\"Allopurinol\", \"has side effect\", \"burning in eyes\"], [\"Allopurinol\", \"has side effect\", \"swelling in face or throat\"], [\"Allopurinol\", \"has side effect\", \"skin redness\"], [\"Allopurinol\", \"has side effect\", \"rash that spreads and causes blistering and peeling\"], [\"Allopurinol\", \"should be avoided with\", \"alcohol\"], [\"Allopurinol\", \"may impair\", \"thinking or reactions\"], [\"Allopurinol\", \"has warning\", \"be careful when driving or performing alert tasks\"]]",
+     "oie": [
+      [
+       "Allopurinol",
+       "contraindicated in",
+       "allergic reaction to allopurinol"
+      ],
+      [
+       "Allopurinol",
+       "lowers",
+       "blood cells that fight infections"
+      ],
+      [
+       "Allopurinol",
+       "increases risk of",
+       "bleeding from injury"
+      ],
+      [
+       "Allopurinol",
+       "increases risk of",
+       "getting sick from exposure to others"
+      ],
+      [
+       "Allopurinol",
+       "has serious side effect",
+       "severe allergic reaction"
+      ],
+      [
+       "Allopurinol",
+       "has side effect",
+       "painful urination"
+      ],
+      [
+       "Allopurinol",
+       "has side effect",
+       "blood in urine"
+      ],
+      [
+       "Allopurinol",
+       "has side effect",
+       "burning in eyes"
+      ],
+      [
+       "Allopurinol",
+       "has side effect",
+       "swelling in face or throat"
+      ],
+      [
+       "Allopurinol",
+       "has side effect",
+       "skin redness"
+      ],
+      [
+       "Allopurinol",
+       "has side effect",
+       "rash that spreads and causes blistering and peeling"
+      ],
+      [
+       "Allopurinol",
+       "should be avoided with",
+       "alcohol"
+      ],
+      [
+       "Allopurinol",
+       "may impair",
+       "thinking or reactions"
+      ],
+      [
+       "Allopurinol",
+       "has warning",
+       "be careful when driving or performing alert tasks"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+      "has side effect": "The subject drug may cause the adverse effect specified by the object entity.",
+      "has warning": "The subject drug carries a caution or advisory for the activity or behavior specified by the object entity.",
+      "increases risk of": "The subject drug makes it more likely for the patient to experience the condition or event specified by the object entity.",
+      "lowers": "The subject drug reduces the level or amount of the biological component specified by the object entity.",
+      "may impair": "The subject drug may reduce the subject's ability to perform the cognitive or physical function specified by the object entity.",
+      "should be avoided with": "Patients taking the subject drug should avoid the substance or activity specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Allopurinol",
+        "contraindicated in",
+        "allergic reaction to allopurinol"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "lowers level of",
+        "blood cells that fight infections"
+       ],
+       "raw_relation": "lowers",
+       "definition": "The subject drug reduces the level or amount of the biological component specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "lowers level of",
+         0.9289
+        ],
+        [
+         "may reduce response to",
+         0.8952
+        ],
+        [
+         "has inactive ingredient",
+         0.8454
+        ],
+        [
+         "should not be stored in",
+         0.8306
+        ],
+        [
+         "requires gradual dose reduction",
+         0.8261
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "increases risk of",
+        "bleeding from injury"
+       ],
+       "raw_relation": "increases risk of",
+       "definition": "The subject drug makes it more likely for the patient to experience the condition or event specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "increases risk of",
+        "getting sick from exposure to others"
+       ],
+       "raw_relation": "increases risk of",
+       "definition": "The subject drug makes it more likely for the patient to experience the condition or event specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has serious side effect",
+        "severe allergic reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has side effect",
+        "painful urination"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has side effect",
+        "blood in urine"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has side effect",
+        "burning in eyes"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has side effect",
+        "swelling in face or throat"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has side effect",
+        "skin redness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has side effect",
+        "rash that spreads and causes blistering and peeling"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "should be avoided with",
+        "alcohol"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "Patients taking the subject drug should avoid the substance or activity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "may reduce response to",
+        "thinking or reactions"
+       ],
+       "raw_relation": "may impair",
+       "definition": "The subject drug may reduce the subject's ability to perform the cognitive or physical function specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may reduce response to",
+         0.8903
+        ],
+        [
+         "lowers level of",
+         0.854
+        ],
+        [
+         "should not be stored in",
+         0.8334
+        ],
+        [
+         "should be avoided with",
+         0.8252
+        ],
+        [
+         "can occur with",
+         0.8227
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has warning",
+        "be careful when driving or performing alert tasks"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or advisory for the activity or behavior specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "allopurinol#before-taking#0",
+     "section_id": "before-taking",
+     "section_heading": "Before taking this medicine",
+     "text": "You should not use allopurinol if you are allergic to it.\nTo make sure this medicine is safe for you, tell your doctor if you have ever had:\n- diabetes;\n- congestive heart failure;\n- high blood pressure;\n- if you are receiving chemotherapy;\n- if you have a gene variation called HLA-B*58:01 allele (your doctor can test you for this);\n- liver disease; or\n- kidney disease.\nAllopurinol may harm an unborn baby. Tell your doctor if you are pregnant or plan to become pregnant.\nDo not breastfeed while using this medicine, and for at least 1 week after your last dose.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"allopurinol\", \"contraindicated in\", \"allergy to allopurinol\"], [\"allopurinol\", \"use with caution in\", \"diabetes\"], [\"allopurinol\", \"use with caution in\", \"congestive heart failure\"], [\"allopurinol\", \"use with caution in\", \"high blood pressure\"], [\"allopurinol\", \"use with caution in\", \"chemotherapy\"], [\"allopurinol\", \"use with caution in\", \"liver disease\"], [\"allopurinol\", \"use with caution in\", \"kidney disease\"], [\"allopurinol\", \"has warning\", \"may harm an unborn baby\"], [\"allopurinol\", \"has pregnancy warning\", \"may harm an unborn baby\"], [\"allopurinol\", \"has breastfeeding instruction\", \"do not breastfeed while using this medicine\"], [\"allopurinol\", \"has breastfeeding instruction\", \"for at least 1 week after last dose\"]]",
+     "oie": [
+      [
+       "allopurinol",
+       "contraindicated in",
+       "allergy to allopurinol"
+      ],
+      [
+       "allopurinol",
+       "use with caution in",
+       "diabetes"
+      ],
+      [
+       "allopurinol",
+       "use with caution in",
+       "congestive heart failure"
+      ],
+      [
+       "allopurinol",
+       "use with caution in",
+       "high blood pressure"
+      ],
+      [
+       "allopurinol",
+       "use with caution in",
+       "chemotherapy"
+      ],
+      [
+       "allopurinol",
+       "use with caution in",
+       "liver disease"
+      ],
+      [
+       "allopurinol",
+       "use with caution in",
+       "kidney disease"
+      ],
+      [
+       "allopurinol",
+       "has warning",
+       "may harm an unborn baby"
+      ],
+      [
+       "allopurinol",
+       "has pregnancy warning",
+       "may harm an unborn baby"
+      ],
+      [
+       "allopurinol",
+       "has breastfeeding instruction",
+       "do not breastfeed while using this medicine"
+      ],
+      [
+       "allopurinol",
+       "has breastfeeding instruction",
+       "for at least 1 week after last dose"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition or sensitivity specified by the object entity.",
+      "use with caution in": "The subject drug may pose safety risks or require medical supervision for patients who have the condition specified by the object entity.",
+      "has warning": "The subject drug carries a warning about the potential harm to a specific patient group specified by the object entity.",
+      "has pregnancy warning": "The subject drug may harm an unborn baby, and patients who are pregnant or planning to become pregnant should consult their doctor.",
+      "has breastfeeding instruction": "Patients taking the subject drug should avoid breastfeeding or follow specific guidelines regarding breastfeeding as specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "allopurinol",
+        "contraindicated in",
+        "allergy to allopurinol"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or sensitivity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "use with caution in",
+        "diabetes"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "use with caution in",
+        "congestive heart failure"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "use with caution in",
+        "high blood pressure"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "use with caution in",
+        "chemotherapy"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "use with caution in",
+        "liver disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "use with caution in",
+        "kidney disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has warning",
+        "may harm an unborn baby"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a warning about the potential harm to a specific patient group specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has pregnancy or breastfeeding warning",
+        "may harm an unborn baby"
+       ],
+       "raw_relation": "has pregnancy warning",
+       "definition": "The subject drug may harm an unborn baby, and patients who are pregnant or planning to become pregnant should consult their doctor.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has pregnancy or breastfeeding warning",
+         0.7822
+        ],
+        [
+         "has serious side effect",
+         0.7355
+        ],
+        [
+         "use with caution in",
+         0.7253
+        ],
+        [
+         "may require temporary discontinuation before",
+         0.7215
+        ],
+        [
+         "should inform doctor about",
+         0.7146
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has pregnancy or breastfeeding warning",
+        "do not breastfeed while using this medicine"
+       ],
+       "raw_relation": "has breastfeeding instruction",
+       "definition": "Patients taking the subject drug should avoid breastfeeding or follow specific guidelines regarding breastfeeding as specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should be avoided with",
+         0.8391
+        ],
+        [
+         "has pregnancy or breastfeeding warning",
+         0.8294
+        ],
+        [
+         "use with caution in",
+         0.7824
+        ],
+        [
+         "should not be taken",
+         0.7734
+        ],
+        [
+         "contraindicated in",
+         0.7713
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has pregnancy or breastfeeding warning",
+        "for at least 1 week after last dose"
+       ],
+       "raw_relation": "has breastfeeding instruction",
+       "definition": "Patients taking the subject drug should avoid breastfeeding or follow specific guidelines regarding breastfeeding as specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should be avoided with",
+         0.8391
+        ],
+        [
+         "has pregnancy or breastfeeding warning",
+         0.8294
+        ],
+        [
+         "use with caution in",
+         0.7824
+        ],
+        [
+         "should not be taken",
+         0.7734
+        ],
+        [
+         "contraindicated in",
+         0.7713
+        ]
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "chunk_id": "allopurinol#dosage#0",
+     "section_id": "dosage",
+     "section_heading": "How should I use allopurinol?",
+     "text": "Take allopurinol exactly as prescribed by your doctor. Follow all directions on your prescription label and read all medication guides or instruction sheets. Your doctor may occasionally change your dose.\nTake the tablets with a full glass of water. To reduce your risk of kidney stones, drink 8 to 10 full glasses of fluid every day, unless your doctor tells you otherwise.\nTake allopurinol tablets after meals to help prevent stomach upset.\nAllopurinol injection is injected into a vein by a healthcare provider. The injection is usually only used if you are unable to take medicine by mouth.\nYou may need frequent medical tests while using this medicine, even if you have no symptoms.\nYour kidney and liver function may also need to be tested. Your doctor may change your dose if your kidney function changes.\nYou may have gout attacks when you first start taking allopurinol tablets. Your doctor may recommend another gout medication to take with allopurinol. Keep taking the medicine as directed.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"allopurinol\", \"has administration instruction\", \"take exactly as prescribed by doctor\"], [\"allopurinol\", \"has administration instruction\", \"follow all directions on prescription label\"], [\"allopurinol\", \"has administration instruction\", \"read all medication guides or instruction sheets\"], [\"allopurinol\", \"has administration instruction\", \"take tablets with a full glass of water\"], [\"allopurinol\", \"has fluid intake instruction\", \"drink 8 to 10 full glasses of fluid every day\"], [\"allopurinol\", \"has administration instruction\", \"take tablets after meals\"], [\"allopurinol\", \"has alternative administration route\", \"intravenous injection\"], [\"allopurinol\", \"has indication for injection\", \"when unable to take medicine by mouth\"], [\"allopurinol\", \"requires frequent medical testing\", \"even without symptoms\"], [\"allopurinol\", \"requires monitoring of\", \"kidney function\"], [\"allopurinol\", \"requires monitoring of\", \"liver function\"], [\"allopurinol\", \"has dose adjustment instruction\", \"if kidney function changes\"], [\"allopurinol\", \"has side effect\", \"gout attacks when first starting\"], [\"allopurinol\", \"has concomitant medication recommendation\", \"another gout medication\"]]",
+     "oie": [
+      [
+       "allopurinol",
+       "has administration instruction",
+       "take exactly as prescribed by doctor"
+      ],
+      [
+       "allopurinol",
+       "has administration instruction",
+       "follow all directions on prescription label"
+      ],
+      [
+       "allopurinol",
+       "has administration instruction",
+       "read all medication guides or instruction sheets"
+      ],
+      [
+       "allopurinol",
+       "has administration instruction",
+       "take tablets with a full glass of water"
+      ],
+      [
+       "allopurinol",
+       "has fluid intake instruction",
+       "drink 8 to 10 full glasses of fluid every day"
+      ],
+      [
+       "allopurinol",
+       "has administration instruction",
+       "take tablets after meals"
+      ],
+      [
+       "allopurinol",
+       "has alternative administration route",
+       "intravenous injection"
+      ],
+      [
+       "allopurinol",
+       "has indication for injection",
+       "when unable to take medicine by mouth"
+      ],
+      [
+       "allopurinol",
+       "requires frequent medical testing",
+       "even without symptoms"
+      ],
+      [
+       "allopurinol",
+       "requires monitoring of",
+       "kidney function"
+      ],
+      [
+       "allopurinol",
+       "requires monitoring of",
+       "liver function"
+      ],
+      [
+       "allopurinol",
+       "has dose adjustment instruction",
+       "if kidney function changes"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "gout attacks when first starting"
+      ],
+      [
+       "allopurinol",
+       "has concomitant medication recommendation",
+       "another gout medication"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+      "has alternative administration route": "The subject drug can be administered via the alternative route specified by the object entity.",
+      "has concomitant medication recommendation": "The subject drug may be used together with the specified medication to enhance efficacy or manage side effects.",
+      "has dose adjustment instruction": "The dose of the subject drug should be modified if the condition specified by the object entity changes.",
+      "has fluid intake instruction": "The subject should consume the amount of fluid specified by the object entity while taking the subject drug.",
+      "has indication for injection": "The intravenous injection of the subject drug is indicated when the patient is unable to take the medication by mouth.",
+      "has side effect": "The subject drug may cause the adverse effect specified by the object entity.",
+      "requires frequent medical testing": "The subject drug necessitates regular medical tests, even in the absence of symptoms.",
+      "requires monitoring of": "The subject drug requires ongoing assessment of the specified organ or system function."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "allopurinol",
+        "has administration instruction",
+        "take exactly as prescribed by doctor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has administration instruction",
+        "follow all directions on prescription label"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has administration instruction",
+        "read all medication guides or instruction sheets"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has administration instruction",
+        "take tablets with a full glass of water"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has administration instruction",
+        "drink 8 to 10 full glasses of fluid every day"
+       ],
+       "raw_relation": "has fluid intake instruction",
+       "definition": "The subject should consume the amount of fluid specified by the object entity while taking the subject drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.8645
+        ],
+        [
+         "can pass into",
+         0.8312
+        ],
+        [
+         "delivers",
+         0.8274
+        ],
+        [
+         "has dosage form",
+         0.824
+        ],
+        [
+         "can occur with",
+         0.8237
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has administration instruction",
+        "take tablets after meals"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "administered via",
+        "intravenous injection"
+       ],
+       "raw_relation": "has alternative administration route",
+       "definition": "The subject drug can be administered via the alternative route specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "administered via",
+         0.9174
+        ],
+        [
+         "similar to",
+         0.8958
+        ],
+        [
+         "has product variation",
+         0.8488
+        ],
+        [
+         "has dosage form",
+         0.829
+        ],
+        [
+         "has administration instruction",
+         0.828
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has indication for injection",
+        "when unable to take medicine by mouth"
+       ],
+       "raw_relation": "has indication for injection",
+       "definition": "The intravenous injection of the subject drug is indicated when the patient is unable to take the medication by mouth.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "has contraindicated route",
+         0.7999
+        ],
+        [
+         "has overdose instruction",
+         0.7381
+        ],
+        [
+         "has withdrawal symptom",
+         0.7332
+        ],
+        [
+         "use with caution in",
+         0.7328
+        ],
+        [
+         "has emergency reversal option",
+         0.7317
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "requires monitoring of",
+        "even without symptoms"
+       ],
+       "raw_relation": "requires frequent medical testing",
+       "definition": "The subject drug necessitates regular medical tests, even in the absence of symptoms.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires monitoring of",
+         0.7764
+        ],
+        [
+         "should not be stopped during",
+         0.7605
+        ],
+        [
+         "can occur with",
+         0.7251
+        ],
+        [
+         "mimics symptoms of",
+         0.7222
+        ],
+        [
+         "requires use of",
+         0.7193
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "requires monitoring of",
+        "kidney function"
+       ],
+       "raw_relation": "requires monitoring of",
+       "definition": "The subject drug requires ongoing assessment of the specified organ or system function.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "requires monitoring of",
+        "liver function"
+       ],
+       "raw_relation": "requires monitoring of",
+       "definition": "The subject drug requires ongoing assessment of the specified organ or system function.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has dose modification instruction",
+        "if kidney function changes"
+       ],
+       "raw_relation": "has dose adjustment instruction",
+       "definition": "The dose of the subject drug should be modified if the condition specified by the object entity changes.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has dose adjustment based on",
+         0.9146
+        ],
+        [
+         "has maintenance dose",
+         0.8678
+        ],
+        [
+         "has dose modification instruction",
+         0.863
+        ],
+        [
+         "may have ph adjusted with",
+         0.8413
+        ],
+        [
+         "has product variation",
+         0.8376
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "gout attacks when first starting"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "used in combination with",
+        "another gout medication"
+       ],
+       "raw_relation": "has concomitant medication recommendation",
+       "definition": "The subject drug may be used together with the specified medication to enhance efficacy or manage side effects.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "treats",
+         0.8224
+        ],
+        [
+         "used in combination with",
+         0.8193
+        ],
+        [
+         "may require dose adjustment",
+         0.8095
+        ],
+        [
+         "requires use of",
+         0.8037
+        ],
+        [
+         "has recommended treatment for severe hypoglycemia",
+         0.8032
+        ]
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "chunk_id": "allopurinol#dosage#1",
+     "section_id": "dosage",
+     "section_heading": "How should I use allopurinol?",
+     "text": "Your symptoms may not improve for up to 2 to 6 weeks. Call your doctor if your symptoms do not improve after 6 weeks.\nYou may need to follow a special diet to help prevent kidney stones. Follow all instructions of your doctor or dietitian. Learn about the foods you should eat or avoid.\nStore at room temperature away from moisture and heat.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"allopurinol\", \"has symptom improvement time\", \"2 to 6 weeks\"], [\"allopurinol\", \"has instruction\", \"call doctor if symptoms do not improve after 6 weeks\"], [\"allopurinol\", \"may require\", \"special diet to prevent kidney stones\"], [\"allopurinol\", \"has administration instruction\", \"follow all instructions of your doctor or dietitian\"], [\"allopurinol\", \"has instruction\", \"learn about foods to eat or avoid\"], [\"allopurinol\", \"has storage instruction\", \"store at room temperature away from moisture and heat\"]]",
+     "oie": [
+      [
+       "allopurinol",
+       "has symptom improvement time",
+       "2 to 6 weeks"
+      ],
+      [
+       "allopurinol",
+       "has instruction",
+       "call doctor if symptoms do not improve after 6 weeks"
+      ],
+      [
+       "allopurinol",
+       "may require",
+       "special diet to prevent kidney stones"
+      ],
+      [
+       "allopurinol",
+       "has administration instruction",
+       "follow all instructions of your doctor or dietitian"
+      ],
+      [
+       "allopurinol",
+       "has instruction",
+       "learn about foods to eat or avoid"
+      ],
+      [
+       "allopurinol",
+       "has storage instruction",
+       "store at room temperature away from moisture and heat"
+      ]
+     ],
+     "schema_definition": {
+      "has symptom improvement time": "The subject drug may take the duration specified by the object entity to show improvement in symptoms.",
+      "has instruction": "The subject drug requires the patient to follow the action or guidance specified by the object entity.",
+      "has storage instruction": "The subject drug should be stored under the conditions specified by the object entity.",
+      "may require": "The subject drug might necessitate the use of the intervention or lifestyle change specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "allopurinol",
+        "has onset of effect",
+        "2 to 6 weeks"
+       ],
+       "raw_relation": "has symptom improvement time",
+       "definition": "The subject drug may take the duration specified by the object entity to show improvement in symptoms.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has duration of treatment",
+         0.8752
+        ],
+        [
+         "has onset of effect",
+         0.8694
+        ],
+        [
+         "increases risk of",
+         0.842
+        ],
+        [
+         "has prolonged duration in",
+         0.8404
+        ],
+        [
+         "takes 6 to 8 weeks to relieve",
+         0.8343
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has instruction",
+        "call doctor if symptoms do not improve after 6 weeks"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug requires the patient to follow the action or guidance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "may require",
+        "special diet to prevent kidney stones"
+       ],
+       "raw_relation": "may require",
+       "definition": "The subject drug might necessitate the use of the intervention or lifestyle change specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "used in combination with",
+         0.856
+        ],
+        [
+         "can occur with",
+         0.8528
+        ],
+        [
+         "interacts with",
+         0.8522
+        ],
+        [
+         "requires monitoring of",
+         0.8437
+        ],
+        [
+         "has administration instruction",
+         0.8423
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has administration instruction",
+        "follow all instructions of your doctor or dietitian"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": null,
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has instruction",
+        "learn about foods to eat or avoid"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug requires the patient to follow the action or guidance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has storage instruction",
+        "store at room temperature away from moisture and heat"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug should be stored under the conditions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "allopurinol#missed-dose#0",
+     "section_id": "missed-dose",
+     "section_heading": "What happens if I miss a dose?",
+     "text": "Take allopurinol as soon as you can, but skip the missed dose if it is almost time for your next dose. Do not take two doses at one time.\nCall your doctor for instructions if you miss an appointment for your allopurinol injection.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"allopurinol\", \"has missed dose instruction\", \"take as soon as possible, skip if almost time for next dose\"], [\"allopurinol\", \"has administration instruction\", \"do not take two doses at one time\"], [\"allopurinol\", \"has instruction for missed appointment\", \"call doctor for injection appointment instructions\"]]",
+     "oie": [
+      [
+       "allopurinol",
+       "has missed dose instruction",
+       "take as soon as possible, skip if almost time for next dose"
+      ],
+      [
+       "allopurinol",
+       "has administration instruction",
+       "do not take two doses at one time"
+      ],
+      [
+       "allopurinol",
+       "has instruction for missed appointment",
+       "call doctor for injection appointment instructions"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug should not be taken in double doses at one time as specified by the object entity.",
+      "has instruction for missed appointment": "If a patient misses an appointment for the subject drug's administration, they should contact a doctor for instructions as specified by the object entity.",
+      "has missed dose instruction": "If a dose of the subject drug is missed, the patient should take it as soon as possible, but skip it if it is nearly time for the next scheduled dose as specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "allopurinol",
+        "has missed dose instruction",
+        "take as soon as possible, skip if almost time for next dose"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "If a dose of the subject drug is missed, the patient should take it as soon as possible, but skip it if it is nearly time for the next scheduled dose as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has administration instruction",
+        "do not take two doses at one time"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should not be taken in double doses at one time as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has missed dose instruction",
+        "call doctor for injection appointment instructions"
+       ],
+       "raw_relation": "has instruction for missed appointment",
+       "definition": "If a patient misses an appointment for the subject drug's administration, they should contact a doctor for instructions as specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has missed dose instruction",
+         0.8541
+        ],
+        [
+         "should inform doctor about",
+         0.8098
+        ],
+        [
+         "has overdose instruction",
+         0.792
+        ],
+        [
+         "requires monitoring of",
+         0.7809
+        ],
+        [
+         "has patient resource",
+         0.7787
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "allopurinol#overdose#0",
+     "section_id": "overdose",
+     "section_heading": "What happens if I overdose?",
+     "text": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Allopurinol\", \"has overdose instruction\", \"seek emergency medical attention\"], [\"Allopurinol\", \"has overdose instruction\", \"call Poison Help line at 1-800-222-1222\"]]",
+     "oie": [
+      [
+       "Allopurinol",
+       "has overdose instruction",
+       "seek emergency medical attention"
+      ],
+      [
+       "Allopurinol",
+       "has overdose instruction",
+       "call Poison Help line at 1-800-222-1222"
+      ]
+     ],
+     "schema_definition": {
+      "has overdose instruction": "The subject drug requires the action specified by the object entity in case of overdose."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Allopurinol",
+        "has overdose instruction",
+        "seek emergency medical attention"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has overdose instruction",
+        "call Poison Help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "allopurinol#what-to-avoid#0",
+     "section_id": "what-to-avoid",
+     "section_heading": "What should I avoid while using allopurinol?",
+     "text": "Avoid driving or hazardous activity until you know how allopurinol will affect you. Your reactions could be impaired.\nAvoid drinking alcohol.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Allopurinol\", \"has administration instruction\", \"avoid driving or hazardous activity until effects are known\"], [\"Allopurinol\", \"has administration instruction\", \"avoid drinking alcohol\"]]",
+     "oie": [
+      [
+       "Allopurinol",
+       "has administration instruction",
+       "avoid driving or hazardous activity until effects are known"
+      ],
+      [
+       "Allopurinol",
+       "has administration instruction",
+       "avoid drinking alcohol"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug includes the instruction specified by the object entity regarding its safe use or patient behavior."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Allopurinol",
+        "has administration instruction",
+        "avoid driving or hazardous activity until effects are known"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug includes the instruction specified by the object entity regarding its safe use or patient behavior.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has administration instruction",
+        "avoid drinking alcohol"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug includes the instruction specified by the object entity regarding its safe use or patient behavior.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "allopurinol#side-effects#0",
+     "section_id": "side-effects",
+     "section_heading": "Allopurinol side effects",
+     "text": "Get emergency medical help if you have signs of an allergic reaction to allopurinol (hives, difficult breathing, swelling in your face or throat) or a severe skin reaction (fever, sore throat, burning eyes, skin pain, red or purple skin rash with blistering and peeling).\nSeek medical treatment if you have a serious drug reaction that can affect many parts of your body. Symptoms may include skin rash, fever, swollen glands, muscle aches, severe weakness, unusual bruising, or yellowing of your skin or eyes.\nAllopurinol may cause serious side effects. Stop using this medicine and call your doctor at once if you have:\n- any skin rash, no matter how mild;\n- painful urination, blood in the urine;\n- inflammation of your blood vessels - numbness or tingling, skin rash, fever, headache, body aches, night sweats, weight loss, feeling or weak or tired;\n- signs of infection - fever, chills, sore throat, body aches, unusual tiredness, loss of appetite, bruising or bleeding; or",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"allopurinol\", \"has serious side effect\", \"allergic reaction\"], [\"allopurinol\", \"has serious side effect\", \"severe skin reaction\"], [\"allopurinol\", \"has side effect\", \"skin rash\"], [\"allopurinol\", \"has side effect\", \"fever\"], [\"allopurinol\", \"has side effect\", \"swollen glands\"], [\"allopurinol\", \"has side effect\", \"muscle aches\"], [\"allopurinol\", \"has side effect\", \"severe weakness\"], [\"allopurinol\", \"has side effect\", \"unusual bruising\"], [\"allopurinol\", \"has side effect\", \"yellowing of skin or eyes\"], [\"allopurinol\", \"has side effect\", \"painful urination\"], [\"allopurinol\", \"has side effect\", \"blood in urine\"], [\"allopurinol\", \"has side effect\", \"numbness or tingling\"], [\"allopurinol\", \"has side effect\", \"headache\"], [\"allopurinol\", \"has side effect\", \"body aches\"], [\"allopurinol\", \"has side effect\", \"night sweats\"], [\"allopurinol\", \"has side effect\", \"weight loss\"], [\"allopurinol\", \"has side effect\", \"feeling weak or tired\"], [\"allopurinol\", \"has side effect\", \"loss of appetite\"], [\"allopurinol\", \"has side effect\", \"bruising or bleeding\"], [\"allopurinol\", \"has warning\", \"stop use and contact doctor if any skin rash occurs\"], [\"allopurinol\", \"has warning\", \"stop use and contact doctor if painful urination or blood in urine occurs\"], [\"allopurinol\", \"has warning\", \"stop use and contact doctor if inflammation of blood vessels occurs\"], [\"allopurinol\", \"has warning\", \"stop use and contact doctor if signs of infection occur\"]]",
+     "oie": [
+      [
+       "allopurinol",
+       "has serious side effect",
+       "allergic reaction"
+      ],
+      [
+       "allopurinol",
+       "has serious side effect",
+       "severe skin reaction"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "skin rash"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "fever"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "swollen glands"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "muscle aches"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "severe weakness"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "unusual bruising"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "yellowing of skin or eyes"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "painful urination"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "blood in urine"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "numbness or tingling"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "headache"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "body aches"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "night sweats"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "weight loss"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "feeling weak or tired"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "loss of appetite"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "bruising or bleeding"
+      ],
+      [
+       "allopurinol",
+       "has warning",
+       "stop use and contact doctor if any skin rash occurs"
+      ],
+      [
+       "allopurinol",
+       "has warning",
+       "stop use and contact doctor if painful urination or blood in urine occurs"
+      ],
+      [
+       "allopurinol",
+       "has warning",
+       "stop use and contact doctor if inflammation of blood vessels occurs"
+      ],
+      [
+       "allopurinol",
+       "has warning",
+       "stop use and contact doctor if signs of infection occur"
+      ]
+     ],
+     "schema_definition": {
+      "has serious side effect": "The subject drug may cause the serious or potentially life-threatening adverse effect specified by the object entity.",
+      "has side effect": "The subject drug may cause the symptom or condition specified by the object entity.",
+      "has warning": "The subject drug includes a specific caution that patients should stop using and contact their doctor immediately if the specified condition or symptom occurs."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "allopurinol",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially life-threatening adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has serious side effect",
+        "severe skin reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially life-threatening adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "skin rash"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "fever"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "swollen glands"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "muscle aches"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "severe weakness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "unusual bruising"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "yellowing of skin or eyes"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "painful urination"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "blood in urine"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "numbness or tingling"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "headache"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "body aches"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "night sweats"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "weight loss"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "feeling weak or tired"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "loss of appetite"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "bruising or bleeding"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has warning",
+        "stop use and contact doctor if any skin rash occurs"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug includes a specific caution that patients should stop using and contact their doctor immediately if the specified condition or symptom occurs.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has warning",
+        "stop use and contact doctor if painful urination or blood in urine occurs"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug includes a specific caution that patients should stop using and contact their doctor immediately if the specified condition or symptom occurs.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has warning",
+        "stop use and contact doctor if inflammation of blood vessels occurs"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug includes a specific caution that patients should stop using and contact their doctor immediately if the specified condition or symptom occurs.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has warning",
+        "stop use and contact doctor if signs of infection occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug includes a specific caution that patients should stop using and contact their doctor immediately if the specified condition or symptom occurs.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "allopurinol#side-effects#1",
+     "section_id": "side-effects",
+     "section_heading": "Allopurinol side effects",
+     "text": "- liver problems - loss of appetite, weight loss, stomach pain (upper right side), itching, dark urine, clay-colored stools, jaundice (yellowing of the skin or eyes).\nCommon allopurinol side effects may include:\n- an increase in gout attacks when you first start taking this medicine;\n- rash;\n- drowsiness;\n- abnormal liver function tests;\n- nausea, vomiting, diarrhea; or\n- kidney problems - swelling, urinating less, feeling tired or short of breath.\nThis is not a complete list of side effects and others may occur. Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"allopurinol\", \"has side effect\", \"increase in gout attacks\"], [\"allopurinol\", \"has side effect\", \"rash\"], [\"allopurinol\", \"has side effect\", \"drowsiness\"], [\"allopurinol\", \"has side effect\", \"abnormal liver function tests\"], [\"allopurinol\", \"has side effect\", \"nausea\"], [\"allopurinol\", \"has side effect\", \"vomiting\"], [\"allopurinol\", \"has side effect\", \"diarrhea\"], [\"allopurinol\", \"has side effect\", \"kidney problems\"], [\"allopurinol\", \"has side effect\", \"swelling\"], [\"allopurinol\", \"has side effect\", \"decreased urination\"], [\"allopurinol\", \"has side effect\", \"feeling tired\"], [\"allopurinol\", \"has side effect\", \"shortness of breath\"], [\"allopurinol\", \"has side effect\", \"liver problems\"], [\"allopurinol\", \"has side effect\", \"loss of appetite\"], [\"allopurinol\", \"has side effect\", \"weight loss\"], [\"allopurinol\", \"has side effect\", \"stomach pain (upper right side)\"], [\"allopurinol\", \"has side effect\", \"itching\"], [\"allopurinol\", \"has side effect\", \"dark urine\"], [\"allopurinol\", \"has side effect\", \"clay-colored stools\"], [\"allopurinol\", \"has side effect\", \"jaundice\"], [\"allopurinol\", \"has warning\", \"not a complete list of side effects\"], [\"allopurinol\", \"has instruction\", \"call doctor for medical advice about side effects\"], [\"allopurinol\", \"has reporting instruction\", \"report side effects to FDA at 1-800-FDA-1088\"]]",
+     "oie": [
+      [
+       "allopurinol",
+       "has side effect",
+       "increase in gout attacks"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "rash"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "drowsiness"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "abnormal liver function tests"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "nausea"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "vomiting"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "diarrhea"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "kidney problems"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "swelling"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "decreased urination"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "feeling tired"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "shortness of breath"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "liver problems"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "loss of appetite"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "weight loss"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "stomach pain (upper right side)"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "itching"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "dark urine"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "clay-colored stools"
+      ],
+      [
+       "allopurinol",
+       "has side effect",
+       "jaundice"
+      ],
+      [
+       "allopurinol",
+       "has warning",
+       "not a complete list of side effects"
+      ],
+      [
+       "allopurinol",
+       "has instruction",
+       "call doctor for medical advice about side effects"
+      ],
+      [
+       "allopurinol",
+       "has reporting instruction",
+       "report side effects to FDA at 1-800-FDA-1088"
+      ]
+     ],
+     "schema_definition": {
+      "has side effect": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+      "has instruction": "The subject drug comes with a directive for patients to take specific action regarding side effects, such as contacting a healthcare provider.",
+      "has reporting instruction": "Patients taking the subject drug are instructed to report certain side effects to a specified authority or contact.",
+      "has warning": "The subject drug is associated with a caution that the list of side effects is not exhaustive and other effects may occur."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "increase in gout attacks"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "rash"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "drowsiness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "abnormal liver function tests"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "nausea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "vomiting"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "diarrhea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "kidney problems"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "swelling"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "decreased urination"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "feeling tired"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "shortness of breath"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "liver problems"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "loss of appetite"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "weight loss"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "stomach pain (upper right side)"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "itching"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "dark urine"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "clay-colored stools"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has side effect",
+        "jaundice"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has warning",
+        "not a complete list of side effects"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug is associated with a caution that the list of side effects is not exhaustive and other effects may occur.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "has instruction",
+        "call doctor for medical advice about side effects"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug comes with a directive for patients to take specific action regarding side effects, such as contacting a healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allopurinol",
+        "should inform doctor about",
+        "report side effects to FDA at 1-800-FDA-1088"
+       ],
+       "raw_relation": "has reporting instruction",
+       "definition": "Patients taking the subject drug are instructed to report certain side effects to a specified authority or contact.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8421
+        ],
+        [
+         "has side effect",
+         0.8325
+        ],
+        [
+         "use with caution in",
+         0.8153
+        ],
+        [
+         "has side effect variation",
+         0.8125
+        ],
+        [
+         "has serious side effect",
+         0.8039
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "allopurinol#interactions#0",
+     "section_id": "interactions",
+     "section_heading": "What other drugs will affect allopurinol?",
+     "text": "Tell your doctor about all your other medicines, especially:\n- azathioprine or mercaptopurine;\n- chlorpropamide;\n- cyclosporine;\n- cancer medicine;\n- other gout medications;\n- an antibiotic such as ampicillin or amoxicillin;\n- a blood thinner such as warfarin, Coumadin, Jantoven; or\n- a diuretic or \"water pill\".\nThis list is not complete. Other drugs may interact with allopurinol, including prescription and over-the-counter medicines, vitamins, and herbal products. Not all possible drug interactions are listed here.\n- Check interactions\n- Compare alternatives\n- Pricing & coupons\n- Reviews (92)\n- Drug images\n- Side effects\n- Dosage information\n- Patient tips\n- During pregnancy\n- Support group\n- Drug class: antigout agents\n- Breastfeeding\n- En español\nPatient resources:\nOther brands:\nZyloprim, Aloprim\nProfessional resources:\n- Allopurinol monograph\n- Allopurinol (FDA)\n- Allopurinol Injection (FDA)\nOther brands:\nZyloprim, Aloprim\nRelated treatment guides:\n- Gout\n- Calcium Oxalate Calculi with Hyperuricosuria\n- Cardiothoracic Surgery\n- High Risk Percutaneous Transluminal Angioplasty",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Allopurinol\", \"interacts with\", \"azathioprine or mercaptopurine\"], [\"Allopurinol\", \"interacts with\", \"chlorpropamide\"], [\"Allopurinol\", \"interacts with\", \"cyclosporine\"], [\"Allopurinol\", \"interacts with\", \"cancer medicine\"], [\"Allopurinol\", \"interacts with\", \"other gout medications\"], [\"Allopurinol\", \"interacts with\", \"ampicillin or amoxicillin\"], [\"Allopurinol\", \"interacts with\", \"warfarin or Coumadin or Jantoven\"], [\"Allopurinol\", \"interacts with\", \"diuretic or water pill\"], [\"Allopurinol\", \"has warning\", \"not all possible interactions are listed\"], [\"Allopurinol\", \"has drug class\", \"antigout agents\"], [\"Allopurinol\", \"has brand name\", \"Zyloprim\"], [\"Allopurinol\", \"has brand name\", \"Aloprim\"], [\"Allopurinol\", \"has patient resource\", \"side effects\"], [\"Allopurinol\", \"has patient resource\", \"dosage information\"], [\"Allopurinol\", \"has patient resource\", \"patient tips\"], [\"Allopurinol\", \"has patient resource\", \"during pregnancy\"], [\"Allopurinol\", \"has patient resource\", \"support group\"], [\"Allopurinol\", \"has patient resource\", \"en español\"], [\"Allopurinol\", \"has professional resource\", \"Allopurinol monograph\"], [\"Allopurinol\", \"has professional resource\", \"Allopurinol (FDA)\"], [\"Allopurinol\", \"has professional resource\", \"Allopurinol Injection (FDA)\"], [\"Allopurinol\", \"has related treatment guide\", \"gout\"], [\"Allopurinol\", \"has related treatment guide\", \"calcium oxalate calculi with hyperuricosuria\"], [\"Allopurinol\", \"has related treatment guide\", \"cardiothoracic surgery\"], [\"Allopurinol\", \"has related treatment guide\", \"high risk percutaneous transluminal angioplasty\"]]",
+     "oie": [
+      [
+       "Allopurinol",
+       "interacts with",
+       "azathioprine or mercaptopurine"
+      ],
+      [
+       "Allopurinol",
+       "interacts with",
+       "chlorpropamide"
+      ],
+      [
+       "Allopurinol",
+       "interacts with",
+       "cyclosporine"
+      ],
+      [
+       "Allopurinol",
+       "interacts with",
+       "cancer medicine"
+      ],
+      [
+       "Allopurinol",
+       "interacts with",
+       "other gout medications"
+      ],
+      [
+       "Allopurinol",
+       "interacts with",
+       "ampicillin or amoxicillin"
+      ],
+      [
+       "Allopurinol",
+       "interacts with",
+       "warfarin or Coumadin or Jantoven"
+      ],
+      [
+       "Allopurinol",
+       "interacts with",
+       "diuretic or water pill"
+      ],
+      [
+       "Allopurinol",
+       "has warning",
+       "not all possible interactions are listed"
+      ],
+      [
+       "Allopurinol",
+       "has drug class",
+       "antigout agents"
+      ],
+      [
+       "Allopurinol",
+       "has brand name",
+       "Zyloprim"
+      ],
+      [
+       "Allopurinol",
+       "has brand name",
+       "Aloprim"
+      ],
+      [
+       "Allopurinol",
+       "has patient resource",
+       "side effects"
+      ],
+      [
+       "Allopurinol",
+       "has patient resource",
+       "dosage information"
+      ],
+      [
+       "Allopurinol",
+       "has patient resource",
+       "patient tips"
+      ],
+      [
+       "Allopurinol",
+       "has patient resource",
+       "during pregnancy"
+      ],
+      [
+       "Allopurinol",
+       "has patient resource",
+       "support group"
+      ],
+      [
+       "Allopurinol",
+       "has patient resource",
+       "en español"
+      ],
+      [
+       "Allopurinol",
+       "has professional resource",
+       "Allopurinol monograph"
+      ],
+      [
+       "Allopurinol",
+       "has professional resource",
+       "Allopurinol (FDA)"
+      ],
+      [
+       "Allopurinol",
+       "has professional resource",
+       "Allopurinol Injection (FDA)"
+      ],
+      [
+       "Allopurinol",
+       "has related treatment guide",
+       "gout"
+      ],
+      [
+       "Allopurinol",
+       "has related treatment guide",
+       "calcium oxalate calculi with hyperuricosuria"
+      ],
+      [
+       "Allopurinol",
+       "has related treatment guide",
+       "cardiothoracic surgery"
+      ],
+      [
+       "Allopurinol",
+       "has related treatment guide",
+       "high risk percutaneous transluminal angioplasty"
+      ]
+     ],
+     "schema_definition": {
+      "has brand name": "The subject drug is marketed under the brand name(s) specified by the object entity.",
+      "has drug class": "The subject drug belongs to the pharmacological class specified by the object entity.",
+      "has patient resource": "The subject drug has available patient-oriented information or support materials specified by the object entity.",
+      "has professional resource": "The subject drug has available professional medical resources or documentation specified by the object entity.",
+      "has related treatment guide": "The subject drug is associated with treatment guidelines or clinical management protocols specified by the object entity.",
+      "has warning": "The subject drug includes a caution or notice that not all possible interactions or risks are fully listed.",
+      "interacts with": "The subject drug may have a pharmacological interaction with the substance or medication specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Allopurinol",
+        "interacts with",
+        "azathioprine or mercaptopurine"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "interacts with",
+        "chlorpropamide"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "interacts with",
+        "cyclosporine"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "interacts with",
+        "cancer medicine"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "interacts with",
+        "other gout medications"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "interacts with",
+        "ampicillin or amoxicillin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "interacts with",
+        "warfarin or Coumadin or Jantoven"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "interacts with",
+        "diuretic or water pill"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has warning",
+        "not all possible interactions are listed"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug includes a caution or notice that not all possible interactions or risks are fully listed.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "belongs to drug class",
+        "antigout agents"
+       ],
+       "raw_relation": "has drug class",
+       "definition": "The subject drug belongs to the pharmacological class specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "belongs to drug class",
+         0.9666
+        ],
+        [
+         "has dosage form",
+         0.8764
+        ],
+        [
+         "similar to",
+         0.8671
+        ],
+        [
+         "treats",
+         0.866
+        ],
+        [
+         "has controlled substance schedule",
+         0.8656
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has brand name",
+        "Zyloprim"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug is marketed under the brand name(s) specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has brand name",
+        "Aloprim"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug is marketed under the brand name(s) specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has patient resource",
+        "side effects"
+       ],
+       "raw_relation": "has patient resource",
+       "definition": "The subject drug has available patient-oriented information or support materials specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has patient resource",
+        "dosage information"
+       ],
+       "raw_relation": "has patient resource",
+       "definition": "The subject drug has available patient-oriented information or support materials specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has patient resource",
+        "patient tips"
+       ],
+       "raw_relation": "has patient resource",
+       "definition": "The subject drug has available patient-oriented information or support materials specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has patient resource",
+        "during pregnancy"
+       ],
+       "raw_relation": "has patient resource",
+       "definition": "The subject drug has available patient-oriented information or support materials specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has patient resource",
+        "support group"
+       ],
+       "raw_relation": "has patient resource",
+       "definition": "The subject drug has available patient-oriented information or support materials specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has patient resource",
+        "en español"
+       ],
+       "raw_relation": "has patient resource",
+       "definition": "The subject drug has available patient-oriented information or support materials specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has patient resource",
+        "Allopurinol monograph"
+       ],
+       "raw_relation": "has professional resource",
+       "definition": "The subject drug has available professional medical resources or documentation specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has patient resource",
+         0.9158
+        ],
+        [
+         "has history of use",
+         0.857
+        ],
+        [
+         "has dosage form",
+         0.8535
+        ],
+        [
+         "treats",
+         0.8527
+        ],
+        [
+         "similar to",
+         0.8464
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has patient resource",
+        "Allopurinol (FDA)"
+       ],
+       "raw_relation": "has professional resource",
+       "definition": "The subject drug has available professional medical resources or documentation specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has patient resource",
+         0.9158
+        ],
+        [
+         "has history of use",
+         0.857
+        ],
+        [
+         "has dosage form",
+         0.8535
+        ],
+        [
+         "treats",
+         0.8527
+        ],
+        [
+         "similar to",
+         0.8464
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "has patient resource",
+        "Allopurinol Injection (FDA)"
+       ],
+       "raw_relation": "has professional resource",
+       "definition": "The subject drug has available professional medical resources or documentation specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has patient resource",
+         0.9158
+        ],
+        [
+         "has history of use",
+         0.857
+        ],
+        [
+         "has dosage form",
+         0.8535
+        ],
+        [
+         "treats",
+         0.8527
+        ],
+        [
+         "similar to",
+         0.8464
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "treats",
+        "gout"
+       ],
+       "raw_relation": "has related treatment guide",
+       "definition": "The subject drug is associated with treatment guidelines or clinical management protocols specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.891
+        ],
+        [
+         "treats",
+         0.8841
+        ],
+        [
+         "belongs to drug class",
+         0.8748
+        ],
+        [
+         "has instruction",
+         0.8682
+        ],
+        [
+         "has dosage form",
+         0.8643
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "treats",
+        "calcium oxalate calculi with hyperuricosuria"
+       ],
+       "raw_relation": "has related treatment guide",
+       "definition": "The subject drug is associated with treatment guidelines or clinical management protocols specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.891
+        ],
+        [
+         "treats",
+         0.8841
+        ],
+        [
+         "belongs to drug class",
+         0.8748
+        ],
+        [
+         "has instruction",
+         0.8682
+        ],
+        [
+         "has dosage form",
+         0.8643
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "treats",
+        "cardiothoracic surgery"
+       ],
+       "raw_relation": "has related treatment guide",
+       "definition": "The subject drug is associated with treatment guidelines or clinical management protocols specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.891
+        ],
+        [
+         "treats",
+         0.8841
+        ],
+        [
+         "belongs to drug class",
+         0.8748
+        ],
+        [
+         "has instruction",
+         0.8682
+        ],
+        [
+         "has dosage form",
+         0.8643
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Allopurinol",
+        "treats",
+        "high risk percutaneous transluminal angioplasty"
+       ],
+       "raw_relation": "has related treatment guide",
+       "definition": "The subject drug is associated with treatment guidelines or clinical management protocols specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.891
+        ],
+        [
+         "treats",
+         0.8841
+        ],
+        [
+         "belongs to drug class",
+         0.8748
+        ],
+        [
+         "has instruction",
+         0.8682
+        ],
+        [
+         "has dosage form",
+         0.8643
+        ]
+       ],
+       "answer": "B"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "allopurinol#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "allopurinol",
+    "belongs to drug class",
+    "xanthine oxidase inhibitors"
+   ],
+   "raw_relation": "belongs to drug class",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "allopurinol",
+    "has mechanism of action",
+    "reducing production of uric acid"
+   ],
+   "raw_relation": "has mechanism of action",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "allopurinol",
+    "treats",
+    "gout"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "allopurinol",
+    "reduces risk of",
+    "gout attacks"
+   ],
+   "raw_relation": "used for prevention of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "allopurinol",
+    "should not be stopped during",
+    "acute flare"
+   ],
+   "raw_relation": "does not require discontinuation during",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "allopurinol",
+    "treats",
+    "high uric acid levels in blood due to tumor breakdown"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "allopurinol",
+    "treats",
+    "recurrent kidney stones with high uric acid in urine"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Allopurinol",
+    "contraindicated in",
+    "allergic reaction to allopurinol"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Allopurinol",
+    "lowers level of",
+    "blood cells that fight infections"
+   ],
+   "raw_relation": "lowers",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Allopurinol",
+    "increases risk of",
+    "bleeding from injury"
+   ],
+   "raw_relation": "increases risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Allopurinol",
+    "increases risk of",
+    "getting sick from exposure to others"
+   ],
+   "raw_relation": "increases risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Allopurinol",
+    "has serious side effect",
+    "severe allergic reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Allopurinol",
+    "has side effect",
+    "painful urination"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Allopurinol",
+    "has side effect",
+    "blood in urine"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Allopurinol",
+    "has side effect",
+    "burning in eyes"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Allopurinol",
+    "has side effect",
+    "swelling in face or throat"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Allopurinol",
+    "has side effect",
+    "skin redness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Allopurinol",
+    "has side effect",
+    "rash that spreads and causes blistering and peeling"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Allopurinol",
+    "should be avoided with",
+    "alcohol"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Allopurinol",
+    "may reduce response to",
+    "thinking or reactions"
+   ],
+   "raw_relation": "may impair",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Allopurinol",
+    "has warning",
+    "be careful when driving or performing alert tasks"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "allopurinol",
+    "contraindicated in",
+    "allergy to allopurinol"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "allopurinol",
+    "use with caution in",
+    "diabetes"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "allopurinol",
+    "use with caution in",
+    "congestive heart failure"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "allopurinol",
+    "use with caution in",
+    "high blood pressure"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "allopurinol",
+    "use with caution in",
+    "chemotherapy"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "allopurinol",
+    "use with caution in",
+    "liver disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "allopurinol",
+    "use with caution in",
+    "kidney disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "allopurinol",
+    "has warning",
+    "may harm an unborn baby"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "allopurinol",
+    "has pregnancy or breastfeeding warning",
+    "may harm an unborn baby"
+   ],
+   "raw_relation": "has pregnancy warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "allopurinol",
+    "has pregnancy or breastfeeding warning",
+    "do not breastfeed while using this medicine"
+   ],
+   "raw_relation": "has breastfeeding instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "allopurinol",
+    "has pregnancy or breastfeeding warning",
+    "for at least 1 week after last dose"
+   ],
+   "raw_relation": "has breastfeeding instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "has administration instruction",
+    "take exactly as prescribed by doctor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "has administration instruction",
+    "follow all directions on prescription label"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "has administration instruction",
+    "read all medication guides or instruction sheets"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "has administration instruction",
+    "take tablets with a full glass of water"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "has administration instruction",
+    "drink 8 to 10 full glasses of fluid every day"
+   ],
+   "raw_relation": "has fluid intake instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "has administration instruction",
+    "take tablets after meals"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "administered via",
+    "intravenous injection"
+   ],
+   "raw_relation": "has alternative administration route",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "has indication for injection",
+    "when unable to take medicine by mouth"
+   ],
+   "raw_relation": "has indication for injection",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "requires monitoring of",
+    "even without symptoms"
+   ],
+   "raw_relation": "requires frequent medical testing",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "requires monitoring of",
+    "kidney function"
+   ],
+   "raw_relation": "requires monitoring of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "requires monitoring of",
+    "liver function"
+   ],
+   "raw_relation": "requires monitoring of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "has dose modification instruction",
+    "if kidney function changes"
+   ],
+   "raw_relation": "has dose adjustment instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "gout attacks when first starting"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "used in combination with",
+    "another gout medication"
+   ],
+   "raw_relation": "has concomitant medication recommendation",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "has onset of effect",
+    "2 to 6 weeks"
+   ],
+   "raw_relation": "has symptom improvement time",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "has instruction",
+    "call doctor if symptoms do not improve after 6 weeks"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "may require",
+    "special diet to prevent kidney stones"
+   ],
+   "raw_relation": "may require",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "has administration instruction",
+    "follow all instructions of your doctor or dietitian"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "has instruction",
+    "learn about foods to eat or avoid"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "allopurinol",
+    "has storage instruction",
+    "store at room temperature away from moisture and heat"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "allopurinol",
+    "has missed dose instruction",
+    "take as soon as possible, skip if almost time for next dose"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "allopurinol",
+    "has administration instruction",
+    "do not take two doses at one time"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "allopurinol",
+    "has missed dose instruction",
+    "call doctor for injection appointment instructions"
+   ],
+   "raw_relation": "has instruction for missed appointment",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "Allopurinol",
+    "has overdose instruction",
+    "seek emergency medical attention"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "Allopurinol",
+    "has overdose instruction",
+    "call Poison Help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Allopurinol",
+    "has administration instruction",
+    "avoid driving or hazardous activity until effects are known"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Allopurinol",
+    "has administration instruction",
+    "avoid drinking alcohol"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has serious side effect",
+    "severe skin reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "skin rash"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "fever"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "swollen glands"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "muscle aches"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "severe weakness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "unusual bruising"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "yellowing of skin or eyes"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "painful urination"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "blood in urine"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "numbness or tingling"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "headache"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "body aches"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "night sweats"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "weight loss"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "feeling weak or tired"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "loss of appetite"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "bruising or bleeding"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has warning",
+    "stop use and contact doctor if any skin rash occurs"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has warning",
+    "stop use and contact doctor if painful urination or blood in urine occurs"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has warning",
+    "stop use and contact doctor if inflammation of blood vessels occurs"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has warning",
+    "stop use and contact doctor if signs of infection occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "increase in gout attacks"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "rash"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "drowsiness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "abnormal liver function tests"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "nausea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "vomiting"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "diarrhea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "kidney problems"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "swelling"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "decreased urination"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "feeling tired"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "shortness of breath"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "liver problems"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "loss of appetite"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "weight loss"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "stomach pain (upper right side)"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "itching"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "dark urine"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "clay-colored stools"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has side effect",
+    "jaundice"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has warning",
+    "not a complete list of side effects"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "has instruction",
+    "call doctor for medical advice about side effects"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "allopurinol",
+    "should inform doctor about",
+    "report side effects to FDA at 1-800-FDA-1088"
+   ],
+   "raw_relation": "has reporting instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "interacts with",
+    "azathioprine or mercaptopurine"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "interacts with",
+    "chlorpropamide"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "interacts with",
+    "cyclosporine"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "interacts with",
+    "cancer medicine"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "interacts with",
+    "other gout medications"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "interacts with",
+    "ampicillin or amoxicillin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "interacts with",
+    "warfarin or Coumadin or Jantoven"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "interacts with",
+    "diuretic or water pill"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "has warning",
+    "not all possible interactions are listed"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "belongs to drug class",
+    "antigout agents"
+   ],
+   "raw_relation": "has drug class",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "has brand name",
+    "Zyloprim"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "has brand name",
+    "Aloprim"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "has patient resource",
+    "side effects"
+   ],
+   "raw_relation": "has patient resource",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "has patient resource",
+    "dosage information"
+   ],
+   "raw_relation": "has patient resource",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "has patient resource",
+    "patient tips"
+   ],
+   "raw_relation": "has patient resource",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "has patient resource",
+    "during pregnancy"
+   ],
+   "raw_relation": "has patient resource",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "has patient resource",
+    "support group"
+   ],
+   "raw_relation": "has patient resource",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "has patient resource",
+    "en español"
+   ],
+   "raw_relation": "has patient resource",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "has patient resource",
+    "Allopurinol monograph"
+   ],
+   "raw_relation": "has professional resource",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "has patient resource",
+    "Allopurinol (FDA)"
+   ],
+   "raw_relation": "has professional resource",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "has patient resource",
+    "Allopurinol Injection (FDA)"
+   ],
+   "raw_relation": "has professional resource",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "treats",
+    "gout"
+   ],
+   "raw_relation": "has related treatment guide",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "treats",
+    "calcium oxalate calculi with hyperuricosuria"
+   ],
+   "raw_relation": "has related treatment guide",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "treats",
+    "cardiothoracic surgery"
+   ],
+   "raw_relation": "has related treatment guide",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "allopurinol#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Allopurinol",
+    "treats",
+    "high risk percutaneous transluminal angioplasty"
+   ],
+   "raw_relation": "has related treatment guide",
+   "status": "mapped"
+  }
+ ],
+ "name": "Allopurinol",
+ "slug": "allopurinol",
+ "n_chunks": 11,
+ "seconds": 13.0,
+ "llm_model": "drugkg-llm"
+}

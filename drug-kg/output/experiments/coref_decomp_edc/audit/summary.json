@@ -1,0 +1,262 @@
+{
+  "n_entities": 8466,
+  "n_entities_with_any_issue": 4990,
+  "by_issue": {
+    "A1_core_label_case": {
+      "entities": 13,
+      "triples_touched": 3434,
+      "examples": [
+        "sertraline",
+        "spironolactone",
+        "tramadol",
+        "prednisone",
+        "venlafaxine",
+        "meloxicam",
+        "metformin",
+        "omeprazole"
+      ]
+    },
+    "A2_core_label_from_title": {
+      "entities": 3,
+      "triples_touched": 473,
+      "examples": [
+        "Hydrocodone and Acetaminophen",
+        "Albuterol Inhalation",
+        "Flonase Nasal Spray"
+      ]
+    },
+    "A3_alias_split_from_core": {
+      "entities": 46,
+      "triples_touched": 564,
+      "examples": [
+        "Zepbound",
+        "Mounjaro",
+        "Wegovy",
+        "Rybelsus",
+        "Ozempic",
+        "Tonmya",
+        "Amrix",
+        "Gralise"
+      ]
+    },
+    "B1_non_drug_typed_as_drug": {
+      "entities": 32,
+      "triples_touched": 275,
+      "examples": [
+        "allergic reaction",
+        "serotonin syndrome",
+        "high blood pressure",
+        "MAO inhibitors",
+        "serious genital infection",
+        "Zepbound Study 1 (NCT04184622)",
+        "Zollinger-Ellison syndrome",
+        "eye pain"
+      ]
+    },
+    "B2_untyped_other": {
+      "entities": 246,
+      "triples_touched": 274,
+      "examples": [
+        "arthritis",
+        "this page",
+        "United States",
+        "drug interactions",
+        "short",
+        "mild",
+        "Indianapolis, IN 46285 USA",
+        "32 hours"
+      ]
+    },
+    "B3_type_mismatch_with_relation": {
+      "entities": 454,
+      "triples_touched": 7060,
+      "examples": [
+        "sertraline",
+        "tramadol",
+        "Fluoxetine",
+        "Metoprolol",
+        "Gabapentin",
+        "Furosemide",
+        "venlafaxine",
+        "Tirzepatide"
+      ]
+    },
+    "B4_both_indication_and_side_effect": {
+      "entities": 28,
+      "triples_touched": 312,
+      "examples": [
+        "fever",
+        "stroke",
+        "seizures",
+        "heart attack",
+        "itching",
+        "anxiety",
+        "chest pain",
+        "low blood sugar"
+      ]
+    },
+    "C1_exact_variant": {
+      "entities": 100,
+      "triples_touched": 441,
+      "examples": [
+        "stroke",
+        "severe skin reaction",
+        "seizures",
+        "heart attack",
+        "oral tablet",
+        "tablet",
+        "new or worsening symptoms",
+        "low sodium levels"
+      ]
+    },
+    "C2_modifier_or_form_variant": {
+      "entities": 389,
+      "triples_touched": 7053,
+      "examples": [
+        "sertraline",
+        "tramadol",
+        "Levothyroxine",
+        "Semaglutide",
+        "Adderall",
+        "Metoprolol",
+        "Gabapentin",
+        "Furosemide"
+      ]
+    },
+    "D1_sentence_like_concept": {
+      "entities": 768,
+      "triples_touched": 942,
+      "examples": [
+        "swelling of face, lips, tongue, or throat",
+        "new or sudden changes in mood or behavior",
+        "high levels of serotonin in the body",
+        "new or worsening symptoms with Trazodone",
+        "red or purple skin rash with blistering and peeling",
+        "feeling like you might pass out",
+        "unusual changes in mood or behavior",
+        "vomit that looks like coffee grounds"
+      ]
+    },
+    "D2_multiple_concepts": {
+      "entities": 635,
+      "triples_touched": 902,
+      "examples": [
+        "swelling of face, lips, tongue, or throat",
+        "new or sudden changes in mood or behavior",
+        "new or worsening symptoms",
+        "new or worsening symptoms with Trazodone",
+        "red or purple skin rash with blistering and peeling",
+        "swelling in face or throat",
+        "new or worsening symptom",
+        "heart or blood pressure medication"
+      ]
+    },
+    "D3_sentence_literal": {
+      "entities": 2748,
+      "triples_touched": 3329,
+      "examples": [
+        "call your doctor for medical advice about side effects",
+        "call poison help line at 1-800-222-1222",
+        "read all medication guides or instruction sheets",
+        "follow all directions on your prescription label",
+        "take exactly as prescribed by your doctor",
+        "do not take two doses at one time",
+        "store at room temperature away from moisture and heat",
+        "report side effects to FDA at 1-800-FDA-1088"
+      ]
+    },
+    "E1_relation_word_in_entity": {
+      "entities": 43,
+      "triples_touched": 45,
+      "examples": [
+        "reduces nausea and vomiting",
+        "lower sex drive",
+        "prevents blood from coagulating",
+        "cause body to hold onto fluid",
+        "helps maintain better control over blood sugar levels",
+        "lower blood pressure",
+        "reduce the chance of blood clot formation",
+        "increase in gout attacks"
+      ]
+    },
+    "F1_vague_or_generic": {
+      "entities": 218,
+      "triples_touched": 382,
+      "examples": [
+        "adults",
+        "children",
+        "certain other medicines",
+        "other medicines",
+        "this is not a complete list of side effects and others may occur",
+        "other drugs",
+        "this list is not complete",
+        "certain medicines"
+      ]
+    },
+    "F2_too_short_or_bare_number": {
+      "entities": 30,
+      "triples_touched": 37,
+      "examples": [
+        "No",
+        "2",
+        "1",
+        "4%",
+        "12%",
+        "TG",
+        "8.5%",
+        "26%"
+      ]
+    },
+    "G1_boilerplate_hub": {
+      "entities": 11,
+      "triples_touched": 315,
+      "examples": [
+        "seek emergency medical attention",
+        "Prescription only",
+        "call your doctor for medical advice about side effects",
+        "call poison help line at 1-800-222-1222",
+        "read all medication guides or instruction sheets",
+        "follow all directions on your prescription label",
+        "take exactly as prescribed by your doctor",
+        "do not take two doses at one time"
+      ]
+    },
+    "H1_unit_format": {
+      "entities": 14,
+      "triples_touched": 14,
+      "examples": [
+        "10mg for panic disorder",
+        "40mg for major depressive disorder (MDD) and OCD",
+        "Week 1 to week 4: 0.25mg once a week",
+        "20mg/5ml",
+        "20mg for panic disorder",
+        "800 milligrams per dose or 3200 mg per day (4 maximum doses)",
+        "Week 9 to week 12: 1mg once a week",
+        "40mg for MDD and OCD"
+      ]
+    }
+  },
+  "duplicate_groups": {
+    "C1_exact_variant": 50,
+    "C2_modifier_or_form_variant": 162
+  },
+  "same_surface_different_type": 68,
+  "top_type_mismatches": [
+    "has side effect: expects SideEffect, got Drug ×236",
+    "has serious side effect: expects SideEffect, got Drug ×99",
+    "includes: expects Instruction, got SideEffect ×80",
+    "has overdose symptom: expects Symptom, got Drug ×46",
+    "treats: expects Condition, got Drug ×44",
+    "includes: expects Instruction, got Drug ×34",
+    "use with caution in: expects Condition, got Drug ×25",
+    "has symptom: expects Symptom, got Drug ×24",
+    "contraindicated in: expects Condition, got Drug ×23",
+    "has dosage form: expects DosageForm, got Drug ×22",
+    "includes: expects Instruction, got Condition ×21",
+    "includes: expects Instruction, got Substance ×20"
+  ],
+  "literal_vs_concept": {
+    "concept": 4595,
+    "literal": 3871
+  }
+}

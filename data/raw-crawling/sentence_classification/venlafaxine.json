@@ -1,0 +1,3296 @@
+{
+  "drug": "Venlafaxine",
+  "source_file": "data/raw-crawling/raw-crawling/venlafaxine.html",
+  "model": "models/codekg_bert_large/final_model",
+  "sentence_count": 193,
+  "label_counts": {
+    "Complex Sentence": 8,
+    "Compound Sentence": 11,
+    "Compound-Complex Sentence": 4,
+    "Incomplete Sentence": 131,
+    "Simple Sentence": 39
+  },
+  "sentences": [
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": null,
+      "block_index": 0,
+      "sentence_index": 0,
+      "sentence": "Generic name: venlafaxine [ VEN-la-fax-een ] Brand names: Effexor XR , Effexor Dosage forms: oral capsule, extended release (150 mg; 37.5 mg; 75 mg), oral tablet (100 mg; 25 mg; 37.5 mg; 50 mg; 75 mg), ... show all 3 dosage forms oral tablet, extended release (112.5 mg; 150 mg; 225 mg; 37.5 mg; 75 mg) Drug class: Serotonin-norepinephrine reuptake inhibitors",
+      "predicted_label": "Compound-Complex Sentence",
+      "confidence": 0.6677557826042175,
+      "probabilities": {
+        "Simple Sentence": 0.015014264732599258,
+        "Compound Sentence": 0.1025099828839302,
+        "Complex Sentence": 0.19961749017238617,
+        "Compound-Complex Sentence": 0.6677557826042175,
+        "Incomplete Sentence": 0.01510249637067318
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": null,
+      "block_index": 1,
+      "sentence_index": 0,
+      "sentence": "Medically reviewed by Philip Thornton, DipPharm .",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9962397813796997,
+      "probabilities": {
+        "Simple Sentence": 0.0020194316748529673,
+        "Compound Sentence": 0.0009474133257754147,
+        "Complex Sentence": 0.0003427954507060349,
+        "Compound-Complex Sentence": 0.00045059609692543745,
+        "Incomplete Sentence": 0.9962397813796997
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": null,
+      "block_index": 1,
+      "sentence_index": 1,
+      "sentence": "Last updated on Aug 27, 2026.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9933904409408569,
+      "probabilities": {
+        "Simple Sentence": 0.0038906438276171684,
+        "Compound Sentence": 0.0014237186405807734,
+        "Complex Sentence": 0.00047456315951421857,
+        "Compound-Complex Sentence": 0.000820772722363472,
+        "Incomplete Sentence": 0.9933904409408569
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What is venlafaxine?",
+      "block_index": 2,
+      "sentence_index": 0,
+      "sentence": "Venlafaxine is used in adults to treat major depressive disorder .",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9885755181312561,
+      "probabilities": {
+        "Simple Sentence": 0.9885755181312561,
+        "Compound Sentence": 0.005451144650578499,
+        "Complex Sentence": 0.0028859071899205446,
+        "Compound-Complex Sentence": 0.0006608146359212697,
+        "Incomplete Sentence": 0.0024266201071441174
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What is venlafaxine?",
+      "block_index": 2,
+      "sentence_index": 1,
+      "sentence": "Venlafaxine extended-release (long-acting) capsules are also used to treat generalized anxiety disorder (GAD; excessive worrying that is difficult to control), social anxiety disorder (extreme fear of interacting with others or performing in front of others that interferes with normal life), and panic disorder (sudden, unexpected attacks of extreme fear and worry about these attacks).",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.8481879830360413,
+      "probabilities": {
+        "Simple Sentence": 0.017195792868733406,
+        "Compound Sentence": 0.036922637373209,
+        "Complex Sentence": 0.8481879830360413,
+        "Compound-Complex Sentence": 0.09352869540452957,
+        "Incomplete Sentence": 0.004164915531873703
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What is venlafaxine?",
+      "block_index": 3,
+      "sentence_index": 0,
+      "sentence": "Venlafaxine belongs to a class of medications called selective serotonin and norepinephrine reuptake inhibitors (SNRIs).",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9838575124740601,
+      "probabilities": {
+        "Simple Sentence": 0.9838575124740601,
+        "Compound Sentence": 0.007336041424423456,
+        "Complex Sentence": 0.006104105617851019,
+        "Compound-Complex Sentence": 0.0009662813972681761,
+        "Incomplete Sentence": 0.0017360933125019073
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What is venlafaxine?",
+      "block_index": 3,
+      "sentence_index": 1,
+      "sentence": "Venlafaxine works by increasing the amounts of serotonin and norepinephrine, natural substances in the brain that help maintain mental balance.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.7706397175788879,
+      "probabilities": {
+        "Simple Sentence": 0.07849549502134323,
+        "Compound Sentence": 0.11649131029844284,
+        "Complex Sentence": 0.7706397175788879,
+        "Compound-Complex Sentence": 0.02851259894669056,
+        "Incomplete Sentence": 0.0058609675616025925
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Warnings",
+      "block_index": 4,
+      "sentence_index": 0,
+      "sentence": "You should not take venlafaxine if you have uncontrolled narrow-angle glaucoma .",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9602072834968567,
+      "probabilities": {
+        "Simple Sentence": 0.9602072834968567,
+        "Compound Sentence": 0.020492156967520714,
+        "Complex Sentence": 0.013919106684625149,
+        "Compound-Complex Sentence": 0.0025987739209085703,
+        "Incomplete Sentence": 0.0027826374862343073
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Warnings",
+      "block_index": 5,
+      "sentence_index": 0,
+      "sentence": "Do not use venlafaxine within 7 days before or 14 days after you have used an MAO inhibitor, such as isocarboxazid , linezolid , methylene blue injection, phenelzine , or tranylcypromine .",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.5214122533798218,
+      "probabilities": {
+        "Simple Sentence": 0.1322527527809143,
+        "Compound Sentence": 0.5214122533798218,
+        "Complex Sentence": 0.22926665842533112,
+        "Compound-Complex Sentence": 0.06306944042444229,
+        "Incomplete Sentence": 0.053998857736587524
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Warnings",
+      "block_index": 6,
+      "sentence_index": 0,
+      "sentence": "Some young people have thoughts about suicide when first taking an antidepressant.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9815331101417542,
+      "probabilities": {
+        "Simple Sentence": 0.9815331101417542,
+        "Compound Sentence": 0.007617689669132233,
+        "Complex Sentence": 0.007403173018246889,
+        "Compound-Complex Sentence": 0.0010082904482260346,
+        "Incomplete Sentence": 0.0024377338122576475
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Warnings",
+      "block_index": 6,
+      "sentence_index": 1,
+      "sentence": "Stay alert to changes in your mood or symptoms.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9004923105239868,
+      "probabilities": {
+        "Simple Sentence": 0.08055008202791214,
+        "Compound Sentence": 0.010096805170178413,
+        "Complex Sentence": 0.0029628295451402664,
+        "Compound-Complex Sentence": 0.005898047238588333,
+        "Incomplete Sentence": 0.9004923105239868
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Warnings",
+      "block_index": 6,
+      "sentence_index": 2,
+      "sentence": "Report any new or worsening symptoms to your doctor, such as: mood or behavioral changes, anxiety, panic attacks, trouble sleeping, or if you feel impulsive, irritable, agitated, hostile, aggressive, restless, hyperactive (mentally or physically), more depressed, or have thoughts about suicide or hurting yourself.",
+      "predicted_label": "Compound-Complex Sentence",
+      "confidence": 0.4245840907096863,
+      "probabilities": {
+        "Simple Sentence": 0.0359758660197258,
+        "Compound Sentence": 0.3053688406944275,
+        "Complex Sentence": 0.1757335662841797,
+        "Compound-Complex Sentence": 0.4245840907096863,
+        "Incomplete Sentence": 0.05833759531378746
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Warnings",
+      "block_index": 7,
+      "sentence_index": 0,
+      "sentence": "Do not stop using venlafaxine without first talking to your doctor.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.663002610206604,
+      "probabilities": {
+        "Simple Sentence": 0.663002610206604,
+        "Compound Sentence": 0.030730195343494415,
+        "Complex Sentence": 0.010737389326095581,
+        "Compound-Complex Sentence": 0.008980191312730312,
+        "Incomplete Sentence": 0.2865496277809143
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Warnings",
+      "block_index": 8,
+      "sentence_index": 0,
+      "sentence": "Do not give this medicine to anyone younger than 18 years old without the advice of a doctor.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.7695642113685608,
+      "probabilities": {
+        "Simple Sentence": 0.20491233468055725,
+        "Compound Sentence": 0.015322472900152206,
+        "Complex Sentence": 0.005277236457914114,
+        "Compound-Complex Sentence": 0.004923731088638306,
+        "Incomplete Sentence": 0.7695642113685608
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Warnings",
+      "block_index": 8,
+      "sentence_index": 1,
+      "sentence": "Venlafaxine is not FDA approved for use in children.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9890517592430115,
+      "probabilities": {
+        "Simple Sentence": 0.9890517592430115,
+        "Compound Sentence": 0.0052988966926932335,
+        "Complex Sentence": 0.0024660213384777308,
+        "Compound-Complex Sentence": 0.0005811732262372971,
+        "Incomplete Sentence": 0.0026020954828709364
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 9,
+      "sentence_index": 0,
+      "sentence": "You should not take venlafaxine if you are allergic to it or to desvenlafaxine ( Pristiq ).",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.5581455230712891,
+      "probabilities": {
+        "Simple Sentence": 0.5581455230712891,
+        "Compound Sentence": 0.2939784526824951,
+        "Complex Sentence": 0.11732258647680283,
+        "Compound-Complex Sentence": 0.020429961383342743,
+        "Incomplete Sentence": 0.01012344565242529
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 10,
+      "sentence_index": 0,
+      "sentence": "Do not use venlafaxine if you have used an MAO inhibitor in the past 14 days.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.5818457007408142,
+      "probabilities": {
+        "Simple Sentence": 0.5818457007408142,
+        "Compound Sentence": 0.027845030650496483,
+        "Complex Sentence": 0.008332067169249058,
+        "Compound-Complex Sentence": 0.007773928344249725,
+        "Incomplete Sentence": 0.37420326471328735
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 10,
+      "sentence_index": 1,
+      "sentence": "A dangerous drug interaction could occur.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.94053053855896,
+      "probabilities": {
+        "Simple Sentence": 0.94053053855896,
+        "Compound Sentence": 0.008540196344256401,
+        "Complex Sentence": 0.003541012993082404,
+        "Compound-Complex Sentence": 0.0019139680080115795,
+        "Incomplete Sentence": 0.04547429829835892
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 10,
+      "sentence_index": 2,
+      "sentence": "MAO inhibitors include isocarboxazid, linezolid, methylene blue injection, phenelzine, and tranylcypromine.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9536764025688171,
+      "probabilities": {
+        "Simple Sentence": 0.9536764025688171,
+        "Compound Sentence": 0.02686162106692791,
+        "Complex Sentence": 0.012741887010633945,
+        "Compound-Complex Sentence": 0.002273366553708911,
+        "Incomplete Sentence": 0.004446691833436489
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 11,
+      "sentence_index": 0,
+      "sentence": "Tell your doctor if you also use stimulant medicine, opioid medicine, herbal products , or medicine for depression, mental illness, Parkinson's disease , migraine headaches, serious infections, or prevention of nausea and vomiting .",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.4283364713191986,
+      "probabilities": {
+        "Simple Sentence": 0.2714044749736786,
+        "Compound Sentence": 0.16431398689746857,
+        "Complex Sentence": 0.0701291561126709,
+        "Compound-Complex Sentence": 0.06581594794988632,
+        "Incomplete Sentence": 0.4283364713191986
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 11,
+      "sentence_index": 1,
+      "sentence": "An interaction with venlafaxine could cause a serious condition called serotonin syndrome.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9887446165084839,
+      "probabilities": {
+        "Simple Sentence": 0.9887446165084839,
+        "Compound Sentence": 0.005337494425475597,
+        "Complex Sentence": 0.0030116578564047813,
+        "Compound-Complex Sentence": 0.0008161367732100189,
+        "Incomplete Sentence": 0.0020901928655803204
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 12,
+      "sentence_index": 0,
+      "sentence": "To make sure venlafaxine is safe for you, tell your doctor if you have ever had:",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.6091446280479431,
+      "probabilities": {
+        "Simple Sentence": 0.6091446280479431,
+        "Compound Sentence": 0.0939987301826477,
+        "Complex Sentence": 0.03636825829744339,
+        "Compound-Complex Sentence": 0.014131181873381138,
+        "Incomplete Sentence": 0.24635715782642365
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 13,
+      "sentence_index": 0,
+      "sentence": "bipolar disorder (manic depression);",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9966193437576294,
+      "probabilities": {
+        "Simple Sentence": 0.001820649136789143,
+        "Compound Sentence": 0.0007841993938200176,
+        "Complex Sentence": 0.0002634445554576814,
+        "Compound-Complex Sentence": 0.0005122854490764439,
+        "Incomplete Sentence": 0.9966193437576294
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 14,
+      "sentence_index": 0,
+      "sentence": "bipolar disorder (manic depression);",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9966193437576294,
+      "probabilities": {
+        "Simple Sentence": 0.001820649136789143,
+        "Compound Sentence": 0.0007841993938200176,
+        "Complex Sentence": 0.0002634445554576814,
+        "Compound-Complex Sentence": 0.0005122854490764439,
+        "Incomplete Sentence": 0.9966193437576294
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 15,
+      "sentence_index": 0,
+      "sentence": "heart disease , high blood pressure , high cholesterol or triglycerides, or a stroke;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9872755408287048,
+      "probabilities": {
+        "Simple Sentence": 0.005625020246952772,
+        "Compound Sentence": 0.003481586929410696,
+        "Complex Sentence": 0.0011052010813727975,
+        "Compound-Complex Sentence": 0.002512595849111676,
+        "Incomplete Sentence": 0.9872755408287048
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 16,
+      "sentence_index": 0,
+      "sentence": "heart disease , high blood pressure , high cholesterol or triglycerides, or a stroke;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9872755408287048,
+      "probabilities": {
+        "Simple Sentence": 0.005625020246952772,
+        "Compound Sentence": 0.003481586929410696,
+        "Complex Sentence": 0.0011052010813727975,
+        "Compound-Complex Sentence": 0.002512595849111676,
+        "Incomplete Sentence": 0.9872755408287048
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 17,
+      "sentence_index": 0,
+      "sentence": "diabetes;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.99732506275177,
+      "probabilities": {
+        "Simple Sentence": 0.0012178278993815184,
+        "Compound Sentence": 0.0006493150140158832,
+        "Complex Sentence": 0.0002844969858415425,
+        "Compound-Complex Sentence": 0.0005232701078057289,
+        "Incomplete Sentence": 0.99732506275177
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 18,
+      "sentence_index": 0,
+      "sentence": "diabetes;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.99732506275177,
+      "probabilities": {
+        "Simple Sentence": 0.0012178278993815184,
+        "Compound Sentence": 0.0006493150140158832,
+        "Complex Sentence": 0.0002844969858415425,
+        "Compound-Complex Sentence": 0.0005232701078057289,
+        "Incomplete Sentence": 0.99732506275177
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 19,
+      "sentence_index": 0,
+      "sentence": "lung disease;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9973691701889038,
+      "probabilities": {
+        "Simple Sentence": 0.0012013445375487208,
+        "Compound Sentence": 0.0006778533570468426,
+        "Complex Sentence": 0.0002714809379540384,
+        "Compound-Complex Sentence": 0.000480200833408162,
+        "Incomplete Sentence": 0.9973691701889038
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 20,
+      "sentence_index": 0,
+      "sentence": "lung disease;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9973691701889038,
+      "probabilities": {
+        "Simple Sentence": 0.0012013445375487208,
+        "Compound Sentence": 0.0006778533570468426,
+        "Complex Sentence": 0.0002714809379540384,
+        "Compound-Complex Sentence": 0.000480200833408162,
+        "Incomplete Sentence": 0.9973691701889038
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 21,
+      "sentence_index": 0,
+      "sentence": "glaucoma ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9970465302467346,
+      "probabilities": {
+        "Simple Sentence": 0.0013648540480062366,
+        "Compound Sentence": 0.0007906886748969555,
+        "Complex Sentence": 0.0002992336230818182,
+        "Compound-Complex Sentence": 0.0004986810963600874,
+        "Incomplete Sentence": 0.9970465302467346
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 22,
+      "sentence_index": 0,
+      "sentence": "glaucoma ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9970465302467346,
+      "probabilities": {
+        "Simple Sentence": 0.0013648540480062366,
+        "Compound Sentence": 0.0007906886748969555,
+        "Complex Sentence": 0.0002992336230818182,
+        "Compound-Complex Sentence": 0.0004986810963600874,
+        "Incomplete Sentence": 0.9970465302467346
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 23,
+      "sentence_index": 0,
+      "sentence": "a thyroid disorder;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9975001215934753,
+      "probabilities": {
+        "Simple Sentence": 0.0010696821846067905,
+        "Compound Sentence": 0.000633765768725425,
+        "Complex Sentence": 0.00024196396407205611,
+        "Compound-Complex Sentence": 0.0005544021842069924,
+        "Incomplete Sentence": 0.9975001215934753
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 24,
+      "sentence_index": 0,
+      "sentence": "a thyroid disorder;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9975001215934753,
+      "probabilities": {
+        "Simple Sentence": 0.0010696821846067905,
+        "Compound Sentence": 0.000633765768725425,
+        "Complex Sentence": 0.00024196396407205611,
+        "Compound-Complex Sentence": 0.0005544021842069924,
+        "Incomplete Sentence": 0.9975001215934753
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 25,
+      "sentence_index": 0,
+      "sentence": "a seizure;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9973932504653931,
+      "probabilities": {
+        "Simple Sentence": 0.0009582862840034068,
+        "Compound Sentence": 0.0007286698091775179,
+        "Complex Sentence": 0.0002779256028588861,
+        "Compound-Complex Sentence": 0.0006417941185645759,
+        "Incomplete Sentence": 0.9973932504653931
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 26,
+      "sentence_index": 0,
+      "sentence": "a seizure;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9973932504653931,
+      "probabilities": {
+        "Simple Sentence": 0.0009582862840034068,
+        "Compound Sentence": 0.0007286698091775179,
+        "Complex Sentence": 0.0002779256028588861,
+        "Compound-Complex Sentence": 0.0006417941185645759,
+        "Incomplete Sentence": 0.9973932504653931
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 27,
+      "sentence_index": 0,
+      "sentence": "sexual problems;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.997478187084198,
+      "probabilities": {
+        "Simple Sentence": 0.0011419864604249597,
+        "Compound Sentence": 0.0006519564194604754,
+        "Complex Sentence": 0.00026730122044682503,
+        "Compound-Complex Sentence": 0.0004605040012393147,
+        "Incomplete Sentence": 0.997478187084198
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 28,
+      "sentence_index": 0,
+      "sentence": "sexual problems;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.997478187084198,
+      "probabilities": {
+        "Simple Sentence": 0.0011419864604249597,
+        "Compound Sentence": 0.0006519564194604754,
+        "Complex Sentence": 0.00026730122044682503,
+        "Compound-Complex Sentence": 0.0004605040012393147,
+        "Incomplete Sentence": 0.997478187084198
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 29,
+      "sentence_index": 0,
+      "sentence": "bleeding problems;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976563453674316,
+      "probabilities": {
+        "Simple Sentence": 0.001072988728992641,
+        "Compound Sentence": 0.0006137634045444429,
+        "Complex Sentence": 0.00024968382786028087,
+        "Compound-Complex Sentence": 0.00040726058068685234,
+        "Incomplete Sentence": 0.9976563453674316
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 30,
+      "sentence_index": 0,
+      "sentence": "bleeding problems;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976563453674316,
+      "probabilities": {
+        "Simple Sentence": 0.001072988728992641,
+        "Compound Sentence": 0.0006137634045444429,
+        "Complex Sentence": 0.00024968382786028087,
+        "Compound-Complex Sentence": 0.00040726058068685234,
+        "Incomplete Sentence": 0.9976563453674316
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 31,
+      "sentence_index": 0,
+      "sentence": "low blood levels of sodium; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9974314570426941,
+      "probabilities": {
+        "Simple Sentence": 0.0010827453806996346,
+        "Compound Sentence": 0.0006519258604384959,
+        "Complex Sentence": 0.0002585595939308405,
+        "Compound-Complex Sentence": 0.0005753225996159017,
+        "Incomplete Sentence": 0.9974314570426941
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 32,
+      "sentence_index": 0,
+      "sentence": "low blood levels of sodium; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9974314570426941,
+      "probabilities": {
+        "Simple Sentence": 0.0010827453806996346,
+        "Compound Sentence": 0.0006519258604384959,
+        "Complex Sentence": 0.0002585595939308405,
+        "Compound-Complex Sentence": 0.0005753225996159017,
+        "Incomplete Sentence": 0.9974314570426941
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 33,
+      "sentence_index": 0,
+      "sentence": "liver or kidney disease.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9966914653778076,
+      "probabilities": {
+        "Simple Sentence": 0.001534374663606286,
+        "Compound Sentence": 0.0007743626483716071,
+        "Complex Sentence": 0.000254362152190879,
+        "Compound-Complex Sentence": 0.0007454248843714595,
+        "Incomplete Sentence": 0.9966914653778076
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 34,
+      "sentence_index": 0,
+      "sentence": "liver or kidney disease.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9966914653778076,
+      "probabilities": {
+        "Simple Sentence": 0.001534374663606286,
+        "Compound Sentence": 0.0007743626483716071,
+        "Complex Sentence": 0.000254362152190879,
+        "Compound-Complex Sentence": 0.0007454248843714595,
+        "Incomplete Sentence": 0.9966914653778076
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 35,
+      "sentence_index": 0,
+      "sentence": "Some young people may have increased suicidal thoughts when first starting a medicine to treat depression.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.5318031311035156,
+      "probabilities": {
+        "Simple Sentence": 0.5318031311035156,
+        "Compound Sentence": 0.14039871096611023,
+        "Complex Sentence": 0.3003607392311096,
+        "Compound-Complex Sentence": 0.018393835052847862,
+        "Incomplete Sentence": 0.009043575264513493
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 35,
+      "sentence_index": 1,
+      "sentence": "Stay alert to changes in your mood or symptoms.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9004923105239868,
+      "probabilities": {
+        "Simple Sentence": 0.08055008202791214,
+        "Compound Sentence": 0.010096805170178413,
+        "Complex Sentence": 0.0029628295451402664,
+        "Compound-Complex Sentence": 0.005898047238588333,
+        "Incomplete Sentence": 0.9004923105239868
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 35,
+      "sentence_index": 2,
+      "sentence": "Your family or caregivers should also watch for sudden changes in your behavior.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9569916725158691,
+      "probabilities": {
+        "Simple Sentence": 0.9569916725158691,
+        "Compound Sentence": 0.019274160265922546,
+        "Complex Sentence": 0.01585836336016655,
+        "Compound-Complex Sentence": 0.002224076073616743,
+        "Incomplete Sentence": 0.005651713348925114
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 36,
+      "sentence_index": 0,
+      "sentence": "Taking this medicine during pregnancy could harm the baby, and taking it in the month before delivery may increase your risk of severe bleeding after childbirth.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.9620707035064697,
+      "probabilities": {
+        "Simple Sentence": 0.007541756145656109,
+        "Compound Sentence": 0.9620707035064697,
+        "Complex Sentence": 0.0045166015625,
+        "Compound-Complex Sentence": 0.01966717839241028,
+        "Incomplete Sentence": 0.006203679833561182
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 36,
+      "sentence_index": 1,
+      "sentence": "However, stopping the medicine may not be safe for you.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9555524587631226,
+      "probabilities": {
+        "Simple Sentence": 0.9555524587631226,
+        "Compound Sentence": 0.01761300303041935,
+        "Complex Sentence": 0.009534033015370369,
+        "Compound-Complex Sentence": 0.00219485885463655,
+        "Incomplete Sentence": 0.015105711296200752
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 36,
+      "sentence_index": 2,
+      "sentence": "Do not start or stop venlafaxine without asking your doctor.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.6027562618255615,
+      "probabilities": {
+        "Simple Sentence": 0.6027562618255615,
+        "Compound Sentence": 0.03234514966607094,
+        "Complex Sentence": 0.00922415405511856,
+        "Compound-Complex Sentence": 0.007506510708481073,
+        "Incomplete Sentence": 0.34816789627075195
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 37,
+      "sentence_index": 0,
+      "sentence": "If you are pregnant, your name may be listed on a pregnancy registry to track the effects of venlafaxine on the baby.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.6361476182937622,
+      "probabilities": {
+        "Simple Sentence": 0.06807209551334381,
+        "Compound Sentence": 0.2477845400571823,
+        "Complex Sentence": 0.6361476182937622,
+        "Compound-Complex Sentence": 0.039725497364997864,
+        "Incomplete Sentence": 0.008270188234746456
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 38,
+      "sentence_index": 0,
+      "sentence": "Ask a doctor if it is safe to breastfeed while using this medicine.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9738625884056091,
+      "probabilities": {
+        "Simple Sentence": 0.020580347627401352,
+        "Compound Sentence": 0.0028499055188149214,
+        "Complex Sentence": 0.0009564650827087462,
+        "Compound-Complex Sentence": 0.0017506395233795047,
+        "Incomplete Sentence": 0.9738625884056091
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "How should I take venlafaxine?",
+      "block_index": 39,
+      "sentence_index": 0,
+      "sentence": "Take venlafaxine as prescribed by your doctor.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9757956862449646,
+      "probabilities": {
+        "Simple Sentence": 0.017603829503059387,
+        "Compound Sentence": 0.0037480718456208706,
+        "Complex Sentence": 0.0011204405454918742,
+        "Compound-Complex Sentence": 0.001731986179947853,
+        "Incomplete Sentence": 0.9757956862449646
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "How should I take venlafaxine?",
+      "block_index": 39,
+      "sentence_index": 1,
+      "sentence": "Follow all directions on your prescription label and read all medication guides or instruction sheets.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8324329257011414,
+      "probabilities": {
+        "Simple Sentence": 0.11957251280546188,
+        "Compound Sentence": 0.026524359360337257,
+        "Complex Sentence": 0.0064747328869998455,
+        "Compound-Complex Sentence": 0.01499551348388195,
+        "Incomplete Sentence": 0.8324329257011414
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "How should I take venlafaxine?",
+      "block_index": 39,
+      "sentence_index": 2,
+      "sentence": "Your doctor may occasionally change your dose.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9836176633834839,
+      "probabilities": {
+        "Simple Sentence": 0.9836176633834839,
+        "Compound Sentence": 0.007167854346334934,
+        "Complex Sentence": 0.002833826467394829,
+        "Compound-Complex Sentence": 0.0008727496606297791,
+        "Incomplete Sentence": 0.005507873836904764
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "How should I take venlafaxine?",
+      "block_index": 40,
+      "sentence_index": 0,
+      "sentence": "Take with food at the same time each day.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.996171772480011,
+      "probabilities": {
+        "Simple Sentence": 0.001782020553946495,
+        "Compound Sentence": 0.0009501280728727579,
+        "Complex Sentence": 0.00034010453964583576,
+        "Compound-Complex Sentence": 0.0007560301455669105,
+        "Incomplete Sentence": 0.996171772480011
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "How should I take venlafaxine?",
+      "block_index": 41,
+      "sentence_index": 0,
+      "sentence": "Swallow the extended-release capsule or tablet whole and do not crush, chew, break, or open it.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.4074026644229889,
+      "probabilities": {
+        "Simple Sentence": 0.28699368238449097,
+        "Compound Sentence": 0.4074026644229889,
+        "Complex Sentence": 0.04264739155769348,
+        "Compound-Complex Sentence": 0.047902945429086685,
+        "Incomplete Sentence": 0.21505330502986908
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "How should I take venlafaxine?",
+      "block_index": 42,
+      "sentence_index": 0,
+      "sentence": "If you cannot swallow a capsule whole, open it and mix the medicine with applesauce.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.7290236353874207,
+      "probabilities": {
+        "Simple Sentence": 0.7290236353874207,
+        "Compound Sentence": 0.15066306293010712,
+        "Complex Sentence": 0.05317253991961479,
+        "Compound-Complex Sentence": 0.018465882167220116,
+        "Incomplete Sentence": 0.04867488145828247
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "How should I take venlafaxine?",
+      "block_index": 42,
+      "sentence_index": 1,
+      "sentence": "Swallow the mixture right away without chewing.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9837687611579895,
+      "probabilities": {
+        "Simple Sentence": 0.008765379898250103,
+        "Compound Sentence": 0.0033559228759258986,
+        "Complex Sentence": 0.001200102036818862,
+        "Compound-Complex Sentence": 0.0029099872335791588,
+        "Incomplete Sentence": 0.9837687611579895
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "How should I take venlafaxine?",
+      "block_index": 43,
+      "sentence_index": 0,
+      "sentence": "Tell your doctor if you have any changes in sexual function, such as loss of interest in sex, trouble having an orgasm, or (in men) problems with erections or ejaculation.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.35750526189804077,
+      "probabilities": {
+        "Simple Sentence": 0.1248239129781723,
+        "Compound Sentence": 0.35750526189804077,
+        "Complex Sentence": 0.1567172408103943,
+        "Compound-Complex Sentence": 0.15001599490642548,
+        "Incomplete Sentence": 0.21093757450580597
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "How should I take venlafaxine?",
+      "block_index": 43,
+      "sentence_index": 1,
+      "sentence": "Some sexual problems can be treated.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9828663468360901,
+      "probabilities": {
+        "Simple Sentence": 0.9828663468360901,
+        "Compound Sentence": 0.00520568061619997,
+        "Complex Sentence": 0.0030084068421274424,
+        "Compound-Complex Sentence": 0.0009411067003384233,
+        "Incomplete Sentence": 0.00797851663082838
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "How should I take venlafaxine?",
+      "block_index": 44,
+      "sentence_index": 0,
+      "sentence": "Your symptoms may not improve for up to several weeks.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9719050526618958,
+      "probabilities": {
+        "Simple Sentence": 0.9719050526618958,
+        "Compound Sentence": 0.012549098581075668,
+        "Complex Sentence": 0.005100089590996504,
+        "Compound-Complex Sentence": 0.0016851192340254784,
+        "Incomplete Sentence": 0.008760682307183743
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "How should I take venlafaxine?",
+      "block_index": 44,
+      "sentence_index": 1,
+      "sentence": "Do not stop using venlafaxine suddenly, or you could have severe and long-lasting unpleasant symptoms (such as agitation , confusion, tingling or electric shock feelings, aggression, violent behavior, suicidal thoughts, vision changes, or increased blood pressure).",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.474778413772583,
+      "probabilities": {
+        "Simple Sentence": 0.012143967673182487,
+        "Compound Sentence": 0.474778413772583,
+        "Complex Sentence": 0.16540628671646118,
+        "Compound-Complex Sentence": 0.3386467695236206,
+        "Incomplete Sentence": 0.009024630300700665
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "How should I take venlafaxine?",
+      "block_index": 44,
+      "sentence_index": 2,
+      "sentence": "Ask your doctor before stopping the medicine.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8121916651725769,
+      "probabilities": {
+        "Simple Sentence": 0.1440620720386505,
+        "Compound Sentence": 0.019063647836446762,
+        "Complex Sentence": 0.008550805039703846,
+        "Compound-Complex Sentence": 0.016131777316331863,
+        "Incomplete Sentence": 0.8121916651725769
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "How should I take venlafaxine?",
+      "block_index": 45,
+      "sentence_index": 0,
+      "sentence": "Your blood pressure and cholesterol levels may need to be checked often.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9721366763114929,
+      "probabilities": {
+        "Simple Sentence": 0.9721366763114929,
+        "Compound Sentence": 0.01533415075391531,
+        "Complex Sentence": 0.007669192273169756,
+        "Compound-Complex Sentence": 0.0013676448725163937,
+        "Incomplete Sentence": 0.00349240330979228
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "How should I take venlafaxine?",
+      "block_index": 46,
+      "sentence_index": 0,
+      "sentence": "This medicine may cause false results on a drug-screening urine test.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.989095151424408,
+      "probabilities": {
+        "Simple Sentence": 0.989095151424408,
+        "Compound Sentence": 0.0049841515719890594,
+        "Complex Sentence": 0.0031083598732948303,
+        "Compound-Complex Sentence": 0.0006509116501547396,
+        "Incomplete Sentence": 0.0021615249570459127
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "How should I take venlafaxine?",
+      "block_index": 46,
+      "sentence_index": 1,
+      "sentence": "Tell the laboratory staff that you use venlafaxine.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9620725512504578,
+      "probabilities": {
+        "Simple Sentence": 0.028797853738069534,
+        "Compound Sentence": 0.00525216618552804,
+        "Complex Sentence": 0.001385583309456706,
+        "Compound-Complex Sentence": 0.0024918746203184128,
+        "Incomplete Sentence": 0.9620725512504578
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "How should I take venlafaxine?",
+      "block_index": 47,
+      "sentence_index": 0,
+      "sentence": "Store at room temperature away from moisture and heat.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9941627383232117,
+      "probabilities": {
+        "Simple Sentence": 0.003402576083317399,
+        "Compound Sentence": 0.0011916494695469737,
+        "Complex Sentence": 0.00040228315629065037,
+        "Compound-Complex Sentence": 0.0008408901048824191,
+        "Incomplete Sentence": 0.9941627383232117
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Dosing Information",
+      "block_index": 48,
+      "sentence_index": 0,
+      "sentence": "Usual Adult Dose for Depression:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9979678988456726,
+      "probabilities": {
+        "Simple Sentence": 0.0007449231343343854,
+        "Compound Sentence": 0.0005402284441515803,
+        "Complex Sentence": 0.00026926686405204237,
+        "Compound-Complex Sentence": 0.00047768198419362307,
+        "Incomplete Sentence": 0.9979678988456726
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Dosing Information",
+      "block_index": 49,
+      "sentence_index": 0,
+      "sentence": "Immediate release: -Initial dose: 37.5 mg orally twice a day OR 25 mg orally 3 times a day -Maintenance dose: 75 to 150 mg orally per day, given in divided doses -Maximum dose: ---Moderately depressed outpatients: 225 mg/day ---Severely depressed inpatients: 375 mg/day Extended release: -Initial dose: 75 mg orally once a day -Maintenance dose: 75 to 225 mg orally once a day -Maximum dose: ---Moderately depressed outpatients: 225 mg/day ---Severely depressed inpatients: 375 mg/day Comments: -The daily dosage of immediate-release formulations may be divided into 2 or 3 doses/day.",
+      "predicted_label": "Compound-Complex Sentence",
+      "confidence": 0.65191251039505,
+      "probabilities": {
+        "Simple Sentence": 0.013294258154928684,
+        "Compound Sentence": 0.06677614897489548,
+        "Complex Sentence": 0.2550434172153473,
+        "Compound-Complex Sentence": 0.65191251039505,
+        "Incomplete Sentence": 0.012973620556294918
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Dosing Information",
+      "block_index": 49,
+      "sentence_index": 1,
+      "sentence": "-Healthcare providers should consider initial extended release doses of 37.5 mg orally once a day for 4 to 7 days (before increasing the dose to 75 mg/day) in patients who may require additional time to adjust to the drug.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.9370391964912415,
+      "probabilities": {
+        "Simple Sentence": 0.016400551423430443,
+        "Compound Sentence": 0.014242090284824371,
+        "Complex Sentence": 0.9370391964912415,
+        "Compound-Complex Sentence": 0.028734713792800903,
+        "Incomplete Sentence": 0.003583424026146531
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Dosing Information",
+      "block_index": 49,
+      "sentence_index": 2,
+      "sentence": "-Doses may be increased in daily increments of up to 75 mg orally at intervals of no less than 4 days.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8672839403152466,
+      "probabilities": {
+        "Simple Sentence": 0.8672839403152466,
+        "Compound Sentence": 0.07809263467788696,
+        "Complex Sentence": 0.04052381590008736,
+        "Compound-Complex Sentence": 0.004806906916201115,
+        "Incomplete Sentence": 0.009292742237448692
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Dosing Information",
+      "block_index": 49,
+      "sentence_index": 3,
+      "sentence": "-Patients should be periodically reassessed for the continued need of maintenance treatment and for the appropriate dose of treatment.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.4392019212245941,
+      "probabilities": {
+        "Simple Sentence": 0.1956813484430313,
+        "Compound Sentence": 0.4392019212245941,
+        "Complex Sentence": 0.31820428371429443,
+        "Compound-Complex Sentence": 0.027858739718794823,
+        "Incomplete Sentence": 0.01905374974012375
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Dosing Information",
+      "block_index": 49,
+      "sentence_index": 4,
+      "sentence": "-Use of doses exceeding 225 mg/day is limited.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.972402811050415,
+      "probabilities": {
+        "Simple Sentence": 0.972402811050415,
+        "Compound Sentence": 0.010118247009813786,
+        "Complex Sentence": 0.004152520559728146,
+        "Compound-Complex Sentence": 0.000815287756267935,
+        "Incomplete Sentence": 0.012511156499385834
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Dosing Information",
+      "block_index": 50,
+      "sentence_index": 0,
+      "sentence": "Usual Adult Dose for Generalized Anxiety Disorder:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978901743888855,
+      "probabilities": {
+        "Simple Sentence": 0.0008220786112360656,
+        "Compound Sentence": 0.0005380802904255688,
+        "Complex Sentence": 0.00027241968200542033,
+        "Compound-Complex Sentence": 0.0004771785461343825,
+        "Incomplete Sentence": 0.9978901743888855
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Dosing Information",
+      "block_index": 51,
+      "sentence_index": 0,
+      "sentence": "Extended release: -Initial dose: 75 mg orally once a day -Maintenance dose: 75 to 225 mg orally once a day -Maximum dose: 225 mg/day Comments: -Healthcare providers should consider initial extended release doses of 37.5 mg orally once a day for 4 to 7 days (before increasing the dose to 75 mg/day) in patients who may require additional time to adjust to the drug.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.4778748154640198,
+      "probabilities": {
+        "Simple Sentence": 0.012439928017556667,
+        "Compound Sentence": 0.03461713716387749,
+        "Complex Sentence": 0.4778748154640198,
+        "Compound-Complex Sentence": 0.4645310938358307,
+        "Incomplete Sentence": 0.010537030175328255
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Dosing Information",
+      "block_index": 51,
+      "sentence_index": 1,
+      "sentence": "-Doses may be increased in daily increments of up to 75 mg orally at intervals of no less than 4 days.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8672839403152466,
+      "probabilities": {
+        "Simple Sentence": 0.8672839403152466,
+        "Compound Sentence": 0.07809263467788696,
+        "Complex Sentence": 0.04052381590008736,
+        "Compound-Complex Sentence": 0.004806906916201115,
+        "Incomplete Sentence": 0.009292742237448692
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Dosing Information",
+      "block_index": 52,
+      "sentence_index": 0,
+      "sentence": "Usual Adult Dose for Social Anxiety Disorder:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9979124665260315,
+      "probabilities": {
+        "Simple Sentence": 0.0008038377272896469,
+        "Compound Sentence": 0.0005344265373423696,
+        "Complex Sentence": 0.00027162881451658905,
+        "Compound-Complex Sentence": 0.0004776554415002465,
+        "Incomplete Sentence": 0.9979124665260315
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Dosing Information",
+      "block_index": 53,
+      "sentence_index": 0,
+      "sentence": "Extended release: 75 mg orally once a day Comment: There is no evidence that doses greater than 75 mg/day confer additional benefit.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.781560480594635,
+      "probabilities": {
+        "Simple Sentence": 0.04158330336213112,
+        "Compound Sentence": 0.781560480594635,
+        "Complex Sentence": 0.12934255599975586,
+        "Compound-Complex Sentence": 0.032511863857507706,
+        "Incomplete Sentence": 0.015001759864389896
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Dosing Information",
+      "block_index": 54,
+      "sentence_index": 0,
+      "sentence": "Usual Adult Dose for Panic Disorder:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9979173541069031,
+      "probabilities": {
+        "Simple Sentence": 0.0007925393874756992,
+        "Compound Sentence": 0.0005492440541274846,
+        "Complex Sentence": 0.0002711001434363425,
+        "Compound-Complex Sentence": 0.00046979336184449494,
+        "Incomplete Sentence": 0.9979173541069031
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Dosing Information",
+      "block_index": 55,
+      "sentence_index": 0,
+      "sentence": "Extended release: -Initial dose: 37.5 mg orally once a day for 7 days, then 75 mg orally once a day thereafter -Maintenance dose: 75 to 225 mg orally once a day -Maximum dose: 225 mg/day Comment: Doses may be increased in daily increments of 75 mg orally at intervals of no less than 7 days.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.48491954803466797,
+      "probabilities": {
+        "Simple Sentence": 0.01540611032396555,
+        "Compound Sentence": 0.18409964442253113,
+        "Complex Sentence": 0.48491954803466797,
+        "Compound-Complex Sentence": 0.30508917570114136,
+        "Incomplete Sentence": 0.010485555976629257
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What happens if I miss a dose?",
+      "block_index": 56,
+      "sentence_index": 0,
+      "sentence": "Take the medicine as soon as you can, but skip the missed dose if it is almost time for your next dose.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.5546407103538513,
+      "probabilities": {
+        "Simple Sentence": 0.03473725542426109,
+        "Compound Sentence": 0.5546407103538513,
+        "Complex Sentence": 0.17581109702587128,
+        "Compound-Complex Sentence": 0.19016382098197937,
+        "Incomplete Sentence": 0.04464709758758545
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What happens if I miss a dose?",
+      "block_index": 56,
+      "sentence_index": 1,
+      "sentence": "Do not take two doses at one time.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8405129909515381,
+      "probabilities": {
+        "Simple Sentence": 0.1440759301185608,
+        "Compound Sentence": 0.009005897678434849,
+        "Complex Sentence": 0.003043227596208453,
+        "Compound-Complex Sentence": 0.0033619729802012444,
+        "Incomplete Sentence": 0.8405129909515381
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What happens if I overdose?",
+      "block_index": 57,
+      "sentence_index": 0,
+      "sentence": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9916199445724487,
+      "probabilities": {
+        "Simple Sentence": 0.00475598918274045,
+        "Compound Sentence": 0.0015366633888334036,
+        "Complex Sentence": 0.0006759232492186129,
+        "Compound-Complex Sentence": 0.001411499222740531,
+        "Incomplete Sentence": 0.9916199445724487
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What should I avoid while taking venlafaxine?",
+      "block_index": 58,
+      "sentence_index": 0,
+      "sentence": "Do not drink alcohol.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9827803373336792,
+      "probabilities": {
+        "Simple Sentence": 0.01283909659832716,
+        "Compound Sentence": 0.0023267841897904873,
+        "Complex Sentence": 0.0007801366737112403,
+        "Compound-Complex Sentence": 0.0012737279757857323,
+        "Incomplete Sentence": 0.9827803373336792
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What should I avoid while taking venlafaxine?",
+      "block_index": 59,
+      "sentence_index": 0,
+      "sentence": "Ask your doctor before taking a nonsteroidal anti-inflammatory drug (NSAID) such as aspirin , ibuprofen , naproxen , Advil , Aleve , Motrin , and others.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.47642552852630615,
+      "probabilities": {
+        "Simple Sentence": 0.47642552852630615,
+        "Compound Sentence": 0.0668821707367897,
+        "Complex Sentence": 0.03157747909426689,
+        "Compound-Complex Sentence": 0.02743498794734478,
+        "Incomplete Sentence": 0.39767986536026
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What should I avoid while taking venlafaxine?",
+      "block_index": 59,
+      "sentence_index": 1,
+      "sentence": "Using an NSAID with venlafaxine may cause you to bruise or bleed easily.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9840134978294373,
+      "probabilities": {
+        "Simple Sentence": 0.9840134978294373,
+        "Compound Sentence": 0.009012806229293346,
+        "Complex Sentence": 0.003212438430637121,
+        "Compound-Complex Sentence": 0.0010187666630372405,
+        "Incomplete Sentence": 0.0027423829305917025
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What should I avoid while taking venlafaxine?",
+      "block_index": 60,
+      "sentence_index": 0,
+      "sentence": "Avoid driving or hazardous activity until you know how venlafaxine will affect you.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9618123769760132,
+      "probabilities": {
+        "Simple Sentence": 0.028959250077605247,
+        "Compound Sentence": 0.004906196612864733,
+        "Complex Sentence": 0.001572715467773378,
+        "Compound-Complex Sentence": 0.002749440725892782,
+        "Incomplete Sentence": 0.9618123769760132
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What should I avoid while taking venlafaxine?",
+      "block_index": 60,
+      "sentence_index": 1,
+      "sentence": "Your reactions could be impaired.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.877515971660614,
+      "probabilities": {
+        "Simple Sentence": 0.877515971660614,
+        "Compound Sentence": 0.013124208897352219,
+        "Complex Sentence": 0.005608934443444014,
+        "Compound-Complex Sentence": 0.0029614793602377176,
+        "Incomplete Sentence": 0.10078934580087662
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 61,
+      "sentence_index": 0,
+      "sentence": "Get emergency medical help if you have signs of an allergic reaction to venlafaxine: hives; difficult breathing; swelling of your face, lips, tongue, or throat.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.3998146057128906,
+      "probabilities": {
+        "Simple Sentence": 0.22040139138698578,
+        "Compound Sentence": 0.3998146057128906,
+        "Complex Sentence": 0.2471318244934082,
+        "Compound-Complex Sentence": 0.07136848568916321,
+        "Incomplete Sentence": 0.06128362938761711
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 62,
+      "sentence_index": 0,
+      "sentence": "Tell your doctor right away if you have new or sudden changes in mood or behavior, including new or worse depression or anxiety, panic attacks , trouble sleeping, or if you feel impulsive, irritable, agitated, hostile, aggressive, restless, more active or talkative, or have thoughts about suicide or hurting yourself.",
+      "predicted_label": "Compound-Complex Sentence",
+      "confidence": 0.564005970954895,
+      "probabilities": {
+        "Simple Sentence": 0.02353072538971901,
+        "Compound Sentence": 0.2007591277360916,
+        "Complex Sentence": 0.1909586638212204,
+        "Compound-Complex Sentence": 0.564005970954895,
+        "Incomplete Sentence": 0.020745523273944855
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 63,
+      "sentence_index": 0,
+      "sentence": "Venlafaxine may cause serious side effects.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9890549182891846,
+      "probabilities": {
+        "Simple Sentence": 0.9890549182891846,
+        "Compound Sentence": 0.004633092321455479,
+        "Complex Sentence": 0.002090848982334137,
+        "Compound-Complex Sentence": 0.0008439547964371741,
+        "Incomplete Sentence": 0.003377252258360386
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 63,
+      "sentence_index": 1,
+      "sentence": "Call your doctor at once if you have:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9766645431518555,
+      "probabilities": {
+        "Simple Sentence": 0.011463831178843975,
+        "Compound Sentence": 0.005731399171054363,
+        "Complex Sentence": 0.0023055404890328646,
+        "Compound-Complex Sentence": 0.0038347498048096895,
+        "Incomplete Sentence": 0.9766645431518555
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 64,
+      "sentence_index": 0,
+      "sentence": "blurred vision, eye pain or redness, seeing halos around lights;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9948632121086121,
+      "probabilities": {
+        "Simple Sentence": 0.002826614771038294,
+        "Compound Sentence": 0.0011007200228050351,
+        "Complex Sentence": 0.0004447311512194574,
+        "Compound-Complex Sentence": 0.0007646835874766111,
+        "Incomplete Sentence": 0.9948632121086121
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 65,
+      "sentence_index": 0,
+      "sentence": "blurred vision, eye pain or redness, seeing halos around lights;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9948632121086121,
+      "probabilities": {
+        "Simple Sentence": 0.002826614771038294,
+        "Compound Sentence": 0.0011007200228050351,
+        "Complex Sentence": 0.0004447311512194574,
+        "Compound-Complex Sentence": 0.0007646835874766111,
+        "Incomplete Sentence": 0.9948632121086121
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 66,
+      "sentence_index": 0,
+      "sentence": "cough , chest tightness, trouble breathing;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9915477633476257,
+      "probabilities": {
+        "Simple Sentence": 0.004447245039045811,
+        "Compound Sentence": 0.001493646064773202,
+        "Complex Sentence": 0.0006706143612973392,
+        "Compound-Complex Sentence": 0.0018408079631626606,
+        "Incomplete Sentence": 0.9915477633476257
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 67,
+      "sentence_index": 0,
+      "sentence": "cough , chest tightness, trouble breathing;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9915477633476257,
+      "probabilities": {
+        "Simple Sentence": 0.004447245039045811,
+        "Compound Sentence": 0.001493646064773202,
+        "Complex Sentence": 0.0006706143612973392,
+        "Compound-Complex Sentence": 0.0018408079631626606,
+        "Incomplete Sentence": 0.9915477633476257
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 68,
+      "sentence_index": 0,
+      "sentence": "a seizure (convulsions);",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9969099164009094,
+      "probabilities": {
+        "Simple Sentence": 0.0012578042224049568,
+        "Compound Sentence": 0.0008590052020736039,
+        "Complex Sentence": 0.0003062877513002604,
+        "Compound-Complex Sentence": 0.0006670369184575975,
+        "Incomplete Sentence": 0.9969099164009094
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 69,
+      "sentence_index": 0,
+      "sentence": "a seizure (convulsions);",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9969099164009094,
+      "probabilities": {
+        "Simple Sentence": 0.0012578042224049568,
+        "Compound Sentence": 0.0008590052020736039,
+        "Complex Sentence": 0.0003062877513002604,
+        "Compound-Complex Sentence": 0.0006670369184575975,
+        "Incomplete Sentence": 0.9969099164009094
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 70,
+      "sentence_index": 0,
+      "sentence": "unusual bleeding - nosebleeds, bleeding gums, abnormal vaginal bleeding, any bleeding that will not stop;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9898596405982971,
+      "probabilities": {
+        "Simple Sentence": 0.005567578133195639,
+        "Compound Sentence": 0.0025526038371026516,
+        "Complex Sentence": 0.0007309762295335531,
+        "Compound-Complex Sentence": 0.001289182691834867,
+        "Incomplete Sentence": 0.9898596405982971
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 71,
+      "sentence_index": 0,
+      "sentence": "unusual bleeding - nosebleeds, bleeding gums, abnormal vaginal bleeding, any bleeding that will not stop;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9898596405982971,
+      "probabilities": {
+        "Simple Sentence": 0.005567578133195639,
+        "Compound Sentence": 0.0025526038371026516,
+        "Complex Sentence": 0.0007309762295335531,
+        "Compound-Complex Sentence": 0.001289182691834867,
+        "Incomplete Sentence": 0.9898596405982971
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 72,
+      "sentence_index": 0,
+      "sentence": "low blood sodium - headache , confusion, problems with thinking or memory, weakness, feeling unsteady; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.977323055267334,
+      "probabilities": {
+        "Simple Sentence": 0.01821773126721382,
+        "Compound Sentence": 0.0026999027468264103,
+        "Complex Sentence": 0.0006294940249063075,
+        "Compound-Complex Sentence": 0.0011298918398097157,
+        "Incomplete Sentence": 0.977323055267334
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 73,
+      "sentence_index": 0,
+      "sentence": "low blood sodium - headache , confusion, problems with thinking or memory, weakness, feeling unsteady; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.977323055267334,
+      "probabilities": {
+        "Simple Sentence": 0.01821773126721382,
+        "Compound Sentence": 0.0026999027468264103,
+        "Complex Sentence": 0.0006294940249063075,
+        "Compound-Complex Sentence": 0.0011298918398097157,
+        "Incomplete Sentence": 0.977323055267334
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 74,
+      "sentence_index": 0,
+      "sentence": "severe nervous system reaction - very stiff (rigid) muscles, high fever , sweating, confusion, fast or uneven heartbeats, tremors, feeling like you might pass out.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.6694114804267883,
+      "probabilities": {
+        "Simple Sentence": 0.26112329959869385,
+        "Compound Sentence": 0.04872936010360718,
+        "Complex Sentence": 0.011642254889011383,
+        "Compound-Complex Sentence": 0.009093600325286388,
+        "Incomplete Sentence": 0.6694114804267883
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 75,
+      "sentence_index": 0,
+      "sentence": "severe nervous system reaction - very stiff (rigid) muscles, high fever , sweating, confusion, fast or uneven heartbeats, tremors, feeling like you might pass out.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.6694114804267883,
+      "probabilities": {
+        "Simple Sentence": 0.26112329959869385,
+        "Compound Sentence": 0.04872936010360718,
+        "Complex Sentence": 0.011642254889011383,
+        "Compound-Complex Sentence": 0.009093600325286388,
+        "Incomplete Sentence": 0.6694114804267883
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 76,
+      "sentence_index": 0,
+      "sentence": "Seek medical attention right away if you have symptoms of serotonin syndrome, such as: agitation, hallucinations, fever, sweating, shivering, fast heart rate , muscle stiffness, twitching, loss of coordination, nausea, vomiting, or diarrhea .",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.6068457365036011,
+      "probabilities": {
+        "Simple Sentence": 0.06693250685930252,
+        "Compound Sentence": 0.21284091472625732,
+        "Complex Sentence": 0.6068457365036011,
+        "Compound-Complex Sentence": 0.08941026777029037,
+        "Incomplete Sentence": 0.023970628157258034
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 77,
+      "sentence_index": 0,
+      "sentence": "Common venlafaxine side effects may include:",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9624522924423218,
+      "probabilities": {
+        "Simple Sentence": 0.9624522924423218,
+        "Compound Sentence": 0.006148829590529203,
+        "Complex Sentence": 0.00605054572224617,
+        "Compound-Complex Sentence": 0.0011949187610298395,
+        "Incomplete Sentence": 0.024153418838977814
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 78,
+      "sentence_index": 0,
+      "sentence": "headache, dizziness, drowsiness , tiredness;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9962387084960938,
+      "probabilities": {
+        "Simple Sentence": 0.0017687033396214247,
+        "Compound Sentence": 0.0009938497096300125,
+        "Complex Sentence": 0.0002836326020769775,
+        "Compound-Complex Sentence": 0.0007151443278416991,
+        "Incomplete Sentence": 0.9962387084960938
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 79,
+      "sentence_index": 0,
+      "sentence": "headache, dizziness, drowsiness , tiredness;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9962387084960938,
+      "probabilities": {
+        "Simple Sentence": 0.0017687033396214247,
+        "Compound Sentence": 0.0009938497096300125,
+        "Complex Sentence": 0.0002836326020769775,
+        "Compound-Complex Sentence": 0.0007151443278416991,
+        "Incomplete Sentence": 0.9962387084960938
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 80,
+      "sentence_index": 0,
+      "sentence": "ringing in your ears, feeling anxious, nervous, or jittery;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9949014186859131,
+      "probabilities": {
+        "Simple Sentence": 0.0023647008929401636,
+        "Compound Sentence": 0.001466842950321734,
+        "Complex Sentence": 0.00043614604510366917,
+        "Compound-Complex Sentence": 0.0008308991091325879,
+        "Incomplete Sentence": 0.9949014186859131
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 81,
+      "sentence_index": 0,
+      "sentence": "ringing in your ears, feeling anxious, nervous, or jittery;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9949014186859131,
+      "probabilities": {
+        "Simple Sentence": 0.0023647008929401636,
+        "Compound Sentence": 0.001466842950321734,
+        "Complex Sentence": 0.00043614604510366917,
+        "Compound-Complex Sentence": 0.0008308991091325879,
+        "Incomplete Sentence": 0.9949014186859131
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 82,
+      "sentence_index": 0,
+      "sentence": "sleep problems, unusual dreams;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.997199296951294,
+      "probabilities": {
+        "Simple Sentence": 0.001310206949710846,
+        "Compound Sentence": 0.000781596580054611,
+        "Complex Sentence": 0.00025648775044828653,
+        "Compound-Complex Sentence": 0.0004523534153122455,
+        "Incomplete Sentence": 0.997199296951294
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 83,
+      "sentence_index": 0,
+      "sentence": "sleep problems, unusual dreams;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.997199296951294,
+      "probabilities": {
+        "Simple Sentence": 0.001310206949710846,
+        "Compound Sentence": 0.000781596580054611,
+        "Complex Sentence": 0.00025648775044828653,
+        "Compound-Complex Sentence": 0.0004523534153122455,
+        "Incomplete Sentence": 0.997199296951294
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 84,
+      "sentence_index": 0,
+      "sentence": "tremors;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976732134819031,
+      "probabilities": {
+        "Simple Sentence": 0.0010025970404967666,
+        "Compound Sentence": 0.0006688527064397931,
+        "Complex Sentence": 0.0002586222835816443,
+        "Compound-Complex Sentence": 0.00039666928933002055,
+        "Incomplete Sentence": 0.9976732134819031
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 85,
+      "sentence_index": 0,
+      "sentence": "tremors;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976732134819031,
+      "probabilities": {
+        "Simple Sentence": 0.0010025970404967666,
+        "Compound Sentence": 0.0006688527064397931,
+        "Complex Sentence": 0.0002586222835816443,
+        "Compound-Complex Sentence": 0.00039666928933002055,
+        "Incomplete Sentence": 0.9976732134819031
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 86,
+      "sentence_index": 0,
+      "sentence": "fast heartbeats;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.997322142124176,
+      "probabilities": {
+        "Simple Sentence": 0.0012963673798367381,
+        "Compound Sentence": 0.0006858112756162882,
+        "Complex Sentence": 0.0002515577943995595,
+        "Compound-Complex Sentence": 0.00044409220572561026,
+        "Incomplete Sentence": 0.997322142124176
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 87,
+      "sentence_index": 0,
+      "sentence": "fast heartbeats;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.997322142124176,
+      "probabilities": {
+        "Simple Sentence": 0.0012963673798367381,
+        "Compound Sentence": 0.0006858112756162882,
+        "Complex Sentence": 0.0002515577943995595,
+        "Compound-Complex Sentence": 0.00044409220572561026,
+        "Incomplete Sentence": 0.997322142124176
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 88,
+      "sentence_index": 0,
+      "sentence": "blurred vision;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9969536066055298,
+      "probabilities": {
+        "Simple Sentence": 0.0013220927212387323,
+        "Compound Sentence": 0.0007890723645687103,
+        "Complex Sentence": 0.00032669337815605104,
+        "Compound-Complex Sentence": 0.0006085580680519342,
+        "Incomplete Sentence": 0.9969536066055298
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 89,
+      "sentence_index": 0,
+      "sentence": "blurred vision;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9969536066055298,
+      "probabilities": {
+        "Simple Sentence": 0.0013220927212387323,
+        "Compound Sentence": 0.0007890723645687103,
+        "Complex Sentence": 0.00032669337815605104,
+        "Compound-Complex Sentence": 0.0006085580680519342,
+        "Incomplete Sentence": 0.9969536066055298
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 90,
+      "sentence_index": 0,
+      "sentence": "nausea, vomiting, diarrhea, constipation ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.994001567363739,
+      "probabilities": {
+        "Simple Sentence": 0.0031525094527751207,
+        "Compound Sentence": 0.0013527361443266273,
+        "Complex Sentence": 0.00040935067227110267,
+        "Compound-Complex Sentence": 0.001083774259313941,
+        "Incomplete Sentence": 0.994001567363739
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 91,
+      "sentence_index": 0,
+      "sentence": "nausea, vomiting, diarrhea, constipation ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.994001567363739,
+      "probabilities": {
+        "Simple Sentence": 0.0031525094527751207,
+        "Compound Sentence": 0.0013527361443266273,
+        "Complex Sentence": 0.00040935067227110267,
+        "Compound-Complex Sentence": 0.001083774259313941,
+        "Incomplete Sentence": 0.994001567363739
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 92,
+      "sentence_index": 0,
+      "sentence": "changes in weight or appetite;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9971461892127991,
+      "probabilities": {
+        "Simple Sentence": 0.0012367841554805636,
+        "Compound Sentence": 0.0007954146713018417,
+        "Complex Sentence": 0.00028168168500997126,
+        "Compound-Complex Sentence": 0.0005397836212068796,
+        "Incomplete Sentence": 0.9971461892127991
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 93,
+      "sentence_index": 0,
+      "sentence": "changes in weight or appetite;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9971461892127991,
+      "probabilities": {
+        "Simple Sentence": 0.0012367841554805636,
+        "Compound Sentence": 0.0007954146713018417,
+        "Complex Sentence": 0.00028168168500997126,
+        "Compound-Complex Sentence": 0.0005397836212068796,
+        "Incomplete Sentence": 0.9971461892127991
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 94,
+      "sentence_index": 0,
+      "sentence": "dry mouth, yawning;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9969183206558228,
+      "probabilities": {
+        "Simple Sentence": 0.0013123983517289162,
+        "Compound Sentence": 0.0007434134022332728,
+        "Complex Sentence": 0.00034369956119917333,
+        "Compound-Complex Sentence": 0.0006821944261901081,
+        "Incomplete Sentence": 0.9969183206558228
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 95,
+      "sentence_index": 0,
+      "sentence": "dry mouth, yawning;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9969183206558228,
+      "probabilities": {
+        "Simple Sentence": 0.0013123983517289162,
+        "Compound Sentence": 0.0007434134022332728,
+        "Complex Sentence": 0.00034369956119917333,
+        "Compound-Complex Sentence": 0.0006821944261901081,
+        "Incomplete Sentence": 0.9969183206558228
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 96,
+      "sentence_index": 0,
+      "sentence": "increased sweating; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9966316819190979,
+      "probabilities": {
+        "Simple Sentence": 0.0015926772030070424,
+        "Compound Sentence": 0.0008646561182104051,
+        "Complex Sentence": 0.0003483306791167706,
+        "Compound-Complex Sentence": 0.0005626424681395292,
+        "Incomplete Sentence": 0.9966316819190979
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 97,
+      "sentence_index": 0,
+      "sentence": "increased sweating; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9966316819190979,
+      "probabilities": {
+        "Simple Sentence": 0.0015926772030070424,
+        "Compound Sentence": 0.0008646561182104051,
+        "Complex Sentence": 0.0003483306791167706,
+        "Compound-Complex Sentence": 0.0005626424681395292,
+        "Incomplete Sentence": 0.9966316819190979
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 98,
+      "sentence_index": 0,
+      "sentence": "sexual problems.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9980668425559998,
+      "probabilities": {
+        "Simple Sentence": 0.000702942255884409,
+        "Compound Sentence": 0.0005160443251952529,
+        "Complex Sentence": 0.0002007091388804838,
+        "Compound-Complex Sentence": 0.0005135308019816875,
+        "Incomplete Sentence": 0.9980668425559998
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 99,
+      "sentence_index": 0,
+      "sentence": "sexual problems.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9980668425559998,
+      "probabilities": {
+        "Simple Sentence": 0.000702942255884409,
+        "Compound Sentence": 0.0005160443251952529,
+        "Complex Sentence": 0.0002007091388804838,
+        "Compound-Complex Sentence": 0.0005135308019816875,
+        "Incomplete Sentence": 0.9980668425559998
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 100,
+      "sentence_index": 0,
+      "sentence": "This is not a complete list of side effects and others may occur.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8379635214805603,
+      "probabilities": {
+        "Simple Sentence": 0.8379635214805603,
+        "Compound Sentence": 0.10669127106666565,
+        "Complex Sentence": 0.029844889417290688,
+        "Compound-Complex Sentence": 0.006823876406997442,
+        "Incomplete Sentence": 0.018676454201340675
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 100,
+      "sentence_index": 1,
+      "sentence": "Call your doctor for medical advice about side effects.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9224351644515991,
+      "probabilities": {
+        "Simple Sentence": 0.06066320836544037,
+        "Compound Sentence": 0.008363625966012478,
+        "Complex Sentence": 0.003304156241938472,
+        "Compound-Complex Sentence": 0.005233823787420988,
+        "Incomplete Sentence": 0.9224351644515991
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Venlafaxine side effects",
+      "block_index": 100,
+      "sentence_index": 2,
+      "sentence": "You may report side effects to FDA at 1-800-FDA-1088.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9825566411018372,
+      "probabilities": {
+        "Simple Sentence": 0.9825566411018372,
+        "Compound Sentence": 0.00803855899721384,
+        "Complex Sentence": 0.0037391898222267628,
+        "Compound-Complex Sentence": 0.0007530149887315929,
+        "Incomplete Sentence": 0.004912673495709896
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 101,
+      "sentence_index": 0,
+      "sentence": "Using venlafaxine with other drugs that make you drowsy can worsen this effect.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9783819913864136,
+      "probabilities": {
+        "Simple Sentence": 0.9783819913864136,
+        "Compound Sentence": 0.012668920680880547,
+        "Complex Sentence": 0.003433418460190296,
+        "Compound-Complex Sentence": 0.0011796256294474006,
+        "Incomplete Sentence": 0.004336011130362749
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 101,
+      "sentence_index": 1,
+      "sentence": "Ask your doctor before using opioid medication, a sleeping pill, a muscle relaxer, or medicine for anxiety or seizures .",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.5732479095458984,
+      "probabilities": {
+        "Simple Sentence": 0.3413006365299225,
+        "Compound Sentence": 0.04494411498308182,
+        "Complex Sentence": 0.015807712450623512,
+        "Compound-Complex Sentence": 0.024699600413441658,
+        "Incomplete Sentence": 0.5732479095458984
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 102,
+      "sentence_index": 0,
+      "sentence": "Tell your doctor about all your current medicines.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9777033925056458,
+      "probabilities": {
+        "Simple Sentence": 0.016970820724964142,
+        "Compound Sentence": 0.0029147283639758825,
+        "Complex Sentence": 0.0009180560591630638,
+        "Compound-Complex Sentence": 0.0014930653851479292,
+        "Incomplete Sentence": 0.9777033925056458
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 102,
+      "sentence_index": 1,
+      "sentence": "Many drugs can affect venlafaxine, especially:",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9904282093048096,
+      "probabilities": {
+        "Simple Sentence": 0.9904282093048096,
+        "Compound Sentence": 0.003856644732877612,
+        "Complex Sentence": 0.0023243718314915895,
+        "Compound-Complex Sentence": 0.000591146876104176,
+        "Incomplete Sentence": 0.002799623878672719
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 103,
+      "sentence_index": 0,
+      "sentence": "any other antidepressant, or other medicines containing venlafaxine or desvenlafaxine;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9922061562538147,
+      "probabilities": {
+        "Simple Sentence": 0.0034514626022428274,
+        "Compound Sentence": 0.0023652135860174894,
+        "Complex Sentence": 0.0007087802514433861,
+        "Compound-Complex Sentence": 0.0012684828834608197,
+        "Incomplete Sentence": 0.9922061562538147
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 104,
+      "sentence_index": 0,
+      "sentence": "any other antidepressant, or other medicines containing venlafaxine or desvenlafaxine;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9922061562538147,
+      "probabilities": {
+        "Simple Sentence": 0.0034514626022428274,
+        "Compound Sentence": 0.0023652135860174894,
+        "Complex Sentence": 0.0007087802514433861,
+        "Compound-Complex Sentence": 0.0012684828834608197,
+        "Incomplete Sentence": 0.9922061562538147
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 105,
+      "sentence_index": 0,
+      "sentence": "amphetamines;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976119995117188,
+      "probabilities": {
+        "Simple Sentence": 0.0009952196851372719,
+        "Compound Sentence": 0.0006482345052063465,
+        "Complex Sentence": 0.0002586063928902149,
+        "Compound-Complex Sentence": 0.0004859795735683292,
+        "Incomplete Sentence": 0.9976119995117188
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 106,
+      "sentence_index": 0,
+      "sentence": "amphetamines;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976119995117188,
+      "probabilities": {
+        "Simple Sentence": 0.0009952196851372719,
+        "Compound Sentence": 0.0006482345052063465,
+        "Complex Sentence": 0.0002586063928902149,
+        "Compound-Complex Sentence": 0.0004859795735683292,
+        "Incomplete Sentence": 0.9976119995117188
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 107,
+      "sentence_index": 0,
+      "sentence": "fentanyl ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976732134819031,
+      "probabilities": {
+        "Simple Sentence": 0.0009703281102702022,
+        "Compound Sentence": 0.000640096259303391,
+        "Complex Sentence": 0.00027422865969128907,
+        "Compound-Complex Sentence": 0.0004420846817083657,
+        "Incomplete Sentence": 0.9976732134819031
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 108,
+      "sentence_index": 0,
+      "sentence": "fentanyl ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976732134819031,
+      "probabilities": {
+        "Simple Sentence": 0.0009703281102702022,
+        "Compound Sentence": 0.000640096259303391,
+        "Complex Sentence": 0.00027422865969128907,
+        "Compound-Complex Sentence": 0.0004420846817083657,
+        "Incomplete Sentence": 0.9976732134819031
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 109,
+      "sentence_index": 0,
+      "sentence": "cimetidine ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9975278973579407,
+      "probabilities": {
+        "Simple Sentence": 0.0010860271286219358,
+        "Compound Sentence": 0.0006694086478091776,
+        "Complex Sentence": 0.00028069093241356313,
+        "Compound-Complex Sentence": 0.0004360181337688118,
+        "Incomplete Sentence": 0.9975278973579407
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 110,
+      "sentence_index": 0,
+      "sentence": "cimetidine ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9975278973579407,
+      "probabilities": {
+        "Simple Sentence": 0.0010860271286219358,
+        "Compound Sentence": 0.0006694086478091776,
+        "Complex Sentence": 0.00028069093241356313,
+        "Compound-Complex Sentence": 0.0004360181337688118,
+        "Incomplete Sentence": 0.9975278973579407
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 111,
+      "sentence_index": 0,
+      "sentence": "tramadol ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9977144002914429,
+      "probabilities": {
+        "Simple Sentence": 0.0009318278753198683,
+        "Compound Sentence": 0.0006314305355772376,
+        "Complex Sentence": 0.00028965514502488077,
+        "Compound-Complex Sentence": 0.00043270588503219187,
+        "Incomplete Sentence": 0.9977144002914429
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 112,
+      "sentence_index": 0,
+      "sentence": "tramadol ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9977144002914429,
+      "probabilities": {
+        "Simple Sentence": 0.0009318278753198683,
+        "Compound Sentence": 0.0006314305355772376,
+        "Complex Sentence": 0.00028965514502488077,
+        "Compound-Complex Sentence": 0.00043270588503219187,
+        "Incomplete Sentence": 0.9977144002914429
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 113,
+      "sentence_index": 0,
+      "sentence": "St. John's wort , tryptophan (sometimes called L-tryptophan);",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9909783601760864,
+      "probabilities": {
+        "Simple Sentence": 0.005683804862201214,
+        "Compound Sentence": 0.0018614373402670026,
+        "Complex Sentence": 0.0005937902606092393,
+        "Compound-Complex Sentence": 0.0008827221463434398,
+        "Incomplete Sentence": 0.9909783601760864
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 114,
+      "sentence_index": 0,
+      "sentence": "St. John's wort , tryptophan (sometimes called L-tryptophan);",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9909783601760864,
+      "probabilities": {
+        "Simple Sentence": 0.005683804862201214,
+        "Compound Sentence": 0.0018614373402670026,
+        "Complex Sentence": 0.0005937902606092393,
+        "Compound-Complex Sentence": 0.0008827221463434398,
+        "Incomplete Sentence": 0.9909783601760864
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 115,
+      "sentence_index": 0,
+      "sentence": "diet pills, weight loss medicine (such as phentermine );",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.991731584072113,
+      "probabilities": {
+        "Simple Sentence": 0.005026804283261299,
+        "Compound Sentence": 0.0017279114108532667,
+        "Complex Sentence": 0.0005670292885042727,
+        "Compound-Complex Sentence": 0.0009468173957429826,
+        "Incomplete Sentence": 0.991731584072113
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 116,
+      "sentence_index": 0,
+      "sentence": "diet pills, weight loss medicine (such as phentermine );",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.991731584072113,
+      "probabilities": {
+        "Simple Sentence": 0.005026804283261299,
+        "Compound Sentence": 0.0017279114108532667,
+        "Complex Sentence": 0.0005670292885042727,
+        "Compound-Complex Sentence": 0.0009468173957429826,
+        "Incomplete Sentence": 0.991731584072113
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 117,
+      "sentence_index": 0,
+      "sentence": "a blood thinner ( warfarin , Coumadin , Jantoven );",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9951483607292175,
+      "probabilities": {
+        "Simple Sentence": 0.0018268603598698974,
+        "Compound Sentence": 0.001291017746552825,
+        "Complex Sentence": 0.0004763323813676834,
+        "Compound-Complex Sentence": 0.0012574221473187208,
+        "Incomplete Sentence": 0.9951483607292175
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 118,
+      "sentence_index": 0,
+      "sentence": "a blood thinner ( warfarin , Coumadin , Jantoven );",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9951483607292175,
+      "probabilities": {
+        "Simple Sentence": 0.0018268603598698974,
+        "Compound Sentence": 0.001291017746552825,
+        "Complex Sentence": 0.0004763323813676834,
+        "Compound-Complex Sentence": 0.0012574221473187208,
+        "Incomplete Sentence": 0.9951483607292175
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 119,
+      "sentence_index": 0,
+      "sentence": "medicine to treat mood disorders, thought disorders, or mental illness - buspirone , lithium , and many others; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9912214279174805,
+      "probabilities": {
+        "Simple Sentence": 0.004830564372241497,
+        "Compound Sentence": 0.0022132140584290028,
+        "Complex Sentence": 0.00064976786961779,
+        "Compound-Complex Sentence": 0.0010849731042981148,
+        "Incomplete Sentence": 0.9912214279174805
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 120,
+      "sentence_index": 0,
+      "sentence": "medicine to treat mood disorders, thought disorders, or mental illness - buspirone , lithium , and many others; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9912214279174805,
+      "probabilities": {
+        "Simple Sentence": 0.004830564372241497,
+        "Compound Sentence": 0.0022132140584290028,
+        "Complex Sentence": 0.00064976786961779,
+        "Compound-Complex Sentence": 0.0010849731042981148,
+        "Incomplete Sentence": 0.9912214279174805
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 121,
+      "sentence_index": 0,
+      "sentence": "migraine headache medicine - sumatriptan , zolmitriptan , and others.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9929118752479553,
+      "probabilities": {
+        "Simple Sentence": 0.004790023900568485,
+        "Compound Sentence": 0.0012030038051307201,
+        "Complex Sentence": 0.00037743456778116524,
+        "Compound-Complex Sentence": 0.0007176452199928463,
+        "Incomplete Sentence": 0.9929118752479553
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 122,
+      "sentence_index": 0,
+      "sentence": "migraine headache medicine - sumatriptan , zolmitriptan , and others.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9929118752479553,
+      "probabilities": {
+        "Simple Sentence": 0.004790023900568485,
+        "Compound Sentence": 0.0012030038051307201,
+        "Complex Sentence": 0.00037743456778116524,
+        "Compound-Complex Sentence": 0.0007176452199928463,
+        "Incomplete Sentence": 0.9929118752479553
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 123,
+      "sentence_index": 0,
+      "sentence": "This list is not complete and many other drugs may interact with venlafaxine.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.7254658341407776,
+      "probabilities": {
+        "Simple Sentence": 0.7254658341407776,
+        "Compound Sentence": 0.23506473004817963,
+        "Complex Sentence": 0.025487324222922325,
+        "Compound-Complex Sentence": 0.006047860253602266,
+        "Incomplete Sentence": 0.007934250868856907
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 123,
+      "sentence_index": 1,
+      "sentence": "This includes prescription and over-the-counter medicines, vitamins , and herbal products.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8485506772994995,
+      "probabilities": {
+        "Simple Sentence": 0.8485506772994995,
+        "Compound Sentence": 0.07354512810707092,
+        "Complex Sentence": 0.036758504807949066,
+        "Compound-Complex Sentence": 0.007953466847538948,
+        "Incomplete Sentence": 0.03319232910871506
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "What other drugs will affect venlafaxine?",
+      "block_index": 123,
+      "sentence_index": 2,
+      "sentence": "Not all possible drug interactions are listed here.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9795013070106506,
+      "probabilities": {
+        "Simple Sentence": 0.9795013070106506,
+        "Compound Sentence": 0.006145711988210678,
+        "Complex Sentence": 0.0035742749460041523,
+        "Compound-Complex Sentence": 0.0007433783612214029,
+        "Incomplete Sentence": 0.010035320185124874
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Popular FAQ",
+      "block_index": 124,
+      "sentence_index": 0,
+      "sentence": "Venlafaxine withdrawal symptoms typically last up to 1 to 4 weeks, but may persist even longer.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.89380943775177,
+      "probabilities": {
+        "Simple Sentence": 0.05656331777572632,
+        "Compound Sentence": 0.89380943775177,
+        "Complex Sentence": 0.03233521059155464,
+        "Compound-Complex Sentence": 0.01117474865168333,
+        "Incomplete Sentence": 0.006117280572652817
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Popular FAQ",
+      "block_index": 124,
+      "sentence_index": 1,
+      "sentence": "The timing varies widely.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9602695107460022,
+      "probabilities": {
+        "Simple Sentence": 0.9602695107460022,
+        "Compound Sentence": 0.010204005986452103,
+        "Complex Sentence": 0.005234649870544672,
+        "Compound-Complex Sentence": 0.001871948130428791,
+        "Incomplete Sentence": 0.022419940680265427
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Popular FAQ",
+      "block_index": 124,
+      "sentence_index": 2,
+      "sentence": "People who stop suddenly, took higher doses, or used venlafaxine for years may have symptoms for two to three months or longer.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.40032094717025757,
+      "probabilities": {
+        "Simple Sentence": 0.40032094717025757,
+        "Compound Sentence": 0.2715328335762024,
+        "Complex Sentence": 0.2973480522632599,
+        "Compound-Complex Sentence": 0.02195393107831478,
+        "Incomplete Sentence": 0.008844241499900818
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Popular FAQ",
+      "block_index": 124,
+      "sentence_index": 3,
+      "sentence": "Continue reading",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968401193618774,
+      "probabilities": {
+        "Simple Sentence": 0.0008514289511367679,
+        "Compound Sentence": 0.0008564324234612286,
+        "Complex Sentence": 0.00037671401514671743,
+        "Compound-Complex Sentence": 0.0010752563830465078,
+        "Incomplete Sentence": 0.9968401193618774
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Popular FAQ",
+      "block_index": 125,
+      "sentence_index": 0,
+      "sentence": "Common drug classes that can cause serotonin syndrome include selective serotonin reuptake inhibitors (SSRIs), monoamine oxidase inhibitors (MAOIs), and opioids like tramadol.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.7534202933311462,
+      "probabilities": {
+        "Simple Sentence": 0.058897290378808975,
+        "Compound Sentence": 0.15269337594509125,
+        "Complex Sentence": 0.7534202933311462,
+        "Compound-Complex Sentence": 0.027631577104330063,
+        "Incomplete Sentence": 0.007357476279139519
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "More FAQ",
+      "block_index": 126,
+      "sentence_index": 0,
+      "sentence": "SSRIs vs SNRIs - What's the difference between them?",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9894601106643677,
+      "probabilities": {
+        "Simple Sentence": 0.00705028185620904,
+        "Compound Sentence": 0.0016972264274954796,
+        "Complex Sentence": 0.0006360679399222136,
+        "Compound-Complex Sentence": 0.0011562780709937215,
+        "Incomplete Sentence": 0.9894601106643677
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "More about venlafaxine",
+      "block_index": 127,
+      "sentence_index": 0,
+      "sentence": "Check interactions",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976564645767212,
+      "probabilities": {
+        "Simple Sentence": 0.0006754050846211612,
+        "Compound Sentence": 0.0006197865586727858,
+        "Complex Sentence": 0.00029854074819013476,
+        "Compound-Complex Sentence": 0.0007497987826354802,
+        "Incomplete Sentence": 0.9976564645767212
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "More about venlafaxine",
+      "block_index": 128,
+      "sentence_index": 0,
+      "sentence": "Compare alternatives",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9973183274269104,
+      "probabilities": {
+        "Simple Sentence": 0.000693892827257514,
+        "Compound Sentence": 0.0007733377860859036,
+        "Complex Sentence": 0.00034585801768116653,
+        "Compound-Complex Sentence": 0.0008686383953318,
+        "Incomplete Sentence": 0.9973183274269104
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "More about venlafaxine",
+      "block_index": 129,
+      "sentence_index": 0,
+      "sentence": "Pricing & coupons",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9980949759483337,
+      "probabilities": {
+        "Simple Sentence": 0.0006045135669410229,
+        "Compound Sentence": 0.000543472240678966,
+        "Complex Sentence": 0.00023742545454297215,
+        "Compound-Complex Sentence": 0.0005195987178012729,
+        "Incomplete Sentence": 0.9980949759483337
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "More about venlafaxine",
+      "block_index": 130,
+      "sentence_index": 0,
+      "sentence": "Reviews (2,851)",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9977341890335083,
+      "probabilities": {
+        "Simple Sentence": 0.000751323183067143,
+        "Compound Sentence": 0.0006370173650793731,
+        "Complex Sentence": 0.0002802011731546372,
+        "Compound-Complex Sentence": 0.000597254722379148,
+        "Incomplete Sentence": 0.9977341890335083
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "More about venlafaxine",
+      "block_index": 131,
+      "sentence_index": 0,
+      "sentence": "Drug images",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9981614947319031,
+      "probabilities": {
+        "Simple Sentence": 0.00048340647481381893,
+        "Compound Sentence": 0.0004796446010004729,
+        "Complex Sentence": 0.0002539920969866216,
+        "Compound-Complex Sentence": 0.0006213125889189541,
+        "Incomplete Sentence": 0.9981614947319031
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "More about venlafaxine",
+      "block_index": 132,
+      "sentence_index": 0,
+      "sentence": "Side effects",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.997919499874115,
+      "probabilities": {
+        "Simple Sentence": 0.0005455033970065415,
+        "Compound Sentence": 0.0005386219127103686,
+        "Complex Sentence": 0.0002931297931354493,
+        "Compound-Complex Sentence": 0.0007031817804090679,
+        "Incomplete Sentence": 0.997919499874115
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "More about venlafaxine",
+      "block_index": 133,
+      "sentence_index": 0,
+      "sentence": "Dosage information",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9979810118675232,
+      "probabilities": {
+        "Simple Sentence": 0.0007104729302227497,
+        "Compound Sentence": 0.0005979862180538476,
+        "Complex Sentence": 0.00023280664754565805,
+        "Compound-Complex Sentence": 0.0004776882124133408,
+        "Incomplete Sentence": 0.9979810118675232
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "More about venlafaxine",
+      "block_index": 134,
+      "sentence_index": 0,
+      "sentence": "Patient tips",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978950023651123,
+      "probabilities": {
+        "Simple Sentence": 0.0005328538245521486,
+        "Compound Sentence": 0.0005886645521968603,
+        "Complex Sentence": 0.00027752286405302584,
+        "Compound-Complex Sentence": 0.0007059166673570871,
+        "Incomplete Sentence": 0.9978950023651123
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "More about venlafaxine",
+      "block_index": 135,
+      "sentence_index": 0,
+      "sentence": "During pregnancy",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978467226028442,
+      "probabilities": {
+        "Simple Sentence": 0.0006223309901542962,
+        "Compound Sentence": 0.0005644297343678772,
+        "Complex Sentence": 0.0002694972208701074,
+        "Compound-Complex Sentence": 0.0006969777168706059,
+        "Incomplete Sentence": 0.9978467226028442
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "More about venlafaxine",
+      "block_index": 136,
+      "sentence_index": 0,
+      "sentence": "Support group",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9980751276016235,
+      "probabilities": {
+        "Simple Sentence": 0.0005579816643148661,
+        "Compound Sentence": 0.0005717718740925193,
+        "Complex Sentence": 0.00025847391225397587,
+        "Compound-Complex Sentence": 0.000536605715751648,
+        "Incomplete Sentence": 0.9980751276016235
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "More about venlafaxine",
+      "block_index": 137,
+      "sentence_index": 0,
+      "sentence": "Drug class: serotonin-norepinephrine reuptake inhibitors",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9971669316291809,
+      "probabilities": {
+        "Simple Sentence": 0.0014008049620315433,
+        "Compound Sentence": 0.0006511168321594596,
+        "Complex Sentence": 0.0002554795064497739,
+        "Compound-Complex Sentence": 0.0005257478915154934,
+        "Incomplete Sentence": 0.9971669316291809
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "More about venlafaxine",
+      "block_index": 138,
+      "sentence_index": 0,
+      "sentence": "Breastfeeding",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.997955322265625,
+      "probabilities": {
+        "Simple Sentence": 0.0007980060763657093,
+        "Compound Sentence": 0.0005864049890078604,
+        "Complex Sentence": 0.00022785243345424533,
+        "Compound-Complex Sentence": 0.00043238792568445206,
+        "Incomplete Sentence": 0.997955322265625
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "More about venlafaxine",
+      "block_index": 139,
+      "sentence_index": 0,
+      "sentence": "En español",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978704452514648,
+      "probabilities": {
+        "Simple Sentence": 0.0006446143379434943,
+        "Compound Sentence": 0.0005990889039821923,
+        "Complex Sentence": 0.00026532539050094783,
+        "Compound-Complex Sentence": 0.0006205252138897777,
+        "Incomplete Sentence": 0.9978704452514648
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Patient resources",
+      "block_index": 140,
+      "sentence_index": 0,
+      "sentence": "Effexor XR",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9981302618980408,
+      "probabilities": {
+        "Simple Sentence": 0.0005090694176033139,
+        "Compound Sentence": 0.0005060952971689403,
+        "Complex Sentence": 0.00025472932611592114,
+        "Compound-Complex Sentence": 0.000599830353166908,
+        "Incomplete Sentence": 0.9981302618980408
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Professional resources",
+      "block_index": 141,
+      "sentence_index": 0,
+      "sentence": "Venlafaxine monograph",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9981290698051453,
+      "probabilities": {
+        "Simple Sentence": 0.0006116601871326566,
+        "Compound Sentence": 0.0005110612255521119,
+        "Complex Sentence": 0.00026051519671455026,
+        "Compound-Complex Sentence": 0.0004876580205745995,
+        "Incomplete Sentence": 0.9981290698051453
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Professional resources",
+      "block_index": 142,
+      "sentence_index": 0,
+      "sentence": "Venlafaxine (FDA)",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976300001144409,
+      "probabilities": {
+        "Simple Sentence": 0.0010248261969536543,
+        "Compound Sentence": 0.000573753728531301,
+        "Complex Sentence": 0.0002699654723983258,
+        "Compound-Complex Sentence": 0.0005014152848161757,
+        "Incomplete Sentence": 0.9976300001144409
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Professional resources",
+      "block_index": 143,
+      "sentence_index": 0,
+      "sentence": "Venlafaxine ER (FDA)",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9975550770759583,
+      "probabilities": {
+        "Simple Sentence": 0.0010327864438295364,
+        "Compound Sentence": 0.0005850259913131595,
+        "Complex Sentence": 0.00028124733944423497,
+        "Compound-Complex Sentence": 0.0005458370433188975,
+        "Incomplete Sentence": 0.9975550770759583
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Professional resources",
+      "block_index": 144,
+      "sentence_index": 0,
+      "sentence": "Venlafaxine ER Capsules (FDA)",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9975269436836243,
+      "probabilities": {
+        "Simple Sentence": 0.0012351437471807003,
+        "Compound Sentence": 0.0005352644948288798,
+        "Complex Sentence": 0.00026316996081732213,
+        "Compound-Complex Sentence": 0.0004394374554976821,
+        "Incomplete Sentence": 0.9975269436836243
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Professional resources",
+      "block_index": 145,
+      "sentence_index": 0,
+      "sentence": "Effexor , Effexor XR",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9977085590362549,
+      "probabilities": {
+        "Simple Sentence": 0.0008617948624305427,
+        "Compound Sentence": 0.0005989917553961277,
+        "Complex Sentence": 0.0003041476884391159,
+        "Compound-Complex Sentence": 0.0005265474901534617,
+        "Incomplete Sentence": 0.9977085590362549
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Related treatment guides",
+      "block_index": 146,
+      "sentence_index": 0,
+      "sentence": "Back Pain",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9975852966308594,
+      "probabilities": {
+        "Simple Sentence": 0.0006859922432340682,
+        "Compound Sentence": 0.0006819845293648541,
+        "Complex Sentence": 0.0003122352936770767,
+        "Compound-Complex Sentence": 0.0007345263147726655,
+        "Incomplete Sentence": 0.9975852966308594
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Related treatment guides",
+      "block_index": 147,
+      "sentence_index": 0,
+      "sentence": "Autism",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9951221346855164,
+      "probabilities": {
+        "Simple Sentence": 0.0014366846298798919,
+        "Compound Sentence": 0.0011404022807255387,
+        "Complex Sentence": 0.0005887511069886386,
+        "Compound-Complex Sentence": 0.0017119465628638864,
+        "Incomplete Sentence": 0.9951221346855164
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Related treatment guides",
+      "block_index": 148,
+      "sentence_index": 0,
+      "sentence": "Major Depressive Disorder",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978018403053284,
+      "probabilities": {
+        "Simple Sentence": 0.0006702467217110097,
+        "Compound Sentence": 0.00063025375129655,
+        "Complex Sentence": 0.00024156487779691815,
+        "Compound-Complex Sentence": 0.0006560005131177604,
+        "Incomplete Sentence": 0.9978018403053284
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Related treatment guides",
+      "block_index": 149,
+      "sentence_index": 0,
+      "sentence": "Anxiety and Stress",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9980987906455994,
+      "probabilities": {
+        "Simple Sentence": 0.0005115450476296246,
+        "Compound Sentence": 0.0005392449675127864,
+        "Complex Sentence": 0.00024353194748982787,
+        "Compound-Complex Sentence": 0.0006068818038329482,
+        "Incomplete Sentence": 0.9980987906455994
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Further information",
+      "block_index": 150,
+      "sentence_index": 0,
+      "sentence": "Remember, keep this and all other medicines out of the reach of children, never share your medicines with others, and use venlafaxine only for the indication prescribed.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.7214140295982361,
+      "probabilities": {
+        "Simple Sentence": 0.020325521007180214,
+        "Compound Sentence": 0.7214140295982361,
+        "Complex Sentence": 0.07472982257604599,
+        "Compound-Complex Sentence": 0.1632249504327774,
+        "Incomplete Sentence": 0.020305681973695755
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Further information",
+      "block_index": 151,
+      "sentence_index": 0,
+      "sentence": "Always consult your healthcare provider to ensure the information displayed on this page applies to your personal circumstances.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.720126211643219,
+      "probabilities": {
+        "Simple Sentence": 0.23886795341968536,
+        "Compound Sentence": 0.019559664651751518,
+        "Complex Sentence": 0.010723046027123928,
+        "Compound-Complex Sentence": 0.010723046027123928,
+        "Incomplete Sentence": 0.720126211643219
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Further information",
+      "block_index": 152,
+      "sentence_index": 0,
+      "sentence": "Medical Disclaimer",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978055357933044,
+      "probabilities": {
+        "Simple Sentence": 0.0006821351125836372,
+        "Compound Sentence": 0.0006229133578017354,
+        "Complex Sentence": 0.00026221718871966004,
+        "Compound-Complex Sentence": 0.0006271861493587494,
+        "Incomplete Sentence": 0.9978055357933044
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Further information",
+      "block_index": 153,
+      "sentence_index": 0,
+      "sentence": "Copyright 1996-2026 Cerner Multum, Inc.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9958049058914185,
+      "probabilities": {
+        "Simple Sentence": 0.002088736044242978,
+        "Compound Sentence": 0.0011546367313712835,
+        "Complex Sentence": 0.0003288762818556279,
+        "Compound-Complex Sentence": 0.0006228798301890492,
+        "Incomplete Sentence": 0.9958049058914185
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "venlafaxine.html",
+      "section_title": "Further information",
+      "block_index": 153,
+      "sentence_index": 1,
+      "sentence": "Version: 17.02.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9886189699172974,
+      "probabilities": {
+        "Simple Sentence": 0.006209737155586481,
+        "Compound Sentence": 0.0022268898319453,
+        "Complex Sentence": 0.0007817118312232196,
+        "Compound-Complex Sentence": 0.0021625952795147896,
+        "Incomplete Sentence": 0.9886189699172974
+      }
+    }
+  ]
+}

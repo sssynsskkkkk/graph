@@ -1,0 +1,4687 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "albuterol#what-is-albuterol-inhalation#0",
+     "section_id": "what-is-albuterol-inhalation",
+     "section_heading": "What is albuterol inhalation?",
+     "text": "Albuterol is a bronchodilator.\nAlbuterol relaxes muscles in the airways.\nAlbuterol increases air flow to the lungs.\nAlbuterol inhalation is used to treat or prevent bronchospasm.\nBronchospasm is the narrowing of the airways in the lungs.\nAlbuterol inhalation is used in people with asthma.\nAlbuterol inhalation is used in people with certain types of chronic obstructive pulmonary disease (COPD).\nAlbuterol is also used to prevent exercise-induced bronchospasm.\nAlbuterol inhalation is for use in adults and children who are at least 2 years old.\nAlways follow your doctor's directions when giving albuterol to a child.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Albuterol Inhalation\", \"has generic name\", \"albuterol\"], [\"Albuterol Inhalation\", \"has mechanism of action\", \"relaxes muscles in the airways\"], [\"Albuterol Inhalation\", \"has mechanism of action\", \"increases air flow to the lungs\"], [\"Albuterol Inhalation\", \"treats\", \"bronchospasm\"], [\"bronchospasm\", \"is defined as\", \"narrowing of the airways in the lungs\"], [\"Albuterol Inhalation\", \"used in\", \"people with asthma\"], [\"Albuterol Inhalation\", \"used in\", \"people with certain types of chronic obstructive pulmonary disease (COPD)\"], [\"Albuterol Inhalation\", \"used to prevent\", \"exercise-induced bronchospasm\"], [\"Albuterol Inhalation\", \"has age restriction\", \"for use in adults and children who are at least 2 years old\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"always follow your doctor's directions when giving to a child\"]]",
+     "oie": [
+      [
+       "Albuterol Inhalation",
+       "has generic name",
+       "albuterol"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has mechanism of action",
+       "relaxes muscles in the airways"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has mechanism of action",
+       "increases air flow to the lungs"
+      ],
+      [
+       "Albuterol Inhalation",
+       "treats",
+       "bronchospasm"
+      ],
+      [
+       "bronchospasm",
+       "is defined as",
+       "narrowing of the airways in the lungs"
+      ],
+      [
+       "Albuterol Inhalation",
+       "used in",
+       "people with asthma"
+      ],
+      [
+       "Albuterol Inhalation",
+       "used in",
+       "people with certain types of chronic obstructive pulmonary disease (COPD)"
+      ],
+      [
+       "Albuterol Inhalation",
+       "used to prevent",
+       "exercise-induced bronchospasm"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has age restriction",
+       "for use in adults and children who are at least 2 years old"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "always follow your doctor's directions when giving to a child"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the specific administration guidance specified by the object entity.",
+      "has age restriction": "The subject drug is restricted for use in the age group specified by the object entity.",
+      "has generic name": "The subject drug is known by the generic (non-proprietary) name specified by the object entity.",
+      "has mechanism of action": "The subject drug functions by the physiological mechanism specified by the object entity.",
+      "is defined as": "The subject condition or entity is defined by the description specified by the object entity.",
+      "treats": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+      "used in": "The subject drug is used for patients in the population specified by the object entity.",
+      "used to prevent": "The subject drug is used to prevent the medical condition or event specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has generic name",
+        "albuterol"
+       ],
+       "raw_relation": "has generic name",
+       "definition": "The subject drug is known by the generic (non-proprietary) name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has mechanism of action",
+        "relaxes muscles in the airways"
+       ],
+       "raw_relation": "has mechanism of action",
+       "definition": "The subject drug functions by the physiological mechanism specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has mechanism of action",
+        "increases air flow to the lungs"
+       ],
+       "raw_relation": "has mechanism of action",
+       "definition": "The subject drug functions by the physiological mechanism specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "treats",
+        "bronchospasm"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "bronchospasm",
+        "is defined as",
+        "narrowing of the airways in the lungs"
+       ],
+       "raw_relation": "is defined as",
+       "definition": "The subject condition or entity is defined by the description specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "may be used for",
+         0.8398
+        ],
+        [
+         "located in",
+         0.8317
+        ],
+        [
+         "contribute to",
+         0.8192
+        ],
+        [
+         "treats",
+         0.796
+        ],
+        [
+         "has side effect",
+         0.7798
+        ]
+       ],
+       "answer": "F. None of the"
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "used in population",
+        "people with asthma"
+       ],
+       "raw_relation": "used in",
+       "definition": "The subject drug is used for patients in the population specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.9479
+        ],
+        [
+         "treats",
+         0.9169
+        ],
+        [
+         "may be used for",
+         0.9102
+        ],
+        [
+         "has dosage form",
+         0.8968
+        ],
+        [
+         "belongs to drug class",
+         0.8871
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "used in population",
+        "people with certain types of chronic obstructive pulmonary disease (COPD)"
+       ],
+       "raw_relation": "used in",
+       "definition": "The subject drug is used for patients in the population specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.9479
+        ],
+        [
+         "treats",
+         0.9169
+        ],
+        [
+         "may be used for",
+         0.9102
+        ],
+        [
+         "has dosage form",
+         0.8968
+        ],
+        [
+         "belongs to drug class",
+         0.8871
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "reduces risk of",
+        "exercise-induced bronchospasm"
+       ],
+       "raw_relation": "used to prevent",
+       "definition": "The subject drug is used to prevent the medical condition or event specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "reduces risk of",
+         0.9628
+        ],
+        [
+         "treats",
+         0.9105
+        ],
+        [
+         "may be used for",
+         0.9044
+        ],
+        [
+         "has warning",
+         0.8652
+        ],
+        [
+         "use with caution in",
+         0.8514
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "used in population",
+        "for use in adults and children who are at least 2 years old"
+       ],
+       "raw_relation": "has age restriction",
+       "definition": "The subject drug is restricted for use in the age group specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.8729
+        ],
+        [
+         "may be used for",
+         0.8265
+        ],
+        [
+         "contraindicated in",
+         0.7981
+        ],
+        [
+         "belongs to drug class",
+         0.7947
+        ],
+        [
+         "reduces risk of",
+         0.7893
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "always follow your doctor's directions when giving to a child"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration guidance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "albuterol#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "It is important to keep albuterol on hand at all times.\nGet your prescription refilled before you run out of medicine completely.\nKeep using all of your other medications as prescribed by your doctor.\nTalk with your doctor if any of your asthma medications do not seem to work as well in treating or preventing attacks.\nIf albuterol seems like you need to use more of any of your medications in a 24-hour period, talk with your doctor.\nAn increased need for medication could be an early sign of a serious asthma attack.\nOnly use albuterol as prescribed by your physician.\nAn overdose of albuterol can be fatal.\nSeek emergency medical attention or call the Poison Help line at 1-800-222-1222.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Albuterol Inhalation\", \"has administration instruction\", \"keep on hand at all times\"], [\"Albuterol Inhalation\", \"has missed dose instruction\", \"get prescription refilled before running out of medicine completely\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"keep using all other medications as prescribed by your doctor\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"talk with your doctor if asthma medications do not seem to work as well in treating or preventing attacks\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"if need to use more of any medications in a 24-hour period, talk with your doctor\"], [\"Albuterol Inhalation\", \"has warning\", \"increased need for medication could be an early sign of a serious asthma attack\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"only use as prescribed by your physician\"], [\"Albuterol Inhalation\", \"has serious side effect\", \"overdose can be fatal\"], [\"Albuterol Inhalation\", \"has overdose instruction\", \"seek emergency medical attention or call the Poison Help line at 1-800-222-1222\"]]",
+     "oie": [
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "keep on hand at all times"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has missed dose instruction",
+       "get prescription refilled before running out of medicine completely"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "keep using all other medications as prescribed by your doctor"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "talk with your doctor if asthma medications do not seem to work as well in treating or preventing attacks"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "if need to use more of any medications in a 24-hour period, talk with your doctor"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has warning",
+       "increased need for medication could be an early sign of a serious asthma attack"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "only use as prescribed by your physician"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has serious side effect",
+       "overdose can be fatal"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has overdose instruction",
+       "seek emergency medical attention or call the Poison Help line at 1-800-222-1222"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug should be administered according to the specific guidance or recommendation provided by the object entity.",
+      "has missed dose instruction": "The subject drug should be managed according to the specific guidance provided by the object entity if a dose is missed.",
+      "has overdose instruction": "The subject drug should be handled according to the specific guidance provided by the object entity in case of an overdose.",
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+      "has warning": "The subject drug should be used with caution as the object entity indicates a potential risk or warning associated with its use."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "keep on hand at all times"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific guidance or recommendation provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has missed dose instruction",
+        "get prescription refilled before running out of medicine completely"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug should be managed according to the specific guidance provided by the object entity if a dose is missed.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "keep using all other medications as prescribed by your doctor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific guidance or recommendation provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "talk with your doctor if asthma medications do not seem to work as well in treating or preventing attacks"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific guidance or recommendation provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "if need to use more of any medications in a 24-hour period, talk with your doctor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific guidance or recommendation provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has warning",
+        "increased need for medication could be an early sign of a serious asthma attack"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug should be used with caution as the object entity indicates a potential risk or warning associated with its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "only use as prescribed by your physician"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific guidance or recommendation provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has serious side effect",
+        "overdose can be fatal"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has overdose instruction",
+        "seek emergency medical attention or call the Poison Help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug should be handled according to the specific guidance provided by the object entity in case of an overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "albuterol#before-taking-this-medicine#0",
+     "section_id": "before-taking-this-medicine",
+     "section_heading": "Before taking this medicine",
+     "text": "You should not use Albuterol if you are allergic to albuterol.\nYou should not use ProAir RespiClick or ProAir Digihaler if you are allergic to milk proteins.\nTo make sure albuterol inhalation is safe for you, tell your doctor if you have:\nheart disease, high blood pressure, congestive heart failure;\na heart rhythm disorder;\na seizure disorder such as epilepsy;\ndiabetes;\noveractive thyroid; or\nlow levels of potassium in your blood.\nTell your doctor if you are pregnant or plan to become pregnant.\nIt is not known whether albuterol will harm an unborn baby.\nHowever, having uncontrolled asthma during pregnancy may increase the risk of premature birth.\nIt may also increase the risk of low birth weight.\nIt may also increase the risk of eclampsia.\nEclampsia is dangerously high blood pressure.\nEclampsia can lead to medical problems in both mother and baby.\nThe benefit of preventing bronchospasm may outweigh any risks to the baby.\nIf you are pregnant, your name may be listed on a pregnancy registry.\nThe registry is used to track the effects of albuterol on the baby.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Albuterol Inhalation\", \"contraindicated in\", \"allergy to albuterol\"], [\"Albuterol Inhalation\", \"contraindicated in\", \"allergy to milk proteins\"], [\"Albuterol Inhalation\", \"use with caution in\", \"heart disease\"], [\"Albuterol Inhalation\", \"use with caution in\", \"high blood pressure\"], [\"Albuterol Inhalation\", \"use with caution in\", \"congestive heart failure\"], [\"Albuterol Inhalation\", \"use with caution in\", \"heart rhythm disorder\"], [\"Albuterol Inhalation\", \"use with caution in\", \"seizure disorder\"], [\"Albuterol Inhalation\", \"use with caution in\", \"diabetes\"], [\"Albuterol Inhalation\", \"use with caution in\", \"overactive thyroid\"], [\"Albuterol Inhalation\", \"use with caution in\", \"low potassium levels\"], [\"Albuterol Inhalation\", \"has pregnancy or breastfeeding warning\", \"unknown if harmful to unborn baby\"], [\"Albuterol Inhalation\", \"has pregnancy or breastfeeding warning\", \"uncontrolled asthma may increase risk of premature birth\"], [\"Albuterol Inhalation\", \"has pregnancy or breastfeeding warning\", \"may increase risk of low birth weight\"], [\"Albuterol Inhalation\", \"has pregnancy or breastfeeding warning\", \"may increase risk of eclampsia\"], [\"Eclampsia\", \"defined as\", \"dangerously high blood pressure\"], [\"Eclampsia\", \"can lead to\", \"medical problems in mother and baby\"], [\"Albuterol Inhalation\", \"has pregnancy or breastfeeding warning\", \"benefit of preventing bronchospasm may outweigh risks to baby\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"inform doctor if pregnant or planning pregnancy\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"name may be listed on pregnancy registry\"], [\"Pregnancy registry\", \"used to track\", \"effects of albuterol on baby\"]]",
+     "oie": [
+      [
+       "Albuterol Inhalation",
+       "contraindicated in",
+       "allergy to albuterol"
+      ],
+      [
+       "Albuterol Inhalation",
+       "contraindicated in",
+       "allergy to milk proteins"
+      ],
+      [
+       "Albuterol Inhalation",
+       "use with caution in",
+       "heart disease"
+      ],
+      [
+       "Albuterol Inhalation",
+       "use with caution in",
+       "high blood pressure"
+      ],
+      [
+       "Albuterol Inhalation",
+       "use with caution in",
+       "congestive heart failure"
+      ],
+      [
+       "Albuterol Inhalation",
+       "use with caution in",
+       "heart rhythm disorder"
+      ],
+      [
+       "Albuterol Inhalation",
+       "use with caution in",
+       "seizure disorder"
+      ],
+      [
+       "Albuterol Inhalation",
+       "use with caution in",
+       "diabetes"
+      ],
+      [
+       "Albuterol Inhalation",
+       "use with caution in",
+       "overactive thyroid"
+      ],
+      [
+       "Albuterol Inhalation",
+       "use with caution in",
+       "low potassium levels"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has pregnancy or breastfeeding warning",
+       "unknown if harmful to unborn baby"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has pregnancy or breastfeeding warning",
+       "uncontrolled asthma may increase risk of premature birth"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has pregnancy or breastfeeding warning",
+       "may increase risk of low birth weight"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has pregnancy or breastfeeding warning",
+       "may increase risk of eclampsia"
+      ],
+      [
+       "Eclampsia",
+       "defined as",
+       "dangerously high blood pressure"
+      ],
+      [
+       "Eclampsia",
+       "can lead to",
+       "medical problems in mother and baby"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has pregnancy or breastfeeding warning",
+       "benefit of preventing bronchospasm may outweigh risks to baby"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "inform doctor if pregnant or planning pregnancy"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "name may be listed on pregnancy registry"
+      ],
+      [
+       "Pregnancy registry",
+       "used to track",
+       "effects of albuterol on baby"
+      ]
+     ],
+     "schema_definition": {
+      "can lead to": "The subject condition or event may result in the medical complication or outcome specified by the object entity.",
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "defined as": "The subject condition is characterized by or defined as the medical description specified by the object entity.",
+      "has administration instruction": "The subject drug requires the specific administrative or clinical action specified by the object entity.",
+      "has pregnancy or breastfeeding warning": "The subject drug is associated with the specific warning or risk related to pregnancy or breastfeeding specified by the object entity.",
+      "use with caution in": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+      "used to track": "The subject registry or system is utilized to monitor or record the specific health-related information specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "contraindicated in",
+        "allergy to albuterol"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "contraindicated in",
+        "allergy to milk proteins"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "use with caution in",
+        "heart disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "use with caution in",
+        "high blood pressure"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "use with caution in",
+        "congestive heart failure"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "use with caution in",
+        "heart rhythm disorder"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "use with caution in",
+        "seizure disorder"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "use with caution in",
+        "diabetes"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "use with caution in",
+        "overactive thyroid"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "use with caution in",
+        "low potassium levels"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has pregnancy or breastfeeding warning",
+        "unknown if harmful to unborn baby"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug is associated with the specific warning or risk related to pregnancy or breastfeeding specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has pregnancy or breastfeeding warning",
+        "uncontrolled asthma may increase risk of premature birth"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug is associated with the specific warning or risk related to pregnancy or breastfeeding specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has pregnancy or breastfeeding warning",
+        "may increase risk of low birth weight"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug is associated with the specific warning or risk related to pregnancy or breastfeeding specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has pregnancy or breastfeeding warning",
+        "may increase risk of eclampsia"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug is associated with the specific warning or risk related to pregnancy or breastfeeding specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Eclampsia",
+        "is defined as",
+        "dangerously high blood pressure"
+       ],
+       "raw_relation": "defined as",
+       "definition": "The subject condition is characterized by or defined as the medical description specified by the object entity.",
+       "status": "mapped_new",
+       "candidates": [
+        [
+         "treats",
+         0.8419
+        ],
+        [
+         "may be used for",
+         0.8378
+        ],
+        [
+         "should inform doctor about",
+         0.8213
+        ],
+        [
+         "reduces risk of",
+         0.8023
+        ],
+        [
+         "use with caution in",
+         0.7984
+        ]
+       ],
+       "answer": "F. None of the"
+      },
+      {
+       "triplet": [
+        "Eclampsia",
+        "can lead to",
+        "medical problems in mother and baby"
+       ],
+       "raw_relation": "can lead to",
+       "definition": "The subject condition or event may result in the medical complication or outcome specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "has side effect",
+         0.8535
+        ],
+        [
+         "has serious side effect",
+         0.843
+        ],
+        [
+         "has overdose risk",
+         0.8394
+        ],
+        [
+         "use with caution in",
+         0.8265
+        ],
+        [
+         "reduces risk of",
+         0.8263
+        ]
+       ],
+       "answer": "F. None of the"
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has pregnancy or breastfeeding warning",
+        "benefit of preventing bronchospasm may outweigh risks to baby"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug is associated with the specific warning or risk related to pregnancy or breastfeeding specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "inform doctor if pregnant or planning pregnancy"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administrative or clinical action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "name may be listed on pregnancy registry"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administrative or clinical action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Pregnancy registry",
+        "has pregnancy registry",
+        "effects of albuterol on baby"
+       ],
+       "raw_relation": "used to track",
+       "definition": "The subject registry or system is utilized to monitor or record the specific health-related information specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "treats",
+         0.7887
+        ],
+        [
+         "has pregnancy registry",
+         0.7618
+        ],
+        [
+         "requires monitoring of",
+         0.7607
+        ],
+        [
+         "may be used for",
+         0.7555
+        ],
+        [
+         "reduces risk of",
+         0.7473
+        ]
+       ],
+       "answer": "B. 'has pregnancy"
+      }
+     ]
+    },
+    {
+     "chunk_id": "albuterol#before-taking-this-medicine#1",
+     "section_id": "before-taking-this-medicine",
+     "section_heading": "Before taking this medicine",
+     "text": "Pregnancy registry may not be safe to breastfeed while using this medicine.\nAsk your doctor about any risk.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Albuterol Inhalation\", \"has pregnancy or breastfeeding warning\", \"may not be safe to breastfeed\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"ask your doctor about any risk\"]]",
+     "oie": [
+      [
+       "Albuterol Inhalation",
+       "has pregnancy or breastfeeding warning",
+       "may not be safe to breastfeed"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "ask your doctor about any risk"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the patient to follow the specific instruction or guidance specified by the object entity when using the drug.",
+      "has pregnancy or breastfeeding warning": "The subject drug may pose a risk to the patient's pregnancy or breastfeeding and requires caution or medical advice."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has pregnancy or breastfeeding warning",
+        "may not be safe to breastfeed"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug may pose a risk to the patient's pregnancy or breastfeeding and requires caution or medical advice.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "ask your doctor about any risk"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instruction or guidance specified by the object entity when using the drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#0",
+     "section_id": "how-should-i-use-albuterol-inhalation",
+     "section_heading": "How should I use albuterol inhalation?",
+     "text": "Use albuterol inhalation exactly as prescribed by your doctor.\nFollow all directions on your prescription label.\nDo not use albuterol inhalation in larger or smaller amounts or for longer than recommended.\nRead all patient information, medication guides, and instruction sheets provided to you.\nAsk your doctor or pharmacist if you have any questions.\nYou may need to prime your albuterol inhaler device before the first use.\nYour medicine comes with directions for priming if needed.\nYou may also need to shake your albuterol device just before each use.\nKeeping your inhaler clean is important to ensure you are receiving the medication.\nClean the plastic actuator with the canister removed at least once a week.\nYour medicine comes with directions for properly cleaning your device.\nFollow all medication instructions very carefully.\nDo not allow a young child to use albuterol inhalation without help from an adult.\nThe usual dose of albuterol inhalation is 2 inhalations every 4 to 6 hours.\nTo prevent exercise-induced bronchospasm, use 2 inhalations 15 to 30 minutes before you exercise.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Albuterol Inhalation\", \"has administration instruction\", \"use exactly as prescribed by your doctor\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"follow all directions on your prescription label\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"do not use in larger or smaller amounts or for longer than recommended\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"read all patient information, medication guides, and instruction sheets provided\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"ask your doctor or pharmacist if you have any questions\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"may need to prime your albuterol inhaler device before the first use\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"your medicine comes with directions for priming if needed\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"may also need to shake your albuterol device just before each use\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"keeping your inhaler clean is important to ensure you are receiving the medication\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"clean the plastic actuator with the canister removed at least once a week\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"your medicine comes with directions for properly cleaning your device\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"follow all medication instructions very carefully\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"do not allow a young child to use albuterol inhalation without help from an adult\"], [\"Albuterol Inhalation\", \"has recommended dose\", \"2 inhalations every 4 to 6 hours\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"use 2 inhalations 15 to 30 minutes before you exercise to prevent exercise-induced bronchospasm\"]]",
+     "oie": [
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "use exactly as prescribed by your doctor"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "follow all directions on your prescription label"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "do not use in larger or smaller amounts or for longer than recommended"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "read all patient information, medication guides, and instruction sheets provided"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "ask your doctor or pharmacist if you have any questions"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "may need to prime your albuterol inhaler device before the first use"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "your medicine comes with directions for priming if needed"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "may also need to shake your albuterol device just before each use"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "keeping your inhaler clean is important to ensure you are receiving the medication"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "clean the plastic actuator with the canister removed at least once a week"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "your medicine comes with directions for properly cleaning your device"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "follow all medication instructions very carefully"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "do not allow a young child to use albuterol inhalation without help from an adult"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has recommended dose",
+       "2 inhalations every 4 to 6 hours"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "use 2 inhalations 15 to 30 minutes before you exercise to prevent exercise-induced bronchospasm"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the specific action or guideline specified by the object entity to be followed during its use.",
+      "has recommended dose": "The subject drug is typically administered in the specific quantity and frequency specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "use exactly as prescribed by your doctor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "follow all directions on your prescription label"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "do not use in larger or smaller amounts or for longer than recommended"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "read all patient information, medication guides, and instruction sheets provided"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "ask your doctor or pharmacist if you have any questions"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "may need to prime your albuterol inhaler device before the first use"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "your medicine comes with directions for priming if needed"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "may also need to shake your albuterol device just before each use"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "keeping your inhaler clean is important to ensure you are receiving the medication"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "clean the plastic actuator with the canister removed at least once a week"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "your medicine comes with directions for properly cleaning your device"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "follow all medication instructions very carefully"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "do not allow a young child to use albuterol inhalation without help from an adult"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has recommended dose",
+        "2 inhalations every 4 to 6 hours"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug is typically administered in the specific quantity and frequency specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "use 2 inhalations 15 to 30 minutes before you exercise to prevent exercise-induced bronchospasm"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#1",
+     "section_id": "how-should-i-use-albuterol-inhalation",
+     "section_heading": "How should I use albuterol inhalation?",
+     "text": "The effects of albuterol inhalation should last about 4 to 6 hours.\nSeek medical attention if you think your asthma medications are not working as well.\nAn increased need for medication could be an early sign of a serious asthma attack.\nUse the dose counter on your albuterol inhaler device.\nGet your prescription refilled before you run out of medicine completely.\nAlways use the new inhaler device provided with your refill.\nDo not float a medicine canister in water to see if medicine canister is empty.\nProAir HFA, Proventil HFA, or Ventolin HFA must be shaken before each use.\nYou do not need to shake ProAir RespiClick before using.\nFollow all product instructions on how to clean your albuterol inhaler device and mouthpiece.\nDo not wash or put any part of the ProAir RespiClick inhaler device in water.\nReplace your inhaler if it is washed or placed in water.\nIf the mouthpiece needs cleaning, gently wipe mouthpiece with a dry cloth or tissue.\nDo not use a spacer or volume holding chamber with ProAir RespiClick.\nAsthma is often treated with a combination of drugs.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"albuterol inhalation\", \"has duration of effect\", \"4 to 6 hours\"], [\"albuterol inhalation\", \"has administration instruction\", \"seek medical attention if asthma medications are not working as well\"], [\"albuterol inhalation\", \"has administration instruction\", \"use the dose counter on your albuterol inhaler device\"], [\"albuterol inhalation\", \"has administration instruction\", \"get your prescription refilled before you run out of medicine completely\"], [\"albuterol inhalation\", \"has administration instruction\", \"always use the new inhaler device provided with your refill\"], [\"albuterol inhalation\", \"has administration instruction\", \"do not float a medicine canister in water to see if medicine canister is empty\"], [\"ProAir HFA\", \"has administration instruction\", \"must be shaken before each use\"], [\"Proventil HFA\", \"has administration instruction\", \"must be shaken before each use\"], [\"Ventolin HFA\", \"has administration instruction\", \"must be shaken before each use\"], [\"ProAir RespiClick\", \"has administration instruction\", \"you do not need to shake before using\"], [\"albuterol inhalation\", \"has administration instruction\", \"follow all product instructions on how to clean your albuterol inhaler device and mouthpiece\"], [\"ProAir RespiClick\", \"has administration instruction\", \"do not wash or put any part of the inhaler device in water\"], [\"ProAir RespiClick\", \"has administration instruction\", \"replace your inhaler if it is washed or placed in water\"], [\"albuterol inhalation\", \"has administration instruction\", \"if the mouthpiece needs cleaning, gently wipe mouthpiece with a dry cloth or tissue\"], [\"ProAir RespiClick\", \"has administration instruction\", \"do not use a spacer or volume holding chamber\"], [\"asthma\", \"treated with\", \"combination of drugs\"]]",
+     "oie": [
+      [
+       "albuterol inhalation",
+       "has duration of effect",
+       "4 to 6 hours"
+      ],
+      [
+       "albuterol inhalation",
+       "has administration instruction",
+       "seek medical attention if asthma medications are not working as well"
+      ],
+      [
+       "albuterol inhalation",
+       "has administration instruction",
+       "use the dose counter on your albuterol inhaler device"
+      ],
+      [
+       "albuterol inhalation",
+       "has administration instruction",
+       "get your prescription refilled before you run out of medicine completely"
+      ],
+      [
+       "albuterol inhalation",
+       "has administration instruction",
+       "always use the new inhaler device provided with your refill"
+      ],
+      [
+       "albuterol inhalation",
+       "has administration instruction",
+       "do not float a medicine canister in water to see if medicine canister is empty"
+      ],
+      [
+       "ProAir HFA",
+       "has administration instruction",
+       "must be shaken before each use"
+      ],
+      [
+       "Proventil HFA",
+       "has administration instruction",
+       "must be shaken before each use"
+      ],
+      [
+       "Ventolin HFA",
+       "has administration instruction",
+       "must be shaken before each use"
+      ],
+      [
+       "ProAir RespiClick",
+       "has administration instruction",
+       "you do not need to shake before using"
+      ],
+      [
+       "albuterol inhalation",
+       "has administration instruction",
+       "follow all product instructions on how to clean your albuterol inhaler device and mouthpiece"
+      ],
+      [
+       "ProAir RespiClick",
+       "has administration instruction",
+       "do not wash or put any part of the inhaler device in water"
+      ],
+      [
+       "ProAir RespiClick",
+       "has administration instruction",
+       "replace your inhaler if it is washed or placed in water"
+      ],
+      [
+       "albuterol inhalation",
+       "has administration instruction",
+       "if the mouthpiece needs cleaning, gently wipe mouthpiece with a dry cloth or tissue"
+      ],
+      [
+       "ProAir RespiClick",
+       "has administration instruction",
+       "do not use a spacer or volume holding chamber"
+      ],
+      [
+       "asthma",
+       "treated with",
+       "combination of drugs"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug or device requires the specific action or guideline specified by the object entity to be followed during its use.",
+      "has duration of effect": "The subject drug's therapeutic effects are expected to last for the time period specified by the object entity.",
+      "treated with": "The subject medical condition is managed or treated using the therapeutic approach or medication specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "albuterol inhalation",
+        "has duration of treatment",
+        "4 to 6 hours"
+       ],
+       "raw_relation": "has duration of effect",
+       "definition": "The subject drug's therapeutic effects are expected to last for the time period specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has duration of treatment",
+         0.9025
+        ],
+        [
+         "has onset of effect",
+         0.8787
+        ],
+        [
+         "may be used for",
+         0.8385
+        ],
+        [
+         "has mechanism of action",
+         0.835
+        ],
+        [
+         "used in population",
+         0.8279
+        ]
+       ],
+       "answer": "A. 'has duration"
+      },
+      {
+       "triplet": [
+        "albuterol inhalation",
+        "has administration instruction",
+        "seek medical attention if asthma medications are not working as well"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug or device requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "albuterol inhalation",
+        "has administration instruction",
+        "use the dose counter on your albuterol inhaler device"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug or device requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "albuterol inhalation",
+        "has administration instruction",
+        "get your prescription refilled before you run out of medicine completely"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug or device requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "albuterol inhalation",
+        "has administration instruction",
+        "always use the new inhaler device provided with your refill"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug or device requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "albuterol inhalation",
+        "has administration instruction",
+        "do not float a medicine canister in water to see if medicine canister is empty"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug or device requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ProAir HFA",
+        "has administration instruction",
+        "must be shaken before each use"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug or device requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Proventil HFA",
+        "has administration instruction",
+        "must be shaken before each use"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug or device requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ventolin HFA",
+        "has administration instruction",
+        "must be shaken before each use"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug or device requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ProAir RespiClick",
+        "has administration instruction",
+        "you do not need to shake before using"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug or device requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "albuterol inhalation",
+        "has administration instruction",
+        "follow all product instructions on how to clean your albuterol inhaler device and mouthpiece"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug or device requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ProAir RespiClick",
+        "has administration instruction",
+        "do not wash or put any part of the inhaler device in water"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug or device requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ProAir RespiClick",
+        "has administration instruction",
+        "replace your inhaler if it is washed or placed in water"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug or device requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "albuterol inhalation",
+        "has administration instruction",
+        "if the mouthpiece needs cleaning, gently wipe mouthpiece with a dry cloth or tissue"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug or device requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ProAir RespiClick",
+        "has administration instruction",
+        "do not use a spacer or volume holding chamber"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug or device requires the specific action or guideline specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "asthma",
+        "treats",
+        "combination of drugs"
+       ],
+       "raw_relation": "treated with",
+       "definition": "The subject medical condition is managed or treated using the therapeutic approach or medication specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "treats",
+         0.9145
+        ],
+        [
+         "may be used for",
+         0.8547
+        ],
+        [
+         "has recommended dose",
+         0.8262
+        ],
+        [
+         "has mechanism of action",
+         0.8261
+        ],
+        [
+         "reduces risk of",
+         0.8258
+        ]
+       ],
+       "answer": "A. 'treat"
+      }
+     ]
+    },
+    {
+     "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#2",
+     "section_id": "how-should-i-use-albuterol-inhalation",
+     "section_heading": "How should I use albuterol inhalation?",
+     "text": "Use all medications as directed by your doctor.\nRead the medication guide or patient instructions provided with each medication.\nDo not change your doses or medication schedule without your doctor's advice.\nStore at room temperature away from moisture, heat, or cold temperatures.\nKeep the albuterol canister away from open flame or high heat, such as in a car on a hot day.\nThe canister may explode if canister gets too hot.\nDo not puncture or burn an empty inhaler canister.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Albuterol Inhalation\", \"has administration instruction\", \"use as directed by your doctor\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"read medication guide or patient instructions provided with each medication\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"do not change doses or medication schedule without doctor's advice\"], [\"Albuterol Inhalation\", \"has storage instruction\", \"store at room temperature away from moisture, heat, or cold temperatures\"], [\"Albuterol Inhalation\", \"has storage instruction\", \"keep canister away from open flame or high heat, such as in a car on a hot day\"], [\"Albuterol Inhalation\", \"has safety warning\", \"canister may explode if canister gets too hot\"], [\"Albuterol Inhalation\", \"has safety warning\", \"do not puncture or burn an empty inhaler canister\"]]",
+     "oie": [
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "use as directed by your doctor"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "read medication guide or patient instructions provided with each medication"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "do not change doses or medication schedule without doctor's advice"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has storage instruction",
+       "store at room temperature away from moisture, heat, or cold temperatures"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has storage instruction",
+       "keep canister away from open flame or high heat, such as in a car on a hot day"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has safety warning",
+       "canister may explode if canister gets too hot"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has safety warning",
+       "do not puncture or burn an empty inhaler canister"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject medication requires the administration or usage instruction specified by the object entity.",
+      "has safety warning": "The subject medication has a safety warning or caution specified by the object entity.",
+      "has storage instruction": "The subject medication requires the storage condition or handling instruction specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "use as directed by your doctor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject medication requires the administration or usage instruction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "read medication guide or patient instructions provided with each medication"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject medication requires the administration or usage instruction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "do not change doses or medication schedule without doctor's advice"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject medication requires the administration or usage instruction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has storage instruction",
+        "store at room temperature away from moisture, heat, or cold temperatures"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject medication requires the storage condition or handling instruction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has storage instruction",
+        "keep canister away from open flame or high heat, such as in a car on a hot day"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject medication requires the storage condition or handling instruction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has warning",
+        "canister may explode if canister gets too hot"
+       ],
+       "raw_relation": "has safety warning",
+       "definition": "The subject medication has a safety warning or caution specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has warning",
+         0.9432
+        ],
+        [
+         "use with caution in",
+         0.8954
+        ],
+        [
+         "has side effect",
+         0.8828
+        ],
+        [
+         "has serious side effect",
+         0.8791
+        ],
+        [
+         "may be used for",
+         0.8608
+        ]
+       ],
+       "answer": "A. 'has warning"
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has warning",
+        "do not puncture or burn an empty inhaler canister"
+       ],
+       "raw_relation": "has safety warning",
+       "definition": "The subject medication has a safety warning or caution specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has warning",
+         0.9432
+        ],
+        [
+         "use with caution in",
+         0.8954
+        ],
+        [
+         "has side effect",
+         0.8828
+        ],
+        [
+         "has serious side effect",
+         0.8791
+        ],
+        [
+         "may be used for",
+         0.8608
+        ]
+       ],
+       "answer": "A. 'has warning"
+      }
+     ]
+    },
+    {
+     "chunk_id": "albuterol#what-happens-if-i-miss-a-dose#0",
+     "section_id": "what-happens-if-i-miss-a-dose",
+     "section_heading": "What happens if I miss a dose?",
+     "text": "Use the missed dose as soon as you remember.\nSkip the missed dose if it is almost time for your next scheduled dose.\nDo not use extra medicine to make up the missed dose.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Albuterol Inhalation\", \"has missed dose instruction\", \"use the missed dose as soon as you remember\"], [\"Albuterol Inhalation\", \"has missed dose instruction\", \"skip the missed dose if it is almost time for your next scheduled dose\"], [\"Albuterol Inhalation\", \"has missed dose instruction\", \"do not use extra medicine to make up the missed dose\"]]",
+     "oie": [
+      [
+       "Albuterol Inhalation",
+       "has missed dose instruction",
+       "use the missed dose as soon as you remember"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has missed dose instruction",
+       "skip the missed dose if it is almost time for your next scheduled dose"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has missed dose instruction",
+       "do not use extra medicine to make up the missed dose"
+      ]
+     ],
+     "schema_definition": {
+      "has missed dose instruction": "The subject drug has a specific instruction provided for handling a missed dose, as indicated by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has missed dose instruction",
+        "use the missed dose as soon as you remember"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug has a specific instruction provided for handling a missed dose, as indicated by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has missed dose instruction",
+        "skip the missed dose if it is almost time for your next scheduled dose"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug has a specific instruction provided for handling a missed dose, as indicated by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has missed dose instruction",
+        "do not use extra medicine to make up the missed dose"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug has a specific instruction provided for handling a missed dose, as indicated by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "albuterol#what-happens-if-i-overdose#0",
+     "section_id": "what-happens-if-i-overdose",
+     "section_heading": "What happens if I overdose?",
+     "text": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.\nAn overdose of albuterol can be fatal.\nOverdose symptoms may include dry mouth.\nOverdose symptoms may include tremors.\nOverdose symptoms may include chest pain.\nOverdose symptoms may include fast or irregular heartbeat.\nOverdose symptoms may include nausea.\nOverdose symptoms may include a general ill feeling.\nOverdose symptoms may include seizure (convulsions).\nOverdose symptoms may include feeling light-headed or fainting.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"albuterol inhalation\", \"has overdose instruction\", \"seek emergency medical attention\"], [\"albuterol inhalation\", \"has overdose instruction\", \"call poison help line at 1-800-222-1222\"], [\"albuterol inhalation\", \"has overdose symptom\", \"dry mouth\"], [\"albuterol inhalation\", \"has overdose symptom\", \"tremors\"], [\"albuterol inhalation\", \"has overdose symptom\", \"chest pain\"], [\"albuterol inhalation\", \"has overdose symptom\", \"fast or irregular heartbeat\"], [\"albuterol inhalation\", \"has overdose symptom\", \"nausea\"], [\"albuterol inhalation\", \"has overdose symptom\", \"general ill feeling\"], [\"albuterol inhalation\", \"has overdose symptom\", \"seizure\"], [\"albuterol inhalation\", \"has overdose symptom\", \"feeling light-headed or fainting\"], [\"albuterol inhalation\", \"has overdose risk\", \"fatal\"]]",
+     "oie": [
+      [
+       "albuterol inhalation",
+       "has overdose instruction",
+       "seek emergency medical attention"
+      ],
+      [
+       "albuterol inhalation",
+       "has overdose instruction",
+       "call poison help line at 1-800-222-1222"
+      ],
+      [
+       "albuterol inhalation",
+       "has overdose symptom",
+       "dry mouth"
+      ],
+      [
+       "albuterol inhalation",
+       "has overdose symptom",
+       "tremors"
+      ],
+      [
+       "albuterol inhalation",
+       "has overdose symptom",
+       "chest pain"
+      ],
+      [
+       "albuterol inhalation",
+       "has overdose symptom",
+       "fast or irregular heartbeat"
+      ],
+      [
+       "albuterol inhalation",
+       "has overdose symptom",
+       "nausea"
+      ],
+      [
+       "albuterol inhalation",
+       "has overdose symptom",
+       "general ill feeling"
+      ],
+      [
+       "albuterol inhalation",
+       "has overdose symptom",
+       "seizure"
+      ],
+      [
+       "albuterol inhalation",
+       "has overdose symptom",
+       "feeling light-headed or fainting"
+      ],
+      [
+       "albuterol inhalation",
+       "has overdose risk",
+       "fatal"
+      ]
+     ],
+     "schema_definition": {
+      "has overdose instruction": "The subject drug requires the action or measure specified by the object entity to be taken in case of an overdose.",
+      "has overdose risk": "An overdose of the subject drug may result in the serious or life-threatening outcome specified by the object entity.",
+      "has overdose symptom": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "albuterol inhalation",
+        "has overdose instruction",
+        "seek emergency medical attention"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action or measure specified by the object entity to be taken in case of an overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "albuterol inhalation",
+        "has overdose instruction",
+        "call poison help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action or measure specified by the object entity to be taken in case of an overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "albuterol inhalation",
+        "has overdose symptom",
+        "dry mouth"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "albuterol inhalation",
+        "has overdose symptom",
+        "tremors"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "albuterol inhalation",
+        "has overdose symptom",
+        "chest pain"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "albuterol inhalation",
+        "has overdose symptom",
+        "fast or irregular heartbeat"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "albuterol inhalation",
+        "has overdose symptom",
+        "nausea"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "albuterol inhalation",
+        "has overdose symptom",
+        "general ill feeling"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "albuterol inhalation",
+        "has overdose symptom",
+        "seizure"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "albuterol inhalation",
+        "has overdose symptom",
+        "feeling light-headed or fainting"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "albuterol inhalation",
+        "has overdose risk",
+        "fatal"
+       ],
+       "raw_relation": "has overdose risk",
+       "definition": "An overdose of the subject drug may result in the serious or life-threatening outcome specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "albuterol#what-should-i-avoid-while-using-albuterol-inhalation#0",
+     "section_id": "what-should-i-avoid-while-using-albuterol-inhalation",
+     "section_heading": "What should I avoid while using albuterol inhalation?",
+     "text": "Rinse with water if this medicine gets in your eyes.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Albuterol Inhalation\", \"has administration instruction\", \"rinse with water if gets in eyes\"]]",
+     "oie": [
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "rinse with water if gets in eyes"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the administration instruction specified by the object entity to be followed when handling or using the drug."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "rinse with water if gets in eyes"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration instruction specified by the object entity to be followed when handling or using the drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "albuterol#albuterol-inhalation-side-effects#0",
+     "section_id": "albuterol-inhalation-side-effects",
+     "section_heading": "Albuterol inhalation side effects",
+     "text": "Get emergency medical help if you have signs of an allergic reaction to albuterol.\nSigns of an allergic reaction to albuterol include hives.\nSigns of an allergic reaction to albuterol include difficult breathing.\nSigns of an allergic reaction to albuterol include swelling of your face, lips, tongue, or throat.\nCall your doctor at once if you have:\nwheezing, choking, or other breathing problems after using Albuterol;\nchest pain, fast heart rate, pounding heartbeats or fluttering in your chest;\npain or burning when you urinate;\nincreased thirst, increased urination, hunger, dry mouth, fruity breath odor, drowsiness, dry skin, blurred vision, weight loss; or\nSigns of low potassium include leg cramps.\nSigns of low potassium include constipation.\nSigns of low potassium include irregular heartbeats.\nSigns of low potassium include fluttering in your chest.\nSigns of low potassium include extreme thirst.\nSigns of low potassium include increased urination.\nSigns of low potassium include numbness or tingling.\nSigns of low potassium include muscle weakness or limp feeling.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Albuterol Inhalation\", \"has serious side effect\", \"allergic reaction\"], [\"allergic reaction to albuterol\", \"has symptom\", \"hives\"], [\"allergic reaction to albuterol\", \"has symptom\", \"difficult breathing\"], [\"allergic reaction to albuterol\", \"has symptom\", \"swelling of face, lips, tongue, or throat\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"call your doctor at once if you have wheezing, choking, or other breathing problems after using Albuterol\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"call your doctor at once if you have chest pain, fast heart rate, pounding heartbeats or fluttering in your chest\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"call your doctor at once if you have pain or burning when you urinate\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"call your doctor at once if you have increased thirst, increased urination, hunger, dry mouth, fruity breath odor, drowsiness, dry skin, blurred vision, weight loss\"], [\"Albuterol Inhalation\", \"has side effect\", \"low potassium\"], [\"low potassium\", \"has symptom\", \"leg cramps\"], [\"low potassium\", \"has symptom\", \"constipation\"], [\"low potassium\", \"has symptom\", \"irregular heartbeats\"], [\"low potassium\", \"has symptom\", \"fluttering in your chest\"], [\"low potassium\", \"has symptom\", \"extreme thirst\"], [\"low potassium\", \"has symptom\", \"increased urination\"], [\"low potassium\", \"has symptom\", \"numbness or tingling\"], [\"low potassium\", \"has symptom\", \"muscle weakness or limp feeling\"]]",
+     "oie": [
+      [
+       "Albuterol Inhalation",
+       "has serious side effect",
+       "allergic reaction"
+      ],
+      [
+       "allergic reaction to albuterol",
+       "has symptom",
+       "hives"
+      ],
+      [
+       "allergic reaction to albuterol",
+       "has symptom",
+       "difficult breathing"
+      ],
+      [
+       "allergic reaction to albuterol",
+       "has symptom",
+       "swelling of face, lips, tongue, or throat"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "call your doctor at once if you have wheezing, choking, or other breathing problems after using Albuterol"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "call your doctor at once if you have chest pain, fast heart rate, pounding heartbeats or fluttering in your chest"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "call your doctor at once if you have pain or burning when you urinate"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "call your doctor at once if you have increased thirst, increased urination, hunger, dry mouth, fruity breath odor, drowsiness, dry skin, blurred vision, weight loss"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has side effect",
+       "low potassium"
+      ],
+      [
+       "low potassium",
+       "has symptom",
+       "leg cramps"
+      ],
+      [
+       "low potassium",
+       "has symptom",
+       "constipation"
+      ],
+      [
+       "low potassium",
+       "has symptom",
+       "irregular heartbeats"
+      ],
+      [
+       "low potassium",
+       "has symptom",
+       "fluttering in your chest"
+      ],
+      [
+       "low potassium",
+       "has symptom",
+       "extreme thirst"
+      ],
+      [
+       "low potassium",
+       "has symptom",
+       "increased urination"
+      ],
+      [
+       "low potassium",
+       "has symptom",
+       "numbness or tingling"
+      ],
+      [
+       "low potassium",
+       "has symptom",
+       "muscle weakness or limp feeling"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the specific action or instruction specified by the object entity to be followed by the patient.",
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+      "has side effect": "The subject drug may cause the adverse effect specified by the object entity.",
+      "has symptom": "The condition specified by the subject entity is associated with the symptom specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "allergic reaction to albuterol",
+        "has side effect",
+        "hives"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The condition specified by the subject entity is associated with the symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8336
+        ],
+        [
+         "has overdose symptom",
+         0.8176
+        ],
+        [
+         "may be used for",
+         0.8143
+        ],
+        [
+         "should inform doctor about",
+         0.7956
+        ],
+        [
+         "treats",
+         0.7917
+        ]
+       ],
+       "answer": "A. 'has side"
+      },
+      {
+       "triplet": [
+        "allergic reaction to albuterol",
+        "has side effect",
+        "difficult breathing"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The condition specified by the subject entity is associated with the symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8336
+        ],
+        [
+         "has overdose symptom",
+         0.8176
+        ],
+        [
+         "may be used for",
+         0.8143
+        ],
+        [
+         "should inform doctor about",
+         0.7956
+        ],
+        [
+         "treats",
+         0.7917
+        ]
+       ],
+       "answer": "A. 'has side"
+      },
+      {
+       "triplet": [
+        "allergic reaction to albuterol",
+        "has side effect",
+        "swelling of face, lips, tongue, or throat"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The condition specified by the subject entity is associated with the symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8336
+        ],
+        [
+         "has overdose symptom",
+         0.8176
+        ],
+        [
+         "may be used for",
+         0.8143
+        ],
+        [
+         "should inform doctor about",
+         0.7956
+        ],
+        [
+         "treats",
+         0.7917
+        ]
+       ],
+       "answer": "A. 'has side"
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "call your doctor at once if you have wheezing, choking, or other breathing problems after using Albuterol"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "call your doctor at once if you have chest pain, fast heart rate, pounding heartbeats or fluttering in your chest"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "call your doctor at once if you have pain or burning when you urinate"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "call your doctor at once if you have increased thirst, increased urination, hunger, dry mouth, fruity breath odor, drowsiness, dry skin, blurred vision, weight loss"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has side effect",
+        "low potassium"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "low potassium",
+        "has side effect",
+        "leg cramps"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The condition specified by the subject entity is associated with the symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8336
+        ],
+        [
+         "has overdose symptom",
+         0.8176
+        ],
+        [
+         "may be used for",
+         0.8143
+        ],
+        [
+         "should inform doctor about",
+         0.7956
+        ],
+        [
+         "treats",
+         0.7917
+        ]
+       ],
+       "answer": "A. 'has side"
+      },
+      {
+       "triplet": [
+        "low potassium",
+        "has side effect",
+        "constipation"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The condition specified by the subject entity is associated with the symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8336
+        ],
+        [
+         "has overdose symptom",
+         0.8176
+        ],
+        [
+         "may be used for",
+         0.8143
+        ],
+        [
+         "should inform doctor about",
+         0.7956
+        ],
+        [
+         "treats",
+         0.7917
+        ]
+       ],
+       "answer": "A. 'has side"
+      },
+      {
+       "triplet": [
+        "low potassium",
+        "has side effect",
+        "irregular heartbeats"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The condition specified by the subject entity is associated with the symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8336
+        ],
+        [
+         "has overdose symptom",
+         0.8176
+        ],
+        [
+         "may be used for",
+         0.8143
+        ],
+        [
+         "should inform doctor about",
+         0.7956
+        ],
+        [
+         "treats",
+         0.7917
+        ]
+       ],
+       "answer": "A. 'has side"
+      },
+      {
+       "triplet": [
+        "low potassium",
+        "has side effect",
+        "fluttering in your chest"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The condition specified by the subject entity is associated with the symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8336
+        ],
+        [
+         "has overdose symptom",
+         0.8176
+        ],
+        [
+         "may be used for",
+         0.8143
+        ],
+        [
+         "should inform doctor about",
+         0.7956
+        ],
+        [
+         "treats",
+         0.7917
+        ]
+       ],
+       "answer": "A. 'has side"
+      },
+      {
+       "triplet": [
+        "low potassium",
+        "has side effect",
+        "extreme thirst"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The condition specified by the subject entity is associated with the symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8336
+        ],
+        [
+         "has overdose symptom",
+         0.8176
+        ],
+        [
+         "may be used for",
+         0.8143
+        ],
+        [
+         "should inform doctor about",
+         0.7956
+        ],
+        [
+         "treats",
+         0.7917
+        ]
+       ],
+       "answer": "A. 'has side"
+      },
+      {
+       "triplet": [
+        "low potassium",
+        "has side effect",
+        "increased urination"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The condition specified by the subject entity is associated with the symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8336
+        ],
+        [
+         "has overdose symptom",
+         0.8176
+        ],
+        [
+         "may be used for",
+         0.8143
+        ],
+        [
+         "should inform doctor about",
+         0.7956
+        ],
+        [
+         "treats",
+         0.7917
+        ]
+       ],
+       "answer": "A. 'has side"
+      },
+      {
+       "triplet": [
+        "low potassium",
+        "has side effect",
+        "numbness or tingling"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The condition specified by the subject entity is associated with the symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8336
+        ],
+        [
+         "has overdose symptom",
+         0.8176
+        ],
+        [
+         "may be used for",
+         0.8143
+        ],
+        [
+         "should inform doctor about",
+         0.7956
+        ],
+        [
+         "treats",
+         0.7917
+        ]
+       ],
+       "answer": "A. 'has side"
+      },
+      {
+       "triplet": [
+        "low potassium",
+        "has symptom",
+        "muscle weakness or limp feeling"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The condition specified by the subject entity is associated with the symptom specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "has side effect",
+         0.8336
+        ],
+        [
+         "has overdose symptom",
+         0.8176
+        ],
+        [
+         "may be used for",
+         0.8143
+        ],
+        [
+         "should inform doctor about",
+         0.7956
+        ],
+        [
+         "treats",
+         0.7917
+        ]
+       ],
+       "answer": "F. None of the"
+      }
+     ]
+    },
+    {
+     "chunk_id": "albuterol#albuterol-inhalation-side-effects#1",
+     "section_id": "albuterol-inhalation-side-effects",
+     "section_heading": "Albuterol inhalation side effects",
+     "text": "Common albuterol side effects may include:\nchest pain, fast or pounding heartbeats;\nupset stomach, vomiting;\npainful urination;\ndizziness;\nfeeling shaky or nervous;\nheadache, back pain, body aches; or\ncough, sore throat, sinus pain, runny or stuffy nose.\nThis is not a complete list of side effects and others may occur.\nCall your doctor for medical advice about side effects.\nYou may report side effects to FDA at 1-800-FDA-1088.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Albuterol Inhalation\", \"has side effect\", \"chest pain\"], [\"Albuterol Inhalation\", \"has side effect\", \"fast or pounding heartbeats\"], [\"Albuterol Inhalation\", \"has side effect\", \"upset stomach\"], [\"Albuterol Inhalation\", \"has side effect\", \"vomiting\"], [\"Albuterol Inhalation\", \"has side effect\", \"painful urination\"], [\"Albuterol Inhalation\", \"has side effect\", \"dizziness\"], [\"Albuterol Inhalation\", \"has side effect\", \"feeling shaky or nervous\"], [\"Albuterol Inhalation\", \"has side effect\", \"headache\"], [\"Albuterol Inhalation\", \"has side effect\", \"back pain\"], [\"Albuterol Inhalation\", \"has side effect\", \"body aches\"], [\"Albuterol Inhalation\", \"has side effect\", \"cough\"], [\"Albuterol Inhalation\", \"has side effect\", \"sore throat\"], [\"Albuterol Inhalation\", \"has side effect\", \"sinus pain\"], [\"Albuterol Inhalation\", \"has side effect\", \"runny or stuffy nose\"], [\"Albuterol Inhalation\", \"has warning\", \"this is not a complete list of side effects and others may occur\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"call your doctor for medical advice about side effects\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"you may report side effects to FDA at 1-800-FDA-1088\"]]",
+     "oie": [
+      [
+       "Albuterol Inhalation",
+       "has side effect",
+       "chest pain"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has side effect",
+       "fast or pounding heartbeats"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has side effect",
+       "upset stomach"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has side effect",
+       "vomiting"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has side effect",
+       "painful urination"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has side effect",
+       "dizziness"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has side effect",
+       "feeling shaky or nervous"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has side effect",
+       "headache"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has side effect",
+       "back pain"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has side effect",
+       "body aches"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has side effect",
+       "cough"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has side effect",
+       "sore throat"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has side effect",
+       "sinus pain"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has side effect",
+       "runny or stuffy nose"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has warning",
+       "this is not a complete list of side effects and others may occur"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "call your doctor for medical advice about side effects"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "you may report side effects to FDA at 1-800-FDA-1088"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the action or guidance specified by the object entity to be followed by the patient.",
+      "has side effect": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+      "has warning": "The subject drug is associated with the cautionary statement or advisory specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has side effect",
+        "chest pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has side effect",
+        "fast or pounding heartbeats"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has side effect",
+        "upset stomach"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has side effect",
+        "vomiting"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has side effect",
+        "painful urination"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has side effect",
+        "dizziness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has side effect",
+        "feeling shaky or nervous"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has side effect",
+        "headache"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has side effect",
+        "back pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has side effect",
+        "body aches"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has side effect",
+        "cough"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has side effect",
+        "sore throat"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has side effect",
+        "sinus pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has side effect",
+        "runny or stuffy nose"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has warning",
+        "this is not a complete list of side effects and others may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug is associated with the cautionary statement or advisory specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "call your doctor for medical advice about side effects"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the action or guidance specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "you may report side effects to FDA at 1-800-FDA-1088"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the action or guidance specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "albuterol#what-other-drugs-will-affect-albuterol-inhalation#0",
+     "section_id": "what-other-drugs-will-affect-albuterol-inhalation",
+     "section_heading": "What other drugs will affect albuterol inhalation?",
+     "text": "Tell your doctor about all your current medicines and any you start or stop using, especially:\nany other inhaled medicines or bronchodilators;\ndigoxin;\na diuretic or \"water pill\";\nan antidepressant - amitriptyline, desipramine, imipramine, doxepin, nortriptyline, and others;\na beta blocker - atenolol, carvedilol, labetalol, metoprolol, propranolol, sotalol, and others; or\na MAO inhibitor - isocarboxazid, linezolid, phenelzine, rasagiline, selegiline, tranylcypromine, and others or methylene blue injection\nThis list is not complete.\nOther drugs may interact with albuterol inhalation.\nThese include prescription and over-the-counter medicines.\nThese also include vitamins and herbal products.\nNot all possible interactions are listed in this medication guide.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Albuterol Inhalation\", \"interacts with\", \"other inhaled medicines or bronchodilators\"], [\"Albuterol Inhalation\", \"interacts with\", \"digoxin\"], [\"Albuterol Inhalation\", \"interacts with\", \"diuretic or water pill\"], [\"Albuterol Inhalation\", \"interacts with\", \"antidepressant\"], [\"Albuterol Inhalation\", \"interacts with\", \"beta blocker\"], [\"Albuterol Inhalation\", \"interacts with\", \"MAO inhibitor\"], [\"Albuterol Inhalation\", \"interacts with\", \"methylene blue injection\"], [\"Albuterol Inhalation\", \"has warning\", \"not all possible interactions are listed in this medication guide\"], [\"Albuterol Inhalation\", \"interacts with\", \"prescription medicines\"], [\"Albuterol Inhalation\", \"interacts with\", \"over-the-counter medicines\"], [\"Albuterol Inhalation\", \"interacts with\", \"vitamins\"], [\"Albuterol Inhalation\", \"interacts with\", \"herbal products\"], [\"Albuterol Inhalation\", \"has administration instruction\", \"tell your doctor about all your current medicines and any you start or stop using\"]]",
+     "oie": [
+      [
+       "Albuterol Inhalation",
+       "interacts with",
+       "other inhaled medicines or bronchodilators"
+      ],
+      [
+       "Albuterol Inhalation",
+       "interacts with",
+       "digoxin"
+      ],
+      [
+       "Albuterol Inhalation",
+       "interacts with",
+       "diuretic or water pill"
+      ],
+      [
+       "Albuterol Inhalation",
+       "interacts with",
+       "antidepressant"
+      ],
+      [
+       "Albuterol Inhalation",
+       "interacts with",
+       "beta blocker"
+      ],
+      [
+       "Albuterol Inhalation",
+       "interacts with",
+       "MAO inhibitor"
+      ],
+      [
+       "Albuterol Inhalation",
+       "interacts with",
+       "methylene blue injection"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has warning",
+       "not all possible interactions are listed in this medication guide"
+      ],
+      [
+       "Albuterol Inhalation",
+       "interacts with",
+       "prescription medicines"
+      ],
+      [
+       "Albuterol Inhalation",
+       "interacts with",
+       "over-the-counter medicines"
+      ],
+      [
+       "Albuterol Inhalation",
+       "interacts with",
+       "vitamins"
+      ],
+      [
+       "Albuterol Inhalation",
+       "interacts with",
+       "herbal products"
+      ],
+      [
+       "Albuterol Inhalation",
+       "has administration instruction",
+       "tell your doctor about all your current medicines and any you start or stop using"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the patient to inform their healthcare provider about all current medications and any they start or stop using.",
+      "has warning": "The subject drug comes with a caution that not all possible interactions are listed in the medication guide.",
+      "interacts with": "The subject drug may have adverse effects or interactions when used in combination with the substance or medication specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "interacts with",
+        "other inhaled medicines or bronchodilators"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have adverse effects or interactions when used in combination with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "interacts with",
+        "digoxin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have adverse effects or interactions when used in combination with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "interacts with",
+        "diuretic or water pill"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have adverse effects or interactions when used in combination with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "interacts with",
+        "antidepressant"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have adverse effects or interactions when used in combination with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "interacts with",
+        "beta blocker"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have adverse effects or interactions when used in combination with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "interacts with",
+        "MAO inhibitor"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have adverse effects or interactions when used in combination with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "interacts with",
+        "methylene blue injection"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have adverse effects or interactions when used in combination with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has warning",
+        "not all possible interactions are listed in this medication guide"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug comes with a caution that not all possible interactions are listed in the medication guide.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "interacts with",
+        "prescription medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have adverse effects or interactions when used in combination with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "interacts with",
+        "over-the-counter medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have adverse effects or interactions when used in combination with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "interacts with",
+        "vitamins"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have adverse effects or interactions when used in combination with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "interacts with",
+        "herbal products"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have adverse effects or interactions when used in combination with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Albuterol Inhalation",
+        "has administration instruction",
+        "tell your doctor about all your current medicines and any you start or stop using"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to inform their healthcare provider about all current medications and any they start or stop using.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "albuterol#what-is-albuterol-inhalation#0",
+   "section_id": "what-is-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has generic name",
+    "albuterol"
+   ],
+   "raw_relation": "has generic name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-is-albuterol-inhalation#0",
+   "section_id": "what-is-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has mechanism of action",
+    "relaxes muscles in the airways"
+   ],
+   "raw_relation": "has mechanism of action",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-is-albuterol-inhalation#0",
+   "section_id": "what-is-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has mechanism of action",
+    "increases air flow to the lungs"
+   ],
+   "raw_relation": "has mechanism of action",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-is-albuterol-inhalation#0",
+   "section_id": "what-is-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "treats",
+    "bronchospasm"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-is-albuterol-inhalation#0",
+   "section_id": "what-is-albuterol-inhalation",
+   "triplet": [
+    "bronchospasm",
+    "is defined as",
+    "narrowing of the airways in the lungs"
+   ],
+   "raw_relation": "is defined as",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "albuterol#what-is-albuterol-inhalation#0",
+   "section_id": "what-is-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "used in population",
+    "people with asthma"
+   ],
+   "raw_relation": "used in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "albuterol#what-is-albuterol-inhalation#0",
+   "section_id": "what-is-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "used in population",
+    "people with certain types of chronic obstructive pulmonary disease (COPD)"
+   ],
+   "raw_relation": "used in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "albuterol#what-is-albuterol-inhalation#0",
+   "section_id": "what-is-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "reduces risk of",
+    "exercise-induced bronchospasm"
+   ],
+   "raw_relation": "used to prevent",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "albuterol#what-is-albuterol-inhalation#0",
+   "section_id": "what-is-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "used in population",
+    "for use in adults and children who are at least 2 years old"
+   ],
+   "raw_relation": "has age restriction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "albuterol#what-is-albuterol-inhalation#0",
+   "section_id": "what-is-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "always follow your doctor's directions when giving to a child"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "keep on hand at all times"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has missed dose instruction",
+    "get prescription refilled before running out of medicine completely"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "keep using all other medications as prescribed by your doctor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "talk with your doctor if asthma medications do not seem to work as well in treating or preventing attacks"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "if need to use more of any medications in a 24-hour period, talk with your doctor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has warning",
+    "increased need for medication could be an early sign of a serious asthma attack"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "only use as prescribed by your physician"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has serious side effect",
+    "overdose can be fatal"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has overdose instruction",
+    "seek emergency medical attention or call the Poison Help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Albuterol Inhalation",
+    "contraindicated in",
+    "allergy to albuterol"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Albuterol Inhalation",
+    "contraindicated in",
+    "allergy to milk proteins"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Albuterol Inhalation",
+    "use with caution in",
+    "heart disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Albuterol Inhalation",
+    "use with caution in",
+    "high blood pressure"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Albuterol Inhalation",
+    "use with caution in",
+    "congestive heart failure"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Albuterol Inhalation",
+    "use with caution in",
+    "heart rhythm disorder"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Albuterol Inhalation",
+    "use with caution in",
+    "seizure disorder"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Albuterol Inhalation",
+    "use with caution in",
+    "diabetes"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Albuterol Inhalation",
+    "use with caution in",
+    "overactive thyroid"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Albuterol Inhalation",
+    "use with caution in",
+    "low potassium levels"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has pregnancy or breastfeeding warning",
+    "unknown if harmful to unborn baby"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has pregnancy or breastfeeding warning",
+    "uncontrolled asthma may increase risk of premature birth"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has pregnancy or breastfeeding warning",
+    "may increase risk of low birth weight"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has pregnancy or breastfeeding warning",
+    "may increase risk of eclampsia"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Eclampsia",
+    "is defined as",
+    "dangerously high blood pressure"
+   ],
+   "raw_relation": "defined as",
+   "status": "mapped_new"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Eclampsia",
+    "can lead to",
+    "medical problems in mother and baby"
+   ],
+   "raw_relation": "can lead to",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has pregnancy or breastfeeding warning",
+    "benefit of preventing bronchospasm may outweigh risks to baby"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "inform doctor if pregnant or planning pregnancy"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "name may be listed on pregnancy registry"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Pregnancy registry",
+    "has pregnancy registry",
+    "effects of albuterol on baby"
+   ],
+   "raw_relation": "used to track",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#1",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has pregnancy or breastfeeding warning",
+    "may not be safe to breastfeed"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#before-taking-this-medicine#1",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "ask your doctor about any risk"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#0",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "use exactly as prescribed by your doctor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#0",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "follow all directions on your prescription label"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#0",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "do not use in larger or smaller amounts or for longer than recommended"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#0",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "read all patient information, medication guides, and instruction sheets provided"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#0",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "ask your doctor or pharmacist if you have any questions"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#0",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "may need to prime your albuterol inhaler device before the first use"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#0",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "your medicine comes with directions for priming if needed"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#0",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "may also need to shake your albuterol device just before each use"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#0",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "keeping your inhaler clean is important to ensure you are receiving the medication"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#0",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "clean the plastic actuator with the canister removed at least once a week"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#0",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "your medicine comes with directions for properly cleaning your device"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#0",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "follow all medication instructions very carefully"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#0",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "do not allow a young child to use albuterol inhalation without help from an adult"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#0",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has recommended dose",
+    "2 inhalations every 4 to 6 hours"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#0",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "use 2 inhalations 15 to 30 minutes before you exercise to prevent exercise-induced bronchospasm"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#1",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "albuterol inhalation",
+    "has duration of treatment",
+    "4 to 6 hours"
+   ],
+   "raw_relation": "has duration of effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#1",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "albuterol inhalation",
+    "has administration instruction",
+    "seek medical attention if asthma medications are not working as well"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#1",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "albuterol inhalation",
+    "has administration instruction",
+    "use the dose counter on your albuterol inhaler device"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#1",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "albuterol inhalation",
+    "has administration instruction",
+    "get your prescription refilled before you run out of medicine completely"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#1",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "albuterol inhalation",
+    "has administration instruction",
+    "always use the new inhaler device provided with your refill"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#1",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "albuterol inhalation",
+    "has administration instruction",
+    "do not float a medicine canister in water to see if medicine canister is empty"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#1",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "ProAir HFA",
+    "has administration instruction",
+    "must be shaken before each use"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#1",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Proventil HFA",
+    "has administration instruction",
+    "must be shaken before each use"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#1",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Ventolin HFA",
+    "has administration instruction",
+    "must be shaken before each use"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#1",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "ProAir RespiClick",
+    "has administration instruction",
+    "you do not need to shake before using"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#1",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "albuterol inhalation",
+    "has administration instruction",
+    "follow all product instructions on how to clean your albuterol inhaler device and mouthpiece"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#1",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "ProAir RespiClick",
+    "has administration instruction",
+    "do not wash or put any part of the inhaler device in water"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#1",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "ProAir RespiClick",
+    "has administration instruction",
+    "replace your inhaler if it is washed or placed in water"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#1",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "albuterol inhalation",
+    "has administration instruction",
+    "if the mouthpiece needs cleaning, gently wipe mouthpiece with a dry cloth or tissue"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#1",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "ProAir RespiClick",
+    "has administration instruction",
+    "do not use a spacer or volume holding chamber"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#1",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "asthma",
+    "treats",
+    "combination of drugs"
+   ],
+   "raw_relation": "treated with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#2",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "use as directed by your doctor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#2",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "read medication guide or patient instructions provided with each medication"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#2",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "do not change doses or medication schedule without doctor's advice"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#2",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has storage instruction",
+    "store at room temperature away from moisture, heat, or cold temperatures"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#2",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has storage instruction",
+    "keep canister away from open flame or high heat, such as in a car on a hot day"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#2",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has warning",
+    "canister may explode if canister gets too hot"
+   ],
+   "raw_relation": "has safety warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "albuterol#how-should-i-use-albuterol-inhalation#2",
+   "section_id": "how-should-i-use-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has warning",
+    "do not puncture or burn an empty inhaler canister"
+   ],
+   "raw_relation": "has safety warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "albuterol#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has missed dose instruction",
+    "use the missed dose as soon as you remember"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has missed dose instruction",
+    "skip the missed dose if it is almost time for your next scheduled dose"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has missed dose instruction",
+    "do not use extra medicine to make up the missed dose"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "albuterol inhalation",
+    "has overdose instruction",
+    "seek emergency medical attention"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "albuterol inhalation",
+    "has overdose instruction",
+    "call poison help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "albuterol inhalation",
+    "has overdose symptom",
+    "dry mouth"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "albuterol inhalation",
+    "has overdose symptom",
+    "tremors"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "albuterol inhalation",
+    "has overdose symptom",
+    "chest pain"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "albuterol inhalation",
+    "has overdose symptom",
+    "fast or irregular heartbeat"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "albuterol inhalation",
+    "has overdose symptom",
+    "nausea"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "albuterol inhalation",
+    "has overdose symptom",
+    "general ill feeling"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "albuterol inhalation",
+    "has overdose symptom",
+    "seizure"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "albuterol inhalation",
+    "has overdose symptom",
+    "feeling light-headed or fainting"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "albuterol inhalation",
+    "has overdose risk",
+    "fatal"
+   ],
+   "raw_relation": "has overdose risk",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-should-i-avoid-while-using-albuterol-inhalation#0",
+   "section_id": "what-should-i-avoid-while-using-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "rinse with water if gets in eyes"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#0",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#0",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "allergic reaction to albuterol",
+    "has side effect",
+    "hives"
+   ],
+   "raw_relation": "has symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#0",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "allergic reaction to albuterol",
+    "has side effect",
+    "difficult breathing"
+   ],
+   "raw_relation": "has symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#0",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "allergic reaction to albuterol",
+    "has side effect",
+    "swelling of face, lips, tongue, or throat"
+   ],
+   "raw_relation": "has symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#0",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "call your doctor at once if you have wheezing, choking, or other breathing problems after using Albuterol"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#0",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "call your doctor at once if you have chest pain, fast heart rate, pounding heartbeats or fluttering in your chest"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#0",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "call your doctor at once if you have pain or burning when you urinate"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#0",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "call your doctor at once if you have increased thirst, increased urination, hunger, dry mouth, fruity breath odor, drowsiness, dry skin, blurred vision, weight loss"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#0",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has side effect",
+    "low potassium"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#0",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "low potassium",
+    "has side effect",
+    "leg cramps"
+   ],
+   "raw_relation": "has symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#0",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "low potassium",
+    "has side effect",
+    "constipation"
+   ],
+   "raw_relation": "has symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#0",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "low potassium",
+    "has side effect",
+    "irregular heartbeats"
+   ],
+   "raw_relation": "has symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#0",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "low potassium",
+    "has side effect",
+    "fluttering in your chest"
+   ],
+   "raw_relation": "has symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#0",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "low potassium",
+    "has side effect",
+    "extreme thirst"
+   ],
+   "raw_relation": "has symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#0",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "low potassium",
+    "has side effect",
+    "increased urination"
+   ],
+   "raw_relation": "has symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#0",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "low potassium",
+    "has side effect",
+    "numbness or tingling"
+   ],
+   "raw_relation": "has symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#0",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "low potassium",
+    "has symptom",
+    "muscle weakness or limp feeling"
+   ],
+   "raw_relation": "has symptom",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#1",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has side effect",
+    "chest pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#1",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has side effect",
+    "fast or pounding heartbeats"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#1",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has side effect",
+    "upset stomach"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#1",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has side effect",
+    "vomiting"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#1",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has side effect",
+    "painful urination"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#1",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has side effect",
+    "dizziness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#1",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has side effect",
+    "feeling shaky or nervous"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#1",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has side effect",
+    "headache"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#1",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has side effect",
+    "back pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#1",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has side effect",
+    "body aches"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#1",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has side effect",
+    "cough"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#1",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has side effect",
+    "sore throat"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#1",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has side effect",
+    "sinus pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#1",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has side effect",
+    "runny or stuffy nose"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#1",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has warning",
+    "this is not a complete list of side effects and others may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#1",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "call your doctor for medical advice about side effects"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#albuterol-inhalation-side-effects#1",
+   "section_id": "albuterol-inhalation-side-effects",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "you may report side effects to FDA at 1-800-FDA-1088"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-other-drugs-will-affect-albuterol-inhalation#0",
+   "section_id": "what-other-drugs-will-affect-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "interacts with",
+    "other inhaled medicines or bronchodilators"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-other-drugs-will-affect-albuterol-inhalation#0",
+   "section_id": "what-other-drugs-will-affect-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "interacts with",
+    "digoxin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-other-drugs-will-affect-albuterol-inhalation#0",
+   "section_id": "what-other-drugs-will-affect-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "interacts with",
+    "diuretic or water pill"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-other-drugs-will-affect-albuterol-inhalation#0",
+   "section_id": "what-other-drugs-will-affect-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "interacts with",
+    "antidepressant"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-other-drugs-will-affect-albuterol-inhalation#0",
+   "section_id": "what-other-drugs-will-affect-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "interacts with",
+    "beta blocker"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-other-drugs-will-affect-albuterol-inhalation#0",
+   "section_id": "what-other-drugs-will-affect-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "interacts with",
+    "MAO inhibitor"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-other-drugs-will-affect-albuterol-inhalation#0",
+   "section_id": "what-other-drugs-will-affect-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "interacts with",
+    "methylene blue injection"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-other-drugs-will-affect-albuterol-inhalation#0",
+   "section_id": "what-other-drugs-will-affect-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has warning",
+    "not all possible interactions are listed in this medication guide"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-other-drugs-will-affect-albuterol-inhalation#0",
+   "section_id": "what-other-drugs-will-affect-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "interacts with",
+    "prescription medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-other-drugs-will-affect-albuterol-inhalation#0",
+   "section_id": "what-other-drugs-will-affect-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "interacts with",
+    "over-the-counter medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-other-drugs-will-affect-albuterol-inhalation#0",
+   "section_id": "what-other-drugs-will-affect-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "interacts with",
+    "vitamins"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-other-drugs-will-affect-albuterol-inhalation#0",
+   "section_id": "what-other-drugs-will-affect-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "interacts with",
+    "herbal products"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "albuterol#what-other-drugs-will-affect-albuterol-inhalation#0",
+   "section_id": "what-other-drugs-will-affect-albuterol-inhalation",
+   "triplet": [
+    "Albuterol Inhalation",
+    "has administration instruction",
+    "tell your doctor about all your current medicines and any you start or stop using"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  }
+ ],
+ "name": "Albuterol Inhalation",
+ "slug": "albuterol",
+ "n_chunks": 13,
+ "seconds": 19.1,
+ "llm_model": "Qwen/Qwen3-14B-AWQ"
+}

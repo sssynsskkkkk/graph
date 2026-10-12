@@ -1,0 +1,3713 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "cetirizine#uses#0",
+     "section_id": "uses",
+     "section_heading": "What is cetirizine?",
+     "text": "Cetirizine is a second generation antihistamine that reduces the natural chemical histamine in the body. Histamine can produce symptoms of sneezing, itching, watery eyes, and runny nose.\nCetirizine is used to treat cold or allergy symptoms such as sneezing, itching, watery eyes, or runny nose.\nCetirizine is also used to treat an allergic reaction, itching and swelling caused by chronic urticaria (hives) and minimizes or eliminates the symptoms of perennial allergic rhinitis, seasonal allergic rhinitis, chronic idiopathic urticaria, allergic asthma, physical urticaria, and atopic dermatitis.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"cetirizine\", \"has generic class\", \"second generation antihistamine\"], [\"cetirizine\", \"reduces level of\", \"histamine\"], [\"cetirizine\", \"treats\", \"sneezing\"], [\"cetirizine\", \"treats\", \"itching\"], [\"cetirizine\", \"treats\", \"watery eyes\"], [\"cetirizine\", \"treats\", \"runny nose\"], [\"cetirizine\", \"treats\", \"allergic reaction\"], [\"cetirizine\", \"treats\", \"chronic urticaria\"], [\"cetirizine\", \"treats\", \"itching and swelling from chronic urticaria\"], [\"cetirizine\", \"minimizes symptoms of\", \"perennial allergic rhinitis\"], [\"cetirizine\", \"minimizes symptoms of\", \"seasonal allergic rhinitis\"], [\"cetirizine\", \"minimizes symptoms of\", \"chronic idiopathic urticaria\"], [\"cetirizine\", \"minimizes symptoms of\", \"allergic asthma\"], [\"cetirizine\", \"minimizes symptoms of\", \"physical urticaria\"], [\"cetirizine\", \"minimizes symptoms of\", \"atopic dermatitis\"]]",
+     "oie": [
+      [
+       "cetirizine",
+       "has generic class",
+       "second generation antihistamine"
+      ],
+      [
+       "cetirizine",
+       "reduces level of",
+       "histamine"
+      ],
+      [
+       "cetirizine",
+       "treats",
+       "sneezing"
+      ],
+      [
+       "cetirizine",
+       "treats",
+       "itching"
+      ],
+      [
+       "cetirizine",
+       "treats",
+       "watery eyes"
+      ],
+      [
+       "cetirizine",
+       "treats",
+       "runny nose"
+      ],
+      [
+       "cetirizine",
+       "treats",
+       "allergic reaction"
+      ],
+      [
+       "cetirizine",
+       "treats",
+       "chronic urticaria"
+      ],
+      [
+       "cetirizine",
+       "treats",
+       "itching and swelling from chronic urticaria"
+      ],
+      [
+       "cetirizine",
+       "minimizes symptoms of",
+       "perennial allergic rhinitis"
+      ],
+      [
+       "cetirizine",
+       "minimizes symptoms of",
+       "seasonal allergic rhinitis"
+      ],
+      [
+       "cetirizine",
+       "minimizes symptoms of",
+       "chronic idiopathic urticaria"
+      ],
+      [
+       "cetirizine",
+       "minimizes symptoms of",
+       "allergic asthma"
+      ],
+      [
+       "cetirizine",
+       "minimizes symptoms of",
+       "physical urticaria"
+      ],
+      [
+       "cetirizine",
+       "minimizes symptoms of",
+       "atopic dermatitis"
+      ]
+     ],
+     "schema_definition": {
+      "has generic class": "The subject drug belongs to the pharmacological class specified by the object entity.",
+      "reduces level of": "The subject drug lowers the concentration of the chemical substance specified by the object entity in the body.",
+      "treats": "The subject drug is used to manage or alleviate the symptoms or condition specified by the object entity.",
+      "minimizes symptoms of": "The subject drug reduces or lessens the occurrence or severity of the symptoms associated with the condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "cetirizine",
+        "belongs to drug class",
+        "second generation antihistamine"
+       ],
+       "raw_relation": "has generic class",
+       "definition": "The subject drug belongs to the pharmacological class specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "belongs to drug class",
+         0.9666
+        ],
+        [
+         "has dosage form",
+         0.8764
+        ],
+        [
+         "similar to",
+         0.8671
+        ],
+        [
+         "treats",
+         0.866
+        ],
+        [
+         "has controlled substance schedule",
+         0.8656
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "lowers level of",
+        "histamine"
+       ],
+       "raw_relation": "reduces level of",
+       "definition": "The subject drug lowers the concentration of the chemical substance specified by the object entity in the body.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "lowers level of",
+         0.9232
+        ],
+        [
+         "may reduce response to",
+         0.875
+        ],
+        [
+         "has inactive ingredient",
+         0.8619
+        ],
+        [
+         "has reduced plasma clearance in",
+         0.8584
+        ],
+        [
+         "requires gradual dose reduction",
+         0.8333
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "treats",
+        "sneezing"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "treats",
+        "itching"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "treats",
+        "watery eyes"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "treats",
+        "runny nose"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "treats",
+        "allergic reaction"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "treats",
+        "chronic urticaria"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "treats",
+        "itching and swelling from chronic urticaria"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "lowers level of",
+        "perennial allergic rhinitis"
+       ],
+       "raw_relation": "minimizes symptoms of",
+       "definition": "The subject drug reduces or lessens the occurrence or severity of the symptoms associated with the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may reduce response to",
+         0.87
+        ],
+        [
+         "has side effect variation",
+         0.8693
+        ],
+        [
+         "mimics symptoms of",
+         0.8593
+        ],
+        [
+         "has side effect",
+         0.8531
+        ],
+        [
+         "lowers level of",
+         0.8492
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "lowers level of",
+        "seasonal allergic rhinitis"
+       ],
+       "raw_relation": "minimizes symptoms of",
+       "definition": "The subject drug reduces or lessens the occurrence or severity of the symptoms associated with the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may reduce response to",
+         0.87
+        ],
+        [
+         "has side effect variation",
+         0.8693
+        ],
+        [
+         "mimics symptoms of",
+         0.8593
+        ],
+        [
+         "has side effect",
+         0.8531
+        ],
+        [
+         "lowers level of",
+         0.8492
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "lowers level of",
+        "chronic idiopathic urticaria"
+       ],
+       "raw_relation": "minimizes symptoms of",
+       "definition": "The subject drug reduces or lessens the occurrence or severity of the symptoms associated with the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may reduce response to",
+         0.87
+        ],
+        [
+         "has side effect variation",
+         0.8693
+        ],
+        [
+         "mimics symptoms of",
+         0.8593
+        ],
+        [
+         "has side effect",
+         0.8531
+        ],
+        [
+         "lowers level of",
+         0.8492
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "lowers level of",
+        "allergic asthma"
+       ],
+       "raw_relation": "minimizes symptoms of",
+       "definition": "The subject drug reduces or lessens the occurrence or severity of the symptoms associated with the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may reduce response to",
+         0.87
+        ],
+        [
+         "has side effect variation",
+         0.8693
+        ],
+        [
+         "mimics symptoms of",
+         0.8593
+        ],
+        [
+         "has side effect",
+         0.8531
+        ],
+        [
+         "lowers level of",
+         0.8492
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "may reduce response to",
+        "physical urticaria"
+       ],
+       "raw_relation": "minimizes symptoms of",
+       "definition": "The subject drug reduces or lessens the occurrence or severity of the symptoms associated with the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may reduce response to",
+         0.87
+        ],
+        [
+         "has side effect variation",
+         0.8693
+        ],
+        [
+         "mimics symptoms of",
+         0.8593
+        ],
+        [
+         "has side effect",
+         0.8531
+        ],
+        [
+         "lowers level of",
+         0.8492
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "lowers level of",
+        "atopic dermatitis"
+       ],
+       "raw_relation": "minimizes symptoms of",
+       "definition": "The subject drug reduces or lessens the occurrence or severity of the symptoms associated with the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may reduce response to",
+         0.87
+        ],
+        [
+         "has side effect variation",
+         0.8693
+        ],
+        [
+         "mimics symptoms of",
+         0.8593
+        ],
+        [
+         "has side effect",
+         0.8531
+        ],
+        [
+         "lowers level of",
+         0.8492
+        ]
+       ],
+       "answer": "E"
+      }
+     ]
+    },
+    {
+     "chunk_id": "cetirizine#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "Cetirizine can cause side effects that may impair your thinking or reactions. Be careful if you drive or do anything that requires you to be awake and alert. Avoid drinking alcohol. It can increase some of the side effects of cetirizine.\nTell your doctor if you regularly use other medicines that make you sleepy (such as other cold or allergy medicine, narcotic pain medicine, sleeping pills, muscle relaxers, and medicine for seizures, depression, or anxiety). They can add to sleepiness caused by cetirizine.\nCall your doctor if your symptoms do not improve, if they get worse, or if you also have a fever.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"cetirizine\", \"has side effect\", \"impaired thinking\"], [\"cetirizine\", \"has side effect\", \"impaired reactions\"], [\"cetirizine\", \"has administration instruction\", \"be careful when driving or doing things requiring alertness\"], [\"cetirizine\", \"should be avoided with\", \"alcohol\"], [\"cetirizine\", \"can increase side effects of\", \"other sleep-inducing medicines\"], [\"cetirizine\", \"requires patient notification of\", \"medicines that cause drowsiness\"], [\"cetirizine\", \"has warning\", \"symptoms may worsen or not improve\"], [\"cetirizine\", \"has warning\", \"fever may occur\"]]",
+     "oie": [
+      [
+       "cetirizine",
+       "has side effect",
+       "impaired thinking"
+      ],
+      [
+       "cetirizine",
+       "has side effect",
+       "impaired reactions"
+      ],
+      [
+       "cetirizine",
+       "has administration instruction",
+       "be careful when driving or doing things requiring alertness"
+      ],
+      [
+       "cetirizine",
+       "should be avoided with",
+       "alcohol"
+      ],
+      [
+       "cetirizine",
+       "can increase side effects of",
+       "other sleep-inducing medicines"
+      ],
+      [
+       "cetirizine",
+       "requires patient notification of",
+       "medicines that cause drowsiness"
+      ],
+      [
+       "cetirizine",
+       "has warning",
+       "symptoms may worsen or not improve"
+      ],
+      [
+       "cetirizine",
+       "has warning",
+       "fever may occur"
+      ]
+     ],
+     "schema_definition": {
+      "has side effect": "The subject drug may cause the adverse effect specified by the object entity.",
+      "has administration instruction": "Patients taking the subject drug should exercise caution in activities requiring alertness as specified by the object entity.",
+      "should be avoided with": "Patients taking the subject drug should avoid using the substance or activity specified by the object entity.",
+      "can increase side effects of": "The subject drug may exacerbate or enhance the side effects of the medication specified by the object entity.",
+      "requires patient notification of": "Patients taking the subject drug should inform their doctor about the use of the specified medications that may cause drowsiness.",
+      "has warning": "The subject drug may lead to the condition or symptom specified by the object entity, and patients should be vigilant."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "cetirizine",
+        "has side effect",
+        "impaired thinking"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "has side effect",
+        "impaired reactions"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "has administration instruction",
+        "be careful when driving or doing things requiring alertness"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should exercise caution in activities requiring alertness as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "should be avoided with",
+        "alcohol"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "Patients taking the subject drug should avoid using the substance or activity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "has side effect variation",
+        "other sleep-inducing medicines"
+       ],
+       "raw_relation": "can increase side effects of",
+       "definition": "The subject drug may exacerbate or enhance the side effects of the medication specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9408
+        ],
+        [
+         "has side effect variation",
+         0.927
+        ],
+        [
+         "interacts with",
+         0.8865
+        ],
+        [
+         "has serious side effect",
+         0.8816
+        ],
+        [
+         "mimics symptoms of",
+         0.8702
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "should inform doctor about",
+        "medicines that cause drowsiness"
+       ],
+       "raw_relation": "requires patient notification of",
+       "definition": "Patients taking the subject drug should inform their doctor about the use of the specified medications that may cause drowsiness.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8481
+        ],
+        [
+         "requires use of",
+         0.7896
+        ],
+        [
+         "may require dose adjustment",
+         0.7868
+        ],
+        [
+         "requires monitoring of",
+         0.7734
+        ],
+        [
+         "has off label use",
+         0.7728
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "has warning",
+        "symptoms may worsen or not improve"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, and patients should be vigilant.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "has warning",
+        "fever may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, and patients should be vigilant.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "cetirizine#warnings#1",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "If you are taking cetirizine for hives, get emergency medical help immediately if you have trouble swallowing, dizziness, swelling of the tongue or around the mouth, trouble speaking, drooling, or wheezing. Cetirizine is not a substitute for an epinephrine injector. Do not use cetirizine to prevent hives from known causes such as foods, insect stings, or medicines. Call your doctor if your hives do not improve after 3 days, if they last more than 6 weeks, or if they are an unusual color, look bruised or blistered, or do not itch.\nRarely, some people have reported severe itching when stopping cetirizine after daily, long-term use of at least a few months or several years. If you experience widespread, severe itching on stopping this medication, contact your healthcare provider.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Cetirizine\", \"has emergency warning\", \"trouble swallowing\"], [\"Cetirizine\", \"has emergency warning\", \"dizziness\"], [\"Cetirizine\", \"has emergency warning\", \"swelling of tongue or around mouth\"], [\"Cetirizine\", \"has emergency warning\", \"trouble speaking\"], [\"Cetirizine\", \"has emergency warning\", \"drooling\"], [\"Cetirizine\", \"has emergency warning\", \"wheezing\"], [\"Cetirizine\", \"is not a substitute for\", \"epinephrine injector\"], [\"Cetirizine\", \"should not be used to\", \"prevent hives from known causes\"], [\"Cetirizine\", \"has patient instruction\", \"call doctor if hives do not improve after 3 days\"], [\"Cetirizine\", \"has patient instruction\", \"call doctor if hives last more than 6 weeks\"], [\"Cetirizine\", \"has patient instruction\", \"call doctor if hives have unusual color\"], [\"Cetirizine\", \"has patient instruction\", \"call doctor if hives look bruised or blistered\"], [\"Cetirizine\", \"has patient instruction\", \"call doctor if hives do not itch\"], [\"Cetirizine\", \"has rare side effect\", \"severe itching when stopping after long-term use\"], [\"Cetirizine\", \"has warning\", \"severe itching upon discontinuation after months or years of use\"]]",
+     "oie": [
+      [
+       "Cetirizine",
+       "has emergency warning",
+       "trouble swallowing"
+      ],
+      [
+       "Cetirizine",
+       "has emergency warning",
+       "dizziness"
+      ],
+      [
+       "Cetirizine",
+       "has emergency warning",
+       "swelling of tongue or around mouth"
+      ],
+      [
+       "Cetirizine",
+       "has emergency warning",
+       "trouble speaking"
+      ],
+      [
+       "Cetirizine",
+       "has emergency warning",
+       "drooling"
+      ],
+      [
+       "Cetirizine",
+       "has emergency warning",
+       "wheezing"
+      ],
+      [
+       "Cetirizine",
+       "is not a substitute for",
+       "epinephrine injector"
+      ],
+      [
+       "Cetirizine",
+       "should not be used to",
+       "prevent hives from known causes"
+      ],
+      [
+       "Cetirizine",
+       "has patient instruction",
+       "call doctor if hives do not improve after 3 days"
+      ],
+      [
+       "Cetirizine",
+       "has patient instruction",
+       "call doctor if hives last more than 6 weeks"
+      ],
+      [
+       "Cetirizine",
+       "has patient instruction",
+       "call doctor if hives have unusual color"
+      ],
+      [
+       "Cetirizine",
+       "has patient instruction",
+       "call doctor if hives look bruised or blistered"
+      ],
+      [
+       "Cetirizine",
+       "has patient instruction",
+       "call doctor if hives do not itch"
+      ],
+      [
+       "Cetirizine",
+       "has rare side effect",
+       "severe itching when stopping after long-term use"
+      ],
+      [
+       "Cetirizine",
+       "has warning",
+       "severe itching upon discontinuation after months or years of use"
+      ]
+     ],
+     "schema_definition": {
+      "has emergency warning": "The subject drug requires immediate medical attention if the patient experiences the symptom or condition specified by the object entity.",
+      "has patient instruction": "The patient should contact a healthcare provider if the specified condition or symptom occurs while using the subject drug.",
+      "has rare side effect": "The subject drug may cause a rare and serious adverse effect specified by the object entity.",
+      "has warning": "The subject drug carries a cautionary note about the specified adverse effect or condition, particularly in the context of long-term use or discontinuation.",
+      "is not a substitute for": "The subject drug cannot replace the specified medical device or treatment in emergency or critical situations.",
+      "should not be used to": "The subject drug is inappropriate or contraindicated for the intended purpose or preventive use specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "trouble swallowing"
+       ],
+       "raw_relation": "has emergency warning",
+       "definition": "The subject drug requires immediate medical attention if the patient experiences the symptom or condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires monitoring of",
+         0.8767
+        ],
+        [
+         "has serious side effect",
+         0.8664
+        ],
+        [
+         "mimics symptoms of",
+         0.8643
+        ],
+        [
+         "should inform doctor about",
+         0.8526
+        ],
+        [
+         "treats",
+         0.8516
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "dizziness"
+       ],
+       "raw_relation": "has emergency warning",
+       "definition": "The subject drug requires immediate medical attention if the patient experiences the symptom or condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires monitoring of",
+         0.8767
+        ],
+        [
+         "has serious side effect",
+         0.8664
+        ],
+        [
+         "mimics symptoms of",
+         0.8643
+        ],
+        [
+         "should inform doctor about",
+         0.8526
+        ],
+        [
+         "treats",
+         0.8516
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "swelling of tongue or around mouth"
+       ],
+       "raw_relation": "has emergency warning",
+       "definition": "The subject drug requires immediate medical attention if the patient experiences the symptom or condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires monitoring of",
+         0.8767
+        ],
+        [
+         "has serious side effect",
+         0.8664
+        ],
+        [
+         "mimics symptoms of",
+         0.8643
+        ],
+        [
+         "should inform doctor about",
+         0.8526
+        ],
+        [
+         "treats",
+         0.8516
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "trouble speaking"
+       ],
+       "raw_relation": "has emergency warning",
+       "definition": "The subject drug requires immediate medical attention if the patient experiences the symptom or condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires monitoring of",
+         0.8767
+        ],
+        [
+         "has serious side effect",
+         0.8664
+        ],
+        [
+         "mimics symptoms of",
+         0.8643
+        ],
+        [
+         "should inform doctor about",
+         0.8526
+        ],
+        [
+         "treats",
+         0.8516
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "drooling"
+       ],
+       "raw_relation": "has emergency warning",
+       "definition": "The subject drug requires immediate medical attention if the patient experiences the symptom or condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires monitoring of",
+         0.8767
+        ],
+        [
+         "has serious side effect",
+         0.8664
+        ],
+        [
+         "mimics symptoms of",
+         0.8643
+        ],
+        [
+         "should inform doctor about",
+         0.8526
+        ],
+        [
+         "treats",
+         0.8516
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "wheezing"
+       ],
+       "raw_relation": "has emergency warning",
+       "definition": "The subject drug requires immediate medical attention if the patient experiences the symptom or condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires monitoring of",
+         0.8767
+        ],
+        [
+         "has serious side effect",
+         0.8664
+        ],
+        [
+         "mimics symptoms of",
+         0.8643
+        ],
+        [
+         "should inform doctor about",
+         0.8526
+        ],
+        [
+         "treats",
+         0.8516
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "not approved for",
+        "epinephrine injector"
+       ],
+       "raw_relation": "is not a substitute for",
+       "definition": "The subject drug cannot replace the specified medical device or treatment in emergency or critical situations.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has repeat course interval restriction",
+         0.7946
+        ],
+        [
+         "has no specific antidote",
+         0.7876
+        ],
+        [
+         "not approved for",
+         0.7866
+        ],
+        [
+         "does not reduce risk of",
+         0.7865
+        ],
+        [
+         "not effectively removed by",
+         0.7843
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "not used to treat",
+        "prevent hives from known causes"
+       ],
+       "raw_relation": "should not be used to",
+       "definition": "The subject drug is inappropriate or contraindicated for the intended purpose or preventive use specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "not used to treat",
+         0.9602
+        ],
+        [
+         "has side effect",
+         0.8582
+        ],
+        [
+         "reduces risk of",
+         0.8575
+        ],
+        [
+         "use with caution in",
+         0.857
+        ],
+        [
+         "treats",
+         0.8484
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has patient instruction",
+        "call doctor if hives do not improve after 3 days"
+       ],
+       "raw_relation": "has patient instruction",
+       "definition": "The patient should contact a healthcare provider if the specified condition or symptom occurs while using the subject drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has patient instruction",
+        "call doctor if hives last more than 6 weeks"
+       ],
+       "raw_relation": "has patient instruction",
+       "definition": "The patient should contact a healthcare provider if the specified condition or symptom occurs while using the subject drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has patient instruction",
+        "call doctor if hives have unusual color"
+       ],
+       "raw_relation": "has patient instruction",
+       "definition": "The patient should contact a healthcare provider if the specified condition or symptom occurs while using the subject drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has patient instruction",
+        "call doctor if hives look bruised or blistered"
+       ],
+       "raw_relation": "has patient instruction",
+       "definition": "The patient should contact a healthcare provider if the specified condition or symptom occurs while using the subject drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has patient instruction",
+        "call doctor if hives do not itch"
+       ],
+       "raw_relation": "has patient instruction",
+       "definition": "The patient should contact a healthcare provider if the specified condition or symptom occurs while using the subject drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "severe itching when stopping after long-term use"
+       ],
+       "raw_relation": "has rare side effect",
+       "definition": "The subject drug may cause a rare and serious adverse effect specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9137
+        ],
+        [
+         "has side effect",
+         0.9093
+        ],
+        [
+         "has side effect variation",
+         0.8766
+        ],
+        [
+         "has warning",
+         0.852
+        ],
+        [
+         "interacts with",
+         0.8436
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has warning",
+        "severe itching upon discontinuation after months or years of use"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a cautionary note about the specified adverse effect or condition, particularly in the context of long-term use or discontinuation.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "cetirizine#before-taking#0",
+     "section_id": "before-taking",
+     "section_heading": "Before taking this medicine",
+     "text": "You should not use this medication if you are allergic to cetirizine, levocetirizine, hydroxyzine, or any of the ingredients in the product.\nBefore taking cetirizine, tell your doctor about all of your medical conditions or if you have ever had kidney or liver disease.\nAsk a health professional before using this medicine if you are pregnant. Cetirizine is not recommended if you are breast-feeding.\nCetirizine is indicated for chronic idiopathic urticaria in adults and children 6 months of age and older.\nOlder adults may need to take a lower than normal dose. Follow your doctor's instructions.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Cetirizine\", \"contraindicated in\", \"allergy to cetirizine\"], [\"Cetirizine\", \"contraindicated in\", \"allergy to levocetirizine\"], [\"Cetirizine\", \"contraindicated in\", \"allergy to hydroxyzine\"], [\"Cetirizine\", \"contraindicated in\", \"allergy to any ingredient in the product\"], [\"Cetirizine\", \"use with caution in\", \"kidney disease\"], [\"Cetirizine\", \"use with caution in\", \"liver disease\"], [\"Cetirizine\", \"has warning\", \"pregnancy use\"], [\"Cetirizine\", \"not recommended in\", \"breastfeeding\"], [\"Cetirizine\", \"indicated for\", \"chronic idiopathic urticaria in adults\"], [\"Cetirizine\", \"indicated for\", \"chronic idiopathic urticaria in children 6 months of age and older\"], [\"Cetirizine\", \"has dose adjustment instruction\", \"older adults take lower than normal dose\"]]",
+     "oie": [
+      [
+       "Cetirizine",
+       "contraindicated in",
+       "allergy to cetirizine"
+      ],
+      [
+       "Cetirizine",
+       "contraindicated in",
+       "allergy to levocetirizine"
+      ],
+      [
+       "Cetirizine",
+       "contraindicated in",
+       "allergy to hydroxyzine"
+      ],
+      [
+       "Cetirizine",
+       "contraindicated in",
+       "allergy to any ingredient in the product"
+      ],
+      [
+       "Cetirizine",
+       "use with caution in",
+       "kidney disease"
+      ],
+      [
+       "Cetirizine",
+       "use with caution in",
+       "liver disease"
+      ],
+      [
+       "Cetirizine",
+       "has warning",
+       "pregnancy use"
+      ],
+      [
+       "Cetirizine",
+       "not recommended in",
+       "breastfeeding"
+      ],
+      [
+       "Cetirizine",
+       "indicated for",
+       "chronic idiopathic urticaria in adults"
+      ],
+      [
+       "Cetirizine",
+       "indicated for",
+       "chronic idiopathic urticaria in children 6 months of age and older"
+      ],
+      [
+       "Cetirizine",
+       "has dose adjustment instruction",
+       "older adults take lower than normal dose"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject medication should not be used by patients who have the specified allergy or sensitivity to the substance or ingredient mentioned in the object entity.",
+      "has dose adjustment instruction": "The subject medication requires a reduced dose for older adults as specified in the object entity.",
+      "has warning": "The subject medication poses a potential risk or requires caution in the specified patient condition or scenario mentioned in the object entity.",
+      "indicated for": "The subject medication is prescribed or recommended for the treatment or management of the medical condition specified by the object entity.",
+      "not recommended in": "The subject medication is not advised for use in the specified patient condition or scenario mentioned in the object entity.",
+      "use with caution in": "The subject medication may pose safety concerns or require medical supervision for patients who have the condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Cetirizine",
+        "contraindicated in",
+        "allergy to cetirizine"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject medication should not be used by patients who have the specified allergy or sensitivity to the substance or ingredient mentioned in the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "contraindicated in",
+        "allergy to levocetirizine"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject medication should not be used by patients who have the specified allergy or sensitivity to the substance or ingredient mentioned in the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "contraindicated in",
+        "allergy to hydroxyzine"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject medication should not be used by patients who have the specified allergy or sensitivity to the substance or ingredient mentioned in the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "contraindicated in",
+        "allergy to any ingredient in the product"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject medication should not be used by patients who have the specified allergy or sensitivity to the substance or ingredient mentioned in the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "use with caution in",
+        "kidney disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject medication may pose safety concerns or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "use with caution in",
+        "liver disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject medication may pose safety concerns or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has warning",
+        "pregnancy use"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject medication poses a potential risk or requires caution in the specified patient condition or scenario mentioned in the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "not approved for",
+        "breastfeeding"
+       ],
+       "raw_relation": "not recommended in",
+       "definition": "The subject medication is not advised for use in the specified patient condition or scenario mentioned in the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "not approved for",
+         0.9131
+        ],
+        [
+         "contraindicated in",
+         0.8578
+        ],
+        [
+         "has not been studied in",
+         0.8544
+        ],
+        [
+         "does not reduce risk of",
+         0.8421
+        ],
+        [
+         "should not be taken",
+         0.8394
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "treats",
+        "chronic idiopathic urticaria in adults"
+       ],
+       "raw_relation": "indicated for",
+       "definition": "The subject medication is prescribed or recommended for the treatment or management of the medical condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "treats",
+         0.9375
+        ],
+        [
+         "has history of use",
+         0.868
+        ],
+        [
+         "not used to treat",
+         0.8672
+        ],
+        [
+         "has recommended dose",
+         0.866
+        ],
+        [
+         "can occur with",
+         0.8619
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "treats",
+        "chronic idiopathic urticaria in children 6 months of age and older"
+       ],
+       "raw_relation": "indicated for",
+       "definition": "The subject medication is prescribed or recommended for the treatment or management of the medical condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "treats",
+         0.9375
+        ],
+        [
+         "has history of use",
+         0.868
+        ],
+        [
+         "not used to treat",
+         0.8672
+        ],
+        [
+         "has recommended dose",
+         0.866
+        ],
+        [
+         "can occur with",
+         0.8619
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "requires gradual dose reduction",
+        "older adults take lower than normal dose"
+       ],
+       "raw_relation": "has dose adjustment instruction",
+       "definition": "The subject medication requires a reduced dose for older adults as specified in the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires gradual dose reduction",
+         0.835
+        ],
+        [
+         "has recommended dose",
+         0.8044
+        ],
+        [
+         "has dosage form",
+         0.8014
+        ],
+        [
+         "used in population",
+         0.7981
+        ],
+        [
+         "may reduce response to",
+         0.7953
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "cetirizine#dosage#0",
+     "section_id": "dosage",
+     "section_heading": "How should I take cetirizine?",
+     "text": "Take cetirizine exactly as directed on the label, or as prescribed by your doctor. Do not use it in larger amounts or for longer than recommended.\nYou may take cetirizine with or without food.\nThe chewable tablet must be chewed before you swallow it.\nOral doses: measure liquid medicine (oral solution) with a special dose-measuring spoon or cup, not a regular table spoon. If you do not have a dose-measuring device, ask your pharmacist for one.\nCall your doctor if your symptoms do not improve, if they get worse, or if you also have a fever. Store cetirizine at room temperature away from moisture and heat.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"cetirizine\", \"has administration instruction\", \"take exactly as directed on label or as prescribed by doctor\"], [\"cetirizine\", \"has administration instruction\", \"do not use in larger amounts or for longer than recommended\"], [\"cetirizine\", \"can be taken with or without\", \"food\"], [\"cetirizine\", \"has administration instruction\", \"chewable tablet must be chewed before swallowing\"], [\"cetirizine\", \"has administration instruction\", \"measure liquid medicine with special dose-measuring spoon or cup\"], [\"cetirizine\", \"has administration instruction\", \"if no dose-measuring device available, ask pharmacist for one\"], [\"cetirizine\", \"has warning\", \"call doctor if symptoms do not improve or get worse or if fever develops\"], [\"cetirizine\", \"has storage instruction\", \"store at room temperature away from moisture and heat\"]]",
+     "oie": [
+      [
+       "cetirizine",
+       "has administration instruction",
+       "take exactly as directed on label or as prescribed by doctor"
+      ],
+      [
+       "cetirizine",
+       "has administration instruction",
+       "do not use in larger amounts or for longer than recommended"
+      ],
+      [
+       "cetirizine",
+       "can be taken with or without",
+       "food"
+      ],
+      [
+       "cetirizine",
+       "has administration instruction",
+       "chewable tablet must be chewed before swallowing"
+      ],
+      [
+       "cetirizine",
+       "has administration instruction",
+       "measure liquid medicine with special dose-measuring spoon or cup"
+      ],
+      [
+       "cetirizine",
+       "has administration instruction",
+       "if no dose-measuring device available, ask pharmacist for one"
+      ],
+      [
+       "cetirizine",
+       "has warning",
+       "call doctor if symptoms do not improve or get worse or if fever develops"
+      ],
+      [
+       "cetirizine",
+       "has storage instruction",
+       "store at room temperature away from moisture and heat"
+      ]
+     ],
+     "schema_definition": {
+      "can be taken with or without": "The subject drug can be administered with or without the object entity, which is typically food or a meal.",
+      "has administration instruction": "The subject drug requires the specific guidance or procedure specified by the object entity for proper use.",
+      "has storage instruction": "The subject drug should be stored under the conditions specified by the object entity to maintain efficacy and safety.",
+      "has warning": "The subject drug requires the patient to take action or seek medical advice if the condition specified by the object entity occurs."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "cetirizine",
+        "has administration instruction",
+        "take exactly as directed on label or as prescribed by doctor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific guidance or procedure specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "has administration instruction",
+        "do not use in larger amounts or for longer than recommended"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific guidance or procedure specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "has administration instruction",
+        "food"
+       ],
+       "raw_relation": "can be taken with or without",
+       "definition": "The subject drug can be administered with or without the object entity, which is typically food or a meal.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.8745
+        ],
+        [
+         "administered via",
+         0.8323
+        ],
+        [
+         "has metabolism pathway",
+         0.8236
+        ],
+        [
+         "has inactive ingredient",
+         0.8223
+        ],
+        [
+         "similar to",
+         0.8215
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "has administration instruction",
+        "chewable tablet must be chewed before swallowing"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific guidance or procedure specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "has administration instruction",
+        "measure liquid medicine with special dose-measuring spoon or cup"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific guidance or procedure specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "has administration instruction",
+        "if no dose-measuring device available, ask pharmacist for one"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific guidance or procedure specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "has warning",
+        "call doctor if symptoms do not improve or get worse or if fever develops"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug requires the patient to take action or seek medical advice if the condition specified by the object entity occurs.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cetirizine",
+        "has storage instruction",
+        "store at room temperature away from moisture and heat"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug should be stored under the conditions specified by the object entity to maintain efficacy and safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "cetirizine#missed-dose#0",
+     "section_id": "missed-dose",
+     "section_heading": "What happens if I miss a dose?",
+     "text": "Take the missed dose as soon as you remember. If it is almost time for your next dose, wait until then to take the medicine and skip the missed dose. Do not take extra medicine or add extra doses to make up the missed dose.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Cetirizine\", \"has missed dose instruction\", \"take as soon as remembered\"], [\"Cetirizine\", \"has missed dose instruction\", \"wait until next scheduled dose if almost time\"], [\"Cetirizine\", \"has missed dose instruction\", \"do not take extra medicine\"], [\"Cetirizine\", \"has missed dose instruction\", \"do not add extra doses\"]]",
+     "oie": [
+      [
+       "Cetirizine",
+       "has missed dose instruction",
+       "take as soon as remembered"
+      ],
+      [
+       "Cetirizine",
+       "has missed dose instruction",
+       "wait until next scheduled dose if almost time"
+      ],
+      [
+       "Cetirizine",
+       "has missed dose instruction",
+       "do not take extra medicine"
+      ],
+      [
+       "Cetirizine",
+       "has missed dose instruction",
+       "do not add extra doses"
+      ]
+     ],
+     "schema_definition": {
+      "has missed dose instruction": "The subject drug includes specific guidance on how to manage a missed dose, as specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Cetirizine",
+        "has missed dose instruction",
+        "take as soon as remembered"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug includes specific guidance on how to manage a missed dose, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has missed dose instruction",
+        "wait until next scheduled dose if almost time"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug includes specific guidance on how to manage a missed dose, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has missed dose instruction",
+        "do not take extra medicine"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug includes specific guidance on how to manage a missed dose, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has missed dose instruction",
+        "do not add extra doses"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug includes specific guidance on how to manage a missed dose, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "cetirizine#overdose#0",
+     "section_id": "overdose",
+     "section_heading": "What happens if I overdose?",
+     "text": "Seek emergency medical attention if you think you have used too much of this medicine.\nOverdose symptoms may include feeling restless or nervous, and then feeling drowsy.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Cetirizine\", \"has overdose instruction\", \"seek emergency medical attention if you think you have used too much\"], [\"Cetirizine\", \"has overdose symptom\", \"feeling restless or nervous\"], [\"Cetirizine\", \"has overdose symptom\", \"feeling drowsy\"]]",
+     "oie": [
+      [
+       "Cetirizine",
+       "has overdose instruction",
+       "seek emergency medical attention if you think you have used too much"
+      ],
+      [
+       "Cetirizine",
+       "has overdose symptom",
+       "feeling restless or nervous"
+      ],
+      [
+       "Cetirizine",
+       "has overdose symptom",
+       "feeling drowsy"
+      ]
+     ],
+     "schema_definition": {
+      "has overdose instruction": "The subject drug requires immediate emergency medical attention if the patient believes they have taken an excessive amount.",
+      "has overdose symptom": "An overdose of the subject drug may cause the symptom specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Cetirizine",
+        "has overdose instruction",
+        "seek emergency medical attention if you think you have used too much"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires immediate emergency medical attention if the patient believes they have taken an excessive amount.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has overdose symptom",
+        "feeling restless or nervous"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has overdose symptom",
+        "feeling drowsy"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "cetirizine#what-to-avoid#0",
+     "section_id": "what-to-avoid",
+     "section_heading": "What should I avoid?",
+     "text": "Tell your doctor if you regularly use other medicines that make you sleepy (such as other cold or allergy medicine, narcotic pain medicine, sleeping pills, muscle relaxers, and medicine for seizures, depression, or anxiety). They can add to sleepiness caused by cetirizine.\nCetirizine can cause side effects that may impair your thinking or reactions. Be careful if you drive or do anything that requires you to be awake and alert.\nAvoid drinking alcohol. It can increase some of the side effects of cetirizine.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Cetirizine\", \"interacts with\", \"medicines that cause drowsiness\"], [\"Cetirizine\", \"has side effect\", \"impaired thinking\"], [\"Cetirizine\", \"has side effect\", \"impaired reactions\"], [\"Cetirizine\", \"has administration instruction\", \"be careful when driving or performing tasks requiring alertness\"], [\"Cetirizine\", \"should be avoided with\", \"alcohol\"]]",
+     "oie": [
+      [
+       "Cetirizine",
+       "interacts with",
+       "medicines that cause drowsiness"
+      ],
+      [
+       "Cetirizine",
+       "has side effect",
+       "impaired thinking"
+      ],
+      [
+       "Cetirizine",
+       "has side effect",
+       "impaired reactions"
+      ],
+      [
+       "Cetirizine",
+       "has administration instruction",
+       "be careful when driving or performing tasks requiring alertness"
+      ],
+      [
+       "Cetirizine",
+       "should be avoided with",
+       "alcohol"
+      ]
+     ],
+     "schema_definition": {
+      "has side effect": "The subject drug may cause the adverse effect specified by the object entity, which can impair normal physiological functions.",
+      "has administration instruction": "Patients taking the subject drug should exercise caution or take specific precautions when engaging in activities that require alertness or mental focus.",
+      "interacts with": "The subject drug may produce a combined effect when used concurrently with the substance specified by the object entity, potentially increasing the intended or adverse outcome.",
+      "should be avoided with": "Patients taking the subject drug should avoid using the substance or activity specified by the object entity to prevent exacerbation of side effects or adverse reactions."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Cetirizine",
+        "interacts with",
+        "medicines that cause drowsiness"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a combined effect when used concurrently with the substance specified by the object entity, potentially increasing the intended or adverse outcome.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has side effect",
+        "impaired thinking"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity, which can impair normal physiological functions.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has side effect",
+        "impaired reactions"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity, which can impair normal physiological functions.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has administration instruction",
+        "be careful when driving or performing tasks requiring alertness"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should exercise caution or take specific precautions when engaging in activities that require alertness or mental focus.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "should be avoided with",
+        "alcohol"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "Patients taking the subject drug should avoid using the substance or activity specified by the object entity to prevent exacerbation of side effects or adverse reactions.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "cetirizine#side-effects#0",
+     "section_id": "side-effects",
+     "section_heading": "Cetirizine acute and common side effects",
+     "text": "Get emergency medical help if you have any serious adverse effects or any of these signs of an allergic reaction: chronic idiopathic urticaria (hives); difficulty breathing; swelling of your face, lips, tongue, or throat. Stop using cetirizine and call your doctor at once if you have any of these serious side effects:\n- fast, pounding, or uneven heartbeat;\n- weakness, tremors (uncontrolled shaking), or sleep problems (insomnia);\n- severe restless feeling, hyperactivity;\n- confusion;\n- problems with vision; or\n- urinating less than usual or not at all.\nLess serious cetirizine side effects may include:\n- dizziness, drowsiness;\n- tired feeling;\n- dry mouth;\n- sore throat, cough;\n- nausea, constipation; or\n- headache.\nThis is not a complete list of side effects and others may occur. Tell your doctor about any unusual or bothersome side effect.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Cetirizine\", \"has serious side effect\", \"chronic idiopathic urticaria\"], [\"Cetirizine\", \"has serious side effect\", \"difficulty breathing\"], [\"Cetirizine\", \"has serious side effect\", \"swelling of face, lips, tongue, or throat\"], [\"Cetirizine\", \"has serious side effect\", \"fast, pounding, or uneven heartbeat\"], [\"Cetirizine\", \"has serious side effect\", \"weakness\"], [\"Cetirizine\", \"has serious side effect\", \"tremors\"], [\"Cetirizine\", \"has serious side effect\", \"sleep problems\"], [\"Cetirizine\", \"has serious side effect\", \"severe restless feeling\"], [\"Cetirizine\", \"has serious side effect\", \"hyperactivity\"], [\"Cetirizine\", \"has serious side effect\", \"confusion\"], [\"Cetirizine\", \"has serious side effect\", \"problems with vision\"], [\"Cetirizine\", \"has serious side effect\", \"urinating less than usual\"], [\"Cetirizine\", \"has serious side effect\", \"not urinating at all\"], [\"Cetirizine\", \"has side effect\", \"dizziness\"], [\"Cetirizine\", \"has side effect\", \"drowsiness\"], [\"Cetirizine\", \"has side effect\", \"tired feeling\"], [\"Cetirizine\", \"has side effect\", \"dry mouth\"], [\"Cetirizine\", \"has side effect\", \"sore throat\"], [\"Cetirizine\", \"has side effect\", \"cough\"], [\"Cetirizine\", \"has side effect\", \"nausea\"], [\"Cetirizine\", \"has side effect\", \"constipation\"], [\"Cetirizine\", \"has side effect\", \"headache\"], [\"Cetirizine\", \"has warning\", \"serious adverse effects may occur\"], [\"Cetirizine\", \"has warning\", \"allergic reactions may occur\"], [\"Cetirizine\", \"requires reporting of\", \"unusual or bothersome side effects\"]]",
+     "oie": [
+      [
+       "Cetirizine",
+       "has serious side effect",
+       "chronic idiopathic urticaria"
+      ],
+      [
+       "Cetirizine",
+       "has serious side effect",
+       "difficulty breathing"
+      ],
+      [
+       "Cetirizine",
+       "has serious side effect",
+       "swelling of face, lips, tongue, or throat"
+      ],
+      [
+       "Cetirizine",
+       "has serious side effect",
+       "fast, pounding, or uneven heartbeat"
+      ],
+      [
+       "Cetirizine",
+       "has serious side effect",
+       "weakness"
+      ],
+      [
+       "Cetirizine",
+       "has serious side effect",
+       "tremors"
+      ],
+      [
+       "Cetirizine",
+       "has serious side effect",
+       "sleep problems"
+      ],
+      [
+       "Cetirizine",
+       "has serious side effect",
+       "severe restless feeling"
+      ],
+      [
+       "Cetirizine",
+       "has serious side effect",
+       "hyperactivity"
+      ],
+      [
+       "Cetirizine",
+       "has serious side effect",
+       "confusion"
+      ],
+      [
+       "Cetirizine",
+       "has serious side effect",
+       "problems with vision"
+      ],
+      [
+       "Cetirizine",
+       "has serious side effect",
+       "urinating less than usual"
+      ],
+      [
+       "Cetirizine",
+       "has serious side effect",
+       "not urinating at all"
+      ],
+      [
+       "Cetirizine",
+       "has side effect",
+       "dizziness"
+      ],
+      [
+       "Cetirizine",
+       "has side effect",
+       "drowsiness"
+      ],
+      [
+       "Cetirizine",
+       "has side effect",
+       "tired feeling"
+      ],
+      [
+       "Cetirizine",
+       "has side effect",
+       "dry mouth"
+      ],
+      [
+       "Cetirizine",
+       "has side effect",
+       "sore throat"
+      ],
+      [
+       "Cetirizine",
+       "has side effect",
+       "cough"
+      ],
+      [
+       "Cetirizine",
+       "has side effect",
+       "nausea"
+      ],
+      [
+       "Cetirizine",
+       "has side effect",
+       "constipation"
+      ],
+      [
+       "Cetirizine",
+       "has side effect",
+       "headache"
+      ],
+      [
+       "Cetirizine",
+       "has warning",
+       "serious adverse effects may occur"
+      ],
+      [
+       "Cetirizine",
+       "has warning",
+       "allergic reactions may occur"
+      ],
+      [
+       "Cetirizine",
+       "requires reporting of",
+       "unusual or bothersome side effects"
+      ]
+     ],
+     "schema_definition": {
+      "has serious side effect": "The subject drug may cause the serious or potentially dangerous adverse effect specified by the object entity.",
+      "has side effect": "The subject drug may cause the mild or non-serious adverse effect specified by the object entity.",
+      "has warning": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or adverse effect specified by the object entity.",
+      "requires reporting of": "Patients using the subject drug should inform their doctor about any occurrence of the side effect or condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "chronic idiopathic urticaria"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "difficulty breathing"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "swelling of face, lips, tongue, or throat"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "fast, pounding, or uneven heartbeat"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "weakness"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "tremors"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "sleep problems"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "severe restless feeling"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "hyperactivity"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "confusion"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "problems with vision"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "urinating less than usual"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has serious side effect",
+        "not urinating at all"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has side effect",
+        "dizziness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the mild or non-serious adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has side effect",
+        "drowsiness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the mild or non-serious adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has side effect",
+        "tired feeling"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the mild or non-serious adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has side effect",
+        "dry mouth"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the mild or non-serious adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has side effect",
+        "sore throat"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the mild or non-serious adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has side effect",
+        "cough"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the mild or non-serious adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has side effect",
+        "nausea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the mild or non-serious adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has side effect",
+        "constipation"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the mild or non-serious adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has side effect",
+        "headache"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the mild or non-serious adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has warning",
+        "serious adverse effects may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has warning",
+        "allergic reactions may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "should inform doctor about",
+        "unusual or bothersome side effects"
+       ],
+       "raw_relation": "requires reporting of",
+       "definition": "Patients using the subject drug should inform their doctor about any occurrence of the side effect or condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.9294
+        ],
+        [
+         "has side effect",
+         0.8478
+        ],
+        [
+         "mimics symptoms of",
+         0.8309
+        ],
+        [
+         "use with caution in",
+         0.8222
+        ],
+        [
+         "has patient resource",
+         0.8209
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "cetirizine#interactions#0",
+     "section_id": "interactions",
+     "section_heading": "What other drugs will affect cetirizine?",
+     "text": "There may be other drugs that can interact with cetirizine. Tell your doctor about all your prescription and over-the-counter medications, vitamins, minerals, herbal products, and drugs prescribed by other doctors. Do not start a new medication without telling your doctor.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Cetirizine\", \"interacts with\", \"other drugs\"], [\"Cetirizine\", \"requires disclosure of\", \"prescription medications\"], [\"Cetirizine\", \"requires disclosure of\", \"over-the-counter medications\"], [\"Cetirizine\", \"requires disclosure of\", \"vitamins\"], [\"Cetirizine\", \"requires disclosure of\", \"minerals\"], [\"Cetirizine\", \"requires disclosure of\", \"herbal products\"], [\"Cetirizine\", \"requires disclosure of\", \"drugs prescribed by other doctors\"], [\"Cetirizine\", \"has warning\", \"do not start new medication without doctor consultation\"]]",
+     "oie": [
+      [
+       "Cetirizine",
+       "interacts with",
+       "other drugs"
+      ],
+      [
+       "Cetirizine",
+       "requires disclosure of",
+       "prescription medications"
+      ],
+      [
+       "Cetirizine",
+       "requires disclosure of",
+       "over-the-counter medications"
+      ],
+      [
+       "Cetirizine",
+       "requires disclosure of",
+       "vitamins"
+      ],
+      [
+       "Cetirizine",
+       "requires disclosure of",
+       "minerals"
+      ],
+      [
+       "Cetirizine",
+       "requires disclosure of",
+       "herbal products"
+      ],
+      [
+       "Cetirizine",
+       "requires disclosure of",
+       "drugs prescribed by other doctors"
+      ],
+      [
+       "Cetirizine",
+       "has warning",
+       "do not start new medication without doctor consultation"
+      ]
+     ],
+     "schema_definition": {
+      "has warning": "The subject drug includes a caution or advisory that patients should be aware of, typically regarding potential risks or necessary actions.",
+      "interacts with": "The subject drug may produce a pharmacological interaction when co-administered with the substance specified by the object entity.",
+      "requires disclosure of": "Patients taking the subject drug must inform their healthcare provider about the use of the specified substances or products to avoid potential adverse effects."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Cetirizine",
+        "interacts with",
+        "other drugs"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "should inform doctor about",
+        "prescription medications"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients taking the subject drug must inform their healthcare provider about the use of the specified substances or products to avoid potential adverse effects.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8767
+        ],
+        [
+         "requires use of",
+         0.8463
+        ],
+        [
+         "use with caution in",
+         0.8166
+        ],
+        [
+         "has warning",
+         0.8157
+        ],
+        [
+         "requires monitoring of",
+         0.8107
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "should inform doctor about",
+        "over-the-counter medications"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients taking the subject drug must inform their healthcare provider about the use of the specified substances or products to avoid potential adverse effects.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8767
+        ],
+        [
+         "requires use of",
+         0.8463
+        ],
+        [
+         "use with caution in",
+         0.8166
+        ],
+        [
+         "has warning",
+         0.8157
+        ],
+        [
+         "requires monitoring of",
+         0.8107
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "should inform doctor about",
+        "vitamins"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients taking the subject drug must inform their healthcare provider about the use of the specified substances or products to avoid potential adverse effects.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8767
+        ],
+        [
+         "requires use of",
+         0.8463
+        ],
+        [
+         "use with caution in",
+         0.8166
+        ],
+        [
+         "has warning",
+         0.8157
+        ],
+        [
+         "requires monitoring of",
+         0.8107
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "should inform doctor about",
+        "minerals"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients taking the subject drug must inform their healthcare provider about the use of the specified substances or products to avoid potential adverse effects.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8767
+        ],
+        [
+         "requires use of",
+         0.8463
+        ],
+        [
+         "use with caution in",
+         0.8166
+        ],
+        [
+         "has warning",
+         0.8157
+        ],
+        [
+         "requires monitoring of",
+         0.8107
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "should inform doctor about",
+        "herbal products"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients taking the subject drug must inform their healthcare provider about the use of the specified substances or products to avoid potential adverse effects.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8767
+        ],
+        [
+         "requires use of",
+         0.8463
+        ],
+        [
+         "use with caution in",
+         0.8166
+        ],
+        [
+         "has warning",
+         0.8157
+        ],
+        [
+         "requires monitoring of",
+         0.8107
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "should inform doctor about",
+        "drugs prescribed by other doctors"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients taking the subject drug must inform their healthcare provider about the use of the specified substances or products to avoid potential adverse effects.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8767
+        ],
+        [
+         "requires use of",
+         0.8463
+        ],
+        [
+         "use with caution in",
+         0.8166
+        ],
+        [
+         "has warning",
+         0.8157
+        ],
+        [
+         "requires monitoring of",
+         0.8107
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Cetirizine",
+        "has warning",
+        "do not start new medication without doctor consultation"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug includes a caution or advisory that patients should be aware of, typically regarding potential risks or necessary actions.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "cetirizine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "cetirizine",
+    "belongs to drug class",
+    "second generation antihistamine"
+   ],
+   "raw_relation": "has generic class",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "cetirizine",
+    "lowers level of",
+    "histamine"
+   ],
+   "raw_relation": "reduces level of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "cetirizine",
+    "treats",
+    "sneezing"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "cetirizine",
+    "treats",
+    "itching"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "cetirizine",
+    "treats",
+    "watery eyes"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "cetirizine",
+    "treats",
+    "runny nose"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "cetirizine",
+    "treats",
+    "allergic reaction"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "cetirizine",
+    "treats",
+    "chronic urticaria"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "cetirizine",
+    "treats",
+    "itching and swelling from chronic urticaria"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "cetirizine",
+    "lowers level of",
+    "perennial allergic rhinitis"
+   ],
+   "raw_relation": "minimizes symptoms of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "cetirizine",
+    "lowers level of",
+    "seasonal allergic rhinitis"
+   ],
+   "raw_relation": "minimizes symptoms of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "cetirizine",
+    "lowers level of",
+    "chronic idiopathic urticaria"
+   ],
+   "raw_relation": "minimizes symptoms of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "cetirizine",
+    "lowers level of",
+    "allergic asthma"
+   ],
+   "raw_relation": "minimizes symptoms of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "cetirizine",
+    "may reduce response to",
+    "physical urticaria"
+   ],
+   "raw_relation": "minimizes symptoms of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "cetirizine",
+    "lowers level of",
+    "atopic dermatitis"
+   ],
+   "raw_relation": "minimizes symptoms of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "cetirizine",
+    "has side effect",
+    "impaired thinking"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "cetirizine",
+    "has side effect",
+    "impaired reactions"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "cetirizine",
+    "has administration instruction",
+    "be careful when driving or doing things requiring alertness"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "cetirizine",
+    "should be avoided with",
+    "alcohol"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "cetirizine",
+    "has side effect variation",
+    "other sleep-inducing medicines"
+   ],
+   "raw_relation": "can increase side effects of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "cetirizine",
+    "should inform doctor about",
+    "medicines that cause drowsiness"
+   ],
+   "raw_relation": "requires patient notification of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "cetirizine",
+    "has warning",
+    "symptoms may worsen or not improve"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "cetirizine",
+    "has warning",
+    "fever may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "trouble swallowing"
+   ],
+   "raw_relation": "has emergency warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "dizziness"
+   ],
+   "raw_relation": "has emergency warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "swelling of tongue or around mouth"
+   ],
+   "raw_relation": "has emergency warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "trouble speaking"
+   ],
+   "raw_relation": "has emergency warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "drooling"
+   ],
+   "raw_relation": "has emergency warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "wheezing"
+   ],
+   "raw_relation": "has emergency warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Cetirizine",
+    "not approved for",
+    "epinephrine injector"
+   ],
+   "raw_relation": "is not a substitute for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Cetirizine",
+    "not used to treat",
+    "prevent hives from known causes"
+   ],
+   "raw_relation": "should not be used to",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Cetirizine",
+    "has patient instruction",
+    "call doctor if hives do not improve after 3 days"
+   ],
+   "raw_relation": "has patient instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Cetirizine",
+    "has patient instruction",
+    "call doctor if hives last more than 6 weeks"
+   ],
+   "raw_relation": "has patient instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Cetirizine",
+    "has patient instruction",
+    "call doctor if hives have unusual color"
+   ],
+   "raw_relation": "has patient instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Cetirizine",
+    "has patient instruction",
+    "call doctor if hives look bruised or blistered"
+   ],
+   "raw_relation": "has patient instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Cetirizine",
+    "has patient instruction",
+    "call doctor if hives do not itch"
+   ],
+   "raw_relation": "has patient instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "severe itching when stopping after long-term use"
+   ],
+   "raw_relation": "has rare side effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Cetirizine",
+    "has warning",
+    "severe itching upon discontinuation after months or years of use"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Cetirizine",
+    "contraindicated in",
+    "allergy to cetirizine"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Cetirizine",
+    "contraindicated in",
+    "allergy to levocetirizine"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Cetirizine",
+    "contraindicated in",
+    "allergy to hydroxyzine"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Cetirizine",
+    "contraindicated in",
+    "allergy to any ingredient in the product"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Cetirizine",
+    "use with caution in",
+    "kidney disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Cetirizine",
+    "use with caution in",
+    "liver disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Cetirizine",
+    "has warning",
+    "pregnancy use"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Cetirizine",
+    "not approved for",
+    "breastfeeding"
+   ],
+   "raw_relation": "not recommended in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Cetirizine",
+    "treats",
+    "chronic idiopathic urticaria in adults"
+   ],
+   "raw_relation": "indicated for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Cetirizine",
+    "treats",
+    "chronic idiopathic urticaria in children 6 months of age and older"
+   ],
+   "raw_relation": "indicated for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Cetirizine",
+    "requires gradual dose reduction",
+    "older adults take lower than normal dose"
+   ],
+   "raw_relation": "has dose adjustment instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "cetirizine",
+    "has administration instruction",
+    "take exactly as directed on label or as prescribed by doctor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "cetirizine",
+    "has administration instruction",
+    "do not use in larger amounts or for longer than recommended"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "cetirizine",
+    "has administration instruction",
+    "food"
+   ],
+   "raw_relation": "can be taken with or without",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "cetirizine",
+    "has administration instruction",
+    "chewable tablet must be chewed before swallowing"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "cetirizine",
+    "has administration instruction",
+    "measure liquid medicine with special dose-measuring spoon or cup"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "cetirizine",
+    "has administration instruction",
+    "if no dose-measuring device available, ask pharmacist for one"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "cetirizine",
+    "has warning",
+    "call doctor if symptoms do not improve or get worse or if fever develops"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "cetirizine",
+    "has storage instruction",
+    "store at room temperature away from moisture and heat"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "Cetirizine",
+    "has missed dose instruction",
+    "take as soon as remembered"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "Cetirizine",
+    "has missed dose instruction",
+    "wait until next scheduled dose if almost time"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "Cetirizine",
+    "has missed dose instruction",
+    "do not take extra medicine"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "Cetirizine",
+    "has missed dose instruction",
+    "do not add extra doses"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "Cetirizine",
+    "has overdose instruction",
+    "seek emergency medical attention if you think you have used too much"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "Cetirizine",
+    "has overdose symptom",
+    "feeling restless or nervous"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "Cetirizine",
+    "has overdose symptom",
+    "feeling drowsy"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Cetirizine",
+    "interacts with",
+    "medicines that cause drowsiness"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Cetirizine",
+    "has side effect",
+    "impaired thinking"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Cetirizine",
+    "has side effect",
+    "impaired reactions"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Cetirizine",
+    "has administration instruction",
+    "be careful when driving or performing tasks requiring alertness"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Cetirizine",
+    "should be avoided with",
+    "alcohol"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "chronic idiopathic urticaria"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "difficulty breathing"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "swelling of face, lips, tongue, or throat"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "fast, pounding, or uneven heartbeat"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "weakness"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "tremors"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "sleep problems"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "severe restless feeling"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "hyperactivity"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "confusion"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "problems with vision"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "urinating less than usual"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has serious side effect",
+    "not urinating at all"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has side effect",
+    "dizziness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has side effect",
+    "drowsiness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has side effect",
+    "tired feeling"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has side effect",
+    "dry mouth"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has side effect",
+    "sore throat"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has side effect",
+    "cough"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has side effect",
+    "nausea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has side effect",
+    "constipation"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has side effect",
+    "headache"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has warning",
+    "serious adverse effects may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "has warning",
+    "allergic reactions may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Cetirizine",
+    "should inform doctor about",
+    "unusual or bothersome side effects"
+   ],
+   "raw_relation": "requires reporting of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Cetirizine",
+    "interacts with",
+    "other drugs"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "cetirizine#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Cetirizine",
+    "should inform doctor about",
+    "prescription medications"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Cetirizine",
+    "should inform doctor about",
+    "over-the-counter medications"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Cetirizine",
+    "should inform doctor about",
+    "vitamins"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Cetirizine",
+    "should inform doctor about",
+    "minerals"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Cetirizine",
+    "should inform doctor about",
+    "herbal products"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Cetirizine",
+    "should inform doctor about",
+    "drugs prescribed by other doctors"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "cetirizine#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Cetirizine",
+    "has warning",
+    "do not start new medication without doctor consultation"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  }
+ ],
+ "name": "Cetirizine",
+ "slug": "cetirizine",
+ "n_chunks": 10,
+ "seconds": 11.4,
+ "llm_model": "drugkg-llm"
+}

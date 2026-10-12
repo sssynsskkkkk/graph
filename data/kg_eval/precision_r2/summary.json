@@ -1,0 +1,27 @@
+{
+  "coref_decomp_edc_r2": {
+    "n": 500,
+    "labels": {
+      "partial": 213,
+      "correct": 224,
+      "incorrect": 63
+    },
+    "incorrect_errors": {
+      "wrong_relation": 53,
+      "wrong_entity": 6,
+      "not_in_text": 2,
+      "uninformative": 2
+    },
+    "labels_normalized_from_error_type": 0,
+    "precision_strict": 44.8,
+    "precision_strict_ci95": [
+      40.5,
+      49.2
+    ],
+    "precision_lenient": 87.4,
+    "precision_lenient_ci95": [
+      84.2,
+      90.0
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+Example 1:
+Text: Lipitor (atorvastatin) belongs to a group of drugs called statins. Lipitor is used together with diet to lower blood levels of "bad" cholesterol (LDL) and to reduce the risk of stroke and heart attack. It works by blocking an enzyme the body needs to make cholesterol.
+Triplets: [["Lipitor", "has generic name", "atorvastatin"], ["Lipitor", "belongs to drug class", "statins"], ["Lipitor", "used in combination with", "diet"], ["Lipitor", "treats", "high LDL cholesterol"], ["Lipitor", "reduces risk of", "stroke"], ["Lipitor", "reduces risk of", "heart attack"], ["Lipitor", "has mechanism of action", "blocking an enzyme needed to make cholesterol"]]
+
+Example 2:
+Text: You should not use metformin if you have severe kidney disease or metabolic acidosis. Tell your doctor if you have ever had liver disease or heart disease. Metformin may cause lactic acidosis, a serious and potentially fatal condition. Metformin is not approved for use by anyone younger than 10 years old.
+Triplets: [["metformin", "contraindicated in", "severe kidney disease"], ["metformin", "contraindicated in", "metabolic acidosis"], ["metformin", "use with caution in", "liver disease"], ["metformin", "use with caution in", "heart disease"], ["metformin", "has serious side effect", "lactic acidosis"], ["metformin", "not approved for", "children younger than 10 years old"]]
+
+Example 3:
+Text: Common side effects of sertraline may include nausea, diarrhea, and trouble sleeping. Get emergency medical help if you have signs of an allergic reaction such as hives or difficulty breathing. Sertraline is taken by mouth once a day, with or without food. The usual adult starting dose is 50 mg once daily. Your doctor may order blood tests to check your sodium levels.
+Triplets: [["sertraline", "has side effect", "nausea"], ["sertraline", "has side effect", "diarrhea"], ["sertraline", "has side effect", "trouble sleeping"], ["sertraline", "has serious side effect", "allergic reaction"], ["sertraline", "administered via", "oral"], ["sertraline", "has recommended dose", "50 mg once daily"], ["sertraline", "requires monitoring of", "blood sodium levels"]]
+
+Example 4:
+Text: Using tramadol with other drugs that make you sleepy or slow your breathing can cause dangerous side effects. Avoid drinking alcohol while taking tramadol. Tramadol is a federally controlled substance (Schedule IV) because it can be abused. Ultram, a brand of tramadol made by Janssen Pharmaceuticals, was approved by the FDA in 1995.
+Triplets: [["tramadol", "interacts with", "drugs that cause drowsiness or slow breathing"], ["tramadol", "should be avoided with", "alcohol"], ["tramadol", "has controlled substance schedule", "Schedule IV"], ["tramadol", "has warning", "risk of abuse"], ["tramadol", "has brand name", "Ultram"], ["Ultram", "manufactured by", "Janssen Pharmaceuticals"], ["Ultram", "fda approval year", "1995"]]
+
+Example 5:
+Text: Amlodipine is available as oral tablets in strengths of 2.5 mg, 5 mg, and 10 mg. Overdose symptoms may include rapid heartbeats and fainting. Taking amlodipine during pregnancy may harm an unborn baby. Store at room temperature away from moisture and heat.
+Triplets: [["amlodipine", "has dosage form", "oral tablet"], ["amlodipine", "has strength", "2.5 mg"], ["amlodipine", "has strength", "5 mg"], ["amlodipine", "has strength", "10 mg"], ["amlodipine", "has overdose symptom", "rapid heartbeats"], ["amlodipine", "has overdose symptom", "fainting"], ["amlodipine", "has pregnancy or breastfeeding warning", "may harm an unborn baby"], ["amlodipine", "has storage instruction", "store at room temperature away from moisture and heat"]]

@@ -1,0 +1,5155 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "ibuprofen#uses#0",
+     "section_id": "uses",
+     "section_heading": "What is ibuprofen?",
+     "text": "Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID). It works by reducing hormones that cause inflammation and pain in the body.\nIbuprofen is used to reduce fever and treat pain or inflammation caused by many conditions such as headache, toothache, back pain, arthritis, menstrual cramps, or minor injury.\nIbuprofen is used in adults and children. Some formulations are also used in premature babies to close a certain heart defect.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"ibuprofen\", \"has generic class\", \"NSAID\"], [\"ibuprofen\", \"has mechanism of action\", \"reducing hormones that cause inflammation and pain\"], [\"ibuprofen\", \"treats\", \"fever\"], [\"ibuprofen\", \"treats\", \"headache\"], [\"ibuprofen\", \"treats\", \"toothache\"], [\"ibuprofen\", \"treats\", \"back pain\"], [\"ibuprofen\", \"treats\", \"arthritis\"], [\"ibuprofen\", \"treats\", \"menstrual cramps\"], [\"ibuprofen\", \"treats\", \"minor injury\"], [\"ibuprofen\", \"used in\", \"adults\"], [\"ibuprofen\", \"used in\", \"children\"], [\"ibuprofen\", \"used in\", \"premature babies\"], [\"ibuprofen\", \"used for\", \"closing a certain heart defect in premature babies\"]]",
+     "oie": [
+      [
+       "ibuprofen",
+       "has generic class",
+       "NSAID"
+      ],
+      [
+       "ibuprofen",
+       "has mechanism of action",
+       "reducing hormones that cause inflammation and pain"
+      ],
+      [
+       "ibuprofen",
+       "treats",
+       "fever"
+      ],
+      [
+       "ibuprofen",
+       "treats",
+       "headache"
+      ],
+      [
+       "ibuprofen",
+       "treats",
+       "toothache"
+      ],
+      [
+       "ibuprofen",
+       "treats",
+       "back pain"
+      ],
+      [
+       "ibuprofen",
+       "treats",
+       "arthritis"
+      ],
+      [
+       "ibuprofen",
+       "treats",
+       "menstrual cramps"
+      ],
+      [
+       "ibuprofen",
+       "treats",
+       "minor injury"
+      ],
+      [
+       "ibuprofen",
+       "used in",
+       "adults"
+      ],
+      [
+       "ibuprofen",
+       "used in",
+       "children"
+      ],
+      [
+       "ibuprofen",
+       "used in",
+       "premature babies"
+      ],
+      [
+       "ibuprofen",
+       "used for",
+       "closing a certain heart defect in premature babies"
+      ]
+     ],
+     "schema_definition": {
+      "has generic class": "The subject drug belongs to the pharmacological class specified by the object entity.",
+      "has mechanism of action": "The subject drug exerts its effect by reducing the hormones that cause inflammation and pain.",
+      "treats": "The subject drug is used to manage or alleviate the symptoms of the medical condition specified by the object entity.",
+      "used for": "The subject drug is applied to achieve the specific medical purpose specified by the object entity.",
+      "used in": "The subject drug is indicated for use in patients with the condition or population specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "ibuprofen",
+        "belongs to drug class",
+        "NSAID"
+       ],
+       "raw_relation": "has generic class",
+       "definition": "The subject drug belongs to the pharmacological class specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "belongs to drug class",
+         0.9666
+        ],
+        [
+         "has dosage form",
+         0.8764
+        ],
+        [
+         "similar to",
+         0.8671
+        ],
+        [
+         "treats",
+         0.866
+        ],
+        [
+         "has controlled substance schedule",
+         0.8656
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has mechanism of action",
+        "reducing hormones that cause inflammation and pain"
+       ],
+       "raw_relation": "has mechanism of action",
+       "definition": "The subject drug exerts its effect by reducing the hormones that cause inflammation and pain.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "treats",
+        "fever"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms of the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "treats",
+        "headache"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms of the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "treats",
+        "toothache"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms of the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "treats",
+        "back pain"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms of the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "treats",
+        "arthritis"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms of the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "treats",
+        "menstrual cramps"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms of the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "treats",
+        "minor injury"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms of the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "used in population",
+        "adults"
+       ],
+       "raw_relation": "used in",
+       "definition": "The subject drug is indicated for use in patients with the condition or population specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.9392
+        ],
+        [
+         "treats",
+         0.9307
+        ],
+        [
+         "can occur with",
+         0.9178
+        ],
+        [
+         "has history of use",
+         0.8894
+        ],
+        [
+         "has dosage form",
+         0.8861
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "used in population",
+        "children"
+       ],
+       "raw_relation": "used in",
+       "definition": "The subject drug is indicated for use in patients with the condition or population specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.9392
+        ],
+        [
+         "treats",
+         0.9307
+        ],
+        [
+         "can occur with",
+         0.9178
+        ],
+        [
+         "has history of use",
+         0.8894
+        ],
+        [
+         "has dosage form",
+         0.8861
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "used in population",
+        "premature babies"
+       ],
+       "raw_relation": "used in",
+       "definition": "The subject drug is indicated for use in patients with the condition or population specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.9392
+        ],
+        [
+         "treats",
+         0.9307
+        ],
+        [
+         "can occur with",
+         0.9178
+        ],
+        [
+         "has history of use",
+         0.8894
+        ],
+        [
+         "has dosage form",
+         0.8861
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "treats",
+        "closing a certain heart defect in premature babies"
+       ],
+       "raw_relation": "used for",
+       "definition": "The subject drug is applied to achieve the specific medical purpose specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "treats",
+         0.9288
+        ],
+        [
+         "has dosage form",
+         0.8891
+        ],
+        [
+         "belongs to drug class",
+         0.8809
+        ],
+        [
+         "can occur with",
+         0.8791
+        ],
+        [
+         "used in population",
+         0.8784
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "ibuprofen#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "Ibuprofen can increase your risk of fatal heart attack, heart failure, or stroke. Do not use this medicine just before or after heart bypass surgery (coronary artery bypass graft, or CABG). Avoid taking ibuprofen after a recent heart attack, unless your doctor tells you to.\nIbuprofen may also cause stomach or intestinal bleeding, which can be fatal. These conditions can occur without warning while you are using this medicine, especially in older adults.\nDo not take more than your recommended dose. An ibuprofen overdose can damage your stomach or intestines. Use only the smallest amount of medication needed to get relief from your pain, swelling, or fever.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"ibuprofen\", \"increases risk of\", \"fatal heart attack\"], [\"ibuprofen\", \"increases risk of\", \"heart failure\"], [\"ibuprofen\", \"increases risk of\", \"stroke\"], [\"ibuprofen\", \"contraindicated in\", \"heart bypass surgery\"], [\"ibuprofen\", \"contraindicated in\", \"recent heart attack\"], [\"ibuprofen\", \"has side effect\", \"stomach bleeding\"], [\"ibuprofen\", \"has side effect\", \"intestinal bleeding\"], [\"ibuprofen\", \"has side effect\", \"fatal bleeding\"], [\"ibuprofen\", \"has warning\", \"bleeding may occur without warning\"], [\"ibuprofen\", \"has warning\", \"increased risk in older adults\"], [\"ibuprofen\", \"has overdose instruction\", \"do not take more than recommended dose\"], [\"ibuprofen\", \"has overdose effect\", \"stomach damage\"], [\"ibuprofen\", \"has overdose effect\", \"intestine damage\"], [\"ibuprofen\", \"has administration instruction\", \"use only smallest amount needed for pain, swelling, or fever\"]]",
+     "oie": [
+      [
+       "ibuprofen",
+       "increases risk of",
+       "fatal heart attack"
+      ],
+      [
+       "ibuprofen",
+       "increases risk of",
+       "heart failure"
+      ],
+      [
+       "ibuprofen",
+       "increases risk of",
+       "stroke"
+      ],
+      [
+       "ibuprofen",
+       "contraindicated in",
+       "heart bypass surgery"
+      ],
+      [
+       "ibuprofen",
+       "contraindicated in",
+       "recent heart attack"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "stomach bleeding"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "intestinal bleeding"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "fatal bleeding"
+      ],
+      [
+       "ibuprofen",
+       "has warning",
+       "bleeding may occur without warning"
+      ],
+      [
+       "ibuprofen",
+       "has warning",
+       "increased risk in older adults"
+      ],
+      [
+       "ibuprofen",
+       "has overdose instruction",
+       "do not take more than recommended dose"
+      ],
+      [
+       "ibuprofen",
+       "has overdose effect",
+       "stomach damage"
+      ],
+      [
+       "ibuprofen",
+       "has overdose effect",
+       "intestine damage"
+      ],
+      [
+       "ibuprofen",
+       "has administration instruction",
+       "use only smallest amount needed for pain, swelling, or fever"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "has administration instruction": "The subject drug should be used in the manner specified by the object entity to ensure safe and effective treatment.",
+      "has overdose effect": "An overdose of the subject drug may cause the adverse effect specified by the object entity.",
+      "has overdose instruction": "Patients taking the subject drug should follow the dosage guidance specified by the object entity to prevent overdose.",
+      "has side effect": "The subject drug may cause the adverse effect specified by the object entity.",
+      "has warning": "The subject drug carries a caution or risk notice regarding the condition or occurrence specified by the object entity.",
+      "increases risk of": "The subject drug is associated with a higher likelihood of developing the medical event or condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "ibuprofen",
+        "increases risk of",
+        "fatal heart attack"
+       ],
+       "raw_relation": "increases risk of",
+       "definition": "The subject drug is associated with a higher likelihood of developing the medical event or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "increases risk of",
+        "heart failure"
+       ],
+       "raw_relation": "increases risk of",
+       "definition": "The subject drug is associated with a higher likelihood of developing the medical event or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "increases risk of",
+        "stroke"
+       ],
+       "raw_relation": "increases risk of",
+       "definition": "The subject drug is associated with a higher likelihood of developing the medical event or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "contraindicated in",
+        "heart bypass surgery"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "contraindicated in",
+        "recent heart attack"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "stomach bleeding"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "intestinal bleeding"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "fatal bleeding"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has warning",
+        "bleeding may occur without warning"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or risk notice regarding the condition or occurrence specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has warning",
+        "increased risk in older adults"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or risk notice regarding the condition or occurrence specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has overdose instruction",
+        "do not take more than recommended dose"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "Patients taking the subject drug should follow the dosage guidance specified by the object entity to prevent overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has serious side effect",
+        "stomach damage"
+       ],
+       "raw_relation": "has overdose effect",
+       "definition": "An overdose of the subject drug may cause the adverse effect specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has overdose symptom",
+         0.9601
+        ],
+        [
+         "has side effect",
+         0.9295
+        ],
+        [
+         "has serious side effect",
+         0.8921
+        ],
+        [
+         "has overdose instruction",
+         0.8772
+        ],
+        [
+         "interacts with",
+         0.8674
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has serious side effect",
+        "intestine damage"
+       ],
+       "raw_relation": "has overdose effect",
+       "definition": "An overdose of the subject drug may cause the adverse effect specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has overdose symptom",
+         0.9601
+        ],
+        [
+         "has side effect",
+         0.9295
+        ],
+        [
+         "has serious side effect",
+         0.8921
+        ],
+        [
+         "has overdose instruction",
+         0.8772
+        ],
+        [
+         "interacts with",
+         0.8674
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has administration instruction",
+        "use only smallest amount needed for pain, swelling, or fever"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be used in the manner specified by the object entity to ensure safe and effective treatment.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "ibuprofen#before-taking#0",
+     "section_id": "before-taking",
+     "section_heading": "Before taking this medicine",
+     "text": "You should not use ibuprofen if you are allergic to it, or if you have ever had an asthma attack or severe allergic reaction after taking aspirin or an NSAID.\nAsk a doctor or pharmacist if this medicine is safe to use if you have ever had:\n- heart disease, high blood pressure, high cholesterol, diabetes, or if you smoke;\n- a heart attack, stroke, or blood clot;\n- stomach ulcers or bleeding;\n- liver or kidney disease;\n- asthma; or\n- if you take aspirin to prevent heart attack or stroke.\nAsk a doctor before using this medicine if you are pregnant or breastfeeding.\nIf you are pregnant, you should not take ibuprofen unless your doctor tells you to. Taking an NSAID at 20 weeks or later in pregnancy can cause serious heart or kidney problems in the unborn baby and possible complications with your pregnancy. Do not take ibuprofen after 30 weeks of pregnancy.\nIbuprofen may cause a temporary delay in ovulation, which can make it harder to get pregnant. Tell your doctor if you are having trouble getting pregnant.\nDo not give ibuprofen to a child younger than 6 months old without the advice of a doctor.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"ibuprofen\", \"contraindicated in\", \"allergy to ibuprofen\"], [\"ibuprofen\", \"contraindicated in\", \"asthma attack after aspirin or NSAID\"], [\"ibuprofen\", \"use with caution in\", \"heart disease\"], [\"ibuprofen\", \"use with caution in\", \"high blood pressure\"], [\"ibuprofen\", \"use with caution in\", \"high cholesterol\"], [\"ibuprofen\", \"use with caution in\", \"diabetes\"], [\"ibuprofen\", \"use with caution in\", \"smoking\"], [\"ibuprofen\", \"use with caution in\", \"history of heart attack\"], [\"ibuprofen\", \"use with caution in\", \"history of stroke\"], [\"ibuprofen\", \"use with caution in\", \"blood clot\"], [\"ibuprofen\", \"use with caution in\", \"stomach ulcers\"], [\"ibuprofen\", \"use with caution in\", \"stomach bleeding\"], [\"ibuprofen\", \"use with caution in\", \"liver disease\"], [\"ibuprofen\", \"use with caution in\", \"kidney disease\"], [\"ibuprofen\", \"use with caution in\", \"asthma\"], [\"ibuprofen\", \"use with caution in\", \"aspirin for heart attack or stroke prevention\"], [\"ibuprofen\", \"requires medical advice in\", \"pregnancy\"], [\"ibuprofen\", \"requires medical advice in\", \"breastfeeding\"], [\"ibuprofen\", \"has pregnancy warning\", \"may cause heart or kidney problems in unborn baby at 20 weeks or later\"], [\"ibuprofen\", \"has pregnancy warning\", \"may cause complications in pregnancy\"], [\"ibuprofen\", \"has pregnancy restriction\", \"not to be taken after 30 weeks of pregnancy\"], [\"ibuprofen\", \"has side effect\", \"temporary delay in ovulation\"], [\"ibuprofen\", \"has warning\", \"may reduce fertility\"], [\"ibuprofen\", \"should not be given to\", \"children younger than 6 months old\"]]",
+     "oie": [
+      [
+       "ibuprofen",
+       "contraindicated in",
+       "allergy to ibuprofen"
+      ],
+      [
+       "ibuprofen",
+       "contraindicated in",
+       "asthma attack after aspirin or NSAID"
+      ],
+      [
+       "ibuprofen",
+       "use with caution in",
+       "heart disease"
+      ],
+      [
+       "ibuprofen",
+       "use with caution in",
+       "high blood pressure"
+      ],
+      [
+       "ibuprofen",
+       "use with caution in",
+       "high cholesterol"
+      ],
+      [
+       "ibuprofen",
+       "use with caution in",
+       "diabetes"
+      ],
+      [
+       "ibuprofen",
+       "use with caution in",
+       "smoking"
+      ],
+      [
+       "ibuprofen",
+       "use with caution in",
+       "history of heart attack"
+      ],
+      [
+       "ibuprofen",
+       "use with caution in",
+       "history of stroke"
+      ],
+      [
+       "ibuprofen",
+       "use with caution in",
+       "blood clot"
+      ],
+      [
+       "ibuprofen",
+       "use with caution in",
+       "stomach ulcers"
+      ],
+      [
+       "ibuprofen",
+       "use with caution in",
+       "stomach bleeding"
+      ],
+      [
+       "ibuprofen",
+       "use with caution in",
+       "liver disease"
+      ],
+      [
+       "ibuprofen",
+       "use with caution in",
+       "kidney disease"
+      ],
+      [
+       "ibuprofen",
+       "use with caution in",
+       "asthma"
+      ],
+      [
+       "ibuprofen",
+       "use with caution in",
+       "aspirin for heart attack or stroke prevention"
+      ],
+      [
+       "ibuprofen",
+       "requires medical advice in",
+       "pregnancy"
+      ],
+      [
+       "ibuprofen",
+       "requires medical advice in",
+       "breastfeeding"
+      ],
+      [
+       "ibuprofen",
+       "has pregnancy warning",
+       "may cause heart or kidney problems in unborn baby at 20 weeks or later"
+      ],
+      [
+       "ibuprofen",
+       "has pregnancy warning",
+       "may cause complications in pregnancy"
+      ],
+      [
+       "ibuprofen",
+       "has pregnancy restriction",
+       "not to be taken after 30 weeks of pregnancy"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "temporary delay in ovulation"
+      ],
+      [
+       "ibuprofen",
+       "has warning",
+       "may reduce fertility"
+      ],
+      [
+       "ibuprofen",
+       "should not be given to",
+       "children younger than 6 months old"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+      "has pregnancy restriction": "The subject drug is not permitted to be used beyond the specified stage of pregnancy.",
+      "has pregnancy warning": "The subject drug may cause serious adverse effects on the unborn baby or the mother's pregnancy when used during pregnancy.",
+      "has side effect": "The subject drug may cause the adverse effect specified by the object entity.",
+      "has warning": "The subject drug may have an effect on the specified physiological or reproductive function, requiring caution.",
+      "requires medical advice in": "Patients with the specified condition or status should consult a healthcare professional before using the subject drug.",
+      "should not be given to": "The subject drug should not be administered to the specified population without medical supervision.",
+      "use with caution in": "The subject drug may pose risks or require careful monitoring in patients with the specified medical condition."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "ibuprofen",
+        "contraindicated in",
+        "allergy to ibuprofen"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "contraindicated in",
+        "asthma attack after aspirin or NSAID"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "heart disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose risks or require careful monitoring in patients with the specified medical condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "high blood pressure"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose risks or require careful monitoring in patients with the specified medical condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "high cholesterol"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose risks or require careful monitoring in patients with the specified medical condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "diabetes"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose risks or require careful monitoring in patients with the specified medical condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "smoking"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose risks or require careful monitoring in patients with the specified medical condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "history of heart attack"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose risks or require careful monitoring in patients with the specified medical condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "history of stroke"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose risks or require careful monitoring in patients with the specified medical condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "blood clot"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose risks or require careful monitoring in patients with the specified medical condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "stomach ulcers"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose risks or require careful monitoring in patients with the specified medical condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "stomach bleeding"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose risks or require careful monitoring in patients with the specified medical condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "liver disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose risks or require careful monitoring in patients with the specified medical condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "kidney disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose risks or require careful monitoring in patients with the specified medical condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "asthma"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose risks or require careful monitoring in patients with the specified medical condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "aspirin for heart attack or stroke prevention"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose risks or require careful monitoring in patients with the specified medical condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "pregnancy"
+       ],
+       "raw_relation": "requires medical advice in",
+       "definition": "Patients with the specified condition or status should consult a healthcare professional before using the subject drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may require temporary discontinuation before",
+         0.8225
+        ],
+        [
+         "requires use of",
+         0.8194
+        ],
+        [
+         "should inform doctor about",
+         0.819
+        ],
+        [
+         "requires monitoring of",
+         0.8054
+        ],
+        [
+         "use with caution in",
+         0.7938
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "breastfeeding"
+       ],
+       "raw_relation": "requires medical advice in",
+       "definition": "Patients with the specified condition or status should consult a healthcare professional before using the subject drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may require temporary discontinuation before",
+         0.8225
+        ],
+        [
+         "requires use of",
+         0.8194
+        ],
+        [
+         "should inform doctor about",
+         0.819
+        ],
+        [
+         "requires monitoring of",
+         0.8054
+        ],
+        [
+         "use with caution in",
+         0.7938
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has pregnancy or breastfeeding warning",
+        "may cause heart or kidney problems in unborn baby at 20 weeks or later"
+       ],
+       "raw_relation": "has pregnancy warning",
+       "definition": "The subject drug may cause serious adverse effects on the unborn baby or the mother's pregnancy when used during pregnancy.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has pregnancy or breastfeeding warning",
+         0.8263
+        ],
+        [
+         "has serious side effect",
+         0.7791
+        ],
+        [
+         "has side effect",
+         0.7718
+        ],
+        [
+         "has warning",
+         0.7307
+        ],
+        [
+         "interacts with",
+         0.7246
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has pregnancy or breastfeeding warning",
+        "may cause complications in pregnancy"
+       ],
+       "raw_relation": "has pregnancy warning",
+       "definition": "The subject drug may cause serious adverse effects on the unborn baby or the mother's pregnancy when used during pregnancy.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has pregnancy or breastfeeding warning",
+         0.8263
+        ],
+        [
+         "has serious side effect",
+         0.7791
+        ],
+        [
+         "has side effect",
+         0.7718
+        ],
+        [
+         "has warning",
+         0.7307
+        ],
+        [
+         "interacts with",
+         0.7246
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has pregnancy or breastfeeding warning",
+        "not to be taken after 30 weeks of pregnancy"
+       ],
+       "raw_relation": "has pregnancy restriction",
+       "definition": "The subject drug is not permitted to be used beyond the specified stage of pregnancy.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has repeat course interval restriction",
+         0.7988
+        ],
+        [
+         "has unknown risk duration",
+         0.7797
+        ],
+        [
+         "not approved for",
+         0.7762
+        ],
+        [
+         "has pregnancy or breastfeeding warning",
+         0.7712
+        ],
+        [
+         "contraindicated in",
+         0.7623
+        ]
+       ],
+       "answer": "D"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "temporary delay in ovulation"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has warning",
+        "may reduce fertility"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may have an effect on the specified physiological or reproductive function, requiring caution.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "contraindicated in",
+        "children younger than 6 months old"
+       ],
+       "raw_relation": "should not be given to",
+       "definition": "The subject drug should not be administered to the specified population without medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has repeat course interval restriction",
+         0.8351
+        ],
+        [
+         "contraindicated in",
+         0.8155
+        ],
+        [
+         "requires doctor consultation before discontinuation",
+         0.8045
+        ],
+        [
+         "has contraindicated route",
+         0.8003
+        ],
+        [
+         "does not reduce risk of",
+         0.7846
+        ]
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "chunk_id": "ibuprofen#dosage#0",
+     "section_id": "dosage",
+     "section_heading": "How should I take ibuprofen?",
+     "text": "Use ibuprofen exactly as directed on the label, or as prescribed by your doctor. Use the lowest dose that is effective in treating your condition.\nAn ibuprofen overdose can damage your stomach or intestines. The maximum amount of ibuprofen for adults is 800 milligrams per dose or 3200 mg per day (4 maximum doses).\nA child's dose is based on the age and weight of the child. Carefully follow the dosing instructions provided with children's ibuprofen for the age and weight of your child. Ask a doctor or pharmacist if you have questions.\nTake ibuprofen with food or milk to lessen stomach upset.\nShake the oral suspension (liquid) before you measure a dose. Use the dosing syringe provided, or use a medicine dose-measuring device (not a kitchen spoon).\nYou must chew the chewable tablet before you swallow it.\nStore at room temperature away from moisture and heat. Do not allow the liquid medicine to freeze.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"ibuprofen\", \"has administration instruction\", \"use exactly as directed on the label or as prescribed by your doctor\"], [\"ibuprofen\", \"has administration instruction\", \"use lowest dose that is effective for treating your condition\"], [\"ibuprofen\", \"has overdose effect\", \"stomach or intestinal damage\"], [\"ibuprofen\", \"has maximum dose\", \"800 mg per dose\"], [\"ibuprofen\", \"has maximum daily dose\", \"3200 mg per day (4 maximum doses)\"], [\"ibuprofen\", \"has dose based on\", \"child's age and weight\"], [\"ibuprofen\", \"has administration instruction\", \"take with food or milk to lessen stomach upset\"], [\"ibuprofen\", \"has administration instruction\", \"shake oral suspension before measuring dose\"], [\"ibuprofen\", \"has administration instruction\", \"use dosing syringe provided or medicine dose-measuring device\"], [\"ibuprofen\", \"has administration instruction\", \"chew chewable tablet before swallowing\"], [\"ibuprofen\", \"has storage instruction\", \"store at room temperature away from moisture and heat\"], [\"ibuprofen\", \"has storage warning\", \"do not allow liquid medicine to freeze\"]]",
+     "oie": [
+      [
+       "ibuprofen",
+       "has administration instruction",
+       "use exactly as directed on the label or as prescribed by your doctor"
+      ],
+      [
+       "ibuprofen",
+       "has administration instruction",
+       "use lowest dose that is effective for treating your condition"
+      ],
+      [
+       "ibuprofen",
+       "has overdose effect",
+       "stomach or intestinal damage"
+      ],
+      [
+       "ibuprofen",
+       "has maximum dose",
+       "800 mg per dose"
+      ],
+      [
+       "ibuprofen",
+       "has maximum daily dose",
+       "3200 mg per day (4 maximum doses)"
+      ],
+      [
+       "ibuprofen",
+       "has dose based on",
+       "child's age and weight"
+      ],
+      [
+       "ibuprofen",
+       "has administration instruction",
+       "take with food or milk to lessen stomach upset"
+      ],
+      [
+       "ibuprofen",
+       "has administration instruction",
+       "shake oral suspension before measuring dose"
+      ],
+      [
+       "ibuprofen",
+       "has administration instruction",
+       "use dosing syringe provided or medicine dose-measuring device"
+      ],
+      [
+       "ibuprofen",
+       "has administration instruction",
+       "chew chewable tablet before swallowing"
+      ],
+      [
+       "ibuprofen",
+       "has storage instruction",
+       "store at room temperature away from moisture and heat"
+      ],
+      [
+       "ibuprofen",
+       "has storage warning",
+       "do not allow liquid medicine to freeze"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug should be used according to the specific instructions specified by the object entity.",
+      "has dose based on": "The dose of the subject drug is determined by the factors specified in the object entity.",
+      "has maximum daily dose": "The highest total amount of the subject drug that should be taken in a 24-hour period is specified by the object entity.",
+      "has maximum dose": "The highest amount of the subject drug that should be taken per administration is specified by the object entity.",
+      "has overdose effect": "An overdose of the subject drug may cause the adverse effect specified by the object entity.",
+      "has storage instruction": "The subject drug should be stored under the conditions specified by the object entity.",
+      "has storage warning": "The subject drug should not be stored under the condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "ibuprofen",
+        "has administration instruction",
+        "use exactly as directed on the label or as prescribed by your doctor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be used according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has administration instruction",
+        "use lowest dose that is effective for treating your condition"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be used according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has serious side effect",
+        "stomach or intestinal damage"
+       ],
+       "raw_relation": "has overdose effect",
+       "definition": "An overdose of the subject drug may cause the adverse effect specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has overdose symptom",
+         0.9601
+        ],
+        [
+         "has side effect",
+         0.9295
+        ],
+        [
+         "has serious side effect",
+         0.8921
+        ],
+        [
+         "has overdose instruction",
+         0.8772
+        ],
+        [
+         "interacts with",
+         0.8674
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has maximum dose",
+        "800 mg per dose"
+       ],
+       "raw_relation": "has maximum dose",
+       "definition": "The highest amount of the subject drug that should be taken per administration is specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has maximum daily dose",
+        "3200 mg per day (4 maximum doses)"
+       ],
+       "raw_relation": "has maximum daily dose",
+       "definition": "The highest total amount of the subject drug that should be taken in a 24-hour period is specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "has duration of treatment",
+         0.828
+        ],
+        [
+         "has dosage form",
+         0.8004
+        ],
+        [
+         "has administration instruction",
+         0.7961
+        ],
+        [
+         "has strength",
+         0.7899
+        ],
+        [
+         "has half life",
+         0.7867
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has dose adjustment based on",
+        "child's age and weight"
+       ],
+       "raw_relation": "has dose based on",
+       "definition": "The dose of the subject drug is determined by the factors specified in the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has dose adjustment based on",
+         0.9235
+        ],
+        [
+         "has strength",
+         0.8921
+        ],
+        [
+         "has recommended dose",
+         0.8884
+        ],
+        [
+         "has dosage form",
+         0.8637
+        ],
+        [
+         "has duration of treatment",
+         0.8362
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has administration instruction",
+        "take with food or milk to lessen stomach upset"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be used according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has administration instruction",
+        "shake oral suspension before measuring dose"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be used according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has administration instruction",
+        "use dosing syringe provided or medicine dose-measuring device"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be used according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has administration instruction",
+        "chew chewable tablet before swallowing"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be used according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has storage instruction",
+        "store at room temperature away from moisture and heat"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug should be stored under the conditions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "should not be stored in",
+        "do not allow liquid medicine to freeze"
+       ],
+       "raw_relation": "has storage warning",
+       "definition": "The subject drug should not be stored under the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should not be taken",
+         0.9231
+        ],
+        [
+         "contraindicated in",
+         0.9138
+        ],
+        [
+         "should not be stored in",
+         0.8682
+        ],
+        [
+         "does not reduce risk of",
+         0.8601
+        ],
+        [
+         "should be avoided with",
+         0.8591
+        ]
+       ],
+       "answer": "C"
+      }
+     ]
+    },
+    {
+     "chunk_id": "ibuprofen#missed-dose#0",
+     "section_id": "missed-dose",
+     "section_heading": "What happens if I miss a dose?",
+     "text": "Since ibuprofen is used when needed, you may not be on a dosing schedule. Skip any missed dose if it's almost time for your next dose. Do not use two doses at one time.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"ibuprofen\", \"has administration instruction\", \"skip missed dose if almost time for next dose\"], [\"ibuprofen\", \"has instruction for missed dose\", \"do not use two doses at one time\"]]",
+     "oie": [
+      [
+       "ibuprofen",
+       "has administration instruction",
+       "skip missed dose if almost time for next dose"
+      ],
+      [
+       "ibuprofen",
+       "has instruction for missed dose",
+       "do not use two doses at one time"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug includes specific guidance on how to administer the drug as specified by the object entity.",
+      "has instruction for missed dose": "The subject drug provides instructions on what to do if a dose is missed, as specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "ibuprofen",
+        "has administration instruction",
+        "skip missed dose if almost time for next dose"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug includes specific guidance on how to administer the drug as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has missed dose instruction",
+        "do not use two doses at one time"
+       ],
+       "raw_relation": "has instruction for missed dose",
+       "definition": "The subject drug provides instructions on what to do if a dose is missed, as specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has missed dose instruction",
+         0.9466
+        ],
+        [
+         "has recommended dose",
+         0.8583
+        ],
+        [
+         "has overdose instruction",
+         0.8554
+        ],
+        [
+         "has dosage form",
+         0.8397
+        ],
+        [
+         "administered via",
+         0.8364
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "ibuprofen#overdose#0",
+     "section_id": "overdose",
+     "section_heading": "What happens if I overdose?",
+     "text": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222. Overdose symptoms may include nausea, vomiting, stomach pain, drowsiness, black or bloody stools, coughing up blood, shallow breathing, fainting, or coma.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"ibuprofen\", \"has overdose instruction\", \"seek emergency medical attention\"], [\"ibuprofen\", \"has overdose instruction\", \"call Poison Help line at 1-800-222-1222\"], [\"ibuprofen\", \"has overdose symptom\", \"nausea\"], [\"ibuprofen\", \"has overdose symptom\", \"vomiting\"], [\"ibuprofen\", \"has overdose symptom\", \"stomach pain\"], [\"ibuprofen\", \"has overdose symptom\", \"drowsiness\"], [\"ibuprofen\", \"has overdose symptom\", \"black or bloody stools\"], [\"ibuprofen\", \"has overdose symptom\", \"coughing up blood\"], [\"ibuprofen\", \"has overdose symptom\", \"shallow breathing\"], [\"ibuprofen\", \"has overdose symptom\", \"fainting\"], [\"ibuprofen\", \"has overdose symptom\", \"coma\"]]",
+     "oie": [
+      [
+       "ibuprofen",
+       "has overdose instruction",
+       "seek emergency medical attention"
+      ],
+      [
+       "ibuprofen",
+       "has overdose instruction",
+       "call Poison Help line at 1-800-222-1222"
+      ],
+      [
+       "ibuprofen",
+       "has overdose symptom",
+       "nausea"
+      ],
+      [
+       "ibuprofen",
+       "has overdose symptom",
+       "vomiting"
+      ],
+      [
+       "ibuprofen",
+       "has overdose symptom",
+       "stomach pain"
+      ],
+      [
+       "ibuprofen",
+       "has overdose symptom",
+       "drowsiness"
+      ],
+      [
+       "ibuprofen",
+       "has overdose symptom",
+       "black or bloody stools"
+      ],
+      [
+       "ibuprofen",
+       "has overdose symptom",
+       "coughing up blood"
+      ],
+      [
+       "ibuprofen",
+       "has overdose symptom",
+       "shallow breathing"
+      ],
+      [
+       "ibuprofen",
+       "has overdose symptom",
+       "fainting"
+      ],
+      [
+       "ibuprofen",
+       "has overdose symptom",
+       "coma"
+      ]
+     ],
+     "schema_definition": {
+      "has overdose instruction": "The subject drug requires the action specified by the object entity in case of overdose.",
+      "has overdose symptom": "An overdose of the subject drug may cause the symptom specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "ibuprofen",
+        "has overdose instruction",
+        "seek emergency medical attention"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has overdose instruction",
+        "call Poison Help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has overdose symptom",
+        "nausea"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has overdose symptom",
+        "vomiting"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has overdose symptom",
+        "stomach pain"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has overdose symptom",
+        "drowsiness"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has overdose symptom",
+        "black or bloody stools"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has overdose symptom",
+        "coughing up blood"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has overdose symptom",
+        "shallow breathing"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has overdose symptom",
+        "fainting"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has overdose symptom",
+        "coma"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "ibuprofen#what-to-avoid#0",
+     "section_id": "what-to-avoid",
+     "section_heading": "What to avoid",
+     "text": "Ask a doctor or pharmacist before using other medicines for pain, fever, swelling, or cold/flu symptoms. They may contain ingredients similar to ibuprofen (such as aspirin, ketoprofen, or naproxen).\nAvoid taking aspirin unless your doctor tells you to.\nIf you also take aspirin to prevent stroke or heart attack, taking ibuprofen can make aspirin less effective in protecting your heart and blood vessels. If you take both medicines, take ibuprofen at least 8 hours before or 30 minutes after you take aspirin (non-enteric coated form).\nAvoid drinking alcohol. It may increase your risk of stomach bleeding.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Ibuprofen\", \"interacts with\", \"medicines for pain, fever, swelling, or cold/flu symptoms\"], [\"Ibuprofen\", \"interacts with\", \"aspirin\"], [\"Ibuprofen\", \"contraindicated in\", \"aspirin use without doctor instruction\"], [\"Ibuprofen\", \"reduces effectiveness of\", \"aspirin for stroke or heart attack prevention\"], [\"Ibuprofen\", \"has administration instruction\", \"take at least 8 hours before or 30 minutes after aspirin (non-enteric coated form)\"], [\"Ibuprofen\", \"has warning\", \"increased risk of stomach bleeding when combined with alcohol\"], [\"Ibuprofen\", \"should be avoided with\", \"alcohol\"]]",
+     "oie": [
+      [
+       "Ibuprofen",
+       "interacts with",
+       "medicines for pain, fever, swelling, or cold/flu symptoms"
+      ],
+      [
+       "Ibuprofen",
+       "interacts with",
+       "aspirin"
+      ],
+      [
+       "Ibuprofen",
+       "contraindicated in",
+       "aspirin use without doctor instruction"
+      ],
+      [
+       "Ibuprofen",
+       "reduces effectiveness of",
+       "aspirin for stroke or heart attack prevention"
+      ],
+      [
+       "Ibuprofen",
+       "has administration instruction",
+       "take at least 8 hours before or 30 minutes after aspirin (non-enteric coated form)"
+      ],
+      [
+       "Ibuprofen",
+       "has warning",
+       "increased risk of stomach bleeding when combined with alcohol"
+      ],
+      [
+       "Ibuprofen",
+       "should be avoided with",
+       "alcohol"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who are using the specified substance or condition without medical supervision.",
+      "has administration instruction": "The subject drug must be taken at the specific time relative to another drug as specified in the object entity to ensure safety or efficacy.",
+      "has warning": "Combining the subject drug with the object entity may lead to the adverse effect specified by the object entity.",
+      "interacts with": "The subject drug may produce a pharmacological effect when co-administered with the specified substance or condition.",
+      "reduces effectiveness of": "The subject drug diminishes the protective effect of the specified drug against the medical condition specified in the object entity.",
+      "should be avoided with": "Patients taking the subject drug should avoid using the substance or activity specified by the object entity to prevent adverse effects."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Ibuprofen",
+        "interacts with",
+        "medicines for pain, fever, swelling, or cold/flu symptoms"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological effect when co-administered with the specified substance or condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ibuprofen",
+        "interacts with",
+        "aspirin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological effect when co-administered with the specified substance or condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ibuprofen",
+        "contraindicated in",
+        "aspirin use without doctor instruction"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who are using the specified substance or condition without medical supervision.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ibuprofen",
+        "may reduce response to",
+        "aspirin for stroke or heart attack prevention"
+       ],
+       "raw_relation": "reduces effectiveness of",
+       "definition": "The subject drug diminishes the protective effect of the specified drug against the medical condition specified in the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may reduce response to",
+         0.9179
+        ],
+        [
+         "lowers level of",
+         0.8659
+        ],
+        [
+         "reduces risk of",
+         0.8499
+        ],
+        [
+         "not used to treat",
+         0.8379
+        ],
+        [
+         "has side effect",
+         0.8347
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Ibuprofen",
+        "has administration instruction",
+        "take at least 8 hours before or 30 minutes after aspirin (non-enteric coated form)"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug must be taken at the specific time relative to another drug as specified in the object entity to ensure safety or efficacy.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ibuprofen",
+        "has warning",
+        "increased risk of stomach bleeding when combined with alcohol"
+       ],
+       "raw_relation": "has warning",
+       "definition": "Combining the subject drug with the object entity may lead to the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Ibuprofen",
+        "should be avoided with",
+        "alcohol"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "Patients taking the subject drug should avoid using the substance or activity specified by the object entity to prevent adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "ibuprofen#side-effects#0",
+     "section_id": "side-effects",
+     "section_heading": "Ibuprofen side effects",
+     "text": "Get emergency medical help if you have signs of an allergic reaction to ibuprofen (hives, difficult breathing, swelling in your face or throat) or a severe skin reaction (fever, sore throat, burning eyes, skin pain, red or purple skin rash with blistering and peeling).\nGet emergency medical help if you have signs of a heart attack or stroke: chest pain spreading to your jaw or shoulder, sudden numbness or weakness on one side of the body, slurred speech, leg swelling, feeling short of breath.\nStop using this medicine and call your doctor at once if you have:\n- changes in your vision;\n- shortness of breath (even with mild exertion);\n- swelling or rapid weight gain;\n- a skin rash, no matter how mild;\n- signs of stomach bleeding - bloody or tarry stools, coughing up blood or vomit that looks like coffee grounds;\n- liver problems - nausea, upper stomach pain, itching, tired feeling, flu-like symptoms, loss of appetite, dark urine, clay-colored stools, jaundice (yellowing of the skin or eyes);",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"ibuprofen\", \"has serious side effect\", \"allergic reaction\"], [\"ibuprofen\", \"has serious side effect\", \"severe skin reaction\"], [\"ibuprofen\", \"has serious side effect\", \"heart attack\"], [\"ibuprofen\", \"has serious side effect\", \"stroke\"], [\"ibuprofen\", \"has side effect\", \"changes in vision\"], [\"ibuprofen\", \"has side effect\", \"shortness of breath\"], [\"ibuprofen\", \"has side effect\", \"swelling or rapid weight gain\"], [\"ibuprofen\", \"has side effect\", \"skin rash\"], [\"ibuprofen\", \"has side effect\", \"stomach bleeding\"], [\"ibuprofen\", \"has side effect\", \"liver problems\"], [\"ibuprofen\", \"has side effect\", \"fever\"], [\"ibuprofen\", \"has side effect\", \"sore throat\"], [\"ibuprofen\", \"has side effect\", \"burning eyes\"], [\"ibuprofen\", \"has side effect\", \"skin pain\"], [\"ibuprofen\", \"has side effect\", \"red or purple skin rash with blistering and peeling\"], [\"ibuprofen\", \"has side effect\", \"tarry stools\"], [\"ibuprofen\", \"has side effect\", \"coughing up blood\"], [\"ibuprofen\", \"has side effect\", \"vomit that looks like coffee grounds\"], [\"ibuprofen\", \"has side effect\", \"nausea\"], [\"ibuprofen\", \"has side effect\", \"upper stomach pain\"], [\"ibuprofen\", \"has side effect\", \"itching\"], [\"ibuprofen\", \"has side effect\", \"tired feeling\"], [\"ibuprofen\", \"has side effect\", \"flu-like symptoms\"], [\"ibuprofen\", \"has side effect\", \"loss of appetite\"], [\"ibuprofen\", \"has side effect\", \"dark urine\"], [\"ibuprofen\", \"has side effect\", \"clay-colored stools\"], [\"ibuprofen\", \"has side effect\", \"jaundice\"], [\"ibuprofen\", \"has side effect\", \"chest pain spreading to jaw or shoulder\"], [\"ibuprofen\", \"has side effect\", \"sudden numbness or weakness on one side of body\"], [\"ibuprofen\", \"has side effect\", \"slurred speech\"], [\"ibuprofen\", \"has side effect\", \"leg swelling\"], [\"ibuprofen\", \"has side effect\", \"feeling short of breath\"]]",
+     "oie": [
+      [
+       "ibuprofen",
+       "has serious side effect",
+       "allergic reaction"
+      ],
+      [
+       "ibuprofen",
+       "has serious side effect",
+       "severe skin reaction"
+      ],
+      [
+       "ibuprofen",
+       "has serious side effect",
+       "heart attack"
+      ],
+      [
+       "ibuprofen",
+       "has serious side effect",
+       "stroke"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "changes in vision"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "shortness of breath"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "swelling or rapid weight gain"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "skin rash"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "stomach bleeding"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "liver problems"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "fever"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "sore throat"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "burning eyes"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "skin pain"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "red or purple skin rash with blistering and peeling"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "tarry stools"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "coughing up blood"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "vomit that looks like coffee grounds"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "nausea"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "upper stomach pain"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "itching"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "tired feeling"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "flu-like symptoms"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "loss of appetite"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "dark urine"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "clay-colored stools"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "jaundice"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "chest pain spreading to jaw or shoulder"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "sudden numbness or weakness on one side of body"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "slurred speech"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "leg swelling"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "feeling short of breath"
+      ]
+     ],
+     "schema_definition": {
+      "has serious side effect": "The subject drug may cause the serious or life-threatening condition specified by the object entity.",
+      "has side effect": "The subject drug may cause the symptom or condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "ibuprofen",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or life-threatening condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has serious side effect",
+        "severe skin reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or life-threatening condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has serious side effect",
+        "heart attack"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or life-threatening condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has serious side effect",
+        "stroke"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or life-threatening condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "changes in vision"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "shortness of breath"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "swelling or rapid weight gain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "skin rash"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "stomach bleeding"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "liver problems"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "fever"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "sore throat"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "burning eyes"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "skin pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "red or purple skin rash with blistering and peeling"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "tarry stools"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "coughing up blood"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "vomit that looks like coffee grounds"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "nausea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "upper stomach pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "itching"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "tired feeling"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "flu-like symptoms"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "loss of appetite"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "dark urine"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "clay-colored stools"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "jaundice"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "chest pain spreading to jaw or shoulder"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "sudden numbness or weakness on one side of body"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "slurred speech"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "leg swelling"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "feeling short of breath"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "ibuprofen#side-effects#1",
+     "section_id": "side-effects",
+     "section_heading": "Ibuprofen side effects",
+     "text": "- low red blood cells (anemia) - pale skin, feeling light-headed or short of breath, rapid heart rate, trouble concentrating; or\n- kidney problems - little or no urinating, painful or difficult urination, swelling in your feet or ankles, feeling tired or short of breath.\nCommon ibuprofen side effects may include:\n- nausea, vomiting, gas;\n- bleeding; or\n- dizziness, headache.\nThis is not a complete list of side effects and others may occur. Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"ibuprofen\", \"has side effect\", \"low red blood cells\"], [\"ibuprofen\", \"has side effect\", \"pale skin\"], [\"ibuprofen\", \"has side effect\", \"feeling light-headed\"], [\"ibuprofen\", \"has side effect\", \"short of breath\"], [\"ibuprofen\", \"has side effect\", \"rapid heart rate\"], [\"ibuprofen\", \"has side effect\", \"trouble concentrating\"], [\"ibuprofen\", \"has side effect\", \"kidney problems\"], [\"ibuprofen\", \"has side effect\", \"little or no urinating\"], [\"ibuprofen\", \"has side effect\", \"painful or difficult urination\"], [\"ibuprofen\", \"has side effect\", \"swelling in feet or ankles\"], [\"ibuprofen\", \"has side effect\", \"feeling tired\"], [\"ibuprofen\", \"has side effect\", \"nausea\"], [\"ibuprofen\", \"has side effect\", \"vomiting\"], [\"ibuprofen\", \"has side effect\", \"gas\"], [\"ibuprofen\", \"has side effect\", \"bleeding\"], [\"ibuprofen\", \"has side effect\", \"dizziness\"], [\"ibuprofen\", \"has side effect\", \"headache\"], [\"ibuprofen\", \"has warning\", \"not a complete list of side effects\"], [\"ibuprofen\", \"has instruction\", \"call doctor for medical advice about side effects\"], [\"ibuprofen\", \"has reporting instruction\", \"report side effects to FDA at 1-800-FDA-1088\"]]",
+     "oie": [
+      [
+       "ibuprofen",
+       "has side effect",
+       "low red blood cells"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "pale skin"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "feeling light-headed"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "short of breath"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "rapid heart rate"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "trouble concentrating"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "kidney problems"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "little or no urinating"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "painful or difficult urination"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "swelling in feet or ankles"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "feeling tired"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "nausea"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "vomiting"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "gas"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "bleeding"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "dizziness"
+      ],
+      [
+       "ibuprofen",
+       "has side effect",
+       "headache"
+      ],
+      [
+       "ibuprofen",
+       "has warning",
+       "not a complete list of side effects"
+      ],
+      [
+       "ibuprofen",
+       "has instruction",
+       "call doctor for medical advice about side effects"
+      ],
+      [
+       "ibuprofen",
+       "has reporting instruction",
+       "report side effects to FDA at 1-800-FDA-1088"
+      ]
+     ],
+     "schema_definition": {
+      "has side effect": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+      "has instruction": "The subject drug comes with a recommendation or directive to take specific action regarding its use or side effects.",
+      "has reporting instruction": "The subject drug includes a directive for patients to report certain adverse effects to a specified authority or contact.",
+      "has warning": "The subject drug includes a caution that the list of specified effects is not exhaustive and other side effects may occur."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "low red blood cells"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "pale skin"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "feeling light-headed"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "short of breath"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "rapid heart rate"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "trouble concentrating"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "kidney problems"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "little or no urinating"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "painful or difficult urination"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "swelling in feet or ankles"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "feeling tired"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "nausea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "vomiting"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "gas"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "bleeding"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "dizziness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has side effect",
+        "headache"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has warning",
+        "not a complete list of side effects"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug includes a caution that the list of specified effects is not exhaustive and other side effects may occur.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has instruction",
+        "call doctor for medical advice about side effects"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug comes with a recommendation or directive to take specific action regarding its use or side effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has instruction",
+        "report side effects to FDA at 1-800-FDA-1088"
+       ],
+       "raw_relation": "has reporting instruction",
+       "definition": "The subject drug includes a directive for patients to report certain adverse effects to a specified authority or contact.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has instruction",
+         0.8425
+        ],
+        [
+         "has side effect",
+         0.82
+        ],
+        [
+         "has serious side effect",
+         0.8001
+        ],
+        [
+         "should inform doctor about",
+         0.7987
+        ],
+        [
+         "use with caution in",
+         0.7979
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "ibuprofen#interactions#0",
+     "section_id": "interactions",
+     "section_heading": "What other drugs will affect ibuprofen?",
+     "text": "Ask your doctor before using ibuprofen if you take an antidepressant. Taking certain antidepressants with an NSAID may cause you to bruise or bleed easily.\nAsk a doctor or pharmacist before using ibuprofen with any other medications, especially:\n- cyclosporine;\n- lithium;\n- methotrexate;\n- a blood thinner (warfarin, Coumadin, Jantoven);\n- heart or blood pressure medication, including a diuretic or \"water pill\"; or\n- steroid medicine (such as prednisone)\n- digoxin.\nThis list is not complete. Other drugs may interact with ibuprofen, including prescription and over-the-counter medicines, vitamins, and herbal products. Not all possible drug interactions are listed here.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"ibuprofen\", \"interacts with\", \"antidepressants\"], [\"ibuprofen\", \"may increase risk of\", \"easy bruising\"], [\"ibuprofen\", \"may increase risk of\", \"easy bleeding\"], [\"ibuprofen\", \"should be used with caution in combination with\", \"cyclosporine\"], [\"ibuprofen\", \"should be used with caution in combination with\", \"lithium\"], [\"ibuprofen\", \"should be used with caution in combination with\", \"methotrexate\"], [\"ibuprofen\", \"should be used with caution in combination with\", \"blood thinners\"], [\"ibuprofen\", \"should be used with caution in combination with\", \"warfarin\"], [\"ibuprofen\", \"should be used with caution in combination with\", \"Coumadin\"], [\"ibuprofen\", \"should be used with caution in combination with\", \"Jantoven\"], [\"ibuprofen\", \"should be used with caution in combination with\", \"heart or blood pressure medication\"], [\"ibuprofen\", \"should be used with caution in combination with\", \"diuretics\"], [\"ibuprofen\", \"should be used with caution in combination with\", \"steroid medicine\"], [\"ibuprofen\", \"should be used with caution in combination with\", \"prednisone\"], [\"ibuprofen\", \"should be used with caution in combination with\", \"digoxin\"], [\"ibuprofen\", \"has warning\", \"not all possible drug interactions are listed\"]]",
+     "oie": [
+      [
+       "ibuprofen",
+       "interacts with",
+       "antidepressants"
+      ],
+      [
+       "ibuprofen",
+       "may increase risk of",
+       "easy bruising"
+      ],
+      [
+       "ibuprofen",
+       "may increase risk of",
+       "easy bleeding"
+      ],
+      [
+       "ibuprofen",
+       "should be used with caution in combination with",
+       "cyclosporine"
+      ],
+      [
+       "ibuprofen",
+       "should be used with caution in combination with",
+       "lithium"
+      ],
+      [
+       "ibuprofen",
+       "should be used with caution in combination with",
+       "methotrexate"
+      ],
+      [
+       "ibuprofen",
+       "should be used with caution in combination with",
+       "blood thinners"
+      ],
+      [
+       "ibuprofen",
+       "should be used with caution in combination with",
+       "warfarin"
+      ],
+      [
+       "ibuprofen",
+       "should be used with caution in combination with",
+       "Coumadin"
+      ],
+      [
+       "ibuprofen",
+       "should be used with caution in combination with",
+       "Jantoven"
+      ],
+      [
+       "ibuprofen",
+       "should be used with caution in combination with",
+       "heart or blood pressure medication"
+      ],
+      [
+       "ibuprofen",
+       "should be used with caution in combination with",
+       "diuretics"
+      ],
+      [
+       "ibuprofen",
+       "should be used with caution in combination with",
+       "steroid medicine"
+      ],
+      [
+       "ibuprofen",
+       "should be used with caution in combination with",
+       "prednisone"
+      ],
+      [
+       "ibuprofen",
+       "should be used with caution in combination with",
+       "digoxin"
+      ],
+      [
+       "ibuprofen",
+       "has warning",
+       "not all possible drug interactions are listed"
+      ]
+     ],
+     "schema_definition": {
+      "has warning": "The subject drug has a cautionary note indicating that not all potential interactions with other substances are fully listed.",
+      "interacts with": "The subject drug may produce a pharmacological interaction when used concurrently with the specified drug or substance.",
+      "may increase risk of": "The subject drug may elevate the likelihood of the adverse condition or outcome specified by the object entity.",
+      "should be used with caution in combination with": "The subject drug may pose safety concerns or require medical supervision when used together with the specified drug or substance."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "ibuprofen",
+        "interacts with",
+        "antidepressants"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when used concurrently with the specified drug or substance.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "increases risk of",
+        "easy bruising"
+       ],
+       "raw_relation": "may increase risk of",
+       "definition": "The subject drug may elevate the likelihood of the adverse condition or outcome specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "increases risk of",
+         0.9291
+        ],
+        [
+         "has side effect",
+         0.8839
+        ],
+        [
+         "can occur with",
+         0.8628
+        ],
+        [
+         "has warning",
+         0.8623
+        ],
+        [
+         "has serious side effect",
+         0.8623
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "increases risk of",
+        "easy bleeding"
+       ],
+       "raw_relation": "may increase risk of",
+       "definition": "The subject drug may elevate the likelihood of the adverse condition or outcome specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "increases risk of",
+         0.9291
+        ],
+        [
+         "has side effect",
+         0.8839
+        ],
+        [
+         "can occur with",
+         0.8628
+        ],
+        [
+         "has warning",
+         0.8623
+        ],
+        [
+         "has serious side effect",
+         0.8623
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has warning",
+        "cyclosporine"
+       ],
+       "raw_relation": "should be used with caution in combination with",
+       "definition": "The subject drug may pose safety concerns or require medical supervision when used together with the specified drug or substance.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.9071
+        ],
+        [
+         "has warning",
+         0.86
+        ],
+        [
+         "requires use of",
+         0.8592
+        ],
+        [
+         "has serious side effect",
+         0.8545
+        ],
+        [
+         "requires monitoring of",
+         0.8499
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "lithium"
+       ],
+       "raw_relation": "should be used with caution in combination with",
+       "definition": "The subject drug may pose safety concerns or require medical supervision when used together with the specified drug or substance.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.9071
+        ],
+        [
+         "has warning",
+         0.86
+        ],
+        [
+         "requires use of",
+         0.8592
+        ],
+        [
+         "has serious side effect",
+         0.8545
+        ],
+        [
+         "requires monitoring of",
+         0.8499
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "methotrexate"
+       ],
+       "raw_relation": "should be used with caution in combination with",
+       "definition": "The subject drug may pose safety concerns or require medical supervision when used together with the specified drug or substance.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.9071
+        ],
+        [
+         "has warning",
+         0.86
+        ],
+        [
+         "requires use of",
+         0.8592
+        ],
+        [
+         "has serious side effect",
+         0.8545
+        ],
+        [
+         "requires monitoring of",
+         0.8499
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "blood thinners"
+       ],
+       "raw_relation": "should be used with caution in combination with",
+       "definition": "The subject drug may pose safety concerns or require medical supervision when used together with the specified drug or substance.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.9071
+        ],
+        [
+         "has warning",
+         0.86
+        ],
+        [
+         "requires use of",
+         0.8592
+        ],
+        [
+         "has serious side effect",
+         0.8545
+        ],
+        [
+         "requires monitoring of",
+         0.8499
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has warning",
+        "warfarin"
+       ],
+       "raw_relation": "should be used with caution in combination with",
+       "definition": "The subject drug may pose safety concerns or require medical supervision when used together with the specified drug or substance.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.9071
+        ],
+        [
+         "has warning",
+         0.86
+        ],
+        [
+         "requires use of",
+         0.8592
+        ],
+        [
+         "has serious side effect",
+         0.8545
+        ],
+        [
+         "requires monitoring of",
+         0.8499
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has warning",
+        "Coumadin"
+       ],
+       "raw_relation": "should be used with caution in combination with",
+       "definition": "The subject drug may pose safety concerns or require medical supervision when used together with the specified drug or substance.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.9071
+        ],
+        [
+         "has warning",
+         0.86
+        ],
+        [
+         "requires use of",
+         0.8592
+        ],
+        [
+         "has serious side effect",
+         0.8545
+        ],
+        [
+         "requires monitoring of",
+         0.8499
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has warning",
+        "Jantoven"
+       ],
+       "raw_relation": "should be used with caution in combination with",
+       "definition": "The subject drug may pose safety concerns or require medical supervision when used together with the specified drug or substance.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.9071
+        ],
+        [
+         "has warning",
+         0.86
+        ],
+        [
+         "requires use of",
+         0.8592
+        ],
+        [
+         "has serious side effect",
+         0.8545
+        ],
+        [
+         "requires monitoring of",
+         0.8499
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "heart or blood pressure medication"
+       ],
+       "raw_relation": "should be used with caution in combination with",
+       "definition": "The subject drug may pose safety concerns or require medical supervision when used together with the specified drug or substance.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.9071
+        ],
+        [
+         "has warning",
+         0.86
+        ],
+        [
+         "requires use of",
+         0.8592
+        ],
+        [
+         "has serious side effect",
+         0.8545
+        ],
+        [
+         "requires monitoring of",
+         0.8499
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "diuretics"
+       ],
+       "raw_relation": "should be used with caution in combination with",
+       "definition": "The subject drug may pose safety concerns or require medical supervision when used together with the specified drug or substance.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.9071
+        ],
+        [
+         "has warning",
+         0.86
+        ],
+        [
+         "requires use of",
+         0.8592
+        ],
+        [
+         "has serious side effect",
+         0.8545
+        ],
+        [
+         "requires monitoring of",
+         0.8499
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "steroid medicine"
+       ],
+       "raw_relation": "should be used with caution in combination with",
+       "definition": "The subject drug may pose safety concerns or require medical supervision when used together with the specified drug or substance.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.9071
+        ],
+        [
+         "has warning",
+         0.86
+        ],
+        [
+         "requires use of",
+         0.8592
+        ],
+        [
+         "has serious side effect",
+         0.8545
+        ],
+        [
+         "requires monitoring of",
+         0.8499
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "prednisone"
+       ],
+       "raw_relation": "should be used with caution in combination with",
+       "definition": "The subject drug may pose safety concerns or require medical supervision when used together with the specified drug or substance.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.9071
+        ],
+        [
+         "has warning",
+         0.86
+        ],
+        [
+         "requires use of",
+         0.8592
+        ],
+        [
+         "has serious side effect",
+         0.8545
+        ],
+        [
+         "requires monitoring of",
+         0.8499
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "use with caution in",
+        "digoxin"
+       ],
+       "raw_relation": "should be used with caution in combination with",
+       "definition": "The subject drug may pose safety concerns or require medical supervision when used together with the specified drug or substance.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.9071
+        ],
+        [
+         "has warning",
+         0.86
+        ],
+        [
+         "requires use of",
+         0.8592
+        ],
+        [
+         "has serious side effect",
+         0.8545
+        ],
+        [
+         "requires monitoring of",
+         0.8499
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "ibuprofen",
+        "has warning",
+        "not all possible drug interactions are listed"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a cautionary note indicating that not all potential interactions with other substances are fully listed.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "ibuprofen#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "ibuprofen",
+    "belongs to drug class",
+    "NSAID"
+   ],
+   "raw_relation": "has generic class",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "ibuprofen",
+    "has mechanism of action",
+    "reducing hormones that cause inflammation and pain"
+   ],
+   "raw_relation": "has mechanism of action",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "ibuprofen",
+    "treats",
+    "fever"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "ibuprofen",
+    "treats",
+    "headache"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "ibuprofen",
+    "treats",
+    "toothache"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "ibuprofen",
+    "treats",
+    "back pain"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "ibuprofen",
+    "treats",
+    "arthritis"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "ibuprofen",
+    "treats",
+    "menstrual cramps"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "ibuprofen",
+    "treats",
+    "minor injury"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "ibuprofen",
+    "used in population",
+    "adults"
+   ],
+   "raw_relation": "used in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "ibuprofen",
+    "used in population",
+    "children"
+   ],
+   "raw_relation": "used in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "ibuprofen",
+    "used in population",
+    "premature babies"
+   ],
+   "raw_relation": "used in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "ibuprofen",
+    "treats",
+    "closing a certain heart defect in premature babies"
+   ],
+   "raw_relation": "used for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ibuprofen",
+    "increases risk of",
+    "fatal heart attack"
+   ],
+   "raw_relation": "increases risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ibuprofen",
+    "increases risk of",
+    "heart failure"
+   ],
+   "raw_relation": "increases risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ibuprofen",
+    "increases risk of",
+    "stroke"
+   ],
+   "raw_relation": "increases risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ibuprofen",
+    "contraindicated in",
+    "heart bypass surgery"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ibuprofen",
+    "contraindicated in",
+    "recent heart attack"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "stomach bleeding"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "intestinal bleeding"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "fatal bleeding"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ibuprofen",
+    "has warning",
+    "bleeding may occur without warning"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ibuprofen",
+    "has warning",
+    "increased risk in older adults"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ibuprofen",
+    "has overdose instruction",
+    "do not take more than recommended dose"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ibuprofen",
+    "has serious side effect",
+    "stomach damage"
+   ],
+   "raw_relation": "has overdose effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ibuprofen",
+    "has serious side effect",
+    "intestine damage"
+   ],
+   "raw_relation": "has overdose effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "ibuprofen",
+    "has administration instruction",
+    "use only smallest amount needed for pain, swelling, or fever"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "contraindicated in",
+    "allergy to ibuprofen"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "contraindicated in",
+    "asthma attack after aspirin or NSAID"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "heart disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "high blood pressure"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "high cholesterol"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "diabetes"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "smoking"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "history of heart attack"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "history of stroke"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "blood clot"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "stomach ulcers"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "stomach bleeding"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "liver disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "kidney disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "asthma"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "aspirin for heart attack or stroke prevention"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "pregnancy"
+   ],
+   "raw_relation": "requires medical advice in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "breastfeeding"
+   ],
+   "raw_relation": "requires medical advice in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "has pregnancy or breastfeeding warning",
+    "may cause heart or kidney problems in unborn baby at 20 weeks or later"
+   ],
+   "raw_relation": "has pregnancy warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "has pregnancy or breastfeeding warning",
+    "may cause complications in pregnancy"
+   ],
+   "raw_relation": "has pregnancy warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "has pregnancy or breastfeeding warning",
+    "not to be taken after 30 weeks of pregnancy"
+   ],
+   "raw_relation": "has pregnancy restriction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "temporary delay in ovulation"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "has warning",
+    "may reduce fertility"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "ibuprofen",
+    "contraindicated in",
+    "children younger than 6 months old"
+   ],
+   "raw_relation": "should not be given to",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "ibuprofen",
+    "has administration instruction",
+    "use exactly as directed on the label or as prescribed by your doctor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "ibuprofen",
+    "has administration instruction",
+    "use lowest dose that is effective for treating your condition"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "ibuprofen",
+    "has serious side effect",
+    "stomach or intestinal damage"
+   ],
+   "raw_relation": "has overdose effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "ibuprofen",
+    "has maximum dose",
+    "800 mg per dose"
+   ],
+   "raw_relation": "has maximum dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "ibuprofen",
+    "has maximum daily dose",
+    "3200 mg per day (4 maximum doses)"
+   ],
+   "raw_relation": "has maximum daily dose",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "ibuprofen#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "ibuprofen",
+    "has dose adjustment based on",
+    "child's age and weight"
+   ],
+   "raw_relation": "has dose based on",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "ibuprofen",
+    "has administration instruction",
+    "take with food or milk to lessen stomach upset"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "ibuprofen",
+    "has administration instruction",
+    "shake oral suspension before measuring dose"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "ibuprofen",
+    "has administration instruction",
+    "use dosing syringe provided or medicine dose-measuring device"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "ibuprofen",
+    "has administration instruction",
+    "chew chewable tablet before swallowing"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "ibuprofen",
+    "has storage instruction",
+    "store at room temperature away from moisture and heat"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "ibuprofen",
+    "should not be stored in",
+    "do not allow liquid medicine to freeze"
+   ],
+   "raw_relation": "has storage warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "ibuprofen",
+    "has administration instruction",
+    "skip missed dose if almost time for next dose"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "ibuprofen",
+    "has missed dose instruction",
+    "do not use two doses at one time"
+   ],
+   "raw_relation": "has instruction for missed dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "ibuprofen",
+    "has overdose instruction",
+    "seek emergency medical attention"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "ibuprofen",
+    "has overdose instruction",
+    "call Poison Help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "ibuprofen",
+    "has overdose symptom",
+    "nausea"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "ibuprofen",
+    "has overdose symptom",
+    "vomiting"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "ibuprofen",
+    "has overdose symptom",
+    "stomach pain"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "ibuprofen",
+    "has overdose symptom",
+    "drowsiness"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "ibuprofen",
+    "has overdose symptom",
+    "black or bloody stools"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "ibuprofen",
+    "has overdose symptom",
+    "coughing up blood"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "ibuprofen",
+    "has overdose symptom",
+    "shallow breathing"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "ibuprofen",
+    "has overdose symptom",
+    "fainting"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "ibuprofen",
+    "has overdose symptom",
+    "coma"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Ibuprofen",
+    "interacts with",
+    "medicines for pain, fever, swelling, or cold/flu symptoms"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Ibuprofen",
+    "interacts with",
+    "aspirin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Ibuprofen",
+    "contraindicated in",
+    "aspirin use without doctor instruction"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Ibuprofen",
+    "may reduce response to",
+    "aspirin for stroke or heart attack prevention"
+   ],
+   "raw_relation": "reduces effectiveness of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Ibuprofen",
+    "has administration instruction",
+    "take at least 8 hours before or 30 minutes after aspirin (non-enteric coated form)"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Ibuprofen",
+    "has warning",
+    "increased risk of stomach bleeding when combined with alcohol"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Ibuprofen",
+    "should be avoided with",
+    "alcohol"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has serious side effect",
+    "severe skin reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has serious side effect",
+    "heart attack"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has serious side effect",
+    "stroke"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "changes in vision"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "shortness of breath"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "swelling or rapid weight gain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "skin rash"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "stomach bleeding"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "liver problems"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "fever"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "sore throat"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "burning eyes"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "skin pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "red or purple skin rash with blistering and peeling"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "tarry stools"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "coughing up blood"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "vomit that looks like coffee grounds"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "nausea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "upper stomach pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "itching"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "tired feeling"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "flu-like symptoms"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "loss of appetite"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "dark urine"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "clay-colored stools"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "jaundice"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "chest pain spreading to jaw or shoulder"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "sudden numbness or weakness on one side of body"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "slurred speech"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "leg swelling"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "feeling short of breath"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "low red blood cells"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "pale skin"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "feeling light-headed"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "short of breath"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "rapid heart rate"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "trouble concentrating"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "kidney problems"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "little or no urinating"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "painful or difficult urination"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "swelling in feet or ankles"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "feeling tired"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "nausea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "vomiting"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "gas"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "bleeding"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "dizziness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has side effect",
+    "headache"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has warning",
+    "not a complete list of side effects"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has instruction",
+    "call doctor for medical advice about side effects"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "ibuprofen",
+    "has instruction",
+    "report side effects to FDA at 1-800-FDA-1088"
+   ],
+   "raw_relation": "has reporting instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "ibuprofen",
+    "interacts with",
+    "antidepressants"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "ibuprofen#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "ibuprofen",
+    "increases risk of",
+    "easy bruising"
+   ],
+   "raw_relation": "may increase risk of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "ibuprofen",
+    "increases risk of",
+    "easy bleeding"
+   ],
+   "raw_relation": "may increase risk of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "ibuprofen",
+    "has warning",
+    "cyclosporine"
+   ],
+   "raw_relation": "should be used with caution in combination with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "lithium"
+   ],
+   "raw_relation": "should be used with caution in combination with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "methotrexate"
+   ],
+   "raw_relation": "should be used with caution in combination with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "blood thinners"
+   ],
+   "raw_relation": "should be used with caution in combination with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "ibuprofen",
+    "has warning",
+    "warfarin"
+   ],
+   "raw_relation": "should be used with caution in combination with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "ibuprofen",
+    "has warning",
+    "Coumadin"
+   ],
+   "raw_relation": "should be used with caution in combination with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "ibuprofen",
+    "has warning",
+    "Jantoven"
+   ],
+   "raw_relation": "should be used with caution in combination with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "heart or blood pressure medication"
+   ],
+   "raw_relation": "should be used with caution in combination with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "diuretics"
+   ],
+   "raw_relation": "should be used with caution in combination with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "steroid medicine"
+   ],
+   "raw_relation": "should be used with caution in combination with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "prednisone"
+   ],
+   "raw_relation": "should be used with caution in combination with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "ibuprofen",
+    "use with caution in",
+    "digoxin"
+   ],
+   "raw_relation": "should be used with caution in combination with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "ibuprofen#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "ibuprofen",
+    "has warning",
+    "not all possible drug interactions are listed"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  }
+ ],
+ "name": "Ibuprofen",
+ "slug": "ibuprofen",
+ "n_chunks": 10,
+ "seconds": 13.0,
+ "llm_model": "drugkg-llm"
+}

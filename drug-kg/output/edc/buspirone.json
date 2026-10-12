@@ -1,0 +1,4098 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "buspirone#uses#0",
+     "section_id": "uses",
+     "section_heading": "What is buspirone?",
+     "text": "Buspirone is an anti-anxiety medicine that affects chemicals in the brain that may be unbalanced in people with anxiety.\nBuspirone is used to treat symptoms of anxiety, such as fear, tension, irritability, dizziness, pounding heartbeat, and other physical symptoms.\nBuspirone is not an anti-psychotic medication and should not be used in place of medication prescribed by your doctor for psychotic disorders.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"buspirone\", \"has mechanism of action\", \"affecting brain chemicals unbalanced in anxiety\"], [\"buspirone\", \"treats\", \"anxiety symptoms\"], [\"buspirone\", \"treats\", \"fear\"], [\"buspirone\", \"treats\", \"tension\"], [\"buspirone\", \"treats\", \"irritability\"], [\"buspirone\", \"treats\", \"dizziness\"], [\"buspirone\", \"treats\", \"pounding heartbeat\"], [\"buspirone\", \"treats\", \"other physical symptoms of anxiety\"], [\"buspirone\", \"is not\", \"an anti-psychotic medication\"], [\"buspirone\", \"should not be used instead of\", \"medication for psychotic disorders\"]]",
+     "oie": [
+      [
+       "buspirone",
+       "has mechanism of action",
+       "affecting brain chemicals unbalanced in anxiety"
+      ],
+      [
+       "buspirone",
+       "treats",
+       "anxiety symptoms"
+      ],
+      [
+       "buspirone",
+       "treats",
+       "fear"
+      ],
+      [
+       "buspirone",
+       "treats",
+       "tension"
+      ],
+      [
+       "buspirone",
+       "treats",
+       "irritability"
+      ],
+      [
+       "buspirone",
+       "treats",
+       "dizziness"
+      ],
+      [
+       "buspirone",
+       "treats",
+       "pounding heartbeat"
+      ],
+      [
+       "buspirone",
+       "treats",
+       "other physical symptoms of anxiety"
+      ],
+      [
+       "buspirone",
+       "is not",
+       "an anti-psychotic medication"
+      ],
+      [
+       "buspirone",
+       "should not be used instead of",
+       "medication for psychotic disorders"
+      ]
+     ],
+     "schema_definition": {
+      "has mechanism of action": "The subject drug exerts its effect by influencing the brain chemicals that are unbalanced in individuals with the specified condition.",
+      "is not": "The subject drug does not belong to the class or category of the entity specified by the object.",
+      "should not be used instead of": "The subject drug should not be substituted for the prescribed medication specified by the object for the indicated condition.",
+      "treats": "The subject drug is used to manage or alleviate the symptoms of the medical condition or symptom specified by the object."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "buspirone",
+        "has mechanism of action",
+        "affecting brain chemicals unbalanced in anxiety"
+       ],
+       "raw_relation": "has mechanism of action",
+       "definition": "The subject drug exerts its effect by influencing the brain chemicals that are unbalanced in individuals with the specified condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "treats",
+        "anxiety symptoms"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms of the medical condition or symptom specified by the object.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "treats",
+        "fear"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms of the medical condition or symptom specified by the object.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "treats",
+        "tension"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms of the medical condition or symptom specified by the object.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "treats",
+        "irritability"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms of the medical condition or symptom specified by the object.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "treats",
+        "dizziness"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms of the medical condition or symptom specified by the object.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "treats",
+        "pounding heartbeat"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms of the medical condition or symptom specified by the object.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "treats",
+        "other physical symptoms of anxiety"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms of the medical condition or symptom specified by the object.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "not approved for",
+        "an anti-psychotic medication"
+       ],
+       "raw_relation": "is not",
+       "definition": "The subject drug does not belong to the class or category of the entity specified by the object.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "not approved for",
+         0.8579
+        ],
+        [
+         "has not been studied in",
+         0.8265
+        ],
+        [
+         "is discontinued",
+         0.8086
+        ],
+        [
+         "should not be taken",
+         0.8025
+        ],
+        [
+         "does not reduce risk of",
+         0.8004
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "contraindicated in",
+        "medication for psychotic disorders"
+       ],
+       "raw_relation": "should not be used instead of",
+       "definition": "The subject drug should not be substituted for the prescribed medication specified by the object for the indicated condition.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.8922
+        ],
+        [
+         "should not be taken",
+         0.8742
+        ],
+        [
+         "does not reduce risk of",
+         0.8482
+        ],
+        [
+         "has repeat course interval restriction",
+         0.8256
+        ],
+        [
+         "dose not affected by",
+         0.8212
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "buspirone#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "Do not use buspirone if you have taken an MAO inhibitor in the past 14 days. A dangerous drug interaction could occur. MAO inhibitors include isocarboxazid, linezolid, methylene blue injection, phenelzine, rasagiline, selegiline, and tranylcypromine.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Buspirone\", \"contraindicated in\", \"use after MAO inhibitor within 14 days\"], [\"Buspirone\", \"interacts with\", \"MAO inhibitors\"], [\"MAO inhibitors\", \"include\", \"isocarboxazid\"], [\"MAO inhibitors\", \"include\", \"linezolid\"], [\"MAO inhibitors\", \"include\", \"methylene blue injection\"], [\"MAO inhibitors\", \"include\", \"phenelzine\"], [\"MAO inhibitors\", \"include\", \"rasagiline\"], [\"MAO inhibitors\", \"include\", \"selegiline\"], [\"MAO inhibitors\", \"include\", \"tranylcypromine\"]]",
+     "oie": [
+      [
+       "Buspirone",
+       "contraindicated in",
+       "use after MAO inhibitor within 14 days"
+      ],
+      [
+       "Buspirone",
+       "interacts with",
+       "MAO inhibitors"
+      ],
+      [
+       "MAO inhibitors",
+       "include",
+       "isocarboxazid"
+      ],
+      [
+       "MAO inhibitors",
+       "include",
+       "linezolid"
+      ],
+      [
+       "MAO inhibitors",
+       "include",
+       "methylene blue injection"
+      ],
+      [
+       "MAO inhibitors",
+       "include",
+       "phenelzine"
+      ],
+      [
+       "MAO inhibitors",
+       "include",
+       "rasagiline"
+      ],
+      [
+       "MAO inhibitors",
+       "include",
+       "selegiline"
+      ],
+      [
+       "MAO inhibitors",
+       "include",
+       "tranylcypromine"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have used the specified substance or condition within the time frame mentioned in the object entity.",
+      "include": "The object entity is a member of the category or group specified by the subject entity.",
+      "interacts with": "The subject drug may produce a dangerous or adverse interaction when used in combination with the substance specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Buspirone",
+        "contraindicated in",
+        "use after MAO inhibitor within 14 days"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have used the specified substance or condition within the time frame mentioned in the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "interacts with",
+        "MAO inhibitors"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a dangerous or adverse interaction when used in combination with the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "MAO inhibitors",
+        "belongs to drug class",
+        "isocarboxazid"
+       ],
+       "raw_relation": "include",
+       "definition": "The object entity is a member of the category or group specified by the subject entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "are supported by",
+         0.8308
+        ],
+        [
+         "affects",
+         0.7951
+        ],
+        [
+         "belongs to drug class",
+         0.7874
+        ],
+        [
+         "has location",
+         0.7835
+        ],
+        [
+         "can occur with",
+         0.7705
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "MAO inhibitors",
+        "belongs to drug class",
+        "linezolid"
+       ],
+       "raw_relation": "include",
+       "definition": "The object entity is a member of the category or group specified by the subject entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "are supported by",
+         0.8308
+        ],
+        [
+         "affects",
+         0.7951
+        ],
+        [
+         "belongs to drug class",
+         0.7874
+        ],
+        [
+         "has location",
+         0.7835
+        ],
+        [
+         "can occur with",
+         0.7705
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "MAO inhibitors",
+        "belongs to drug class",
+        "methylene blue injection"
+       ],
+       "raw_relation": "include",
+       "definition": "The object entity is a member of the category or group specified by the subject entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "are supported by",
+         0.8308
+        ],
+        [
+         "affects",
+         0.7951
+        ],
+        [
+         "belongs to drug class",
+         0.7874
+        ],
+        [
+         "has location",
+         0.7835
+        ],
+        [
+         "can occur with",
+         0.7705
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "MAO inhibitors",
+        "belongs to drug class",
+        "phenelzine"
+       ],
+       "raw_relation": "include",
+       "definition": "The object entity is a member of the category or group specified by the subject entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "are supported by",
+         0.8308
+        ],
+        [
+         "affects",
+         0.7951
+        ],
+        [
+         "belongs to drug class",
+         0.7874
+        ],
+        [
+         "has location",
+         0.7835
+        ],
+        [
+         "can occur with",
+         0.7705
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "MAO inhibitors",
+        "belongs to drug class",
+        "rasagiline"
+       ],
+       "raw_relation": "include",
+       "definition": "The object entity is a member of the category or group specified by the subject entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "are supported by",
+         0.8308
+        ],
+        [
+         "affects",
+         0.7951
+        ],
+        [
+         "belongs to drug class",
+         0.7874
+        ],
+        [
+         "has location",
+         0.7835
+        ],
+        [
+         "can occur with",
+         0.7705
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "MAO inhibitors",
+        "belongs to drug class",
+        "selegiline"
+       ],
+       "raw_relation": "include",
+       "definition": "The object entity is a member of the category or group specified by the subject entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "are supported by",
+         0.8308
+        ],
+        [
+         "affects",
+         0.7951
+        ],
+        [
+         "belongs to drug class",
+         0.7874
+        ],
+        [
+         "has location",
+         0.7835
+        ],
+        [
+         "can occur with",
+         0.7705
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "MAO inhibitors",
+        "belongs to drug class",
+        "tranylcypromine"
+       ],
+       "raw_relation": "include",
+       "definition": "The object entity is a member of the category or group specified by the subject entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "are supported by",
+         0.8308
+        ],
+        [
+         "affects",
+         0.7951
+        ],
+        [
+         "belongs to drug class",
+         0.7874
+        ],
+        [
+         "has location",
+         0.7835
+        ],
+        [
+         "can occur with",
+         0.7705
+        ]
+       ],
+       "answer": "C"
+      }
+     ]
+    },
+    {
+     "chunk_id": "buspirone#before-taking#0",
+     "section_id": "before-taking",
+     "section_heading": "Before taking this medicine",
+     "text": "You should not use buspirone if you are allergic to it.\nDo not use buspirone if you have taken an MAO inhibitor in the past 14 days. A dangerous drug interaction could occur. MAO inhibitors include isocarboxazid, linezolid, methylene blue injection, phenelzine, rasagiline, selegiline, and tranylcypromine.\nTo make sure this medicine is safe for you, tell your doctor if you have any of these conditions:\n- kidney disease; or\n- liver disease.\nTell your doctor if you are pregnant or plan to become pregnant. This medicine should be used during pregnancy only if clearly needed.\nIt is not known whether buspirone passes into breast milk. You should avoid breast-feeding while using this medicine.\nBuspirone is not FDA-approved for use by anyone younger than 18 years old, but this medicine has been used in children and adolescents under close medical supervision and at the appropriate dosage.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[\n  [\"buspirone\", \"contraindicated in\", \"allergy to buspirone\"],\n  [\"buspirone\", \"contraindicated in\", \"use after MAO inhibitor in past 14 days\"],\n  [\"buspirone\", \"interacts with\", \"MAO inhibitors\"],\n  [\"buspirone\", \"has interaction warning\", \"dangerous drug interaction\"],\n  [\"buspirone\", \"has condition to disclose\", \"kidney disease\"],\n  [\"buspirone\", \"has condition to disclose\", \"liver disease\"],\n  [\"buspirone\", \"has pregnancy warning\", \"should be used only if clearly needed\"],\n  [\"buspirone\", \"has breastfeeding warning\", \"may pass into breast milk\"],\n  [\"buspirone\", \"should avoid during\", \"breastfeeding\"],\n  [\"buspirone\", \"not approved for\", \"individuals younger than 18 years old\"],\n  [\"buspirone\", \"has use in children\", \"under close medical supervision\"],\n  [\"buspirone\", \"has use in adolescents\", \"under close medical supervision\"],\n  [\"buspirone\", \"has use in children and adolescents\", \"at appropriate dosage\"]\n]",
+     "oie": [
+      [
+       "buspirone",
+       "contraindicated in",
+       "allergy to buspirone"
+      ],
+      [
+       "buspirone",
+       "contraindicated in",
+       "use after MAO inhibitor in past 14 days"
+      ],
+      [
+       "buspirone",
+       "interacts with",
+       "MAO inhibitors"
+      ],
+      [
+       "buspirone",
+       "has interaction warning",
+       "dangerous drug interaction"
+      ],
+      [
+       "buspirone",
+       "has condition to disclose",
+       "kidney disease"
+      ],
+      [
+       "buspirone",
+       "has condition to disclose",
+       "liver disease"
+      ],
+      [
+       "buspirone",
+       "has pregnancy warning",
+       "should be used only if clearly needed"
+      ],
+      [
+       "buspirone",
+       "has breastfeeding warning",
+       "may pass into breast milk"
+      ],
+      [
+       "buspirone",
+       "should avoid during",
+       "breastfeeding"
+      ],
+      [
+       "buspirone",
+       "not approved for",
+       "individuals younger than 18 years old"
+      ],
+      [
+       "buspirone",
+       "has use in children",
+       "under close medical supervision"
+      ],
+      [
+       "buspirone",
+       "has use in adolescents",
+       "under close medical supervision"
+      ],
+      [
+       "buspirone",
+       "has use in children and adolescents",
+       "at appropriate dosage"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+      "has breastfeeding warning": "The subject drug may pass into breast milk, and patients should be advised to avoid breastfeeding while using it.",
+      "has condition to disclose": "Patients should inform their doctor if they have the medical condition specified by the object entity.",
+      "has interaction warning": "The subject drug may cause a dangerous drug interaction with the substance specified by the object entity.",
+      "has pregnancy warning": "The subject drug should only be used during pregnancy if clearly needed, as its safety in pregnancy is not fully established.",
+      "has use in adolescents": "The subject drug can be used in adolescents under close medical supervision.",
+      "has use in children": "The subject drug can be used in children under close medical supervision.",
+      "has use in children and adolescents": "The subject drug can be used in children and adolescents at an appropriate dosage under medical supervision.",
+      "interacts with": "The subject drug may produce a harmful or dangerous interaction when used concurrently with the substance specified by the object entity.",
+      "not approved for": "The subject drug is not officially approved by the FDA for use in the population specified by the object entity.",
+      "should avoid during": "Patients using the subject drug should avoid the activity or condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "buspirone",
+        "contraindicated in",
+        "allergy to buspirone"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "contraindicated in",
+        "use after MAO inhibitor in past 14 days"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "interacts with",
+        "MAO inhibitors"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a harmful or dangerous interaction when used concurrently with the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "interacts with",
+        "dangerous drug interaction"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject drug may cause a dangerous drug interaction with the substance specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "interacts with",
+         0.947
+        ],
+        [
+         "has side effect",
+         0.9015
+        ],
+        [
+         "has serious side effect",
+         0.8938
+        ],
+        [
+         "has warning",
+         0.8839
+        ],
+        [
+         "can occur with",
+         0.862
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "should inform doctor about",
+        "kidney disease"
+       ],
+       "raw_relation": "has condition to disclose",
+       "definition": "Patients should inform their doctor if they have the medical condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.9082
+        ],
+        [
+         "mimics symptoms of",
+         0.8234
+        ],
+        [
+         "requires monitoring of",
+         0.8214
+        ],
+        [
+         "has patient resource",
+         0.8013
+        ],
+        [
+         "can occur with",
+         0.7994
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "should inform doctor about",
+        "liver disease"
+       ],
+       "raw_relation": "has condition to disclose",
+       "definition": "Patients should inform their doctor if they have the medical condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.9082
+        ],
+        [
+         "mimics symptoms of",
+         0.8234
+        ],
+        [
+         "requires monitoring of",
+         0.8214
+        ],
+        [
+         "has patient resource",
+         0.8013
+        ],
+        [
+         "can occur with",
+         0.7994
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "has pregnancy or breastfeeding warning",
+        "should be used only if clearly needed"
+       ],
+       "raw_relation": "has pregnancy warning",
+       "definition": "The subject drug should only be used during pregnancy if clearly needed, as its safety in pregnancy is not fully established.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has pregnancy or breastfeeding warning",
+         0.7439
+        ],
+        [
+         "has repeat course interval restriction",
+         0.7307
+        ],
+        [
+         "has off label use",
+         0.7291
+        ],
+        [
+         "requires use of",
+         0.7264
+        ],
+        [
+         "has unclear mechanism of action",
+         0.7156
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "has pregnancy or breastfeeding warning",
+        "may pass into breast milk"
+       ],
+       "raw_relation": "has breastfeeding warning",
+       "definition": "The subject drug may pass into breast milk, and patients should be advised to avoid breastfeeding while using it.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has pregnancy or breastfeeding warning",
+         0.8012
+        ],
+        [
+         "should be avoided with",
+         0.7385
+        ],
+        [
+         "has off label use",
+         0.7228
+        ],
+        [
+         "use with caution in",
+         0.7215
+        ],
+        [
+         "requires use of",
+         0.7195
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "should be avoided with",
+        "breastfeeding"
+       ],
+       "raw_relation": "should avoid during",
+       "definition": "Patients using the subject drug should avoid the activity or condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should be avoided with",
+         0.9721
+        ],
+        [
+         "contraindicated in",
+         0.9061
+        ],
+        [
+         "should not be taken",
+         0.8758
+        ],
+        [
+         "not used to treat",
+         0.8389
+        ],
+        [
+         "use with caution in",
+         0.8325
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "not approved for",
+        "individuals younger than 18 years old"
+       ],
+       "raw_relation": "not approved for",
+       "definition": "The subject drug is not officially approved by the FDA for use in the population specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "used in population",
+        "under close medical supervision"
+       ],
+       "raw_relation": "has use in children",
+       "definition": "The subject drug can be used in children under close medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "dose for children",
+         0.828
+        ],
+        [
+         "use with caution in",
+         0.8001
+        ],
+        [
+         "reduces risk of",
+         0.7798
+        ],
+        [
+         "treats",
+         0.7714
+        ],
+        [
+         "used in population",
+         0.7691
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "used in population",
+        "under close medical supervision"
+       ],
+       "raw_relation": "has use in adolescents",
+       "definition": "The subject drug can be used in adolescents under close medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "dose for children",
+         0.7862
+        ],
+        [
+         "use with caution in",
+         0.7777
+        ],
+        [
+         "used in population",
+         0.7613
+        ],
+        [
+         "reduces risk of",
+         0.7587
+        ],
+        [
+         "treats",
+         0.7487
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "used in population",
+        "at appropriate dosage"
+       ],
+       "raw_relation": "has use in children and adolescents",
+       "definition": "The subject drug can be used in children and adolescents at an appropriate dosage under medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "dose for children",
+         0.8553
+        ],
+        [
+         "used in population",
+         0.8133
+        ],
+        [
+         "has recommended dose",
+         0.7865
+        ],
+        [
+         "requires use of",
+         0.7857
+        ],
+        [
+         "reduces risk of",
+         0.7848
+        ]
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "chunk_id": "buspirone#directions#0",
+     "section_id": "directions",
+     "section_heading": "How should I take buspirone?",
+     "text": "Take buspirone exactly as it was prescribed for you. Follow all directions on your prescription label. Your doctor may occasionally change your dose to make sure you get the best results. Do not take this medicine in larger or smaller amounts or for longer than recommended.\nYou may take buspirone with or without food but take it the same way each time.\nSome buspirone tablets are scored so you can break the tablet into 2 or 3 pieces in order to take a smaller amount of the medicine at each dose. Do not use a tablet if it has not been broken correctly and the piece is too big or too small. Follow your doctor's instructions about how much of the tablet to take.\nIf you have difficulty swallowing capsules, you may open the capsule and sprinkle the medicine into a small amount (about 1 to 2 tablespoons) of applesauce. Swallow the mixture right away without chewing.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Buspirone\", \"has administration instruction\", \"take exactly as prescribed\"], [\"Buspirone\", \"has administration instruction\", \"follow all directions on prescription label\"], [\"Buspirone\", \"has administration instruction\", \"take the same way each time\"], [\"Buspirone\", \"has administration instruction\", \"take with or without food\"], [\"Buspirone\", \"has dosage form\", \"tablet\"], [\"Buspirone\", \"has administration instruction\", \"break tablet into 2 or 3 pieces if scored\"], [\"Buspirone\", \"has administration instruction\", \"do not use tablet if not broken correctly\"], [\"Buspirone\", \"has administration instruction\", \"follow doctor's instructions on amount to take\"], [\"Buspirone\", \"has administration instruction\", \"open capsule and sprinkle into 1 to 2 tablespoons of applesauce\"], [\"Buspirone\", \"has administration instruction\", \"swallow mixture right away without chewing\"], [\"Buspirone\", \"should not be taken\", \"in larger or smaller amounts\"], [\"Buspirone\", \"should not be taken\", \"for longer than recommended\"]]",
+     "oie": [
+      [
+       "Buspirone",
+       "has administration instruction",
+       "take exactly as prescribed"
+      ],
+      [
+       "Buspirone",
+       "has administration instruction",
+       "follow all directions on prescription label"
+      ],
+      [
+       "Buspirone",
+       "has administration instruction",
+       "take the same way each time"
+      ],
+      [
+       "Buspirone",
+       "has administration instruction",
+       "take with or without food"
+      ],
+      [
+       "Buspirone",
+       "has dosage form",
+       "tablet"
+      ],
+      [
+       "Buspirone",
+       "has administration instruction",
+       "break tablet into 2 or 3 pieces if scored"
+      ],
+      [
+       "Buspirone",
+       "has administration instruction",
+       "do not use tablet if not broken correctly"
+      ],
+      [
+       "Buspirone",
+       "has administration instruction",
+       "follow doctor's instructions on amount to take"
+      ],
+      [
+       "Buspirone",
+       "has administration instruction",
+       "open capsule and sprinkle into 1 to 2 tablespoons of applesauce"
+      ],
+      [
+       "Buspirone",
+       "has administration instruction",
+       "swallow mixture right away without chewing"
+      ],
+      [
+       "Buspirone",
+       "should not be taken",
+       "in larger or smaller amounts"
+      ],
+      [
+       "Buspirone",
+       "should not be taken",
+       "for longer than recommended"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+      "has dosage form": "The subject drug is available in the pharmaceutical dosage form specified by the object entity.",
+      "should not be taken": "The subject drug should not be taken in the amount, duration, or manner specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Buspirone",
+        "has administration instruction",
+        "take exactly as prescribed"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has administration instruction",
+        "follow all directions on prescription label"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has administration instruction",
+        "take the same way each time"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has administration instruction",
+        "take with or without food"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has dosage form",
+        "tablet"
+       ],
+       "raw_relation": "has dosage form",
+       "definition": "The subject drug is available in the pharmaceutical dosage form specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has administration instruction",
+        "break tablet into 2 or 3 pieces if scored"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has administration instruction",
+        "do not use tablet if not broken correctly"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has administration instruction",
+        "follow doctor's instructions on amount to take"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has administration instruction",
+        "open capsule and sprinkle into 1 to 2 tablespoons of applesauce"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has administration instruction",
+        "swallow mixture right away without chewing"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "should not be taken",
+        "in larger or smaller amounts"
+       ],
+       "raw_relation": "should not be taken",
+       "definition": "The subject drug should not be taken in the amount, duration, or manner specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "should not be taken",
+        "for longer than recommended"
+       ],
+       "raw_relation": "should not be taken",
+       "definition": "The subject drug should not be taken in the amount, duration, or manner specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "buspirone#directions#1",
+     "section_id": "directions",
+     "section_heading": "How should I take buspirone?",
+     "text": "If you have switched to buspirone from another anxiety medication, you may need to slowly decrease your dose of the other medication rather than stopping suddenly. Some anxiety medications can cause withdrawal symptoms when you stop taking them suddenly after long-term use.\nThis medication can cause false positive results with certain medical tests. You may need to stop using the medicine for at least 48 hours before your test. Tell any doctor who treats you that you are using buspirone.\nStore at room temperature away from moisture, heat, and light.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"buspirone\", \"has interaction with\", \"medical tests resulting in false positive\"], [\"buspirone\", \"requires discontinuation before\", \"medical tests\"], [\"buspirone\", \"has administration instruction\", \"stop use for at least 48 hours before test\"], [\"buspirone\", \"has warning\", \"may cause false positive results in certain tests\"], [\"buspirone\", \"has storage instruction\", \"store at room temperature away from moisture, heat, and light\"]]",
+     "oie": [
+      [
+       "buspirone",
+       "has interaction with",
+       "medical tests resulting in false positive"
+      ],
+      [
+       "buspirone",
+       "requires discontinuation before",
+       "medical tests"
+      ],
+      [
+       "buspirone",
+       "has administration instruction",
+       "stop use for at least 48 hours before test"
+      ],
+      [
+       "buspirone",
+       "has warning",
+       "may cause false positive results in certain tests"
+      ],
+      [
+       "buspirone",
+       "has storage instruction",
+       "store at room temperature away from moisture, heat, and light"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject medication must be stopped for the specified duration before the intended procedure or test.",
+      "has interaction with": "The subject medication may produce an unintended effect, such as a false positive result, in the specified type of medical test.",
+      "has storage instruction": "The subject medication should be stored under the specified conditions to maintain its efficacy and safety.",
+      "has warning": "The subject medication may cause the adverse or unintended effect specified by the object entity, and users should be informed.",
+      "requires discontinuation before": "The subject medication must be stopped prior to the specified medical test or procedure to avoid interference."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "buspirone",
+        "has test interference effect",
+        "medical tests resulting in false positive"
+       ],
+       "raw_relation": "has interaction with",
+       "definition": "The subject medication may produce an unintended effect, such as a false positive result, in the specified type of medical test.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has test interference effect",
+         0.8986
+        ],
+        [
+         "has off label use",
+         0.7891
+        ],
+        [
+         "has unclear mechanism of action",
+         0.758
+        ],
+        [
+         "may require dose adjustment",
+         0.7567
+        ],
+        [
+         "has inconsistent association with",
+         0.7545
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "may require temporary discontinuation before",
+        "medical tests"
+       ],
+       "raw_relation": "requires discontinuation before",
+       "definition": "The subject medication must be stopped prior to the specified medical test or procedure to avoid interference.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may require temporary discontinuation before",
+         0.9045
+        ],
+        [
+         "has repeat course interval restriction",
+         0.7791
+        ],
+        [
+         "requires monitoring of",
+         0.7627
+        ],
+        [
+         "requires waiting period before repeat course",
+         0.7538
+        ],
+        [
+         "requires use of",
+         0.7532
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "has administration instruction",
+        "stop use for at least 48 hours before test"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject medication must be stopped for the specified duration before the intended procedure or test.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "has warning",
+        "may cause false positive results in certain tests"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject medication may cause the adverse or unintended effect specified by the object entity, and users should be informed.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "has storage instruction",
+        "store at room temperature away from moisture, heat, and light"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject medication should be stored under the specified conditions to maintain its efficacy and safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "buspirone#missed-dose#0",
+     "section_id": "missed-dose",
+     "section_heading": "What happens if I miss a dose?",
+     "text": "Take the missed dose as soon as you remember. Skip the missed dose if it is almost time for your next scheduled dose. Do not take extra medicine to make up the missed dose.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Buspirone\", \"has missed dose instruction\", \"take as soon as remembered\"], [\"Buspirone\", \"has missed dose instruction\", \"skip if nearly time for next dose\"], [\"Buspirone\", \"has missed dose instruction\", \"do not take extra medicine\"]]",
+     "oie": [
+      [
+       "Buspirone",
+       "has missed dose instruction",
+       "take as soon as remembered"
+      ],
+      [
+       "Buspirone",
+       "has missed dose instruction",
+       "skip if nearly time for next dose"
+      ],
+      [
+       "Buspirone",
+       "has missed dose instruction",
+       "do not take extra medicine"
+      ]
+     ],
+     "schema_definition": {
+      "has missed dose instruction": "The subject drug includes specific guidance on how to manage a missed dose, as specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Buspirone",
+        "has missed dose instruction",
+        "take as soon as remembered"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug includes specific guidance on how to manage a missed dose, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has missed dose instruction",
+        "skip if nearly time for next dose"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug includes specific guidance on how to manage a missed dose, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has missed dose instruction",
+        "do not take extra medicine"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug includes specific guidance on how to manage a missed dose, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "buspirone#overdose#0",
+     "section_id": "overdose",
+     "section_heading": "What happens if I overdose?",
+     "text": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Buspirone\", \"has overdose instruction\", \"seek emergency medical attention\"], [\"Buspirone\", \"has overdose instruction\", \"call Poison Help line at 1-800-222-1222\"]]",
+     "oie": [
+      [
+       "Buspirone",
+       "has overdose instruction",
+       "seek emergency medical attention"
+      ],
+      [
+       "Buspirone",
+       "has overdose instruction",
+       "call Poison Help line at 1-800-222-1222"
+      ]
+     ],
+     "schema_definition": {
+      "has overdose instruction": "The subject drug requires the action specified by the object entity in case of overdose."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Buspirone",
+        "has overdose instruction",
+        "seek emergency medical attention"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has overdose instruction",
+        "call Poison Help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "buspirone#what-to-avoid#0",
+     "section_id": "what-to-avoid",
+     "section_heading": "What should I avoid?",
+     "text": "This medication may impair your thinking or reactions. Be careful if you drive or do anything that requires you to be alert.\nDrinking alcohol may increase certain side effects of buspirone.\nGrapefruit and grapefruit juice may interact with buspirone and lead to unwanted side effects. Discuss the use of grapefruit products with your doctor.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"buspirone\", \"has side effect\", \"impaired thinking\"], [\"buspirone\", \"has side effect\", \"impaired reactions\"], [\"buspirone\", \"has administration instruction\", \"be careful when driving or performing alert tasks\"], [\"buspirone\", \"interacts with\", \"alcohol\"], [\"buspirone\", \"interacts with\", \"grapefruit and grapefruit juice\"], [\"buspirone\", \"has warning\", \"alcohol may increase side effects\"], [\"buspirone\", \"has warning\", \"grapefruit products may cause unwanted side effects\"], [\"buspirone\", \"requires discussion with doctor\", \"use of grapefruit products\"]]",
+     "oie": [
+      [
+       "buspirone",
+       "has side effect",
+       "impaired thinking"
+      ],
+      [
+       "buspirone",
+       "has side effect",
+       "impaired reactions"
+      ],
+      [
+       "buspirone",
+       "has administration instruction",
+       "be careful when driving or performing alert tasks"
+      ],
+      [
+       "buspirone",
+       "interacts with",
+       "alcohol"
+      ],
+      [
+       "buspirone",
+       "interacts with",
+       "grapefruit and grapefruit juice"
+      ],
+      [
+       "buspirone",
+       "has warning",
+       "alcohol may increase side effects"
+      ],
+      [
+       "buspirone",
+       "has warning",
+       "grapefruit products may cause unwanted side effects"
+      ],
+      [
+       "buspirone",
+       "requires discussion with doctor",
+       "use of grapefruit products"
+      ]
+     ],
+     "schema_definition": {
+      "has side effect": "The subject medication may cause the adverse effect specified by the object entity.",
+      "has administration instruction": "Patients should exercise caution or follow specific precautions when using the subject medication as indicated by the object entity.",
+      "has warning": "The subject medication carries a caution or alert regarding the specified condition, substance, or activity.",
+      "interacts with": "The subject medication may produce a pharmacological interaction with the substance or activity specified by the object entity, potentially leading to altered effects.",
+      "requires discussion with doctor": "Patients should consult a healthcare provider before using the subject medication in combination with the specified substance or activity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "buspirone",
+        "has side effect",
+        "impaired thinking"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject medication may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "has side effect",
+        "impaired reactions"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject medication may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "has administration instruction",
+        "be careful when driving or performing alert tasks"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients should exercise caution or follow specific precautions when using the subject medication as indicated by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "interacts with",
+        "alcohol"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject medication may produce a pharmacological interaction with the substance or activity specified by the object entity, potentially leading to altered effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "interacts with",
+        "grapefruit and grapefruit juice"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject medication may produce a pharmacological interaction with the substance or activity specified by the object entity, potentially leading to altered effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "has warning",
+        "alcohol may increase side effects"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject medication carries a caution or alert regarding the specified condition, substance, or activity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "has warning",
+        "grapefruit products may cause unwanted side effects"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject medication carries a caution or alert regarding the specified condition, substance, or activity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "should inform doctor about",
+        "use of grapefruit products"
+       ],
+       "raw_relation": "requires discussion with doctor",
+       "definition": "Patients should consult a healthcare provider before using the subject medication in combination with the specified substance or activity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires use of",
+         0.8288
+        ],
+        [
+         "may require temporary discontinuation before",
+         0.818
+        ],
+        [
+         "requires monitoring of",
+         0.8106
+        ],
+        [
+         "should inform doctor about",
+         0.8103
+        ],
+        [
+         "requires patient to read",
+         0.7863
+        ]
+       ],
+       "answer": "D"
+      }
+     ]
+    },
+    {
+     "chunk_id": "buspirone#side-effects#0",
+     "section_id": "side-effects",
+     "section_heading": "Buspirone side effects",
+     "text": "Get emergency medical help if you have any signs of an allergic reaction to buspirone: hives; difficult breathing; swelling of your face, lips, tongue, or throat.\nCall your doctor at once if you have:\n- chest pain;\n- shortness of breath; or\n- a light-headed feeling, like you might pass out.\n- signs of serotonin syndrome, such as agitation, hallucinations, fever, sweating, shivering, fast heart rate, muscle stiffness, twitching, loss of coordination, nausea, vomiting, or diarrhea.\nCommon buspirone side effects may include:\n- headache;\n- dizziness, drowsiness;\n- sleep problems (insomnia);\n- nausea, upset stomach; or\n- feeling nervous or excited.\nThis is not a complete list of side effects and others may occur. Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Buspirone\", \"has serious side effect\", \"allergic reaction\"], [\"Buspirone\", \"has side effect\", \"headache\"], [\"Buspirone\", \"has side effect\", \"dizziness\"], [\"Buspirone\", \"has side effect\", \"drowsiness\"], [\"Buspirone\", \"has side effect\", \"sleep problems\"], [\"Buspirone\", \"has side effect\", \"nausea\"], [\"Buspirone\", \"has side effect\", \"upset stomach\"], [\"Buspirone\", \"has side effect\", \"feeling nervous or excited\"], [\"Buspirone\", \"has side effect\", \"serotonin syndrome\"], [\"Buspirone\", \"has side effect\", \"agitation\"], [\"Buspirone\", \"has side effect\", \"hallucinations\"], [\"Buspirone\", \"has side effect\", \"fever\"], [\"Buspirone\", \"has side effect\", \"sweating\"], [\"Buspirone\", \"has side effect\", \"shivering\"], [\"Buspirone\", \"has side effect\", \"fast heart rate\"], [\"Buspirone\", \"has side effect\", \"muscle stiffness\"], [\"Buspirone\", \"has side effect\", \"twitching\"], [\"Buspirone\", \"has side effect\", \"loss of coordination\"], [\"Buspirone\", \"has side effect\", \"vomiting\"], [\"Buspirone\", \"has side effect\", \"diarrhea\"], [\"Buspirone\", \"has symptom of allergic reaction\", \"hives\"], [\"Buspirone\", \"has symptom of allergic reaction\", \"difficult breathing\"], [\"Buspirone\", \"has symptom of allergic reaction\", \"swelling of face, lips, tongue, or throat\"], [\"Buspirone\", \"requires emergency medical help for\", \"allergic reaction\"], [\"Buspirone\", \"requires immediate doctor contact for\", \"chest pain\"], [\"Buspirone\", \"requires immediate doctor contact for\", \"shortness of breath\"], [\"Buspirone\", \"requires immediate doctor contact for\", \"light-headed feeling\"], [\"Buspirone\", \"has warning\", \"not a complete list of side effects\"], [\"Buspirone\", \"has reporting instruction\", \"report side effects to FDA at 1-800-FDA-1088\"]]",
+     "oie": [
+      [
+       "Buspirone",
+       "has serious side effect",
+       "allergic reaction"
+      ],
+      [
+       "Buspirone",
+       "has side effect",
+       "headache"
+      ],
+      [
+       "Buspirone",
+       "has side effect",
+       "dizziness"
+      ],
+      [
+       "Buspirone",
+       "has side effect",
+       "drowsiness"
+      ],
+      [
+       "Buspirone",
+       "has side effect",
+       "sleep problems"
+      ],
+      [
+       "Buspirone",
+       "has side effect",
+       "nausea"
+      ],
+      [
+       "Buspirone",
+       "has side effect",
+       "upset stomach"
+      ],
+      [
+       "Buspirone",
+       "has side effect",
+       "feeling nervous or excited"
+      ],
+      [
+       "Buspirone",
+       "has side effect",
+       "serotonin syndrome"
+      ],
+      [
+       "Buspirone",
+       "has side effect",
+       "agitation"
+      ],
+      [
+       "Buspirone",
+       "has side effect",
+       "hallucinations"
+      ],
+      [
+       "Buspirone",
+       "has side effect",
+       "fever"
+      ],
+      [
+       "Buspirone",
+       "has side effect",
+       "sweating"
+      ],
+      [
+       "Buspirone",
+       "has side effect",
+       "shivering"
+      ],
+      [
+       "Buspirone",
+       "has side effect",
+       "fast heart rate"
+      ],
+      [
+       "Buspirone",
+       "has side effect",
+       "muscle stiffness"
+      ],
+      [
+       "Buspirone",
+       "has side effect",
+       "twitching"
+      ],
+      [
+       "Buspirone",
+       "has side effect",
+       "loss of coordination"
+      ],
+      [
+       "Buspirone",
+       "has side effect",
+       "vomiting"
+      ],
+      [
+       "Buspirone",
+       "has side effect",
+       "diarrhea"
+      ],
+      [
+       "Buspirone",
+       "has symptom of allergic reaction",
+       "hives"
+      ],
+      [
+       "Buspirone",
+       "has symptom of allergic reaction",
+       "difficult breathing"
+      ],
+      [
+       "Buspirone",
+       "has symptom of allergic reaction",
+       "swelling of face, lips, tongue, or throat"
+      ],
+      [
+       "Buspirone",
+       "requires emergency medical help for",
+       "allergic reaction"
+      ],
+      [
+       "Buspirone",
+       "requires immediate doctor contact for",
+       "chest pain"
+      ],
+      [
+       "Buspirone",
+       "requires immediate doctor contact for",
+       "shortness of breath"
+      ],
+      [
+       "Buspirone",
+       "requires immediate doctor contact for",
+       "light-headed feeling"
+      ],
+      [
+       "Buspirone",
+       "has warning",
+       "not a complete list of side effects"
+      ],
+      [
+       "Buspirone",
+       "has reporting instruction",
+       "report side effects to FDA at 1-800-FDA-1088"
+      ]
+     ],
+     "schema_definition": {
+      "has reporting instruction": "The subject drug includes a specific instruction for patients on how to report adverse effects to the specified authority or contact.",
+      "has serious side effect": "The subject drug may cause the serious or potentially life-threatening adverse effect specified by the object entity.",
+      "has side effect": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+      "has symptom of allergic reaction": "The subject drug can cause the specific symptom listed as part of an allergic reaction.",
+      "has warning": "The subject drug includes a caution or notice that the listed condition or information is not exhaustive and other effects may occur.",
+      "requires emergency medical help for": "The subject drug necessitates immediate emergency medical intervention if the specified condition or symptom occurs.",
+      "requires immediate doctor contact for": "The subject drug requires prompt contact with a medical professional if the specified condition or symptom occurs."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Buspirone",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially life-threatening adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has side effect",
+        "headache"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has side effect",
+        "dizziness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has side effect",
+        "drowsiness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has side effect",
+        "sleep problems"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has side effect",
+        "nausea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has side effect",
+        "upset stomach"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has side effect",
+        "feeling nervous or excited"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has side effect",
+        "serotonin syndrome"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has side effect",
+        "agitation"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has side effect",
+        "hallucinations"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has side effect",
+        "fever"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has side effect",
+        "sweating"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has side effect",
+        "shivering"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has side effect",
+        "fast heart rate"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has side effect",
+        "muscle stiffness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has side effect",
+        "twitching"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has side effect",
+        "loss of coordination"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has side effect",
+        "vomiting"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has side effect",
+        "diarrhea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has serious side effect",
+        "hives"
+       ],
+       "raw_relation": "has symptom of allergic reaction",
+       "definition": "The subject drug can cause the specific symptom listed as part of an allergic reaction.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8487
+        ],
+        [
+         "has serious side effect",
+         0.808
+        ],
+        [
+         "has overdose symptom",
+         0.7948
+        ],
+        [
+         "mimics symptoms of",
+         0.7905
+        ],
+        [
+         "can occur with",
+         0.7891
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has serious side effect",
+        "difficult breathing"
+       ],
+       "raw_relation": "has symptom of allergic reaction",
+       "definition": "The subject drug can cause the specific symptom listed as part of an allergic reaction.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8487
+        ],
+        [
+         "has serious side effect",
+         0.808
+        ],
+        [
+         "has overdose symptom",
+         0.7948
+        ],
+        [
+         "mimics symptoms of",
+         0.7905
+        ],
+        [
+         "can occur with",
+         0.7891
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has serious side effect",
+        "swelling of face, lips, tongue, or throat"
+       ],
+       "raw_relation": "has symptom of allergic reaction",
+       "definition": "The subject drug can cause the specific symptom listed as part of an allergic reaction.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8487
+        ],
+        [
+         "has serious side effect",
+         0.808
+        ],
+        [
+         "has overdose symptom",
+         0.7948
+        ],
+        [
+         "mimics symptoms of",
+         0.7905
+        ],
+        [
+         "can occur with",
+         0.7891
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "requires emergency medical help for",
+       "definition": "The subject drug necessitates immediate emergency medical intervention if the specified condition or symptom occurs.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.7857
+        ],
+        [
+         "may require temporary discontinuation before",
+         0.7798
+        ],
+        [
+         "has overdose symptom",
+         0.7775
+        ],
+        [
+         "requires monitoring of",
+         0.7723
+        ],
+        [
+         "has withdrawal symptom",
+         0.7709
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has serious side effect",
+        "chest pain"
+       ],
+       "raw_relation": "requires immediate doctor contact for",
+       "definition": "The subject drug requires prompt contact with a medical professional if the specified condition or symptom occurs.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8177
+        ],
+        [
+         "use with caution in",
+         0.8048
+        ],
+        [
+         "requires monitoring of",
+         0.8019
+        ],
+        [
+         "requires use of",
+         0.7972
+        ],
+        [
+         "has serious side effect",
+         0.7921
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has serious side effect",
+        "shortness of breath"
+       ],
+       "raw_relation": "requires immediate doctor contact for",
+       "definition": "The subject drug requires prompt contact with a medical professional if the specified condition or symptom occurs.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8177
+        ],
+        [
+         "use with caution in",
+         0.8048
+        ],
+        [
+         "requires monitoring of",
+         0.8019
+        ],
+        [
+         "requires use of",
+         0.7972
+        ],
+        [
+         "has serious side effect",
+         0.7921
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has serious side effect",
+        "light-headed feeling"
+       ],
+       "raw_relation": "requires immediate doctor contact for",
+       "definition": "The subject drug requires prompt contact with a medical professional if the specified condition or symptom occurs.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8177
+        ],
+        [
+         "use with caution in",
+         0.8048
+        ],
+        [
+         "requires monitoring of",
+         0.8019
+        ],
+        [
+         "requires use of",
+         0.7972
+        ],
+        [
+         "has serious side effect",
+         0.7921
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has warning",
+        "not a complete list of side effects"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug includes a caution or notice that the listed condition or information is not exhaustive and other effects may occur.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has patient resource",
+        "report side effects to FDA at 1-800-FDA-1088"
+       ],
+       "raw_relation": "has reporting instruction",
+       "definition": "The subject drug includes a specific instruction for patients on how to report adverse effects to the specified authority or contact.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8244
+        ],
+        [
+         "should inform doctor about",
+         0.8128
+        ],
+        [
+         "has serious side effect",
+         0.7973
+        ],
+        [
+         "use with caution in",
+         0.7872
+        ],
+        [
+         "has patient resource",
+         0.7871
+        ]
+       ],
+       "answer": "E"
+      }
+     ]
+    },
+    {
+     "chunk_id": "buspirone#dosage#0",
+     "section_id": "dosage",
+     "section_heading": "Dosing information",
+     "text": "Usual Adult Dose for Anxiety:\nInitial dose: 7.5 mg orally two times a day or 5 mg 3 times a day. Maintenance dose: The daily dose may be increased in 5 mg increments every 2 to 3 days up to 20 to 60 mg/day in divided doses. Maximum dose: 60 mg per day",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Buspirone\", \"has recommended dose\", \"7.5 mg orally two times a day\"], [\"Buspirone\", \"has recommended dose\", \"5 mg three times a day\"], [\"Buspirone\", \"has maintenance dose\", \"increased in 5 mg increments every 2 to 3 days\"], [\"Buspirone\", \"has maintenance dose\", \"up to 20 to 60 mg/day in divided doses\"], [\"Buspirone\", \"has maximum daily dose\", \"60 mg per day\"]]",
+     "oie": [
+      [
+       "Buspirone",
+       "has recommended dose",
+       "7.5 mg orally two times a day"
+      ],
+      [
+       "Buspirone",
+       "has recommended dose",
+       "5 mg three times a day"
+      ],
+      [
+       "Buspirone",
+       "has maintenance dose",
+       "increased in 5 mg increments every 2 to 3 days"
+      ],
+      [
+       "Buspirone",
+       "has maintenance dose",
+       "up to 20 to 60 mg/day in divided doses"
+      ],
+      [
+       "Buspirone",
+       "has maximum daily dose",
+       "60 mg per day"
+      ]
+     ],
+     "schema_definition": {
+      "has recommended dose": "The subject drug is prescribed with the dose regimen specified by the object entity for initial treatment.",
+      "has maintenance dose": "The subject drug's dosage is gradually increased according to the specified increments and limits for long-term management.",
+      "has maximum daily dose": "The highest total amount of the subject drug that can be safely taken in a day is specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Buspirone",
+        "has recommended dose",
+        "7.5 mg orally two times a day"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug is prescribed with the dose regimen specified by the object entity for initial treatment.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has recommended dose",
+        "5 mg three times a day"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug is prescribed with the dose regimen specified by the object entity for initial treatment.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has dosing strategy",
+        "increased in 5 mg increments every 2 to 3 days"
+       ],
+       "raw_relation": "has maintenance dose",
+       "definition": "The subject drug's dosage is gradually increased according to the specified increments and limits for long-term management.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may require dose adjustment",
+         0.804
+        ],
+        [
+         "has dosing strategy",
+         0.7907
+        ],
+        [
+         "has recommended dose after 4 weeks on 1 mg",
+         0.7863
+        ],
+        [
+         "has dose adjustment based on",
+         0.7756
+        ],
+        [
+         "has prolonged duration in",
+         0.77
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has dosing strategy",
+        "up to 20 to 60 mg/day in divided doses"
+       ],
+       "raw_relation": "has maintenance dose",
+       "definition": "The subject drug's dosage is gradually increased according to the specified increments and limits for long-term management.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may require dose adjustment",
+         0.804
+        ],
+        [
+         "has dosing strategy",
+         0.7907
+        ],
+        [
+         "has recommended dose after 4 weeks on 1 mg",
+         0.7863
+        ],
+        [
+         "has dose adjustment based on",
+         0.7756
+        ],
+        [
+         "has prolonged duration in",
+         0.77
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Buspirone",
+        "has maximum daily dose",
+        "60 mg per day"
+       ],
+       "raw_relation": "has maximum daily dose",
+       "definition": "The highest total amount of the subject drug that can be safely taken in a day is specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "buspirone#interactions#0",
+     "section_id": "interactions",
+     "section_heading": "What other drugs will affect buspirone?",
+     "text": "Taking this medicine with other drugs that make you sleepy or slow your breathing can worsen these effects. Ask your doctor before taking buspirone with a sleeping pill, narcotic pain medicine, muscle relaxer, or medicine for anxiety, depression, or seizures.\nOther drugs may interact with buspirone, including prescription and over-the-counter medicines, vitamins, and herbal products. Tell each of your health care providers about all medicines you use now and any medicine you start or stop using.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"buspirone\", \"interacts with\", \"drugs that cause drowsiness or slow breathing\"], [\"buspirone\", \"should be used with caution when combined with\", \"sleeping pill\"], [\"buspirone\", \"should be used with caution when combined with\", \"narcotic pain medicine\"], [\"buspirone\", \"should be used with caution when combined with\", \"muscle relaxer\"], [\"buspirone\", \"should be used with caution when combined with\", \"anxiety medication\"], [\"buspirone\", \"should be used with caution when combined with\", \"depression medication\"], [\"buspirone\", \"should be used with caution when combined with\", \"seizure medication\"], [\"buspirone\", \"interacts with\", \"prescription medicines\"], [\"buspirone\", \"interacts with\", \"over-the-counter medicines\"], [\"buspirone\", \"interacts with\", \"vitamins\"], [\"buspirone\", \"interacts with\", \"herbal products\"], [\"buspirone\", \"requires patient instruction\", \"tell each health care provider about all current medicines\"], [\"buspirone\", \"requires patient instruction\", \"inform health care providers about any new or discontinued medicines\"]]",
+     "oie": [
+      [
+       "buspirone",
+       "interacts with",
+       "drugs that cause drowsiness or slow breathing"
+      ],
+      [
+       "buspirone",
+       "should be used with caution when combined with",
+       "sleeping pill"
+      ],
+      [
+       "buspirone",
+       "should be used with caution when combined with",
+       "narcotic pain medicine"
+      ],
+      [
+       "buspirone",
+       "should be used with caution when combined with",
+       "muscle relaxer"
+      ],
+      [
+       "buspirone",
+       "should be used with caution when combined with",
+       "anxiety medication"
+      ],
+      [
+       "buspirone",
+       "should be used with caution when combined with",
+       "depression medication"
+      ],
+      [
+       "buspirone",
+       "should be used with caution when combined with",
+       "seizure medication"
+      ],
+      [
+       "buspirone",
+       "interacts with",
+       "prescription medicines"
+      ],
+      [
+       "buspirone",
+       "interacts with",
+       "over-the-counter medicines"
+      ],
+      [
+       "buspirone",
+       "interacts with",
+       "vitamins"
+      ],
+      [
+       "buspirone",
+       "interacts with",
+       "herbal products"
+      ],
+      [
+       "buspirone",
+       "requires patient instruction",
+       "tell each health care provider about all current medicines"
+      ],
+      [
+       "buspirone",
+       "requires patient instruction",
+       "inform health care providers about any new or discontinued medicines"
+      ]
+     ],
+     "schema_definition": {
+      "interacts with": "The subject drug may have a pharmacological interaction with the specified type of medication or substance, potentially altering its effects or increasing risk.",
+      "should be used with caution when combined with": "The subject drug may produce enhanced or unpredictable effects when used together with the specified medication, requiring medical supervision.",
+      "requires patient instruction": "The patient is required to inform their healthcare providers about the use of specific medications to ensure safe and effective treatment."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "buspirone",
+        "interacts with",
+        "drugs that cause drowsiness or slow breathing"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the specified type of medication or substance, potentially altering its effects or increasing risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "interacts with",
+        "sleeping pill"
+       ],
+       "raw_relation": "should be used with caution when combined with",
+       "definition": "The subject drug may produce enhanced or unpredictable effects when used together with the specified medication, requiring medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8377
+        ],
+        [
+         "increases risk of",
+         0.8129
+        ],
+        [
+         "interacts with",
+         0.8036
+        ],
+        [
+         "may require dose adjustment",
+         0.7998
+        ],
+        [
+         "has serious side effect",
+         0.7975
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "interacts with",
+        "narcotic pain medicine"
+       ],
+       "raw_relation": "should be used with caution when combined with",
+       "definition": "The subject drug may produce enhanced or unpredictable effects when used together with the specified medication, requiring medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8377
+        ],
+        [
+         "increases risk of",
+         0.8129
+        ],
+        [
+         "interacts with",
+         0.8036
+        ],
+        [
+         "may require dose adjustment",
+         0.7998
+        ],
+        [
+         "has serious side effect",
+         0.7975
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "interacts with",
+        "muscle relaxer"
+       ],
+       "raw_relation": "should be used with caution when combined with",
+       "definition": "The subject drug may produce enhanced or unpredictable effects when used together with the specified medication, requiring medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8377
+        ],
+        [
+         "increases risk of",
+         0.8129
+        ],
+        [
+         "interacts with",
+         0.8036
+        ],
+        [
+         "may require dose adjustment",
+         0.7998
+        ],
+        [
+         "has serious side effect",
+         0.7975
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "interacts with",
+        "anxiety medication"
+       ],
+       "raw_relation": "should be used with caution when combined with",
+       "definition": "The subject drug may produce enhanced or unpredictable effects when used together with the specified medication, requiring medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8377
+        ],
+        [
+         "increases risk of",
+         0.8129
+        ],
+        [
+         "interacts with",
+         0.8036
+        ],
+        [
+         "may require dose adjustment",
+         0.7998
+        ],
+        [
+         "has serious side effect",
+         0.7975
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "interacts with",
+        "depression medication"
+       ],
+       "raw_relation": "should be used with caution when combined with",
+       "definition": "The subject drug may produce enhanced or unpredictable effects when used together with the specified medication, requiring medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8377
+        ],
+        [
+         "increases risk of",
+         0.8129
+        ],
+        [
+         "interacts with",
+         0.8036
+        ],
+        [
+         "may require dose adjustment",
+         0.7998
+        ],
+        [
+         "has serious side effect",
+         0.7975
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "interacts with",
+        "seizure medication"
+       ],
+       "raw_relation": "should be used with caution when combined with",
+       "definition": "The subject drug may produce enhanced or unpredictable effects when used together with the specified medication, requiring medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8377
+        ],
+        [
+         "increases risk of",
+         0.8129
+        ],
+        [
+         "interacts with",
+         0.8036
+        ],
+        [
+         "may require dose adjustment",
+         0.7998
+        ],
+        [
+         "has serious side effect",
+         0.7975
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "interacts with",
+        "prescription medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the specified type of medication or substance, potentially altering its effects or increasing risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "interacts with",
+        "over-the-counter medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the specified type of medication or substance, potentially altering its effects or increasing risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "interacts with",
+        "vitamins"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the specified type of medication or substance, potentially altering its effects or increasing risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "interacts with",
+        "herbal products"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the specified type of medication or substance, potentially altering its effects or increasing risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "should inform doctor about",
+        "tell each health care provider about all current medicines"
+       ],
+       "raw_relation": "requires patient instruction",
+       "definition": "The patient is required to inform their healthcare providers about the use of specific medications to ensure safe and effective treatment.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires use of",
+         0.8499
+        ],
+        [
+         "requires patient to read",
+         0.8235
+        ],
+        [
+         "should inform doctor about",
+         0.8077
+        ],
+        [
+         "may require dose adjustment",
+         0.7803
+        ],
+        [
+         "use with caution in",
+         0.7745
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "buspirone",
+        "should inform doctor about",
+        "inform health care providers about any new or discontinued medicines"
+       ],
+       "raw_relation": "requires patient instruction",
+       "definition": "The patient is required to inform their healthcare providers about the use of specific medications to ensure safe and effective treatment.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires use of",
+         0.8499
+        ],
+        [
+         "requires patient to read",
+         0.8235
+        ],
+        [
+         "should inform doctor about",
+         0.8077
+        ],
+        [
+         "may require dose adjustment",
+         0.7803
+        ],
+        [
+         "use with caution in",
+         0.7745
+        ]
+       ],
+       "answer": "C"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "buspirone#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "buspirone",
+    "has mechanism of action",
+    "affecting brain chemicals unbalanced in anxiety"
+   ],
+   "raw_relation": "has mechanism of action",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "buspirone",
+    "treats",
+    "anxiety symptoms"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "buspirone",
+    "treats",
+    "fear"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "buspirone",
+    "treats",
+    "tension"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "buspirone",
+    "treats",
+    "irritability"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "buspirone",
+    "treats",
+    "dizziness"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "buspirone",
+    "treats",
+    "pounding heartbeat"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "buspirone",
+    "treats",
+    "other physical symptoms of anxiety"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "buspirone",
+    "not approved for",
+    "an anti-psychotic medication"
+   ],
+   "raw_relation": "is not",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "buspirone",
+    "contraindicated in",
+    "medication for psychotic disorders"
+   ],
+   "raw_relation": "should not be used instead of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Buspirone",
+    "contraindicated in",
+    "use after MAO inhibitor within 14 days"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Buspirone",
+    "interacts with",
+    "MAO inhibitors"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "MAO inhibitors",
+    "belongs to drug class",
+    "isocarboxazid"
+   ],
+   "raw_relation": "include",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "MAO inhibitors",
+    "belongs to drug class",
+    "linezolid"
+   ],
+   "raw_relation": "include",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "MAO inhibitors",
+    "belongs to drug class",
+    "methylene blue injection"
+   ],
+   "raw_relation": "include",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "MAO inhibitors",
+    "belongs to drug class",
+    "phenelzine"
+   ],
+   "raw_relation": "include",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "MAO inhibitors",
+    "belongs to drug class",
+    "rasagiline"
+   ],
+   "raw_relation": "include",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "MAO inhibitors",
+    "belongs to drug class",
+    "selegiline"
+   ],
+   "raw_relation": "include",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "MAO inhibitors",
+    "belongs to drug class",
+    "tranylcypromine"
+   ],
+   "raw_relation": "include",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "buspirone",
+    "contraindicated in",
+    "allergy to buspirone"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "buspirone",
+    "contraindicated in",
+    "use after MAO inhibitor in past 14 days"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "buspirone",
+    "interacts with",
+    "MAO inhibitors"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "buspirone",
+    "interacts with",
+    "dangerous drug interaction"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "buspirone",
+    "should inform doctor about",
+    "kidney disease"
+   ],
+   "raw_relation": "has condition to disclose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "buspirone",
+    "should inform doctor about",
+    "liver disease"
+   ],
+   "raw_relation": "has condition to disclose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "buspirone",
+    "has pregnancy or breastfeeding warning",
+    "should be used only if clearly needed"
+   ],
+   "raw_relation": "has pregnancy warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "buspirone",
+    "has pregnancy or breastfeeding warning",
+    "may pass into breast milk"
+   ],
+   "raw_relation": "has breastfeeding warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "buspirone",
+    "should be avoided with",
+    "breastfeeding"
+   ],
+   "raw_relation": "should avoid during",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "buspirone",
+    "not approved for",
+    "individuals younger than 18 years old"
+   ],
+   "raw_relation": "not approved for",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "buspirone",
+    "used in population",
+    "under close medical supervision"
+   ],
+   "raw_relation": "has use in children",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "buspirone",
+    "used in population",
+    "under close medical supervision"
+   ],
+   "raw_relation": "has use in adolescents",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "buspirone",
+    "used in population",
+    "at appropriate dosage"
+   ],
+   "raw_relation": "has use in children and adolescents",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Buspirone",
+    "has administration instruction",
+    "take exactly as prescribed"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Buspirone",
+    "has administration instruction",
+    "follow all directions on prescription label"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Buspirone",
+    "has administration instruction",
+    "take the same way each time"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Buspirone",
+    "has administration instruction",
+    "take with or without food"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Buspirone",
+    "has dosage form",
+    "tablet"
+   ],
+   "raw_relation": "has dosage form",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Buspirone",
+    "has administration instruction",
+    "break tablet into 2 or 3 pieces if scored"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Buspirone",
+    "has administration instruction",
+    "do not use tablet if not broken correctly"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Buspirone",
+    "has administration instruction",
+    "follow doctor's instructions on amount to take"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Buspirone",
+    "has administration instruction",
+    "open capsule and sprinkle into 1 to 2 tablespoons of applesauce"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Buspirone",
+    "has administration instruction",
+    "swallow mixture right away without chewing"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Buspirone",
+    "should not be taken",
+    "in larger or smaller amounts"
+   ],
+   "raw_relation": "should not be taken",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Buspirone",
+    "should not be taken",
+    "for longer than recommended"
+   ],
+   "raw_relation": "should not be taken",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#directions#1",
+   "section_id": "directions",
+   "triplet": [
+    "buspirone",
+    "has test interference effect",
+    "medical tests resulting in false positive"
+   ],
+   "raw_relation": "has interaction with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#directions#1",
+   "section_id": "directions",
+   "triplet": [
+    "buspirone",
+    "may require temporary discontinuation before",
+    "medical tests"
+   ],
+   "raw_relation": "requires discontinuation before",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#directions#1",
+   "section_id": "directions",
+   "triplet": [
+    "buspirone",
+    "has administration instruction",
+    "stop use for at least 48 hours before test"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#directions#1",
+   "section_id": "directions",
+   "triplet": [
+    "buspirone",
+    "has warning",
+    "may cause false positive results in certain tests"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#directions#1",
+   "section_id": "directions",
+   "triplet": [
+    "buspirone",
+    "has storage instruction",
+    "store at room temperature away from moisture, heat, and light"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "Buspirone",
+    "has missed dose instruction",
+    "take as soon as remembered"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "Buspirone",
+    "has missed dose instruction",
+    "skip if nearly time for next dose"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "Buspirone",
+    "has missed dose instruction",
+    "do not take extra medicine"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "Buspirone",
+    "has overdose instruction",
+    "seek emergency medical attention"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "Buspirone",
+    "has overdose instruction",
+    "call Poison Help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "buspirone",
+    "has side effect",
+    "impaired thinking"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "buspirone",
+    "has side effect",
+    "impaired reactions"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "buspirone",
+    "has administration instruction",
+    "be careful when driving or performing alert tasks"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "buspirone",
+    "interacts with",
+    "alcohol"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "buspirone",
+    "interacts with",
+    "grapefruit and grapefruit juice"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "buspirone",
+    "has warning",
+    "alcohol may increase side effects"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "buspirone",
+    "has warning",
+    "grapefruit products may cause unwanted side effects"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "buspirone",
+    "should inform doctor about",
+    "use of grapefruit products"
+   ],
+   "raw_relation": "requires discussion with doctor",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has side effect",
+    "headache"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has side effect",
+    "dizziness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has side effect",
+    "drowsiness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has side effect",
+    "sleep problems"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has side effect",
+    "nausea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has side effect",
+    "upset stomach"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has side effect",
+    "feeling nervous or excited"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has side effect",
+    "serotonin syndrome"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has side effect",
+    "agitation"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has side effect",
+    "hallucinations"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has side effect",
+    "fever"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has side effect",
+    "sweating"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has side effect",
+    "shivering"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has side effect",
+    "fast heart rate"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has side effect",
+    "muscle stiffness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has side effect",
+    "twitching"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has side effect",
+    "loss of coordination"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has side effect",
+    "vomiting"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has side effect",
+    "diarrhea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has serious side effect",
+    "hives"
+   ],
+   "raw_relation": "has symptom of allergic reaction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has serious side effect",
+    "difficult breathing"
+   ],
+   "raw_relation": "has symptom of allergic reaction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has serious side effect",
+    "swelling of face, lips, tongue, or throat"
+   ],
+   "raw_relation": "has symptom of allergic reaction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "requires emergency medical help for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has serious side effect",
+    "chest pain"
+   ],
+   "raw_relation": "requires immediate doctor contact for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has serious side effect",
+    "shortness of breath"
+   ],
+   "raw_relation": "requires immediate doctor contact for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has serious side effect",
+    "light-headed feeling"
+   ],
+   "raw_relation": "requires immediate doctor contact for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has warning",
+    "not a complete list of side effects"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Buspirone",
+    "has patient resource",
+    "report side effects to FDA at 1-800-FDA-1088"
+   ],
+   "raw_relation": "has reporting instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Buspirone",
+    "has recommended dose",
+    "7.5 mg orally two times a day"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Buspirone",
+    "has recommended dose",
+    "5 mg three times a day"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Buspirone",
+    "has dosing strategy",
+    "increased in 5 mg increments every 2 to 3 days"
+   ],
+   "raw_relation": "has maintenance dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Buspirone",
+    "has dosing strategy",
+    "up to 20 to 60 mg/day in divided doses"
+   ],
+   "raw_relation": "has maintenance dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Buspirone",
+    "has maximum daily dose",
+    "60 mg per day"
+   ],
+   "raw_relation": "has maximum daily dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "buspirone",
+    "interacts with",
+    "drugs that cause drowsiness or slow breathing"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "buspirone",
+    "interacts with",
+    "sleeping pill"
+   ],
+   "raw_relation": "should be used with caution when combined with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "buspirone",
+    "interacts with",
+    "narcotic pain medicine"
+   ],
+   "raw_relation": "should be used with caution when combined with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "buspirone",
+    "interacts with",
+    "muscle relaxer"
+   ],
+   "raw_relation": "should be used with caution when combined with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "buspirone",
+    "interacts with",
+    "anxiety medication"
+   ],
+   "raw_relation": "should be used with caution when combined with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "buspirone",
+    "interacts with",
+    "depression medication"
+   ],
+   "raw_relation": "should be used with caution when combined with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "buspirone",
+    "interacts with",
+    "seizure medication"
+   ],
+   "raw_relation": "should be used with caution when combined with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "buspirone",
+    "interacts with",
+    "prescription medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "buspirone",
+    "interacts with",
+    "over-the-counter medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "buspirone",
+    "interacts with",
+    "vitamins"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "buspirone",
+    "interacts with",
+    "herbal products"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "buspirone#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "buspirone",
+    "should inform doctor about",
+    "tell each health care provider about all current medicines"
+   ],
+   "raw_relation": "requires patient instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "buspirone#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "buspirone",
+    "should inform doctor about",
+    "inform health care providers about any new or discontinued medicines"
+   ],
+   "raw_relation": "requires patient instruction",
+   "status": "mapped"
+  }
+ ],
+ "name": "Buspirone",
+ "slug": "buspirone",
+ "n_chunks": 11,
+ "seconds": 13.3,
+ "llm_model": "drugkg-llm"
+}

@@ -1,0 +1,547 @@
+[
+ {
+  "kg": "output/kg",
+  "n_relations": 147,
+  "n_triples": 11267,
+  "mean_nearest_sim": 0.8401,
+  "median_nearest_sim": 0.8428,
+  "mean_pair_sim": 0.6957,
+  "pairs_ge_0.8": 984,
+  "relations_with_neighbour_ge_0.8": 116,
+  "triple_share_with_neighbour_ge_0.8": 0.979,
+  "pairs_ge_0.85": 187,
+  "relations_with_neighbour_ge_0.85": 66,
+  "triple_share_with_neighbour_ge_0.85": 0.928,
+  "pairs_ge_0.9": 13,
+  "relations_with_neighbour_ge_0.9": 18,
+  "triple_share_with_neighbour_ge_0.9": 0.482,
+  "pairs_ge_0.95": 0,
+  "relations_with_neighbour_ge_0.95": 0,
+  "triple_share_with_neighbour_ge_0.95": 0.0,
+  "top_pairs": [
+   [
+    "has brand name",
+    "manufactured by",
+    0.941,
+    "seed",
+    "seed"
+   ],
+   [
+    "has brand name",
+    "distributed from",
+    0.93,
+    "seed",
+    "enriched"
+   ],
+   [
+    "has side effect",
+    "has side effect variation",
+    0.927,
+    "seed",
+    "enriched"
+   ],
+   [
+    "manufactured by",
+    "distributed from",
+    0.926,
+    "seed",
+    "enriched"
+   ],
+   [
+    "has side effect",
+    "has serious side effect",
+    0.925,
+    "seed",
+    "seed"
+   ],
+   [
+    "has dosage form",
+    "has recommended dose",
+    0.921,
+    "seed",
+    "seed"
+   ],
+   [
+    "has dosage form",
+    "has strength",
+    0.916,
+    "seed",
+    "seed"
+   ],
+   [
+    "contains ingredient",
+    "has inactive ingredient",
+    0.915,
+    "seed",
+    "enriched"
+   ],
+   [
+    "has generic name",
+    "has brand name",
+    0.915,
+    "seed",
+    "seed"
+   ],
+   [
+    "treats",
+    "reduces risk of",
+    0.914,
+    "seed",
+    "seed"
+   ],
+   [
+    "has duration of treatment",
+    "has half life",
+    0.907,
+    "seed",
+    "enriched"
+   ],
+   [
+    "has side effect",
+    "has overdose symptom",
+    0.904,
+    "seed",
+    "seed"
+   ]
+  ],
+  "seed_only_mean_nearest": 0.8869,
+  "seed_only_pairs_ge_0.85": 81,
+  "label": "main (4B)"
+ },
+ {
+  "kg": "output/experiments/decomp_edc/kg",
+  "n_relations": 210,
+  "n_triples": 13198,
+  "mean_nearest_sim": 0.8807,
+  "median_nearest_sim": 0.8872,
+  "mean_pair_sim": 0.7284,
+  "pairs_ge_0.8": 3962,
+  "relations_with_neighbour_ge_0.8": 202,
+  "triple_share_with_neighbour_ge_0.8": 0.998,
+  "pairs_ge_0.85": 934,
+  "relations_with_neighbour_ge_0.85": 162,
+  "triple_share_with_neighbour_ge_0.85": 0.977,
+  "pairs_ge_0.9": 77,
+  "relations_with_neighbour_ge_0.9": 75,
+  "triple_share_with_neighbour_ge_0.9": 0.563,
+  "pairs_ge_0.95": 2,
+  "relations_with_neighbour_ge_0.95": 4,
+  "triple_share_with_neighbour_ge_0.95": 0.003,
+  "top_pairs": [
+   [
+    "no dose change needed in",
+    "no dose adjustment needed with",
+    0.963,
+    "enriched",
+    "enriched"
+   ],
+   [
+    "improves",
+    "increases response to",
+    0.952,
+    "enriched",
+    "enriched"
+   ],
+   [
+    "has dosage form",
+    "has formulation",
+    0.946,
+    "seed",
+    "enriched"
+   ],
+   [
+    "has duration in system",
+    "has increased duration in",
+    0.944,
+    "enriched",
+    "enriched"
+   ],
+   [
+    "treats",
+    "applies to patients who are to be managed with",
+    0.943,
+    "seed",
+    "enriched"
+   ],
+   [
+    "has brand name",
+    "manufactured by",
+    0.941,
+    "seed",
+    "seed"
+   ],
+   [
+    "does not contain",
+    "not chemically related to",
+    0.941,
+    "enriched",
+    "enriched"
+   ],
+   [
+    "is defined as",
+    "can be",
+    0.94,
+    "enriched",
+    "enriched"
+   ],
+   [
+    "has side effect",
+    "has side effect frequency",
+    0.938,
+    "seed",
+    "enriched"
+   ],
+   [
+    "has dosage form",
+    "available dose count",
+    0.936,
+    "seed",
+    "enriched"
+   ],
+   [
+    "treats",
+    "used after",
+    0.933,
+    "seed",
+    "enriched"
+   ],
+   [
+    "treats",
+    "has use indication",
+    0.931,
+    "seed",
+    "enriched"
+   ]
+  ],
+  "seed_only_mean_nearest": 0.8869,
+  "seed_only_pairs_ge_0.85": 81,
+  "label": "decomp_edc"
+ },
+ {
+  "kg": "output/experiments/decomp_edc_ec/kg_canon",
+  "n_relations": 143,
+  "n_triples": 11940,
+  "mean_nearest_sim": 0.8693,
+  "median_nearest_sim": 0.8761,
+  "mean_pair_sim": 0.7289,
+  "pairs_ge_0.8": 1843,
+  "relations_with_neighbour_ge_0.8": 131,
+  "triple_share_with_neighbour_ge_0.8": 0.989,
+  "pairs_ge_0.85": 425,
+  "relations_with_neighbour_ge_0.85": 98,
+  "triple_share_with_neighbour_ge_0.85": 0.969,
+  "pairs_ge_0.9": 34,
+  "relations_with_neighbour_ge_0.9": 39,
+  "triple_share_with_neighbour_ge_0.9": 0.453,
+  "pairs_ge_0.95": 0,
+  "relations_with_neighbour_ge_0.95": 0,
+  "triple_share_with_neighbour_ge_0.95": 0.0,
+  "top_pairs": [
+   [
+    "has dosage form",
+    "has formulation",
+    0.946,
+    "seed",
+    "enriched"
+   ],
+   [
+    "has brand name",
+    "manufactured by",
+    0.941,
+    "seed",
+    "seed"
+   ],
+   [
+    "does not contain",
+    "not chemically related to",
+    0.941,
+    "enriched",
+    "enriched"
+   ],
+   [
+    "has dosage form",
+    "available dose count",
+    0.936,
+    "seed",
+    "enriched"
+   ],
+   [
+    "treats",
+    "used after",
+    0.933,
+    "seed",
+    "enriched"
+   ],
+   [
+    "tested in",
+    "compared with",
+    0.929,
+    "enriched",
+    "enriched"
+   ],
+   [
+    "has strength",
+    "available dose count",
+    0.925,
+    "seed",
+    "enriched"
+   ],
+   [
+    "has dosage form",
+    "has recommended dose",
+    0.921,
+    "seed",
+    "seed"
+   ],
+   [
+    "has absorption characteristic",
+    "described as",
+    0.921,
+    "enriched",
+    "enriched"
+   ],
+   [
+    "causes",
+    "used after",
+    0.921,
+    "enriched",
+    "enriched"
+   ],
+   [
+    "has side effect",
+    "causes",
+    0.919,
+    "seed",
+    "enriched"
+   ],
+   [
+    "has related treatment guide",
+    "used after",
+    0.917,
+    "enriched",
+    "enriched"
+   ]
+  ],
+  "seed_only_mean_nearest": 0.8872,
+  "seed_only_pairs_ge_0.85": 42,
+  "label": "decomp_edc_ec (canon)"
+ },
+ {
+  "kg": "output/experiments/decomp_edc_ec_g/kg_canon",
+  "n_relations": 130,
+  "n_triples": 11746,
+  "mean_nearest_sim": 0.8655,
+  "median_nearest_sim": 0.8749,
+  "mean_pair_sim": 0.7248,
+  "pairs_ge_0.8": 1459,
+  "relations_with_neighbour_ge_0.8": 121,
+  "triple_share_with_neighbour_ge_0.8": 0.99,
+  "pairs_ge_0.85": 361,
+  "relations_with_neighbour_ge_0.85": 91,
+  "triple_share_with_neighbour_ge_0.85": 0.901,
+  "pairs_ge_0.9": 17,
+  "relations_with_neighbour_ge_0.9": 25,
+  "triple_share_with_neighbour_ge_0.9": 0.317,
+  "pairs_ge_0.95": 0,
+  "relations_with_neighbour_ge_0.95": 0,
+  "triple_share_with_neighbour_ge_0.95": 0.0,
+  "top_pairs": [
+   [
+    "is defined as",
+    "can be",
+    0.94,
+    "enriched",
+    "enriched"
+   ],
+   [
+    "treats",
+    "used after",
+    0.933,
+    "seed",
+    "enriched"
+   ],
+   [
+    "has strength",
+    "available dose count",
+    0.925,
+    "seed",
+    "enriched"
+   ],
+   [
+    "causes",
+    "used after",
+    0.921,
+    "enriched",
+    "enriched"
+   ],
+   [
+    "has related treatment guide",
+    "used after",
+    0.917,
+    "enriched",
+    "enriched"
+   ],
+   [
+    "interacts with",
+    "causes",
+    0.913,
+    "seed",
+    "enriched"
+   ],
+   [
+    "similar to",
+    "should be replaced with",
+    0.911,
+    "seed",
+    "enriched"
+   ],
+   [
+    "has absorption characteristic",
+    "has metabolism characteristic",
+    0.909,
+    "enriched",
+    "enriched"
+   ],
+   [
+    "available dose count",
+    "has dose",
+    0.909,
+    "enriched",
+    "kggen-alias"
+   ],
+   [
+    "reduces",
+    "reduces effectiveness of",
+    0.906,
+    "enriched",
+    "enriched"
+   ],
+   [
+    "contraindicated in",
+    "should be avoided during",
+    0.903,
+    "seed",
+    "enriched"
+   ],
+   [
+    "has effect in",
+    "has sertraline level",
+    0.903,
+    "enriched",
+    "enriched"
+   ]
+  ],
+  "seed_only_mean_nearest": 0.8672,
+  "seed_only_pairs_ge_0.85": 30,
+  "label": "decomp_edc_ec_g (canon)"
+ },
+ {
+  "kg": "output/experiments/text_edc/kg",
+  "n_relations": 149,
+  "n_triples": 12233,
+  "mean_nearest_sim": 0.8777,
+  "median_nearest_sim": 0.8859,
+  "mean_pair_sim": 0.741,
+  "pairs_ge_0.8": 2388,
+  "relations_with_neighbour_ge_0.8": 142,
+  "triple_share_with_neighbour_ge_0.8": 0.999,
+  "pairs_ge_0.85": 562,
+  "relations_with_neighbour_ge_0.85": 115,
+  "triple_share_with_neighbour_ge_0.85": 0.971,
+  "pairs_ge_0.9": 44,
+  "relations_with_neighbour_ge_0.9": 45,
+  "triple_share_with_neighbour_ge_0.9": 0.721,
+  "pairs_ge_0.95": 0,
+  "relations_with_neighbour_ge_0.95": 0,
+  "triple_share_with_neighbour_ge_0.95": 0.0,
+  "top_pairs": [
+   [
+    "has brand name",
+    "manufactured by",
+    0.941,
+    "seed",
+    "seed"
+   ],
+   [
+    "has side effect",
+    "has side effect frequency",
+    0.938,
+    "seed",
+    "enriched"
+   ],
+   [
+    "may cost",
+    "cost condition",
+    0.937,
+    "enriched",
+    "enriched"
+   ],
+   [
+    "not chemically related to",
+    "does not interact with",
+    0.934,
+    "enriched",
+    "enriched"
+   ],
+   [
+    "used in",
+    "used after",
+    0.93,
+    "enriched",
+    "enriched"
+   ],
+   [
+    "has mechanism of action",
+    "has effect",
+    0.929,
+    "seed",
+    "enriched"
+   ],
+   [
+    "treats",
+    "used in",
+    0.927,
+    "seed",
+    "enriched"
+   ],
+   [
+    "used in",
+    "may be used for",
+    0.926,
+    "enriched",
+    "enriched"
+   ],
+   [
+    "used in",
+    "has recommendation",
+    0.925,
+    "enriched",
+    "enriched"
+   ],
+   [
+    "has side effect",
+    "has serious side effect",
+    0.925,
+    "seed",
+    "seed"
+   ],
+   [
+    "treats",
+    "may be used for",
+    0.925,
+    "seed",
+    "enriched"
+   ],
+   [
+    "has dosage form",
+    "has concentration",
+    0.924,
+    "seed",
+    "enriched"
+   ]
+  ],
+  "seed_only_mean_nearest": 0.8869,
+  "seed_only_pairs_ge_0.85": 81,
+  "label": "text_edc"
+ }
+]

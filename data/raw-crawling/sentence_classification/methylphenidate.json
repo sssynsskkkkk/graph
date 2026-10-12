@@ -1,0 +1,3211 @@
+{
+  "drug": "Methylphenidate",
+  "source_file": "data/raw-crawling/raw-crawling/methylphenidate.html",
+  "model": "models/codekg_bert_large/final_model",
+  "sentence_count": 188,
+  "label_counts": {
+    "Complex Sentence": 9,
+    "Compound Sentence": 8,
+    "Compound-Complex Sentence": 1,
+    "Incomplete Sentence": 133,
+    "Simple Sentence": 37
+  },
+  "sentences": [
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": null,
+      "block_index": 0,
+      "sentence_index": 0,
+      "sentence": "Generic name: methylphenidate (oral) [ METH-il-FEN-i-date ] Brand names: Adhansia XR , Aptensio XR , Concerta , Cotempla XR-ODT , Jornay PM , ... show all 12 brands Metadate ER, Methylin, QuilliChew ER, Quillivant XR, Relexxii, Ritalin, Ritalin LA Drug class: CNS stimulants",
+      "predicted_label": "Compound-Complex Sentence",
+      "confidence": 0.3636918365955353,
+      "probabilities": {
+        "Simple Sentence": 0.01640644297003746,
+        "Compound Sentence": 0.24837985634803772,
+        "Complex Sentence": 0.36015743017196655,
+        "Compound-Complex Sentence": 0.3636918365955353,
+        "Incomplete Sentence": 0.011364410631358624
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": null,
+      "block_index": 1,
+      "sentence_index": 0,
+      "sentence": "Medically reviewed by Philip Thornton, DipPharm .",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9962397813796997,
+      "probabilities": {
+        "Simple Sentence": 0.0020194316748529673,
+        "Compound Sentence": 0.0009474133257754147,
+        "Complex Sentence": 0.0003427954507060349,
+        "Compound-Complex Sentence": 0.00045059609692543745,
+        "Incomplete Sentence": 0.9962397813796997
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": null,
+      "block_index": 1,
+      "sentence_index": 1,
+      "sentence": "Last updated on Aug 24, 2026.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9926435351371765,
+      "probabilities": {
+        "Simple Sentence": 0.0044950274750590324,
+        "Compound Sentence": 0.0015026158653199673,
+        "Complex Sentence": 0.0004959942889399827,
+        "Compound-Complex Sentence": 0.0008628797368146479,
+        "Incomplete Sentence": 0.9926435351371765
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What is methylphenidate?",
+      "block_index": 2,
+      "sentence_index": 0,
+      "sentence": "Methylphenidate is a central nervous system stimulant.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.982181191444397,
+      "probabilities": {
+        "Simple Sentence": 0.982181191444397,
+        "Compound Sentence": 0.006364357192069292,
+        "Complex Sentence": 0.004386988002806902,
+        "Compound-Complex Sentence": 0.0010389528470113873,
+        "Incomplete Sentence": 0.006028595380485058
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What is methylphenidate?",
+      "block_index": 2,
+      "sentence_index": 1,
+      "sentence": "It affects chemicals in the brain and nerves that contribute to hyperactivity and impulse control.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8023414015769958,
+      "probabilities": {
+        "Simple Sentence": 0.8023414015769958,
+        "Compound Sentence": 0.11792557686567307,
+        "Complex Sentence": 0.06467312574386597,
+        "Compound-Complex Sentence": 0.007713738828897476,
+        "Incomplete Sentence": 0.007346138823777437
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What is methylphenidate?",
+      "block_index": 3,
+      "sentence_index": 0,
+      "sentence": "Methylphenidate is used to treat attention deficit disorder (ADD), attention deficit hyperactivity disorder (ADHD) , and narcolepsy .",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.7656487822532654,
+      "probabilities": {
+        "Simple Sentence": 0.7656487822532654,
+        "Compound Sentence": 0.1456991583108902,
+        "Complex Sentence": 0.07449764013290405,
+        "Compound-Complex Sentence": 0.007346611004322767,
+        "Incomplete Sentence": 0.0068077887408435345
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What is methylphenidate?",
+      "block_index": 4,
+      "sentence_index": 0,
+      "sentence": "Methylphenidate should be used as a part of a total treatment program for ADHD that may include counseling or other therapies.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.7283698320388794,
+      "probabilities": {
+        "Simple Sentence": 0.17945601046085358,
+        "Compound Sentence": 0.0638621523976326,
+        "Complex Sentence": 0.7283698320388794,
+        "Compound-Complex Sentence": 0.022472523152828217,
+        "Incomplete Sentence": 0.0058394530788064
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Warnings",
+      "block_index": 5,
+      "sentence_index": 0,
+      "sentence": "Methylphenidate may be habit-forming.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9880200028419495,
+      "probabilities": {
+        "Simple Sentence": 0.9880200028419495,
+        "Compound Sentence": 0.004820844158530235,
+        "Complex Sentence": 0.002026377711445093,
+        "Compound-Complex Sentence": 0.0007454627193510532,
+        "Incomplete Sentence": 0.004387285560369492
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Warnings",
+      "block_index": 5,
+      "sentence_index": 1,
+      "sentence": "Misuse can cause addiction, overdose, or death.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9814049601554871,
+      "probabilities": {
+        "Simple Sentence": 0.9814049601554871,
+        "Compound Sentence": 0.010049915872514248,
+        "Complex Sentence": 0.003567259293049574,
+        "Compound-Complex Sentence": 0.0009944693883880973,
+        "Incomplete Sentence": 0.003983453847467899
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Warnings",
+      "block_index": 5,
+      "sentence_index": 2,
+      "sentence": "Tell your doctor if you have had problems with drug or alcohol abuse.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9257577061653137,
+      "probabilities": {
+        "Simple Sentence": 0.059008583426475525,
+        "Compound Sentence": 0.00811566412448883,
+        "Complex Sentence": 0.002549969358369708,
+        "Compound-Complex Sentence": 0.004568062722682953,
+        "Incomplete Sentence": 0.9257577061653137
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Warnings",
+      "block_index": 6,
+      "sentence_index": 0,
+      "sentence": "Stimulants have caused stroke, heart attack, and sudden death in people with high blood pressure, heart disease, or a heart defect.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.7595224976539612,
+      "probabilities": {
+        "Simple Sentence": 0.7595224976539612,
+        "Compound Sentence": 0.14284949004650116,
+        "Complex Sentence": 0.08090531826019287,
+        "Compound-Complex Sentence": 0.009768611751496792,
+        "Incomplete Sentence": 0.0069540939293801785
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Warnings",
+      "block_index": 7,
+      "sentence_index": 0,
+      "sentence": "Do not use methylphenidate if you have used an MAO inhibitor in the past 14 days, such as isocarboxazid, linezolid, methylene blue injection, phenelzine, rasagiline, selegiline, or tranylcypromine.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.48192521929740906,
+      "probabilities": {
+        "Simple Sentence": 0.07783154398202896,
+        "Compound Sentence": 0.48192521929740906,
+        "Complex Sentence": 0.3517242670059204,
+        "Compound-Complex Sentence": 0.06109067425131798,
+        "Incomplete Sentence": 0.02742837555706501
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Warnings",
+      "block_index": 8,
+      "sentence_index": 0,
+      "sentence": "Methylphenidate may cause new or worsening psychosis (unusual thoughts or behavior), especially if you have a history of depression, mental illness, or bipolar disorder .",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.7258861660957336,
+      "probabilities": {
+        "Simple Sentence": 0.06162605062127113,
+        "Compound Sentence": 0.16621334850788116,
+        "Complex Sentence": 0.7258861660957336,
+        "Compound-Complex Sentence": 0.04031680151820183,
+        "Incomplete Sentence": 0.0059575471095740795
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Warnings",
+      "block_index": 9,
+      "sentence_index": 0,
+      "sentence": "You may have blood circulation problems that can cause numbness, pain, or discoloration in your fingers or toes.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8503802418708801,
+      "probabilities": {
+        "Simple Sentence": 0.8503802418708801,
+        "Compound Sentence": 0.08456987142562866,
+        "Complex Sentence": 0.048635583370923996,
+        "Compound-Complex Sentence": 0.007443955168128014,
+        "Incomplete Sentence": 0.008970359340310097
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Warnings",
+      "block_index": 10,
+      "sentence_index": 0,
+      "sentence": "Call your doctor right away if you have: signs of heart problems - chest pain, feeling light-headed or short of breath; signs of psychosis - paranoia, aggression, new behavior problems, seeing or hearing things that are not real; signs of circulation problems - unexplained wounds on your fingers or toes.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.40519073605537415,
+      "probabilities": {
+        "Simple Sentence": 0.020915504544973373,
+        "Compound Sentence": 0.40519073605537415,
+        "Complex Sentence": 0.3290962278842926,
+        "Compound-Complex Sentence": 0.23064538836479187,
+        "Incomplete Sentence": 0.01415213942527771
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Warnings",
+      "block_index": 11,
+      "sentence_index": 0,
+      "sentence": "Tell your doctor if you have a history of drug or alcohol addiction.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9527652263641357,
+      "probabilities": {
+        "Simple Sentence": 0.035458143800497055,
+        "Compound Sentence": 0.005977960769087076,
+        "Complex Sentence": 0.0019200231181457639,
+        "Compound-Complex Sentence": 0.003878553630784154,
+        "Incomplete Sentence": 0.9527652263641357
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Warnings",
+      "block_index": 11,
+      "sentence_index": 1,
+      "sentence": "Keep the medication where others cannot get to it.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9881870150566101,
+      "probabilities": {
+        "Simple Sentence": 0.008187913335859776,
+        "Compound Sentence": 0.0019509822595864534,
+        "Complex Sentence": 0.000595597259234637,
+        "Compound-Complex Sentence": 0.0010784873738884926,
+        "Incomplete Sentence": 0.9881870150566101
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 12,
+      "sentence_index": 0,
+      "sentence": "You should not use methylphenidate if you are allergic to it, or if you have:",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9440597295761108,
+      "probabilities": {
+        "Simple Sentence": 0.9440597295761108,
+        "Compound Sentence": 0.02646002359688282,
+        "Complex Sentence": 0.011983015574514866,
+        "Compound-Complex Sentence": 0.002155792200937867,
+        "Incomplete Sentence": 0.015341484919190407
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 13,
+      "sentence_index": 0,
+      "sentence": "glaucoma:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9979706406593323,
+      "probabilities": {
+        "Simple Sentence": 0.000765201635658741,
+        "Compound Sentence": 0.0005595601978711784,
+        "Complex Sentence": 0.00022785594046581537,
+        "Compound-Complex Sentence": 0.0004767512436956167,
+        "Incomplete Sentence": 0.9979706406593323
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 14,
+      "sentence_index": 0,
+      "sentence": "glaucoma:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9979706406593323,
+      "probabilities": {
+        "Simple Sentence": 0.000765201635658741,
+        "Compound Sentence": 0.0005595601978711784,
+        "Complex Sentence": 0.00022785594046581537,
+        "Compound-Complex Sentence": 0.0004767512436956167,
+        "Incomplete Sentence": 0.9979706406593323
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 15,
+      "sentence_index": 0,
+      "sentence": "pheochromocytoma (tumor of the adrenal gland);",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9957452416419983,
+      "probabilities": {
+        "Simple Sentence": 0.0024945579934865236,
+        "Compound Sentence": 0.000922301085665822,
+        "Complex Sentence": 0.0002994273090735078,
+        "Compound-Complex Sentence": 0.0005384990945458412,
+        "Incomplete Sentence": 0.9957452416419983
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 16,
+      "sentence_index": 0,
+      "sentence": "pheochromocytoma (tumor of the adrenal gland);",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9957452416419983,
+      "probabilities": {
+        "Simple Sentence": 0.0024945579934865236,
+        "Compound Sentence": 0.000922301085665822,
+        "Complex Sentence": 0.0002994273090735078,
+        "Compound-Complex Sentence": 0.0005384990945458412,
+        "Incomplete Sentence": 0.9957452416419983
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 17,
+      "sentence_index": 0,
+      "sentence": "severe high blood pressure or a heart problem;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9966481328010559,
+      "probabilities": {
+        "Simple Sentence": 0.0014622608432546258,
+        "Compound Sentence": 0.0009114919230341911,
+        "Complex Sentence": 0.00027989616501145065,
+        "Compound-Complex Sentence": 0.0006981829646974802,
+        "Incomplete Sentence": 0.9966481328010559
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 18,
+      "sentence_index": 0,
+      "sentence": "severe high blood pressure or a heart problem;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9966481328010559,
+      "probabilities": {
+        "Simple Sentence": 0.0014622608432546258,
+        "Compound Sentence": 0.0009114919230341911,
+        "Complex Sentence": 0.00027989616501145065,
+        "Compound-Complex Sentence": 0.0006981829646974802,
+        "Incomplete Sentence": 0.9966481328010559
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 19,
+      "sentence_index": 0,
+      "sentence": "overactive thyroid;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9973345994949341,
+      "probabilities": {
+        "Simple Sentence": 0.0012479379074648023,
+        "Compound Sentence": 0.0006778298411518335,
+        "Complex Sentence": 0.00025954635930247605,
+        "Compound-Complex Sentence": 0.00048018418601714075,
+        "Incomplete Sentence": 0.9973345994949341
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 20,
+      "sentence_index": 0,
+      "sentence": "overactive thyroid;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9973345994949341,
+      "probabilities": {
+        "Simple Sentence": 0.0012479379074648023,
+        "Compound Sentence": 0.0006778298411518335,
+        "Complex Sentence": 0.00025954635930247605,
+        "Compound-Complex Sentence": 0.00048018418601714075,
+        "Incomplete Sentence": 0.9973345994949341
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 21,
+      "sentence_index": 0,
+      "sentence": "a personal or family history of tics (muscle twitches) or Tourette's syndrome ; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9939935803413391,
+      "probabilities": {
+        "Simple Sentence": 0.0030357874929904938,
+        "Compound Sentence": 0.001454099896363914,
+        "Complex Sentence": 0.00048232910921797156,
+        "Compound-Complex Sentence": 0.0010341365123167634,
+        "Incomplete Sentence": 0.9939935803413391
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 22,
+      "sentence_index": 0,
+      "sentence": "a personal or family history of tics (muscle twitches) or Tourette's syndrome ; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9939935803413391,
+      "probabilities": {
+        "Simple Sentence": 0.0030357874929904938,
+        "Compound Sentence": 0.001454099896363914,
+        "Complex Sentence": 0.00048232910921797156,
+        "Compound-Complex Sentence": 0.0010341365123167634,
+        "Incomplete Sentence": 0.9939935803413391
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 23,
+      "sentence_index": 0,
+      "sentence": "severe anxiety , tension, or agitation (stimulant medicine can make these symptoms worse).",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9934821724891663,
+      "probabilities": {
+        "Simple Sentence": 0.002468615770339966,
+        "Compound Sentence": 0.001998170046135783,
+        "Complex Sentence": 0.0005906579317525029,
+        "Compound-Complex Sentence": 0.0014604654861614108,
+        "Incomplete Sentence": 0.9934821724891663
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 24,
+      "sentence_index": 0,
+      "sentence": "severe anxiety , tension, or agitation (stimulant medicine can make these symptoms worse).",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9934821724891663,
+      "probabilities": {
+        "Simple Sentence": 0.002468615770339966,
+        "Compound Sentence": 0.001998170046135783,
+        "Complex Sentence": 0.0005906579317525029,
+        "Compound-Complex Sentence": 0.0014604654861614108,
+        "Incomplete Sentence": 0.9934821724891663
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 25,
+      "sentence_index": 0,
+      "sentence": "Stimulants have caused stroke, heart attack, and sudden death in certain people.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9839420914649963,
+      "probabilities": {
+        "Simple Sentence": 0.9839420914649963,
+        "Compound Sentence": 0.00858162809163332,
+        "Complex Sentence": 0.003392764599993825,
+        "Compound-Complex Sentence": 0.0008713340503163636,
+        "Incomplete Sentence": 0.00321220513433218
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 25,
+      "sentence_index": 1,
+      "sentence": "Tell your doctor if you have:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9862787127494812,
+      "probabilities": {
+        "Simple Sentence": 0.006766644772142172,
+        "Compound Sentence": 0.002969147637486458,
+        "Complex Sentence": 0.0013162652030587196,
+        "Compound-Complex Sentence": 0.002669335575774312,
+        "Incomplete Sentence": 0.9862787127494812
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 26,
+      "sentence_index": 0,
+      "sentence": "heart problems or a congenital heart defect;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968264102935791,
+      "probabilities": {
+        "Simple Sentence": 0.0014855536865070462,
+        "Compound Sentence": 0.0008084707078523934,
+        "Complex Sentence": 0.00027940000290982425,
+        "Compound-Complex Sentence": 0.0006002179579809308,
+        "Incomplete Sentence": 0.9968264102935791
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 27,
+      "sentence_index": 0,
+      "sentence": "heart problems or a congenital heart defect;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968264102935791,
+      "probabilities": {
+        "Simple Sentence": 0.0014855536865070462,
+        "Compound Sentence": 0.0008084707078523934,
+        "Complex Sentence": 0.00027940000290982425,
+        "Compound-Complex Sentence": 0.0006002179579809308,
+        "Incomplete Sentence": 0.9968264102935791
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 28,
+      "sentence_index": 0,
+      "sentence": "high blood pressure ; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9972671270370483,
+      "probabilities": {
+        "Simple Sentence": 0.001166539965197444,
+        "Compound Sentence": 0.0006979347090236843,
+        "Complex Sentence": 0.00027734824107028544,
+        "Compound-Complex Sentence": 0.0005911736516281962,
+        "Incomplete Sentence": 0.9972671270370483
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 29,
+      "sentence_index": 0,
+      "sentence": "high blood pressure ; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9972671270370483,
+      "probabilities": {
+        "Simple Sentence": 0.001166539965197444,
+        "Compound Sentence": 0.0006979347090236843,
+        "Complex Sentence": 0.00027734824107028544,
+        "Compound-Complex Sentence": 0.0005911736516281962,
+        "Incomplete Sentence": 0.9972671270370483
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 30,
+      "sentence_index": 0,
+      "sentence": "a family history of heart disease or sudden death.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968841671943665,
+      "probabilities": {
+        "Simple Sentence": 0.001419685548171401,
+        "Compound Sentence": 0.0007177073275670409,
+        "Complex Sentence": 0.000248033000389114,
+        "Compound-Complex Sentence": 0.0007304347236640751,
+        "Incomplete Sentence": 0.9968841671943665
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 31,
+      "sentence_index": 0,
+      "sentence": "a family history of heart disease or sudden death.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968841671943665,
+      "probabilities": {
+        "Simple Sentence": 0.001419685548171401,
+        "Compound Sentence": 0.0007177073275670409,
+        "Complex Sentence": 0.000248033000389114,
+        "Compound-Complex Sentence": 0.0007304347236640751,
+        "Incomplete Sentence": 0.9968841671943665
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 32,
+      "sentence_index": 0,
+      "sentence": "Do not use methylphenidate if you have used an MAO inhibitor in the past 14 days.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.5774060487747192,
+      "probabilities": {
+        "Simple Sentence": 0.5774060487747192,
+        "Compound Sentence": 0.027767818421125412,
+        "Complex Sentence": 0.008069069124758244,
+        "Compound-Complex Sentence": 0.00808484386652708,
+        "Incomplete Sentence": 0.37867215275764465
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 32,
+      "sentence_index": 1,
+      "sentence": "A dangerous drug interaction could occur.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9402242302894592,
+      "probabilities": {
+        "Simple Sentence": 0.9402242302894592,
+        "Compound Sentence": 0.008570828475058079,
+        "Complex Sentence": 0.00355371437035501,
+        "Compound-Complex Sentence": 0.0019245883449912071,
+        "Incomplete Sentence": 0.04572663456201553
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 32,
+      "sentence_index": 2,
+      "sentence": "MAO inhibitors include isocarboxazid , linezolid , methylene blue injection, phenelzine , and tranylcypromine .",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9536933898925781,
+      "probabilities": {
+        "Simple Sentence": 0.9536933898925781,
+        "Compound Sentence": 0.02685677446424961,
+        "Complex Sentence": 0.012729676440358162,
+        "Compound-Complex Sentence": 0.002268971409648657,
+        "Incomplete Sentence": 0.004451115150004625
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 33,
+      "sentence_index": 0,
+      "sentence": "Tell your doctor if you also use opioid medicine, herbal products , or medicine for depression, mental illness, Parkinson's disease , migraine headaches, serious infections, or prevention of nausea and vomiting .",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.40446949005126953,
+      "probabilities": {
+        "Simple Sentence": 0.3035999834537506,
+        "Compound Sentence": 0.16228730976581573,
+        "Complex Sentence": 0.07230523973703384,
+        "Compound-Complex Sentence": 0.05733796954154968,
+        "Incomplete Sentence": 0.40446949005126953
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 33,
+      "sentence_index": 1,
+      "sentence": "An interaction with methylphenidate could cause a serious condition called serotonin syndrome.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.987546980381012,
+      "probabilities": {
+        "Simple Sentence": 0.987546980381012,
+        "Compound Sentence": 0.005803756415843964,
+        "Complex Sentence": 0.003209836781024933,
+        "Compound-Complex Sentence": 0.0009236839832738042,
+        "Incomplete Sentence": 0.002515742089599371
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 34,
+      "sentence_index": 0,
+      "sentence": "Tell your doctor if you or anyone in your family has ever had:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.995175838470459,
+      "probabilities": {
+        "Simple Sentence": 0.002330956980586052,
+        "Compound Sentence": 0.0012057468993589282,
+        "Complex Sentence": 0.0004457406757865101,
+        "Compound-Complex Sentence": 0.0008417469798587263,
+        "Incomplete Sentence": 0.995175838470459
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 35,
+      "sentence_index": 0,
+      "sentence": "depression, mental illness, bipolar disorder, psychosis, or suicidal thoughts or actions;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9906745553016663,
+      "probabilities": {
+        "Simple Sentence": 0.005221159663051367,
+        "Compound Sentence": 0.002203369280323386,
+        "Complex Sentence": 0.0006029561627656221,
+        "Compound-Complex Sentence": 0.0012978262966498733,
+        "Incomplete Sentence": 0.9906745553016663
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 36,
+      "sentence_index": 0,
+      "sentence": "depression, mental illness, bipolar disorder, psychosis, or suicidal thoughts or actions;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9906745553016663,
+      "probabilities": {
+        "Simple Sentence": 0.005221159663051367,
+        "Compound Sentence": 0.002203369280323386,
+        "Complex Sentence": 0.0006029561627656221,
+        "Compound-Complex Sentence": 0.0012978262966498733,
+        "Incomplete Sentence": 0.9906745553016663
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 37,
+      "sentence_index": 0,
+      "sentence": "blood circulation problems in the hands or feet;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968593120574951,
+      "probabilities": {
+        "Simple Sentence": 0.0014740417245775461,
+        "Compound Sentence": 0.000821229419670999,
+        "Complex Sentence": 0.0002676576259545982,
+        "Compound-Complex Sentence": 0.0005778070189990103,
+        "Incomplete Sentence": 0.9968593120574951
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 38,
+      "sentence_index": 0,
+      "sentence": "blood circulation problems in the hands or feet;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968593120574951,
+      "probabilities": {
+        "Simple Sentence": 0.0014740417245775461,
+        "Compound Sentence": 0.000821229419670999,
+        "Complex Sentence": 0.0002676576259545982,
+        "Compound-Complex Sentence": 0.0005778070189990103,
+        "Incomplete Sentence": 0.9968593120574951
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 39,
+      "sentence_index": 0,
+      "sentence": "alcoholism or drug addiction ; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9970853924751282,
+      "probabilities": {
+        "Simple Sentence": 0.0013100572396069765,
+        "Compound Sentence": 0.0007559848600067198,
+        "Complex Sentence": 0.00027567765209823847,
+        "Compound-Complex Sentence": 0.0005728807882405818,
+        "Incomplete Sentence": 0.9970853924751282
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 40,
+      "sentence_index": 0,
+      "sentence": "alcoholism or drug addiction ; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9970853924751282,
+      "probabilities": {
+        "Simple Sentence": 0.0013100572396069765,
+        "Compound Sentence": 0.0007559848600067198,
+        "Complex Sentence": 0.00027567765209823847,
+        "Compound-Complex Sentence": 0.0005728807882405818,
+        "Incomplete Sentence": 0.9970853924751282
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 41,
+      "sentence_index": 0,
+      "sentence": "if you take Adhansia - an allergy to aspirin or yellow food dye.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9926540851593018,
+      "probabilities": {
+        "Simple Sentence": 0.003998734522610903,
+        "Compound Sentence": 0.0013260680716484785,
+        "Complex Sentence": 0.0007533604511991143,
+        "Compound-Complex Sentence": 0.001267816754989326,
+        "Incomplete Sentence": 0.9926540851593018
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 42,
+      "sentence_index": 0,
+      "sentence": "if you take Adhansia - an allergy to aspirin or yellow food dye.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9926540851593018,
+      "probabilities": {
+        "Simple Sentence": 0.003998734522610903,
+        "Compound Sentence": 0.0013260680716484785,
+        "Complex Sentence": 0.0007533604511991143,
+        "Compound-Complex Sentence": 0.001267816754989326,
+        "Incomplete Sentence": 0.9926540851593018
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 43,
+      "sentence_index": 0,
+      "sentence": "phenylketonuria (PKU), as some chewable tablets contain phenylalanine.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9952862858772278,
+      "probabilities": {
+        "Simple Sentence": 0.0020293546840548515,
+        "Compound Sentence": 0.0012417318066582084,
+        "Complex Sentence": 0.0004320745647419244,
+        "Compound-Complex Sentence": 0.0010105071123689413,
+        "Incomplete Sentence": 0.9952862858772278
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 44,
+      "sentence_index": 0,
+      "sentence": "phenylketonuria (PKU), as some chewable tablets contain phenylalanine.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9952862858772278,
+      "probabilities": {
+        "Simple Sentence": 0.0020293546840548515,
+        "Compound Sentence": 0.0012417318066582084,
+        "Complex Sentence": 0.0004320745647419244,
+        "Compound-Complex Sentence": 0.0010105071123689413,
+        "Incomplete Sentence": 0.9952862858772278
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 45,
+      "sentence_index": 0,
+      "sentence": "To make sure methylphenidate is safe for you, tell your doctor if you have::",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.5840985178947449,
+      "probabilities": {
+        "Simple Sentence": 0.3712756037712097,
+        "Compound Sentence": 0.020550837740302086,
+        "Complex Sentence": 0.013314047828316689,
+        "Compound-Complex Sentence": 0.01076100580394268,
+        "Incomplete Sentence": 0.5840985178947449
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 46,
+      "sentence_index": 0,
+      "sentence": "problems with the esophagus, stomach, or intestines; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9949337840080261,
+      "probabilities": {
+        "Simple Sentence": 0.001856135088019073,
+        "Compound Sentence": 0.0014526352752000093,
+        "Complex Sentence": 0.0005354394088499248,
+        "Compound-Complex Sentence": 0.0012220474891364574,
+        "Incomplete Sentence": 0.9949337840080261
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 47,
+      "sentence_index": 0,
+      "sentence": "problems with the esophagus, stomach, or intestines; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9949337840080261,
+      "probabilities": {
+        "Simple Sentence": 0.001856135088019073,
+        "Compound Sentence": 0.0014526352752000093,
+        "Complex Sentence": 0.0005354394088499248,
+        "Compound-Complex Sentence": 0.0012220474891364574,
+        "Incomplete Sentence": 0.9949337840080261
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 48,
+      "sentence_index": 0,
+      "sentence": "seizures , epilepsy , or an abnormal brain wave test (EEG).",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9953336119651794,
+      "probabilities": {
+        "Simple Sentence": 0.002529395278543234,
+        "Compound Sentence": 0.0010184809798374772,
+        "Complex Sentence": 0.00031428065267391503,
+        "Compound-Complex Sentence": 0.0008041128166951239,
+        "Incomplete Sentence": 0.9953336119651794
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 49,
+      "sentence_index": 0,
+      "sentence": "seizures , epilepsy , or an abnormal brain wave test (EEG).",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9953336119651794,
+      "probabilities": {
+        "Simple Sentence": 0.002529395278543234,
+        "Compound Sentence": 0.0010184809798374772,
+        "Complex Sentence": 0.00031428065267391503,
+        "Compound-Complex Sentence": 0.0008041128166951239,
+        "Incomplete Sentence": 0.9953336119651794
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 50,
+      "sentence_index": 0,
+      "sentence": "Becoming dependent on methylphenidate during pregnancy can cause premature birth or low birth weight.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9844546318054199,
+      "probabilities": {
+        "Simple Sentence": 0.9844546318054199,
+        "Compound Sentence": 0.009667761623859406,
+        "Complex Sentence": 0.00343119353055954,
+        "Compound-Complex Sentence": 0.0006802765419706702,
+        "Incomplete Sentence": 0.0017662269528955221
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 50,
+      "sentence_index": 1,
+      "sentence": "Tell your doctor if you are pregnant or plan to become pregnant.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.915449321269989,
+      "probabilities": {
+        "Simple Sentence": 0.063339963555336,
+        "Compound Sentence": 0.011142021045088768,
+        "Complex Sentence": 0.0031875697895884514,
+        "Compound-Complex Sentence": 0.006881178822368383,
+        "Incomplete Sentence": 0.915449321269989
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 50,
+      "sentence_index": 2,
+      "sentence": "If you are pregnant, your name may be listed on a pregnancy registry to track the effects of methylphenidate on the baby.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.6741405725479126,
+      "probabilities": {
+        "Simple Sentence": 0.0576818473637104,
+        "Compound Sentence": 0.2199326604604721,
+        "Complex Sentence": 0.6741405725479126,
+        "Compound-Complex Sentence": 0.039857618510723114,
+        "Incomplete Sentence": 0.00838730949908495
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 51,
+      "sentence_index": 0,
+      "sentence": "Ask a doctor if it is safe to breastfeed while using this medicine.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9738527536392212,
+      "probabilities": {
+        "Simple Sentence": 0.020590191707015038,
+        "Compound Sentence": 0.002849876880645752,
+        "Complex Sentence": 0.0009564554202370346,
+        "Compound-Complex Sentence": 0.001750621828250587,
+        "Incomplete Sentence": 0.9738527536392212
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 51,
+      "sentence_index": 1,
+      "sentence": "If you are breastfeeding, tell your doctor if you notice symptoms in the baby such as agitation, sleep problems, feeding problems, or reduced weight gain.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.6878825426101685,
+      "probabilities": {
+        "Simple Sentence": 0.05663050338625908,
+        "Compound Sentence": 0.17545931041240692,
+        "Complex Sentence": 0.6878825426101685,
+        "Compound-Complex Sentence": 0.0666944682598114,
+        "Incomplete Sentence": 0.013333220966160297
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 52,
+      "sentence_index": 0,
+      "sentence": "methylphenidate is not approved for use by anyone younger than 6 years old.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9878284931182861,
+      "probabilities": {
+        "Simple Sentence": 0.9878284931182861,
+        "Compound Sentence": 0.006440924946218729,
+        "Complex Sentence": 0.003051776671782136,
+        "Compound-Complex Sentence": 0.000534739694558084,
+        "Incomplete Sentence": 0.002144050085917115
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 53,
+      "sentence_index": 0,
+      "sentence": "Take methylphenidate exactly as prescribed by your doctor.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9842183589935303,
+      "probabilities": {
+        "Simple Sentence": 0.010226201266050339,
+        "Compound Sentence": 0.002939887112006545,
+        "Complex Sentence": 0.0008939920226112008,
+        "Compound-Complex Sentence": 0.0017215326661244035,
+        "Incomplete Sentence": 0.9842183589935303
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 53,
+      "sentence_index": 1,
+      "sentence": "Follow all directions on your prescription label and read all medication guides or instruction sheets.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8321007490158081,
+      "probabilities": {
+        "Simple Sentence": 0.11981695890426636,
+        "Compound Sentence": 0.026578588411211967,
+        "Complex Sentence": 0.006484802346676588,
+        "Compound-Complex Sentence": 0.015018835663795471,
+        "Incomplete Sentence": 0.8321007490158081
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 53,
+      "sentence_index": 2,
+      "sentence": "Your doctor may occasionally change your dose.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9836229681968689,
+      "probabilities": {
+        "Simple Sentence": 0.9836229681968689,
+        "Compound Sentence": 0.007167892996221781,
+        "Complex Sentence": 0.00283384183421731,
+        "Compound-Complex Sentence": 0.0008727543754503131,
+        "Incomplete Sentence": 0.005502527579665184
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 54,
+      "sentence_index": 0,
+      "sentence": "Methylphenidate may be habit-forming.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9880197644233704,
+      "probabilities": {
+        "Simple Sentence": 0.9880197644233704,
+        "Compound Sentence": 0.004820843227207661,
+        "Complex Sentence": 0.0020243993494659662,
+        "Compound-Complex Sentence": 0.0007454625447280705,
+        "Incomplete Sentence": 0.00438942713662982
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 54,
+      "sentence_index": 1,
+      "sentence": "Misuse can cause addiction, overdose, or death.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9813975095748901,
+      "probabilities": {
+        "Simple Sentence": 0.9813975095748901,
+        "Compound Sentence": 0.010053521022200584,
+        "Complex Sentence": 0.00356723228469491,
+        "Compound-Complex Sentence": 0.0009944618213921785,
+        "Incomplete Sentence": 0.003987315576523542
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 54,
+      "sentence_index": 2,
+      "sentence": "Keep the medication where others cannot get to it.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9881870150566101,
+      "probabilities": {
+        "Simple Sentence": 0.008187913335859776,
+        "Compound Sentence": 0.0019509822595864534,
+        "Complex Sentence": 0.000595597259234637,
+        "Compound-Complex Sentence": 0.0010784873738884926,
+        "Incomplete Sentence": 0.9881870150566101
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 54,
+      "sentence_index": 3,
+      "sentence": "Selling or giving away this medicine is against the law.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9812065958976746,
+      "probabilities": {
+        "Simple Sentence": 0.9812065958976746,
+        "Compound Sentence": 0.007194059900939465,
+        "Complex Sentence": 0.002573903650045395,
+        "Compound-Complex Sentence": 0.0007773676188662648,
+        "Incomplete Sentence": 0.008248030208051205
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 55,
+      "sentence_index": 0,
+      "sentence": "Your dose needs may change if you switch to a different brand, strength, or form of this medicine.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.7459608316421509,
+      "probabilities": {
+        "Simple Sentence": 0.7459608316421509,
+        "Compound Sentence": 0.11185598373413086,
+        "Complex Sentence": 0.12255020439624786,
+        "Compound-Complex Sentence": 0.011663566343486309,
+        "Incomplete Sentence": 0.007969411090016365
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 55,
+      "sentence_index": 1,
+      "sentence": "Avoid medication errors by using only the medicine your doctor prescribes.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9362179040908813,
+      "probabilities": {
+        "Simple Sentence": 0.04995807632803917,
+        "Compound Sentence": 0.008356989361345768,
+        "Complex Sentence": 0.0022230485919862986,
+        "Compound-Complex Sentence": 0.003244006773456931,
+        "Incomplete Sentence": 0.9362179040908813
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 56,
+      "sentence_index": 0,
+      "sentence": "Most brands of methylphenidate are taken 1 or 2 times during the day.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9873299598693848,
+      "probabilities": {
+        "Simple Sentence": 0.9873299598693848,
+        "Compound Sentence": 0.005903937388211489,
+        "Complex Sentence": 0.002903458895161748,
+        "Compound-Complex Sentence": 0.000753723201341927,
+        "Incomplete Sentence": 0.003108878619968891
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 56,
+      "sentence_index": 1,
+      "sentence": "Jornay PM is for use only at night between 6:30 and 9:30 pm.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9535419344902039,
+      "probabilities": {
+        "Simple Sentence": 0.9535419344902039,
+        "Compound Sentence": 0.02187628485262394,
+        "Complex Sentence": 0.006343864370137453,
+        "Compound-Complex Sentence": 0.0023360576014965773,
+        "Incomplete Sentence": 0.01590181700885296
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 57,
+      "sentence_index": 0,
+      "sentence": "You may take methylphenidate with or without food, but take it the same way each time.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8108581304550171,
+      "probabilities": {
+        "Simple Sentence": 0.8108581304550171,
+        "Compound Sentence": 0.13406012952327728,
+        "Complex Sentence": 0.023013509809970856,
+        "Compound-Complex Sentence": 0.007689762860536575,
+        "Incomplete Sentence": 0.024378428235650063
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 58,
+      "sentence_index": 0,
+      "sentence": "Swallow the extended-release capsule or tablet whole and do not crush, chew, or break it.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.34892913699150085,
+      "probabilities": {
+        "Simple Sentence": 0.34892913699150085,
+        "Compound Sentence": 0.30167827010154724,
+        "Complex Sentence": 0.0348026342689991,
+        "Compound-Complex Sentence": 0.04770912602543831,
+        "Incomplete Sentence": 0.26688089966773987
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 59,
+      "sentence_index": 0,
+      "sentence": "If you cannot swallow an extended-release CAPSULE whole, open it and mix the medicine with soft food such as applesauce, pudding or yogurt.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.5490972399711609,
+      "probabilities": {
+        "Simple Sentence": 0.10585130006074905,
+        "Compound Sentence": 0.29148098826408386,
+        "Complex Sentence": 0.5490972399711609,
+        "Compound-Complex Sentence": 0.041604045778512955,
+        "Incomplete Sentence": 0.011966411024332047
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 59,
+      "sentence_index": 1,
+      "sentence": "Swallow the mixture right away WITHOUT CHEWING.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.983765184879303,
+      "probabilities": {
+        "Simple Sentence": 0.008762672543525696,
+        "Compound Sentence": 0.003359189722687006,
+        "Complex Sentence": 0.0012000976130366325,
+        "Compound-Complex Sentence": 0.002912819618359208,
+        "Incomplete Sentence": 0.983765184879303
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 60,
+      "sentence_index": 0,
+      "sentence": "You must chew the chewable tablet well and swallow it with at least 8 ounces (a full glass) of water or other liquid to prevent choking.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.48908910155296326,
+      "probabilities": {
+        "Simple Sentence": 0.05038005858659744,
+        "Compound Sentence": 0.48908910155296326,
+        "Complex Sentence": 0.4142746329307556,
+        "Compound-Complex Sentence": 0.03574225679039955,
+        "Incomplete Sentence": 0.010513929650187492
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 61,
+      "sentence_index": 0,
+      "sentence": "Measure liquid medicine with the supplied measuring device (not a kitchen spoon).",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9895688891410828,
+      "probabilities": {
+        "Simple Sentence": 0.005302961450070143,
+        "Compound Sentence": 0.002299786312505603,
+        "Complex Sentence": 0.0009255751501768827,
+        "Compound-Complex Sentence": 0.0019028696697205305,
+        "Incomplete Sentence": 0.9895688891410828
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 62,
+      "sentence_index": 0,
+      "sentence": "Allow the orally disintegrating tablet to dissolve in your mouth without chewing.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8514727354049683,
+      "probabilities": {
+        "Simple Sentence": 0.13057757914066315,
+        "Compound Sentence": 0.01135971024632454,
+        "Complex Sentence": 0.003082909155637026,
+        "Compound-Complex Sentence": 0.0035070665180683136,
+        "Incomplete Sentence": 0.8514727354049683
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 63,
+      "sentence_index": 0,
+      "sentence": "Apply the skin patch to your hip area 2 hours before an effect is needed and remove it within 9 hours.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.6353500485420227,
+      "probabilities": {
+        "Simple Sentence": 0.035599809139966965,
+        "Compound Sentence": 0.6353500485420227,
+        "Complex Sentence": 0.10448049008846283,
+        "Compound-Complex Sentence": 0.17749963700771332,
+        "Incomplete Sentence": 0.047070056200027466
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 63,
+      "sentence_index": 1,
+      "sentence": "Do not wear the patch longer than 9 hours a day.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9832915663719177,
+      "probabilities": {
+        "Simple Sentence": 0.012720940634608269,
+        "Compound Sentence": 0.002236625412479043,
+        "Complex Sentence": 0.0006598551408387721,
+        "Compound-Complex Sentence": 0.0010911091230809689,
+        "Incomplete Sentence": 0.9832915663719177
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 63,
+      "sentence_index": 2,
+      "sentence": "Avoid exposing the patch to direct external heat sources, such as hair dryers, heating pads, or electric blankets.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.912875771522522,
+      "probabilities": {
+        "Simple Sentence": 0.06816104799509048,
+        "Compound Sentence": 0.011099852621555328,
+        "Complex Sentence": 0.0038491403684020042,
+        "Compound-Complex Sentence": 0.004014215897768736,
+        "Incomplete Sentence": 0.912875771522522
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 64,
+      "sentence_index": 0,
+      "sentence": "Tell your doctor if you have a planned surgery.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9552063941955566,
+      "probabilities": {
+        "Simple Sentence": 0.03097611479461193,
+        "Compound Sentence": 0.0065694828517735004,
+        "Complex Sentence": 0.0025253519415855408,
+        "Compound-Complex Sentence": 0.004722588695585728,
+        "Incomplete Sentence": 0.9552063941955566
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 65,
+      "sentence_index": 0,
+      "sentence": "Your treatment may also include counseling or other treatments.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9678472280502319,
+      "probabilities": {
+        "Simple Sentence": 0.9678472280502319,
+        "Compound Sentence": 0.01191570796072483,
+        "Complex Sentence": 0.006078523583710194,
+        "Compound-Complex Sentence": 0.001340500428341329,
+        "Incomplete Sentence": 0.012818065471947193
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 66,
+      "sentence_index": 0,
+      "sentence": "Your doctor will need to check your progress on a regular basis.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9463842511177063,
+      "probabilities": {
+        "Simple Sentence": 0.9463842511177063,
+        "Compound Sentence": 0.02847570925951004,
+        "Complex Sentence": 0.01004173792898655,
+        "Compound-Complex Sentence": 0.0027106269262731075,
+        "Incomplete Sentence": 0.01238778792321682
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 66,
+      "sentence_index": 1,
+      "sentence": "Your heart and blood pressure may also need to be checked often.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9451414942741394,
+      "probabilities": {
+        "Simple Sentence": 0.9451414942741394,
+        "Compound Sentence": 0.03348182141780853,
+        "Complex Sentence": 0.013781227171421051,
+        "Compound-Complex Sentence": 0.002533139893785119,
+        "Incomplete Sentence": 0.005062409210950136
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 67,
+      "sentence_index": 0,
+      "sentence": "Store tightly closed at room temperature, away from moisture, heat, and light.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.994225800037384,
+      "probabilities": {
+        "Simple Sentence": 0.003415067447349429,
+        "Compound Sentence": 0.0011250019306316972,
+        "Complex Sentence": 0.0004175185749772936,
+        "Compound-Complex Sentence": 0.0008166637271642685,
+        "Incomplete Sentence": 0.994225800037384
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 67,
+      "sentence_index": 1,
+      "sentence": "Keep your medicine in a place where no one can use it improperly.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9161337614059448,
+      "probabilities": {
+        "Simple Sentence": 0.06213096156716347,
+        "Compound Sentence": 0.01116124540567398,
+        "Complex Sentence": 0.0035656066611409187,
+        "Compound-Complex Sentence": 0.007008442655205727,
+        "Incomplete Sentence": 0.9161337614059448
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 68,
+      "sentence_index": 0,
+      "sentence": "Do not keep leftover medicine.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9817137122154236,
+      "probabilities": {
+        "Simple Sentence": 0.014196161180734634,
+        "Compound Sentence": 0.002025275956839323,
+        "Complex Sentence": 0.0007838694145902991,
+        "Compound-Complex Sentence": 0.0012810732005164027,
+        "Incomplete Sentence": 0.9817137122154236
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 68,
+      "sentence_index": 1,
+      "sentence": "Ask your pharmacist about a drug take-back program.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.972931444644928,
+      "probabilities": {
+        "Simple Sentence": 0.01900622993707657,
+        "Compound Sentence": 0.004142623394727707,
+        "Complex Sentence": 0.0012293498730286956,
+        "Compound-Complex Sentence": 0.0026903965044766665,
+        "Incomplete Sentence": 0.972931444644928
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "How should I take methylphenidate?",
+      "block_index": 68,
+      "sentence_index": 2,
+      "sentence": "You may also mix the leftover medicine with cat litter or coffee grounds in a sealed plastic bag and throw the bag in the trash.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.5620582699775696,
+      "probabilities": {
+        "Simple Sentence": 0.17915187776088715,
+        "Compound Sentence": 0.5620582699775696,
+        "Complex Sentence": 0.2088242918252945,
+        "Compound-Complex Sentence": 0.03152390196919441,
+        "Incomplete Sentence": 0.01844167895615101
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What happens if I miss a dose?",
+      "block_index": 69,
+      "sentence_index": 0,
+      "sentence": "Take the medicine as soon as you can, but skip the missed dose if it is almost time for your next dose.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.5548824071884155,
+      "probabilities": {
+        "Simple Sentence": 0.03468458354473114,
+        "Compound Sentence": 0.5548824071884155,
+        "Complex Sentence": 0.17573747038841248,
+        "Compound-Complex Sentence": 0.19007259607315063,
+        "Incomplete Sentence": 0.04462295398116112
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What happens if I miss a dose?",
+      "block_index": 69,
+      "sentence_index": 1,
+      "sentence": "Do not take two doses at one time.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8406311869621277,
+      "probabilities": {
+        "Simple Sentence": 0.1439555436372757,
+        "Compound Sentence": 0.009007163345813751,
+        "Complex Sentence": 0.003043655538931489,
+        "Compound-Complex Sentence": 0.0033624458592385054,
+        "Incomplete Sentence": 0.8406311869621277
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What happens if I overdose?",
+      "block_index": 70,
+      "sentence_index": 0,
+      "sentence": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9916183352470398,
+      "probabilities": {
+        "Simple Sentence": 0.004756852053105831,
+        "Compound Sentence": 0.0015366608276963234,
+        "Complex Sentence": 0.0006752624176442623,
+        "Compound-Complex Sentence": 0.0014128760667517781,
+        "Incomplete Sentence": 0.9916183352470398
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What happens if I overdose?",
+      "block_index": 70,
+      "sentence_index": 1,
+      "sentence": "An overdose of methylphenidate could be fatal.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9851185083389282,
+      "probabilities": {
+        "Simple Sentence": 0.9851185083389282,
+        "Compound Sentence": 0.0069868615828454494,
+        "Complex Sentence": 0.0022233431227505207,
+        "Compound-Complex Sentence": 0.0009506613132543862,
+        "Incomplete Sentence": 0.0047206268645823
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What happens if I overdose?",
+      "block_index": 71,
+      "sentence_index": 0,
+      "sentence": "Overdose symptoms may include nausea , dry mouth, vomiting , diarrhea , anxiety, agitation, restlessness, tremor, muscle twitches, rapid breathing, confusion, hallucinations, dilated pupils, muscle pain or weakness, fever, sweating, headache , pounding in your neck or ears, fast or pounding heartbeats, feeling light-headed, fainting, seizure (convulsions), or coma.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.7916901707649231,
+      "probabilities": {
+        "Simple Sentence": 0.019800230860710144,
+        "Compound Sentence": 0.10909691452980042,
+        "Complex Sentence": 0.7916901707649231,
+        "Compound-Complex Sentence": 0.07306559383869171,
+        "Incomplete Sentence": 0.0063471016474068165
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What should I avoid while taking methylphenidate?",
+      "block_index": 72,
+      "sentence_index": 0,
+      "sentence": "Avoid drinking alcohol.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9965283274650574,
+      "probabilities": {
+        "Simple Sentence": 0.00159251200966537,
+        "Compound Sentence": 0.0008106002933345735,
+        "Complex Sentence": 0.00030857184901833534,
+        "Compound-Complex Sentence": 0.0007600026438012719,
+        "Incomplete Sentence": 0.9965283274650574
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What should I avoid while taking methylphenidate?",
+      "block_index": 73,
+      "sentence_index": 0,
+      "sentence": "Avoid driving or hazardous activity until you know how methylphenidate will affect you.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9583061933517456,
+      "probabilities": {
+        "Simple Sentence": 0.03253624960780144,
+        "Compound Sentence": 0.004996910225600004,
+        "Complex Sentence": 0.0015158079331740737,
+        "Compound-Complex Sentence": 0.002644783351570368,
+        "Incomplete Sentence": 0.9583061933517456
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What should I avoid while taking methylphenidate?",
+      "block_index": 73,
+      "sentence_index": 1,
+      "sentence": "Your reactions could be impaired.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8775103688240051,
+      "probabilities": {
+        "Simple Sentence": 0.8775103688240051,
+        "Compound Sentence": 0.013130534440279007,
+        "Complex Sentence": 0.005608898587524891,
+        "Compound-Complex Sentence": 0.0029614605009555817,
+        "Incomplete Sentence": 0.10078870505094528
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 74,
+      "sentence_index": 0,
+      "sentence": "Get emergency medical help if you have signs of an allergic reaction to methylphenidate: hives ; difficulty breathing; swelling of your face, lips, tongue, or throat.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.44188737869262695,
+      "probabilities": {
+        "Simple Sentence": 0.15001462399959564,
+        "Compound Sentence": 0.44188737869262695,
+        "Complex Sentence": 0.2729710042476654,
+        "Compound-Complex Sentence": 0.08035587519407272,
+        "Incomplete Sentence": 0.054771196097135544
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 75,
+      "sentence_index": 0,
+      "sentence": "Call your doctor at once if you have:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9765844941139221,
+      "probabilities": {
+        "Simple Sentence": 0.011489508673548698,
+        "Compound Sentence": 0.005756169557571411,
+        "Complex Sentence": 0.002316635800525546,
+        "Compound-Complex Sentence": 0.0038532044272869825,
+        "Incomplete Sentence": 0.9765844941139221
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 76,
+      "sentence_index": 0,
+      "sentence": "signs of heart problems - chest pain, trouble breathing, feeling like you might pass out;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9879851937294006,
+      "probabilities": {
+        "Simple Sentence": 0.007031184621155262,
+        "Compound Sentence": 0.002373623661696911,
+        "Complex Sentence": 0.0009169024997390807,
+        "Compound-Complex Sentence": 0.0016930423444136977,
+        "Incomplete Sentence": 0.9879851937294006
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 77,
+      "sentence_index": 0,
+      "sentence": "signs of heart problems - chest pain, trouble breathing, feeling like you might pass out;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9879851937294006,
+      "probabilities": {
+        "Simple Sentence": 0.007031184621155262,
+        "Compound Sentence": 0.002373623661696911,
+        "Complex Sentence": 0.0009169024997390807,
+        "Compound-Complex Sentence": 0.0016930423444136977,
+        "Incomplete Sentence": 0.9879851937294006
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 78,
+      "sentence_index": 0,
+      "sentence": "signs of psychosis - hallucinations (seeing or hearing things that are not real), new behavior problems, aggression, hostility, paranoia;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9845526218414307,
+      "probabilities": {
+        "Simple Sentence": 0.009231030009686947,
+        "Compound Sentence": 0.003220482263714075,
+        "Complex Sentence": 0.0012069372460246086,
+        "Compound-Complex Sentence": 0.0017889707814902067,
+        "Incomplete Sentence": 0.9845526218414307
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 79,
+      "sentence_index": 0,
+      "sentence": "signs of psychosis - hallucinations (seeing or hearing things that are not real), new behavior problems, aggression, hostility, paranoia;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9845526218414307,
+      "probabilities": {
+        "Simple Sentence": 0.009231030009686947,
+        "Compound Sentence": 0.003220482263714075,
+        "Complex Sentence": 0.0012069372460246086,
+        "Compound-Complex Sentence": 0.0017889707814902067,
+        "Incomplete Sentence": 0.9845526218414307
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 80,
+      "sentence_index": 0,
+      "sentence": "signs of circulation problems - numbness, pain, cold feeling, unexplained wounds, or skin color changes (pale, red, or blue appearance) in your fingers or toes; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9300652146339417,
+      "probabilities": {
+        "Simple Sentence": 0.03733012452721596,
+        "Compound Sentence": 0.019265223294496536,
+        "Complex Sentence": 0.005750675220042467,
+        "Compound-Complex Sentence": 0.007588705979287624,
+        "Incomplete Sentence": 0.9300652146339417
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 81,
+      "sentence_index": 0,
+      "sentence": "signs of circulation problems - numbness, pain, cold feeling, unexplained wounds, or skin color changes (pale, red, or blue appearance) in your fingers or toes; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9300652146339417,
+      "probabilities": {
+        "Simple Sentence": 0.03733012452721596,
+        "Compound Sentence": 0.019265223294496536,
+        "Complex Sentence": 0.005750675220042467,
+        "Compound-Complex Sentence": 0.007588705979287624,
+        "Incomplete Sentence": 0.9300652146339417
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 82,
+      "sentence_index": 0,
+      "sentence": "penis erection that is painful or lasts 4 hours or longer.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9949204325675964,
+      "probabilities": {
+        "Simple Sentence": 0.0030375057831406593,
+        "Compound Sentence": 0.0008966802270151675,
+        "Complex Sentence": 0.00032412237487733364,
+        "Compound-Complex Sentence": 0.0008212344837374985,
+        "Incomplete Sentence": 0.9949204325675964
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 83,
+      "sentence_index": 0,
+      "sentence": "penis erection that is painful or lasts 4 hours or longer.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9949204325675964,
+      "probabilities": {
+        "Simple Sentence": 0.0030375057831406593,
+        "Compound Sentence": 0.0008966802270151675,
+        "Complex Sentence": 0.00032412237487733364,
+        "Compound-Complex Sentence": 0.0008212344837374985,
+        "Incomplete Sentence": 0.9949204325675964
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 84,
+      "sentence_index": 0,
+      "sentence": "signs of skin problems from the patch - swelling or blisters at the application site, or loss of skin color;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9562099575996399,
+      "probabilities": {
+        "Simple Sentence": 0.03572562336921692,
+        "Compound Sentence": 0.0046565295197069645,
+        "Complex Sentence": 0.001423632842488587,
+        "Compound-Complex Sentence": 0.0019842542242258787,
+        "Incomplete Sentence": 0.9562099575996399
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 85,
+      "sentence_index": 0,
+      "sentence": "signs of skin problems from the patch - swelling or blisters at the application site, or loss of skin color;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9562099575996399,
+      "probabilities": {
+        "Simple Sentence": 0.03572562336921692,
+        "Compound Sentence": 0.0046565295197069645,
+        "Complex Sentence": 0.001423632842488587,
+        "Compound-Complex Sentence": 0.0019842542242258787,
+        "Incomplete Sentence": 0.9562099575996399
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 86,
+      "sentence_index": 0,
+      "sentence": "Seek medical attention right away if you have symptoms of serotonin syndrome, such as: agitation, hallucinations, fever, sweating, shivering, fast heart rate , muscle stiffness, twitching, loss of coordination, nausea, vomiting, or diarrhea.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.607287585735321,
+      "probabilities": {
+        "Simple Sentence": 0.06685054302215576,
+        "Compound Sentence": 0.21271009743213654,
+        "Complex Sentence": 0.607287585735321,
+        "Compound-Complex Sentence": 0.08925718814134598,
+        "Incomplete Sentence": 0.02389456331729889
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 87,
+      "sentence_index": 0,
+      "sentence": "Methylphenidate can affect growth in children.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.991705060005188,
+      "probabilities": {
+        "Simple Sentence": 0.991705060005188,
+        "Compound Sentence": 0.0037850774824619293,
+        "Complex Sentence": 0.00178969104308635,
+        "Compound-Complex Sentence": 0.000557134160771966,
+        "Incomplete Sentence": 0.0021629997063428164
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 87,
+      "sentence_index": 1,
+      "sentence": "Your child's height and weight may need to be checked often.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9797487854957581,
+      "probabilities": {
+        "Simple Sentence": 0.9797487854957581,
+        "Compound Sentence": 0.008889791555702686,
+        "Complex Sentence": 0.004843927454203367,
+        "Compound-Complex Sentence": 0.0009584947256371379,
+        "Incomplete Sentence": 0.0055590164847671986
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 87,
+      "sentence_index": 2,
+      "sentence": "Tell your doctor if your child is not growing at a normal rate.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9105346202850342,
+      "probabilities": {
+        "Simple Sentence": 0.0723709762096405,
+        "Compound Sentence": 0.008753912523388863,
+        "Complex Sentence": 0.003103068098425865,
+        "Compound-Complex Sentence": 0.005237419158220291,
+        "Incomplete Sentence": 0.9105346202850342
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 88,
+      "sentence_index": 0,
+      "sentence": "Common methylphenidate side effects may include:",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8778576254844666,
+      "probabilities": {
+        "Simple Sentence": 0.8778576254844666,
+        "Compound Sentence": 0.010081354528665543,
+        "Complex Sentence": 0.008292694576084614,
+        "Compound-Complex Sentence": 0.003234805539250374,
+        "Incomplete Sentence": 0.1005336195230484
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 89,
+      "sentence_index": 0,
+      "sentence": "sweating, increased blood pressure;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9891316890716553,
+      "probabilities": {
+        "Simple Sentence": 0.008249943144619465,
+        "Compound Sentence": 0.0012328487355262041,
+        "Complex Sentence": 0.0004923126543872058,
+        "Compound-Complex Sentence": 0.0008932058699429035,
+        "Incomplete Sentence": 0.9891316890716553
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 90,
+      "sentence_index": 0,
+      "sentence": "sweating, increased blood pressure;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9891316890716553,
+      "probabilities": {
+        "Simple Sentence": 0.008249943144619465,
+        "Compound Sentence": 0.0012328487355262041,
+        "Complex Sentence": 0.0004923126543872058,
+        "Compound-Complex Sentence": 0.0008932058699429035,
+        "Incomplete Sentence": 0.9891316890716553
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 91,
+      "sentence_index": 0,
+      "sentence": "mood changes, anxiety, feeling nervous or irritable, trouble sleeping;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9919565916061401,
+      "probabilities": {
+        "Simple Sentence": 0.003954194951802492,
+        "Compound Sentence": 0.0016588501166552305,
+        "Complex Sentence": 0.0007714369567111135,
+        "Compound-Complex Sentence": 0.0016588501166552305,
+        "Incomplete Sentence": 0.9919565916061401
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 92,
+      "sentence_index": 0,
+      "sentence": "mood changes, anxiety, feeling nervous or irritable, trouble sleeping;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9919565916061401,
+      "probabilities": {
+        "Simple Sentence": 0.003954194951802492,
+        "Compound Sentence": 0.0016588501166552305,
+        "Complex Sentence": 0.0007714369567111135,
+        "Compound-Complex Sentence": 0.0016588501166552305,
+        "Incomplete Sentence": 0.9919565916061401
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 93,
+      "sentence_index": 0,
+      "sentence": "fast heart rate, pounding heartbeats or fluttering in your chest;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9960277080535889,
+      "probabilities": {
+        "Simple Sentence": 0.002047294517979026,
+        "Compound Sentence": 0.0009696740889921784,
+        "Complex Sentence": 0.00032070279121398926,
+        "Compound-Complex Sentence": 0.0006346869631670415,
+        "Incomplete Sentence": 0.9960277080535889
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 94,
+      "sentence_index": 0,
+      "sentence": "fast heart rate, pounding heartbeats or fluttering in your chest;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9960277080535889,
+      "probabilities": {
+        "Simple Sentence": 0.002047294517979026,
+        "Compound Sentence": 0.0009696740889921784,
+        "Complex Sentence": 0.00032070279121398926,
+        "Compound-Complex Sentence": 0.0006346869631670415,
+        "Incomplete Sentence": 0.9960277080535889
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 95,
+      "sentence_index": 0,
+      "sentence": "loss of appetite, weight loss ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9967065453529358,
+      "probabilities": {
+        "Simple Sentence": 0.0016684220172464848,
+        "Compound Sentence": 0.0007966182893142104,
+        "Complex Sentence": 0.0002887979499064386,
+        "Compound-Complex Sentence": 0.0005395456100814044,
+        "Incomplete Sentence": 0.9967065453529358
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 96,
+      "sentence_index": 0,
+      "sentence": "loss of appetite, weight loss ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9967065453529358,
+      "probabilities": {
+        "Simple Sentence": 0.0016684220172464848,
+        "Compound Sentence": 0.0007966182893142104,
+        "Complex Sentence": 0.0002887979499064386,
+        "Compound-Complex Sentence": 0.0005395456100814044,
+        "Incomplete Sentence": 0.9967065453529358
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 97,
+      "sentence_index": 0,
+      "sentence": "dry mouth, nausea, vomiting, stomach pain, indigestion ; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9892738461494446,
+      "probabilities": {
+        "Simple Sentence": 0.0058710044249892235,
+        "Compound Sentence": 0.0019742220174521208,
+        "Complex Sentence": 0.0007976577035151422,
+        "Compound-Complex Sentence": 0.0020831585861742496,
+        "Incomplete Sentence": 0.9892738461494446
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 98,
+      "sentence_index": 0,
+      "sentence": "dry mouth, nausea, vomiting, stomach pain, indigestion ; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9892738461494446,
+      "probabilities": {
+        "Simple Sentence": 0.0058710044249892235,
+        "Compound Sentence": 0.0019742220174521208,
+        "Complex Sentence": 0.0007976577035151422,
+        "Compound-Complex Sentence": 0.0020831585861742496,
+        "Incomplete Sentence": 0.9892738461494446
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 99,
+      "sentence_index": 0,
+      "sentence": "headache, dizziness .",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9965677261352539,
+      "probabilities": {
+        "Simple Sentence": 0.0014786559622734785,
+        "Compound Sentence": 0.0008421015227213502,
+        "Complex Sentence": 0.00031962565844878554,
+        "Compound-Complex Sentence": 0.000791854050476104,
+        "Incomplete Sentence": 0.9965677261352539
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 100,
+      "sentence_index": 0,
+      "sentence": "headache, dizziness .",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9965677261352539,
+      "probabilities": {
+        "Simple Sentence": 0.0014786559622734785,
+        "Compound Sentence": 0.0008421015227213502,
+        "Complex Sentence": 0.00031962565844878554,
+        "Compound-Complex Sentence": 0.000791854050476104,
+        "Incomplete Sentence": 0.9965677261352539
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 101,
+      "sentence_index": 0,
+      "sentence": "This is not a complete list of side effects and others may occur.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8383156657218933,
+      "probabilities": {
+        "Simple Sentence": 0.8383156657218933,
+        "Compound Sentence": 0.10642386972904205,
+        "Complex Sentence": 0.029799174517393112,
+        "Compound-Complex Sentence": 0.006813423708081245,
+        "Incomplete Sentence": 0.018647845834493637
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 101,
+      "sentence_index": 1,
+      "sentence": "Call your doctor for medical advice about side effects.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9228212833404541,
+      "probabilities": {
+        "Simple Sentence": 0.06033404916524887,
+        "Compound Sentence": 0.008334506303071976,
+        "Complex Sentence": 0.0032894383184611797,
+        "Compound-Complex Sentence": 0.005220696795731783,
+        "Incomplete Sentence": 0.9228212833404541
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Methylphenidate side effects",
+      "block_index": 101,
+      "sentence_index": 2,
+      "sentence": "You may report side effects to FDA at 1-800-FDA-1088.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.982552170753479,
+      "probabilities": {
+        "Simple Sentence": 0.982552170753479,
+        "Compound Sentence": 0.008034598082304,
+        "Complex Sentence": 0.0037355227395892143,
+        "Compound-Complex Sentence": 0.000753011554479599,
+        "Incomplete Sentence": 0.00492465915158391
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What other drugs will affect methylphenidate?",
+      "block_index": 102,
+      "sentence_index": 0,
+      "sentence": "Tell your doctor about all your other medicines, especially:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9908379912376404,
+      "probabilities": {
+        "Simple Sentence": 0.0055832951329648495,
+        "Compound Sentence": 0.0018739402294158936,
+        "Complex Sentence": 0.0007653174689039588,
+        "Compound-Complex Sentence": 0.0009395197848789394,
+        "Incomplete Sentence": 0.9908379912376404
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What other drugs will affect methylphenidate?",
+      "block_index": 103,
+      "sentence_index": 0,
+      "sentence": "a blood thinner - warfarin, Coumadin, Jantoven;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9955430626869202,
+      "probabilities": {
+        "Simple Sentence": 0.0019741617143154144,
+        "Compound Sentence": 0.0009873532690107822,
+        "Complex Sentence": 0.0004381354374345392,
+        "Compound-Complex Sentence": 0.0010572087485343218,
+        "Incomplete Sentence": 0.9955430626869202
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What other drugs will affect methylphenidate?",
+      "block_index": 104,
+      "sentence_index": 0,
+      "sentence": "a blood thinner - warfarin, Coumadin, Jantoven;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9955430626869202,
+      "probabilities": {
+        "Simple Sentence": 0.0019741617143154144,
+        "Compound Sentence": 0.0009873532690107822,
+        "Complex Sentence": 0.0004381354374345392,
+        "Compound-Complex Sentence": 0.0010572087485343218,
+        "Incomplete Sentence": 0.9955430626869202
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What other drugs will affect methylphenidate?",
+      "block_index": 105,
+      "sentence_index": 0,
+      "sentence": "blood pressure medication;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9965574741363525,
+      "probabilities": {
+        "Simple Sentence": 0.0018361591501161456,
+        "Compound Sentence": 0.000794944993685931,
+        "Complex Sentence": 0.00031160912476480007,
+        "Compound-Complex Sentence": 0.000499898917041719,
+        "Incomplete Sentence": 0.9965574741363525
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What other drugs will affect methylphenidate?",
+      "block_index": 106,
+      "sentence_index": 0,
+      "sentence": "blood pressure medication;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9965574741363525,
+      "probabilities": {
+        "Simple Sentence": 0.0018361591501161456,
+        "Compound Sentence": 0.000794944993685931,
+        "Complex Sentence": 0.00031160912476480007,
+        "Compound-Complex Sentence": 0.000499898917041719,
+        "Incomplete Sentence": 0.9965574741363525
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What other drugs will affect methylphenidate?",
+      "block_index": 107,
+      "sentence_index": 0,
+      "sentence": "an antidepressant;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9971328973770142,
+      "probabilities": {
+        "Simple Sentence": 0.0008591974037699401,
+        "Compound Sentence": 0.0008095094235613942,
+        "Complex Sentence": 0.00032995871151797473,
+        "Compound-Complex Sentence": 0.0008684768690727651,
+        "Incomplete Sentence": 0.9971328973770142
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What other drugs will affect methylphenidate?",
+      "block_index": 108,
+      "sentence_index": 0,
+      "sentence": "an antidepressant;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9971328973770142,
+      "probabilities": {
+        "Simple Sentence": 0.0008591974037699401,
+        "Compound Sentence": 0.0008095094235613942,
+        "Complex Sentence": 0.00032995871151797473,
+        "Compound-Complex Sentence": 0.0008684768690727651,
+        "Incomplete Sentence": 0.9971328973770142
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What other drugs will affect methylphenidate?",
+      "block_index": 109,
+      "sentence_index": 0,
+      "sentence": "seizure medication; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9974853992462158,
+      "probabilities": {
+        "Simple Sentence": 0.00113809818867594,
+        "Compound Sentence": 0.0006557924789376557,
+        "Complex Sentence": 0.00026730317040346563,
+        "Compound-Complex Sentence": 0.0004533678002189845,
+        "Incomplete Sentence": 0.9974853992462158
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What other drugs will affect methylphenidate?",
+      "block_index": 110,
+      "sentence_index": 0,
+      "sentence": "seizure medication; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9974853992462158,
+      "probabilities": {
+        "Simple Sentence": 0.00113809818867594,
+        "Compound Sentence": 0.0006557924789376557,
+        "Complex Sentence": 0.00026730317040346563,
+        "Compound-Complex Sentence": 0.0004533678002189845,
+        "Incomplete Sentence": 0.9974853992462158
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What other drugs will affect methylphenidate?",
+      "block_index": 111,
+      "sentence_index": 0,
+      "sentence": "cold or allergy medications that contain decongestants.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9965928196907043,
+      "probabilities": {
+        "Simple Sentence": 0.0018483682069927454,
+        "Compound Sentence": 0.00074244529241696,
+        "Complex Sentence": 0.00025039384490810335,
+        "Compound-Complex Sentence": 0.0005659268354065716,
+        "Incomplete Sentence": 0.9965928196907043
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What other drugs will affect methylphenidate?",
+      "block_index": 112,
+      "sentence_index": 0,
+      "sentence": "cold or allergy medications that contain decongestants.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9965928196907043,
+      "probabilities": {
+        "Simple Sentence": 0.0018483682069927454,
+        "Compound Sentence": 0.00074244529241696,
+        "Complex Sentence": 0.00025039384490810335,
+        "Compound-Complex Sentence": 0.0005659268354065716,
+        "Incomplete Sentence": 0.9965928196907043
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What other drugs will affect methylphenidate?",
+      "block_index": 113,
+      "sentence_index": 0,
+      "sentence": "This list is not complete.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.7046318054199219,
+      "probabilities": {
+        "Simple Sentence": 0.25050923228263855,
+        "Compound Sentence": 0.02299581468105316,
+        "Complex Sentence": 0.012159432284533978,
+        "Compound-Complex Sentence": 0.00970381498336792,
+        "Incomplete Sentence": 0.7046318054199219
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What other drugs will affect methylphenidate?",
+      "block_index": 113,
+      "sentence_index": 1,
+      "sentence": "Other drugs may interact with methylphenidate, including prescription and over-the-counter medicines, vitamins , and herbal products .",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.6509796380996704,
+      "probabilities": {
+        "Simple Sentence": 0.05929246544837952,
+        "Compound Sentence": 0.24684283137321472,
+        "Complex Sentence": 0.6509796380996704,
+        "Compound-Complex Sentence": 0.03373437747359276,
+        "Incomplete Sentence": 0.009150695987045765
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "What other drugs will affect methylphenidate?",
+      "block_index": 113,
+      "sentence_index": 2,
+      "sentence": "Not all possible drug interactions are listed here.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9795037508010864,
+      "probabilities": {
+        "Simple Sentence": 0.9795037508010864,
+        "Compound Sentence": 0.006145726889371872,
+        "Complex Sentence": 0.003574283793568611,
+        "Compound-Complex Sentence": 0.0007433801656588912,
+        "Incomplete Sentence": 0.01003289595246315
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Popular FAQ",
+      "block_index": 114,
+      "sentence_index": 0,
+      "sentence": "Metilfenidato is the Spanish, Italian, and Portuguese translation for methylphenidate which may be used to treat children or adults with attention deficit hyperactivity disorder (ADHD) to help with hyperactivity and impulsive behavior, and allow them to concentrate better.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.9415245652198792,
+      "probabilities": {
+        "Simple Sentence": 0.015397715382277966,
+        "Compound Sentence": 0.010367867536842823,
+        "Complex Sentence": 0.9415245652198792,
+        "Compound-Complex Sentence": 0.02905966155230999,
+        "Incomplete Sentence": 0.0036501416470855474
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Popular FAQ",
+      "block_index": 114,
+      "sentence_index": 1,
+      "sentence": "Metilfenidato may also be used to treat adults with narcolepsy.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.977443516254425,
+      "probabilities": {
+        "Simple Sentence": 0.977443516254425,
+        "Compound Sentence": 0.013685334473848343,
+        "Complex Sentence": 0.005573082249611616,
+        "Compound-Complex Sentence": 0.0008275562431663275,
+        "Incomplete Sentence": 0.0024706267286092043
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Popular FAQ",
+      "block_index": 114,
+      "sentence_index": 2,
+      "sentence": "Metilfenidato translates to methylphenidate.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.983986496925354,
+      "probabilities": {
+        "Simple Sentence": 0.983986496925354,
+        "Compound Sentence": 0.007741856854408979,
+        "Complex Sentence": 0.002676167292520404,
+        "Compound-Complex Sentence": 0.000975891831330955,
+        "Incomplete Sentence": 0.004619488958269358
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Popular FAQ",
+      "block_index": 114,
+      "sentence_index": 3,
+      "sentence": "Continue reading",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968401193618774,
+      "probabilities": {
+        "Simple Sentence": 0.0008514289511367679,
+        "Compound Sentence": 0.0008564324234612286,
+        "Complex Sentence": 0.00037671401514671743,
+        "Compound-Complex Sentence": 0.0010752563830465078,
+        "Incomplete Sentence": 0.9968401193618774
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "More FAQ",
+      "block_index": 115,
+      "sentence_index": 0,
+      "sentence": "Ritalin vs Vyvanse - What's the difference between them?",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9955112934112549,
+      "probabilities": {
+        "Simple Sentence": 0.0023300352040678263,
+        "Compound Sentence": 0.001031677471473813,
+        "Complex Sentence": 0.0003405435709282756,
+        "Compound-Complex Sentence": 0.0007863932987675071,
+        "Incomplete Sentence": 0.9955112934112549
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "More FAQ",
+      "block_index": 116,
+      "sentence_index": 0,
+      "sentence": "What are the brands of methylphenidate?",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9917558431625366,
+      "probabilities": {
+        "Simple Sentence": 0.003242460312321782,
+        "Compound Sentence": 0.0018520142184570432,
+        "Complex Sentence": 0.0010148199507966638,
+        "Compound-Complex Sentence": 0.0021347799338400364,
+        "Incomplete Sentence": 0.9917558431625366
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "More FAQ",
+      "block_index": 117,
+      "sentence_index": 0,
+      "sentence": "Concerta vs Adderall - What's the difference between them?",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9954501986503601,
+      "probabilities": {
+        "Simple Sentence": 0.0027247515972703695,
+        "Compound Sentence": 0.0008477544761262834,
+        "Complex Sentence": 0.0003106555377598852,
+        "Compound-Complex Sentence": 0.0006667108973488212,
+        "Incomplete Sentence": 0.9954501986503601
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "More FAQ",
+      "block_index": 118,
+      "sentence_index": 0,
+      "sentence": "Jornay PM vs other methylphenidate formulations - how do they compare?",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9957448840141296,
+      "probabilities": {
+        "Simple Sentence": 0.0023451365996152163,
+        "Compound Sentence": 0.0008792064618319273,
+        "Complex Sentence": 0.0003250251756981015,
+        "Compound-Complex Sentence": 0.0007057727198116481,
+        "Incomplete Sentence": 0.9957448840141296
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "More FAQ",
+      "block_index": 119,
+      "sentence_index": 0,
+      "sentence": "How is Cotempla XR-ODT different to other brands of methylphenidate?",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9674587249755859,
+      "probabilities": {
+        "Simple Sentence": 0.02083299309015274,
+        "Compound Sentence": 0.004815974272787571,
+        "Complex Sentence": 0.0030226020608097315,
+        "Compound-Complex Sentence": 0.0038697440177202225,
+        "Incomplete Sentence": 0.9674587249755859
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "More FAQ",
+      "block_index": 120,
+      "sentence_index": 0,
+      "sentence": "View more FAQ",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976568222045898,
+      "probabilities": {
+        "Simple Sentence": 0.0008899737731553614,
+        "Compound Sentence": 0.0005737691535614431,
+        "Complex Sentence": 0.000306816742522642,
+        "Compound-Complex Sentence": 0.0005726495874114335,
+        "Incomplete Sentence": 0.9976568222045898
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "More about methylphenidate",
+      "block_index": 121,
+      "sentence_index": 0,
+      "sentence": "Check interactions",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976564645767212,
+      "probabilities": {
+        "Simple Sentence": 0.0006754050846211612,
+        "Compound Sentence": 0.0006197865586727858,
+        "Complex Sentence": 0.00029854074819013476,
+        "Compound-Complex Sentence": 0.0007497987826354802,
+        "Incomplete Sentence": 0.9976564645767212
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "More about methylphenidate",
+      "block_index": 122,
+      "sentence_index": 0,
+      "sentence": "Compare alternatives",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9973184466362,
+      "probabilities": {
+        "Simple Sentence": 0.000694570888299495,
+        "Compound Sentence": 0.0007733378442935646,
+        "Complex Sentence": 0.00034585807588882744,
+        "Compound-Complex Sentence": 0.0008677905425429344,
+        "Incomplete Sentence": 0.9973184466362
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "More about methylphenidate",
+      "block_index": 123,
+      "sentence_index": 0,
+      "sentence": "Pricing & coupons",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.998094379901886,
+      "probabilities": {
+        "Simple Sentence": 0.0006051037926226854,
+        "Compound Sentence": 0.0005434719496406615,
+        "Complex Sentence": 0.00023742530902381986,
+        "Compound-Complex Sentence": 0.0005195984267629683,
+        "Incomplete Sentence": 0.998094379901886
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "More about methylphenidate",
+      "block_index": 124,
+      "sentence_index": 0,
+      "sentence": "Reviews (1,127)",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9980364441871643,
+      "probabilities": {
+        "Simple Sentence": 0.0006600106717087328,
+        "Compound Sentence": 0.000531370285898447,
+        "Complex Sentence": 0.0002582116285338998,
+        "Compound-Complex Sentence": 0.000514016835950315,
+        "Incomplete Sentence": 0.9980364441871643
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "More about methylphenidate",
+      "block_index": 125,
+      "sentence_index": 0,
+      "sentence": "Drug images",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9981617331504822,
+      "probabilities": {
+        "Simple Sentence": 0.00048293473082594573,
+        "Compound Sentence": 0.00047964471741579473,
+        "Complex Sentence": 0.0002542403235565871,
+        "Compound-Complex Sentence": 0.0006213127635419369,
+        "Incomplete Sentence": 0.9981617331504822
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "More about methylphenidate",
+      "block_index": 126,
+      "sentence_index": 0,
+      "sentence": "Latest FDA alerts (5)",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9966939687728882,
+      "probabilities": {
+        "Simple Sentence": 0.0017306320369243622,
+        "Compound Sentence": 0.0007966082775965333,
+        "Complex Sentence": 0.0003686527779791504,
+        "Compound-Complex Sentence": 0.0004100588266737759,
+        "Incomplete Sentence": 0.9966939687728882
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "More about methylphenidate",
+      "block_index": 127,
+      "sentence_index": 0,
+      "sentence": "Side effects",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.997919499874115,
+      "probabilities": {
+        "Simple Sentence": 0.0005455033970065415,
+        "Compound Sentence": 0.0005386219127103686,
+        "Complex Sentence": 0.0002931297931354493,
+        "Compound-Complex Sentence": 0.0007031817804090679,
+        "Incomplete Sentence": 0.997919499874115
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "More about methylphenidate",
+      "block_index": 128,
+      "sentence_index": 0,
+      "sentence": "Dosage information",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9979808926582336,
+      "probabilities": {
+        "Simple Sentence": 0.0007101260707713664,
+        "Compound Sentence": 0.0005979861598461866,
+        "Complex Sentence": 0.0002328066184418276,
+        "Compound-Complex Sentence": 0.0004781548632308841,
+        "Incomplete Sentence": 0.9979808926582336
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "More about methylphenidate",
+      "block_index": 129,
+      "sentence_index": 0,
+      "sentence": "Patient tips",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978944659233093,
+      "probabilities": {
+        "Simple Sentence": 0.0005328534753061831,
+        "Compound Sentence": 0.0005886642029508948,
+        "Complex Sentence": 0.00027806524303741753,
+        "Compound-Complex Sentence": 0.0007059162599034607,
+        "Incomplete Sentence": 0.9978944659233093
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "More about methylphenidate",
+      "block_index": 130,
+      "sentence_index": 0,
+      "sentence": "During pregnancy",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978461265563965,
+      "probabilities": {
+        "Simple Sentence": 0.0006223306409083307,
+        "Compound Sentence": 0.0005649809027090669,
+        "Complex Sentence": 0.00026949704624712467,
+        "Compound-Complex Sentence": 0.0006969773094169796,
+        "Incomplete Sentence": 0.9978461265563965
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "More about methylphenidate",
+      "block_index": 131,
+      "sentence_index": 0,
+      "sentence": "Support group",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9980751276016235,
+      "probabilities": {
+        "Simple Sentence": 0.0005579816643148661,
+        "Compound Sentence": 0.0005717718740925193,
+        "Complex Sentence": 0.00025847391225397587,
+        "Compound-Complex Sentence": 0.000536605715751648,
+        "Incomplete Sentence": 0.9980751276016235
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "More about methylphenidate",
+      "block_index": 132,
+      "sentence_index": 0,
+      "sentence": "Drug class: CNS stimulants",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9974921941757202,
+      "probabilities": {
+        "Simple Sentence": 0.000974424765445292,
+        "Compound Sentence": 0.0006343799759633839,
+        "Complex Sentence": 0.00030766610871069133,
+        "Compound-Complex Sentence": 0.0005913070635870099,
+        "Incomplete Sentence": 0.9974921941757202
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "More about methylphenidate",
+      "block_index": 133,
+      "sentence_index": 0,
+      "sentence": "Breastfeeding",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9979556798934937,
+      "probabilities": {
+        "Simple Sentence": 0.0007976167253218591,
+        "Compound Sentence": 0.0005864052218385041,
+        "Complex Sentence": 0.0002278525207657367,
+        "Compound-Complex Sentence": 0.00043238807120360434,
+        "Incomplete Sentence": 0.9979556798934937
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Patient resources",
+      "block_index": 134,
+      "sentence_index": 0,
+      "sentence": "Concerta , Ritalin , Jornay PM , Quillivant XR , ... +7 more",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9957578778266907,
+      "probabilities": {
+        "Simple Sentence": 0.001868589548394084,
+        "Compound Sentence": 0.001181962201371789,
+        "Complex Sentence": 0.00045479790423996747,
+        "Compound-Complex Sentence": 0.0007367694051936269,
+        "Incomplete Sentence": 0.9957578778266907
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Professional resources",
+      "block_index": 135,
+      "sentence_index": 0,
+      "sentence": "Methylphenidate monograph",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9982183575630188,
+      "probabilities": {
+        "Simple Sentence": 0.000574092089664191,
+        "Compound Sentence": 0.0005071294726803899,
+        "Complex Sentence": 0.0002174756082240492,
+        "Compound-Complex Sentence": 0.000482962146634236,
+        "Incomplete Sentence": 0.9982183575630188
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Professional resources",
+      "block_index": 136,
+      "sentence_index": 0,
+      "sentence": "Methylin Chewable Tablet (FDA)",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9979497790336609,
+      "probabilities": {
+        "Simple Sentence": 0.0008498831884935498,
+        "Compound Sentence": 0.0004786071367561817,
+        "Complex Sentence": 0.0002364654210396111,
+        "Compound-Complex Sentence": 0.00048519554547965527,
+        "Incomplete Sentence": 0.9979497790336609
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Professional resources",
+      "block_index": 137,
+      "sentence_index": 0,
+      "sentence": "Methylphenidate CD Capsules (FDA)",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9974748492240906,
+      "probabilities": {
+        "Simple Sentence": 0.0012597466120496392,
+        "Compound Sentence": 0.000543134578038007,
+        "Complex Sentence": 0.0002448099839966744,
+        "Compound-Complex Sentence": 0.00047744595212861896,
+        "Incomplete Sentence": 0.9974748492240906
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Professional resources",
+      "block_index": 138,
+      "sentence_index": 0,
+      "sentence": "Methylphenidate Chewable Tablets (FDA)",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976934790611267,
+      "probabilities": {
+        "Simple Sentence": 0.0010941922664642334,
+        "Compound Sentence": 0.0005168598145246506,
+        "Complex Sentence": 0.00024106736236717552,
+        "Compound-Complex Sentence": 0.00045434891944751143,
+        "Incomplete Sentence": 0.9976934790611267
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Professional resources",
+      "block_index": 139,
+      "sentence_index": 0,
+      "sentence": "Methylphenidate ER Capsules (FDA)",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9975481629371643,
+      "probabilities": {
+        "Simple Sentence": 0.001180623541586101,
+        "Compound Sentence": 0.0005321486969478428,
+        "Complex Sentence": 0.0002550784847699106,
+        "Compound-Complex Sentence": 0.0004840539477299899,
+        "Incomplete Sentence": 0.9975481629371643
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Professional resources",
+      "block_index": 140,
+      "sentence_index": 0,
+      "sentence": "Concerta , Ritalin , Ritalin LA , Jornay PM , ... +10 more",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9948707818984985,
+      "probabilities": {
+        "Simple Sentence": 0.0018769791349768639,
+        "Compound Sentence": 0.0015001160791143775,
+        "Complex Sentence": 0.0006253414321690798,
+        "Compound-Complex Sentence": 0.0011268315138295293,
+        "Incomplete Sentence": 0.9948707818984985
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Related treatment guides",
+      "block_index": 141,
+      "sentence_index": 0,
+      "sentence": "ADHD",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9974097609519958,
+      "probabilities": {
+        "Simple Sentence": 0.0005826603155583143,
+        "Compound Sentence": 0.0006772191845811903,
+        "Complex Sentence": 0.0003127906529698521,
+        "Compound-Complex Sentence": 0.0010176198557019234,
+        "Incomplete Sentence": 0.9974097609519958
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Related treatment guides",
+      "block_index": 142,
+      "sentence_index": 0,
+      "sentence": "Narcolepsy",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9982049465179443,
+      "probabilities": {
+        "Simple Sentence": 0.0005211806856095791,
+        "Compound Sentence": 0.0005166199989616871,
+        "Complex Sentence": 0.0002288014511577785,
+        "Compound-Complex Sentence": 0.0005283551290631294,
+        "Incomplete Sentence": 0.9982049465179443
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Related treatment guides",
+      "block_index": 143,
+      "sentence_index": 0,
+      "sentence": "Fatigue",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9950031638145447,
+      "probabilities": {
+        "Simple Sentence": 0.0014477797085419297,
+        "Compound Sentence": 0.0011480875546112657,
+        "Complex Sentence": 0.0005938775138929486,
+        "Compound-Complex Sentence": 0.0018070772057399154,
+        "Incomplete Sentence": 0.9950031638145447
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Related treatment guides",
+      "block_index": 144,
+      "sentence_index": 0,
+      "sentence": "Depression",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9933496117591858,
+      "probabilities": {
+        "Simple Sentence": 0.0017769720871001482,
+        "Compound Sentence": 0.0015590107068419456,
+        "Complex Sentence": 0.0008072259370237589,
+        "Compound-Complex Sentence": 0.002507156226783991,
+        "Incomplete Sentence": 0.9933496117591858
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Further information",
+      "block_index": 145,
+      "sentence_index": 0,
+      "sentence": "Remember, keep this and all other medicines out of the reach of children, never share your medicines with others, and use methylphenidate medication only for the indication prescribed.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.6806298494338989,
+      "probabilities": {
+        "Simple Sentence": 0.022485313937067986,
+        "Compound Sentence": 0.6806298494338989,
+        "Complex Sentence": 0.08256977051496506,
+        "Compound-Complex Sentence": 0.1911386400461197,
+        "Incomplete Sentence": 0.02317642979323864
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Further information",
+      "block_index": 146,
+      "sentence_index": 0,
+      "sentence": "Always consult your healthcare provider to ensure the information displayed on this page applies to your personal circumstances.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.7206799387931824,
+      "probabilities": {
+        "Simple Sentence": 0.23835229873657227,
+        "Compound Sentence": 0.019536510109901428,
+        "Complex Sentence": 0.010710352100431919,
+        "Compound-Complex Sentence": 0.010720816440880299,
+        "Incomplete Sentence": 0.7206799387931824
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Further information",
+      "block_index": 147,
+      "sentence_index": 0,
+      "sentence": "Medical Disclaimer",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978049397468567,
+      "probabilities": {
+        "Simple Sentence": 0.0006821347051300108,
+        "Compound Sentence": 0.0006229130085557699,
+        "Complex Sentence": 0.00026221704320050776,
+        "Compound-Complex Sentence": 0.00062779855215922,
+        "Incomplete Sentence": 0.9978049397468567
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Further information",
+      "block_index": 148,
+      "sentence_index": 0,
+      "sentence": "Copyright 1996-2026 Cerner Multum, Inc.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9958043694496155,
+      "probabilities": {
+        "Simple Sentence": 0.0020892450120300055,
+        "Compound Sentence": 0.0011546360328793526,
+        "Complex Sentence": 0.0003288760781288147,
+        "Compound-Complex Sentence": 0.0006228794227354228,
+        "Incomplete Sentence": 0.9958043694496155
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "methylphenidate.html",
+      "section_title": "Further information",
+      "block_index": 148,
+      "sentence_index": 1,
+      "sentence": "Version: 23.02.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9890915155410767,
+      "probabilities": {
+        "Simple Sentence": 0.005935808178037405,
+        "Compound Sentence": 0.002146791433915496,
+        "Complex Sentence": 0.0007491920841857791,
+        "Compound-Complex Sentence": 0.0020766817033290863,
+        "Incomplete Sentence": 0.9890915155410767
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "input": "data/text-only/sentence_classification/sentence_classification.jsonl",
+  "model": "/home/heesun/.cache/huggingface/hub/models--Qwen--Qwen3.5-9B/snapshots/c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "input_sentence_count": 8028,
+  "output_record_count": 8028,
+  "input_label_counts": {
+    "Complex Sentence": 781,
+    "Compound Sentence": 965,
+    "Compound-Complex Sentence": 158,
+    "Incomplete Sentence": 3899,
+    "Simple Sentence": 2225
+  },
+  "status_counts": {
+    "decomposed": 1904,
+    "excluded_incomplete": 3899,
+    "passthrough": 2225
+  },
+  "simplified_sentence_count": 8399,
+  "decomposition_parse_failures": 0
+}

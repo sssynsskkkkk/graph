@@ -1,0 +1,4431 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "losartan#uses#0",
+     "section_id": "uses",
+     "section_heading": "What is losartan?",
+     "text": "Losartan is used alone or in combination with other medications to treat high blood pressure in adults and children at least 6 years old.\nLosartan is also used to decrease the risk of stroke in people who have high blood pressure and a heart condition called left ventricular hypertrophy (enlargement of the walls of the left side of the heart).\nLosartan may not decrease the risk of stroke in African Americans who have these conditions.\nLosartan is also used to treat kidney disease in people who have type 2 diabetes (condition in which the body does not use insulin normally and therefore cannot control the amount of sugar in the blood) and high blood pressure.\nLosartan belongs to a class of medications called angiotensin II receptor antagonists. It works by blocking the action of certain natural substances that tighten the blood vessels, allowing the blood to flow more smoothly and the heart to pump more efficiently.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Losartan\", \"used alone or in combination with\", \"other medications\"], [\"Losartan\", \"treats\", \"high blood pressure in adults and children at least 6 years old\"], [\"Losartan\", \"reduces risk of\", \"stroke in people with high blood pressure and left ventricular hypertrophy\"], [\"Losartan\", \"does not reduce risk of\", \"stroke in African Americans with high blood pressure and left ventricular hypertrophy\"], [\"Losartan\", \"treats\", \"kidney disease in people with type 2 diabetes and high blood pressure\"], [\"Losartan\", \"belongs to drug class\", \"angiotensin II receptor antagonists\"], [\"Losartan\", \"has mechanism of action\", \"blocking action of natural substances that tighten blood vessels\"]]",
+     "oie": [
+      [
+       "Losartan",
+       "used alone or in combination with",
+       "other medications"
+      ],
+      [
+       "Losartan",
+       "treats",
+       "high blood pressure in adults and children at least 6 years old"
+      ],
+      [
+       "Losartan",
+       "reduces risk of",
+       "stroke in people with high blood pressure and left ventricular hypertrophy"
+      ],
+      [
+       "Losartan",
+       "does not reduce risk of",
+       "stroke in African Americans with high blood pressure and left ventricular hypertrophy"
+      ],
+      [
+       "Losartan",
+       "treats",
+       "kidney disease in people with type 2 diabetes and high blood pressure"
+      ],
+      [
+       "Losartan",
+       "belongs to drug class",
+       "angiotensin II receptor antagonists"
+      ],
+      [
+       "Losartan",
+       "has mechanism of action",
+       "blocking action of natural substances that tighten blood vessels"
+      ]
+     ],
+     "schema_definition": {
+      "belongs to drug class": "The subject drug is a member of the pharmacological drug class specified by the object entity.",
+      "does not reduce risk of": "The subject drug does not lower the risk of the medical condition or event specified by the object entity.",
+      "has mechanism of action": "The subject drug works by blocking or inhibiting the action of the substance or process specified by the object entity.",
+      "reduces risk of": "The subject drug is used to lower the risk of the medical event or condition specified by the object entity.",
+      "treats": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+      "used alone or in combination with": "The subject drug is administered either by itself or together with other medications specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Losartan",
+        "used in combination with",
+        "other medications"
+       ],
+       "raw_relation": "used alone or in combination with",
+       "definition": "The subject drug is administered either by itself or together with other medications specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "administered via",
+         0.8829
+        ],
+        [
+         "has dosage form",
+         0.8704
+        ],
+        [
+         "similar to",
+         0.8697
+        ],
+        [
+         "used in combination with",
+         0.8682
+        ],
+        [
+         "treats",
+         0.8678
+        ]
+       ],
+       "answer": "D"
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "treats",
+        "high blood pressure in adults and children at least 6 years old"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "reduces risk of",
+        "stroke in people with high blood pressure and left ventricular hypertrophy"
+       ],
+       "raw_relation": "reduces risk of",
+       "definition": "The subject drug is used to lower the risk of the medical event or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "does not reduce risk of",
+        "stroke in African Americans with high blood pressure and left ventricular hypertrophy"
+       ],
+       "raw_relation": "does not reduce risk of",
+       "definition": "The subject drug does not lower the risk of the medical condition or event specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.8747
+        ],
+        [
+         "reduces risk of",
+         0.8588
+        ],
+        [
+         "not approved for",
+         0.8236
+        ],
+        [
+         "should be avoided with",
+         0.8006
+        ],
+        [
+         "not used to treat",
+         0.7969
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "treats",
+        "kidney disease in people with type 2 diabetes and high blood pressure"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "belongs to drug class",
+        "angiotensin II receptor antagonists"
+       ],
+       "raw_relation": "belongs to drug class",
+       "definition": "The subject drug is a member of the pharmacological drug class specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has mechanism of action",
+        "blocking action of natural substances that tighten blood vessels"
+       ],
+       "raw_relation": "has mechanism of action",
+       "definition": "The subject drug works by blocking or inhibiting the action of the substance or process specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "losartan#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "Do not use losartan if you are pregnant, and tell your doctor right away if you become pregnant. It can cause injury or death to the unborn baby.\nIf you have diabetes, do not use losartan together with any medication that contains aliskiren (a blood pressure medicine).\nYou may also need to avoid taking losartan with aliskiren if you have kidney disease.\nIn rare cases, this medicine can cause a condition that results in the breakdown of skeletal muscle tissue, leading to kidney failure. Call your doctor right away if you have unexplained muscle pain, tenderness, or weakness especially if you also have fever, unusual tiredness, and dark colored urine.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"losartan\", \"contraindicated in\", \"pregnancy\"], [\"losartan\", \"has warning\", \"can cause injury or death to unborn baby\"], [\"losartan\", \"interacts with\", \"medications containing aliskiren\"], [\"losartan\", \"has interaction warning\", \"with aliskiren in patients with kidney disease\"], [\"losartan\", \"has serious side effect\", \"rare muscle breakdown leading to kidney failure\"], [\"losartan\", \"has symptom of serious side effect\", \"unexplained muscle pain\"], [\"losartan\", \"has symptom of serious side effect\", \"muscle tenderness\"], [\"losartan\", \"has symptom of serious side effect\", \"muscle weakness\"], [\"losartan\", \"has symptom of serious side effect\", \"fever\"], [\"losartan\", \"has symptom of serious side effect\", \"unusual tiredness\"], [\"losartan\", \"has symptom of serious side effect\", \"dark colored urine\"]]",
+     "oie": [
+      [
+       "losartan",
+       "contraindicated in",
+       "pregnancy"
+      ],
+      [
+       "losartan",
+       "has warning",
+       "can cause injury or death to unborn baby"
+      ],
+      [
+       "losartan",
+       "interacts with",
+       "medications containing aliskiren"
+      ],
+      [
+       "losartan",
+       "has interaction warning",
+       "with aliskiren in patients with kidney disease"
+      ],
+      [
+       "losartan",
+       "has serious side effect",
+       "rare muscle breakdown leading to kidney failure"
+      ],
+      [
+       "losartan",
+       "has symptom of serious side effect",
+       "unexplained muscle pain"
+      ],
+      [
+       "losartan",
+       "has symptom of serious side effect",
+       "muscle tenderness"
+      ],
+      [
+       "losartan",
+       "has symptom of serious side effect",
+       "muscle weakness"
+      ],
+      [
+       "losartan",
+       "has symptom of serious side effect",
+       "fever"
+      ],
+      [
+       "losartan",
+       "has symptom of serious side effect",
+       "unusual tiredness"
+      ],
+      [
+       "losartan",
+       "has symptom of serious side effect",
+       "dark colored urine"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "has interaction warning": "The subject drug requires medical caution when used in combination with the substance specified by the object entity, particularly in patients with the specified condition.",
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+      "has symptom of serious side effect": "The subject drug may cause the symptom specified by the object entity as part of a serious adverse reaction.",
+      "has warning": "The subject drug carries a warning about the potential harm or risk specified by the object entity.",
+      "interacts with": "The subject drug may produce a clinically significant interaction when used in combination with the substance specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "losartan",
+        "contraindicated in",
+        "pregnancy"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has warning",
+        "can cause injury or death to unborn baby"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a warning about the potential harm or risk specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "interacts with",
+        "medications containing aliskiren"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a clinically significant interaction when used in combination with the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "use with caution in",
+        "with aliskiren in patients with kidney disease"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject drug requires medical caution when used in combination with the substance specified by the object entity, particularly in patients with the specified condition.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8946
+        ],
+        [
+         "has serious side effect",
+         0.8778
+        ],
+        [
+         "reduces risk of",
+         0.8761
+        ],
+        [
+         "has warning",
+         0.8747
+        ],
+        [
+         "not used to treat",
+         0.8733
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has serious side effect",
+        "rare muscle breakdown leading to kidney failure"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has serious side effect",
+        "unexplained muscle pain"
+       ],
+       "raw_relation": "has symptom of serious side effect",
+       "definition": "The subject drug may cause the symptom specified by the object entity as part of a serious adverse reaction.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9539
+        ],
+        [
+         "has serious side effect",
+         0.9344
+        ],
+        [
+         "has overdose symptom",
+         0.8955
+        ],
+        [
+         "has warning",
+         0.8667
+        ],
+        [
+         "interacts with",
+         0.855
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has serious side effect",
+        "muscle tenderness"
+       ],
+       "raw_relation": "has symptom of serious side effect",
+       "definition": "The subject drug may cause the symptom specified by the object entity as part of a serious adverse reaction.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9539
+        ],
+        [
+         "has serious side effect",
+         0.9344
+        ],
+        [
+         "has overdose symptom",
+         0.8955
+        ],
+        [
+         "has warning",
+         0.8667
+        ],
+        [
+         "interacts with",
+         0.855
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has serious side effect",
+        "muscle weakness"
+       ],
+       "raw_relation": "has symptom of serious side effect",
+       "definition": "The subject drug may cause the symptom specified by the object entity as part of a serious adverse reaction.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9539
+        ],
+        [
+         "has serious side effect",
+         0.9344
+        ],
+        [
+         "has overdose symptom",
+         0.8955
+        ],
+        [
+         "has warning",
+         0.8667
+        ],
+        [
+         "interacts with",
+         0.855
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has serious side effect",
+        "fever"
+       ],
+       "raw_relation": "has symptom of serious side effect",
+       "definition": "The subject drug may cause the symptom specified by the object entity as part of a serious adverse reaction.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9539
+        ],
+        [
+         "has serious side effect",
+         0.9344
+        ],
+        [
+         "has overdose symptom",
+         0.8955
+        ],
+        [
+         "has warning",
+         0.8667
+        ],
+        [
+         "interacts with",
+         0.855
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has serious side effect",
+        "unusual tiredness"
+       ],
+       "raw_relation": "has symptom of serious side effect",
+       "definition": "The subject drug may cause the symptom specified by the object entity as part of a serious adverse reaction.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9539
+        ],
+        [
+         "has serious side effect",
+         0.9344
+        ],
+        [
+         "has overdose symptom",
+         0.8955
+        ],
+        [
+         "has warning",
+         0.8667
+        ],
+        [
+         "interacts with",
+         0.855
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has serious side effect",
+        "dark colored urine"
+       ],
+       "raw_relation": "has symptom of serious side effect",
+       "definition": "The subject drug may cause the symptom specified by the object entity as part of a serious adverse reaction.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9539
+        ],
+        [
+         "has serious side effect",
+         0.9344
+        ],
+        [
+         "has overdose symptom",
+         0.8955
+        ],
+        [
+         "has warning",
+         0.8667
+        ],
+        [
+         "interacts with",
+         0.855
+        ]
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "chunk_id": "losartan#before-taking#0",
+     "section_id": "before-taking",
+     "section_heading": "Before taking this medicine",
+     "text": "You should not use losartan if you are allergic to it.\nIf you have diabetes, do not take losartan with any medication that contains aliskiren (a blood pressure medicine).\nTo make sure this medicine is safe for you, tell your doctor if you have ever had:\n- heart disease or congestive heart failure;\n- an electrolyte imbalance (such as high levels of potassium in your blood);\n- if you are on a low-salt diet;\n- liver disease; or\n- kidney disease.\nYou may also need to avoid taking losartan with aliskiren if you have kidney disease.\nStop using this medicine and tell your doctor right away if you become pregnant. Losartan can cause injury or death to the unborn baby.\nYou should not breastfeed while using this medicine and for 2 days after your last dose.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[\n  [\"losartan\", \"contraindicated in\", \"allergy to losartan\"],\n  [\"losartan\", \"interacts with\", \"aliskiren in patients with kidney disease\"],\n  [\"losartan\", \"contraindicated in\", \"diabetes with aliskiren containing medication\"],\n  [\"losartan\", \"use with caution in\", \"heart disease\"],\n  [\"losartan\", \"use with caution in\", \"congestive heart failure\"],\n  [\"losartan\", \"use with caution in\", \"electrolyte imbalance\"],\n  [\"losartan\", \"use with caution in\", \"high potassium levels\"],\n  [\"losartan\", \"use with caution in\", \"low-salt diet\"],\n  [\"losartan\", \"use with caution in\", \"liver disease\"],\n  [\"losartan\", \"use with caution in\", \"kidney disease\"],\n  [\"losartan\", \"has pregnancy warning\", \"may cause injury or death to unborn baby\"],\n  [\"losartan\", \"has breastfeeding warning\", \"should not be used while breastfeeding and for 2 days after last dose\"]\n]",
+     "oie": [
+      [
+       "losartan",
+       "contraindicated in",
+       "allergy to losartan"
+      ],
+      [
+       "losartan",
+       "interacts with",
+       "aliskiren in patients with kidney disease"
+      ],
+      [
+       "losartan",
+       "contraindicated in",
+       "diabetes with aliskiren containing medication"
+      ],
+      [
+       "losartan",
+       "use with caution in",
+       "heart disease"
+      ],
+      [
+       "losartan",
+       "use with caution in",
+       "congestive heart failure"
+      ],
+      [
+       "losartan",
+       "use with caution in",
+       "electrolyte imbalance"
+      ],
+      [
+       "losartan",
+       "use with caution in",
+       "high potassium levels"
+      ],
+      [
+       "losartan",
+       "use with caution in",
+       "low-salt diet"
+      ],
+      [
+       "losartan",
+       "use with caution in",
+       "liver disease"
+      ],
+      [
+       "losartan",
+       "use with caution in",
+       "kidney disease"
+      ],
+      [
+       "losartan",
+       "has pregnancy warning",
+       "may cause injury or death to unborn baby"
+      ],
+      [
+       "losartan",
+       "has breastfeeding warning",
+       "should not be used while breastfeeding and for 2 days after last dose"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+      "has breastfeeding warning": "The subject drug poses a risk to the nursing infant and should not be used while breastfeeding and for a specified period after the last dose.",
+      "has pregnancy warning": "The subject drug may cause harm to the unborn baby and should be discontinued immediately if pregnancy occurs.",
+      "interacts with": "The subject drug may have a harmful or altered effect when used concurrently with the specified medication in patients with the specified condition.",
+      "use with caution in": "The subject drug may pose safety risks or require medical supervision in patients who have the condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "losartan",
+        "contraindicated in",
+        "allergy to losartan"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "interacts with",
+        "aliskiren in patients with kidney disease"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a harmful or altered effect when used concurrently with the specified medication in patients with the specified condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "contraindicated in",
+        "diabetes with aliskiren containing medication"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "use with caution in",
+        "heart disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision in patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "use with caution in",
+        "congestive heart failure"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision in patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "use with caution in",
+        "electrolyte imbalance"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision in patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "use with caution in",
+        "high potassium levels"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision in patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "use with caution in",
+        "low-salt diet"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision in patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "use with caution in",
+        "liver disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision in patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "use with caution in",
+        "kidney disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision in patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has pregnancy or breastfeeding warning",
+        "may cause injury or death to unborn baby"
+       ],
+       "raw_relation": "has pregnancy warning",
+       "definition": "The subject drug may cause harm to the unborn baby and should be discontinued immediately if pregnancy occurs.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has pregnancy or breastfeeding warning",
+         0.7559
+        ],
+        [
+         "has serious side effect",
+         0.6884
+        ],
+        [
+         "should be avoided with",
+         0.6792
+        ],
+        [
+         "has side effect",
+         0.6753
+        ],
+        [
+         "has warning",
+         0.6725
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has pregnancy or breastfeeding warning",
+        "should not be used while breastfeeding and for 2 days after last dose"
+       ],
+       "raw_relation": "has breastfeeding warning",
+       "definition": "The subject drug poses a risk to the nursing infant and should not be used while breastfeeding and for a specified period after the last dose.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has pregnancy or breastfeeding warning",
+         0.7974
+        ],
+        [
+         "contraindicated in",
+         0.7237
+        ],
+        [
+         "should be avoided with",
+         0.7162
+        ],
+        [
+         "has warning",
+         0.7046
+        ],
+        [
+         "use with caution in",
+         0.689
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "losartan#directions#0",
+     "section_id": "directions",
+     "section_heading": "How should I take losartan?",
+     "text": "Take losartan exactly as prescribed by your doctor. Follow all directions on your prescription label and read all medication guides or instruction sheets. Your doctor may occasionally change your dose.\n- Losartan is usually taken once per day.\n- You may take losartan with or without food.\nCall your doctor if you are sick with vomiting or diarrhea, or if you are sweating more than usual. You can easily become dehydrated while taking losartan. This can lead to very low blood pressure, a serious electrolyte imbalance, or kidney failure.\n- Your blood pressure will need to be checked often, and you may need frequent blood tests.\n- If you have high blood pressure, keep using this medicine even if you feel well. High blood pressure often has no symptoms.\nStore tightly closed at room temperature, away from moisture, heat, and light.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[\n  [\"losartan\", \"has administration instruction\", \"take exactly as prescribed by your doctor\"],\n  [\"losartan\", \"has administration instruction\", \"follow all directions on prescription label\"],\n  [\"losartan\", \"has administration instruction\", \"read all medication guides or instruction sheets\"],\n  [\"losartan\", \"has administration instruction\", \"your doctor may occasionally change your dose\"],\n  [\"losartan\", \"has administration instruction\", \"taken once per day\"],\n  [\"losartan\", \"can be taken with\", \"or without food\"],\n  [\"losartan\", \"has warning\", \"risk of dehydration\"],\n  [\"losartan\", \"has side effect\", \"very low blood pressure\"],\n  [\"losartan\", \"has side effect\", \"electrolyte imbalance\"],\n  [\"losartan\", \"has side effect\", \"kidney failure\"],\n  [\"losartan\", \"requires monitoring of\", \"blood pressure\"],\n  [\"losartan\", \"requires monitoring of\", \"blood tests\"],\n  [\"losartan\", \"has instruction for illness\", \"call doctor if sick with vomiting or diarrhea\"],\n  [\"losartan\", \"has instruction for illness\", \"call doctor if sweating more than usual\"],\n  [\"losartan\", \"has instruction for symptom\", \"keep using even if feeling well\"],\n  [\"losartan\", \"has warning\", \"high blood pressure often has no symptoms\"],\n  [\"losartan\", \"has storage instruction\", \"store tightly closed at room temperature away from moisture, heat, and light\"]\n]",
+     "oie": [
+      [
+       "losartan",
+       "has administration instruction",
+       "take exactly as prescribed by your doctor"
+      ],
+      [
+       "losartan",
+       "has administration instruction",
+       "follow all directions on prescription label"
+      ],
+      [
+       "losartan",
+       "has administration instruction",
+       "read all medication guides or instruction sheets"
+      ],
+      [
+       "losartan",
+       "has administration instruction",
+       "your doctor may occasionally change your dose"
+      ],
+      [
+       "losartan",
+       "has administration instruction",
+       "taken once per day"
+      ],
+      [
+       "losartan",
+       "can be taken with",
+       "or without food"
+      ],
+      [
+       "losartan",
+       "has warning",
+       "risk of dehydration"
+      ],
+      [
+       "losartan",
+       "has side effect",
+       "very low blood pressure"
+      ],
+      [
+       "losartan",
+       "has side effect",
+       "electrolyte imbalance"
+      ],
+      [
+       "losartan",
+       "has side effect",
+       "kidney failure"
+      ],
+      [
+       "losartan",
+       "requires monitoring of",
+       "blood pressure"
+      ],
+      [
+       "losartan",
+       "requires monitoring of",
+       "blood tests"
+      ],
+      [
+       "losartan",
+       "has instruction for illness",
+       "call doctor if sick with vomiting or diarrhea"
+      ],
+      [
+       "losartan",
+       "has instruction for illness",
+       "call doctor if sweating more than usual"
+      ],
+      [
+       "losartan",
+       "has instruction for symptom",
+       "keep using even if feeling well"
+      ],
+      [
+       "losartan",
+       "has warning",
+       "high blood pressure often has no symptoms"
+      ],
+      [
+       "losartan",
+       "has storage instruction",
+       "store tightly closed at room temperature away from moisture, heat, and light"
+      ]
+     ],
+     "schema_definition": {
+      "can be taken with": "The subject drug can be consumed in combination with the specified food or beverage without affecting its efficacy or safety.",
+      "has administration instruction": "The subject drug requires the specific action or guidance specified by the object entity to be properly used.",
+      "has instruction for illness": "The subject drug requires the patient to take specific action when experiencing the specified illness or condition.",
+      "has instruction for symptom": "The subject drug requires the patient to continue using it despite the presence of the specified symptom.",
+      "has side effect": "The subject drug may cause the adverse effect or condition specified by the object entity.",
+      "has storage instruction": "The subject drug should be stored under the conditions specified by the object entity to maintain its effectiveness and safety.",
+      "has warning": "The subject drug carries a caution or risk related to the condition or symptom specified by the object entity.",
+      "requires monitoring of": "The subject drug necessitates regular assessment or testing for the specified physiological parameter to ensure safety and efficacy."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "losartan",
+        "has administration instruction",
+        "take exactly as prescribed by your doctor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guidance specified by the object entity to be properly used.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has administration instruction",
+        "follow all directions on prescription label"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guidance specified by the object entity to be properly used.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has administration instruction",
+        "read all medication guides or instruction sheets"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guidance specified by the object entity to be properly used.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has administration instruction",
+        "your doctor may occasionally change your dose"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guidance specified by the object entity to be properly used.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has administration instruction",
+        "taken once per day"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guidance specified by the object entity to be properly used.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has administration instruction",
+        "or without food"
+       ],
+       "raw_relation": "can be taken with",
+       "definition": "The subject drug can be consumed in combination with the specified food or beverage without affecting its efficacy or safety.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.779
+        ],
+        [
+         "should not be stopped during",
+         0.7782
+        ],
+        [
+         "reduces risk of",
+         0.735
+        ],
+        [
+         "used in combination with",
+         0.7314
+        ],
+        [
+         "has maximum dose",
+         0.7236
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has warning",
+        "risk of dehydration"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or risk related to the condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has side effect",
+        "very low blood pressure"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has side effect",
+        "electrolyte imbalance"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has side effect",
+        "kidney failure"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "requires monitoring of",
+        "blood pressure"
+       ],
+       "raw_relation": "requires monitoring of",
+       "definition": "The subject drug necessitates regular assessment or testing for the specified physiological parameter to ensure safety and efficacy.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "requires monitoring of",
+        "blood tests"
+       ],
+       "raw_relation": "requires monitoring of",
+       "definition": "The subject drug necessitates regular assessment or testing for the specified physiological parameter to ensure safety and efficacy.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has instruction",
+        "call doctor if sick with vomiting or diarrhea"
+       ],
+       "raw_relation": "has instruction for illness",
+       "definition": "The subject drug requires the patient to take specific action when experiencing the specified illness or condition.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires monitoring of",
+         0.8444
+        ],
+        [
+         "treats",
+         0.8405
+        ],
+        [
+         "has instruction",
+         0.8396
+        ],
+        [
+         "use with caution in",
+         0.838
+        ],
+        [
+         "should inform doctor about",
+         0.8202
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has instruction",
+        "call doctor if sweating more than usual"
+       ],
+       "raw_relation": "has instruction for illness",
+       "definition": "The subject drug requires the patient to take specific action when experiencing the specified illness or condition.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires monitoring of",
+         0.8444
+        ],
+        [
+         "treats",
+         0.8405
+        ],
+        [
+         "has instruction",
+         0.8396
+        ],
+        [
+         "use with caution in",
+         0.838
+        ],
+        [
+         "should inform doctor about",
+         0.8202
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "losartan",
+        "should not be stopped during",
+        "keep using even if feeling well"
+       ],
+       "raw_relation": "has instruction for symptom",
+       "definition": "The subject drug requires the patient to continue using it despite the presence of the specified symptom.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should not be stopped during",
+         0.8417
+        ],
+        [
+         "requires monitoring of",
+         0.8073
+        ],
+        [
+         "use with caution in",
+         0.8053
+        ],
+        [
+         "may require dose adjustment",
+         0.7911
+        ],
+        [
+         "treats",
+         0.787
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has warning",
+        "high blood pressure often has no symptoms"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or risk related to the condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "losartan",
+        "has storage instruction",
+        "store tightly closed at room temperature away from moisture, heat, and light"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug should be stored under the conditions specified by the object entity to maintain its effectiveness and safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "losartan#dosage#0",
+     "section_id": "dosage",
+     "section_heading": "Dosing information",
+     "text": "Usual Adult Dose for Diabetic Nephropathy:\nInitial dose: 50 mg orally once a day Maximum dose: 100 mg orally once a day Comments: -If hypertensive patients with left ventricular hypertrophy or type 2 diabetic nephropathy patients require titration from initial dose, increase to 100 mg orally once a day. -Antihypertension is substantially present within 1 week but in some studies the maximal effect occurred in 3 to 6 weeks. Uses: -Treatment of hypertension. -To reduce the risk of stroke in patients with hypertension and left ventricular hypertrophy. -Treatment of diabetic nephropathy with an elevated serum creatinine and proteinuria (urinary albumin to creatinine ratio 300 mg/g or greater) in patients with type 2 diabetes and a history of hypertension.\nUsual Adult Dose for Hypertension:",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Losartan\", \"has recommended dose\", \"50 mg orally once a day\"], [\"Losartan\", \"has maximum dose\", \"100 mg orally once a day\"], [\"Losartan\", \"has administration instruction\", \"take orally once a day\"], [\"Losartan\", \"treats\", \"hypertension\"], [\"Losartan\", \"reduces risk of\", \"stroke in patients with hypertension and left ventricular hypertrophy\"], [\"Losartan\", \"treats\", \"diabetic nephropathy with elevated serum creatinine and proteinuria\"], [\"Losartan\", \"treats\", \"diabetic nephropathy with urinary albumin to creatinine ratio 300 mg/g or greater\"], [\"Losartan\", \"has dose adjustment instruction\", \"increase to 100 mg orally once a day in hypertensive patients with left ventricular hypertrophy or type 2 diabetic nephropathy\"], [\"Losartan\", \"has onset of antihypertensive effect\", \"within 1 week\"], [\"Losartan\", \"has maximal effect time\", \"3 to 6 weeks\"]]",
+     "oie": [
+      [
+       "Losartan",
+       "has recommended dose",
+       "50 mg orally once a day"
+      ],
+      [
+       "Losartan",
+       "has maximum dose",
+       "100 mg orally once a day"
+      ],
+      [
+       "Losartan",
+       "has administration instruction",
+       "take orally once a day"
+      ],
+      [
+       "Losartan",
+       "treats",
+       "hypertension"
+      ],
+      [
+       "Losartan",
+       "reduces risk of",
+       "stroke in patients with hypertension and left ventricular hypertrophy"
+      ],
+      [
+       "Losartan",
+       "treats",
+       "diabetic nephropathy with elevated serum creatinine and proteinuria"
+      ],
+      [
+       "Losartan",
+       "treats",
+       "diabetic nephropathy with urinary albumin to creatinine ratio 300 mg/g or greater"
+      ],
+      [
+       "Losartan",
+       "has dose adjustment instruction",
+       "increase to 100 mg orally once a day in hypertensive patients with left ventricular hypertrophy or type 2 diabetic nephropathy"
+      ],
+      [
+       "Losartan",
+       "has onset of antihypertensive effect",
+       "within 1 week"
+      ],
+      [
+       "Losartan",
+       "has maximal effect time",
+       "3 to 6 weeks"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug should be administered in the manner specified by the object entity.",
+      "has dose adjustment instruction": "The subject drug should be increased to the specified dose in patients with the specified condition.",
+      "has maximal effect time": "The subject drug reaches its full therapeutic effect within the time period specified by the object entity.",
+      "has maximum dose": "The highest dose of the subject drug that is recommended for use is specified by the object entity.",
+      "has onset of antihypertensive effect": "The subject drug begins to exert its antihypertensive effect within the time period specified by the object entity.",
+      "has recommended dose": "The standard initial dose of the subject drug is specified by the object entity.",
+      "reduces risk of": "The subject drug is used to lower the risk of the specified medical event or condition in the specified patient population.",
+      "treats": "The subject drug is used to manage or treat the specified medical condition."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Losartan",
+        "has recommended dose",
+        "50 mg orally once a day"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The standard initial dose of the subject drug is specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has maximum dose",
+        "100 mg orally once a day"
+       ],
+       "raw_relation": "has maximum dose",
+       "definition": "The highest dose of the subject drug that is recommended for use is specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has administration instruction",
+        "take orally once a day"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered in the manner specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "treats",
+        "hypertension"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or treat the specified medical condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "reduces risk of",
+        "stroke in patients with hypertension and left ventricular hypertrophy"
+       ],
+       "raw_relation": "reduces risk of",
+       "definition": "The subject drug is used to lower the risk of the specified medical event or condition in the specified patient population.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "treats",
+        "diabetic nephropathy with elevated serum creatinine and proteinuria"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or treat the specified medical condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "treats",
+        "diabetic nephropathy with urinary albumin to creatinine ratio 300 mg/g or greater"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or treat the specified medical condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "may require dose adjustment",
+        "increase to 100 mg orally once a day in hypertensive patients with left ventricular hypertrophy or type 2 diabetic nephropathy"
+       ],
+       "raw_relation": "has dose adjustment instruction",
+       "definition": "The subject drug should be increased to the specified dose in patients with the specified condition.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may require dose adjustment",
+         0.8068
+        ],
+        [
+         "has strength",
+         0.8053
+        ],
+        [
+         "increases level of",
+         0.7925
+        ],
+        [
+         "has recommended dose",
+         0.7905
+        ],
+        [
+         "increases risk of",
+         0.7834
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has onset of effect",
+        "within 1 week"
+       ],
+       "raw_relation": "has onset of antihypertensive effect",
+       "definition": "The subject drug begins to exert its antihypertensive effect within the time period specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has onset of effect",
+         0.8839
+        ],
+        [
+         "has duration of treatment",
+         0.7798
+        ],
+        [
+         "may require dose adjustment",
+         0.7693
+        ],
+        [
+         "used in population",
+         0.767
+        ],
+        [
+         "belongs to drug class",
+         0.7651
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has onset of effect",
+        "3 to 6 weeks"
+       ],
+       "raw_relation": "has maximal effect time",
+       "definition": "The subject drug reaches its full therapeutic effect within the time period specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has onset of effect",
+         0.8803
+        ],
+        [
+         "has mechanism of action",
+         0.8512
+        ],
+        [
+         "has dosage form",
+         0.8167
+        ],
+        [
+         "has duration of treatment",
+         0.8157
+        ],
+        [
+         "used in population",
+         0.8086
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "losartan#dosage#1",
+     "section_id": "dosage",
+     "section_heading": "Dosing information",
+     "text": "Initial dose: 50 mg orally once a day Maximum dose: 100 mg orally once a day Comments: -If hypertensive patients with left ventricular hypertrophy or type 2 diabetic nephropathy patients require titration from initial dose, increase to 100 mg orally once a day. -Antihypertension is substantially present within 1 week but in some studies the maximal effect occurred in 3 to 6 weeks. Uses: -Treatment of hypertension. -To reduce the risk of stroke in patients with hypertension and left ventricular hypertrophy. -Treatment of diabetic nephropathy with an elevated serum creatinine and proteinuria (urinary albumin to creatinine ratio 300 mg/g or greater) in patients with type 2 diabetes and a history of hypertension.\nUsual Pediatric Dose for Hypertension:",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Losartan\", \"has recommended dose\", \"50 mg orally once a day\"], [\"Losartan\", \"has maximum dose\", \"100 mg orally once a day\"], [\"Losartan\", \"has administration instruction\", \"orally once a day\"], [\"Losartan\", \"treats\", \"hypertension\"], [\"Losartan\", \"reduces risk of\", \"stroke in patients with hypertension and left ventricular hypertrophy\"], [\"Losartan\", \"treats\", \"diabetic nephropathy with elevated serum creatinine and proteinuria\"], [\"Losartan\", \"has dose adjustment instruction\", \"increase to 100 mg orally once a day in patients with left ventricular hypertrophy or type 2 diabetic nephropathy\"], [\"Losartan\", \"has onset of action\", \"within 1 week\"], [\"Losartan\", \"has maximal effect time\", \"3 to 6 weeks\"]]",
+     "oie": [
+      [
+       "Losartan",
+       "has recommended dose",
+       "50 mg orally once a day"
+      ],
+      [
+       "Losartan",
+       "has maximum dose",
+       "100 mg orally once a day"
+      ],
+      [
+       "Losartan",
+       "has administration instruction",
+       "orally once a day"
+      ],
+      [
+       "Losartan",
+       "treats",
+       "hypertension"
+      ],
+      [
+       "Losartan",
+       "reduces risk of",
+       "stroke in patients with hypertension and left ventricular hypertrophy"
+      ],
+      [
+       "Losartan",
+       "treats",
+       "diabetic nephropathy with elevated serum creatinine and proteinuria"
+      ],
+      [
+       "Losartan",
+       "has dose adjustment instruction",
+       "increase to 100 mg orally once a day in patients with left ventricular hypertrophy or type 2 diabetic nephropathy"
+      ],
+      [
+       "Losartan",
+       "has onset of action",
+       "within 1 week"
+      ],
+      [
+       "Losartan",
+       "has maximal effect time",
+       "3 to 6 weeks"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug is administered in the manner specified by the object entity.",
+      "has dose adjustment instruction": "The subject drug's dose should be increased to the specified amount in patients with the specified condition.",
+      "has maximal effect time": "The subject drug reaches its full therapeutic effect within the time period specified by the object entity.",
+      "has maximum dose": "The highest recommended dose of the subject drug is the amount specified by the object entity.",
+      "has onset of action": "The subject drug begins to exert its therapeutic effect within the time period specified by the object entity.",
+      "has recommended dose": "The standard starting dose of the subject drug is the amount specified by the object entity.",
+      "reduces risk of": "The subject drug is used to lower the risk of the specified medical event or condition in the specified patient population.",
+      "treats": "The subject drug is used to manage or treat the medical condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Losartan",
+        "has recommended dose",
+        "50 mg orally once a day"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The standard starting dose of the subject drug is the amount specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has maximum dose",
+        "100 mg orally once a day"
+       ],
+       "raw_relation": "has maximum dose",
+       "definition": "The highest recommended dose of the subject drug is the amount specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has administration instruction",
+        "orally once a day"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug is administered in the manner specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "treats",
+        "hypertension"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or treat the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "reduces risk of",
+        "stroke in patients with hypertension and left ventricular hypertrophy"
+       ],
+       "raw_relation": "reduces risk of",
+       "definition": "The subject drug is used to lower the risk of the specified medical event or condition in the specified patient population.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "treats",
+        "diabetic nephropathy with elevated serum creatinine and proteinuria"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or treat the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "may require dose adjustment",
+        "increase to 100 mg orally once a day in patients with left ventricular hypertrophy or type 2 diabetic nephropathy"
+       ],
+       "raw_relation": "has dose adjustment instruction",
+       "definition": "The subject drug's dose should be increased to the specified amount in patients with the specified condition.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may require dose adjustment",
+         0.8167
+        ],
+        [
+         "has strength",
+         0.8026
+        ],
+        [
+         "increases risk of",
+         0.7823
+        ],
+        [
+         "increases level of",
+         0.7821
+        ],
+        [
+         "has recommended dose",
+         0.7783
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has onset of effect",
+        "within 1 week"
+       ],
+       "raw_relation": "has onset of action",
+       "definition": "The subject drug begins to exert its therapeutic effect within the time period specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has onset of effect",
+         0.9543
+        ],
+        [
+         "has mechanism of action",
+         0.8692
+        ],
+        [
+         "has duration of treatment",
+         0.8484
+        ],
+        [
+         "has recommended dose",
+         0.8387
+        ],
+        [
+         "used in population",
+         0.8386
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has onset of effect",
+        "3 to 6 weeks"
+       ],
+       "raw_relation": "has maximal effect time",
+       "definition": "The subject drug reaches its full therapeutic effect within the time period specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has onset of effect",
+         0.8803
+        ],
+        [
+         "has mechanism of action",
+         0.8512
+        ],
+        [
+         "has dosage form",
+         0.8167
+        ],
+        [
+         "has duration of treatment",
+         0.8157
+        ],
+        [
+         "used in population",
+         0.8086
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "losartan#dosage#2",
+     "section_id": "dosage",
+     "section_heading": "Dosing information",
+     "text": "6 Years or Older: Initial dose: 0.7 mg/kg orally once a day (up to 50 mg total) Comments: -May be given as a tablet or suspension. If using the suspension, use an oral dosing syringe or an oral dosing cup to measure the prescribed dose. Do not use a teaspoon or tablespoon. -Doses above 1.4 mg/kg (or 100 mg) daily have not been studied in pediatric patients.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Losartan\", \"has recommended dose\", \"0.7 mg/kg orally once a day (up to 50 mg total)\"], [\"Losartan\", \"has administration instruction\", \"may be given as a tablet or suspension\"], [\"Losartan\", \"has administration instruction\", \"use an oral dosing syringe or oral dosing cup to measure the prescribed dose\"], [\"Losartan\", \"has administration instruction\", \"do not use a teaspoon or tablespoon\"], [\"Losartan\", \"has dose limitation in pediatric patients\", \"doses above 1.4 mg/kg (or 100 mg) daily\"]]",
+     "oie": [
+      [
+       "Losartan",
+       "has recommended dose",
+       "0.7 mg/kg orally once a day (up to 50 mg total)"
+      ],
+      [
+       "Losartan",
+       "has administration instruction",
+       "may be given as a tablet or suspension"
+      ],
+      [
+       "Losartan",
+       "has administration instruction",
+       "use an oral dosing syringe or oral dosing cup to measure the prescribed dose"
+      ],
+      [
+       "Losartan",
+       "has administration instruction",
+       "do not use a teaspoon or tablespoon"
+      ],
+      [
+       "Losartan",
+       "has dose limitation in pediatric patients",
+       "doses above 1.4 mg/kg (or 100 mg) daily"
+      ]
+     ],
+     "schema_definition": {
+      "has recommended dose": "The subject drug is recommended to be administered at the dose specified by the object entity, which may include dosage form and maximum total dose.",
+      "has administration instruction": "The subject drug should be administered according to the specific instructions specified by the object entity to ensure accurate dosing.",
+      "has dose limitation in pediatric patients": "The subject drug should not be administered at doses exceeding the specified limit in pediatric patients, as higher doses have not been studied or are unsafe."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Losartan",
+        "has recommended dose",
+        "0.7 mg/kg orally once a day (up to 50 mg total)"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug is recommended to be administered at the dose specified by the object entity, which may include dosage form and maximum total dose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has administration instruction",
+        "may be given as a tablet or suspension"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity to ensure accurate dosing.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has administration instruction",
+        "use an oral dosing syringe or oral dosing cup to measure the prescribed dose"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity to ensure accurate dosing.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has administration instruction",
+        "do not use a teaspoon or tablespoon"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity to ensure accurate dosing.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has maximum dose",
+        "doses above 1.4 mg/kg (or 100 mg) daily"
+       ],
+       "raw_relation": "has dose limitation in pediatric patients",
+       "definition": "The subject drug should not be administered at doses exceeding the specified limit in pediatric patients, as higher doses have not been studied or are unsafe.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.7526
+        ],
+        [
+         "not approved for",
+         0.7432
+        ],
+        [
+         "use with caution in",
+         0.7163
+        ],
+        [
+         "has maximum dose",
+         0.6971
+        ],
+        [
+         "should not be stopped during",
+         0.6927
+        ]
+       ],
+       "answer": "D"
+      }
+     ]
+    },
+    {
+     "chunk_id": "losartan#missed-dose#0",
+     "section_id": "missed-dose",
+     "section_heading": "What happens if I miss a dose?",
+     "text": "Take the medicine as soon as you can, but skip the missed dose if it is almost time for your next dose. Do not take two doses at one time.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Losartan\", \"has missed dose instruction\", \"take as soon as possible\"], [\"Losartan\", \"has missed dose instruction\", \"skip if almost time for next dose\"], [\"Losartan\", \"has administration instruction\", \"do not take two doses at one time\"]]",
+     "oie": [
+      [
+       "Losartan",
+       "has missed dose instruction",
+       "take as soon as possible"
+      ],
+      [
+       "Losartan",
+       "has missed dose instruction",
+       "skip if almost time for next dose"
+      ],
+      [
+       "Losartan",
+       "has administration instruction",
+       "do not take two doses at one time"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug has specific guidelines for its administration that patients should follow to ensure safe and effective use.",
+      "has missed dose instruction": "The subject drug has specific instructions for what to do if a dose is missed, which may include taking it as soon as possible or skipping it under certain conditions."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Losartan",
+        "has missed dose instruction",
+        "take as soon as possible"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug has specific instructions for what to do if a dose is missed, which may include taking it as soon as possible or skipping it under certain conditions.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has missed dose instruction",
+        "skip if almost time for next dose"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug has specific instructions for what to do if a dose is missed, which may include taking it as soon as possible or skipping it under certain conditions.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has administration instruction",
+        "do not take two doses at one time"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug has specific guidelines for its administration that patients should follow to ensure safe and effective use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "losartan#overdose#0",
+     "section_id": "overdose",
+     "section_heading": "What happens if I overdose?",
+     "text": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Losartan\", \"has overdose instruction\", \"seek emergency medical attention\"], [\"Losartan\", \"has overdose instruction\", \"call Poison Help line at 1-800-222-1222\"]]",
+     "oie": [
+      [
+       "Losartan",
+       "has overdose instruction",
+       "seek emergency medical attention"
+      ],
+      [
+       "Losartan",
+       "has overdose instruction",
+       "call Poison Help line at 1-800-222-1222"
+      ]
+     ],
+     "schema_definition": {
+      "has overdose instruction": "The subject drug requires the action specified by the object entity in case of overdose."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Losartan",
+        "has overdose instruction",
+        "seek emergency medical attention"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has overdose instruction",
+        "call Poison Help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "losartan#what-to-avoid#0",
+     "section_id": "what-to-avoid",
+     "section_heading": "What should I avoid while taking losartan?",
+     "text": "Avoid getting up too fast from a sitting or lying position, or you may feel dizzy.\nDo not use potassium supplements or salt substitutes, unless your doctor has told you to.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Losartan\", \"has administration instruction\", \"avoid getting up too fast from sitting or lying position\"], [\"Losartan\", \"should be avoided with\", \"potassium supplements\"], [\"Losartan\", \"should be avoided with\", \"salt substitutes\"]]",
+     "oie": [
+      [
+       "Losartan",
+       "has administration instruction",
+       "avoid getting up too fast from sitting or lying position"
+      ],
+      [
+       "Losartan",
+       "should be avoided with",
+       "potassium supplements"
+      ],
+      [
+       "Losartan",
+       "should be avoided with",
+       "salt substitutes"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug includes specific guidance on how it should be administered or used, such as positioning or movement, to prevent adverse effects.",
+      "should be avoided with": "The subject drug should not be used concurrently with the substance or activity specified by the object entity to prevent potential harm."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Losartan",
+        "has administration instruction",
+        "avoid getting up too fast from sitting or lying position"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug includes specific guidance on how it should be administered or used, such as positioning or movement, to prevent adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "should be avoided with",
+        "potassium supplements"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "The subject drug should not be used concurrently with the substance or activity specified by the object entity to prevent potential harm.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "should be avoided with",
+        "salt substitutes"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "The subject drug should not be used concurrently with the substance or activity specified by the object entity to prevent potential harm.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "losartan#side-effects#0",
+     "section_id": "side-effects",
+     "section_heading": "Losartan side effects",
+     "text": "Get emergency medical help if you have signs of an allergic reaction to losartan: hives, difficulty breathing, swelling of your face, lips, tongue, or throat.\nLosartan may cause serious side effects. Call your doctor at once if you have:\n- a light-headed feeling, like you might pass out;\n- high blood potassium - nausea, weakness, tingly feeling, chest pain, irregular heartbeats, loss of movement; or\n- kidney problems - swelling, urinating less, feeling tired or short of breath.\nCommon losartan side effects may include:\n- dizziness, tiredness;\n- low blood pressure;\n- low blood sugar;\n- diarrhea;\n- back pain; or\n- cold symptoms such as stuffy nose, sneezing, sore throat.\nThis is not a complete list of side effects and others may occur. Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Losartan\", \"has serious side effect\", \"allergic reaction\"], [\"Losartan\", \"has serious side effect\", \"light-headed feeling\"], [\"Losartan\", \"has serious side effect\", \"high blood potassium\"], [\"Losartan\", \"has serious side effect\", \"low blood pressure\"], [\"Losartan\", \"has serious side effect\", \"low blood sugar\"], [\"Losartan\", \"has serious side effect\", \"diarrhea\"], [\"Losartan\", \"has serious side effect\", \"back pain\"], [\"Losartan\", \"has serious side effect\", \"cold symptoms\"], [\"Losartan\", \"has serious side effect\", \"kidney problems\"], [\"Losartan\", \"has side effect\", \"dizziness\"], [\"Losartan\", \"has side effect\", \"tiredness\"], [\"Losartan\", \"has side effect\", \"nausea\"], [\"Losartan\", \"has side effect\", \"weakness\"], [\"Losartan\", \"has side effect\", \"tingly feeling\"], [\"Losartan\", \"has side effect\", \"chest pain\"], [\"Losartan\", \"has side effect\", \"irregular heartbeats\"], [\"Losartan\", \"has side effect\", \"loss of movement\"], [\"Losartan\", \"has side effect\", \"swelling\"], [\"Losartan\", \"has side effect\", \"urinating less\"], [\"Losartan\", \"has side effect\", \"feeling tired\"], [\"Losartan\", \"has side effect\", \"short of breath\"], [\"Losartan\", \"has side effect\", \"stuffy nose\"], [\"Losartan\", \"has side effect\", \"sneezing\"], [\"Losartan\", \"has side effect\", \"sore throat\"], [\"Losartan\", \"has warning\", \"allergic reaction may occur\"], [\"Losartan\", \"has warning\", \"kidney problems may occur\"], [\"Losartan\", \"has warning\", \"high blood potassium may occur\"], [\"Losartan\", \"has warning\", \"low blood pressure may occur\"], [\"Losartan\", \"has warning\", \"low blood sugar may occur\"], [\"Losartan\", \"has warning\", \"dizziness may occur\"], [\"Losartan\", \"has warning\", \"tiredness may occur\"], [\"Losartan\", \"has warning\", \"diarrhea may occur\"], [\"Losartan\", \"has warning\", \"back pain may occur\"], [\"Losartan\", \"has warning\", \"cold symptoms may occur\"], [\"Losartan\", \"has warning\", \"swelling may occur\"], [\"Losartan\", \"has warning\", \"urinating less may occur\"], [\"Losartan\", \"has warning\", \"feeling tired may occur\"], [\"Losartan\", \"has warning\", \"short of breath may occur\"], [\"Losartan\", \"has administration instruction\", \"call doctor if signs of allergic reaction occur\"], [\"Losartan\", \"has administration instruction\", \"call doctor if light-headed feeling occurs\"], [\"Losartan\", \"has administration instruction\", \"call doctor if high blood potassium occurs\"], [\"Losartan\", \"has administration instruction\", \"call doctor if kidney problems occur\"], [\"Losartan\", \"has administration instruction\", \"call doctor for medical advice about side effects\"], [\"Losartan\", \"has reporting instruction\", \"report side effects to FDA at 1-800-FDA-1088\"]]",
+     "oie": [
+      [
+       "Losartan",
+       "has serious side effect",
+       "allergic reaction"
+      ],
+      [
+       "Losartan",
+       "has serious side effect",
+       "light-headed feeling"
+      ],
+      [
+       "Losartan",
+       "has serious side effect",
+       "high blood potassium"
+      ],
+      [
+       "Losartan",
+       "has serious side effect",
+       "low blood pressure"
+      ],
+      [
+       "Losartan",
+       "has serious side effect",
+       "low blood sugar"
+      ],
+      [
+       "Losartan",
+       "has serious side effect",
+       "diarrhea"
+      ],
+      [
+       "Losartan",
+       "has serious side effect",
+       "back pain"
+      ],
+      [
+       "Losartan",
+       "has serious side effect",
+       "cold symptoms"
+      ],
+      [
+       "Losartan",
+       "has serious side effect",
+       "kidney problems"
+      ],
+      [
+       "Losartan",
+       "has side effect",
+       "dizziness"
+      ],
+      [
+       "Losartan",
+       "has side effect",
+       "tiredness"
+      ],
+      [
+       "Losartan",
+       "has side effect",
+       "nausea"
+      ],
+      [
+       "Losartan",
+       "has side effect",
+       "weakness"
+      ],
+      [
+       "Losartan",
+       "has side effect",
+       "tingly feeling"
+      ],
+      [
+       "Losartan",
+       "has side effect",
+       "chest pain"
+      ],
+      [
+       "Losartan",
+       "has side effect",
+       "irregular heartbeats"
+      ],
+      [
+       "Losartan",
+       "has side effect",
+       "loss of movement"
+      ],
+      [
+       "Losartan",
+       "has side effect",
+       "swelling"
+      ],
+      [
+       "Losartan",
+       "has side effect",
+       "urinating less"
+      ],
+      [
+       "Losartan",
+       "has side effect",
+       "feeling tired"
+      ],
+      [
+       "Losartan",
+       "has side effect",
+       "short of breath"
+      ],
+      [
+       "Losartan",
+       "has side effect",
+       "stuffy nose"
+      ],
+      [
+       "Losartan",
+       "has side effect",
+       "sneezing"
+      ],
+      [
+       "Losartan",
+       "has side effect",
+       "sore throat"
+      ],
+      [
+       "Losartan",
+       "has warning",
+       "allergic reaction may occur"
+      ],
+      [
+       "Losartan",
+       "has warning",
+       "kidney problems may occur"
+      ],
+      [
+       "Losartan",
+       "has warning",
+       "high blood potassium may occur"
+      ],
+      [
+       "Losartan",
+       "has warning",
+       "low blood pressure may occur"
+      ],
+      [
+       "Losartan",
+       "has warning",
+       "low blood sugar may occur"
+      ],
+      [
+       "Losartan",
+       "has warning",
+       "dizziness may occur"
+      ],
+      [
+       "Losartan",
+       "has warning",
+       "tiredness may occur"
+      ],
+      [
+       "Losartan",
+       "has warning",
+       "diarrhea may occur"
+      ],
+      [
+       "Losartan",
+       "has warning",
+       "back pain may occur"
+      ],
+      [
+       "Losartan",
+       "has warning",
+       "cold symptoms may occur"
+      ],
+      [
+       "Losartan",
+       "has warning",
+       "swelling may occur"
+      ],
+      [
+       "Losartan",
+       "has warning",
+       "urinating less may occur"
+      ],
+      [
+       "Losartan",
+       "has warning",
+       "feeling tired may occur"
+      ],
+      [
+       "Losartan",
+       "has warning",
+       "short of breath may occur"
+      ],
+      [
+       "Losartan",
+       "has administration instruction",
+       "call doctor if signs of allergic reaction occur"
+      ],
+      [
+       "Losartan",
+       "has administration instruction",
+       "call doctor if light-headed feeling occurs"
+      ],
+      [
+       "Losartan",
+       "has administration instruction",
+       "call doctor if high blood potassium occurs"
+      ],
+      [
+       "Losartan",
+       "has administration instruction",
+       "call doctor if kidney problems occur"
+      ],
+      [
+       "Losartan",
+       "has administration instruction",
+       "call doctor for medical advice about side effects"
+      ],
+      [
+       "Losartan",
+       "has reporting instruction",
+       "report side effects to FDA at 1-800-FDA-1088"
+      ]
+     ],
+     "schema_definition": {
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+      "has side effect": "The subject drug may cause the adverse effect specified by the object entity.",
+      "has warning": "The subject drug may lead to the condition or symptom specified by the object entity, indicating a potential risk.",
+      "has administration instruction": "When the subject drug causes the condition or symptom specified by the object entity, the patient should seek immediate medical attention or contact a doctor.",
+      "has reporting instruction": "Patients taking the subject drug are advised to report the specified adverse effect or condition to the designated authority or contact."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Losartan",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has serious side effect",
+        "light-headed feeling"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has serious side effect",
+        "high blood potassium"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has serious side effect",
+        "low blood pressure"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has serious side effect",
+        "low blood sugar"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has serious side effect",
+        "diarrhea"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has serious side effect",
+        "back pain"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has serious side effect",
+        "cold symptoms"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has serious side effect",
+        "kidney problems"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has side effect",
+        "dizziness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has side effect",
+        "tiredness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has side effect",
+        "nausea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has side effect",
+        "weakness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has side effect",
+        "tingly feeling"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has side effect",
+        "chest pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has side effect",
+        "irregular heartbeats"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has side effect",
+        "loss of movement"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has side effect",
+        "swelling"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has side effect",
+        "urinating less"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has side effect",
+        "feeling tired"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has side effect",
+        "short of breath"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has side effect",
+        "stuffy nose"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has side effect",
+        "sneezing"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has side effect",
+        "sore throat"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has warning",
+        "allergic reaction may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, indicating a potential risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has warning",
+        "kidney problems may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, indicating a potential risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has warning",
+        "high blood potassium may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, indicating a potential risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has warning",
+        "low blood pressure may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, indicating a potential risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has warning",
+        "low blood sugar may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, indicating a potential risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has warning",
+        "dizziness may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, indicating a potential risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has warning",
+        "tiredness may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, indicating a potential risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has warning",
+        "diarrhea may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, indicating a potential risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has warning",
+        "back pain may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, indicating a potential risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has warning",
+        "cold symptoms may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, indicating a potential risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has warning",
+        "swelling may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, indicating a potential risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has warning",
+        "urinating less may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, indicating a potential risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has warning",
+        "feeling tired may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, indicating a potential risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has warning",
+        "short of breath may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, indicating a potential risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has administration instruction",
+        "call doctor if signs of allergic reaction occur"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "When the subject drug causes the condition or symptom specified by the object entity, the patient should seek immediate medical attention or contact a doctor.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has administration instruction",
+        "call doctor if light-headed feeling occurs"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "When the subject drug causes the condition or symptom specified by the object entity, the patient should seek immediate medical attention or contact a doctor.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has administration instruction",
+        "call doctor if high blood potassium occurs"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "When the subject drug causes the condition or symptom specified by the object entity, the patient should seek immediate medical attention or contact a doctor.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has administration instruction",
+        "call doctor if kidney problems occur"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "When the subject drug causes the condition or symptom specified by the object entity, the patient should seek immediate medical attention or contact a doctor.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has administration instruction",
+        "call doctor for medical advice about side effects"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "When the subject drug causes the condition or symptom specified by the object entity, the patient should seek immediate medical attention or contact a doctor.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "should inform doctor about",
+        "report side effects to FDA at 1-800-FDA-1088"
+       ],
+       "raw_relation": "has reporting instruction",
+       "definition": "Patients taking the subject drug are advised to report the specified adverse effect or condition to the designated authority or contact.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8538
+        ],
+        [
+         "has side effect",
+         0.8402
+        ],
+        [
+         "has serious side effect",
+         0.8173
+        ],
+        [
+         "use with caution in",
+         0.809
+        ],
+        [
+         "not used to treat",
+         0.7921
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "losartan#interactions#0",
+     "section_id": "interactions",
+     "section_heading": "What other drugs will affect losartan?",
+     "text": "Sometimes it is not safe to use certain medicines at the same time. Some drugs can affect your blood levels of other drugs you use, which may increase side effects or make the medicines less effective.\nTell your doctor about all your other medicines, especially:\n- a diuretic or \"water pill\" that may increase blood potassium such as spironolactone, triamterene, amiloride;\n- NSAIDs (nonsteroidal anti-inflammatory drugs) - aspirin, ibuprofen (Advil, Motrin), naproxen (Aleve), celecoxib, diclofenac, indomethacin, meloxicam, and others; or\n- heart or blood pressure medication.\n- lithium.\nThis list is not complete. Other drugs may affect losartan, including prescription and over-the-counter medicines, vitamins, and herbal products. Not all possible drug interactions are listed here.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Losartan\", \"interacts with\", \"diuretics that increase blood potassium\"], [\"Losartan\", \"interacts with\", \"NSAIDs\"], [\"Losartan\", \"interacts with\", \"heart or blood pressure medication\"], [\"Losartan\", \"interacts with\", \"lithium\"], [\"Losartan\", \"interacts with\", \"prescription medicines\"], [\"Losartan\", \"interacts with\", \"over-the-counter medicines\"], [\"Losartan\", \"interacts with\", \"vitamins\"], [\"Losartan\", \"interacts with\", \"herbal products\"], [\"Losartan\", \"has warning\", \"not all drug interactions are listed\"]]",
+     "oie": [
+      [
+       "Losartan",
+       "interacts with",
+       "diuretics that increase blood potassium"
+      ],
+      [
+       "Losartan",
+       "interacts with",
+       "NSAIDs"
+      ],
+      [
+       "Losartan",
+       "interacts with",
+       "heart or blood pressure medication"
+      ],
+      [
+       "Losartan",
+       "interacts with",
+       "lithium"
+      ],
+      [
+       "Losartan",
+       "interacts with",
+       "prescription medicines"
+      ],
+      [
+       "Losartan",
+       "interacts with",
+       "over-the-counter medicines"
+      ],
+      [
+       "Losartan",
+       "interacts with",
+       "vitamins"
+      ],
+      [
+       "Losartan",
+       "interacts with",
+       "herbal products"
+      ],
+      [
+       "Losartan",
+       "has warning",
+       "not all drug interactions are listed"
+      ]
+     ],
+     "schema_definition": {
+      "interacts with": "The subject drug may have a pharmacological interaction with the object drug or substance, potentially altering its effectiveness or increasing side effects.",
+      "has warning": "The subject drug has a cautionary note indicating that not all possible interactions with other substances are listed, and patients should consult a healthcare provider."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Losartan",
+        "interacts with",
+        "diuretics that increase blood potassium"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object drug or substance, potentially altering its effectiveness or increasing side effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "interacts with",
+        "NSAIDs"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object drug or substance, potentially altering its effectiveness or increasing side effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "interacts with",
+        "heart or blood pressure medication"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object drug or substance, potentially altering its effectiveness or increasing side effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "interacts with",
+        "lithium"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object drug or substance, potentially altering its effectiveness or increasing side effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "interacts with",
+        "prescription medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object drug or substance, potentially altering its effectiveness or increasing side effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "interacts with",
+        "over-the-counter medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object drug or substance, potentially altering its effectiveness or increasing side effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "interacts with",
+        "vitamins"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object drug or substance, potentially altering its effectiveness or increasing side effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "interacts with",
+        "herbal products"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object drug or substance, potentially altering its effectiveness or increasing side effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Losartan",
+        "has warning",
+        "not all drug interactions are listed"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a cautionary note indicating that not all possible interactions with other substances are listed, and patients should consult a healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "losartan#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Losartan",
+    "used in combination with",
+    "other medications"
+   ],
+   "raw_relation": "used alone or in combination with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Losartan",
+    "treats",
+    "high blood pressure in adults and children at least 6 years old"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Losartan",
+    "reduces risk of",
+    "stroke in people with high blood pressure and left ventricular hypertrophy"
+   ],
+   "raw_relation": "reduces risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Losartan",
+    "does not reduce risk of",
+    "stroke in African Americans with high blood pressure and left ventricular hypertrophy"
+   ],
+   "raw_relation": "does not reduce risk of",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "losartan#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Losartan",
+    "treats",
+    "kidney disease in people with type 2 diabetes and high blood pressure"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Losartan",
+    "belongs to drug class",
+    "angiotensin II receptor antagonists"
+   ],
+   "raw_relation": "belongs to drug class",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Losartan",
+    "has mechanism of action",
+    "blocking action of natural substances that tighten blood vessels"
+   ],
+   "raw_relation": "has mechanism of action",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "losartan",
+    "contraindicated in",
+    "pregnancy"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "losartan",
+    "has warning",
+    "can cause injury or death to unborn baby"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "losartan",
+    "interacts with",
+    "medications containing aliskiren"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "losartan",
+    "use with caution in",
+    "with aliskiren in patients with kidney disease"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "losartan",
+    "has serious side effect",
+    "rare muscle breakdown leading to kidney failure"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "losartan",
+    "has serious side effect",
+    "unexplained muscle pain"
+   ],
+   "raw_relation": "has symptom of serious side effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "losartan",
+    "has serious side effect",
+    "muscle tenderness"
+   ],
+   "raw_relation": "has symptom of serious side effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "losartan",
+    "has serious side effect",
+    "muscle weakness"
+   ],
+   "raw_relation": "has symptom of serious side effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "losartan",
+    "has serious side effect",
+    "fever"
+   ],
+   "raw_relation": "has symptom of serious side effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "losartan",
+    "has serious side effect",
+    "unusual tiredness"
+   ],
+   "raw_relation": "has symptom of serious side effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "losartan",
+    "has serious side effect",
+    "dark colored urine"
+   ],
+   "raw_relation": "has symptom of serious side effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "losartan",
+    "contraindicated in",
+    "allergy to losartan"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "losartan",
+    "interacts with",
+    "aliskiren in patients with kidney disease"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "losartan",
+    "contraindicated in",
+    "diabetes with aliskiren containing medication"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "losartan",
+    "use with caution in",
+    "heart disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "losartan",
+    "use with caution in",
+    "congestive heart failure"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "losartan",
+    "use with caution in",
+    "electrolyte imbalance"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "losartan",
+    "use with caution in",
+    "high potassium levels"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "losartan",
+    "use with caution in",
+    "low-salt diet"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "losartan",
+    "use with caution in",
+    "liver disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "losartan",
+    "use with caution in",
+    "kidney disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "losartan",
+    "has pregnancy or breastfeeding warning",
+    "may cause injury or death to unborn baby"
+   ],
+   "raw_relation": "has pregnancy warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "losartan",
+    "has pregnancy or breastfeeding warning",
+    "should not be used while breastfeeding and for 2 days after last dose"
+   ],
+   "raw_relation": "has breastfeeding warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "losartan",
+    "has administration instruction",
+    "take exactly as prescribed by your doctor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "losartan",
+    "has administration instruction",
+    "follow all directions on prescription label"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "losartan",
+    "has administration instruction",
+    "read all medication guides or instruction sheets"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "losartan",
+    "has administration instruction",
+    "your doctor may occasionally change your dose"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "losartan",
+    "has administration instruction",
+    "taken once per day"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "losartan",
+    "has administration instruction",
+    "or without food"
+   ],
+   "raw_relation": "can be taken with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "losartan",
+    "has warning",
+    "risk of dehydration"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "losartan",
+    "has side effect",
+    "very low blood pressure"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "losartan",
+    "has side effect",
+    "electrolyte imbalance"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "losartan",
+    "has side effect",
+    "kidney failure"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "losartan",
+    "requires monitoring of",
+    "blood pressure"
+   ],
+   "raw_relation": "requires monitoring of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "losartan",
+    "requires monitoring of",
+    "blood tests"
+   ],
+   "raw_relation": "requires monitoring of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "losartan",
+    "has instruction",
+    "call doctor if sick with vomiting or diarrhea"
+   ],
+   "raw_relation": "has instruction for illness",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "losartan",
+    "has instruction",
+    "call doctor if sweating more than usual"
+   ],
+   "raw_relation": "has instruction for illness",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "losartan",
+    "should not be stopped during",
+    "keep using even if feeling well"
+   ],
+   "raw_relation": "has instruction for symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "losartan",
+    "has warning",
+    "high blood pressure often has no symptoms"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "losartan",
+    "has storage instruction",
+    "store tightly closed at room temperature away from moisture, heat, and light"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "has recommended dose",
+    "50 mg orally once a day"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "has maximum dose",
+    "100 mg orally once a day"
+   ],
+   "raw_relation": "has maximum dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "has administration instruction",
+    "take orally once a day"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "treats",
+    "hypertension"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "reduces risk of",
+    "stroke in patients with hypertension and left ventricular hypertrophy"
+   ],
+   "raw_relation": "reduces risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "treats",
+    "diabetic nephropathy with elevated serum creatinine and proteinuria"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "treats",
+    "diabetic nephropathy with urinary albumin to creatinine ratio 300 mg/g or greater"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "may require dose adjustment",
+    "increase to 100 mg orally once a day in hypertensive patients with left ventricular hypertrophy or type 2 diabetic nephropathy"
+   ],
+   "raw_relation": "has dose adjustment instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "has onset of effect",
+    "within 1 week"
+   ],
+   "raw_relation": "has onset of antihypertensive effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "has onset of effect",
+    "3 to 6 weeks"
+   ],
+   "raw_relation": "has maximal effect time",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "has recommended dose",
+    "50 mg orally once a day"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "has maximum dose",
+    "100 mg orally once a day"
+   ],
+   "raw_relation": "has maximum dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "has administration instruction",
+    "orally once a day"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "treats",
+    "hypertension"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "reduces risk of",
+    "stroke in patients with hypertension and left ventricular hypertrophy"
+   ],
+   "raw_relation": "reduces risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "treats",
+    "diabetic nephropathy with elevated serum creatinine and proteinuria"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "may require dose adjustment",
+    "increase to 100 mg orally once a day in patients with left ventricular hypertrophy or type 2 diabetic nephropathy"
+   ],
+   "raw_relation": "has dose adjustment instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "has onset of effect",
+    "within 1 week"
+   ],
+   "raw_relation": "has onset of action",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "has onset of effect",
+    "3 to 6 weeks"
+   ],
+   "raw_relation": "has maximal effect time",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "has recommended dose",
+    "0.7 mg/kg orally once a day (up to 50 mg total)"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "has administration instruction",
+    "may be given as a tablet or suspension"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "has administration instruction",
+    "use an oral dosing syringe or oral dosing cup to measure the prescribed dose"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "has administration instruction",
+    "do not use a teaspoon or tablespoon"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Losartan",
+    "has maximum dose",
+    "doses above 1.4 mg/kg (or 100 mg) daily"
+   ],
+   "raw_relation": "has dose limitation in pediatric patients",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "Losartan",
+    "has missed dose instruction",
+    "take as soon as possible"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "Losartan",
+    "has missed dose instruction",
+    "skip if almost time for next dose"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "Losartan",
+    "has administration instruction",
+    "do not take two doses at one time"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "Losartan",
+    "has overdose instruction",
+    "seek emergency medical attention"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "Losartan",
+    "has overdose instruction",
+    "call Poison Help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Losartan",
+    "has administration instruction",
+    "avoid getting up too fast from sitting or lying position"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Losartan",
+    "should be avoided with",
+    "potassium supplements"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Losartan",
+    "should be avoided with",
+    "salt substitutes"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has serious side effect",
+    "light-headed feeling"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has serious side effect",
+    "high blood potassium"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has serious side effect",
+    "low blood pressure"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has serious side effect",
+    "low blood sugar"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has serious side effect",
+    "diarrhea"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has serious side effect",
+    "back pain"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has serious side effect",
+    "cold symptoms"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has serious side effect",
+    "kidney problems"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has side effect",
+    "dizziness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has side effect",
+    "tiredness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has side effect",
+    "nausea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has side effect",
+    "weakness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has side effect",
+    "tingly feeling"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has side effect",
+    "chest pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has side effect",
+    "irregular heartbeats"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has side effect",
+    "loss of movement"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has side effect",
+    "swelling"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has side effect",
+    "urinating less"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has side effect",
+    "feeling tired"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has side effect",
+    "short of breath"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has side effect",
+    "stuffy nose"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has side effect",
+    "sneezing"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has side effect",
+    "sore throat"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has warning",
+    "allergic reaction may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has warning",
+    "kidney problems may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has warning",
+    "high blood potassium may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has warning",
+    "low blood pressure may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has warning",
+    "low blood sugar may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has warning",
+    "dizziness may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has warning",
+    "tiredness may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has warning",
+    "diarrhea may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has warning",
+    "back pain may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has warning",
+    "cold symptoms may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has warning",
+    "swelling may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has warning",
+    "urinating less may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has warning",
+    "feeling tired may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has warning",
+    "short of breath may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has administration instruction",
+    "call doctor if signs of allergic reaction occur"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has administration instruction",
+    "call doctor if light-headed feeling occurs"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has administration instruction",
+    "call doctor if high blood potassium occurs"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has administration instruction",
+    "call doctor if kidney problems occur"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "has administration instruction",
+    "call doctor for medical advice about side effects"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Losartan",
+    "should inform doctor about",
+    "report side effects to FDA at 1-800-FDA-1088"
+   ],
+   "raw_relation": "has reporting instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "losartan#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Losartan",
+    "interacts with",
+    "diuretics that increase blood potassium"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Losartan",
+    "interacts with",
+    "NSAIDs"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Losartan",
+    "interacts with",
+    "heart or blood pressure medication"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Losartan",
+    "interacts with",
+    "lithium"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Losartan",
+    "interacts with",
+    "prescription medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Losartan",
+    "interacts with",
+    "over-the-counter medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Losartan",
+    "interacts with",
+    "vitamins"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Losartan",
+    "interacts with",
+    "herbal products"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "losartan#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Losartan",
+    "has warning",
+    "not all drug interactions are listed"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  }
+ ],
+ "name": "Losartan",
+ "slug": "losartan",
+ "n_chunks": 12,
+ "seconds": 18.3,
+ "llm_model": "drugkg-llm"
+}

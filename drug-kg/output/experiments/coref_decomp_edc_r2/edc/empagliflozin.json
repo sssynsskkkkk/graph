@@ -1,0 +1,4302 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "empagliflozin#what-is-empagliflozin#0",
+     "section_id": "what-is-empagliflozin",
+     "section_heading": "What is empagliflozin?",
+     "text": "Empagliflozin is used together with diet and exercise to lower blood sugar levels in adults and children at least 10 years old with type 2 diabetes.\nEmpagliflozin is used to lower the risk of death.\nThe risk of death is from heart attack, stroke, or heart failure.\nThis applies to adults with type 2 diabetes.\nThe adults also have heart disease.\nEmpagliflozin is used in adults.\nIt is used to lower the risk of dying or needing hospitalization for heart failure.\nThis applies when the heart cannot pump blood properly.\nEmpagliflozin is not for treating type 1 diabetes.\nEmpagliflozin may also be used for purposes not listed in this medication guide.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Empagliflozin\", \"used in combination with\", \"diet\"], [\"Empagliflozin\", \"used in combination with\", \"exercise\"], [\"Empagliflozin\", \"treats\", \"type 2 diabetes\"], [\"Empagliflozin\", \"treats\", \"high blood sugar levels\"], [\"Empagliflozin\", \"reduces risk of\", \"death\"], [\"death\", \"caused by\", \"heart attack\"], [\"death\", \"caused by\", \"stroke\"], [\"death\", \"caused by\", \"heart failure\"], [\"Empagliflozin\", \"applies to\", \"adults with type 2 diabetes\"], [\"adults with type 2 diabetes\", \"have\", \"heart disease\"], [\"Empagliflozin\", \"used in\", \"adults\"], [\"Empagliflozin\", \"reduces risk of\", \"dying\"], [\"Empagliflozin\", \"reduces risk of\", \"hospitalization for heart failure\"], [\"heart failure\", \"applies when\", \"heart cannot pump blood properly\"], [\"Empagliflozin\", \"not used for\", \"type 1 diabetes\"], [\"Empagliflozin\", \"may be used for\", \"purposes not listed in this medication guide\"]]",
+     "oie": [
+      [
+       "Empagliflozin",
+       "used in combination with",
+       "diet"
+      ],
+      [
+       "Empagliflozin",
+       "used in combination with",
+       "exercise"
+      ],
+      [
+       "Empagliflozin",
+       "treats",
+       "type 2 diabetes"
+      ],
+      [
+       "Empagliflozin",
+       "treats",
+       "high blood sugar levels"
+      ],
+      [
+       "Empagliflozin",
+       "reduces risk of",
+       "death"
+      ],
+      [
+       "death",
+       "caused by",
+       "heart attack"
+      ],
+      [
+       "death",
+       "caused by",
+       "stroke"
+      ],
+      [
+       "death",
+       "caused by",
+       "heart failure"
+      ],
+      [
+       "Empagliflozin",
+       "applies to",
+       "adults with type 2 diabetes"
+      ],
+      [
+       "adults with type 2 diabetes",
+       "have",
+       "heart disease"
+      ],
+      [
+       "Empagliflozin",
+       "used in",
+       "adults"
+      ],
+      [
+       "Empagliflozin",
+       "reduces risk of",
+       "dying"
+      ],
+      [
+       "Empagliflozin",
+       "reduces risk of",
+       "hospitalization for heart failure"
+      ],
+      [
+       "heart failure",
+       "applies when",
+       "heart cannot pump blood properly"
+      ],
+      [
+       "Empagliflozin",
+       "not used for",
+       "type 1 diabetes"
+      ],
+      [
+       "Empagliflozin",
+       "may be used for",
+       "purposes not listed in this medication guide"
+      ]
+     ],
+     "schema_definition": {
+      "applies to": "The subject entity is applicable to the group of patients or conditions specified by the object entity.",
+      "applies when": "The subject condition or event is applicable under the specific physiological or medical condition described by the object entity.",
+      "caused by": "The subject event or condition is caused by the object entity.",
+      "have": "The subject group of patients has the medical condition or characteristic specified by the object entity.",
+      "may be used for": "The subject drug may be used for the purpose or indication specified by the object entity.",
+      "not used for": "The subject drug is not indicated or used for the condition or purpose specified by the object entity.",
+      "reduces risk of": "The subject drug is used to lower the risk of the medical event or condition specified by the object entity.",
+      "treats": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+      "used in": "The subject drug is used in the specified group of patients or population.",
+      "used in combination with": "The subject drug is used in combination with the object entity, such as another drug, diet, or exercise."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Empagliflozin",
+        "used in combination with",
+        "diet"
+       ],
+       "raw_relation": "used in combination with",
+       "definition": "The subject drug is used in combination with the object entity, such as another drug, diet, or exercise.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "used in combination with",
+        "exercise"
+       ],
+       "raw_relation": "used in combination with",
+       "definition": "The subject drug is used in combination with the object entity, such as another drug, diet, or exercise.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "treats",
+        "type 2 diabetes"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "treats",
+        "high blood sugar levels"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "reduces risk of",
+        "death"
+       ],
+       "raw_relation": "reduces risk of",
+       "definition": "The subject drug is used to lower the risk of the medical event or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "death",
+        "caused by",
+        "heart attack"
+       ],
+       "raw_relation": "caused by",
+       "definition": "The subject event or condition is caused by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "death",
+        "caused by",
+        "stroke"
+       ],
+       "raw_relation": "caused by",
+       "definition": "The subject event or condition is caused by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "death",
+        "caused by",
+        "heart failure"
+       ],
+       "raw_relation": "caused by",
+       "definition": "The subject event or condition is caused by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "applies to",
+        "adults with type 2 diabetes"
+       ],
+       "raw_relation": "applies to",
+       "definition": "The subject entity is applicable to the group of patients or conditions specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "occurs in",
+         0.883
+        ],
+        [
+         "known as",
+         0.8753
+        ],
+        [
+         "has treatment requirement",
+         0.8607
+        ],
+        [
+         "related to",
+         0.8605
+        ],
+        [
+         "treats",
+         0.86
+        ]
+       ],
+       "answer": "F. None of the"
+      },
+      {
+       "triplet": [
+        "adults with type 2 diabetes",
+        "have",
+        "heart disease"
+       ],
+       "raw_relation": "have",
+       "definition": "The subject group of patients has the medical condition or characteristic specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "occurs in",
+         0.9316
+        ],
+        [
+         "known as",
+         0.8881
+        ],
+        [
+         "related to",
+         0.8823
+        ],
+        [
+         "has treatment requirement",
+         0.8647
+        ],
+        [
+         "has symptom",
+         0.8573
+        ]
+       ],
+       "answer": "F. None of the"
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "used in population",
+        "adults"
+       ],
+       "raw_relation": "used in",
+       "definition": "The subject drug is used in the specified group of patients or population.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.9153
+        ],
+        [
+         "applies to patients who are to be managed with",
+         0.8685
+        ],
+        [
+         "used after",
+         0.8537
+        ],
+        [
+         "treats",
+         0.851
+        ],
+        [
+         "related to",
+         0.8369
+        ]
+       ],
+       "answer": "A. 'used in"
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "reduces risk of",
+        "dying"
+       ],
+       "raw_relation": "reduces risk of",
+       "definition": "The subject drug is used to lower the risk of the medical event or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "reduces risk of",
+        "hospitalization for heart failure"
+       ],
+       "raw_relation": "reduces risk of",
+       "definition": "The subject drug is used to lower the risk of the medical event or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "heart failure",
+        "is defined as",
+        "heart cannot pump blood properly"
+       ],
+       "raw_relation": "applies when",
+       "definition": "The subject condition or event is applicable under the specific physiological or medical condition described by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "occurs in",
+         0.8746
+        ],
+        [
+         "is defined as",
+         0.8642
+        ],
+        [
+         "known as",
+         0.8626
+        ],
+        [
+         "has symptom",
+         0.8599
+        ],
+        [
+         "involves",
+         0.8534
+        ]
+       ],
+       "answer": "B. 'is defined"
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "not approved for",
+        "type 1 diabetes"
+       ],
+       "raw_relation": "not used for",
+       "definition": "The subject drug is not indicated or used for the condition or purpose specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "is not considered addictive",
+         0.8793
+        ],
+        [
+         "not approved for",
+         0.8761
+        ],
+        [
+         "not caused by",
+         0.8733
+        ],
+        [
+         "has no interaction with",
+         0.8652
+        ],
+        [
+         "contraindicated in",
+         0.8611
+        ]
+       ],
+       "answer": "B. 'not approved"
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "may be used for",
+        "purposes not listed in this medication guide"
+       ],
+       "raw_relation": "may be used for",
+       "definition": "The subject drug may be used for the purpose or indication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+     "section_id": "empagliflozin-side-effects",
+     "section_heading": "Empagliflozin side effects",
+     "text": "Get emergency medical help if you have signs of an allergic reaction: hives, difficult breathing, swelling of your face, lips, tongue, or throat.\nSeek medical attention right away if you have signs of a serious genital infection.\nThe infection may affect the penis or vagina.\nSigns include burning, itching, odor, discharge, pain, tenderness, redness, or swelling of the genital or rectal area.\nOther signs include fever and not feeling well.\nThese symptoms may get worse quickly.\nEmpagliflozin may cause serious side effects.\nCall your doctor at once if you have:\na light-headed feeling, like you might pass out;\nlow blood sugar -- headache, hunger, weakness, sweating, confusion, irritability, dizziness, fast heart rate, or feeling jittery;\ndehydration --dizziness, confusion, feeling very thirsty, less urination;\nketoacidosis (too much acid in the blood) --nausea, vomiting, stomach pain, confusion, unusual drowsiness, or trouble breathing; or\nsigns of a bladder infection --pain or burning when you urinate, blood in your urine, pain in pelvis or back.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Empagliflozin\", \"has serious side effect\", \"allergic reaction\"], [\"Empagliflozin\", \"has serious side effect\", \"serious genital infection\"], [\"serious genital infection\", \"affects\", \"penis\"], [\"serious genital infection\", \"affects\", \"vagina\"], [\"serious genital infection\", \"has symptom\", \"burning\"], [\"serious genital infection\", \"has symptom\", \"itching\"], [\"serious genital infection\", \"has symptom\", \"odor\"], [\"serious genital infection\", \"has symptom\", \"discharge\"], [\"serious genital infection\", \"has symptom\", \"pain\"], [\"serious genital infection\", \"has symptom\", \"tenderness\"], [\"serious genital infection\", \"has symptom\", \"redness\"], [\"serious genital infection\", \"has symptom\", \"swelling\"], [\"serious genital infection\", \"has symptom\", \"fever\"], [\"serious genital infection\", \"has symptom\", \"not feeling well\"], [\"Empagliflozin\", \"has serious side effect\", \"light-headed feeling\"], [\"Empagliflozin\", \"has serious side effect\", \"low blood sugar\"], [\"low blood sugar\", \"has symptom\", \"headache\"], [\"low blood sugar\", \"has symptom\", \"hunger\"], [\"low blood sugar\", \"has symptom\", \"weakness\"], [\"low blood sugar\", \"has symptom\", \"sweating\"], [\"low blood sugar\", \"has symptom\", \"confusion\"], [\"low blood sugar\", \"has symptom\", \"irritability\"], [\"low blood sugar\", \"has symptom\", \"dizziness\"], [\"low blood sugar\", \"has symptom\", \"fast heart rate\"], [\"low blood sugar\", \"has symptom\", \"feeling jittery\"], [\"Empagliflozin\", \"has serious side effect\", \"dehydration\"], [\"dehydration\", \"has symptom\", \"dizziness\"], [\"dehydration\", \"has symptom\", \"confusion\"], [\"dehydration\", \"has symptom\", \"feeling very thirsty\"], [\"dehydration\", \"has symptom\", \"less urination\"], [\"Empagliflozin\", \"has serious side effect\", \"ketoacidosis\"], [\"ketoacidosis\", \"has symptom\", \"nausea\"], [\"ketoacidosis\", \"has symptom\", \"vomiting\"], [\"ketoacidosis\", \"has symptom\", \"stomach pain\"], [\"ketoacidosis\", \"has symptom\", \"confusion\"], [\"ketoacidosis\", \"has symptom\", \"unusual drowsiness\"], [\"ketoacidosis\", \"has symptom\", \"trouble breathing\"], [\"Empagliflozin\", \"has serious side effect\", \"bladder infection\"], [\"bladder infection\", \"has symptom\", \"pain or burning when you urinate\"], [\"bladder infection\", \"has symptom\", \"blood in your urine\"], [\"bladder infection\", \"has symptom\", \"pain in pelvis or back\"]]",
+     "oie": [
+      [
+       "Empagliflozin",
+       "has serious side effect",
+       "allergic reaction"
+      ],
+      [
+       "Empagliflozin",
+       "has serious side effect",
+       "serious genital infection"
+      ],
+      [
+       "serious genital infection",
+       "affects",
+       "penis"
+      ],
+      [
+       "serious genital infection",
+       "affects",
+       "vagina"
+      ],
+      [
+       "serious genital infection",
+       "has symptom",
+       "burning"
+      ],
+      [
+       "serious genital infection",
+       "has symptom",
+       "itching"
+      ],
+      [
+       "serious genital infection",
+       "has symptom",
+       "odor"
+      ],
+      [
+       "serious genital infection",
+       "has symptom",
+       "discharge"
+      ],
+      [
+       "serious genital infection",
+       "has symptom",
+       "pain"
+      ],
+      [
+       "serious genital infection",
+       "has symptom",
+       "tenderness"
+      ],
+      [
+       "serious genital infection",
+       "has symptom",
+       "redness"
+      ],
+      [
+       "serious genital infection",
+       "has symptom",
+       "swelling"
+      ],
+      [
+       "serious genital infection",
+       "has symptom",
+       "fever"
+      ],
+      [
+       "serious genital infection",
+       "has symptom",
+       "not feeling well"
+      ],
+      [
+       "Empagliflozin",
+       "has serious side effect",
+       "light-headed feeling"
+      ],
+      [
+       "Empagliflozin",
+       "has serious side effect",
+       "low blood sugar"
+      ],
+      [
+       "low blood sugar",
+       "has symptom",
+       "headache"
+      ],
+      [
+       "low blood sugar",
+       "has symptom",
+       "hunger"
+      ],
+      [
+       "low blood sugar",
+       "has symptom",
+       "weakness"
+      ],
+      [
+       "low blood sugar",
+       "has symptom",
+       "sweating"
+      ],
+      [
+       "low blood sugar",
+       "has symptom",
+       "confusion"
+      ],
+      [
+       "low blood sugar",
+       "has symptom",
+       "irritability"
+      ],
+      [
+       "low blood sugar",
+       "has symptom",
+       "dizziness"
+      ],
+      [
+       "low blood sugar",
+       "has symptom",
+       "fast heart rate"
+      ],
+      [
+       "low blood sugar",
+       "has symptom",
+       "feeling jittery"
+      ],
+      [
+       "Empagliflozin",
+       "has serious side effect",
+       "dehydration"
+      ],
+      [
+       "dehydration",
+       "has symptom",
+       "dizziness"
+      ],
+      [
+       "dehydration",
+       "has symptom",
+       "confusion"
+      ],
+      [
+       "dehydration",
+       "has symptom",
+       "feeling very thirsty"
+      ],
+      [
+       "dehydration",
+       "has symptom",
+       "less urination"
+      ],
+      [
+       "Empagliflozin",
+       "has serious side effect",
+       "ketoacidosis"
+      ],
+      [
+       "ketoacidosis",
+       "has symptom",
+       "nausea"
+      ],
+      [
+       "ketoacidosis",
+       "has symptom",
+       "vomiting"
+      ],
+      [
+       "ketoacidosis",
+       "has symptom",
+       "stomach pain"
+      ],
+      [
+       "ketoacidosis",
+       "has symptom",
+       "confusion"
+      ],
+      [
+       "ketoacidosis",
+       "has symptom",
+       "unusual drowsiness"
+      ],
+      [
+       "ketoacidosis",
+       "has symptom",
+       "trouble breathing"
+      ],
+      [
+       "Empagliflozin",
+       "has serious side effect",
+       "bladder infection"
+      ],
+      [
+       "bladder infection",
+       "has symptom",
+       "pain or burning when you urinate"
+      ],
+      [
+       "bladder infection",
+       "has symptom",
+       "blood in your urine"
+      ],
+      [
+       "bladder infection",
+       "has symptom",
+       "pain in pelvis or back"
+      ]
+     ],
+     "schema_definition": {
+      "affects": "The subject condition or entity can impact or involve the body part or system specified by the object entity.",
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+      "has symptom": "The subject condition or entity is associated with the symptom or sign specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has serious side effect",
+        "serious genital infection"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "serious genital infection",
+        "affects",
+        "penis"
+       ],
+       "raw_relation": "affects",
+       "definition": "The subject condition or entity can impact or involve the body part or system specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "serious genital infection",
+        "affects",
+        "vagina"
+       ],
+       "raw_relation": "affects",
+       "definition": "The subject condition or entity can impact or involve the body part or system specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "serious genital infection",
+        "has symptom",
+        "burning"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "serious genital infection",
+        "has symptom",
+        "itching"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "serious genital infection",
+        "has symptom",
+        "odor"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "serious genital infection",
+        "has symptom",
+        "discharge"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "serious genital infection",
+        "has symptom",
+        "pain"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "serious genital infection",
+        "has symptom",
+        "tenderness"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "serious genital infection",
+        "has symptom",
+        "redness"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "serious genital infection",
+        "has symptom",
+        "swelling"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "serious genital infection",
+        "has symptom",
+        "fever"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "serious genital infection",
+        "has symptom",
+        "not feeling well"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has serious side effect",
+        "light-headed feeling"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has serious side effect",
+        "low blood sugar"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "low blood sugar",
+        "has symptom",
+        "headache"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "low blood sugar",
+        "has symptom",
+        "hunger"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "low blood sugar",
+        "has symptom",
+        "weakness"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "low blood sugar",
+        "has symptom",
+        "sweating"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "low blood sugar",
+        "has symptom",
+        "confusion"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "low blood sugar",
+        "has symptom",
+        "irritability"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "low blood sugar",
+        "has symptom",
+        "dizziness"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "low blood sugar",
+        "has symptom",
+        "fast heart rate"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "low blood sugar",
+        "has symptom",
+        "feeling jittery"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has serious side effect",
+        "dehydration"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "dehydration",
+        "has symptom",
+        "dizziness"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "dehydration",
+        "has symptom",
+        "confusion"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "dehydration",
+        "has symptom",
+        "feeling very thirsty"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "dehydration",
+        "has symptom",
+        "less urination"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has serious side effect",
+        "ketoacidosis"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ketoacidosis",
+        "has symptom",
+        "nausea"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ketoacidosis",
+        "has symptom",
+        "vomiting"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ketoacidosis",
+        "has symptom",
+        "stomach pain"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ketoacidosis",
+        "has symptom",
+        "confusion"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ketoacidosis",
+        "has symptom",
+        "unusual drowsiness"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "ketoacidosis",
+        "has symptom",
+        "trouble breathing"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has serious side effect",
+        "bladder infection"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "bladder infection",
+        "has symptom",
+        "pain or burning when you urinate"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "bladder infection",
+        "has symptom",
+        "blood in your urine"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "bladder infection",
+        "has symptom",
+        "pain in pelvis or back"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject condition or entity is associated with the symptom or sign specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "empagliflozin#empagliflozin-side-effects#1",
+     "section_id": "empagliflozin-side-effects",
+     "section_heading": "Empagliflozin side effects",
+     "text": "Common side effects of empagliflozin may include:\na bladder infection; or\nyeast infection in women (vaginal itching or discharge).\nThis is not a complete list of side effects and others may occur.\nCall your doctor for medical advice about side effects.\nYou may report side effects to FDA at 1-800-FDA-1088.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"empagliflozin\", \"has side effect\", \"bladder infection\"], [\"empagliflozin\", \"has side effect\", \"yeast infection in women\"], [\"empagliflozin\", \"has side effect\", \"vaginal itching\"], [\"empagliflozin\", \"has side effect\", \"vaginal discharge\"], [\"empagliflozin\", \"has warning\", \"this is not a complete list of side effects\"], [\"empagliflozin\", \"has administration instruction\", \"call your doctor for medical advice about side effects\"], [\"empagliflozin\", \"has administration instruction\", \"report side effects to FDA at 1-800-FDA-1088\"]]",
+     "oie": [
+      [
+       "empagliflozin",
+       "has side effect",
+       "bladder infection"
+      ],
+      [
+       "empagliflozin",
+       "has side effect",
+       "yeast infection in women"
+      ],
+      [
+       "empagliflozin",
+       "has side effect",
+       "vaginal itching"
+      ],
+      [
+       "empagliflozin",
+       "has side effect",
+       "vaginal discharge"
+      ],
+      [
+       "empagliflozin",
+       "has warning",
+       "this is not a complete list of side effects"
+      ],
+      [
+       "empagliflozin",
+       "has administration instruction",
+       "call your doctor for medical advice about side effects"
+      ],
+      [
+       "empagliflozin",
+       "has administration instruction",
+       "report side effects to FDA at 1-800-FDA-1088"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the action or instruction specified by the object entity to be followed by the patient or healthcare provider.",
+      "has side effect": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+      "has warning": "The subject drug is associated with the cautionary statement or warning specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "empagliflozin",
+        "has side effect",
+        "bladder infection"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has side effect",
+        "yeast infection in women"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has side effect",
+        "vaginal itching"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has side effect",
+        "vaginal discharge"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has warning",
+        "this is not a complete list of side effects"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug is associated with the cautionary statement or warning specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has administration instruction",
+        "call your doctor for medical advice about side effects"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the action or instruction specified by the object entity to be followed by the patient or healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has administration instruction",
+        "report side effects to FDA at 1-800-FDA-1088"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the action or instruction specified by the object entity to be followed by the patient or healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "empagliflozin#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "Call your doctor at once if you have signs of a serious side effect, such as stomach pain, vomiting, tiredness, or trouble breathing.\nTell your doctor if you are sick with vomiting or diarrhea, or if you eat or drink less than usual.\nEmpagliflozin can cause serious infections around the penis or vagina.\nGet medical help right away if you have burning, itching, odor, discharge, pain, tenderness, redness, or swelling of the genital or rectal area.\nGet medical help right away if you have a fever.\nGet medical help right away if you don't feel well.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Empagliflozin\", \"has serious side effect\", \"stomach pain\"], [\"Empagliflozin\", \"has serious side effect\", \"vomiting\"], [\"Empagliflozin\", \"has serious side effect\", \"tiredness\"], [\"Empagliflozin\", \"has serious side effect\", \"trouble breathing\"], [\"Empagliflozin\", \"has administration instruction\", \"tell your doctor if you are sick with vomiting or diarrhea\"], [\"Empagliflozin\", \"has administration instruction\", \"tell your doctor if you eat or drink less than usual\"], [\"Empagliflozin\", \"has serious side effect\", \"serious infections around the penis or vagina\"], [\"Empagliflozin\", \"has administration instruction\", \"get medical help right away if you have burning\"], [\"Empagliflozin\", \"has administration instruction\", \"get medical help right away if you have itching\"], [\"Empagliflozin\", \"has administration instruction\", \"get medical help right away if you have odor\"], [\"Empagliflozin\", \"has administration instruction\", \"get medical help right away if you have discharge\"], [\"Empagliflozin\", \"has administration instruction\", \"get medical help right away if you have pain\"], [\"Empagliflozin\", \"has administration instruction\", \"get medical help right away if you have tenderness\"], [\"Empagliflozin\", \"has administration instruction\", \"get medical help right away if you have redness\"], [\"Empagliflozin\", \"has administration instruction\", \"get medical help right away if you have swelling of the genital or rectal area\"], [\"Empagliflozin\", \"has administration instruction\", \"get medical help right away if you have a fever\"], [\"Empagliflozin\", \"has administration instruction\", \"get medical help right away if you don't feel well\"]]",
+     "oie": [
+      [
+       "Empagliflozin",
+       "has serious side effect",
+       "stomach pain"
+      ],
+      [
+       "Empagliflozin",
+       "has serious side effect",
+       "vomiting"
+      ],
+      [
+       "Empagliflozin",
+       "has serious side effect",
+       "tiredness"
+      ],
+      [
+       "Empagliflozin",
+       "has serious side effect",
+       "trouble breathing"
+      ],
+      [
+       "Empagliflozin",
+       "has administration instruction",
+       "tell your doctor if you are sick with vomiting or diarrhea"
+      ],
+      [
+       "Empagliflozin",
+       "has administration instruction",
+       "tell your doctor if you eat or drink less than usual"
+      ],
+      [
+       "Empagliflozin",
+       "has serious side effect",
+       "serious infections around the penis or vagina"
+      ],
+      [
+       "Empagliflozin",
+       "has administration instruction",
+       "get medical help right away if you have burning"
+      ],
+      [
+       "Empagliflozin",
+       "has administration instruction",
+       "get medical help right away if you have itching"
+      ],
+      [
+       "Empagliflozin",
+       "has administration instruction",
+       "get medical help right away if you have odor"
+      ],
+      [
+       "Empagliflozin",
+       "has administration instruction",
+       "get medical help right away if you have discharge"
+      ],
+      [
+       "Empagliflozin",
+       "has administration instruction",
+       "get medical help right away if you have pain"
+      ],
+      [
+       "Empagliflozin",
+       "has administration instruction",
+       "get medical help right away if you have tenderness"
+      ],
+      [
+       "Empagliflozin",
+       "has administration instruction",
+       "get medical help right away if you have redness"
+      ],
+      [
+       "Empagliflozin",
+       "has administration instruction",
+       "get medical help right away if you have swelling of the genital or rectal area"
+      ],
+      [
+       "Empagliflozin",
+       "has administration instruction",
+       "get medical help right away if you have a fever"
+      ],
+      [
+       "Empagliflozin",
+       "has administration instruction",
+       "get medical help right away if you don't feel well"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the patient to follow the specific medical instruction or action specified by the object entity.",
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has serious side effect",
+        "stomach pain"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has serious side effect",
+        "vomiting"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has serious side effect",
+        "tiredness"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has serious side effect",
+        "trouble breathing"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has administration instruction",
+        "tell your doctor if you are sick with vomiting or diarrhea"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific medical instruction or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has administration instruction",
+        "tell your doctor if you eat or drink less than usual"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific medical instruction or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has serious side effect",
+        "serious infections around the penis or vagina"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has administration instruction",
+        "get medical help right away if you have burning"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific medical instruction or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has administration instruction",
+        "get medical help right away if you have itching"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific medical instruction or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has administration instruction",
+        "get medical help right away if you have odor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific medical instruction or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has administration instruction",
+        "get medical help right away if you have discharge"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific medical instruction or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has administration instruction",
+        "get medical help right away if you have pain"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific medical instruction or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has administration instruction",
+        "get medical help right away if you have tenderness"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific medical instruction or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has administration instruction",
+        "get medical help right away if you have redness"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific medical instruction or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has administration instruction",
+        "get medical help right away if you have swelling of the genital or rectal area"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific medical instruction or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has administration instruction",
+        "get medical help right away if you have a fever"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific medical instruction or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has administration instruction",
+        "get medical help right away if you don't feel well"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific medical instruction or action specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "empagliflozin#before-taking-this-medicine#0",
+     "section_id": "before-taking-this-medicine",
+     "section_heading": "Before taking this medicine",
+     "text": "You should not use empagliflozin if you are allergic to empagliflozin, or if you have:\nsevere kidney disease (or if you are on dialysis).\nTell your doctor if you have or have ever had:\na bladder infection or urination problems;\na genital infection (penis or vagina);\nproblems with your pancreas, including surgery;\nalcoholism, or if you currently drink large amounts of alcohol;\nif you are on a low salt diet, you are eating less, or there is a change in your diet;\nif you are 65 or older; or\nliver or kidney disease.\nFollow your doctor's instructions about using empagliflozin if you are pregnant or you become pregnant.\nControlling diabetes is very important during pregnancy.\nYou should not use empagliflozin during the second or third trimester of pregnancy.\nDo not breastfeed.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"empagliflozin\", \"contraindicated in\", \"allergy to empagliflozin\"], [\"empagliflozin\", \"contraindicated in\", \"severe kidney disease\"], [\"empagliflozin\", \"contraindicated in\", \"dialysis\"], [\"empagliflozin\", \"use with caution in\", \"bladder infection or urination problems\"], [\"empagliflozin\", \"use with caution in\", \"genital infection\"], [\"empagliflozin\", \"use with caution in\", \"pancreas problems including surgery\"], [\"empagliflozin\", \"use with caution in\", \"alcoholism\"], [\"empagliflozin\", \"use with caution in\", \"large amounts of alcohol consumption\"], [\"empagliflozin\", \"use with caution in\", \"low salt diet\"], [\"empagliflozin\", \"use with caution in\", \"change in diet\"], [\"empagliflozin\", \"use with caution in\", \"patients 65 or older\"], [\"empagliflozin\", \"use with caution in\", \"liver or kidney disease\"], [\"empagliflozin\", \"has administration instruction\", \"follow doctor's instructions if pregnant or become pregnant\"], [\"empagliflozin\", \"has pregnancy or breastfeeding warning\", \"important to control diabetes during pregnancy\"], [\"empagliflozin\", \"contraindicated in\", \"second or third trimester of pregnancy\"], [\"empagliflozin\", \"has administration instruction\", \"do not breastfeed\"]]",
+     "oie": [
+      [
+       "empagliflozin",
+       "contraindicated in",
+       "allergy to empagliflozin"
+      ],
+      [
+       "empagliflozin",
+       "contraindicated in",
+       "severe kidney disease"
+      ],
+      [
+       "empagliflozin",
+       "contraindicated in",
+       "dialysis"
+      ],
+      [
+       "empagliflozin",
+       "use with caution in",
+       "bladder infection or urination problems"
+      ],
+      [
+       "empagliflozin",
+       "use with caution in",
+       "genital infection"
+      ],
+      [
+       "empagliflozin",
+       "use with caution in",
+       "pancreas problems including surgery"
+      ],
+      [
+       "empagliflozin",
+       "use with caution in",
+       "alcoholism"
+      ],
+      [
+       "empagliflozin",
+       "use with caution in",
+       "large amounts of alcohol consumption"
+      ],
+      [
+       "empagliflozin",
+       "use with caution in",
+       "low salt diet"
+      ],
+      [
+       "empagliflozin",
+       "use with caution in",
+       "change in diet"
+      ],
+      [
+       "empagliflozin",
+       "use with caution in",
+       "patients 65 or older"
+      ],
+      [
+       "empagliflozin",
+       "use with caution in",
+       "liver or kidney disease"
+      ],
+      [
+       "empagliflozin",
+       "has administration instruction",
+       "follow doctor's instructions if pregnant or become pregnant"
+      ],
+      [
+       "empagliflozin",
+       "has pregnancy or breastfeeding warning",
+       "important to control diabetes during pregnancy"
+      ],
+      [
+       "empagliflozin",
+       "contraindicated in",
+       "second or third trimester of pregnancy"
+      ],
+      [
+       "empagliflozin",
+       "has administration instruction",
+       "do not breastfeed"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition or situation specified by the object entity.",
+      "has administration instruction": "The subject drug requires the specific administrative or usage instruction specified by the object entity.",
+      "has pregnancy or breastfeeding warning": "The subject drug has a specific warning or recommendation related to pregnancy or breastfeeding as specified by the object entity.",
+      "use with caution in": "The subject drug may require medical supervision or caution for patients who have the condition or situation specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "empagliflozin",
+        "contraindicated in",
+        "allergy to empagliflozin"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "contraindicated in",
+        "severe kidney disease"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "contraindicated in",
+        "dialysis"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "use with caution in",
+        "bladder infection or urination problems"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "use with caution in",
+        "genital infection"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "use with caution in",
+        "pancreas problems including surgery"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "use with caution in",
+        "alcoholism"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "use with caution in",
+        "large amounts of alcohol consumption"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "use with caution in",
+        "low salt diet"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "use with caution in",
+        "change in diet"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "use with caution in",
+        "patients 65 or older"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "use with caution in",
+        "liver or kidney disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has administration instruction",
+        "follow doctor's instructions if pregnant or become pregnant"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administrative or usage instruction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has pregnancy or breastfeeding warning",
+        "important to control diabetes during pregnancy"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug has a specific warning or recommendation related to pregnancy or breastfeeding as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "contraindicated in",
+        "second or third trimester of pregnancy"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has administration instruction",
+        "do not breastfeed"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administrative or usage instruction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+     "section_id": "how-should-i-take-empagliflozin",
+     "section_heading": "How should I take empagliflozin?",
+     "text": "Follow all directions on your prescription label and read all medication guides or instruction sheets.\nYour doctor may occasionally change your dose.\nUse the medicine exactly as directed.\nTake empagliflozin once a day in the morning, with or without food.\nYour blood sugar will need to be checked often.\nYou may also need to test the level of ketones in your urine.\nEmpagliflozin can cause life-threatening ketoacidosis (too much acid in the blood).\nContact your doctor if a urine test shows that you have high ketones in the urine.\nEven if your blood sugar is normal.\nBlood sugar can be affected by stress, illness, surgery, exercise, alcohol use, or skipping meals.\nLow blood sugar (hypoglycemia) can make you feel very hungry, dizzy, irritable, or shaky.\nTo quickly treat hypoglycemia, eat or drink hard candy, crackers, raisins, fruit juice, or non-diet soda.\nYour doctor may prescribe glucagon injection in case of severe hypoglycemia.\nYou may get dehydrated during prolonged illness.\nCall your doctor if you are sick with vomiting or diarrhea.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"empagliflozin\", \"has administration instruction\", \"take once a day in the morning, with or without food\"], [\"empagliflozin\", \"has administration instruction\", \"follow all directions on prescription label\"], [\"empagliflozin\", \"has administration instruction\", \"read all medication guides or instruction sheets\"], [\"empagliflozin\", \"has administration instruction\", \"use exactly as directed\"], [\"empagliflozin\", \"has recommended dose\", \"dose may be occasionally changed by doctor\"], [\"empagliflozin\", \"has monitoring instruction\", \"check blood sugar often\"], [\"empagliflozin\", \"has monitoring instruction\", \"test ketone levels in urine\"], [\"empagliflozin\", \"has serious side effect\", \"life-threatening ketoacidosis\"], [\"empagliflozin\", \"has administration instruction\", \"contact doctor if urine test shows high ketones\"], [\"empagliflozin\", \"has administration instruction\", \"even if blood sugar is normal\"], [\"empagliflozin\", \"has warning\", \"blood sugar can be affected by stress, illness, surgery, exercise, alcohol use, or skipping meals\"], [\"empagliflozin\", \"has side effect\", \"low blood sugar (hypoglycemia)\"], [\"hypoglycemia\", \"has symptom\", \"very hungry\"], [\"hypoglycemia\", \"has symptom\", \"dizzy\"], [\"hypoglycemia\", \"has symptom\", \"irritable\"], [\"hypoglycemia\", \"has symptom\", \"shaky\"], [\"hypoglycemia\", \"has treatment\", \"eat or drink hard candy, crackers, raisins, fruit juice, or non-diet soda\"], [\"empagliflozin\", \"has treatment for severe side effect\", \"glucagon injection\"], [\"empagliflozin\", \"has warning\", \"may cause dehydration during prolonged illness\"], [\"empagliflozin\", \"has administration instruction\", \"call doctor if sick with vomiting or diarrhea\"]]",
+     "oie": [
+      [
+       "empagliflozin",
+       "has administration instruction",
+       "take once a day in the morning, with or without food"
+      ],
+      [
+       "empagliflozin",
+       "has administration instruction",
+       "follow all directions on prescription label"
+      ],
+      [
+       "empagliflozin",
+       "has administration instruction",
+       "read all medication guides or instruction sheets"
+      ],
+      [
+       "empagliflozin",
+       "has administration instruction",
+       "use exactly as directed"
+      ],
+      [
+       "empagliflozin",
+       "has recommended dose",
+       "dose may be occasionally changed by doctor"
+      ],
+      [
+       "empagliflozin",
+       "has monitoring instruction",
+       "check blood sugar often"
+      ],
+      [
+       "empagliflozin",
+       "has monitoring instruction",
+       "test ketone levels in urine"
+      ],
+      [
+       "empagliflozin",
+       "has serious side effect",
+       "life-threatening ketoacidosis"
+      ],
+      [
+       "empagliflozin",
+       "has administration instruction",
+       "contact doctor if urine test shows high ketones"
+      ],
+      [
+       "empagliflozin",
+       "has administration instruction",
+       "even if blood sugar is normal"
+      ],
+      [
+       "empagliflozin",
+       "has warning",
+       "blood sugar can be affected by stress, illness, surgery, exercise, alcohol use, or skipping meals"
+      ],
+      [
+       "empagliflozin",
+       "has side effect",
+       "low blood sugar (hypoglycemia)"
+      ],
+      [
+       "hypoglycemia",
+       "has symptom",
+       "very hungry"
+      ],
+      [
+       "hypoglycemia",
+       "has symptom",
+       "dizzy"
+      ],
+      [
+       "hypoglycemia",
+       "has symptom",
+       "irritable"
+      ],
+      [
+       "hypoglycemia",
+       "has symptom",
+       "shaky"
+      ],
+      [
+       "hypoglycemia",
+       "has treatment",
+       "eat or drink hard candy, crackers, raisins, fruit juice, or non-diet soda"
+      ],
+      [
+       "empagliflozin",
+       "has treatment for severe side effect",
+       "glucagon injection"
+      ],
+      [
+       "empagliflozin",
+       "has warning",
+       "may cause dehydration during prolonged illness"
+      ],
+      [
+       "empagliflozin",
+       "has administration instruction",
+       "call doctor if sick with vomiting or diarrhea"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+      "has monitoring instruction": "The subject drug requires the patient to perform the monitoring activity specified by the object entity.",
+      "has recommended dose": "The subject drug may have its dose adjusted according to the guidance specified by the object entity.",
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+      "has side effect": "The subject drug may cause the adverse effect specified by the object entity.",
+      "has symptom": "The medical condition specified by the subject entity is associated with the symptom described by the object entity.",
+      "has treatment": "The medical condition or symptom specified by the subject entity can be treated with the intervention specified by the object entity.",
+      "has treatment for severe side effect": "The subject drug has a specific treatment available for the severe side effect described by the object entity.",
+      "has warning": "The subject drug has a caution or warning related to the condition or factor specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "empagliflozin",
+        "has administration instruction",
+        "take once a day in the morning, with or without food"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has administration instruction",
+        "follow all directions on prescription label"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has administration instruction",
+        "read all medication guides or instruction sheets"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has administration instruction",
+        "use exactly as directed"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has recommended dose",
+        "dose may be occasionally changed by doctor"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug may have its dose adjusted according to the guidance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "requires monitoring of",
+        "check blood sugar often"
+       ],
+       "raw_relation": "has monitoring instruction",
+       "definition": "The subject drug requires the patient to perform the monitoring activity specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires monitoring of",
+         0.9321
+        ],
+        [
+         "applies to patients who are to be managed with",
+         0.8833
+        ],
+        [
+         "may be used for",
+         0.8749
+        ],
+        [
+         "used after",
+         0.8741
+        ],
+        [
+         "treats",
+         0.8686
+        ]
+       ],
+       "answer": "A. 'requires monitoring"
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "requires monitoring of",
+        "test ketone levels in urine"
+       ],
+       "raw_relation": "has monitoring instruction",
+       "definition": "The subject drug requires the patient to perform the monitoring activity specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires monitoring of",
+         0.9321
+        ],
+        [
+         "applies to patients who are to be managed with",
+         0.8833
+        ],
+        [
+         "may be used for",
+         0.8749
+        ],
+        [
+         "used after",
+         0.8741
+        ],
+        [
+         "treats",
+         0.8686
+        ]
+       ],
+       "answer": "A. 'requires monitoring"
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has serious side effect",
+        "life-threatening ketoacidosis"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has administration instruction",
+        "contact doctor if urine test shows high ketones"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has administration instruction",
+        "even if blood sugar is normal"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has warning",
+        "blood sugar can be affected by stress, illness, surgery, exercise, alcohol use, or skipping meals"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a caution or warning related to the condition or factor specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has side effect",
+        "low blood sugar (hypoglycemia)"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "hypoglycemia",
+        "has symptom",
+        "very hungry"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The medical condition specified by the subject entity is associated with the symptom described by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "hypoglycemia",
+        "has symptom",
+        "dizzy"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The medical condition specified by the subject entity is associated with the symptom described by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "hypoglycemia",
+        "has symptom",
+        "irritable"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The medical condition specified by the subject entity is associated with the symptom described by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "hypoglycemia",
+        "has symptom",
+        "shaky"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The medical condition specified by the subject entity is associated with the symptom described by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "hypoglycemia",
+        "has treatment requirement",
+        "eat or drink hard candy, crackers, raisins, fruit juice, or non-diet soda"
+       ],
+       "raw_relation": "has treatment",
+       "definition": "The medical condition or symptom specified by the subject entity can be treated with the intervention specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has treatment requirement",
+         0.9008
+        ],
+        [
+         "treats",
+         0.8698
+        ],
+        [
+         "has symptom",
+         0.8656
+        ],
+        [
+         "known as",
+         0.8597
+        ],
+        [
+         "related to",
+         0.8585
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has related treatment guide",
+        "glucagon injection"
+       ],
+       "raw_relation": "has treatment for severe side effect",
+       "definition": "The subject drug has a specific treatment available for the severe side effect described by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used after",
+         0.8816
+        ],
+        [
+         "has side effect",
+         0.8717
+        ],
+        [
+         "has serious side effect",
+         0.8566
+        ],
+        [
+         "has related treatment guide",
+         0.8489
+        ],
+        [
+         "may be used for",
+         0.845
+        ]
+       ],
+       "answer": "D. 'has related"
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has warning",
+        "may cause dehydration during prolonged illness"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a caution or warning related to the condition or factor specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has administration instruction",
+        "call doctor if sick with vomiting or diarrhea"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#1",
+     "section_id": "how-should-i-take-empagliflozin",
+     "section_heading": "How should I take empagliflozin?",
+     "text": "Empagliflozin can affect the results of certain medical tests.\nTell any doctor who treats you that you are using empagliflozin.\nYour treatment may also include diet, exercise, weight control, and special medical care.\nTell your doctor if you have a planned surgery.\nStore at room temperature away from moisture and heat.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"empagliflozin\", \"affects\", \"medical tests\"], [\"empagliflozin\", \"has administration instruction\", \"tell any doctor who treats you that you are using empagliflozin\"], [\"empagliflozin\", \"has administration instruction\", \"include diet, exercise, weight control, and special medical care\"], [\"empagliflozin\", \"has administration instruction\", \"tell your doctor if you have a planned surgery\"], [\"empagliflozin\", \"has storage instruction\", \"store at room temperature away from moisture and heat\"]]",
+     "oie": [
+      [
+       "empagliflozin",
+       "affects",
+       "medical tests"
+      ],
+      [
+       "empagliflozin",
+       "has administration instruction",
+       "tell any doctor who treats you that you are using empagliflozin"
+      ],
+      [
+       "empagliflozin",
+       "has administration instruction",
+       "include diet, exercise, weight control, and special medical care"
+      ],
+      [
+       "empagliflozin",
+       "has administration instruction",
+       "tell your doctor if you have a planned surgery"
+      ],
+      [
+       "empagliflozin",
+       "has storage instruction",
+       "store at room temperature away from moisture and heat"
+      ]
+     ],
+     "schema_definition": {
+      "affects": "The subject drug may influence or alter the outcomes of the medical tests specified by the object entity.",
+      "has administration instruction": "Patients taking the subject drug should follow the specific instructions provided by the object entity regarding its use.",
+      "has storage instruction": "The subject drug should be stored under the conditions specified by the object entity to maintain its efficacy and safety."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "empagliflozin",
+        "affects",
+        "medical tests"
+       ],
+       "raw_relation": "affects",
+       "definition": "The subject drug may influence or alter the outcomes of the medical tests specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has administration instruction",
+        "tell any doctor who treats you that you are using empagliflozin"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific instructions provided by the object entity regarding its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has administration instruction",
+        "include diet, exercise, weight control, and special medical care"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific instructions provided by the object entity regarding its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has administration instruction",
+        "tell your doctor if you have a planned surgery"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific instructions provided by the object entity regarding its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "empagliflozin",
+        "has storage instruction",
+        "store at room temperature away from moisture and heat"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug should be stored under the conditions specified by the object entity to maintain its efficacy and safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "empagliflozin#what-happens-if-i-miss-a-dose#0",
+     "section_id": "what-happens-if-i-miss-a-dose",
+     "section_heading": "What happens if I miss a dose?",
+     "text": "Take the medicine as soon as you can.\nSkip the missed dose if it is almost time for your next dose.\nDo not take two doses at one time.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Empagliflozin\", \"has missed dose instruction\", \"take the medicine as soon as you can\"], [\"Empagliflozin\", \"has missed dose instruction\", \"skip the missed dose if it is almost time for your next dose\"], [\"Empagliflozin\", \"has missed dose instruction\", \"do not take two doses at one time\"]]",
+     "oie": [
+      [
+       "Empagliflozin",
+       "has missed dose instruction",
+       "take the medicine as soon as you can"
+      ],
+      [
+       "Empagliflozin",
+       "has missed dose instruction",
+       "skip the missed dose if it is almost time for your next dose"
+      ],
+      [
+       "Empagliflozin",
+       "has missed dose instruction",
+       "do not take two doses at one time"
+      ]
+     ],
+     "schema_definition": {
+      "has missed dose instruction": "The subject drug has a specific instruction provided for what to do if a dose is missed, as specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has missed dose instruction",
+        "take the medicine as soon as you can"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug has a specific instruction provided for what to do if a dose is missed, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has missed dose instruction",
+        "skip the missed dose if it is almost time for your next dose"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug has a specific instruction provided for what to do if a dose is missed, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has missed dose instruction",
+        "do not take two doses at one time"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug has a specific instruction provided for what to do if a dose is missed, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "empagliflozin#what-happens-if-i-overdose#0",
+     "section_id": "what-happens-if-i-overdose",
+     "section_heading": "What happens if I overdose?",
+     "text": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Empagliflozin\", \"has overdose instruction\", \"seek emergency medical attention\"], [\"Empagliflozin\", \"has overdose instruction\", \"call the Poison Help line at 1-800-222-1222\"]]",
+     "oie": [
+      [
+       "Empagliflozin",
+       "has overdose instruction",
+       "seek emergency medical attention"
+      ],
+      [
+       "Empagliflozin",
+       "has overdose instruction",
+       "call the Poison Help line at 1-800-222-1222"
+      ]
+     ],
+     "schema_definition": {
+      "has overdose instruction": "The subject drug requires the action specified by the object entity to be taken in case of an overdose."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has overdose instruction",
+        "seek emergency medical attention"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity to be taken in case of an overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has overdose instruction",
+        "call the Poison Help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity to be taken in case of an overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "empagliflozin#what-should-i-avoid-while-taking-empagliflozin#0",
+     "section_id": "what-should-i-avoid-while-taking-empagliflozin",
+     "section_heading": "What should I avoid while taking empagliflozin?",
+     "text": "Avoid drinking alcohol.\nAvoid getting up too fast from a sitting or lying position, or you may feel dizzy.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Empagliflozin\", \"should be avoided with\", \"alcohol\"], [\"Empagliflozin\", \"has administration instruction\", \"avoid getting up too fast from a sitting or lying position\"], [\"Empagliflozin\", \"has administration instruction\", \"to prevent dizziness\"]]",
+     "oie": [
+      [
+       "Empagliflozin",
+       "should be avoided with",
+       "alcohol"
+      ],
+      [
+       "Empagliflozin",
+       "has administration instruction",
+       "avoid getting up too fast from a sitting or lying position"
+      ],
+      [
+       "Empagliflozin",
+       "has administration instruction",
+       "to prevent dizziness"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the administration instruction specified by the object entity to be followed by the patient.",
+      "should be avoided with": "Patients taking the subject drug should avoid the substance or activity specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Empagliflozin",
+        "should be avoided with",
+        "alcohol"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "Patients taking the subject drug should avoid the substance or activity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has administration instruction",
+        "avoid getting up too fast from a sitting or lying position"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has administration instruction",
+        "to prevent dizziness"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "empagliflozin#what-other-drugs-will-affect-empagliflozin#0",
+     "section_id": "what-other-drugs-will-affect-empagliflozin",
+     "section_heading": "What other drugs will affect empagliflozin?",
+     "text": "Tell your doctor about all your other medicines, especially:\ninsulin, or other oral diabetes medicine; or\na diuretic or \"water pill.\"\nThis list is not complete.\nOther drugs may affect empagliflozin.\nThese other drugs include prescription and over-the-counter medicines.\nThese other drugs also include vitamins and herbal products.\nNot all possible drug interactions are listed here.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Empagliflozin\", \"interacts with\", \"insulin\"], [\"Empagliflozin\", \"interacts with\", \"other oral diabetes medicine\"], [\"Empagliflozin\", \"interacts with\", \"diuretic\"], [\"Empagliflozin\", \"interacts with\", \"water pill\"], [\"Empagliflozin\", \"has warning\", \"not all possible drug interactions are listed here\"], [\"Empagliflozin\", \"interacts with\", \"prescription medicines\"], [\"Empagliflozin\", \"interacts with\", \"over-the-counter medicines\"], [\"Empagliflozin\", \"interacts with\", \"vitamins\"], [\"Empagliflozin\", \"interacts with\", \"herbal products\"]]",
+     "oie": [
+      [
+       "Empagliflozin",
+       "interacts with",
+       "insulin"
+      ],
+      [
+       "Empagliflozin",
+       "interacts with",
+       "other oral diabetes medicine"
+      ],
+      [
+       "Empagliflozin",
+       "interacts with",
+       "diuretic"
+      ],
+      [
+       "Empagliflozin",
+       "interacts with",
+       "water pill"
+      ],
+      [
+       "Empagliflozin",
+       "has warning",
+       "not all possible drug interactions are listed here"
+      ],
+      [
+       "Empagliflozin",
+       "interacts with",
+       "prescription medicines"
+      ],
+      [
+       "Empagliflozin",
+       "interacts with",
+       "over-the-counter medicines"
+      ],
+      [
+       "Empagliflozin",
+       "interacts with",
+       "vitamins"
+      ],
+      [
+       "Empagliflozin",
+       "interacts with",
+       "herbal products"
+      ]
+     ],
+     "schema_definition": {
+      "has warning": "The subject drug has a caution or warning related to the information specified by the object entity.",
+      "interacts with": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Empagliflozin",
+        "interacts with",
+        "insulin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "interacts with",
+        "other oral diabetes medicine"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "interacts with",
+        "diuretic"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "interacts with",
+        "water pill"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "has warning",
+        "not all possible drug interactions are listed here"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a caution or warning related to the information specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "interacts with",
+        "prescription medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "interacts with",
+        "over-the-counter medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "interacts with",
+        "vitamins"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Empagliflozin",
+        "interacts with",
+        "herbal products"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "empagliflozin#what-is-empagliflozin#0",
+   "section_id": "what-is-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "used in combination with",
+    "diet"
+   ],
+   "raw_relation": "used in combination with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-is-empagliflozin#0",
+   "section_id": "what-is-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "used in combination with",
+    "exercise"
+   ],
+   "raw_relation": "used in combination with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-is-empagliflozin#0",
+   "section_id": "what-is-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "treats",
+    "type 2 diabetes"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-is-empagliflozin#0",
+   "section_id": "what-is-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "treats",
+    "high blood sugar levels"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-is-empagliflozin#0",
+   "section_id": "what-is-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "reduces risk of",
+    "death"
+   ],
+   "raw_relation": "reduces risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-is-empagliflozin#0",
+   "section_id": "what-is-empagliflozin",
+   "triplet": [
+    "death",
+    "caused by",
+    "heart attack"
+   ],
+   "raw_relation": "caused by",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-is-empagliflozin#0",
+   "section_id": "what-is-empagliflozin",
+   "triplet": [
+    "death",
+    "caused by",
+    "stroke"
+   ],
+   "raw_relation": "caused by",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-is-empagliflozin#0",
+   "section_id": "what-is-empagliflozin",
+   "triplet": [
+    "death",
+    "caused by",
+    "heart failure"
+   ],
+   "raw_relation": "caused by",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-is-empagliflozin#0",
+   "section_id": "what-is-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "applies to",
+    "adults with type 2 diabetes"
+   ],
+   "raw_relation": "applies to",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "empagliflozin#what-is-empagliflozin#0",
+   "section_id": "what-is-empagliflozin",
+   "triplet": [
+    "adults with type 2 diabetes",
+    "have",
+    "heart disease"
+   ],
+   "raw_relation": "have",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "empagliflozin#what-is-empagliflozin#0",
+   "section_id": "what-is-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "used in population",
+    "adults"
+   ],
+   "raw_relation": "used in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "empagliflozin#what-is-empagliflozin#0",
+   "section_id": "what-is-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "reduces risk of",
+    "dying"
+   ],
+   "raw_relation": "reduces risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-is-empagliflozin#0",
+   "section_id": "what-is-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "reduces risk of",
+    "hospitalization for heart failure"
+   ],
+   "raw_relation": "reduces risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-is-empagliflozin#0",
+   "section_id": "what-is-empagliflozin",
+   "triplet": [
+    "heart failure",
+    "is defined as",
+    "heart cannot pump blood properly"
+   ],
+   "raw_relation": "applies when",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "empagliflozin#what-is-empagliflozin#0",
+   "section_id": "what-is-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "not approved for",
+    "type 1 diabetes"
+   ],
+   "raw_relation": "not used for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "empagliflozin#what-is-empagliflozin#0",
+   "section_id": "what-is-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "may be used for",
+    "purposes not listed in this medication guide"
+   ],
+   "raw_relation": "may be used for",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "Empagliflozin",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "Empagliflozin",
+    "has serious side effect",
+    "serious genital infection"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "serious genital infection",
+    "affects",
+    "penis"
+   ],
+   "raw_relation": "affects",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "serious genital infection",
+    "affects",
+    "vagina"
+   ],
+   "raw_relation": "affects",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "serious genital infection",
+    "has symptom",
+    "burning"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "serious genital infection",
+    "has symptom",
+    "itching"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "serious genital infection",
+    "has symptom",
+    "odor"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "serious genital infection",
+    "has symptom",
+    "discharge"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "serious genital infection",
+    "has symptom",
+    "pain"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "serious genital infection",
+    "has symptom",
+    "tenderness"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "serious genital infection",
+    "has symptom",
+    "redness"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "serious genital infection",
+    "has symptom",
+    "swelling"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "serious genital infection",
+    "has symptom",
+    "fever"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "serious genital infection",
+    "has symptom",
+    "not feeling well"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "Empagliflozin",
+    "has serious side effect",
+    "light-headed feeling"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "Empagliflozin",
+    "has serious side effect",
+    "low blood sugar"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "low blood sugar",
+    "has symptom",
+    "headache"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "low blood sugar",
+    "has symptom",
+    "hunger"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "low blood sugar",
+    "has symptom",
+    "weakness"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "low blood sugar",
+    "has symptom",
+    "sweating"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "low blood sugar",
+    "has symptom",
+    "confusion"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "low blood sugar",
+    "has symptom",
+    "irritability"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "low blood sugar",
+    "has symptom",
+    "dizziness"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "low blood sugar",
+    "has symptom",
+    "fast heart rate"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "low blood sugar",
+    "has symptom",
+    "feeling jittery"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "Empagliflozin",
+    "has serious side effect",
+    "dehydration"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "dehydration",
+    "has symptom",
+    "dizziness"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "dehydration",
+    "has symptom",
+    "confusion"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "dehydration",
+    "has symptom",
+    "feeling very thirsty"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "dehydration",
+    "has symptom",
+    "less urination"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "Empagliflozin",
+    "has serious side effect",
+    "ketoacidosis"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "ketoacidosis",
+    "has symptom",
+    "nausea"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "ketoacidosis",
+    "has symptom",
+    "vomiting"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "ketoacidosis",
+    "has symptom",
+    "stomach pain"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "ketoacidosis",
+    "has symptom",
+    "confusion"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "ketoacidosis",
+    "has symptom",
+    "unusual drowsiness"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "ketoacidosis",
+    "has symptom",
+    "trouble breathing"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "Empagliflozin",
+    "has serious side effect",
+    "bladder infection"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "bladder infection",
+    "has symptom",
+    "pain or burning when you urinate"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "bladder infection",
+    "has symptom",
+    "blood in your urine"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#0",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "bladder infection",
+    "has symptom",
+    "pain in pelvis or back"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#1",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "empagliflozin",
+    "has side effect",
+    "bladder infection"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#1",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "empagliflozin",
+    "has side effect",
+    "yeast infection in women"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#1",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "empagliflozin",
+    "has side effect",
+    "vaginal itching"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#1",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "empagliflozin",
+    "has side effect",
+    "vaginal discharge"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#1",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "empagliflozin",
+    "has warning",
+    "this is not a complete list of side effects"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#1",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "empagliflozin",
+    "has administration instruction",
+    "call your doctor for medical advice about side effects"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#empagliflozin-side-effects#1",
+   "section_id": "empagliflozin-side-effects",
+   "triplet": [
+    "empagliflozin",
+    "has administration instruction",
+    "report side effects to FDA at 1-800-FDA-1088"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Empagliflozin",
+    "has serious side effect",
+    "stomach pain"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Empagliflozin",
+    "has serious side effect",
+    "vomiting"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Empagliflozin",
+    "has serious side effect",
+    "tiredness"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Empagliflozin",
+    "has serious side effect",
+    "trouble breathing"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Empagliflozin",
+    "has administration instruction",
+    "tell your doctor if you are sick with vomiting or diarrhea"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Empagliflozin",
+    "has administration instruction",
+    "tell your doctor if you eat or drink less than usual"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Empagliflozin",
+    "has serious side effect",
+    "serious infections around the penis or vagina"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Empagliflozin",
+    "has administration instruction",
+    "get medical help right away if you have burning"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Empagliflozin",
+    "has administration instruction",
+    "get medical help right away if you have itching"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Empagliflozin",
+    "has administration instruction",
+    "get medical help right away if you have odor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Empagliflozin",
+    "has administration instruction",
+    "get medical help right away if you have discharge"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Empagliflozin",
+    "has administration instruction",
+    "get medical help right away if you have pain"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Empagliflozin",
+    "has administration instruction",
+    "get medical help right away if you have tenderness"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Empagliflozin",
+    "has administration instruction",
+    "get medical help right away if you have redness"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Empagliflozin",
+    "has administration instruction",
+    "get medical help right away if you have swelling of the genital or rectal area"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Empagliflozin",
+    "has administration instruction",
+    "get medical help right away if you have a fever"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Empagliflozin",
+    "has administration instruction",
+    "get medical help right away if you don't feel well"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "empagliflozin",
+    "contraindicated in",
+    "allergy to empagliflozin"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "empagliflozin",
+    "contraindicated in",
+    "severe kidney disease"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "empagliflozin",
+    "contraindicated in",
+    "dialysis"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "empagliflozin",
+    "use with caution in",
+    "bladder infection or urination problems"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "empagliflozin",
+    "use with caution in",
+    "genital infection"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "empagliflozin",
+    "use with caution in",
+    "pancreas problems including surgery"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "empagliflozin",
+    "use with caution in",
+    "alcoholism"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "empagliflozin",
+    "use with caution in",
+    "large amounts of alcohol consumption"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "empagliflozin",
+    "use with caution in",
+    "low salt diet"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "empagliflozin",
+    "use with caution in",
+    "change in diet"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "empagliflozin",
+    "use with caution in",
+    "patients 65 or older"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "empagliflozin",
+    "use with caution in",
+    "liver or kidney disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "empagliflozin",
+    "has administration instruction",
+    "follow doctor's instructions if pregnant or become pregnant"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "empagliflozin",
+    "has pregnancy or breastfeeding warning",
+    "important to control diabetes during pregnancy"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "empagliflozin",
+    "contraindicated in",
+    "second or third trimester of pregnancy"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "empagliflozin",
+    "has administration instruction",
+    "do not breastfeed"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "has administration instruction",
+    "take once a day in the morning, with or without food"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "has administration instruction",
+    "follow all directions on prescription label"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "has administration instruction",
+    "read all medication guides or instruction sheets"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "has administration instruction",
+    "use exactly as directed"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "has recommended dose",
+    "dose may be occasionally changed by doctor"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "requires monitoring of",
+    "check blood sugar often"
+   ],
+   "raw_relation": "has monitoring instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "requires monitoring of",
+    "test ketone levels in urine"
+   ],
+   "raw_relation": "has monitoring instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "has serious side effect",
+    "life-threatening ketoacidosis"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "has administration instruction",
+    "contact doctor if urine test shows high ketones"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "has administration instruction",
+    "even if blood sugar is normal"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "has warning",
+    "blood sugar can be affected by stress, illness, surgery, exercise, alcohol use, or skipping meals"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "has side effect",
+    "low blood sugar (hypoglycemia)"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "hypoglycemia",
+    "has symptom",
+    "very hungry"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "hypoglycemia",
+    "has symptom",
+    "dizzy"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "hypoglycemia",
+    "has symptom",
+    "irritable"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "hypoglycemia",
+    "has symptom",
+    "shaky"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "hypoglycemia",
+    "has treatment requirement",
+    "eat or drink hard candy, crackers, raisins, fruit juice, or non-diet soda"
+   ],
+   "raw_relation": "has treatment",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "has related treatment guide",
+    "glucagon injection"
+   ],
+   "raw_relation": "has treatment for severe side effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "has warning",
+    "may cause dehydration during prolonged illness"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#0",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "has administration instruction",
+    "call doctor if sick with vomiting or diarrhea"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#1",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "affects",
+    "medical tests"
+   ],
+   "raw_relation": "affects",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#1",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "has administration instruction",
+    "tell any doctor who treats you that you are using empagliflozin"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#1",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "has administration instruction",
+    "include diet, exercise, weight control, and special medical care"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#1",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "has administration instruction",
+    "tell your doctor if you have a planned surgery"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#how-should-i-take-empagliflozin#1",
+   "section_id": "how-should-i-take-empagliflozin",
+   "triplet": [
+    "empagliflozin",
+    "has storage instruction",
+    "store at room temperature away from moisture and heat"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Empagliflozin",
+    "has missed dose instruction",
+    "take the medicine as soon as you can"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Empagliflozin",
+    "has missed dose instruction",
+    "skip the missed dose if it is almost time for your next dose"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Empagliflozin",
+    "has missed dose instruction",
+    "do not take two doses at one time"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Empagliflozin",
+    "has overdose instruction",
+    "seek emergency medical attention"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Empagliflozin",
+    "has overdose instruction",
+    "call the Poison Help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-should-i-avoid-while-taking-empagliflozin#0",
+   "section_id": "what-should-i-avoid-while-taking-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "should be avoided with",
+    "alcohol"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-should-i-avoid-while-taking-empagliflozin#0",
+   "section_id": "what-should-i-avoid-while-taking-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "has administration instruction",
+    "avoid getting up too fast from a sitting or lying position"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-should-i-avoid-while-taking-empagliflozin#0",
+   "section_id": "what-should-i-avoid-while-taking-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "has administration instruction",
+    "to prevent dizziness"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-other-drugs-will-affect-empagliflozin#0",
+   "section_id": "what-other-drugs-will-affect-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "interacts with",
+    "insulin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-other-drugs-will-affect-empagliflozin#0",
+   "section_id": "what-other-drugs-will-affect-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "interacts with",
+    "other oral diabetes medicine"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-other-drugs-will-affect-empagliflozin#0",
+   "section_id": "what-other-drugs-will-affect-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "interacts with",
+    "diuretic"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-other-drugs-will-affect-empagliflozin#0",
+   "section_id": "what-other-drugs-will-affect-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "interacts with",
+    "water pill"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-other-drugs-will-affect-empagliflozin#0",
+   "section_id": "what-other-drugs-will-affect-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "has warning",
+    "not all possible drug interactions are listed here"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-other-drugs-will-affect-empagliflozin#0",
+   "section_id": "what-other-drugs-will-affect-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "interacts with",
+    "prescription medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-other-drugs-will-affect-empagliflozin#0",
+   "section_id": "what-other-drugs-will-affect-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "interacts with",
+    "over-the-counter medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-other-drugs-will-affect-empagliflozin#0",
+   "section_id": "what-other-drugs-will-affect-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "interacts with",
+    "vitamins"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "empagliflozin#what-other-drugs-will-affect-empagliflozin#0",
+   "section_id": "what-other-drugs-will-affect-empagliflozin",
+   "triplet": [
+    "Empagliflozin",
+    "interacts with",
+    "herbal products"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  }
+ ],
+ "name": "Empagliflozin",
+ "slug": "empagliflozin",
+ "n_chunks": 11,
+ "seconds": 20.2,
+ "llm_model": "Qwen/Qwen3-14B-AWQ"
+}

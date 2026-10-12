@@ -1,0 +1,4478 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "carvedilol#what-is-carvedilol#0",
+     "section_id": "what-is-carvedilol",
+     "section_heading": "What is carvedilol?",
+     "text": "Carvedilol is a beta-blocker.\nBeta-blockers affect the heart and circulation (blood flow through arteries and veins).\nCarvedilol is used to treat heart failure and hypertension (high blood pressure).\nCarvedilol is also used after a heart attack that has caused your heart not to pump as well.\nCarvedilol may also be used for purposes not listed in this medication guide.\nCarvedilol is not approved for use by anyone younger than 18 years of age.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Carvedilol\", \"has drug class\", \"beta-blocker\"], [\"beta-blockers\", \"affects\", \"heart\"], [\"beta-blockers\", \"affects\", \"circulation\"], [\"Carvedilol\", \"treats\", \"heart failure\"], [\"Carvedilol\", \"treats\", \"hypertension\"], [\"Carvedilol\", \"used in\", \"post-heart attack with reduced pumping\"], [\"Carvedilol\", \"may be used for\", \"unlisted purposes\"], [\"Carvedilol\", \"not approved for\", \"children younger than 18 years old\"]]",
+     "oie": [
+      [
+       "Carvedilol",
+       "has drug class",
+       "beta-blocker"
+      ],
+      [
+       "beta-blockers",
+       "affects",
+       "heart"
+      ],
+      [
+       "beta-blockers",
+       "affects",
+       "circulation"
+      ],
+      [
+       "Carvedilol",
+       "treats",
+       "heart failure"
+      ],
+      [
+       "Carvedilol",
+       "treats",
+       "hypertension"
+      ],
+      [
+       "Carvedilol",
+       "used in",
+       "post-heart attack with reduced pumping"
+      ],
+      [
+       "Carvedilol",
+       "may be used for",
+       "unlisted purposes"
+      ],
+      [
+       "Carvedilol",
+       "not approved for",
+       "children younger than 18 years old"
+      ]
+     ],
+     "schema_definition": {
+      "affects": "The subject entity influences or has an effect on the organ system or physiological process specified by the object entity.",
+      "has drug class": "The subject drug is classified under the pharmacological category specified by the object entity.",
+      "may be used for": "The subject drug can be utilized for the purpose or condition specified by the object entity, though it may not be explicitly listed in official documentation.",
+      "not approved for": "The subject drug is not authorized or recommended for use in the population or condition specified by the object entity.",
+      "treats": "The subject drug is used to manage or alleviate the medical condition specified by the object entity.",
+      "used in": "The subject drug is employed in the specific clinical scenario or condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Carvedilol",
+        "belongs to drug class",
+        "beta-blocker"
+       ],
+       "raw_relation": "has drug class",
+       "definition": "The subject drug is classified under the pharmacological category specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "belongs to drug class",
+         0.9429
+        ],
+        [
+         "has controlled substance schedule",
+         0.9009
+        ],
+        [
+         "has dosage form",
+         0.8735
+        ],
+        [
+         "may be used for",
+         0.866
+        ],
+        [
+         "has related treatment guide",
+         0.8656
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "beta-blockers",
+        "affects",
+        "heart"
+       ],
+       "raw_relation": "affects",
+       "definition": "The subject entity influences or has an effect on the organ system or physiological process specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "beta-blockers",
+        "affects",
+        "circulation"
+       ],
+       "raw_relation": "affects",
+       "definition": "The subject entity influences or has an effect on the organ system or physiological process specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "treats",
+        "heart failure"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "treats",
+        "hypertension"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "used after",
+        "post-heart attack with reduced pumping"
+       ],
+       "raw_relation": "used in",
+       "definition": "The subject drug is employed in the specific clinical scenario or condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may be used for",
+         0.9314
+        ],
+        [
+         "used after",
+         0.924
+        ],
+        [
+         "treats",
+         0.9143
+        ],
+        [
+         "may be prescribed with",
+         0.8896
+        ],
+        [
+         "has related treatment guide",
+         0.8868
+        ]
+       ],
+       "answer": "B. 'used after"
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "may be used for",
+        "unlisted purposes"
+       ],
+       "raw_relation": "may be used for",
+       "definition": "The subject drug can be utilized for the purpose or condition specified by the object entity, though it may not be explicitly listed in official documentation.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "not approved for",
+        "children younger than 18 years old"
+       ],
+       "raw_relation": "not approved for",
+       "definition": "The subject drug is not authorized or recommended for use in the population or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "carvedilol#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "You should not take carvedilol if you have asthma, bronchitis, or emphysema.\nYou should not take carvedilol if you have severe liver disease.\nYou should not take carvedilol if you have severe heart failure requiring certain IV medications.\nYou should not take carvedilol if you have a serious heart condition such as heart block, \"sick sinus syndrome,\" or slow heart rate.\nYou may take carvedilol if you have a serious heart condition such as heart block, \"sick sinus syndrome,\" or slow heart rate and have a pacemaker.\nAvoid drinking alcohol within 2 hours before or after taking extended-release carvedilol (Coreg CR).\nAlso avoid taking medicines or other products that might contain alcohol.\nAlcohol may cause the carvedilol in Coreg CR to be released too quickly into the body.\nIf you are being treated for high blood pressure, keep using carvedilol even if you feel well.\nHigh blood pressure often has no symptoms.\nYou may need to use blood pressure medication for the rest of your life.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"carvedilol\", \"contraindicated in\", \"asthma\"], [\"carvedilol\", \"contraindicated in\", \"bronchitis\"], [\"carvedilol\", \"contraindicated in\", \"emphysema\"], [\"carvedilol\", \"contraindicated in\", \"severe liver disease\"], [\"carvedilol\", \"contraindicated in\", \"severe heart failure requiring certain IV medications\"], [\"carvedilol\", \"contraindicated in\", \"heart block\"], [\"carvedilol\", \"contraindicated in\", \"sick sinus syndrome\"], [\"carvedilol\", \"contraindicated in\", \"slow heart rate\"], [\"carvedilol\", \"may be used in\", \"heart block\"], [\"carvedilol\", \"may be used in\", \"sick sinus syndrome\"], [\"carvedilol\", \"may be used in\", \"slow heart rate\"], [\"carvedilol\", \"should be avoided with\", \"alcohol\"], [\"carvedilol\", \"should be avoided with\", \"medicines or other products that might contain alcohol\"], [\"carvedilol\", \"has administration instruction\", \"avoid alcohol within 2 hours before or after taking extended-release carvedilol (Coreg CR)\"], [\"carvedilol\", \"has administration instruction\", \"alcohol may cause the carvedilol in Coreg CR to be released too quickly into the body\"], [\"carvedilol\", \"has administration instruction\", \"keep using carvedilol even if you feel well\"], [\"carvedilol\", \"has administration instruction\", \"use blood pressure medication for the rest of your life\"], [\"carvedilol\", \"treats\", \"high blood pressure\"], [\"high blood pressure\", \"has symptom\", \"no symptoms\"]]",
+     "oie": [
+      [
+       "carvedilol",
+       "contraindicated in",
+       "asthma"
+      ],
+      [
+       "carvedilol",
+       "contraindicated in",
+       "bronchitis"
+      ],
+      [
+       "carvedilol",
+       "contraindicated in",
+       "emphysema"
+      ],
+      [
+       "carvedilol",
+       "contraindicated in",
+       "severe liver disease"
+      ],
+      [
+       "carvedilol",
+       "contraindicated in",
+       "severe heart failure requiring certain IV medications"
+      ],
+      [
+       "carvedilol",
+       "contraindicated in",
+       "heart block"
+      ],
+      [
+       "carvedilol",
+       "contraindicated in",
+       "sick sinus syndrome"
+      ],
+      [
+       "carvedilol",
+       "contraindicated in",
+       "slow heart rate"
+      ],
+      [
+       "carvedilol",
+       "may be used in",
+       "heart block"
+      ],
+      [
+       "carvedilol",
+       "may be used in",
+       "sick sinus syndrome"
+      ],
+      [
+       "carvedilol",
+       "may be used in",
+       "slow heart rate"
+      ],
+      [
+       "carvedilol",
+       "should be avoided with",
+       "alcohol"
+      ],
+      [
+       "carvedilol",
+       "should be avoided with",
+       "medicines or other products that might contain alcohol"
+      ],
+      [
+       "carvedilol",
+       "has administration instruction",
+       "avoid alcohol within 2 hours before or after taking extended-release carvedilol (Coreg CR)"
+      ],
+      [
+       "carvedilol",
+       "has administration instruction",
+       "alcohol may cause the carvedilol in Coreg CR to be released too quickly into the body"
+      ],
+      [
+       "carvedilol",
+       "has administration instruction",
+       "keep using carvedilol even if you feel well"
+      ],
+      [
+       "carvedilol",
+       "has administration instruction",
+       "use blood pressure medication for the rest of your life"
+      ],
+      [
+       "carvedilol",
+       "treats",
+       "high blood pressure"
+      ],
+      [
+       "high blood pressure",
+       "has symptom",
+       "no symptoms"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "has administration instruction": "The subject drug has a specific administration or usage instruction related to the object entity.",
+      "has symptom": "The medical condition specified by the subject has the symptom or characteristic specified by the object entity.",
+      "may be used in": "The subject drug may be used by patients who have the condition specified by the object entity, often under specific conditions or precautions.",
+      "should be avoided with": "Patients taking the subject drug should avoid the substance or activity specified by the object entity.",
+      "treats": "The subject drug is used to treat or manage the medical condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "carvedilol",
+        "contraindicated in",
+        "asthma"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "contraindicated in",
+        "bronchitis"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "contraindicated in",
+        "emphysema"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "contraindicated in",
+        "severe liver disease"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "contraindicated in",
+        "severe heart failure requiring certain IV medications"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "contraindicated in",
+        "heart block"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "contraindicated in",
+        "sick sinus syndrome"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "contraindicated in",
+        "slow heart rate"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "may be used for",
+        "heart block"
+       ],
+       "raw_relation": "may be used in",
+       "definition": "The subject drug may be used by patients who have the condition specified by the object entity, often under specific conditions or precautions.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may be used for",
+         0.924
+        ],
+        [
+         "used after",
+         0.9077
+        ],
+        [
+         "treats",
+         0.9022
+        ],
+        [
+         "use with caution in",
+         0.8877
+        ],
+        [
+         "reduces risk of",
+         0.8869
+        ]
+       ],
+       "answer": "A. 'may be"
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "may be used for",
+        "sick sinus syndrome"
+       ],
+       "raw_relation": "may be used in",
+       "definition": "The subject drug may be used by patients who have the condition specified by the object entity, often under specific conditions or precautions.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may be used for",
+         0.924
+        ],
+        [
+         "used after",
+         0.9077
+        ],
+        [
+         "treats",
+         0.9022
+        ],
+        [
+         "use with caution in",
+         0.8877
+        ],
+        [
+         "reduces risk of",
+         0.8869
+        ]
+       ],
+       "answer": "A. 'may be"
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "may be used for",
+        "slow heart rate"
+       ],
+       "raw_relation": "may be used in",
+       "definition": "The subject drug may be used by patients who have the condition specified by the object entity, often under specific conditions or precautions.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may be used for",
+         0.924
+        ],
+        [
+         "used after",
+         0.9077
+        ],
+        [
+         "treats",
+         0.9022
+        ],
+        [
+         "use with caution in",
+         0.8877
+        ],
+        [
+         "reduces risk of",
+         0.8869
+        ]
+       ],
+       "answer": "A. 'may be"
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "should be avoided with",
+        "alcohol"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "Patients taking the subject drug should avoid the substance or activity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "should be avoided with",
+        "medicines or other products that might contain alcohol"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "Patients taking the subject drug should avoid the substance or activity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "has administration instruction",
+        "avoid alcohol within 2 hours before or after taking extended-release carvedilol (Coreg CR)"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug has a specific administration or usage instruction related to the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "has administration instruction",
+        "alcohol may cause the carvedilol in Coreg CR to be released too quickly into the body"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug has a specific administration or usage instruction related to the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "has administration instruction",
+        "keep using carvedilol even if you feel well"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug has a specific administration or usage instruction related to the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "has administration instruction",
+        "use blood pressure medication for the rest of your life"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug has a specific administration or usage instruction related to the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "treats",
+        "high blood pressure"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "high blood pressure",
+        "has symptom",
+        "no symptoms"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The medical condition specified by the subject has the symptom or characteristic specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "carvedilol#before-taking-this-medicine#0",
+     "section_id": "before-taking-this-medicine",
+     "section_heading": "Before taking this medicine",
+     "text": "You should not take carvedilol if you are allergic to Carvedilol, or if you have:\nasthma, bronchitis, emphysema;\nsevere liver disease; or\nA serious heart condition such as heart block, \"sick sinus syndrome,\" or slow heart rate (unless you have a pacemaker) exists.\nSevere heart failure requiring certain IV medications exists.\nTo make sure carvedilol is safe for you, tell your doctor if you have:\ndiabetes (taking carvedilol can make it harder for you to tell when you have low blood sugar);\nangina (chest pain);\nliver or kidney disease;\na thyroid disorder;\npheochromocytoma (tumor of the adrenal gland);\ncirculation problems (such as Raynaud's syndrome); or\na history of allergies.\nFDA pregnancy category C. It is not known whether carvedilol will harm an unborn baby.\nTell your doctor if you are pregnant or plan to become pregnant while using Carvedilol.\nIt is not known whether carvedilol passes into breast milk.\nIt is not known if Carvedilol could harm a nursing baby.\nTalk with your doctor about the best way to feed your baby if you are taking carvedilol.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Carvedilol\", \"contraindicated in\", \"allergy to Carvedilol\"], [\"Carvedilol\", \"contraindicated in\", \"asthma\"], [\"Carvedilol\", \"contraindicated in\", \"bronchitis\"], [\"Carvedilol\", \"contraindicated in\", \"emphysema\"], [\"Carvedilol\", \"contraindicated in\", \"severe liver disease\"], [\"Carvedilol\", \"contraindicated in\", \"heart block\"], [\"Carvedilol\", \"contraindicated in\", \"sick sinus syndrome\"], [\"Carvedilol\", \"contraindicated in\", \"slow heart rate\"], [\"Carvedilol\", \"contraindicated in\", \"severe heart failure requiring certain IV medications\"], [\"Carvedilol\", \"use with caution in\", \"diabetes\"], [\"Carvedilol\", \"use with caution in\", \"angina\"], [\"Carvedilol\", \"use with caution in\", \"liver or kidney disease\"], [\"Carvedilol\", \"use with caution in\", \"thyroid disorder\"], [\"Carvedilol\", \"use with caution in\", \"pheochromocytoma\"], [\"Carvedilol\", \"use with caution in\", \"circulation problems\"], [\"Carvedilol\", \"use with caution in\", \"history of allergies\"], [\"Carvedilol\", \"has pregnancy or breastfeeding warning\", \"category C\"], [\"Carvedilol\", \"has pregnancy or breastfeeding warning\", \"may harm an unborn baby\"], [\"Carvedilol\", \"has pregnancy or breastfeeding warning\", \"not known whether passes into breast milk\"], [\"Carvedilol\", \"has pregnancy or breastfeeding warning\", \"not known whether could harm nursing baby\"], [\"Carvedilol\", \"has administration instruction\", \"talk with doctor about best way to feed baby if taking Carvedilol\"]]",
+     "oie": [
+      [
+       "Carvedilol",
+       "contraindicated in",
+       "allergy to Carvedilol"
+      ],
+      [
+       "Carvedilol",
+       "contraindicated in",
+       "asthma"
+      ],
+      [
+       "Carvedilol",
+       "contraindicated in",
+       "bronchitis"
+      ],
+      [
+       "Carvedilol",
+       "contraindicated in",
+       "emphysema"
+      ],
+      [
+       "Carvedilol",
+       "contraindicated in",
+       "severe liver disease"
+      ],
+      [
+       "Carvedilol",
+       "contraindicated in",
+       "heart block"
+      ],
+      [
+       "Carvedilol",
+       "contraindicated in",
+       "sick sinus syndrome"
+      ],
+      [
+       "Carvedilol",
+       "contraindicated in",
+       "slow heart rate"
+      ],
+      [
+       "Carvedilol",
+       "contraindicated in",
+       "severe heart failure requiring certain IV medications"
+      ],
+      [
+       "Carvedilol",
+       "use with caution in",
+       "diabetes"
+      ],
+      [
+       "Carvedilol",
+       "use with caution in",
+       "angina"
+      ],
+      [
+       "Carvedilol",
+       "use with caution in",
+       "liver or kidney disease"
+      ],
+      [
+       "Carvedilol",
+       "use with caution in",
+       "thyroid disorder"
+      ],
+      [
+       "Carvedilol",
+       "use with caution in",
+       "pheochromocytoma"
+      ],
+      [
+       "Carvedilol",
+       "use with caution in",
+       "circulation problems"
+      ],
+      [
+       "Carvedilol",
+       "use with caution in",
+       "history of allergies"
+      ],
+      [
+       "Carvedilol",
+       "has pregnancy or breastfeeding warning",
+       "category C"
+      ],
+      [
+       "Carvedilol",
+       "has pregnancy or breastfeeding warning",
+       "may harm an unborn baby"
+      ],
+      [
+       "Carvedilol",
+       "has pregnancy or breastfeeding warning",
+       "not known whether passes into breast milk"
+      ],
+      [
+       "Carvedilol",
+       "has pregnancy or breastfeeding warning",
+       "not known whether could harm nursing baby"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "talk with doctor about best way to feed baby if taking Carvedilol"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "has administration instruction": "Patients taking the subject drug should follow the specific administration guidance provided by the object entity.",
+      "has pregnancy or breastfeeding warning": "The subject drug has a specific warning or caution related to pregnancy or breastfeeding as described by the object entity.",
+      "use with caution in": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Carvedilol",
+        "contraindicated in",
+        "allergy to Carvedilol"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "contraindicated in",
+        "asthma"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "contraindicated in",
+        "bronchitis"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "contraindicated in",
+        "emphysema"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "contraindicated in",
+        "severe liver disease"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "contraindicated in",
+        "heart block"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "contraindicated in",
+        "sick sinus syndrome"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "contraindicated in",
+        "slow heart rate"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "contraindicated in",
+        "severe heart failure requiring certain IV medications"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "use with caution in",
+        "diabetes"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "use with caution in",
+        "angina"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "use with caution in",
+        "liver or kidney disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "use with caution in",
+        "thyroid disorder"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "use with caution in",
+        "pheochromocytoma"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "use with caution in",
+        "circulation problems"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "use with caution in",
+        "history of allergies"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has pregnancy or breastfeeding warning",
+        "category C"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug has a specific warning or caution related to pregnancy or breastfeeding as described by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has pregnancy or breastfeeding warning",
+        "may harm an unborn baby"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug has a specific warning or caution related to pregnancy or breastfeeding as described by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has pregnancy or breastfeeding warning",
+        "not known whether passes into breast milk"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug has a specific warning or caution related to pregnancy or breastfeeding as described by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has pregnancy or breastfeeding warning",
+        "not known whether could harm nursing baby"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug has a specific warning or caution related to pregnancy or breastfeeding as described by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "talk with doctor about best way to feed baby if taking Carvedilol"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should follow the specific administration guidance provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "carvedilol#how-should-i-take-carvedilol#0",
+     "section_id": "how-should-i-take-carvedilol",
+     "section_heading": "How should I take carvedilol?",
+     "text": "Take carvedilol exactly as prescribed by your doctor.\nFollow all directions on your prescription label.\nYour doctor may occasionally change your dose to make sure you get the best results.\nDo not take this medicine in larger or smaller amounts or for longer than recommended.\nTake carvedilol with food.\nSwallow the extended-release capsule whole and do not crush or chew it.\nIf you have trouble swallowing, you may open the carvedilol capsule.\nYou may sprinkle carvedilol into a spoonful of applesauce.\nThis makes swallowing easier.\nThe applesauce should not be warm.\nDo not sprinkle contents on foods other than applesauce.\nSwallow right away without chewing.\nDo not save the mixture for later use.\nDiscard the empty capsule.\nTake carvedilol at the same time every day.\nDo not skip doses or stop taking carvedilol without first talking to your doctor.\nStopping suddenly may cause chest pain or a heart attack.\nIf you are switched from carvedilol tablets to carvedilol extended-release capsules (Coreg CR).\nYour daily total dose of carvedilol may be higher or lower than before.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Carvedilol\", \"has administration instruction\", \"take exactly as prescribed by your doctor\"], [\"Carvedilol\", \"has administration instruction\", \"follow all directions on your prescription label\"], [\"Carvedilol\", \"has administration instruction\", \"doctor may occasionally change dose to ensure best results\"], [\"Carvedilol\", \"has administration instruction\", \"do not take in larger or smaller amounts or for longer than recommended\"], [\"Carvedilol\", \"has administration instruction\", \"take with food\"], [\"Carvedilol\", \"has administration instruction\", \"swallow extended-release capsule whole and do not crush or chew\"], [\"Carvedilol\", \"has administration instruction\", \"if trouble swallowing, may open capsule\"], [\"Carvedilol\", \"has administration instruction\", \"may sprinkle into spoonful of applesauce\"], [\"Carvedilol\", \"has administration instruction\", \"applesauce should not be warm\"], [\"Carvedilol\", \"has administration instruction\", \"do not sprinkle contents on foods other than applesauce\"], [\"Carvedilol\", \"has administration instruction\", \"swallow right away without chewing\"], [\"Carvedilol\", \"has administration instruction\", \"do not save mixture for later use\"], [\"Carvedilol\", \"has administration instruction\", \"discard empty capsule\"], [\"Carvedilol\", \"has administration instruction\", \"take at same time every day\"], [\"Carvedilol\", \"has administration instruction\", \"do not skip doses or stop without first talking to your doctor\"], [\"Carvedilol\", \"has warning\", \"stopping suddenly may cause chest pain or heart attack\"], [\"Carvedilol\", \"has administration instruction\", \"if switched from tablets to extended-release capsules (Coreg CR), daily total dose may be higher or lower than before\"]]",
+     "oie": [
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "take exactly as prescribed by your doctor"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "follow all directions on your prescription label"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "doctor may occasionally change dose to ensure best results"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "do not take in larger or smaller amounts or for longer than recommended"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "take with food"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "swallow extended-release capsule whole and do not crush or chew"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "if trouble swallowing, may open capsule"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "may sprinkle into spoonful of applesauce"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "applesauce should not be warm"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "do not sprinkle contents on foods other than applesauce"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "swallow right away without chewing"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "do not save mixture for later use"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "discard empty capsule"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "take at same time every day"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "do not skip doses or stop without first talking to your doctor"
+      ],
+      [
+       "Carvedilol",
+       "has warning",
+       "stopping suddenly may cause chest pain or heart attack"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "if switched from tablets to extended-release capsules (Coreg CR), daily total dose may be higher or lower than before"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+      "has warning": "The subject drug carries a caution or risk associated with the medical event or condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "take exactly as prescribed by your doctor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "follow all directions on your prescription label"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "doctor may occasionally change dose to ensure best results"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "do not take in larger or smaller amounts or for longer than recommended"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "take with food"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "swallow extended-release capsule whole and do not crush or chew"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "if trouble swallowing, may open capsule"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "may sprinkle into spoonful of applesauce"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "applesauce should not be warm"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "do not sprinkle contents on foods other than applesauce"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "swallow right away without chewing"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "do not save mixture for later use"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "discard empty capsule"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "take at same time every day"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "do not skip doses or stop without first talking to your doctor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has warning",
+        "stopping suddenly may cause chest pain or heart attack"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or risk associated with the medical event or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "if switched from tablets to extended-release capsules (Coreg CR), daily total dose may be higher or lower than before"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "carvedilol#how-should-i-take-carvedilol#1",
+     "section_id": "how-should-i-take-carvedilol",
+     "section_heading": "How should I take carvedilol?",
+     "text": "Older adults may be more likely to become dizzy or feel faint.\nThis may happen when switching from tablets to extended-release capsules.\nFollow your doctor's instructions.\nYour blood pressure will need to be checked often.\nIf you are being treated for high blood pressure, keep using carvedilol even if you feel well.\nHigh blood pressure often has no symptoms.\nYou may need to use blood pressure medication for the rest of your life.\nIf you need surgery, tell the surgeon ahead of time that you are using carvedilol.\nYou may need to stop using carvedilol for a short time.\nYou should not stop using carvedilol suddenly.\nStopping suddenly may cause chest pain or a heart attack.\nCarvedilol can affect your pupils during cataract surgery.\nTell your eye surgeon ahead of time that you are using carvedilol.\nDo not stop using carvedilol before surgery unless your surgeon tells you to.\nCarvedilol is only part of a complete program of treatment for hypertension.\nThe program may also include diet, exercise, and weight control.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"carvedilol\", \"has administration instruction\", \"older adults may be more likely to become dizzy or feel faint\"], [\"carvedilol\", \"has administration instruction\", \"this may happen when switching from tablets to extended-release capsules\"], [\"carvedilol\", \"has administration instruction\", \"follow your doctor's instructions\"], [\"carvedilol\", \"has administration instruction\", \"your blood pressure will need to be checked often\"], [\"carvedilol\", \"has administration instruction\", \"if you are being treated for high blood pressure, keep using carvedilol even if you feel well\"], [\"high blood pressure\", \"has characteristic\", \"often has no symptoms\"], [\"high blood pressure\", \"has administration instruction\", \"you may need to use blood pressure medication for the rest of your life\"], [\"carvedilol\", \"has administration instruction\", \"if you need surgery, tell the surgeon ahead of time that you are using carvedilol\"], [\"carvedilol\", \"has administration instruction\", \"you may need to stop using carvedilol for a short time\"], [\"carvedilol\", \"has administration instruction\", \"you should not stop using carvedilol suddenly\"], [\"carvedilol\", \"has side effect\", \"stopping suddenly may cause chest pain or a heart attack\"], [\"carvedilol\", \"has effect during surgery\", \"can affect your pupils during cataract surgery\"], [\"carvedilol\", \"has administration instruction\", \"tell your eye surgeon ahead of time that you are using carvedilol\"], [\"carvedilol\", \"has administration instruction\", \"do not stop using carvedilol before surgery unless your surgeon tells you to\"], [\"carvedilol\", \"is part of\", \"complete program of treatment for hypertension\"], [\"hypertension treatment program\", \"includes\", \"diet\"], [\"hypertension treatment program\", \"includes\", \"exercise\"], [\"hypertension treatment program\", \"includes\", \"weight control\"]]",
+     "oie": [
+      [
+       "carvedilol",
+       "has administration instruction",
+       "older adults may be more likely to become dizzy or feel faint"
+      ],
+      [
+       "carvedilol",
+       "has administration instruction",
+       "this may happen when switching from tablets to extended-release capsules"
+      ],
+      [
+       "carvedilol",
+       "has administration instruction",
+       "follow your doctor's instructions"
+      ],
+      [
+       "carvedilol",
+       "has administration instruction",
+       "your blood pressure will need to be checked often"
+      ],
+      [
+       "carvedilol",
+       "has administration instruction",
+       "if you are being treated for high blood pressure, keep using carvedilol even if you feel well"
+      ],
+      [
+       "high blood pressure",
+       "has characteristic",
+       "often has no symptoms"
+      ],
+      [
+       "high blood pressure",
+       "has administration instruction",
+       "you may need to use blood pressure medication for the rest of your life"
+      ],
+      [
+       "carvedilol",
+       "has administration instruction",
+       "if you need surgery, tell the surgeon ahead of time that you are using carvedilol"
+      ],
+      [
+       "carvedilol",
+       "has administration instruction",
+       "you may need to stop using carvedilol for a short time"
+      ],
+      [
+       "carvedilol",
+       "has administration instruction",
+       "you should not stop using carvedilol suddenly"
+      ],
+      [
+       "carvedilol",
+       "has side effect",
+       "stopping suddenly may cause chest pain or a heart attack"
+      ],
+      [
+       "carvedilol",
+       "has effect during surgery",
+       "can affect your pupils during cataract surgery"
+      ],
+      [
+       "carvedilol",
+       "has administration instruction",
+       "tell your eye surgeon ahead of time that you are using carvedilol"
+      ],
+      [
+       "carvedilol",
+       "has administration instruction",
+       "do not stop using carvedilol before surgery unless your surgeon tells you to"
+      ],
+      [
+       "carvedilol",
+       "is part of",
+       "complete program of treatment for hypertension"
+      ],
+      [
+       "hypertension treatment program",
+       "includes",
+       "diet"
+      ],
+      [
+       "hypertension treatment program",
+       "includes",
+       "exercise"
+      ],
+      [
+       "hypertension treatment program",
+       "includes",
+       "weight control"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject entity has a specific instruction or guideline related to its use, as specified by the object entity.",
+      "has characteristic": "The subject entity has a specific characteristic or feature, as specified by the object entity.",
+      "has effect during surgery": "The subject entity may have a specific effect or impact during a surgical procedure, as specified by the object entity.",
+      "has side effect": "The subject entity may cause a specific adverse or unintended effect, as specified by the object entity.",
+      "includes": "The subject entity comprises or incorporates the component or element specified by the object entity.",
+      "is part of": "The subject entity is a component or element of the larger entity or system specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "carvedilol",
+        "has administration instruction",
+        "older adults may be more likely to become dizzy or feel faint"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject entity has a specific instruction or guideline related to its use, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "has administration instruction",
+        "this may happen when switching from tablets to extended-release capsules"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject entity has a specific instruction or guideline related to its use, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "has administration instruction",
+        "follow your doctor's instructions"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject entity has a specific instruction or guideline related to its use, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "has administration instruction",
+        "your blood pressure will need to be checked often"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject entity has a specific instruction or guideline related to its use, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "has administration instruction",
+        "if you are being treated for high blood pressure, keep using carvedilol even if you feel well"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject entity has a specific instruction or guideline related to its use, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "high blood pressure",
+        "has symptom",
+        "often has no symptoms"
+       ],
+       "raw_relation": "has characteristic",
+       "definition": "The subject entity has a specific characteristic or feature, as specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "is defined as",
+         0.8802
+        ],
+        [
+         "contribute to",
+         0.8475
+        ],
+        [
+         "related to",
+         0.8452
+        ],
+        [
+         "located in",
+         0.8419
+        ],
+        [
+         "has symptom",
+         0.8276
+        ]
+       ],
+       "answer": "E. 'has symptom"
+      },
+      {
+       "triplet": [
+        "high blood pressure",
+        "has administration instruction",
+        "you may need to use blood pressure medication for the rest of your life"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject entity has a specific instruction or guideline related to its use, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "has administration instruction",
+        "if you need surgery, tell the surgeon ahead of time that you are using carvedilol"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject entity has a specific instruction or guideline related to its use, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "has administration instruction",
+        "you may need to stop using carvedilol for a short time"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject entity has a specific instruction or guideline related to its use, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "has administration instruction",
+        "you should not stop using carvedilol suddenly"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject entity has a specific instruction or guideline related to its use, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "has side effect",
+        "stopping suddenly may cause chest pain or a heart attack"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject entity may cause a specific adverse or unintended effect, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "related to",
+        "can affect your pupils during cataract surgery"
+       ],
+       "raw_relation": "has effect during surgery",
+       "definition": "The subject entity may have a specific effect or impact during a surgical procedure, as specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "can lead to",
+         0.8671
+        ],
+        [
+         "related to",
+         0.8466
+        ],
+        [
+         "are being treated with",
+         0.8137
+        ],
+        [
+         "helps remove",
+         0.8009
+        ],
+        [
+         "occurs in",
+         0.7963
+        ]
+       ],
+       "answer": "B. 'related to"
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "has administration instruction",
+        "tell your eye surgeon ahead of time that you are using carvedilol"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject entity has a specific instruction or guideline related to its use, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "has administration instruction",
+        "do not stop using carvedilol before surgery unless your surgeon tells you to"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject entity has a specific instruction or guideline related to its use, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "is defined as",
+        "complete program of treatment for hypertension"
+       ],
+       "raw_relation": "is part of",
+       "definition": "The subject entity is a component or element of the larger entity or system specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "is defined as",
+         0.8494
+        ],
+        [
+         "related to",
+         0.8381
+        ],
+        [
+         "contribute to",
+         0.8276
+        ],
+        [
+         "located in",
+         0.8205
+        ],
+        [
+         "has information page",
+         0.8126
+        ]
+       ],
+       "answer": "A. 'is defined"
+      },
+      {
+       "triplet": [
+        "hypertension treatment program",
+        "includes",
+        "diet"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject entity comprises or incorporates the component or element specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "hypertension treatment program",
+        "includes",
+        "exercise"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject entity comprises or incorporates the component or element specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "hypertension treatment program",
+        "includes",
+        "weight control"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject entity comprises or incorporates the component or element specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "carvedilol#how-should-i-take-carvedilol#2",
+     "section_id": "how-should-i-take-carvedilol",
+     "section_heading": "How should I take carvedilol?",
+     "text": "Follow your diet, medication, and exercise routines very closely if you are being treated for hypertension.\nStore at room temperature away from moisture and heat.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Carvedilol\", \"has administration instruction\", \"follow diet, medication, and exercise routines very closely if being treated for hypertension\"], [\"Carvedilol\", \"has storage instruction\", \"store at room temperature away from moisture and heat\"]]",
+     "oie": [
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "follow diet, medication, and exercise routines very closely if being treated for hypertension"
+      ],
+      [
+       "Carvedilol",
+       "has storage instruction",
+       "store at room temperature away from moisture and heat"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the administration or usage instructions specified by the object entity to be followed by the patient.",
+      "has storage instruction": "The subject drug should be stored under the conditions specified by the object entity to maintain its efficacy and safety."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "follow diet, medication, and exercise routines very closely if being treated for hypertension"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage instructions specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has storage instruction",
+        "store at room temperature away from moisture and heat"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug should be stored under the conditions specified by the object entity to maintain its efficacy and safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "carvedilol#what-happens-if-i-miss-a-dose#0",
+     "section_id": "what-happens-if-i-miss-a-dose",
+     "section_heading": "What happens if I miss a dose?",
+     "text": "Take the missed dose as soon as you remember.\nSkip the missed dose if it is almost time for your next scheduled dose.\nDo not take extra medicine to make up the missed dose.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Carvedilol\", \"has missed dose instruction\", \"take the missed dose as soon as you remember\"], [\"Carvedilol\", \"has missed dose instruction\", \"skip the missed dose if it is almost time for your next scheduled dose\"], [\"Carvedilol\", \"has missed dose instruction\", \"do not take extra medicine to make up the missed dose\"]]",
+     "oie": [
+      [
+       "Carvedilol",
+       "has missed dose instruction",
+       "take the missed dose as soon as you remember"
+      ],
+      [
+       "Carvedilol",
+       "has missed dose instruction",
+       "skip the missed dose if it is almost time for your next scheduled dose"
+      ],
+      [
+       "Carvedilol",
+       "has missed dose instruction",
+       "do not take extra medicine to make up the missed dose"
+      ]
+     ],
+     "schema_definition": {
+      "has missed dose instruction": "The subject drug has a specific instruction provided for what to do if a dose is missed, as specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Carvedilol",
+        "has missed dose instruction",
+        "take the missed dose as soon as you remember"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug has a specific instruction provided for what to do if a dose is missed, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has missed dose instruction",
+        "skip the missed dose if it is almost time for your next scheduled dose"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug has a specific instruction provided for what to do if a dose is missed, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has missed dose instruction",
+        "do not take extra medicine to make up the missed dose"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug has a specific instruction provided for what to do if a dose is missed, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "carvedilol#what-happens-if-i-overdose#0",
+     "section_id": "what-happens-if-i-overdose",
+     "section_heading": "What happens if I overdose?",
+     "text": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.\nOverdose symptoms may include uneven heartbeats.\nOverdose symptoms may include shortness of breath.\nOverdose symptoms may include bluish-colored fingernails.\nOverdose symptoms may include dizziness.\nOverdose symptoms may include weakness.\nOverdose symptoms may include fainting.\nOverdose symptoms may include seizure (convulsions).",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Carvedilol\", \"has overdose symptom\", \"uneven heartbeats\"], [\"Carvedilol\", \"has overdose symptom\", \"shortness of breath\"], [\"Carvedilol\", \"has overdose symptom\", \"bluish-colored fingernails\"], [\"Carvedilol\", \"has overdose symptom\", \"dizziness\"], [\"Carvedilol\", \"has overdose symptom\", \"weakness\"], [\"Carvedilol\", \"has overdose symptom\", \"fainting\"], [\"Carvedilol\", \"has overdose symptom\", \"seizure (convulsions)\"], [\"Carvedilol\", \"has overdose instruction\", \"seek emergency medical attention\"], [\"Carvedilol\", \"has overdose instruction\", \"call the Poison Help line at 1-800-222-1222\"]]",
+     "oie": [
+      [
+       "Carvedilol",
+       "has overdose symptom",
+       "uneven heartbeats"
+      ],
+      [
+       "Carvedilol",
+       "has overdose symptom",
+       "shortness of breath"
+      ],
+      [
+       "Carvedilol",
+       "has overdose symptom",
+       "bluish-colored fingernails"
+      ],
+      [
+       "Carvedilol",
+       "has overdose symptom",
+       "dizziness"
+      ],
+      [
+       "Carvedilol",
+       "has overdose symptom",
+       "weakness"
+      ],
+      [
+       "Carvedilol",
+       "has overdose symptom",
+       "fainting"
+      ],
+      [
+       "Carvedilol",
+       "has overdose symptom",
+       "seizure (convulsions)"
+      ],
+      [
+       "Carvedilol",
+       "has overdose instruction",
+       "seek emergency medical attention"
+      ],
+      [
+       "Carvedilol",
+       "has overdose instruction",
+       "call the Poison Help line at 1-800-222-1222"
+      ]
+     ],
+     "schema_definition": {
+      "has overdose instruction": "The subject drug requires the action or measure specified by the object entity to be taken in case of overdose.",
+      "has overdose symptom": "An overdose of the subject drug may cause the symptom specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Carvedilol",
+        "has overdose symptom",
+        "uneven heartbeats"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has overdose symptom",
+        "shortness of breath"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has overdose symptom",
+        "bluish-colored fingernails"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has overdose symptom",
+        "dizziness"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has overdose symptom",
+        "weakness"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has overdose symptom",
+        "fainting"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has overdose symptom",
+        "seizure (convulsions)"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has overdose instruction",
+        "seek emergency medical attention"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action or measure specified by the object entity to be taken in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has overdose instruction",
+        "call the Poison Help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action or measure specified by the object entity to be taken in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "carvedilol#what-to-avoid#0",
+     "section_id": "what-to-avoid",
+     "section_heading": "What to avoid",
+     "text": "Carvedilol may impair your thinking or reactions.\nBe careful if you drive or do anything that requires you to be alert.\nDrinking alcohol can further lower your blood pressure.\nDrinking alcohol may increase certain side effects of carvedilol.\nYou should especially avoid drinking alcohol within 2 hours before or after taking extended-release carvedilol (Coreg CR).\nAvoid getting up too fast from a sitting or lying position, or you may feel dizzy.\nGet up slowly and steady yourself to prevent a fall.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Carvedilol\", \"has side effect\", \"impaired thinking\"], [\"Carvedilol\", \"has side effect\", \"impaired reactions\"], [\"Carvedilol\", \"has administration instruction\", \"be careful when driving or doing tasks requiring alertness\"], [\"Carvedilol\", \"interacts with\", \"alcohol\"], [\"Carvedilol\", \"interacts with\", \"alcohol\"], [\"Carvedilol\", \"has administration instruction\", \"avoid drinking alcohol within 2 hours before or after taking extended-release carvedilol (Coreg CR)\"], [\"Carvedilol\", \"has administration instruction\", \"avoid getting up too fast from a sitting or lying position\"], [\"Carvedilol\", \"has administration instruction\", \"get up slowly and steady yourself to prevent a fall\"]]",
+     "oie": [
+      [
+       "Carvedilol",
+       "has side effect",
+       "impaired thinking"
+      ],
+      [
+       "Carvedilol",
+       "has side effect",
+       "impaired reactions"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "be careful when driving or doing tasks requiring alertness"
+      ],
+      [
+       "Carvedilol",
+       "interacts with",
+       "alcohol"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "avoid drinking alcohol within 2 hours before or after taking extended-release carvedilol (Coreg CR)"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "avoid getting up too fast from a sitting or lying position"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "get up slowly and steady yourself to prevent a fall"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the patient to follow the specific action or precaution specified by the object entity.",
+      "has side effect": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+      "interacts with": "The subject drug may have a pharmacological interaction with the substance or agent specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Carvedilol",
+        "has side effect",
+        "impaired thinking"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has side effect",
+        "impaired reactions"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "be careful when driving or doing tasks requiring alertness"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific action or precaution specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "interacts with",
+        "alcohol"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or agent specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "avoid drinking alcohol within 2 hours before or after taking extended-release carvedilol (Coreg CR)"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific action or precaution specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "avoid getting up too fast from a sitting or lying position"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific action or precaution specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "get up slowly and steady yourself to prevent a fall"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific action or precaution specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "carvedilol#carvedilol-side-effects#0",
+     "section_id": "carvedilol-side-effects",
+     "section_heading": "Carvedilol side effects",
+     "text": "Get emergency medical help if you have hives.\nGet emergency medical help if you have difficulty breathing.\nGet emergency medical help if you have swelling of your face, lips, tongue, or throat.\nCall your doctor at once if you have a serious side effect such as:\na light-headed feeling, like you might pass out;\nslow or uneven heartbeats;\nswelling, rapid weight gain, feeling short of breath (even with mild exertion);\ncold feeling or numbness in your fingers or toes;\nchest pain, dry cough, wheezing, chest tightness, trouble breathing; or\nhigh blood sugar (increased thirst, increased urination, hunger, dry mouth, fruity breath odor, drowsiness, dry skin, blurred vision, weight loss).\nCommon carvedilol side effects may include:\nweakness, dizziness;\ndiarrhea;\ndry eyes;\ntired feeling; or\nweight gain.\nThis is not a complete list of side effects and others may occur.\nCall your doctor for medical advice about side effects.\nYou may report side effects to FDA at 1-800-FDA-1088.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Carvedilol\", \"has serious side effect\", \"hives\"], [\"Carvedilol\", \"has serious side effect\", \"difficulty breathing\"], [\"Carvedilol\", \"has serious side effect\", \"swelling of face, lips, tongue, or throat\"], [\"Carvedilol\", \"has serious side effect\", \"light-headed feeling\"], [\"Carvedilol\", \"has serious side effect\", \"slow or uneven heartbeats\"], [\"Carvedilol\", \"has serious side effect\", \"swelling\"], [\"Carvedilol\", \"has serious side effect\", \"rapid weight gain\"], [\"Carvedilol\", \"has serious side effect\", \"feeling short of breath\"], [\"Carvedilol\", \"has serious side effect\", \"cold feeling or numbness in fingers or toes\"], [\"Carvedilol\", \"has serious side effect\", \"chest pain\"], [\"Carvedilol\", \"has serious side effect\", \"dry cough\"], [\"Carvedilol\", \"has serious side effect\", \"wheezing\"], [\"Carvedilol\", \"has serious side effect\", \"chest tightness\"], [\"Carvedilol\", \"has serious side effect\", \"trouble breathing\"], [\"Carvedilol\", \"has serious side effect\", \"high blood sugar\"], [\"Carvedilol\", \"has side effect\", \"weakness\"], [\"Carvedilol\", \"has side effect\", \"dizziness\"], [\"Carvedilol\", \"has side effect\", \"diarrhea\"], [\"Carvedilol\", \"has side effect\", \"dry eyes\"], [\"Carvedilol\", \"has side effect\", \"tired feeling\"], [\"Carvedilol\", \"has side effect\", \"weight gain\"], [\"Carvedilol\", \"has administration instruction\", \"call your doctor at once if you have a serious side effect\"], [\"Carvedilol\", \"has administration instruction\", \"get emergency medical help if you have hives\"], [\"Carvedilol\", \"has administration instruction\", \"get emergency medical help if you have difficulty breathing\"], [\"Carvedilol\", \"has administration instruction\", \"get emergency medical help if you have swelling of your face, lips, tongue, or throat\"], [\"Carvedilol\", \"has administration instruction\", \"call your doctor for medical advice about side effects\"], [\"Carvedilol\", \"has administration instruction\", \"you may report side effects to FDA at 1-800-FDA-1088\"], [\"Carvedilol\", \"has warning\", \"this is not a complete list of side effects and others may occur\"]]",
+     "oie": [
+      [
+       "Carvedilol",
+       "has serious side effect",
+       "hives"
+      ],
+      [
+       "Carvedilol",
+       "has serious side effect",
+       "difficulty breathing"
+      ],
+      [
+       "Carvedilol",
+       "has serious side effect",
+       "swelling of face, lips, tongue, or throat"
+      ],
+      [
+       "Carvedilol",
+       "has serious side effect",
+       "light-headed feeling"
+      ],
+      [
+       "Carvedilol",
+       "has serious side effect",
+       "slow or uneven heartbeats"
+      ],
+      [
+       "Carvedilol",
+       "has serious side effect",
+       "swelling"
+      ],
+      [
+       "Carvedilol",
+       "has serious side effect",
+       "rapid weight gain"
+      ],
+      [
+       "Carvedilol",
+       "has serious side effect",
+       "feeling short of breath"
+      ],
+      [
+       "Carvedilol",
+       "has serious side effect",
+       "cold feeling or numbness in fingers or toes"
+      ],
+      [
+       "Carvedilol",
+       "has serious side effect",
+       "chest pain"
+      ],
+      [
+       "Carvedilol",
+       "has serious side effect",
+       "dry cough"
+      ],
+      [
+       "Carvedilol",
+       "has serious side effect",
+       "wheezing"
+      ],
+      [
+       "Carvedilol",
+       "has serious side effect",
+       "chest tightness"
+      ],
+      [
+       "Carvedilol",
+       "has serious side effect",
+       "trouble breathing"
+      ],
+      [
+       "Carvedilol",
+       "has serious side effect",
+       "high blood sugar"
+      ],
+      [
+       "Carvedilol",
+       "has side effect",
+       "weakness"
+      ],
+      [
+       "Carvedilol",
+       "has side effect",
+       "dizziness"
+      ],
+      [
+       "Carvedilol",
+       "has side effect",
+       "diarrhea"
+      ],
+      [
+       "Carvedilol",
+       "has side effect",
+       "dry eyes"
+      ],
+      [
+       "Carvedilol",
+       "has side effect",
+       "tired feeling"
+      ],
+      [
+       "Carvedilol",
+       "has side effect",
+       "weight gain"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "call your doctor at once if you have a serious side effect"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "get emergency medical help if you have hives"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "get emergency medical help if you have difficulty breathing"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "get emergency medical help if you have swelling of your face, lips, tongue, or throat"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "call your doctor for medical advice about side effects"
+      ],
+      [
+       "Carvedilol",
+       "has administration instruction",
+       "you may report side effects to FDA at 1-800-FDA-1088"
+      ],
+      [
+       "Carvedilol",
+       "has warning",
+       "this is not a complete list of side effects and others may occur"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the specific action or instruction specified by the object entity to be taken by the patient.",
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+      "has side effect": "The subject drug may cause the non-serious or common adverse effect specified by the object entity.",
+      "has warning": "The subject drug is associated with the cautionary statement or advisory information specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Carvedilol",
+        "has serious side effect",
+        "hives"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has serious side effect",
+        "difficulty breathing"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has serious side effect",
+        "swelling of face, lips, tongue, or throat"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has serious side effect",
+        "light-headed feeling"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has serious side effect",
+        "slow or uneven heartbeats"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has serious side effect",
+        "swelling"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has serious side effect",
+        "rapid weight gain"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has serious side effect",
+        "feeling short of breath"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has serious side effect",
+        "cold feeling or numbness in fingers or toes"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has serious side effect",
+        "chest pain"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has serious side effect",
+        "dry cough"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has serious side effect",
+        "wheezing"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has serious side effect",
+        "chest tightness"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has serious side effect",
+        "trouble breathing"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has serious side effect",
+        "high blood sugar"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has side effect",
+        "weakness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the non-serious or common adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has side effect",
+        "dizziness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the non-serious or common adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has side effect",
+        "diarrhea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the non-serious or common adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has side effect",
+        "dry eyes"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the non-serious or common adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has side effect",
+        "tired feeling"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the non-serious or common adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has side effect",
+        "weight gain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the non-serious or common adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "call your doctor at once if you have a serious side effect"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or instruction specified by the object entity to be taken by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "get emergency medical help if you have hives"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or instruction specified by the object entity to be taken by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "get emergency medical help if you have difficulty breathing"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or instruction specified by the object entity to be taken by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "get emergency medical help if you have swelling of your face, lips, tongue, or throat"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or instruction specified by the object entity to be taken by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "call your doctor for medical advice about side effects"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or instruction specified by the object entity to be taken by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has administration instruction",
+        "you may report side effects to FDA at 1-800-FDA-1088"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or instruction specified by the object entity to be taken by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Carvedilol",
+        "has warning",
+        "this is not a complete list of side effects and others may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug is associated with the cautionary statement or advisory information specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "carvedilol#what-other-drugs-will-affect-carvedilol#0",
+     "section_id": "what-other-drugs-will-affect-carvedilol",
+     "section_heading": "What other drugs will affect carvedilol?",
+     "text": "Other drugs may interact with carvedilol.\nThese drugs include prescription and over-the-counter medicines.\nThese drugs also include vitamins and herbal products.\nTell each of your health care providers about all medicines you use now and any medicine you start or stop using.\nCheck interactions\nCompare alternatives\nPricing & coupons\nReviews (217)\nDrug images\nSide effects\nDosage information\nPatient tips\nDuring pregnancy\nSupport group\nDrug class: non-cardioselective beta blockers\nBreastfeeding\nEn español\nPatient resources:\nOther brands:\nCoreg\nProfessional resources:\nCarvedilol monograph\nCarvedilol (FDA)\nCarvedilol Capsule (FDA)\nOther brands:\nCoreg, Coreg CR\nRelated treatment guides:\nAtrial Fibrillation\nHigh Blood Pressure\nLeft Ventricular Dysfunction\nHeart Failure\nAngina",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"carvedilol\", \"interacts with\", \"other drugs\"], [\"carvedilol\", \"interacts with\", \"prescription medicines\"], [\"carvedilol\", \"interacts with\", \"over-the-counter medicines\"], [\"carvedilol\", \"interacts with\", \"vitamins\"], [\"carvedilol\", \"interacts with\", \"herbal products\"], [\"carvedilol\", \"has administration instruction\", \"tell each of your health care providers about all medicines you use now and any medicine you start or stop using\"], [\"carvedilol\", \"belongs to drug class\", \"non-cardioselective beta blockers\"], [\"carvedilol\", \"has brand name\", \"Coreg\"], [\"carvedilol\", \"has brand name\", \"Coreg CR\"], [\"carvedilol\", \"treats\", \"Atrial Fibrillation\"], [\"carvedilol\", \"treats\", \"High Blood Pressure\"], [\"carvedilol\", \"treats\", \"Left Ventricular Dysfunction\"], [\"carvedilol\", \"treats\", \"Heart Failure\"], [\"carvedilol\", \"treats\", \"Angina\"]]",
+     "oie": [
+      [
+       "carvedilol",
+       "interacts with",
+       "other drugs"
+      ],
+      [
+       "carvedilol",
+       "interacts with",
+       "prescription medicines"
+      ],
+      [
+       "carvedilol",
+       "interacts with",
+       "over-the-counter medicines"
+      ],
+      [
+       "carvedilol",
+       "interacts with",
+       "vitamins"
+      ],
+      [
+       "carvedilol",
+       "interacts with",
+       "herbal products"
+      ],
+      [
+       "carvedilol",
+       "has administration instruction",
+       "tell each of your health care providers about all medicines you use now and any medicine you start or stop using"
+      ],
+      [
+       "carvedilol",
+       "belongs to drug class",
+       "non-cardioselective beta blockers"
+      ],
+      [
+       "carvedilol",
+       "has brand name",
+       "Coreg"
+      ],
+      [
+       "carvedilol",
+       "has brand name",
+       "Coreg CR"
+      ],
+      [
+       "carvedilol",
+       "treats",
+       "Atrial Fibrillation"
+      ],
+      [
+       "carvedilol",
+       "treats",
+       "High Blood Pressure"
+      ],
+      [
+       "carvedilol",
+       "treats",
+       "Left Ventricular Dysfunction"
+      ],
+      [
+       "carvedilol",
+       "treats",
+       "Heart Failure"
+      ],
+      [
+       "carvedilol",
+       "treats",
+       "Angina"
+      ]
+     ],
+     "schema_definition": {
+      "belongs to drug class": "The subject drug is a member of the pharmacological drug class specified by the object entity.",
+      "has administration instruction": "The subject drug requires the administration or usage instruction specified by the object entity.",
+      "has brand name": "The subject drug is marketed under the brand name specified by the object entity.",
+      "interacts with": "The subject drug may have interactions with the substance or entity specified by the object entity.",
+      "treats": "The subject drug is used to treat or manage the medical condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "carvedilol",
+        "interacts with",
+        "other drugs"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have interactions with the substance or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "interacts with",
+        "prescription medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have interactions with the substance or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "interacts with",
+        "over-the-counter medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have interactions with the substance or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "interacts with",
+        "vitamins"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have interactions with the substance or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "interacts with",
+        "herbal products"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have interactions with the substance or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "has administration instruction",
+        "tell each of your health care providers about all medicines you use now and any medicine you start or stop using"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage instruction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "belongs to drug class",
+        "non-cardioselective beta blockers"
+       ],
+       "raw_relation": "belongs to drug class",
+       "definition": "The subject drug is a member of the pharmacological drug class specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "has brand name",
+        "Coreg"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "has brand name",
+        "Coreg CR"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "treats",
+        "Atrial Fibrillation"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "treats",
+        "High Blood Pressure"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "treats",
+        "Left Ventricular Dysfunction"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "treats",
+        "Heart Failure"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "carvedilol",
+        "treats",
+        "Angina"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "carvedilol#what-is-carvedilol#0",
+   "section_id": "what-is-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "belongs to drug class",
+    "beta-blocker"
+   ],
+   "raw_relation": "has drug class",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "carvedilol#what-is-carvedilol#0",
+   "section_id": "what-is-carvedilol",
+   "triplet": [
+    "beta-blockers",
+    "affects",
+    "heart"
+   ],
+   "raw_relation": "affects",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-is-carvedilol#0",
+   "section_id": "what-is-carvedilol",
+   "triplet": [
+    "beta-blockers",
+    "affects",
+    "circulation"
+   ],
+   "raw_relation": "affects",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-is-carvedilol#0",
+   "section_id": "what-is-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "treats",
+    "heart failure"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-is-carvedilol#0",
+   "section_id": "what-is-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "treats",
+    "hypertension"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-is-carvedilol#0",
+   "section_id": "what-is-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "used after",
+    "post-heart attack with reduced pumping"
+   ],
+   "raw_relation": "used in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "carvedilol#what-is-carvedilol#0",
+   "section_id": "what-is-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "may be used for",
+    "unlisted purposes"
+   ],
+   "raw_relation": "may be used for",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-is-carvedilol#0",
+   "section_id": "what-is-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "not approved for",
+    "children younger than 18 years old"
+   ],
+   "raw_relation": "not approved for",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "carvedilol",
+    "contraindicated in",
+    "asthma"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "carvedilol",
+    "contraindicated in",
+    "bronchitis"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "carvedilol",
+    "contraindicated in",
+    "emphysema"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "carvedilol",
+    "contraindicated in",
+    "severe liver disease"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "carvedilol",
+    "contraindicated in",
+    "severe heart failure requiring certain IV medications"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "carvedilol",
+    "contraindicated in",
+    "heart block"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "carvedilol",
+    "contraindicated in",
+    "sick sinus syndrome"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "carvedilol",
+    "contraindicated in",
+    "slow heart rate"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "carvedilol",
+    "may be used for",
+    "heart block"
+   ],
+   "raw_relation": "may be used in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "carvedilol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "carvedilol",
+    "may be used for",
+    "sick sinus syndrome"
+   ],
+   "raw_relation": "may be used in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "carvedilol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "carvedilol",
+    "may be used for",
+    "slow heart rate"
+   ],
+   "raw_relation": "may be used in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "carvedilol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "carvedilol",
+    "should be avoided with",
+    "alcohol"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "carvedilol",
+    "should be avoided with",
+    "medicines or other products that might contain alcohol"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "carvedilol",
+    "has administration instruction",
+    "avoid alcohol within 2 hours before or after taking extended-release carvedilol (Coreg CR)"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "carvedilol",
+    "has administration instruction",
+    "alcohol may cause the carvedilol in Coreg CR to be released too quickly into the body"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "carvedilol",
+    "has administration instruction",
+    "keep using carvedilol even if you feel well"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "carvedilol",
+    "has administration instruction",
+    "use blood pressure medication for the rest of your life"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "carvedilol",
+    "treats",
+    "high blood pressure"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "high blood pressure",
+    "has symptom",
+    "no symptoms"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "contraindicated in",
+    "allergy to Carvedilol"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "contraindicated in",
+    "asthma"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "contraindicated in",
+    "bronchitis"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "contraindicated in",
+    "emphysema"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "contraindicated in",
+    "severe liver disease"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "contraindicated in",
+    "heart block"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "contraindicated in",
+    "sick sinus syndrome"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "contraindicated in",
+    "slow heart rate"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "contraindicated in",
+    "severe heart failure requiring certain IV medications"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "use with caution in",
+    "diabetes"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "use with caution in",
+    "angina"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "use with caution in",
+    "liver or kidney disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "use with caution in",
+    "thyroid disorder"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "use with caution in",
+    "pheochromocytoma"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "use with caution in",
+    "circulation problems"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "use with caution in",
+    "history of allergies"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "has pregnancy or breastfeeding warning",
+    "category C"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "has pregnancy or breastfeeding warning",
+    "may harm an unborn baby"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "has pregnancy or breastfeeding warning",
+    "not known whether passes into breast milk"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "has pregnancy or breastfeeding warning",
+    "not known whether could harm nursing baby"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "talk with doctor about best way to feed baby if taking Carvedilol"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#0",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "take exactly as prescribed by your doctor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#0",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "follow all directions on your prescription label"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#0",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "doctor may occasionally change dose to ensure best results"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#0",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "do not take in larger or smaller amounts or for longer than recommended"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#0",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "take with food"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#0",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "swallow extended-release capsule whole and do not crush or chew"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#0",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "if trouble swallowing, may open capsule"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#0",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "may sprinkle into spoonful of applesauce"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#0",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "applesauce should not be warm"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#0",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "do not sprinkle contents on foods other than applesauce"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#0",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "swallow right away without chewing"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#0",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "do not save mixture for later use"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#0",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "discard empty capsule"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#0",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "take at same time every day"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#0",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "do not skip doses or stop without first talking to your doctor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#0",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "has warning",
+    "stopping suddenly may cause chest pain or heart attack"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#0",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "if switched from tablets to extended-release capsules (Coreg CR), daily total dose may be higher or lower than before"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#1",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "has administration instruction",
+    "older adults may be more likely to become dizzy or feel faint"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#1",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "has administration instruction",
+    "this may happen when switching from tablets to extended-release capsules"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#1",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "has administration instruction",
+    "follow your doctor's instructions"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#1",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "has administration instruction",
+    "your blood pressure will need to be checked often"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#1",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "has administration instruction",
+    "if you are being treated for high blood pressure, keep using carvedilol even if you feel well"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#1",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "high blood pressure",
+    "has symptom",
+    "often has no symptoms"
+   ],
+   "raw_relation": "has characteristic",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#1",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "high blood pressure",
+    "has administration instruction",
+    "you may need to use blood pressure medication for the rest of your life"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#1",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "has administration instruction",
+    "if you need surgery, tell the surgeon ahead of time that you are using carvedilol"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#1",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "has administration instruction",
+    "you may need to stop using carvedilol for a short time"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#1",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "has administration instruction",
+    "you should not stop using carvedilol suddenly"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#1",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "has side effect",
+    "stopping suddenly may cause chest pain or a heart attack"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#1",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "related to",
+    "can affect your pupils during cataract surgery"
+   ],
+   "raw_relation": "has effect during surgery",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#1",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "has administration instruction",
+    "tell your eye surgeon ahead of time that you are using carvedilol"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#1",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "has administration instruction",
+    "do not stop using carvedilol before surgery unless your surgeon tells you to"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#1",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "is defined as",
+    "complete program of treatment for hypertension"
+   ],
+   "raw_relation": "is part of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#1",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "hypertension treatment program",
+    "includes",
+    "diet"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#1",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "hypertension treatment program",
+    "includes",
+    "exercise"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#1",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "hypertension treatment program",
+    "includes",
+    "weight control"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#2",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "follow diet, medication, and exercise routines very closely if being treated for hypertension"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#how-should-i-take-carvedilol#2",
+   "section_id": "how-should-i-take-carvedilol",
+   "triplet": [
+    "Carvedilol",
+    "has storage instruction",
+    "store at room temperature away from moisture and heat"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Carvedilol",
+    "has missed dose instruction",
+    "take the missed dose as soon as you remember"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Carvedilol",
+    "has missed dose instruction",
+    "skip the missed dose if it is almost time for your next scheduled dose"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Carvedilol",
+    "has missed dose instruction",
+    "do not take extra medicine to make up the missed dose"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Carvedilol",
+    "has overdose symptom",
+    "uneven heartbeats"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Carvedilol",
+    "has overdose symptom",
+    "shortness of breath"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Carvedilol",
+    "has overdose symptom",
+    "bluish-colored fingernails"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Carvedilol",
+    "has overdose symptom",
+    "dizziness"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Carvedilol",
+    "has overdose symptom",
+    "weakness"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Carvedilol",
+    "has overdose symptom",
+    "fainting"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Carvedilol",
+    "has overdose symptom",
+    "seizure (convulsions)"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Carvedilol",
+    "has overdose instruction",
+    "seek emergency medical attention"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Carvedilol",
+    "has overdose instruction",
+    "call the Poison Help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Carvedilol",
+    "has side effect",
+    "impaired thinking"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Carvedilol",
+    "has side effect",
+    "impaired reactions"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "be careful when driving or doing tasks requiring alertness"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Carvedilol",
+    "interacts with",
+    "alcohol"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "avoid drinking alcohol within 2 hours before or after taking extended-release carvedilol (Coreg CR)"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "avoid getting up too fast from a sitting or lying position"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "get up slowly and steady yourself to prevent a fall"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has serious side effect",
+    "hives"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has serious side effect",
+    "difficulty breathing"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has serious side effect",
+    "swelling of face, lips, tongue, or throat"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has serious side effect",
+    "light-headed feeling"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has serious side effect",
+    "slow or uneven heartbeats"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has serious side effect",
+    "swelling"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has serious side effect",
+    "rapid weight gain"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has serious side effect",
+    "feeling short of breath"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has serious side effect",
+    "cold feeling or numbness in fingers or toes"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has serious side effect",
+    "chest pain"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has serious side effect",
+    "dry cough"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has serious side effect",
+    "wheezing"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has serious side effect",
+    "chest tightness"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has serious side effect",
+    "trouble breathing"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has serious side effect",
+    "high blood sugar"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has side effect",
+    "weakness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has side effect",
+    "dizziness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has side effect",
+    "diarrhea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has side effect",
+    "dry eyes"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has side effect",
+    "tired feeling"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has side effect",
+    "weight gain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "call your doctor at once if you have a serious side effect"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "get emergency medical help if you have hives"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "get emergency medical help if you have difficulty breathing"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "get emergency medical help if you have swelling of your face, lips, tongue, or throat"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "call your doctor for medical advice about side effects"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has administration instruction",
+    "you may report side effects to FDA at 1-800-FDA-1088"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#carvedilol-side-effects#0",
+   "section_id": "carvedilol-side-effects",
+   "triplet": [
+    "Carvedilol",
+    "has warning",
+    "this is not a complete list of side effects and others may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-other-drugs-will-affect-carvedilol#0",
+   "section_id": "what-other-drugs-will-affect-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "interacts with",
+    "other drugs"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-other-drugs-will-affect-carvedilol#0",
+   "section_id": "what-other-drugs-will-affect-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "interacts with",
+    "prescription medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-other-drugs-will-affect-carvedilol#0",
+   "section_id": "what-other-drugs-will-affect-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "interacts with",
+    "over-the-counter medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-other-drugs-will-affect-carvedilol#0",
+   "section_id": "what-other-drugs-will-affect-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "interacts with",
+    "vitamins"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-other-drugs-will-affect-carvedilol#0",
+   "section_id": "what-other-drugs-will-affect-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "interacts with",
+    "herbal products"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-other-drugs-will-affect-carvedilol#0",
+   "section_id": "what-other-drugs-will-affect-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "has administration instruction",
+    "tell each of your health care providers about all medicines you use now and any medicine you start or stop using"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-other-drugs-will-affect-carvedilol#0",
+   "section_id": "what-other-drugs-will-affect-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "belongs to drug class",
+    "non-cardioselective beta blockers"
+   ],
+   "raw_relation": "belongs to drug class",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-other-drugs-will-affect-carvedilol#0",
+   "section_id": "what-other-drugs-will-affect-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "has brand name",
+    "Coreg"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-other-drugs-will-affect-carvedilol#0",
+   "section_id": "what-other-drugs-will-affect-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "has brand name",
+    "Coreg CR"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-other-drugs-will-affect-carvedilol#0",
+   "section_id": "what-other-drugs-will-affect-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "treats",
+    "Atrial Fibrillation"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-other-drugs-will-affect-carvedilol#0",
+   "section_id": "what-other-drugs-will-affect-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "treats",
+    "High Blood Pressure"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-other-drugs-will-affect-carvedilol#0",
+   "section_id": "what-other-drugs-will-affect-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "treats",
+    "Left Ventricular Dysfunction"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-other-drugs-will-affect-carvedilol#0",
+   "section_id": "what-other-drugs-will-affect-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "treats",
+    "Heart Failure"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "carvedilol#what-other-drugs-will-affect-carvedilol#0",
+   "section_id": "what-other-drugs-will-affect-carvedilol",
+   "triplet": [
+    "carvedilol",
+    "treats",
+    "Angina"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  }
+ ],
+ "name": "Carvedilol",
+ "slug": "carvedilol",
+ "n_chunks": 11,
+ "seconds": 1.3,
+ "llm_model": "Qwen/Qwen3-14B-AWQ"
+}

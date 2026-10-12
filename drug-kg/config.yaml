@@ -1,0 +1,61 @@
+# Drug KG construction with EDC (Extract-Define-Canonicalize). All paths are relative to the project root.
+llm:
+  base_url: http://localhost:8000/v1   # vLLM OpenAI-compatible server (scripts/serve_vllm.sh). Any OpenAI-compatible endpoint works.
+  api_key: EMPTY                       # vLLM ignores the key; set OPENAI_API_KEY-style value for hosted APIs.
+  model: drugkg-llm                    # --served-model-name in scripts/serve_vllm.sh (model-agnostic alias)
+  temperature: 0.0
+  max_tokens: 1024
+  concurrency: 16                      # parallel requests; vLLM batches them on the GPU
+  timeout: 300
+  cache_dir: output/cache/llm          # every (prompt -> completion) is cached on disk (keyed by the real model id); re-runs are free
+  extra_body:                          # forwarded to the chat API; disables Qwen3 "thinking" mode (ignored by other models)
+    chat_template_kwargs: {enable_thinking: false}
+
+embedder:
+  model: BAAI/bge-base-en-v1.5         # sentence-transformers model used to embed relation definitions
+  device: cpu                          # cpu | cuda  (cpu keeps the GPU free for vLLM; a few thousand sentences is fast)
+
+scrape:
+  pages: [main]                        # main | sfx | dosage   (sfx = /sfx/<slug>-side-effects.html, dosage = /dosage/<slug>.html)
+  delay_range: [6, 10]                 # seconds between requests (be polite; drugs.com uses Akamai bot detection)
+  max_retries: 4
+  raw_dir: data/raw_html
+  url_map: data/drug_urls.json
+
+chunking:
+  max_chars: 1100                      # upper bound of a chunk handed to the LLM
+  min_chars: 150                       # tiny trailing chunks are merged into the previous one
+  include_sections: [uses, warnings, before-taking, dosage, missed-dose, overdose, what-to-avoid, side-effects, interactions, ingredients, manufacturer, contraindications]
+  include_unlisted_sections: true      # keep h2 sections whose id is not in the list above (except the excluded ones)
+  exclude_sections: [related-drugs, faq, references, more-about, further-information, images, popular-faq]
+
+edc:
+  schema_path: schemas/drug_seed_schema.csv
+  enrich_schema: true                  # hybrid mode: seed schema + add relations that cannot be canonicalized (EDC self-canonicalization)
+  top_k_candidates: 5                  # candidate target relations retrieved by definition embedding for LLM verification
+  auto_accept_sim: 0.97                # skip LLM verification when the best candidate has >= this cosine sim AND the same normalized name
+  new_relation_merge_sim: 0.80         # when enriching, verify against newly added relations whose definition sim >= this
+  refinement_iterations: 0             # EDC+R: number of refined extraction rounds (0 = plain EDC). Each round roughly doubles LLM calls
+  relation_hint_top_k: 10
+  consolidate_schema: true             # final pass: merge near-duplicate enriched relations (embedding sim + LLM yes/no)
+  consolidate_sim: 0.80
+
+postprocess:
+  max_entity_chars: 120
+  drop_relations: []                   # canonical relation names to drop from the final KG
+  min_enriched_relation_count: 2       # enriched (non-seed) relations used fewer times than this are dropped from the final KG
+  relation_merges:                     # manual merges applied at export (in addition to output/schema/relation_merge_map.json)
+    has instruction: has administration instruction
+
+output:
+  dir: output
+  kg_dir: output/kg
+  edc_dir: output/edc
+  schema_dir: output/schema
+
+entity_canon:                          # KGGen (Mo et al. 2025) FULL deduplication, used by run_experiment.py --entity-canon kggen
+  semhash_threshold: 0.95              # step 1: semantic-hash self-deduplication threshold (KGGen default)
+  cluster_size: 128                    # step 2: k-means clusters of <= 128 items (KGGen default)
+  top_k: 16                            # step 3: neighbours retrieved per item with BM25+embedding rank fusion (KGGen default)
+  workers: 16                          # clusters processed in parallel
+  numeric_guard: true                  # deviation from KGGen: never merge strings whose numbers differ ('1 mg' vs '5 mg')

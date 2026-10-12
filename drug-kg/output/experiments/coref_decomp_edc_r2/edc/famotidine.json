@@ -1,0 +1,3410 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "famotidine#what-is-famotidine#0",
+     "section_id": "what-is-famotidine",
+     "section_heading": "What is famotidine?",
+     "text": "Famotidine is a histamine-2 blocker that works by decreasing the amount of acid the stomach produces.\nFamotidine is used to treat and prevent ulcers in the stomach and intestines.\nFamotidine also treats conditions in which the stomach produces too much acid, such as Zollinger-Ellison syndrome.\nFamotidine treats gastroesophageal reflux disease (GERD).\nFamotidine treats other conditions in which acid backs up from the stomach into the esophagus.\nThis acid backup causes heartburn.\nThe Zantac 360 brand of Famotidine does not contain ranitidine.\nRanitidine is a medicine.\nRanitidine was withdrawn from market in the United States.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Famotidine\", \"has mechanism of action\", \"decreasing the amount of acid the stomach produces\"], [\"Famotidine\", \"treats\", \"ulcers in the stomach\"], [\"Famotidine\", \"treats\", \"ulcers in the intestines\"], [\"Famotidine\", \"treats\", \"Zollinger-Ellison syndrome\"], [\"Famotidine\", \"treats\", \"gastroesophageal reflux disease\"], [\"Famotidine\", \"treats\", \"conditions in which acid backs up from the stomach into the esophagus\"], [\"acid backup\", \"causes\", \"heartburn\"], [\"Zantac 360\", \"has active ingredient\", \"Famotidine\"], [\"Zantac 360\", \"does not contain\", \"ranitidine\"], [\"ranitidine\", \"is a\", \"medicine\"], [\"ranitidine\", \"was withdrawn from market in\", \"United States\"]]",
+     "oie": [
+      [
+       "Famotidine",
+       "has mechanism of action",
+       "decreasing the amount of acid the stomach produces"
+      ],
+      [
+       "Famotidine",
+       "treats",
+       "ulcers in the stomach"
+      ],
+      [
+       "Famotidine",
+       "treats",
+       "ulcers in the intestines"
+      ],
+      [
+       "Famotidine",
+       "treats",
+       "Zollinger-Ellison syndrome"
+      ],
+      [
+       "Famotidine",
+       "treats",
+       "gastroesophageal reflux disease"
+      ],
+      [
+       "Famotidine",
+       "treats",
+       "conditions in which acid backs up from the stomach into the esophagus"
+      ],
+      [
+       "acid backup",
+       "causes",
+       "heartburn"
+      ],
+      [
+       "Zantac 360",
+       "has active ingredient",
+       "Famotidine"
+      ],
+      [
+       "Zantac 360",
+       "does not contain",
+       "ranitidine"
+      ],
+      [
+       "ranitidine",
+       "is a",
+       "medicine"
+      ],
+      [
+       "ranitidine",
+       "was withdrawn from market in",
+       "United States"
+      ]
+     ],
+     "schema_definition": {
+      "causes": "The subject condition or process leads to the occurrence of the medical condition specified by the object entity.",
+      "does not contain": "The subject product or substance does not include the ingredient or component specified by the object entity.",
+      "has active ingredient": "The subject product contains the active pharmaceutical ingredient specified by the object entity.",
+      "has mechanism of action": "The subject drug works by the biological mechanism specified by the object entity.",
+      "is a": "The subject entity is classified as or is an instance of the object entity.",
+      "treats": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+      "was withdrawn from market in": "The subject drug was removed from sale or distribution in the country or region specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Famotidine",
+        "has mechanism of action",
+        "decreasing the amount of acid the stomach produces"
+       ],
+       "raw_relation": "has mechanism of action",
+       "definition": "The subject drug works by the biological mechanism specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "treats",
+        "ulcers in the stomach"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "treats",
+        "ulcers in the intestines"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "treats",
+        "Zollinger-Ellison syndrome"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "treats",
+        "gastroesophageal reflux disease"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "treats",
+        "conditions in which acid backs up from the stomach into the esophagus"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "acid backup",
+        "occurs as",
+        "heartburn"
+       ],
+       "raw_relation": "causes",
+       "definition": "The subject condition or process leads to the occurrence of the medical condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has symptom",
+         0.8912
+        ],
+        [
+         "involves",
+         0.886
+        ],
+        [
+         "known as",
+         0.8831
+        ],
+        [
+         "have",
+         0.8791
+        ],
+        [
+         "occurs as",
+         0.8776
+        ]
+       ],
+       "answer": "E. 'occurs"
+      },
+      {
+       "triplet": [
+        "Zantac 360",
+        "contains ingredient",
+        "Famotidine"
+       ],
+       "raw_relation": "has active ingredient",
+       "definition": "The subject product contains the active pharmaceutical ingredient specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contains ingredient",
+         0.9858
+        ],
+        [
+         "manufactured by",
+         0.8954
+        ],
+        [
+         "has dosage form",
+         0.8913
+        ],
+        [
+         "has tablet color additive",
+         0.8629
+        ],
+        [
+         "may be used for",
+         0.8614
+        ]
+       ],
+       "answer": "A. 'contains ingredient"
+      },
+      {
+       "triplet": [
+        "Zantac 360",
+        "is not",
+        "ranitidine"
+       ],
+       "raw_relation": "does not contain",
+       "definition": "The subject product or substance does not include the ingredient or component specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "is not",
+         0.8405
+        ],
+        [
+         "not caused by",
+         0.8083
+        ],
+        [
+         "has no interaction with",
+         0.7697
+        ],
+        [
+         "does not show up on",
+         0.7533
+        ],
+        [
+         "is not considered addictive",
+         0.7527
+        ]
+       ],
+       "answer": "A. 'is not"
+      },
+      {
+       "triplet": [
+        "ranitidine",
+        "is type of",
+        "medicine"
+       ],
+       "raw_relation": "is a",
+       "definition": "The subject entity is classified as or is an instance of the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "is type of",
+         0.9104
+        ],
+        [
+         "has status",
+         0.873
+        ],
+        [
+         "is not",
+         0.8521
+        ],
+        [
+         "involves",
+         0.8495
+        ],
+        [
+         "is defined as",
+         0.8401
+        ]
+       ],
+       "answer": "A. 'is type"
+      },
+      {
+       "triplet": [
+        "ranitidine",
+        "was withdrawn from market in",
+        "United States"
+       ],
+       "raw_relation": "was withdrawn from market in",
+       "definition": "The subject drug was removed from sale or distribution in the country or region specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "not approved for",
+         0.78
+        ],
+        [
+         "manufactured by",
+         0.773
+        ],
+        [
+         "has brand name",
+         0.773
+        ],
+        [
+         "has generic name",
+         0.7658
+        ],
+        [
+         "used after",
+         0.7646
+        ]
+       ],
+       "answer": "F. None of the"
+      }
+     ]
+    },
+    {
+     "chunk_id": "famotidine#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "Before taking famotidine, tell your doctor if you have kidney or liver disease.\nTell your doctor if you have a history of Long QT syndrome.\nTell your doctor if you have stomach cancer or other problems.\nTell your doctor if you have asthma, COPD, or other breathing problems.\nFamotidine may be only part of a complete program of treatment that also includes changes in diet or lifestyle habits.\nFollow your doctor's instructions very closely.\nHeartburn is often confused with the first symptoms of a heart attack.\nSeek emergency medical attention if you have chest pain or heavy feeling, pain spreading to the jaw, arm or shoulder, nausea, sweating, anxiety, light-headedness and a general ill feeling.\nDo not use over-the-counter famotidine without a doctor's advice if you have trouble or pain swallowing food.\nDo not use over-the-counter famotidine without a doctor's advice if you are vomiting with blood.\nDo not use over-the-counter famotidine without a doctor's advice if you have bloody or black stools.\nThese may be signs of a serious condition.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"famotidine\", \"use with caution in\", \"kidney disease\"], [\"famotidine\", \"use with caution in\", \"liver disease\"], [\"famotidine\", \"use with caution in\", \"long qt syndrome\"], [\"famotidine\", \"use with caution in\", \"stomach cancer\"], [\"famotidine\", \"use with caution in\", \"asthma\"], [\"famotidine\", \"use with caution in\", \"copd\"], [\"famotidine\", \"use with caution in\", \"other breathing problems\"], [\"famotidine\", \"has administration instruction\", \"follow doctor's instructions very closely\"], [\"famotidine\", \"has administration instruction\", \"may be only part of a complete program of treatment that also includes changes in diet or lifestyle habits\"], [\"famotidine\", \"has warning\", \"heartburn is often confused with the first symptoms of a heart attack\"], [\"famotidine\", \"has overdose instruction\", \"seek emergency medical attention if you have chest pain or heavy feeling, pain spreading to the jaw, arm or shoulder, nausea, sweating, anxiety, light-headedness and a general ill feeling\"], [\"famotidine\", \"should be avoided with\", \"over-the-counter use without doctor's advice if you have trouble or pain swallowing food\"], [\"famotidine\", \"should be avoided with\", \"over-the-counter use without doctor's advice if you are vomiting with blood\"], [\"famotidine\", \"should be avoided with\", \"over-the-counter use without doctor's advice if you have bloody or black stools\"], [\"famotidine\", \"has warning\", \"these may be signs of a serious condition\"]]",
+     "oie": [
+      [
+       "famotidine",
+       "use with caution in",
+       "kidney disease"
+      ],
+      [
+       "famotidine",
+       "use with caution in",
+       "liver disease"
+      ],
+      [
+       "famotidine",
+       "use with caution in",
+       "long qt syndrome"
+      ],
+      [
+       "famotidine",
+       "use with caution in",
+       "stomach cancer"
+      ],
+      [
+       "famotidine",
+       "use with caution in",
+       "asthma"
+      ],
+      [
+       "famotidine",
+       "use with caution in",
+       "copd"
+      ],
+      [
+       "famotidine",
+       "use with caution in",
+       "other breathing problems"
+      ],
+      [
+       "famotidine",
+       "has administration instruction",
+       "follow doctor's instructions very closely"
+      ],
+      [
+       "famotidine",
+       "has administration instruction",
+       "may be only part of a complete program of treatment that also includes changes in diet or lifestyle habits"
+      ],
+      [
+       "famotidine",
+       "has warning",
+       "heartburn is often confused with the first symptoms of a heart attack"
+      ],
+      [
+       "famotidine",
+       "has overdose instruction",
+       "seek emergency medical attention if you have chest pain or heavy feeling, pain spreading to the jaw, arm or shoulder, nausea, sweating, anxiety, light-headedness and a general ill feeling"
+      ],
+      [
+       "famotidine",
+       "should be avoided with",
+       "over-the-counter use without doctor's advice if you have trouble or pain swallowing food"
+      ],
+      [
+       "famotidine",
+       "should be avoided with",
+       "over-the-counter use without doctor's advice if you are vomiting with blood"
+      ],
+      [
+       "famotidine",
+       "should be avoided with",
+       "over-the-counter use without doctor's advice if you have bloody or black stools"
+      ],
+      [
+       "famotidine",
+       "has warning",
+       "these may be signs of a serious condition"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the specific administrative guidance or regimen specified by the object entity.",
+      "has overdose instruction": "The subject drug requires the specific emergency response or action to be taken in case of overdose, as specified by the object entity.",
+      "has warning": "The subject drug is associated with the cautionary information or potential risk specified by the object entity.",
+      "should be avoided with": "The subject drug should not be used in conjunction with the condition or situation specified by the object entity.",
+      "use with caution in": "The subject drug may require special care or monitoring for patients with the condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "famotidine",
+        "use with caution in",
+        "kidney disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require special care or monitoring for patients with the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "use with caution in",
+        "liver disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require special care or monitoring for patients with the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "use with caution in",
+        "long qt syndrome"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require special care or monitoring for patients with the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "use with caution in",
+        "stomach cancer"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require special care or monitoring for patients with the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "use with caution in",
+        "asthma"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require special care or monitoring for patients with the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "use with caution in",
+        "copd"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require special care or monitoring for patients with the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "use with caution in",
+        "other breathing problems"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require special care or monitoring for patients with the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has administration instruction",
+        "follow doctor's instructions very closely"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administrative guidance or regimen specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has administration instruction",
+        "may be only part of a complete program of treatment that also includes changes in diet or lifestyle habits"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administrative guidance or regimen specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has warning",
+        "heartburn is often confused with the first symptoms of a heart attack"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug is associated with the cautionary information or potential risk specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has overdose instruction",
+        "seek emergency medical attention if you have chest pain or heavy feeling, pain spreading to the jaw, arm or shoulder, nausea, sweating, anxiety, light-headedness and a general ill feeling"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the specific emergency response or action to be taken in case of overdose, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "should be avoided with",
+        "over-the-counter use without doctor's advice if you have trouble or pain swallowing food"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "The subject drug should not be used in conjunction with the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "should be avoided with",
+        "over-the-counter use without doctor's advice if you are vomiting with blood"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "The subject drug should not be used in conjunction with the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "should be avoided with",
+        "over-the-counter use without doctor's advice if you have bloody or black stools"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "The subject drug should not be used in conjunction with the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has warning",
+        "these may be signs of a serious condition"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug is associated with the cautionary information or potential risk specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "famotidine#before-taking-this-medicine#0",
+     "section_id": "before-taking-this-medicine",
+     "section_heading": "Before taking this medicine",
+     "text": "You should not use Famotidine if you are allergic to famotidine.\nYou should not use Famotidine if you are allergic to similar medicines.\nSimilar medicines include ranitidine (Zantac), cimetidine (Tagamet), or nizatidine (Axid).\nTo make sure Famotidine is safe for you, tell your doctor or pharmacist if you have ever had:\nkidney disease;\nliver disease;\ncancer stomach; or\nlong QT syndrome (in you or a family member).\nAsk a doctor before using famotidine if you are pregnant or breastfeeding.\nFamotidine injection may contain an ingredient that can cause serious side effects or death in very young or premature babies.\nDo not give Famotidine injection to a newborn or premature baby.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Famotidine\", \"contraindicated in\", \"allergy to famotidine\"], [\"Famotidine\", \"contraindicated in\", \"allergy to similar medicines\"], [\"similar medicines\", \"includes\", \"ranitidine (Zantac)\"], [\"similar medicines\", \"includes\", \"cimetidine (Tagamet)\"], [\"similar medicines\", \"includes\", \"nizatidine (Axid)\"], [\"Famotidine\", \"use with caution in\", \"kidney disease\"], [\"Famotidine\", \"use with caution in\", \"liver disease\"], [\"Famotidine\", \"use with caution in\", \"cancer stomach\"], [\"Famotidine\", \"use with caution in\", \"long QT syndrome\"], [\"Famotidine\", \"use with caution in\", \"family member with long QT syndrome\"], [\"Famotidine\", \"use with caution in\", \"pregnancy\"], [\"Famotidine\", \"use with caution in\", \"breastfeeding\"], [\"Famotidine injection\", \"has serious side effect\", \"ingredient causing serious side effects or death in very young or premature babies\"], [\"Famotidine injection\", \"contraindicated in\", \"newborn or premature baby\"]]",
+     "oie": [
+      [
+       "Famotidine",
+       "contraindicated in",
+       "allergy to famotidine"
+      ],
+      [
+       "Famotidine",
+       "contraindicated in",
+       "allergy to similar medicines"
+      ],
+      [
+       "similar medicines",
+       "includes",
+       "ranitidine (Zantac)"
+      ],
+      [
+       "similar medicines",
+       "includes",
+       "cimetidine (Tagamet)"
+      ],
+      [
+       "similar medicines",
+       "includes",
+       "nizatidine (Axid)"
+      ],
+      [
+       "Famotidine",
+       "use with caution in",
+       "kidney disease"
+      ],
+      [
+       "Famotidine",
+       "use with caution in",
+       "liver disease"
+      ],
+      [
+       "Famotidine",
+       "use with caution in",
+       "cancer stomach"
+      ],
+      [
+       "Famotidine",
+       "use with caution in",
+       "long QT syndrome"
+      ],
+      [
+       "Famotidine",
+       "use with caution in",
+       "family member with long QT syndrome"
+      ],
+      [
+       "Famotidine",
+       "use with caution in",
+       "pregnancy"
+      ],
+      [
+       "Famotidine",
+       "use with caution in",
+       "breastfeeding"
+      ],
+      [
+       "Famotidine injection",
+       "has serious side effect",
+       "ingredient causing serious side effects or death in very young or premature babies"
+      ],
+      [
+       "Famotidine injection",
+       "contraindicated in",
+       "newborn or premature baby"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition or situation specified by the object entity.",
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+      "includes": "The subject category contains or encompasses the specific item or entity specified by the object entity.",
+      "use with caution in": "The subject drug may be unsafe or require medical supervision for patients who have the condition or situation specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Famotidine",
+        "contraindicated in",
+        "allergy to famotidine"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "contraindicated in",
+        "allergy to similar medicines"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "similar medicines",
+        "includes",
+        "ranitidine (Zantac)"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject category contains or encompasses the specific item or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "similar medicines",
+        "includes",
+        "cimetidine (Tagamet)"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject category contains or encompasses the specific item or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "similar medicines",
+        "includes",
+        "nizatidine (Axid)"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject category contains or encompasses the specific item or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "use with caution in",
+        "kidney disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "use with caution in",
+        "liver disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "use with caution in",
+        "cancer stomach"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "use with caution in",
+        "long QT syndrome"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "use with caution in",
+        "family member with long QT syndrome"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "use with caution in",
+        "pregnancy"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "use with caution in",
+        "breastfeeding"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine injection",
+        "has serious side effect",
+        "ingredient causing serious side effects or death in very young or premature babies"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine injection",
+        "contraindicated in",
+        "newborn or premature baby"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or situation specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "famotidine#how-should-i-take-famotidine#0",
+     "section_id": "how-should-i-take-famotidine",
+     "section_heading": "How should I take famotidine?",
+     "text": "Use famotidine exactly as directed on the label, or as prescribed by your doctor.\nFamotidine oral is taken by mouth.\nFamotidine injection is given as an infusion into a vein.\nA healthcare provider will give you Famotidine if you are unable to take the medicine by mouth.\nYou may take famotidine oral with or without food.\nShake the bottle of Pepcid suspension (liquid) vigorously for 5 to 10 seconds prior to each use.\nMeasure the liquid medicine carefully.\nUse the dosing syringe provided, or use a medicine dose-measuring device (not a kitchen spoon).\nMost ulcers heal within 4 weeks of treatment.\nUlcers may take up to 8 weeks of using this medicine before your ulcer heals.\nKeep using the medication as directed.\nCall your doctor if the condition you are treating with this medicine does not improve, or if condition gets worse while using this medicine.\nFamotidine may be only part of a complete program of treatment that also includes changes in diet or lifestyle habits.\nFollow all instructions of your doctor or dietitian.\nStore at room temperature away from moisture, heat, and light.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Famotidine\", \"has administration instruction\", \"use exactly as directed on the label or as prescribed by your doctor\"], [\"Famotidine oral\", \"administered via\", \"oral\"], [\"Famotidine injection\", \"administered via\", \"infusion into a vein\"], [\"Famotidine\", \"has administration instruction\", \"given by healthcare provider if unable to take by mouth\"], [\"Famotidine oral\", \"has administration instruction\", \"may be taken with or without food\"], [\"Pepcid suspension\", \"has administration instruction\", \"shake bottle vigorously for 5 to 10 seconds prior to each use\"], [\"Famotidine\", \"has administration instruction\", \"measure liquid medicine carefully\"], [\"Famotidine\", \"has administration instruction\", \"use dosing syringe or medicine dose-measuring device (not a kitchen spoon)\"], [\"Famotidine\", \"has treatment duration\", \"most ulcers heal within 4 weeks of treatment\"], [\"Famotidine\", \"has treatment duration\", \"ulcers may take up to 8 weeks of using this medicine before healing\"], [\"Famotidine\", \"has administration instruction\", \"keep using the medication as directed\"], [\"Famotidine\", \"has administration instruction\", \"call your doctor if condition does not improve or worsens while using this medicine\"], [\"Famotidine\", \"has treatment component\", \"part of a complete program of treatment that also includes changes in diet or lifestyle habits\"], [\"Famotidine\", \"has administration instruction\", \"follow all instructions of your doctor or dietitian\"], [\"Famotidine\", \"has storage instruction\", \"store at room temperature away from moisture, heat, and light\"]]",
+     "oie": [
+      [
+       "Famotidine",
+       "has administration instruction",
+       "use exactly as directed on the label or as prescribed by your doctor"
+      ],
+      [
+       "Famotidine oral",
+       "administered via",
+       "oral"
+      ],
+      [
+       "Famotidine injection",
+       "administered via",
+       "infusion into a vein"
+      ],
+      [
+       "Famotidine",
+       "has administration instruction",
+       "given by healthcare provider if unable to take by mouth"
+      ],
+      [
+       "Famotidine oral",
+       "has administration instruction",
+       "may be taken with or without food"
+      ],
+      [
+       "Pepcid suspension",
+       "has administration instruction",
+       "shake bottle vigorously for 5 to 10 seconds prior to each use"
+      ],
+      [
+       "Famotidine",
+       "has administration instruction",
+       "measure liquid medicine carefully"
+      ],
+      [
+       "Famotidine",
+       "has administration instruction",
+       "use dosing syringe or medicine dose-measuring device (not a kitchen spoon)"
+      ],
+      [
+       "Famotidine",
+       "has treatment duration",
+       "most ulcers heal within 4 weeks of treatment"
+      ],
+      [
+       "Famotidine",
+       "has treatment duration",
+       "ulcers may take up to 8 weeks of using this medicine before healing"
+      ],
+      [
+       "Famotidine",
+       "has administration instruction",
+       "keep using the medication as directed"
+      ],
+      [
+       "Famotidine",
+       "has administration instruction",
+       "call your doctor if condition does not improve or worsens while using this medicine"
+      ],
+      [
+       "Famotidine",
+       "has treatment component",
+       "part of a complete program of treatment that also includes changes in diet or lifestyle habits"
+      ],
+      [
+       "Famotidine",
+       "has administration instruction",
+       "follow all instructions of your doctor or dietitian"
+      ],
+      [
+       "Famotidine",
+       "has storage instruction",
+       "store at room temperature away from moisture, heat, and light"
+      ]
+     ],
+     "schema_definition": {
+      "administered via": "The subject drug is administered using the route or method specified by the object entity.",
+      "has administration instruction": "The subject drug requires the specific instruction specified by the object entity to be followed during its use.",
+      "has storage instruction": "The subject drug should be stored according to the conditions specified by the object entity.",
+      "has treatment component": "The subject drug is part of a broader treatment plan that includes the additional component specified by the object entity.",
+      "has treatment duration": "The subject drug is used for the duration of treatment specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Famotidine",
+        "has administration instruction",
+        "use exactly as directed on the label or as prescribed by your doctor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific instruction specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine oral",
+        "administered via",
+        "oral"
+       ],
+       "raw_relation": "administered via",
+       "definition": "The subject drug is administered using the route or method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine injection",
+        "administered via",
+        "infusion into a vein"
+       ],
+       "raw_relation": "administered via",
+       "definition": "The subject drug is administered using the route or method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "has administration instruction",
+        "given by healthcare provider if unable to take by mouth"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific instruction specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine oral",
+        "has administration instruction",
+        "may be taken with or without food"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific instruction specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Pepcid suspension",
+        "has administration instruction",
+        "shake bottle vigorously for 5 to 10 seconds prior to each use"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific instruction specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "has administration instruction",
+        "measure liquid medicine carefully"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific instruction specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "has administration instruction",
+        "use dosing syringe or medicine dose-measuring device (not a kitchen spoon)"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific instruction specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "has duration of treatment",
+        "most ulcers heal within 4 weeks of treatment"
+       ],
+       "raw_relation": "has treatment duration",
+       "definition": "The subject drug is used for the duration of treatment specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has duration of treatment",
+         0.9435
+        ],
+        [
+         "used after",
+         0.9312
+        ],
+        [
+         "may be used for",
+         0.907
+        ],
+        [
+         "applies to patients who are to be managed with",
+         0.904
+        ],
+        [
+         "treats",
+         0.891
+        ]
+       ],
+       "answer": "A. 'has duration"
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "has duration of treatment",
+        "ulcers may take up to 8 weeks of using this medicine before healing"
+       ],
+       "raw_relation": "has treatment duration",
+       "definition": "The subject drug is used for the duration of treatment specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has duration of treatment",
+         0.9435
+        ],
+        [
+         "used after",
+         0.9312
+        ],
+        [
+         "may be used for",
+         0.907
+        ],
+        [
+         "applies to patients who are to be managed with",
+         0.904
+        ],
+        [
+         "treats",
+         0.891
+        ]
+       ],
+       "answer": "A. 'has duration"
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "has administration instruction",
+        "keep using the medication as directed"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific instruction specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "has administration instruction",
+        "call your doctor if condition does not improve or worsens while using this medicine"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific instruction specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "is part of",
+        "part of a complete program of treatment that also includes changes in diet or lifestyle habits"
+       ],
+       "raw_relation": "has treatment component",
+       "definition": "The subject drug is part of a broader treatment plan that includes the additional component specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "is part of",
+         0.9051
+        ],
+        [
+         "has related treatment guide",
+         0.8878
+        ],
+        [
+         "may be prescribed with",
+         0.8734
+        ],
+        [
+         "used after",
+         0.8715
+        ],
+        [
+         "used in combination with",
+         0.87
+        ]
+       ],
+       "answer": "A. 'is part"
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "has administration instruction",
+        "follow all instructions of your doctor or dietitian"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific instruction specified by the object entity to be followed during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "has storage instruction",
+        "store at room temperature away from moisture, heat, and light"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug should be stored according to the conditions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "famotidine#how-should-i-take-famotidine#1",
+     "section_id": "how-should-i-take-famotidine",
+     "section_heading": "How should I take famotidine?",
+     "text": "Do not allow the liquid medicine to freeze.\nThrow away any unused liquid that is older than 30 days.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Famotidine\", \"has storage instruction\", \"do not allow liquid medicine to freeze\"], [\"Famotidine\", \"has storage instruction\", \"discard any unused liquid older than 30 days\"]]",
+     "oie": [
+      [
+       "Famotidine",
+       "has storage instruction",
+       "do not allow liquid medicine to freeze"
+      ],
+      [
+       "Famotidine",
+       "has storage instruction",
+       "discard any unused liquid older than 30 days"
+      ]
+     ],
+     "schema_definition": {
+      "has storage instruction": "The subject drug requires the storage handling instruction specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Famotidine",
+        "has storage instruction",
+        "do not allow liquid medicine to freeze"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug requires the storage handling instruction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "has storage instruction",
+        "discard any unused liquid older than 30 days"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug requires the storage handling instruction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "famotidine#what-happens-if-i-miss-a-dose#0",
+     "section_id": "what-happens-if-i-miss-a-dose",
+     "section_heading": "What happens if I miss a dose?",
+     "text": "Take the medicine as soon as you can.\nSkip the missed dose if it is almost time for your next dose.\nDo not take two doses at one time.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Famotidine\", \"has missed dose instruction\", \"take the medicine as soon as you can\"], [\"Famotidine\", \"has missed dose instruction\", \"skip the missed dose if it is almost time for your next dose\"], [\"Famotidine\", \"has administration instruction\", \"do not take two doses at one time\"]]",
+     "oie": [
+      [
+       "Famotidine",
+       "has missed dose instruction",
+       "take the medicine as soon as you can"
+      ],
+      [
+       "Famotidine",
+       "has missed dose instruction",
+       "skip the missed dose if it is almost time for your next dose"
+      ],
+      [
+       "Famotidine",
+       "has administration instruction",
+       "do not take two doses at one time"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug is accompanied by the specific instruction regarding its administration provided by the object entity.",
+      "has missed dose instruction": "The subject drug is accompanied by the specific instruction to be followed if a dose is missed, as provided by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Famotidine",
+        "has missed dose instruction",
+        "take the medicine as soon as you can"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug is accompanied by the specific instruction to be followed if a dose is missed, as provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "has missed dose instruction",
+        "skip the missed dose if it is almost time for your next dose"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug is accompanied by the specific instruction to be followed if a dose is missed, as provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "has administration instruction",
+        "do not take two doses at one time"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug is accompanied by the specific instruction regarding its administration provided by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "famotidine#what-happens-if-i-overdose#0",
+     "section_id": "what-happens-if-i-overdose",
+     "section_heading": "What happens if I overdose?",
+     "text": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Famotidine\", \"has overdose instruction\", \"seek emergency medical attention\"], [\"Famotidine\", \"has overdose instruction\", \"call Poison Help line at 1-800-222-1222\"]]",
+     "oie": [
+      [
+       "Famotidine",
+       "has overdose instruction",
+       "seek emergency medical attention"
+      ],
+      [
+       "Famotidine",
+       "has overdose instruction",
+       "call Poison Help line at 1-800-222-1222"
+      ]
+     ],
+     "schema_definition": {
+      "has overdose instruction": "The subject drug requires the action specified by the object entity to be taken in case of an overdose."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Famotidine",
+        "has overdose instruction",
+        "seek emergency medical attention"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity to be taken in case of an overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "has overdose instruction",
+        "call Poison Help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity to be taken in case of an overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "famotidine#what-to-avoid#0",
+     "section_id": "what-to-avoid",
+     "section_heading": "What to avoid",
+     "text": "Avoid drinking alcohol.\nDrinking alcohol can increase the risk of damage to your stomach.\nAvoid taking other stomach acid reducers unless your doctor has told you to.\nHowever, you may take an antacid with famotidine.\nExamples of antacids include Maalox, Mylanta, Gaviscon, Milk of Magnesia, Rolaids, and Tums.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Famotidine\", \"should be avoided with\", \"alcohol\"], [\"alcohol\", \"increases risk of\", \"stomach damage\"], [\"Famotidine\", \"should be avoided with\", \"stomach acid reducers\"], [\"Famotidine\", \"can be used with\", \"antacid\"], [\"antacid\", \"includes\", \"Maalox\"], [\"antacid\", \"includes\", \"Mylanta\"], [\"antacid\", \"includes\", \"Gaviscon\"], [\"antacid\", \"includes\", \"Milk of Magnesia\"], [\"antacid\", \"includes\", \"Rolaids\"], [\"antacid\", \"includes\", \"Tums\"]]",
+     "oie": [
+      [
+       "Famotidine",
+       "should be avoided with",
+       "alcohol"
+      ],
+      [
+       "alcohol",
+       "increases risk of",
+       "stomach damage"
+      ],
+      [
+       "Famotidine",
+       "should be avoided with",
+       "stomach acid reducers"
+      ],
+      [
+       "Famotidine",
+       "can be used with",
+       "antacid"
+      ],
+      [
+       "antacid",
+       "includes",
+       "Maalox"
+      ],
+      [
+       "antacid",
+       "includes",
+       "Mylanta"
+      ],
+      [
+       "antacid",
+       "includes",
+       "Gaviscon"
+      ],
+      [
+       "antacid",
+       "includes",
+       "Milk of Magnesia"
+      ],
+      [
+       "antacid",
+       "includes",
+       "Rolaids"
+      ],
+      [
+       "antacid",
+       "includes",
+       "Tums"
+      ]
+     ],
+     "schema_definition": {
+      "can be used with": "The subject drug may be safely taken in combination with the substance or medication specified by the object entity.",
+      "includes": "The subject category contains or encompasses the specific item or entity specified by the object entity.",
+      "increases risk of": "The subject activity or substance may raise the likelihood of the adverse outcome or condition specified by the object entity.",
+      "should be avoided with": "The subject drug should not be taken in combination with the substance or medication specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Famotidine",
+        "should be avoided with",
+        "alcohol"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "The subject drug should not be taken in combination with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "alcohol",
+        "increases risk of",
+        "stomach damage"
+       ],
+       "raw_relation": "increases risk of",
+       "definition": "The subject activity or substance may raise the likelihood of the adverse outcome or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "should be avoided with",
+        "stomach acid reducers"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "The subject drug should not be taken in combination with the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "may be prescribed with",
+        "antacid"
+       ],
+       "raw_relation": "can be used with",
+       "definition": "The subject drug may be safely taken in combination with the substance or medication specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may be prescribed with",
+         0.9318
+        ],
+        [
+         "may be used for",
+         0.8825
+        ],
+        [
+         "has administration instruction",
+         0.8662
+        ],
+        [
+         "interacts with",
+         0.8603
+        ],
+        [
+         "similar to",
+         0.8549
+        ]
+       ],
+       "answer": "A. 'may be"
+      },
+      {
+       "triplet": [
+        "antacid",
+        "includes",
+        "Maalox"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject category contains or encompasses the specific item or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "antacid",
+        "includes",
+        "Mylanta"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject category contains or encompasses the specific item or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "antacid",
+        "includes",
+        "Gaviscon"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject category contains or encompasses the specific item or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "antacid",
+        "includes",
+        "Milk of Magnesia"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject category contains or encompasses the specific item or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "antacid",
+        "includes",
+        "Rolaids"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject category contains or encompasses the specific item or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "antacid",
+        "includes",
+        "Tums"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject category contains or encompasses the specific item or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "famotidine#famotidine-side-effects#0",
+     "section_id": "famotidine-side-effects",
+     "section_heading": "Famotidine side effects",
+     "text": "Get emergency medical help if you have any signs of an allergic reaction to famotidine.\nSigns of an allergic reaction to famotidine include hives.\nSigns of an allergic reaction to famotidine also include difficult breathing.\nSigns of an allergic reaction to famotidine also include swelling of your face, lips, tongue, or throat.\nStop using Famotidine and call your doctor at once if you have:\nconfusion, hallucinations, agitation, lack of energy;\na seizure;\nfast or pounding heartbeats, sudden dizziness (like you might pass out).\nSome side effects may be more likely in older adults and in people who have severe kidney disease.\nCommon famotidine side effects may include:\nheadache;\ndizziness; or\nconstipation or diarrhea.\nThis is not a complete list of side effects and others may occur.\nCall your doctor for medical advice about side effects.\nYou may report side effects to FDA at 1-800-FDA-1088.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"famotidine\", \"has serious side effect\", \"allergic reaction\"], [\"famotidine\", \"has side effect symptom\", \"hives\"], [\"famotidine\", \"has side effect symptom\", \"difficult breathing\"], [\"famotidine\", \"has side effect symptom\", \"swelling of face, lips, tongue, or throat\"], [\"famotidine\", \"has overdose symptom\", \"confusion\"], [\"famotidine\", \"has overdose symptom\", \"hallucinations\"], [\"famotidine\", \"has overdose symptom\", \"agitation\"], [\"famotidine\", \"has overdose symptom\", \"lack of energy\"], [\"famotidine\", \"has overdose symptom\", \"seizure\"], [\"famotidine\", \"has overdose symptom\", \"fast or pounding heartbeats\"], [\"famotidine\", \"has overdose symptom\", \"sudden dizziness\"], [\"famotidine\", \"has increased risk in\", \"older adults\"], [\"famotidine\", \"has increased risk in\", \"people with severe kidney disease\"], [\"famotidine\", \"has side effect\", \"headache\"], [\"famotidine\", \"has side effect\", \"dizziness\"], [\"famotidine\", \"has side effect\", \"constipation\"], [\"famotidine\", \"has side effect\", \"diarrhea\"], [\"famotidine\", \"has warning\", \"not a complete list of side effects\"], [\"famotidine\", \"has administration instruction\", \"call your doctor for medical advice about side effects\"], [\"famotidine\", \"has administration instruction\", \"report side effects to FDA at 1-800-FDA-1088\"]]",
+     "oie": [
+      [
+       "famotidine",
+       "has serious side effect",
+       "allergic reaction"
+      ],
+      [
+       "famotidine",
+       "has side effect symptom",
+       "hives"
+      ],
+      [
+       "famotidine",
+       "has side effect symptom",
+       "difficult breathing"
+      ],
+      [
+       "famotidine",
+       "has side effect symptom",
+       "swelling of face, lips, tongue, or throat"
+      ],
+      [
+       "famotidine",
+       "has overdose symptom",
+       "confusion"
+      ],
+      [
+       "famotidine",
+       "has overdose symptom",
+       "hallucinations"
+      ],
+      [
+       "famotidine",
+       "has overdose symptom",
+       "agitation"
+      ],
+      [
+       "famotidine",
+       "has overdose symptom",
+       "lack of energy"
+      ],
+      [
+       "famotidine",
+       "has overdose symptom",
+       "seizure"
+      ],
+      [
+       "famotidine",
+       "has overdose symptom",
+       "fast or pounding heartbeats"
+      ],
+      [
+       "famotidine",
+       "has overdose symptom",
+       "sudden dizziness"
+      ],
+      [
+       "famotidine",
+       "has increased risk in",
+       "older adults"
+      ],
+      [
+       "famotidine",
+       "has increased risk in",
+       "people with severe kidney disease"
+      ],
+      [
+       "famotidine",
+       "has side effect",
+       "headache"
+      ],
+      [
+       "famotidine",
+       "has side effect",
+       "dizziness"
+      ],
+      [
+       "famotidine",
+       "has side effect",
+       "constipation"
+      ],
+      [
+       "famotidine",
+       "has side effect",
+       "diarrhea"
+      ],
+      [
+       "famotidine",
+       "has warning",
+       "not a complete list of side effects"
+      ],
+      [
+       "famotidine",
+       "has administration instruction",
+       "call your doctor for medical advice about side effects"
+      ],
+      [
+       "famotidine",
+       "has administration instruction",
+       "report side effects to FDA at 1-800-FDA-1088"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the action or instruction specified by the object entity to be followed by the patient.",
+      "has increased risk in": "The subject drug may pose a higher risk of adverse effects in the population or group specified by the object entity.",
+      "has overdose symptom": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+      "has side effect": "The subject drug may cause the adverse effect specified by the object entity.",
+      "has side effect symptom": "The subject drug may cause the specific symptom as an adverse effect.",
+      "has warning": "The subject drug comes with a caution or warning specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "famotidine",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has side effect",
+        "hives"
+       ],
+       "raw_relation": "has side effect symptom",
+       "definition": "The subject drug may cause the specific symptom as an adverse effect.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9066
+        ],
+        [
+         "has side effect frequency",
+         0.8633
+        ],
+        [
+         "has serious side effect",
+         0.8572
+        ],
+        [
+         "has overdose symptom",
+         0.8361
+        ],
+        [
+         "interacts with",
+         0.8091
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has side effect",
+        "difficult breathing"
+       ],
+       "raw_relation": "has side effect symptom",
+       "definition": "The subject drug may cause the specific symptom as an adverse effect.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9066
+        ],
+        [
+         "has side effect frequency",
+         0.8633
+        ],
+        [
+         "has serious side effect",
+         0.8572
+        ],
+        [
+         "has overdose symptom",
+         0.8361
+        ],
+        [
+         "interacts with",
+         0.8091
+        ]
+       ],
+       "answer": "A. 'has side"
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has side effect",
+        "swelling of face, lips, tongue, or throat"
+       ],
+       "raw_relation": "has side effect symptom",
+       "definition": "The subject drug may cause the specific symptom as an adverse effect.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9066
+        ],
+        [
+         "has side effect frequency",
+         0.8633
+        ],
+        [
+         "has serious side effect",
+         0.8572
+        ],
+        [
+         "has overdose symptom",
+         0.8361
+        ],
+        [
+         "interacts with",
+         0.8091
+        ]
+       ],
+       "answer": "A. 'has side"
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has overdose symptom",
+        "confusion"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has overdose symptom",
+        "hallucinations"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has overdose symptom",
+        "agitation"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has overdose symptom",
+        "lack of energy"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has overdose symptom",
+        "seizure"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has overdose symptom",
+        "fast or pounding heartbeats"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has overdose symptom",
+        "sudden dizziness"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has higher levels in",
+        "older adults"
+       ],
+       "raw_relation": "has increased risk in",
+       "definition": "The subject drug may pose a higher risk of adverse effects in the population or group specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8984
+        ],
+        [
+         "has side effect frequency",
+         0.8851
+        ],
+        [
+         "has serious side effect",
+         0.8844
+        ],
+        [
+         "has warning",
+         0.8689
+        ],
+        [
+         "has higher levels in",
+         0.8606
+        ]
+       ],
+       "answer": "E. 'has higher"
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has higher levels in",
+        "people with severe kidney disease"
+       ],
+       "raw_relation": "has increased risk in",
+       "definition": "The subject drug may pose a higher risk of adverse effects in the population or group specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8984
+        ],
+        [
+         "has side effect frequency",
+         0.8851
+        ],
+        [
+         "has serious side effect",
+         0.8844
+        ],
+        [
+         "has warning",
+         0.8689
+        ],
+        [
+         "has higher levels in",
+         0.8606
+        ]
+       ],
+       "answer": "E. 'has higher"
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has side effect",
+        "headache"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has side effect",
+        "dizziness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has side effect",
+        "constipation"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has side effect",
+        "diarrhea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has warning",
+        "not a complete list of side effects"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug comes with a caution or warning specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has administration instruction",
+        "call your doctor for medical advice about side effects"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the action or instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "famotidine",
+        "has administration instruction",
+        "report side effects to FDA at 1-800-FDA-1088"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the action or instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "famotidine#what-other-drugs-will-interact-with-famotidine#0",
+     "section_id": "what-other-drugs-will-interact-with-famotidine",
+     "section_heading": "What other drugs will interact with famotidine?",
+     "text": "Famotidine oral can make it harder for your body to absorb other medicines you take by mouth.\nTell your doctor if you are taking:\ncefditoren;\ndasatinib;\ndelavirdine;\nfosamprenavir; or\ntizanidine.\nThis list is not complete.\nOther drugs may interact with famotidine.\nThese include prescription and over-the-counter medicines.\nThese also include vitamins and herbal products.\nNot all possible drug interactions are listed here.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Famotidine\", \"interacts with\", \"other medicines taken by mouth\"], [\"Famotidine\", \"interacts with\", \"cefditoren\"], [\"Famotidine\", \"interacts with\", \"dasatinib\"], [\"Famotidine\", \"interacts with\", \"delavirdine\"], [\"Famotidine\", \"interacts with\", \"fosamprenavir\"], [\"Famotidine\", \"interacts with\", \"tizanidine\"], [\"Famotidine\", \"has warning\", \"list is not complete\"], [\"Famotidine\", \"interacts with\", \"prescription medicines\"], [\"Famotidine\", \"interacts with\", \"over-the-counter medicines\"], [\"Famotidine\", \"interacts with\", \"vitamins\"], [\"Famotidine\", \"interacts with\", \"herbal products\"], [\"Famotidine\", \"has warning\", \"not all possible drug interactions are listed here\"]]",
+     "oie": [
+      [
+       "Famotidine",
+       "interacts with",
+       "other medicines taken by mouth"
+      ],
+      [
+       "Famotidine",
+       "interacts with",
+       "cefditoren"
+      ],
+      [
+       "Famotidine",
+       "interacts with",
+       "dasatinib"
+      ],
+      [
+       "Famotidine",
+       "interacts with",
+       "delavirdine"
+      ],
+      [
+       "Famotidine",
+       "interacts with",
+       "fosamprenavir"
+      ],
+      [
+       "Famotidine",
+       "interacts with",
+       "tizanidine"
+      ],
+      [
+       "Famotidine",
+       "has warning",
+       "list is not complete"
+      ],
+      [
+       "Famotidine",
+       "interacts with",
+       "prescription medicines"
+      ],
+      [
+       "Famotidine",
+       "interacts with",
+       "over-the-counter medicines"
+      ],
+      [
+       "Famotidine",
+       "interacts with",
+       "vitamins"
+      ],
+      [
+       "Famotidine",
+       "interacts with",
+       "herbal products"
+      ],
+      [
+       "Famotidine",
+       "has warning",
+       "not all possible drug interactions are listed here"
+      ]
+     ],
+     "schema_definition": {
+      "has warning": "The subject entity has a caution or warning related to the information specified by the object entity.",
+      "interacts with": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Famotidine",
+        "interacts with",
+        "other medicines taken by mouth"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "interacts with",
+        "cefditoren"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "interacts with",
+        "dasatinib"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "interacts with",
+        "delavirdine"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "interacts with",
+        "fosamprenavir"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "interacts with",
+        "tizanidine"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "has warning",
+        "list is not complete"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject entity has a caution or warning related to the information specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "interacts with",
+        "prescription medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "interacts with",
+        "over-the-counter medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "interacts with",
+        "vitamins"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "interacts with",
+        "herbal products"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or category of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Famotidine",
+        "has warning",
+        "not all possible drug interactions are listed here"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject entity has a caution or warning related to the information specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "famotidine#what-is-famotidine#0",
+   "section_id": "what-is-famotidine",
+   "triplet": [
+    "Famotidine",
+    "has mechanism of action",
+    "decreasing the amount of acid the stomach produces"
+   ],
+   "raw_relation": "has mechanism of action",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-is-famotidine#0",
+   "section_id": "what-is-famotidine",
+   "triplet": [
+    "Famotidine",
+    "treats",
+    "ulcers in the stomach"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-is-famotidine#0",
+   "section_id": "what-is-famotidine",
+   "triplet": [
+    "Famotidine",
+    "treats",
+    "ulcers in the intestines"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-is-famotidine#0",
+   "section_id": "what-is-famotidine",
+   "triplet": [
+    "Famotidine",
+    "treats",
+    "Zollinger-Ellison syndrome"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-is-famotidine#0",
+   "section_id": "what-is-famotidine",
+   "triplet": [
+    "Famotidine",
+    "treats",
+    "gastroesophageal reflux disease"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-is-famotidine#0",
+   "section_id": "what-is-famotidine",
+   "triplet": [
+    "Famotidine",
+    "treats",
+    "conditions in which acid backs up from the stomach into the esophagus"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-is-famotidine#0",
+   "section_id": "what-is-famotidine",
+   "triplet": [
+    "acid backup",
+    "occurs as",
+    "heartburn"
+   ],
+   "raw_relation": "causes",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "famotidine#what-is-famotidine#0",
+   "section_id": "what-is-famotidine",
+   "triplet": [
+    "Zantac 360",
+    "contains ingredient",
+    "Famotidine"
+   ],
+   "raw_relation": "has active ingredient",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "famotidine#what-is-famotidine#0",
+   "section_id": "what-is-famotidine",
+   "triplet": [
+    "Zantac 360",
+    "is not",
+    "ranitidine"
+   ],
+   "raw_relation": "does not contain",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "famotidine#what-is-famotidine#0",
+   "section_id": "what-is-famotidine",
+   "triplet": [
+    "ranitidine",
+    "is type of",
+    "medicine"
+   ],
+   "raw_relation": "is a",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "famotidine#what-is-famotidine#0",
+   "section_id": "what-is-famotidine",
+   "triplet": [
+    "ranitidine",
+    "was withdrawn from market in",
+    "United States"
+   ],
+   "raw_relation": "was withdrawn from market in",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "famotidine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "famotidine",
+    "use with caution in",
+    "kidney disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "famotidine",
+    "use with caution in",
+    "liver disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "famotidine",
+    "use with caution in",
+    "long qt syndrome"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "famotidine",
+    "use with caution in",
+    "stomach cancer"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "famotidine",
+    "use with caution in",
+    "asthma"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "famotidine",
+    "use with caution in",
+    "copd"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "famotidine",
+    "use with caution in",
+    "other breathing problems"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "famotidine",
+    "has administration instruction",
+    "follow doctor's instructions very closely"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "famotidine",
+    "has administration instruction",
+    "may be only part of a complete program of treatment that also includes changes in diet or lifestyle habits"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "famotidine",
+    "has warning",
+    "heartburn is often confused with the first symptoms of a heart attack"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "famotidine",
+    "has overdose instruction",
+    "seek emergency medical attention if you have chest pain or heavy feeling, pain spreading to the jaw, arm or shoulder, nausea, sweating, anxiety, light-headedness and a general ill feeling"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "famotidine",
+    "should be avoided with",
+    "over-the-counter use without doctor's advice if you have trouble or pain swallowing food"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "famotidine",
+    "should be avoided with",
+    "over-the-counter use without doctor's advice if you are vomiting with blood"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "famotidine",
+    "should be avoided with",
+    "over-the-counter use without doctor's advice if you have bloody or black stools"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "famotidine",
+    "has warning",
+    "these may be signs of a serious condition"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Famotidine",
+    "contraindicated in",
+    "allergy to famotidine"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Famotidine",
+    "contraindicated in",
+    "allergy to similar medicines"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "similar medicines",
+    "includes",
+    "ranitidine (Zantac)"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "similar medicines",
+    "includes",
+    "cimetidine (Tagamet)"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "similar medicines",
+    "includes",
+    "nizatidine (Axid)"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Famotidine",
+    "use with caution in",
+    "kidney disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Famotidine",
+    "use with caution in",
+    "liver disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Famotidine",
+    "use with caution in",
+    "cancer stomach"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Famotidine",
+    "use with caution in",
+    "long QT syndrome"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Famotidine",
+    "use with caution in",
+    "family member with long QT syndrome"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Famotidine",
+    "use with caution in",
+    "pregnancy"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Famotidine",
+    "use with caution in",
+    "breastfeeding"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Famotidine injection",
+    "has serious side effect",
+    "ingredient causing serious side effects or death in very young or premature babies"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "Famotidine injection",
+    "contraindicated in",
+    "newborn or premature baby"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#how-should-i-take-famotidine#0",
+   "section_id": "how-should-i-take-famotidine",
+   "triplet": [
+    "Famotidine",
+    "has administration instruction",
+    "use exactly as directed on the label or as prescribed by your doctor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#how-should-i-take-famotidine#0",
+   "section_id": "how-should-i-take-famotidine",
+   "triplet": [
+    "Famotidine oral",
+    "administered via",
+    "oral"
+   ],
+   "raw_relation": "administered via",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#how-should-i-take-famotidine#0",
+   "section_id": "how-should-i-take-famotidine",
+   "triplet": [
+    "Famotidine injection",
+    "administered via",
+    "infusion into a vein"
+   ],
+   "raw_relation": "administered via",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#how-should-i-take-famotidine#0",
+   "section_id": "how-should-i-take-famotidine",
+   "triplet": [
+    "Famotidine",
+    "has administration instruction",
+    "given by healthcare provider if unable to take by mouth"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#how-should-i-take-famotidine#0",
+   "section_id": "how-should-i-take-famotidine",
+   "triplet": [
+    "Famotidine oral",
+    "has administration instruction",
+    "may be taken with or without food"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#how-should-i-take-famotidine#0",
+   "section_id": "how-should-i-take-famotidine",
+   "triplet": [
+    "Pepcid suspension",
+    "has administration instruction",
+    "shake bottle vigorously for 5 to 10 seconds prior to each use"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#how-should-i-take-famotidine#0",
+   "section_id": "how-should-i-take-famotidine",
+   "triplet": [
+    "Famotidine",
+    "has administration instruction",
+    "measure liquid medicine carefully"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#how-should-i-take-famotidine#0",
+   "section_id": "how-should-i-take-famotidine",
+   "triplet": [
+    "Famotidine",
+    "has administration instruction",
+    "use dosing syringe or medicine dose-measuring device (not a kitchen spoon)"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#how-should-i-take-famotidine#0",
+   "section_id": "how-should-i-take-famotidine",
+   "triplet": [
+    "Famotidine",
+    "has duration of treatment",
+    "most ulcers heal within 4 weeks of treatment"
+   ],
+   "raw_relation": "has treatment duration",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "famotidine#how-should-i-take-famotidine#0",
+   "section_id": "how-should-i-take-famotidine",
+   "triplet": [
+    "Famotidine",
+    "has duration of treatment",
+    "ulcers may take up to 8 weeks of using this medicine before healing"
+   ],
+   "raw_relation": "has treatment duration",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "famotidine#how-should-i-take-famotidine#0",
+   "section_id": "how-should-i-take-famotidine",
+   "triplet": [
+    "Famotidine",
+    "has administration instruction",
+    "keep using the medication as directed"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#how-should-i-take-famotidine#0",
+   "section_id": "how-should-i-take-famotidine",
+   "triplet": [
+    "Famotidine",
+    "has administration instruction",
+    "call your doctor if condition does not improve or worsens while using this medicine"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#how-should-i-take-famotidine#0",
+   "section_id": "how-should-i-take-famotidine",
+   "triplet": [
+    "Famotidine",
+    "is part of",
+    "part of a complete program of treatment that also includes changes in diet or lifestyle habits"
+   ],
+   "raw_relation": "has treatment component",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "famotidine#how-should-i-take-famotidine#0",
+   "section_id": "how-should-i-take-famotidine",
+   "triplet": [
+    "Famotidine",
+    "has administration instruction",
+    "follow all instructions of your doctor or dietitian"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#how-should-i-take-famotidine#0",
+   "section_id": "how-should-i-take-famotidine",
+   "triplet": [
+    "Famotidine",
+    "has storage instruction",
+    "store at room temperature away from moisture, heat, and light"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#how-should-i-take-famotidine#1",
+   "section_id": "how-should-i-take-famotidine",
+   "triplet": [
+    "Famotidine",
+    "has storage instruction",
+    "do not allow liquid medicine to freeze"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#how-should-i-take-famotidine#1",
+   "section_id": "how-should-i-take-famotidine",
+   "triplet": [
+    "Famotidine",
+    "has storage instruction",
+    "discard any unused liquid older than 30 days"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Famotidine",
+    "has missed dose instruction",
+    "take the medicine as soon as you can"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Famotidine",
+    "has missed dose instruction",
+    "skip the missed dose if it is almost time for your next dose"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Famotidine",
+    "has administration instruction",
+    "do not take two doses at one time"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Famotidine",
+    "has overdose instruction",
+    "seek emergency medical attention"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Famotidine",
+    "has overdose instruction",
+    "call Poison Help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Famotidine",
+    "should be avoided with",
+    "alcohol"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "alcohol",
+    "increases risk of",
+    "stomach damage"
+   ],
+   "raw_relation": "increases risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Famotidine",
+    "should be avoided with",
+    "stomach acid reducers"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Famotidine",
+    "may be prescribed with",
+    "antacid"
+   ],
+   "raw_relation": "can be used with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "famotidine#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "antacid",
+    "includes",
+    "Maalox"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "antacid",
+    "includes",
+    "Mylanta"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "antacid",
+    "includes",
+    "Gaviscon"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "antacid",
+    "includes",
+    "Milk of Magnesia"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "antacid",
+    "includes",
+    "Rolaids"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "antacid",
+    "includes",
+    "Tums"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has side effect",
+    "hives"
+   ],
+   "raw_relation": "has side effect symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has side effect",
+    "difficult breathing"
+   ],
+   "raw_relation": "has side effect symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has side effect",
+    "swelling of face, lips, tongue, or throat"
+   ],
+   "raw_relation": "has side effect symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has overdose symptom",
+    "confusion"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has overdose symptom",
+    "hallucinations"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has overdose symptom",
+    "agitation"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has overdose symptom",
+    "lack of energy"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has overdose symptom",
+    "seizure"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has overdose symptom",
+    "fast or pounding heartbeats"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has overdose symptom",
+    "sudden dizziness"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has higher levels in",
+    "older adults"
+   ],
+   "raw_relation": "has increased risk in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has higher levels in",
+    "people with severe kidney disease"
+   ],
+   "raw_relation": "has increased risk in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has side effect",
+    "headache"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has side effect",
+    "dizziness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has side effect",
+    "constipation"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has side effect",
+    "diarrhea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has warning",
+    "not a complete list of side effects"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has administration instruction",
+    "call your doctor for medical advice about side effects"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#famotidine-side-effects#0",
+   "section_id": "famotidine-side-effects",
+   "triplet": [
+    "famotidine",
+    "has administration instruction",
+    "report side effects to FDA at 1-800-FDA-1088"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-other-drugs-will-interact-with-famotidine#0",
+   "section_id": "what-other-drugs-will-interact-with-famotidine",
+   "triplet": [
+    "Famotidine",
+    "interacts with",
+    "other medicines taken by mouth"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-other-drugs-will-interact-with-famotidine#0",
+   "section_id": "what-other-drugs-will-interact-with-famotidine",
+   "triplet": [
+    "Famotidine",
+    "interacts with",
+    "cefditoren"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-other-drugs-will-interact-with-famotidine#0",
+   "section_id": "what-other-drugs-will-interact-with-famotidine",
+   "triplet": [
+    "Famotidine",
+    "interacts with",
+    "dasatinib"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-other-drugs-will-interact-with-famotidine#0",
+   "section_id": "what-other-drugs-will-interact-with-famotidine",
+   "triplet": [
+    "Famotidine",
+    "interacts with",
+    "delavirdine"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-other-drugs-will-interact-with-famotidine#0",
+   "section_id": "what-other-drugs-will-interact-with-famotidine",
+   "triplet": [
+    "Famotidine",
+    "interacts with",
+    "fosamprenavir"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-other-drugs-will-interact-with-famotidine#0",
+   "section_id": "what-other-drugs-will-interact-with-famotidine",
+   "triplet": [
+    "Famotidine",
+    "interacts with",
+    "tizanidine"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-other-drugs-will-interact-with-famotidine#0",
+   "section_id": "what-other-drugs-will-interact-with-famotidine",
+   "triplet": [
+    "Famotidine",
+    "has warning",
+    "list is not complete"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-other-drugs-will-interact-with-famotidine#0",
+   "section_id": "what-other-drugs-will-interact-with-famotidine",
+   "triplet": [
+    "Famotidine",
+    "interacts with",
+    "prescription medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-other-drugs-will-interact-with-famotidine#0",
+   "section_id": "what-other-drugs-will-interact-with-famotidine",
+   "triplet": [
+    "Famotidine",
+    "interacts with",
+    "over-the-counter medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-other-drugs-will-interact-with-famotidine#0",
+   "section_id": "what-other-drugs-will-interact-with-famotidine",
+   "triplet": [
+    "Famotidine",
+    "interacts with",
+    "vitamins"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-other-drugs-will-interact-with-famotidine#0",
+   "section_id": "what-other-drugs-will-interact-with-famotidine",
+   "triplet": [
+    "Famotidine",
+    "interacts with",
+    "herbal products"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "famotidine#what-other-drugs-will-interact-with-famotidine#0",
+   "section_id": "what-other-drugs-will-interact-with-famotidine",
+   "triplet": [
+    "Famotidine",
+    "has warning",
+    "not all possible drug interactions are listed here"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  }
+ ],
+ "name": "Famotidine",
+ "slug": "famotidine",
+ "n_chunks": 10,
+ "seconds": 16.0,
+ "llm_model": "Qwen/Qwen3-14B-AWQ"
+}

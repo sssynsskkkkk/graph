@@ -1,0 +1,124 @@
+2026-10-06 12:30:45,061 INFO drugkg: stage=extract drugs=50
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2949.69it/s]
+2026-10-06 12:31:00,760 INFO drugkg.edc.schema: schema loaded from /home/dbstjr9611/drug-kg-edc/output/schema/schema.csv: 135 relations
+2026-10-06 12:31:00,761 INFO drugkg: Atorvastatin: already extracted (use --force to redo)
+2026-10-06 12:31:00,761 INFO drugkg: Levothyroxine: already extracted (use --force to redo)
+2026-10-06 12:31:00,762 INFO drugkg: Metformin: already extracted (use --force to redo)
+2026-10-06 12:31:00,762 INFO drugkg: Amlodipine: already extracted (use --force to redo)
+2026-10-06 12:31:00,762 INFO drugkg: Lisinopril: already extracted (use --force to redo)
+2026-10-06 12:31:00,762 INFO drugkg: Albuterol: already extracted (use --force to redo)
+2026-10-06 12:31:00,762 INFO drugkg: Losartan: already extracted (use --force to redo)
+2026-10-06 12:31:00,762 INFO drugkg: Metoprolol: already extracted (use --force to redo)
+2026-10-06 12:31:00,762 INFO drugkg: Rosuvastatin: already extracted (use --force to redo)
+2026-10-06 12:31:00,762 INFO drugkg: Omeprazole: already extracted (use --force to redo)
+2026-10-06 12:31:00,762 INFO drugkg: Gabapentin: already extracted (use --force to redo)
+2026-10-06 12:31:00,762 INFO drugkg: Sertraline: already extracted (use --force to redo)
+2026-10-06 12:31:00,763 INFO drugkg: Escitalopram: already extracted (use --force to redo)
+2026-10-06 12:31:00,763 INFO drugkg: Semaglutide: already extracted (use --force to redo)
+2026-10-06 12:31:00,763 INFO drugkg: Dextroamphetamine + Amphetamine salts: already extracted (use --force to redo)
+2026-10-06 12:31:00,763 INFO drugkg: Pantoprazole: already extracted (use --force to redo)
+2026-10-06 12:31:00,763 INFO drugkg: Bupropion: already extracted (use --force to redo)
+2026-10-06 12:31:00,763 INFO drugkg: Hydrochlorothiazide: already extracted (use --force to redo)
+2026-10-06 12:31:00,763 INFO drugkg: Fluoxetine: already extracted (use --force to redo)
+2026-10-06 12:31:00,763 INFO drugkg: Trazodone: already extracted (use --force to redo)
+2026-10-06 12:31:00,763 INFO drugkg: Montelukast: already extracted (use --force to redo)
+2026-10-06 12:31:00,763 INFO drugkg: Amoxicillin: already extracted (use --force to redo)
+2026-10-06 12:31:00,763 INFO drugkg: Fluticasone: already extracted (use --force to redo)
+2026-10-06 12:31:00,763 INFO drugkg: Tamsulosin: already extracted (use --force to redo)
+2026-10-06 12:31:00,764 INFO drugkg: Apixaban: already extracted (use --force to redo)
+2026-10-06 12:31:00,764 INFO drugkg: Simvastatin: already extracted (use --force to redo)
+2026-10-06 12:31:00,764 INFO drugkg: === Insulin Glargine (insulin-glargine): 16 chunks
+extract:   0%|          | 0/16 [00:00<?, ?it/s]                                               define:   0%|          | 0/16 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/88 [00:00<?, ?it/s]                                                    2026-10-06 12:31:19,380 INFO drugkg.edc.framework: iteration 0: 16 chunks, 209 open triplets, 209 canonical triplets, schema size 137
+2026-10-06 12:31:19,408 INFO drugkg: Insulin Glargine: 209 final triplets in 19s; schema now 137 relations; llm stats {'calls': 122, 'cache_hits': 0, 'prompt_tokens': 90262, 'completion_tokens': 6209, 'errors': 0}
+2026-10-06 12:31:19,409 INFO drugkg: === Empagliflozin (empagliflozin): 11 chunks
+extract:   0%|          | 0/11 [00:00<?, ?it/s]                                               define:   0%|          | 0/11 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/61 [00:00<?, ?it/s]                                                    2026-10-06 12:31:35,165 INFO drugkg.edc.framework: iteration 0: 11 chunks, 127 open triplets, 127 canonical triplets, schema size 138
+2026-10-06 12:31:35,183 INFO drugkg: Empagliflozin: 127 final triplets in 16s; schema now 138 relations; llm stats {'calls': 206, 'cache_hits': 0, 'prompt_tokens': 148710, 'completion_tokens': 10113, 'errors': 0}
+2026-10-06 12:31:35,184 INFO drugkg: === Furosemide (furosemide): 18 chunks
+extract:   0%|          | 0/18 [00:00<?, ?it/s]                                               define:   0%|          | 0/18 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/72 [00:00<?, ?it/s]                                                    2026-10-06 12:31:54,450 INFO drugkg.edc.framework: iteration 0: 18 chunks, 263 open triplets, 263 canonical triplets, schema size 139
+2026-10-06 12:31:54,480 INFO drugkg: Furosemide: 263 final triplets in 19s; schema now 139 relations; llm stats {'calls': 316, 'cache_hits': 0, 'prompt_tokens': 239999, 'completion_tokens': 17937, 'errors': 0}
+2026-10-06 12:31:54,481 INFO drugkg: === Meloxicam (meloxicam): 13 chunks
+extract:   0%|          | 0/13 [00:00<?, ?it/s]                                               define:   0%|          | 0/13 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/77 [00:00<?, ?it/s]                                                    2026-10-06 12:32:10,383 INFO drugkg.edc.framework: iteration 0: 13 chunks, 195 open triplets, 195 canonical triplets, schema size 139
+2026-10-06 12:32:10,407 INFO drugkg: Meloxicam: 195 final triplets in 16s; schema now 139 relations; llm stats {'calls': 419, 'cache_hits': 0, 'prompt_tokens': 316276, 'completion_tokens': 23219, 'errors': 0}
+2026-10-06 12:32:10,408 INFO drugkg: === Acetaminophen + Hydrocodone (hydrocodone-acetaminophen): 12 chunks
+extract:   0%|          | 0/12 [00:00<?, ?it/s]                                               define:   0%|          | 0/12 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/90 [00:00<?, ?it/s]                                                    2026-10-06 12:32:31,298 INFO drugkg.edc.framework: iteration 0: 12 chunks, 190 open triplets, 190 canonical triplets, schema size 140
+2026-10-06 12:32:31,323 INFO drugkg: Acetaminophen + Hydrocodone: 190 final triplets in 21s; schema now 140 relations; llm stats {'calls': 534, 'cache_hits': 0, 'prompt_tokens': 399028, 'completion_tokens': 29498, 'errors': 0}
+2026-10-06 12:32:31,324 INFO drugkg: === Tirzepatide (tirzepatide): 27 chunks
+extract:   0%|          | 0/27 [00:00<?, ?it/s]                                               define:   0%|          | 0/27 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/193 [00:00<?, ?it/s]                                                     2026-10-06 12:33:08,129 INFO drugkg.edc.framework: iteration 0: 27 chunks, 343 open triplets, 343 canonical triplets, schema size 153
+2026-10-06 12:33:08,173 INFO drugkg: Tirzepatide: 343 final triplets in 37s; schema now 153 relations; llm stats {'calls': 800, 'cache_hits': 0, 'prompt_tokens': 585493, 'completion_tokens': 41497, 'errors': 0}
+2026-10-06 12:33:08,174 INFO drugkg: === Methylphenidate (methylphenidate): 14 chunks
+extract:   0%|          | 0/14 [00:00<?, ?it/s]                                               define:   0%|          | 0/14 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/88 [00:00<?, ?it/s]                                                    2026-10-06 12:33:26,197 INFO drugkg.edc.framework: iteration 0: 14 chunks, 226 open triplets, 226 canonical triplets, schema size 153
+2026-10-06 12:33:26,224 INFO drugkg: Methylphenidate: 226 final triplets in 18s; schema now 153 relations; llm stats {'calls': 916, 'cache_hits': 0, 'prompt_tokens': 669241, 'completion_tokens': 47754, 'errors': 0}
+2026-10-06 12:33:26,225 INFO drugkg: === Duloxetine (duloxetine): 13 chunks
+extract:   0%|          | 0/13 [00:00<?, ?it/s]                                               define:   0%|          | 0/13 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/50 [00:00<?, ?it/s]                                                    2026-10-06 12:33:41,858 INFO drugkg.edc.framework: iteration 0: 13 chunks, 192 open triplets, 192 canonical triplets, schema size 153
+2026-10-06 12:33:41,880 INFO drugkg: Duloxetine: 192 final triplets in 16s; schema now 153 relations; llm stats {'calls': 992, 'cache_hits': 0, 'prompt_tokens': 730374, 'completion_tokens': 52685, 'errors': 0}
+2026-10-06 12:33:41,881 INFO drugkg: === Prednisone (prednisone): 25 chunks
+extract:   0%|          | 0/25 [00:00<?, ?it/s]                                               define:   0%|          | 0/25 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/121 [00:00<?, ?it/s]                                                     2026-10-06 12:34:06,342 INFO drugkg.edc.framework: iteration 0: 25 chunks, 356 open triplets, 356 canonical triplets, schema size 156
+2026-10-06 12:34:06,381 INFO drugkg: Prednisone: 356 final triplets in 25s; schema now 156 relations; llm stats {'calls': 1167, 'cache_hits': 0, 'prompt_tokens': 858319, 'completion_tokens': 62169, 'errors': 0}
+2026-10-06 12:34:06,382 INFO drugkg: === Carvedilol (carvedilol): 11 chunks
+extract:   0%|          | 0/11 [00:00<?, ?it/s]                                               define:   0%|          | 0/11 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/35 [00:00<?, ?it/s]                                                    2026-10-06 12:34:21,448 INFO drugkg.edc.framework: iteration 0: 11 chunks, 154 open triplets, 154 canonical triplets, schema size 157
+2026-10-06 12:34:21,468 INFO drugkg: Carvedilol: 154 final triplets in 15s; schema now 157 relations; llm stats {'calls': 1227, 'cache_hits': 0, 'prompt_tokens': 906607, 'completion_tokens': 66412, 'errors': 0}
+2026-10-06 12:34:21,469 INFO drugkg: === Famotidine (famotidine): 10 chunks
+extract:   0%|          | 0/10 [00:00<?, ?it/s]                                               define:   0%|          | 0/10 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/42 [00:00<?, ?it/s]                                                    2026-10-06 12:34:33,610 INFO drugkg.edc.framework: iteration 0: 10 chunks, 100 open triplets, 100 canonical triplets, schema size 158
+2026-10-06 12:34:33,626 INFO drugkg: Famotidine: 100 final triplets in 12s; schema now 158 relations; llm stats {'calls': 1290, 'cache_hits': 0, 'prompt_tokens': 951480, 'completion_tokens': 69597, 'errors': 0}
+2026-10-06 12:34:33,626 INFO drugkg: === Ibuprofen (ibuprofen): 10 chunks
+extract:   0%|          | 0/10 [00:00<?, ?it/s]                                               define:   0%|          | 0/10 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/34 [00:00<?, ?it/s]                                                    2026-10-06 12:34:46,577 INFO drugkg.edc.framework: iteration 0: 10 chunks, 151 open triplets, 151 canonical triplets, schema size 159
+2026-10-06 12:34:46,596 INFO drugkg: Ibuprofen: 151 final triplets in 13s; schema now 159 relations; llm stats {'calls': 1345, 'cache_hits': 0, 'prompt_tokens': 995115, 'completion_tokens': 73476, 'errors': 0}
+2026-10-06 12:34:46,597 INFO drugkg: === Buspirone (buspirone): 11 chunks
+extract:   0%|          | 0/11 [00:00<?, ?it/s]                                               define:   0%|          | 0/11 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/39 [00:00<?, ?it/s]                                                    2026-10-06 12:34:59,909 INFO drugkg.edc.framework: iteration 0: 11 chunks, 109 open triplets, 109 canonical triplets, schema size 159
+2026-10-06 12:34:59,926 INFO drugkg: Buspirone: 109 final triplets in 13s; schema now 159 relations; llm stats {'calls': 1406, 'cache_hits': 0, 'prompt_tokens': 1040616, 'completion_tokens': 76677, 'errors': 0}
+2026-10-06 12:34:59,927 INFO drugkg: === Venlafaxine (venlafaxine): 15 chunks
+extract:   0%|          | 0/15 [00:00<?, ?it/s]                                               define:   0%|          | 0/15 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/62 [00:00<?, ?it/s]                                                    2026-10-06 12:35:19,761 INFO drugkg.edc.framework: iteration 0: 15 chunks, 242 open triplets, 242 canonical triplets, schema size 160
+2026-10-06 12:35:19,787 INFO drugkg: Venlafaxine: 242 final triplets in 20s; schema now 160 relations; llm stats {'calls': 1499, 'cache_hits': 0, 'prompt_tokens': 1116654, 'completion_tokens': 83017, 'errors': 0}
+2026-10-06 12:35:19,789 INFO drugkg: === Tramadol (tramadol): 31 chunks
+extract:   0%|          | 0/31 [00:00<?, ?it/s]                                               2026-10-06 12:35:34,685 WARNING drugkg.llm: LLM call failed (APIConnectionError), retry 1/6 in 2s
+define:   0%|          | 0/31 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/180 [00:00<?, ?it/s]                                                     2026-10-06 12:35:53,119 INFO drugkg.edc.framework: iteration 0: 31 chunks, 405 open triplets, 405 canonical triplets, schema size 165
+2026-10-06 12:35:53,166 INFO drugkg: Tramadol: 405 final triplets in 33s; schema now 165 relations; llm stats {'calls': 1748, 'cache_hits': 0, 'prompt_tokens': 1291675, 'completion_tokens': 94806, 'errors': 1}
+2026-10-06 12:35:53,167 INFO drugkg: === Potassium Chloride (potassium-chloride): 12 chunks
+extract:   0%|          | 0/12 [00:00<?, ?it/s]                                               define:   0%|          | 0/12 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/33 [00:00<?, ?it/s]                                                    2026-10-06 12:36:06,602 INFO drugkg.edc.framework: iteration 0: 12 chunks, 143 open triplets, 143 canonical triplets, schema size 167
+2026-10-06 12:36:06,621 INFO drugkg: Potassium Chloride: 143 final triplets in 13s; schema now 167 relations; llm stats {'calls': 1807, 'cache_hits': 0, 'prompt_tokens': 1338010, 'completion_tokens': 98568, 'errors': 1}
+2026-10-06 12:36:06,622 INFO drugkg: === Hydroxyzine (hydroxyzine): 23 chunks
+extract:   0%|          | 0/23 [00:00<?, ?it/s]                                               define:   0%|          | 0/23 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/120 [00:00<?, ?it/s]                                                     2026-10-06 12:36:29,453 INFO drugkg.edc.framework: iteration 0: 23 chunks, 224 open triplets, 224 canonical triplets, schema size 174
+2026-10-06 12:36:29,483 INFO drugkg: Hydroxyzine: 224 final triplets in 23s; schema now 174 relations; llm stats {'calls': 1983, 'cache_hits': 0, 'prompt_tokens': 1458474, 'completion_tokens': 105638, 'errors': 1}
+2026-10-06 12:36:29,484 INFO drugkg: === Allopurinol (allopurinol): 11 chunks
+extract:   0%|          | 0/11 [00:00<?, ?it/s]                                               define:   0%|          | 0/11 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/25 [00:00<?, ?it/s]                                                    2026-10-06 12:36:42,447 INFO drugkg.edc.framework: iteration 0: 11 chunks, 130 open triplets, 130 canonical triplets, schema size 176
+2026-10-06 12:36:42,464 INFO drugkg: Allopurinol: 130 final triplets in 13s; schema now 176 relations; llm stats {'calls': 2032, 'cache_hits': 0, 'prompt_tokens': 1501502, 'completion_tokens': 109520, 'errors': 1}
+2026-10-06 12:36:42,465 INFO drugkg: === Clopidogrel (clopidogrel): 12 chunks
+extract:   0%|          | 0/12 [00:00<?, ?it/s]                                               define:   0%|          | 0/12 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/65 [00:00<?, ?it/s]                                                    2026-10-06 12:36:59,423 INFO drugkg.edc.framework: iteration 0: 12 chunks, 120 open triplets, 120 canonical triplets, schema size 177
+2026-10-06 12:36:59,442 INFO drugkg: Clopidogrel: 120 final triplets in 17s; schema now 177 relations; llm stats {'calls': 2122, 'cache_hits': 0, 'prompt_tokens': 1566397, 'completion_tokens': 113365, 'errors': 1}
+2026-10-06 12:36:59,442 WARNING drugkg: Ergocalciferol: no chunks; run --stage parse first
+2026-10-06 12:36:59,442 INFO drugkg: === Cetirizine (cetirizine): 10 chunks
+extract:   0%|          | 0/10 [00:00<?, ?it/s]                                               define:   0%|          | 0/10 [00:00<?, ?it/s]                                              canonicalize:   0%|          | 0/31 [00:00<?, ?it/s]                                                    2026-10-06 12:37:10,796 INFO drugkg.edc.framework: iteration 0: 10 chunks, 102 open triplets, 102 canonical triplets, schema size 177
+2026-10-06 12:37:10,810 INFO drugkg: Cetirizine: 102 final triplets in 11s; schema now 177 relations; llm stats {'calls': 2173, 'cache_hits': 0, 'prompt_tokens': 1606550, 'completion_tokens': 116549, 'errors': 1}
+2026-10-06 12:37:10,811 INFO drugkg: === Ondansetron (ondansetron): 19 chunks
+extract:   0%|          | 0/19 [00:00<?, ?it/s]                                               Traceback (most recent call last):
+  File "/home/dbstjr9611/drug-kg-edc/run_pipeline.py", line 234, in <module>
+    if args.stage in ("export", "all"):
+    ^^^^^^
+  File "/home/dbstjr9611/drug-kg-edc/run_pipeline.py", line 226, in main
+    if args.stage in ("parse", "all"):
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dbstjr9611/drug-kg-edc/run_pipeline.py", line 148, in stage_extract
+    chunks = [json.loads(l) for l in (chunk_dir / f"{fname(slug)}.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dbstjr9611/drug-kg-edc/drugkg/edc/framework.py", line 113, in run_drug
+    trips, raws = self.extract(chunks)
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dbstjr9611/drug-kg-edc/drugkg/edc/framework.py", line 35, in extract
+    raws = self.llm.chat_many(prompts, desc="extract")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dbstjr9611/drug-kg-edc/drugkg/llm.py", line 119, in chat_many
+    results[i] = fut.result()
+                 ^^^^^^^^^^^^
+  File "/home/dbstjr9611/anaconda3/envs/drugkg/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/dbstjr9611/anaconda3/envs/drugkg/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/dbstjr9611/anaconda3/envs/drugkg/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dbstjr9611/drug-kg-edc/drugkg/llm.py", line 93, in chat
+    self._cache_put(key, messages, text)
+  File "/home/dbstjr9611/drug-kg-edc/drugkg/llm.py", line 68, in _cache_put
+    os.replace(tmp, p)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/dbstjr9611/drug-kg-edc/output/cache/llm/55/5560d226a27f36e1d966e938583ae009b0107b67fc17e04cbdfc5cfb4f28b6b1.tmp' -> '/home/dbstjr9611/drug-kg-edc/output/cache/llm/55/5560d226a27f36e1d966e938583ae009b0107b67fc17e04cbdfc5cfb4f28b6b1.json'

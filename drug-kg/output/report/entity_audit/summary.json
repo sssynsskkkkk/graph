@@ -1,0 +1,254 @@
+{
+  "n_entities": 6544,
+  "n_entities_with_any_issue": 3154,
+  "by_issue": {
+    "A1_core_label_case": {
+      "entities": 8,
+      "triples_touched": 1491,
+      "examples": [
+        "fluoxetine",
+        "venlafaxine",
+        "meloxicam",
+        "ondansetron",
+        "allopurinol",
+        "amoxicillin",
+        "buspirone",
+        "cetirizine"
+      ]
+    },
+    "A2_core_label_from_title": {
+      "entities": 3,
+      "triples_touched": 493,
+      "examples": [
+        "Hydrocodone and Acetaminophen",
+        "Flonase Nasal Spray",
+        "Albuterol Inhalation"
+      ]
+    },
+    "A3_alias_split_from_core": {
+      "entities": 44,
+      "triples_touched": 367,
+      "examples": [
+        "Wegovy",
+        "Zepbound",
+        "Ozempic",
+        "Mounjaro",
+        "Gralise",
+        "Amrix",
+        "Tonmya",
+        "Mounjaro KwikPen"
+      ]
+    },
+    "B1_non_drug_typed_as_drug": {
+      "entities": 7,
+      "triples_touched": 103,
+      "examples": [
+        "high blood pressure",
+        "serotonin syndrome",
+        "MAO inhibitors",
+        "SURPASS-1",
+        "Zepbound Study 1",
+        "flat painless spots",
+        "Arthritis Pain"
+      ]
+    },
+    "B2_untyped_other": {
+      "entities": 44,
+      "triples_touched": 46,
+      "examples": [
+        "selling or giving away is against the law",
+        "3 to 4 hours",
+        "32 hours for Amrix extended-release capsules",
+        "6 to 12 hours",
+        "not smoking",
+        "cefditoren",
+        "50 hours",
+        "to others"
+      ]
+    },
+    "B3_type_mismatch_with_relation": {
+      "entities": 390,
+      "triples_touched": 3374,
+      "examples": [
+        "Prednisone",
+        "Furosemide",
+        "Simvastatin",
+        "nausea",
+        "report side effects to FDA at 1-800-FDA-1088",
+        "herbal products",
+        "vitamins",
+        "fever"
+      ]
+    },
+    "B4_both_indication_and_side_effect": {
+      "entities": 43,
+      "triples_touched": 539,
+      "examples": [
+        "allergic reaction",
+        "dizziness",
+        "headache",
+        "fever",
+        "anxiety",
+        "heart attack",
+        "constipation",
+        "irritability"
+      ]
+    },
+    "C1_exact_variant": {
+      "entities": 112,
+      "triples_touched": 407,
+      "examples": [
+        "allergic reaction",
+        "oral tablet",
+        "hallucinations",
+        "seizure",
+        "seizures",
+        "tablet",
+        "tremors",
+        "severe skin reaction"
+      ]
+    },
+    "C2_modifier_or_form_variant": {
+      "entities": 267,
+      "triples_touched": 4707,
+      "examples": [
+        "Sertraline",
+        "Tramadol",
+        "Adderall",
+        "Furosemide",
+        "Gabapentin",
+        "Methylphenidate",
+        "Tirzepatide",
+        "meloxicam"
+      ]
+    },
+    "D1_sentence_like_concept": {
+      "entities": 727,
+      "triples_touched": 859,
+      "examples": [
+        "report side effects to FDA at 1-800-FDA-1088",
+        "swelling of face, lips, tongue, or throat",
+        "feeling like you might pass out",
+        "vomit that looks like coffee grounds",
+        "red or purple skin rash with blistering and peeling",
+        "Flonase Headache & Allergy Relief caplets",
+        "drugs that cause drowsiness or slow breathing",
+        "individuals younger than 18 years old"
+      ]
+    },
+    "D2_multiple_concepts": {
+      "entities": 623,
+      "triples_touched": 769,
+      "examples": [
+        "swelling of face, lips, tongue, or throat",
+        "fast or pounding heartbeats",
+        "swelling in face or throat",
+        "red or purple skin rash with blistering and peeling",
+        "muscle pain or weakness",
+        "new or worsening lupus symptoms",
+        "swelling in feet or ankles",
+        "diuretic or water pill"
+      ]
+    },
+    "D3_sentence_literal": {
+      "entities": 1314,
+      "triples_touched": 1669,
+      "examples": [
+        "call Poison Help line at 1-800-222-1222",
+        "call doctor for medical advice about side effects",
+        "read all medication guides or instruction sheets",
+        "follow all directions on prescription label",
+        "do not take two doses at one time",
+        "not a complete list of side effects",
+        "skip if almost time for next dose",
+        "store at room temperature away from moisture and heat"
+      ]
+    },
+    "E1_relation_word_in_entity": {
+      "entities": 52,
+      "triples_touched": 58,
+      "examples": [
+        "do not use for longer than recommended",
+        "lower sex drive",
+        "increase by 2.5 mg after at least 4 weeks",
+        "avoid high-fat or high-cholesterol foods",
+        "lower dose",
+        "do not change doses or medication schedule without doctor's advice",
+        "do not allow young child to use without adult help",
+        "increase dose if coadministered with CYP2B6 inducers"
+      ]
+    },
+    "F1_vague_or_generic": {
+      "entities": 91,
+      "triples_touched": 130,
+      "examples": [
+        "adults",
+        "children",
+        "patient",
+        "other blood pressure medicines",
+        "doctor",
+        "other medications",
+        "other people",
+        "healthcare provider"
+      ]
+    },
+    "F2_too_short_or_bare_number": {
+      "entities": 15,
+      "triples_touched": 16,
+      "examples": [
+        "20.9%",
+        "2014",
+        "C",
+        "82%",
+        "6%",
+        "19.5%",
+        "TG",
+        "10.1%"
+      ]
+    },
+    "G1_boilerplate_hub": {
+      "entities": 11,
+      "triples_touched": 299,
+      "examples": [
+        "Prescription only",
+        "call Poison Help line at 1-800-222-1222",
+        "seek emergency medical attention",
+        "call doctor for medical advice about side effects",
+        "follow all directions on prescription label",
+        "read all medication guides or instruction sheets",
+        "do not take two doses at one time",
+        "not a complete list of side effects"
+      ]
+    },
+    "H1_unit_format": {
+      "entities": 1,
+      "triples_touched": 1,
+      "examples": [
+        "20mg/5ml"
+      ]
+    }
+  },
+  "duplicate_groups": {
+    "C1_exact_variant": 56,
+    "C2_modifier_or_form_variant": 113
+  },
+  "same_surface_different_type": 26,
+  "top_type_mismatches": [
+    "has warning: expects Warning, got SideEffect ×103",
+    "has warning: expects Warning, got Condition ×52",
+    "interacts with: expects Substance, got Condition ×23",
+    "requires monitoring of: expects LabTest, got SideEffect ×22",
+    "has administration instruction: expects Instruction, got Condition ×20",
+    "not approved for: expects Population, got Condition ×16",
+    "should inform doctor about: expects Condition, got Substance ×14",
+    "contraindicated in: expects Condition, got Substance ×12",
+    "requires monitoring of: expects LabTest, got Condition ×12",
+    "belongs to drug class: expects DrugClass, got Substance ×12",
+    "has recommended dose: expects Dose, got Condition ×10",
+    "has serious side effect: expects SideEffect, got Drug ×10"
+  ],
+  "literal_vs_concept": {
+    "concept": 4333,
+    "literal": 2211
+  }
+}

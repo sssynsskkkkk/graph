@@ -1,0 +1,35 @@
+:START_ID,:END_ID,:TYPE,relation,count:int,drugs,sources
+adderall_xr,cns_stimulants,BELONGS_TO_DRUG_CLASS,belongs to drug class,2,adderall,edc;structured
+adderall_xr,amphetamine,CONTAINS_INGREDIENT,contains ingredient,1,adderall,edc
+adderall_xr,amphetamine_and_dextroamphetamine,CONTAINS_INGREDIENT,contains ingredient,1,adderall,edc
+adderall_xr,combination_of_amphetamine_and_dextroamphetamine,CONTAINS_INGREDIENT,contains ingredient,1,adderall,edc
+adderall_xr,january_19_1960,FDA_APPROVAL_YEAR,fda approval year,1,adderall,edc
+adderall_xr,may_cause_death_or_harm_others,HAS_ADMINISTRATION_INSTRUCTION,has administration instruction,1,adderall,edc
+adderall_xr,never_give_to_anyone_else,HAS_ADMINISTRATION_INSTRUCTION,has administration instruction,1,adderall,edc
+adderall_xr,selling_or_giving_away_is_against_the_law,HAS_ADMINISTRATION_INSTRUCTION,has administration instruction,1,adderall,edc
+adderall_xr,prescription_only,HAS_AVAILABILITY,has availability,1,adderall,structured
+adderall_xr,mydayis,HAS_BRAND_NAME,has brand name,1,adderall,structured
+adderall_xr,cii,HAS_CONTROLLED_SUBSTANCE_SCHEDULE,has controlled substance schedule,1,adderall,edc
+adderall_xr,extended_release_tablets,HAS_DOSAGE_FORM,has dosage form,2,adderall,edc;structured
+adderall_xr,oral_tablets,HAS_DOSAGE_FORM,has dosage form,1,adderall,structured
+adderall_xr,amphetamine_and_dextroamphetamine,HAS_GENERIC_NAME,has generic name,2,adderall,edc;structured
+amphetamine_and_dextroamphetamine,chemicals_in_the_brain_and_nerves,HAS_MECHANISM_OF_ACTION,has mechanism of action,1,adderall,edc
+adderall_xr,keep_in_a_safe_place_to_protect_from_theft,HAS_STORAGE_INSTRUCTION,has storage instruction,1,adderall,edc
+adderall_xr,children_under_3_years_of_age_for_adhd,NOT_APPROVED_FOR,not approved for,1,adderall,edc
+adderall_xr,children_under_6_years_of_age_for_narcolepsy,NOT_APPROVED_FOR,not approved for,1,adderall,edc
+adderall_xr,concerta,SIMILAR_TO,similar to,1,adderall,structured
+adderall_xr,dexmethylphenidate,SIMILAR_TO,similar to,1,adderall,structured
+adderall_xr,focalin_xr,SIMILAR_TO,similar to,2,adderall,structured
+adderall_xr,ritalin,SIMILAR_TO,similar to,1,adderall,structured
+adderall_xr,strattera,SIMILAR_TO,similar to,1,adderall,structured
+adderall_xr,vyvanse,SIMILAR_TO,similar to,1,adderall,structured
+adderall_xr,xyrem,SIMILAR_TO,similar to,1,adderall,structured
+adderall_xr,xywav,SIMILAR_TO,similar to,1,adderall,structured
+adderall_xr,adhd,TREATS,treats,2,adderall,edc
+adderall_xr,decrease_hyperactivity,TREATS,treats,1,adderall,edc
+adderall_xr,decrease_impulsiveness,TREATS,treats,1,adderall,edc
+adderall_xr,increase_attention,TREATS,treats,1,adderall,edc
+adderall_xr,narcolepsy,TREATS,treats,1,adderall,edc
+adderall_xr,adults,USED_IN_POPULATION,used in population,1,adderall,edc
+adderall_xr,children_3_to_17_years_of_age,USED_IN_POPULATION,used in population,1,adderall,edc
+adderall_xr,people_6_years_and_older,USED_IN_POPULATION,used in population,1,adderall,edc

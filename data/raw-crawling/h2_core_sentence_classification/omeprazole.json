@@ -1,0 +1,2408 @@
+{
+  "drug": "Omeprazole",
+  "source_file": "data/raw-crawling/raw-crawling/omeprazole.html",
+  "model": "models/codekg_bert_large/final_model",
+  "sentence_count": 126,
+  "label_counts": {
+    "Complex Sentence": 5,
+    "Compound Sentence": 5,
+    "Incomplete Sentence": 86,
+    "Simple Sentence": 30
+  },
+  "sentences": [
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What is omeprazole?",
+      "section_id": "uses",
+      "subsection_title": null,
+      "block_index": 0,
+      "sentence_index": 0,
+      "sentence": "Omeprazole is used to treat excess stomach acid in conditions such as stomach ulcers , heartburn or gastroesophageal reflux disease ( GERD ), active duodenal ulcer, Zollinger-Ellison syndrome and erosive esophagitis.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.8154170513153076,
+      "probabilities": {
+        "Simple Sentence": 0.06591994315385818,
+        "Compound Sentence": 0.09042691439390182,
+        "Complex Sentence": 0.8154170513153076,
+        "Compound-Complex Sentence": 0.022795232012867928,
+        "Incomplete Sentence": 0.005440843291580677
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What is omeprazole?",
+      "section_id": "uses",
+      "subsection_title": null,
+      "block_index": 1,
+      "sentence_index": 0,
+      "sentence": "Omeprazole may also be given together with antibiotics to treat gastric ulcers caused by infection with Helicobacter pylori (H. pylori), in adult patients.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.8512750267982483,
+      "probabilities": {
+        "Simple Sentence": 0.044896166771650314,
+        "Compound Sentence": 0.07190607488155365,
+        "Complex Sentence": 0.8512750267982483,
+        "Compound-Complex Sentence": 0.026341598480939865,
+        "Incomplete Sentence": 0.00558113120496273
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What is omeprazole?",
+      "section_id": "uses",
+      "subsection_title": null,
+      "block_index": 2,
+      "sentence_index": 0,
+      "sentence": "Omeprazole is a proton pump inhibitor (PPI) that works by blocking the acid pump in your stomach, reducing how much acid it makes and giving irritated or damaged tissue a chance to heal.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.950305700302124,
+      "probabilities": {
+        "Simple Sentence": 0.010613799095153809,
+        "Compound Sentence": 0.010876113548874855,
+        "Complex Sentence": 0.950305700302124,
+        "Compound-Complex Sentence": 0.025696920230984688,
+        "Incomplete Sentence": 0.002507493831217289
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What is omeprazole?",
+      "section_id": "uses",
+      "subsection_title": null,
+      "block_index": 3,
+      "sentence_index": 0,
+      "sentence": "Omeprazole brand names are Prilosec, Prilosec OTC, and generic brands are available.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.580108106136322,
+      "probabilities": {
+        "Simple Sentence": 0.34741470217704773,
+        "Compound Sentence": 0.580108106136322,
+        "Complex Sentence": 0.04104942828416824,
+        "Compound-Complex Sentence": 0.014679568819701672,
+        "Incomplete Sentence": 0.016748230904340744
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What is omeprazole?",
+      "section_id": "uses",
+      "subsection_title": null,
+      "block_index": 4,
+      "sentence_index": 0,
+      "sentence": "Omeprazole is available over the counter (OTC) and as a prescription medication.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9677230715751648,
+      "probabilities": {
+        "Simple Sentence": 0.9677230715751648,
+        "Compound Sentence": 0.01846768893301487,
+        "Complex Sentence": 0.005615507252514362,
+        "Compound-Complex Sentence": 0.0015608936082571745,
+        "Incomplete Sentence": 0.006632858421653509
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Warnings",
+      "section_id": "warnings",
+      "subsection_title": null,
+      "block_index": 5,
+      "sentence_index": 0,
+      "sentence": "Omeprazole can cause kidney problems.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9894687533378601,
+      "probabilities": {
+        "Simple Sentence": 0.9894687533378601,
+        "Compound Sentence": 0.004592228680849075,
+        "Complex Sentence": 0.0019611583556979895,
+        "Compound-Complex Sentence": 0.0007978148059919477,
+        "Incomplete Sentence": 0.0031801671721041203
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Warnings",
+      "section_id": "warnings",
+      "subsection_title": null,
+      "block_index": 5,
+      "sentence_index": 1,
+      "sentence": "Tell your doctor if you are urinating less than usual, or if you have blood in your urine.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.7566841840744019,
+      "probabilities": {
+        "Simple Sentence": 0.17411355674266815,
+        "Compound Sentence": 0.041639264672994614,
+        "Complex Sentence": 0.011889143846929073,
+        "Compound-Complex Sentence": 0.015673836693167686,
+        "Incomplete Sentence": 0.7566841840744019
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Warnings",
+      "section_id": "warnings",
+      "subsection_title": null,
+      "block_index": 6,
+      "sentence_index": 0,
+      "sentence": "Diarrhea may be a sign of a new infection.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9898888468742371,
+      "probabilities": {
+        "Simple Sentence": 0.9898888468742371,
+        "Compound Sentence": 0.004527370911091566,
+        "Complex Sentence": 0.0027493436355143785,
+        "Compound-Complex Sentence": 0.000553945719730109,
+        "Incomplete Sentence": 0.0022803989704698324
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Warnings",
+      "section_id": "warnings",
+      "subsection_title": null,
+      "block_index": 6,
+      "sentence_index": 1,
+      "sentence": "Call your doctor right away if you have watery stools or stomach pain that does not go away.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.6872798800468445,
+      "probabilities": {
+        "Simple Sentence": 0.23612992465496063,
+        "Compound Sentence": 0.03678194805979729,
+        "Complex Sentence": 0.015377985313534737,
+        "Compound-Complex Sentence": 0.02443038299679756,
+        "Incomplete Sentence": 0.6872798800468445
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Warnings",
+      "section_id": "warnings",
+      "subsection_title": null,
+      "block_index": 6,
+      "sentence_index": 2,
+      "sentence": "You may or may not have a fever.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.939709484577179,
+      "probabilities": {
+        "Simple Sentence": 0.939709484577179,
+        "Compound Sentence": 0.01306180004030466,
+        "Complex Sentence": 0.005582262761890888,
+        "Compound-Complex Sentence": 0.0024315756745636463,
+        "Incomplete Sentence": 0.03921491652727127
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Warnings",
+      "section_id": "warnings",
+      "subsection_title": null,
+      "block_index": 7,
+      "sentence_index": 0,
+      "sentence": "Omeprazole is not to be used for the immediate relief of heartburn symptoms.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.955467700958252,
+      "probabilities": {
+        "Simple Sentence": 0.955467700958252,
+        "Compound Sentence": 0.025276539847254753,
+        "Complex Sentence": 0.0146360844373703,
+        "Compound-Complex Sentence": 0.0015993908746168017,
+        "Incomplete Sentence": 0.003020326839759946
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Warnings",
+      "section_id": "warnings",
+      "subsection_title": null,
+      "block_index": 8,
+      "sentence_index": 0,
+      "sentence": "Omeprazole may cause new or worsening symptoms of lupus .",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9909133911132812,
+      "probabilities": {
+        "Simple Sentence": 0.9909133911132812,
+        "Compound Sentence": 0.004489109851419926,
+        "Complex Sentence": 0.0023471855092793703,
+        "Compound-Complex Sentence": 0.0005621523596346378,
+        "Incomplete Sentence": 0.0016881398623809218
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Warnings",
+      "section_id": "warnings",
+      "subsection_title": null,
+      "block_index": 8,
+      "sentence_index": 1,
+      "sentence": "Tell your doctor if you have joint pain and a skin rash on your cheeks or arms that worsens in sunlight.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.6429423689842224,
+      "probabilities": {
+        "Simple Sentence": 0.25006458163261414,
+        "Compound Sentence": 0.06592167168855667,
+        "Complex Sentence": 0.01667167991399765,
+        "Compound-Complex Sentence": 0.02439969778060913,
+        "Incomplete Sentence": 0.6429423689842224
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Warnings",
+      "section_id": "warnings",
+      "subsection_title": null,
+      "block_index": 9,
+      "sentence_index": 0,
+      "sentence": "You may be more likely to have a broken bone while taking this medicine long term or more than once per day.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.938286542892456,
+      "probabilities": {
+        "Simple Sentence": 0.938286542892456,
+        "Compound Sentence": 0.03386354446411133,
+        "Complex Sentence": 0.01891127973794937,
+        "Compound-Complex Sentence": 0.003917836584150791,
+        "Incomplete Sentence": 0.005020786542445421
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 10,
+      "sentence_index": 0,
+      "sentence": "Heartburn can mimic early symptoms of a heart attack .",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9910353422164917,
+      "probabilities": {
+        "Simple Sentence": 0.9910353422164917,
+        "Compound Sentence": 0.004313452169299126,
+        "Complex Sentence": 0.002090947702527046,
+        "Compound-Complex Sentence": 0.0004875135200563818,
+        "Incomplete Sentence": 0.002072650706395507
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 10,
+      "sentence_index": 1,
+      "sentence": "Get emergency medical help if you have chest pain that spreads to your jaw or shoulder and you feel sweaty or light-headed.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.7317542433738708,
+      "probabilities": {
+        "Simple Sentence": 0.16862398386001587,
+        "Compound Sentence": 0.05874628201127052,
+        "Complex Sentence": 0.018993133679032326,
+        "Compound-Complex Sentence": 0.021882321685552597,
+        "Incomplete Sentence": 0.7317542433738708
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 11,
+      "sentence_index": 0,
+      "sentence": "You should not use omeprazole if you are allergic to it, or if:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8207303881645203,
+      "probabilities": {
+        "Simple Sentence": 0.14290037751197815,
+        "Compound Sentence": 0.018105752766132355,
+        "Complex Sentence": 0.009002473205327988,
+        "Compound-Complex Sentence": 0.009261070750653744,
+        "Incomplete Sentence": 0.8207303881645203
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 12,
+      "sentence_index": 0,
+      "sentence": "you are also allergic to medicines like omeprazole, such as esomeprazole , lansoprazole , pantoprazole , rabeprazole , Nexium , Prevacid , Protonix , and others;",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.7268684506416321,
+      "probabilities": {
+        "Simple Sentence": 0.7268684506416321,
+        "Compound Sentence": 0.10423071682453156,
+        "Complex Sentence": 0.02551167458295822,
+        "Compound-Complex Sentence": 0.006681165192276239,
+        "Incomplete Sentence": 0.13670797646045685
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 13,
+      "sentence_index": 0,
+      "sentence": "you are also allergic to medicines like omeprazole, such as esomeprazole , lansoprazole , pantoprazole , rabeprazole , Nexium , Prevacid , Protonix , and others;",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.7268684506416321,
+      "probabilities": {
+        "Simple Sentence": 0.7268684506416321,
+        "Compound Sentence": 0.10423071682453156,
+        "Complex Sentence": 0.02551167458295822,
+        "Compound-Complex Sentence": 0.006681165192276239,
+        "Incomplete Sentence": 0.13670797646045685
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 14,
+      "sentence_index": 0,
+      "sentence": "you had breathing problems, kidney problems, or a severe allergic reaction after taking omeprazole in the past; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8615327477455139,
+      "probabilities": {
+        "Simple Sentence": 0.10678552836179733,
+        "Compound Sentence": 0.01889483816921711,
+        "Complex Sentence": 0.0043818149715662,
+        "Compound-Complex Sentence": 0.008405028842389584,
+        "Incomplete Sentence": 0.8615327477455139
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 15,
+      "sentence_index": 0,
+      "sentence": "you had breathing problems, kidney problems, or a severe allergic reaction after taking omeprazole in the past; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8615327477455139,
+      "probabilities": {
+        "Simple Sentence": 0.10678552836179733,
+        "Compound Sentence": 0.01889483816921711,
+        "Complex Sentence": 0.0043818149715662,
+        "Compound-Complex Sentence": 0.008405028842389584,
+        "Incomplete Sentence": 0.8615327477455139
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 16,
+      "sentence_index": 0,
+      "sentence": "you also take HIV medication that contains rilpivirine (such as Complera , Edurant, Odefsey , Juluca ).",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.6771738529205322,
+      "probabilities": {
+        "Simple Sentence": 0.6771738529205322,
+        "Compound Sentence": 0.17882095277309418,
+        "Complex Sentence": 0.11775419116020203,
+        "Compound-Complex Sentence": 0.015694018453359604,
+        "Incomplete Sentence": 0.010557063855230808
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 17,
+      "sentence_index": 0,
+      "sentence": "you also take HIV medication that contains rilpivirine (such as Complera , Edurant, Odefsey , Juluca ).",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.6771738529205322,
+      "probabilities": {
+        "Simple Sentence": 0.6771738529205322,
+        "Compound Sentence": 0.17882095277309418,
+        "Complex Sentence": 0.11775419116020203,
+        "Compound-Complex Sentence": 0.015694018453359604,
+        "Incomplete Sentence": 0.010557063855230808
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 18,
+      "sentence_index": 0,
+      "sentence": "Ask a doctor or pharmacist if this medicine is safe to use if you have:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9902077317237854,
+      "probabilities": {
+        "Simple Sentence": 0.006557311862707138,
+        "Compound Sentence": 0.001461349194869399,
+        "Complex Sentence": 0.0006365485023707151,
+        "Compound-Complex Sentence": 0.0011369888670742512,
+        "Incomplete Sentence": 0.9902077317237854
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 19,
+      "sentence_index": 0,
+      "sentence": "trouble or pain with swallowing;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9974910020828247,
+      "probabilities": {
+        "Simple Sentence": 0.0011036274954676628,
+        "Compound Sentence": 0.0006615853635594249,
+        "Complex Sentence": 0.00025556253967806697,
+        "Compound-Complex Sentence": 0.0004882990615442395,
+        "Incomplete Sentence": 0.9974910020828247
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 20,
+      "sentence_index": 0,
+      "sentence": "trouble or pain with swallowing;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9974910020828247,
+      "probabilities": {
+        "Simple Sentence": 0.0011036274954676628,
+        "Compound Sentence": 0.0006615853635594249,
+        "Complex Sentence": 0.00025556253967806697,
+        "Compound-Complex Sentence": 0.0004882990615442395,
+        "Incomplete Sentence": 0.9974910020828247
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 21,
+      "sentence_index": 0,
+      "sentence": "bloody or black stools, vomit that looks like blood or coffee grounds;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9889454245567322,
+      "probabilities": {
+        "Simple Sentence": 0.006224691402167082,
+        "Compound Sentence": 0.0024826698936522007,
+        "Complex Sentence": 0.000894783646799624,
+        "Compound-Complex Sentence": 0.0014523772988468409,
+        "Incomplete Sentence": 0.9889454245567322
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 22,
+      "sentence_index": 0,
+      "sentence": "bloody or black stools, vomit that looks like blood or coffee grounds;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9889454245567322,
+      "probabilities": {
+        "Simple Sentence": 0.006224691402167082,
+        "Compound Sentence": 0.0024826698936522007,
+        "Complex Sentence": 0.000894783646799624,
+        "Compound-Complex Sentence": 0.0014523772988468409,
+        "Incomplete Sentence": 0.9889454245567322
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 23,
+      "sentence_index": 0,
+      "sentence": "heartburn that has lasted for over 3 months;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9964247345924377,
+      "probabilities": {
+        "Simple Sentence": 0.0018671037396416068,
+        "Compound Sentence": 0.0007771854288876057,
+        "Complex Sentence": 0.0002738854964263737,
+        "Compound-Complex Sentence": 0.000657017168123275,
+        "Incomplete Sentence": 0.9964247345924377
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 24,
+      "sentence_index": 0,
+      "sentence": "heartburn that has lasted for over 3 months;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9964247345924377,
+      "probabilities": {
+        "Simple Sentence": 0.0018671037396416068,
+        "Compound Sentence": 0.0007771854288876057,
+        "Complex Sentence": 0.0002738854964263737,
+        "Compound-Complex Sentence": 0.000657017168123275,
+        "Incomplete Sentence": 0.9964247345924377
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 25,
+      "sentence_index": 0,
+      "sentence": "frequent chest pain, heartburn with wheezing;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9950495362281799,
+      "probabilities": {
+        "Simple Sentence": 0.002785692922770977,
+        "Compound Sentence": 0.0009361707489006221,
+        "Complex Sentence": 0.0003745713038370013,
+        "Compound-Complex Sentence": 0.0008540595299564302,
+        "Incomplete Sentence": 0.9950495362281799
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 26,
+      "sentence_index": 0,
+      "sentence": "frequent chest pain, heartburn with wheezing;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9950495362281799,
+      "probabilities": {
+        "Simple Sentence": 0.002785692922770977,
+        "Compound Sentence": 0.0009361707489006221,
+        "Complex Sentence": 0.0003745713038370013,
+        "Compound-Complex Sentence": 0.0008540595299564302,
+        "Incomplete Sentence": 0.9950495362281799
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 27,
+      "sentence_index": 0,
+      "sentence": "unexplained weight loss;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9959821701049805,
+      "probabilities": {
+        "Simple Sentence": 0.002155949827283621,
+        "Compound Sentence": 0.0009592695278115571,
+        "Complex Sentence": 0.0003151002456434071,
+        "Compound-Complex Sentence": 0.0005875361384823918,
+        "Incomplete Sentence": 0.9959821701049805
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 28,
+      "sentence_index": 0,
+      "sentence": "unexplained weight loss;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9959821701049805,
+      "probabilities": {
+        "Simple Sentence": 0.002155949827283621,
+        "Compound Sentence": 0.0009592695278115571,
+        "Complex Sentence": 0.0003151002456434071,
+        "Compound-Complex Sentence": 0.0005875361384823918,
+        "Incomplete Sentence": 0.9959821701049805
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 29,
+      "sentence_index": 0,
+      "sentence": "nausea or vomiting , stomach pain;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9931031465530396,
+      "probabilities": {
+        "Simple Sentence": 0.0036684174556285143,
+        "Compound Sentence": 0.001462762476876378,
+        "Complex Sentence": 0.000497194065246731,
+        "Compound-Complex Sentence": 0.0012683902168646455,
+        "Incomplete Sentence": 0.9931031465530396
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 30,
+      "sentence_index": 0,
+      "sentence": "nausea or vomiting , stomach pain;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9931031465530396,
+      "probabilities": {
+        "Simple Sentence": 0.0036684174556285143,
+        "Compound Sentence": 0.001462762476876378,
+        "Complex Sentence": 0.000497194065246731,
+        "Compound-Complex Sentence": 0.0012683902168646455,
+        "Incomplete Sentence": 0.9931031465530396
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 31,
+      "sentence_index": 0,
+      "sentence": "liver disease;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9971930384635925,
+      "probabilities": {
+        "Simple Sentence": 0.0013406142825260758,
+        "Compound Sentence": 0.0006911007221788168,
+        "Complex Sentence": 0.0002735618327278644,
+        "Compound-Complex Sentence": 0.0005016853683628142,
+        "Incomplete Sentence": 0.9971930384635925
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 32,
+      "sentence_index": 0,
+      "sentence": "liver disease;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9971930384635925,
+      "probabilities": {
+        "Simple Sentence": 0.0013406142825260758,
+        "Compound Sentence": 0.0006911007221788168,
+        "Complex Sentence": 0.0002735618327278644,
+        "Compound-Complex Sentence": 0.0005016853683628142,
+        "Incomplete Sentence": 0.9971930384635925
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 33,
+      "sentence_index": 0,
+      "sentence": "low levels of magnesium, calcium, or potassium in your blood; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.995287299156189,
+      "probabilities": {
+        "Simple Sentence": 0.0025528520345687866,
+        "Compound Sentence": 0.0011119957780465484,
+        "Complex Sentence": 0.0003547217056620866,
+        "Compound-Complex Sentence": 0.0006931563257239759,
+        "Incomplete Sentence": 0.995287299156189
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 34,
+      "sentence_index": 0,
+      "sentence": "low levels of magnesium, calcium, or potassium in your blood; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.995287299156189,
+      "probabilities": {
+        "Simple Sentence": 0.0025528520345687866,
+        "Compound Sentence": 0.0011119957780465484,
+        "Complex Sentence": 0.0003547217056620866,
+        "Compound-Complex Sentence": 0.0006931563257239759,
+        "Incomplete Sentence": 0.995287299156189
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 35,
+      "sentence_index": 0,
+      "sentence": "osteoporosis or low bone mineral density ( osteopenia ).",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9957594275474548,
+      "probabilities": {
+        "Simple Sentence": 0.0027234982699155807,
+        "Compound Sentence": 0.0007120135123841465,
+        "Complex Sentence": 0.00026065928977914155,
+        "Compound-Complex Sentence": 0.0005443226546049118,
+        "Incomplete Sentence": 0.9957594275474548
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 36,
+      "sentence_index": 0,
+      "sentence": "osteoporosis or low bone mineral density ( osteopenia ).",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9957594275474548,
+      "probabilities": {
+        "Simple Sentence": 0.0027234982699155807,
+        "Compound Sentence": 0.0007120135123841465,
+        "Complex Sentence": 0.00026065928977914155,
+        "Compound-Complex Sentence": 0.0005443226546049118,
+        "Incomplete Sentence": 0.9957594275474548
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 37,
+      "sentence_index": 0,
+      "sentence": "You may be more likely to have a broken bone in your hip, wrist, or spine while taking a proton pump inhibitor long-term or more than once per day.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.472171425819397,
+      "probabilities": {
+        "Simple Sentence": 0.472171425819397,
+        "Compound Sentence": 0.2570914626121521,
+        "Complex Sentence": 0.2347712516784668,
+        "Compound-Complex Sentence": 0.025245077908039093,
+        "Incomplete Sentence": 0.01072080060839653
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 37,
+      "sentence_index": 1,
+      "sentence": "Talk with your doctor about ways to keep your bones healthy.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9796579480171204,
+      "probabilities": {
+        "Simple Sentence": 0.0107877841219306,
+        "Compound Sentence": 0.004216313827782869,
+        "Complex Sentence": 0.0015987702645361423,
+        "Compound-Complex Sentence": 0.0037390966899693012,
+        "Incomplete Sentence": 0.9796579480171204
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 38,
+      "sentence_index": 0,
+      "sentence": "Ask a doctor before using this medicine if you are pregnant or breastfeeding.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.4899362325668335,
+      "probabilities": {
+        "Simple Sentence": 0.4575636088848114,
+        "Compound Sentence": 0.027052808552980423,
+        "Complex Sentence": 0.011037587188184261,
+        "Compound-Complex Sentence": 0.014409794472157955,
+        "Incomplete Sentence": 0.4899362325668335
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Before taking this medicine",
+      "section_id": "before-taking",
+      "subsection_title": null,
+      "block_index": 39,
+      "sentence_index": 0,
+      "sentence": "Do not give this medicine to a child without medical advice.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.65422123670578,
+      "probabilities": {
+        "Simple Sentence": 0.3200899064540863,
+        "Compound Sentence": 0.014638294465839863,
+        "Complex Sentence": 0.006031055934727192,
+        "Compound-Complex Sentence": 0.0050194901414215565,
+        "Incomplete Sentence": 0.65422123670578
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 40,
+      "sentence_index": 0,
+      "sentence": "Take omeprazole exactly as directed on the label, or as prescribed by your doctor.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8885032534599304,
+      "probabilities": {
+        "Simple Sentence": 0.07550555467605591,
+        "Compound Sentence": 0.019438831135630608,
+        "Complex Sentence": 0.0059111653827130795,
+        "Compound-Complex Sentence": 0.010641205124557018,
+        "Incomplete Sentence": 0.8885032534599304
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 40,
+      "sentence_index": 1,
+      "sentence": "Follow all directions on your prescription label and read all medication guides or instruction sheets.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8324329257011414,
+      "probabilities": {
+        "Simple Sentence": 0.11957251280546188,
+        "Compound Sentence": 0.026524359360337257,
+        "Complex Sentence": 0.0064747328869998455,
+        "Compound-Complex Sentence": 0.01499551348388195,
+        "Incomplete Sentence": 0.8324329257011414
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 41,
+      "sentence_index": 0,
+      "sentence": "Use Prilosec OTC (over-the-counter) exactly as directed on the label, or as prescribed by your doctor.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9454976916313171,
+      "probabilities": {
+        "Simple Sentence": 0.03652691841125488,
+        "Compound Sentence": 0.009619774296879768,
+        "Complex Sentence": 0.0031048376113176346,
+        "Compound-Complex Sentence": 0.0052506509236991405,
+        "Incomplete Sentence": 0.9454976916313171
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 42,
+      "sentence_index": 0,
+      "sentence": "Read and carefully follow any Instructions for Use provided with your medicine.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9603360295295715,
+      "probabilities": {
+        "Simple Sentence": 0.029070520773530006,
+        "Compound Sentence": 0.00572153041139245,
+        "Complex Sentence": 0.0018978480948135257,
+        "Compound-Complex Sentence": 0.0029740941245108843,
+        "Incomplete Sentence": 0.9603360295295715
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 42,
+      "sentence_index": 1,
+      "sentence": "Ask your doctor or pharmacist if you do not understand these instructions.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.90163254737854,
+      "probabilities": {
+        "Simple Sentence": 0.07703394442796707,
+        "Compound Sentence": 0.011551152914762497,
+        "Complex Sentence": 0.003957039676606655,
+        "Compound-Complex Sentence": 0.005825325846672058,
+        "Incomplete Sentence": 0.90163254737854
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 43,
+      "sentence_index": 0,
+      "sentence": "Shake the oral suspension (liquid) before you measure a dose.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.968163013458252,
+      "probabilities": {
+        "Simple Sentence": 0.024607153609395027,
+        "Compound Sentence": 0.003474733093753457,
+        "Complex Sentence": 0.001478496240451932,
+        "Compound-Complex Sentence": 0.0022765614558011293,
+        "Incomplete Sentence": 0.968163013458252
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 43,
+      "sentence_index": 1,
+      "sentence": "Use the dosing syringe provided, or use a medicine dose-measuring device (not a kitchen spoon).",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9545131325721741,
+      "probabilities": {
+        "Simple Sentence": 0.013087409548461437,
+        "Compound Sentence": 0.013339021243155003,
+        "Complex Sentence": 0.004700763151049614,
+        "Compound-Complex Sentence": 0.014359678141772747,
+        "Incomplete Sentence": 0.9545131325721741
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 44,
+      "sentence_index": 0,
+      "sentence": "If you cannot swallow a capsule whole, open it and sprinkle the medicine into a spoonful of applesauce.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.3938528001308441,
+      "probabilities": {
+        "Simple Sentence": 0.32098275423049927,
+        "Compound Sentence": 0.3938528001308441,
+        "Complex Sentence": 0.20632071793079376,
+        "Compound-Complex Sentence": 0.044362012296915054,
+        "Incomplete Sentence": 0.03448175638914108
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 44,
+      "sentence_index": 1,
+      "sentence": "Swallow the mixture right away without chewing.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9837687611579895,
+      "probabilities": {
+        "Simple Sentence": 0.008765379898250103,
+        "Compound Sentence": 0.0033559228759258986,
+        "Complex Sentence": 0.001200102036818862,
+        "Compound-Complex Sentence": 0.0029099872335791588,
+        "Incomplete Sentence": 0.9837687611579895
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 44,
+      "sentence_index": 2,
+      "sentence": "Do not save it for later use.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9780414700508118,
+      "probabilities": {
+        "Simple Sentence": 0.016414249315857887,
+        "Compound Sentence": 0.0026861021760851145,
+        "Complex Sentence": 0.0010757865384221077,
+        "Compound-Complex Sentence": 0.0017823538510128856,
+        "Incomplete Sentence": 0.9780414700508118
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 45,
+      "sentence_index": 0,
+      "sentence": "You must dissolve omeprazole powder in a small amount of water.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9748907089233398,
+      "probabilities": {
+        "Simple Sentence": 0.9748907089233398,
+        "Compound Sentence": 0.010814204812049866,
+        "Complex Sentence": 0.003724537091329694,
+        "Compound-Complex Sentence": 0.0009593467693775892,
+        "Incomplete Sentence": 0.009611310437321663
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 45,
+      "sentence_index": 1,
+      "sentence": "This mixture can either be swallowed or given through a nasogastric (NG) feeding tube using a catheter-tipped syringe.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.39434847235679626,
+      "probabilities": {
+        "Simple Sentence": 0.25023511052131653,
+        "Compound Sentence": 0.311650812625885,
+        "Complex Sentence": 0.39434847235679626,
+        "Compound-Complex Sentence": 0.032944127917289734,
+        "Incomplete Sentence": 0.010821466334164143
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 46,
+      "sentence_index": 0,
+      "sentence": "Use this medicine for the full prescribed length of time, even if your symptoms quickly improve.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8003485798835754,
+      "probabilities": {
+        "Simple Sentence": 0.13928361237049103,
+        "Compound Sentence": 0.030166348442435265,
+        "Complex Sentence": 0.012188307009637356,
+        "Compound-Complex Sentence": 0.018013151362538338,
+        "Incomplete Sentence": 0.8003485798835754
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 47,
+      "sentence_index": 0,
+      "sentence": "OTC omeprazole should be taken for only 14 days in a row.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9891524314880371,
+      "probabilities": {
+        "Simple Sentence": 0.9891524314880371,
+        "Compound Sentence": 0.004975929856300354,
+        "Complex Sentence": 0.0025124605745077133,
+        "Compound-Complex Sentence": 0.0006742412806488574,
+        "Incomplete Sentence": 0.002684967825189233
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 47,
+      "sentence_index": 1,
+      "sentence": "It may take 1 to 4 days before your symptoms improve.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9718626141548157,
+      "probabilities": {
+        "Simple Sentence": 0.9718626141548157,
+        "Compound Sentence": 0.015203104354441166,
+        "Complex Sentence": 0.008400051854550838,
+        "Compound-Complex Sentence": 0.0014106607995927334,
+        "Incomplete Sentence": 0.0031235809437930584
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 47,
+      "sentence_index": 2,
+      "sentence": "Allow at least 4 months to pass before you start a new 14-day course of treatment.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9772874116897583,
+      "probabilities": {
+        "Simple Sentence": 0.017323533073067665,
+        "Compound Sentence": 0.0028936397284269333,
+        "Complex Sentence": 0.001000015065073967,
+        "Compound-Complex Sentence": 0.001495347823947668,
+        "Incomplete Sentence": 0.9772874116897583
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 48,
+      "sentence_index": 0,
+      "sentence": "Call your doctor if your symptoms do not improve, or if they get worse.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.7570654153823853,
+      "probabilities": {
+        "Simple Sentence": 0.15068504214286804,
+        "Compound Sentence": 0.04712663218379021,
+        "Complex Sentence": 0.016434313729405403,
+        "Compound-Complex Sentence": 0.028688617050647736,
+        "Incomplete Sentence": 0.7570654153823853
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 49,
+      "sentence_index": 0,
+      "sentence": "Some conditions are treated with a combination of omeprazole and antibiotics.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9871035218238831,
+      "probabilities": {
+        "Simple Sentence": 0.9871035218238831,
+        "Compound Sentence": 0.006312481127679348,
+        "Complex Sentence": 0.003166374983265996,
+        "Compound-Complex Sentence": 0.000639529840555042,
+        "Incomplete Sentence": 0.0027779911179095507
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 49,
+      "sentence_index": 1,
+      "sentence": "Use all medications as directed.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9935939908027649,
+      "probabilities": {
+        "Simple Sentence": 0.0034151894506067038,
+        "Compound Sentence": 0.0013869539834558964,
+        "Complex Sentence": 0.0004313398967497051,
+        "Compound-Complex Sentence": 0.0011725034564733505,
+        "Incomplete Sentence": 0.9935939908027649
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 50,
+      "sentence_index": 0,
+      "sentence": "This medicine can affect the results of certain medical tests.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9895497560501099,
+      "probabilities": {
+        "Simple Sentence": 0.9895497560501099,
+        "Compound Sentence": 0.004454566165804863,
+        "Complex Sentence": 0.002999428892508149,
+        "Compound-Complex Sentence": 0.0006141503108665347,
+        "Incomplete Sentence": 0.0023820302449166775
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 50,
+      "sentence_index": 1,
+      "sentence": "Tell any doctor who treats you that you are using this medicine.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9106887578964233,
+      "probabilities": {
+        "Simple Sentence": 0.07259559631347656,
+        "Compound Sentence": 0.008901960216462612,
+        "Complex Sentence": 0.0030674352310597897,
+        "Compound-Complex Sentence": 0.004746299237012863,
+        "Incomplete Sentence": 0.9106887578964233
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "How should I take omeprazole?",
+      "section_id": "dosage",
+      "subsection_title": null,
+      "block_index": 51,
+      "sentence_index": 0,
+      "sentence": "Store at room temperature away from moisture and heat.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9941627383232117,
+      "probabilities": {
+        "Simple Sentence": 0.003402576083317399,
+        "Compound Sentence": 0.0011916494695469737,
+        "Complex Sentence": 0.00040228315629065037,
+        "Compound-Complex Sentence": 0.0008408901048824191,
+        "Incomplete Sentence": 0.9941627383232117
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What happens if I miss a dose?",
+      "section_id": "missed-dose",
+      "subsection_title": null,
+      "block_index": 52,
+      "sentence_index": 0,
+      "sentence": "Take the medicine as soon as you can, but skip the missed dose if it is almost time for your next dose.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.5546407103538513,
+      "probabilities": {
+        "Simple Sentence": 0.03473725542426109,
+        "Compound Sentence": 0.5546407103538513,
+        "Complex Sentence": 0.17581109702587128,
+        "Compound-Complex Sentence": 0.19016382098197937,
+        "Incomplete Sentence": 0.04464709758758545
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What happens if I miss a dose?",
+      "section_id": "missed-dose",
+      "subsection_title": null,
+      "block_index": 52,
+      "sentence_index": 1,
+      "sentence": "Do not take two doses at one time.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8405129909515381,
+      "probabilities": {
+        "Simple Sentence": 0.1440759301185608,
+        "Compound Sentence": 0.009005897678434849,
+        "Complex Sentence": 0.003043227596208453,
+        "Compound-Complex Sentence": 0.0033619729802012444,
+        "Incomplete Sentence": 0.8405129909515381
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What happens if I overdose?",
+      "section_id": "overdose",
+      "subsection_title": null,
+      "block_index": 53,
+      "sentence_index": 0,
+      "sentence": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9916199445724487,
+      "probabilities": {
+        "Simple Sentence": 0.00475598918274045,
+        "Compound Sentence": 0.0015366633888334036,
+        "Complex Sentence": 0.0006759232492186129,
+        "Compound-Complex Sentence": 0.001411499222740531,
+        "Incomplete Sentence": 0.9916199445724487
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What to avoid",
+      "section_id": "what-to-avoid",
+      "subsection_title": null,
+      "block_index": 54,
+      "sentence_index": 0,
+      "sentence": "Omeprazole can cause diarrhea, which may be a sign of a new infection.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.7214585542678833,
+      "probabilities": {
+        "Simple Sentence": 0.7214585542678833,
+        "Compound Sentence": 0.18196849524974823,
+        "Complex Sentence": 0.0786803588271141,
+        "Compound-Complex Sentence": 0.01068012323230505,
+        "Incomplete Sentence": 0.007212432101368904
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What to avoid",
+      "section_id": "what-to-avoid",
+      "subsection_title": null,
+      "block_index": 54,
+      "sentence_index": 1,
+      "sentence": "If you have diarrhea that is watery or bloody, call your doctor before using anti-diarrhea medicine.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.34982770681381226,
+      "probabilities": {
+        "Simple Sentence": 0.34982770681381226,
+        "Compound Sentence": 0.30112889409065247,
+        "Complex Sentence": 0.29966211318969727,
+        "Compound-Complex Sentence": 0.0315687395632267,
+        "Incomplete Sentence": 0.017812522128224373
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 55,
+      "sentence_index": 0,
+      "sentence": "Get emergency medical help if you have signs of an allergic reaction to omeprazole: hives ; difficulty breathing; swelling of your face, lips, tongue, or throat.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.43049585819244385,
+      "probabilities": {
+        "Simple Sentence": 0.12595614790916443,
+        "Compound Sentence": 0.43049585819244385,
+        "Complex Sentence": 0.312430202960968,
+        "Compound-Complex Sentence": 0.08728988468647003,
+        "Incomplete Sentence": 0.04382786527276039
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 56,
+      "sentence_index": 0,
+      "sentence": "Stop using this medicine and call your doctor at once if you have:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8080517053604126,
+      "probabilities": {
+        "Simple Sentence": 0.15527722239494324,
+        "Compound Sentence": 0.022152412682771683,
+        "Complex Sentence": 0.005391698330640793,
+        "Compound-Complex Sentence": 0.009126914665102959,
+        "Incomplete Sentence": 0.8080517053604126
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 57,
+      "sentence_index": 0,
+      "sentence": "severe stomach pain, diarrhea that is watery or bloody;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9946966171264648,
+      "probabilities": {
+        "Simple Sentence": 0.002964302897453308,
+        "Compound Sentence": 0.0011016110656782985,
+        "Complex Sentence": 0.0003496973658911884,
+        "Compound-Complex Sentence": 0.0008877664222382009,
+        "Incomplete Sentence": 0.9946966171264648
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 58,
+      "sentence_index": 0,
+      "sentence": "severe stomach pain, diarrhea that is watery or bloody;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9946966171264648,
+      "probabilities": {
+        "Simple Sentence": 0.002964302897453308,
+        "Compound Sentence": 0.0011016110656782985,
+        "Complex Sentence": 0.0003496973658911884,
+        "Compound-Complex Sentence": 0.0008877664222382009,
+        "Incomplete Sentence": 0.9946966171264648
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 59,
+      "sentence_index": 0,
+      "sentence": "new or unusual pain in your wrist, thigh, hip, or back;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9943965673446655,
+      "probabilities": {
+        "Simple Sentence": 0.003055611625313759,
+        "Compound Sentence": 0.0014106219168752432,
+        "Complex Sentence": 0.00044539160444401205,
+        "Compound-Complex Sentence": 0.0006918599829077721,
+        "Incomplete Sentence": 0.9943965673446655
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 60,
+      "sentence_index": 0,
+      "sentence": "new or unusual pain in your wrist, thigh, hip, or back;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9943965673446655,
+      "probabilities": {
+        "Simple Sentence": 0.003055611625313759,
+        "Compound Sentence": 0.0014106219168752432,
+        "Complex Sentence": 0.00044539160444401205,
+        "Compound-Complex Sentence": 0.0006918599829077721,
+        "Incomplete Sentence": 0.9943965673446655
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 61,
+      "sentence_index": 0,
+      "sentence": "seizure (convulsions);",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9967219233512878,
+      "probabilities": {
+        "Simple Sentence": 0.0015811979537829757,
+        "Compound Sentence": 0.0008655793499201536,
+        "Complex Sentence": 0.0003128803218714893,
+        "Compound-Complex Sentence": 0.0005183774628676474,
+        "Incomplete Sentence": 0.9967219233512878
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 62,
+      "sentence_index": 0,
+      "sentence": "seizure (convulsions);",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9967219233512878,
+      "probabilities": {
+        "Simple Sentence": 0.0015811979537829757,
+        "Compound Sentence": 0.0008655793499201536,
+        "Complex Sentence": 0.0003128803218714893,
+        "Compound-Complex Sentence": 0.0005183774628676474,
+        "Incomplete Sentence": 0.9967219233512878
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 63,
+      "sentence_index": 0,
+      "sentence": "kidney problems - fever, rash, nausea, loss of appetite, joint pain, urinating less than usual, blood in your urine, weight gain;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9604344367980957,
+      "probabilities": {
+        "Simple Sentence": 0.03023165836930275,
+        "Compound Sentence": 0.004720695316791534,
+        "Complex Sentence": 0.0017970307962968946,
+        "Compound-Complex Sentence": 0.002816104330122471,
+        "Incomplete Sentence": 0.9604344367980957
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 64,
+      "sentence_index": 0,
+      "sentence": "kidney problems - fever, rash, nausea, loss of appetite, joint pain, urinating less than usual, blood in your urine, weight gain;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9604344367980957,
+      "probabilities": {
+        "Simple Sentence": 0.03023165836930275,
+        "Compound Sentence": 0.004720695316791534,
+        "Complex Sentence": 0.0017970307962968946,
+        "Compound-Complex Sentence": 0.002816104330122471,
+        "Incomplete Sentence": 0.9604344367980957
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 65,
+      "sentence_index": 0,
+      "sentence": "low magnesium - seizures, dizziness , irregular heartbeats, feeling jittery, muscle aches or weakness, muscle cramps, muscle spasms, or spasms of the hands, feet, or voice;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9355280995368958,
+      "probabilities": {
+        "Simple Sentence": 0.0552038699388504,
+        "Compound Sentence": 0.006337486673146486,
+        "Complex Sentence": 0.0013368685031309724,
+        "Compound-Complex Sentence": 0.0015937843127176166,
+        "Incomplete Sentence": 0.9355280995368958
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 66,
+      "sentence_index": 0,
+      "sentence": "low magnesium - seizures, dizziness , irregular heartbeats, feeling jittery, muscle aches or weakness, muscle cramps, muscle spasms, or spasms of the hands, feet, or voice;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9355280995368958,
+      "probabilities": {
+        "Simple Sentence": 0.0552038699388504,
+        "Compound Sentence": 0.006337486673146486,
+        "Complex Sentence": 0.0013368685031309724,
+        "Compound-Complex Sentence": 0.0015937843127176166,
+        "Incomplete Sentence": 0.9355280995368958
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 67,
+      "sentence_index": 0,
+      "sentence": "new or worsening symptoms of lupus - joint pain, and a skin rash on your cheeks or arms that worsens in sunlight.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9637181758880615,
+      "probabilities": {
+        "Simple Sentence": 0.02533348649740219,
+        "Compound Sentence": 0.0076773883774876595,
+        "Complex Sentence": 0.0010809390805661678,
+        "Compound-Complex Sentence": 0.0021899633575230837,
+        "Incomplete Sentence": 0.9637181758880615
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 68,
+      "sentence_index": 0,
+      "sentence": "new or worsening symptoms of lupus - joint pain, and a skin rash on your cheeks or arms that worsens in sunlight.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9637181758880615,
+      "probabilities": {
+        "Simple Sentence": 0.02533348649740219,
+        "Compound Sentence": 0.0076773883774876595,
+        "Complex Sentence": 0.0010809390805661678,
+        "Compound-Complex Sentence": 0.0021899633575230837,
+        "Incomplete Sentence": 0.9637181758880615
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 69,
+      "sentence_index": 0,
+      "sentence": "severe skin reactions - skin rash with blistering, peeling, or bleeding, fever, chills, body aches, shortness of breath, or enlarged lymph nodes.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.6994966864585876,
+      "probabilities": {
+        "Simple Sentence": 0.27446240186691284,
+        "Compound Sentence": 0.01661202311515808,
+        "Complex Sentence": 0.005061435047537088,
+        "Compound-Complex Sentence": 0.004367493093013763,
+        "Incomplete Sentence": 0.6994966864585876
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 70,
+      "sentence_index": 0,
+      "sentence": "severe skin reactions - skin rash with blistering, peeling, or bleeding, fever, chills, body aches, shortness of breath, or enlarged lymph nodes.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.6994966864585876,
+      "probabilities": {
+        "Simple Sentence": 0.27446240186691284,
+        "Compound Sentence": 0.01661202311515808,
+        "Complex Sentence": 0.005061435047537088,
+        "Compound-Complex Sentence": 0.004367493093013763,
+        "Incomplete Sentence": 0.6994966864585876
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 71,
+      "sentence_index": 0,
+      "sentence": "Taking omeprazole long-term may cause you to develop stomach growths called fundic gland polyps.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9845432639122009,
+      "probabilities": {
+        "Simple Sentence": 0.9845432639122009,
+        "Compound Sentence": 0.008619428612291813,
+        "Complex Sentence": 0.004471153952181339,
+        "Compound-Complex Sentence": 0.0008433930925093591,
+        "Incomplete Sentence": 0.0015227198600769043
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 71,
+      "sentence_index": 1,
+      "sentence": "Talk with your doctor about this risk.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9902517795562744,
+      "probabilities": {
+        "Simple Sentence": 0.006073682568967342,
+        "Compound Sentence": 0.0017354722367599607,
+        "Complex Sentence": 0.0006645258981734514,
+        "Compound-Complex Sentence": 0.0012746680295094848,
+        "Incomplete Sentence": 0.9902517795562744
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 72,
+      "sentence_index": 0,
+      "sentence": "If you use this medicine for longer than 3 years, you could develop a vitamin B-12 deficiency.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8820472359657288,
+      "probabilities": {
+        "Simple Sentence": 0.8820472359657288,
+        "Compound Sentence": 0.0501282662153244,
+        "Complex Sentence": 0.05756977200508118,
+        "Compound-Complex Sentence": 0.006048581562936306,
+        "Incomplete Sentence": 0.0042061279527843
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 72,
+      "sentence_index": 1,
+      "sentence": "Talk to your doctor if you develop symptoms such as shortness of breath, lightheadedness, irregular heartbeat, muscle weakness, pale skin, feeling tired, mood changes, and tingling or numbness in the arms and legs.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.44761940836906433,
+      "probabilities": {
+        "Simple Sentence": 0.1135634034872055,
+        "Compound Sentence": 0.44761940836906433,
+        "Complex Sentence": 0.16034570336341858,
+        "Compound-Complex Sentence": 0.1255805343389511,
+        "Incomplete Sentence": 0.1528909057378769
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 73,
+      "sentence_index": 0,
+      "sentence": "Common side effects of omeprazole may include:",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9497953653335571,
+      "probabilities": {
+        "Simple Sentence": 0.9497953653335571,
+        "Compound Sentence": 0.009086888283491135,
+        "Complex Sentence": 0.009611736051738262,
+        "Compound-Complex Sentence": 0.0017258154693990946,
+        "Incomplete Sentence": 0.02978021651506424
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 74,
+      "sentence_index": 0,
+      "sentence": "cold symptoms such as stuffy nose, sneezing, sore throat (especially in children);",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9930835962295532,
+      "probabilities": {
+        "Simple Sentence": 0.0034368489868938923,
+        "Compound Sentence": 0.0015986735234037042,
+        "Complex Sentence": 0.0005722555797547102,
+        "Compound-Complex Sentence": 0.0013086276594549417,
+        "Incomplete Sentence": 0.9930835962295532
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 75,
+      "sentence_index": 0,
+      "sentence": "cold symptoms such as stuffy nose, sneezing, sore throat (especially in children);",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9930835962295532,
+      "probabilities": {
+        "Simple Sentence": 0.0034368489868938923,
+        "Compound Sentence": 0.0015986735234037042,
+        "Complex Sentence": 0.0005722555797547102,
+        "Compound-Complex Sentence": 0.0013086276594549417,
+        "Incomplete Sentence": 0.9930835962295532
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 76,
+      "sentence_index": 0,
+      "sentence": "fever (especially in children);",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9964459538459778,
+      "probabilities": {
+        "Simple Sentence": 0.0018539705779403448,
+        "Compound Sentence": 0.000865339650772512,
+        "Complex Sentence": 0.00030317006167024374,
+        "Compound-Complex Sentence": 0.000531560683157295,
+        "Incomplete Sentence": 0.9964459538459778
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 77,
+      "sentence_index": 0,
+      "sentence": "fever (especially in children);",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9964459538459778,
+      "probabilities": {
+        "Simple Sentence": 0.0018539705779403448,
+        "Compound Sentence": 0.000865339650772512,
+        "Complex Sentence": 0.00030317006167024374,
+        "Compound-Complex Sentence": 0.000531560683157295,
+        "Incomplete Sentence": 0.9964459538459778
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 78,
+      "sentence_index": 0,
+      "sentence": "stomach pain, gas;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968762397766113,
+      "probabilities": {
+        "Simple Sentence": 0.001561874058097601,
+        "Compound Sentence": 0.0007170010358095169,
+        "Complex Sentence": 0.0003015290421899408,
+        "Compound-Complex Sentence": 0.0005433390033431351,
+        "Incomplete Sentence": 0.9968762397766113
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 79,
+      "sentence_index": 0,
+      "sentence": "stomach pain, gas;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968762397766113,
+      "probabilities": {
+        "Simple Sentence": 0.001561874058097601,
+        "Compound Sentence": 0.0007170010358095169,
+        "Complex Sentence": 0.0003015290421899408,
+        "Compound-Complex Sentence": 0.0005433390033431351,
+        "Incomplete Sentence": 0.9968762397766113
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 80,
+      "sentence_index": 0,
+      "sentence": "nausea, vomiting, diarrhea; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9946212768554688,
+      "probabilities": {
+        "Simple Sentence": 0.002219721209257841,
+        "Compound Sentence": 0.0012765472056344151,
+        "Complex Sentence": 0.000494078965857625,
+        "Compound-Complex Sentence": 0.0013883879873901606,
+        "Incomplete Sentence": 0.9946212768554688
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 81,
+      "sentence_index": 0,
+      "sentence": "nausea, vomiting, diarrhea; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9946212768554688,
+      "probabilities": {
+        "Simple Sentence": 0.002219721209257841,
+        "Compound Sentence": 0.0012765472056344151,
+        "Complex Sentence": 0.000494078965857625,
+        "Compound-Complex Sentence": 0.0013883879873901606,
+        "Incomplete Sentence": 0.9946212768554688
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 82,
+      "sentence_index": 0,
+      "sentence": "headache .",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978737831115723,
+      "probabilities": {
+        "Simple Sentence": 0.0007558442302979529,
+        "Compound Sentence": 0.0005476133665069938,
+        "Complex Sentence": 0.00021361243852879852,
+        "Compound-Complex Sentence": 0.0006091197719797492,
+        "Incomplete Sentence": 0.9978737831115723
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 83,
+      "sentence_index": 0,
+      "sentence": "headache .",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978737831115723,
+      "probabilities": {
+        "Simple Sentence": 0.0007558442302979529,
+        "Compound Sentence": 0.0005476133665069938,
+        "Complex Sentence": 0.00021361243852879852,
+        "Compound-Complex Sentence": 0.0006091197719797492,
+        "Incomplete Sentence": 0.9978737831115723
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 84,
+      "sentence_index": 0,
+      "sentence": "This is not a complete list of side effects and others may occur.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8379635214805603,
+      "probabilities": {
+        "Simple Sentence": 0.8379635214805603,
+        "Compound Sentence": 0.10669127106666565,
+        "Complex Sentence": 0.029844889417290688,
+        "Compound-Complex Sentence": 0.006823876406997442,
+        "Incomplete Sentence": 0.018676454201340675
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 84,
+      "sentence_index": 1,
+      "sentence": "Call your doctor for medical advice about side effects.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9224351644515991,
+      "probabilities": {
+        "Simple Sentence": 0.06066320836544037,
+        "Compound Sentence": 0.008363625966012478,
+        "Complex Sentence": 0.003304156241938472,
+        "Compound-Complex Sentence": 0.005233823787420988,
+        "Incomplete Sentence": 0.9224351644515991
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "Omeprazole side effects",
+      "section_id": "side-effects",
+      "subsection_title": null,
+      "block_index": 84,
+      "sentence_index": 2,
+      "sentence": "You may report side effects to FDA at 1-800-FDA-1088.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9825566411018372,
+      "probabilities": {
+        "Simple Sentence": 0.9825566411018372,
+        "Compound Sentence": 0.00803855899721384,
+        "Complex Sentence": 0.0037391898222267628,
+        "Compound-Complex Sentence": 0.0007530149887315929,
+        "Incomplete Sentence": 0.004912673495709896
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What other drugs will affect omeprazole?",
+      "section_id": "interactions",
+      "subsection_title": null,
+      "block_index": 85,
+      "sentence_index": 0,
+      "sentence": "Sometimes it is not safe to use certain medications at the same time.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9750886559486389,
+      "probabilities": {
+        "Simple Sentence": 0.9750886559486389,
+        "Compound Sentence": 0.010954594239592552,
+        "Complex Sentence": 0.007173682097345591,
+        "Compound-Complex Sentence": 0.0012612935388460755,
+        "Incomplete Sentence": 0.005521779879927635
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What other drugs will affect omeprazole?",
+      "section_id": "interactions",
+      "subsection_title": null,
+      "block_index": 85,
+      "sentence_index": 1,
+      "sentence": "Some drugs can affect your blood levels of other drugs you take, which may increase side effects or make the medications less effective.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.8916974663734436,
+      "probabilities": {
+        "Simple Sentence": 0.016941191628575325,
+        "Compound Sentence": 0.022334111854434013,
+        "Complex Sentence": 0.8916974663734436,
+        "Compound-Complex Sentence": 0.06526009738445282,
+        "Incomplete Sentence": 0.0037671923637390137
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What other drugs will affect omeprazole?",
+      "section_id": "interactions",
+      "subsection_title": null,
+      "block_index": 86,
+      "sentence_index": 0,
+      "sentence": "Tell your doctor about all your current medicines.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9777033925056458,
+      "probabilities": {
+        "Simple Sentence": 0.016970820724964142,
+        "Compound Sentence": 0.0029147283639758825,
+        "Complex Sentence": 0.0009180560591630638,
+        "Compound-Complex Sentence": 0.0014930653851479292,
+        "Incomplete Sentence": 0.9777033925056458
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What other drugs will affect omeprazole?",
+      "section_id": "interactions",
+      "subsection_title": null,
+      "block_index": 86,
+      "sentence_index": 1,
+      "sentence": "Many drugs can affect omeprazole, especially:",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9897700548171997,
+      "probabilities": {
+        "Simple Sentence": 0.9897700548171997,
+        "Compound Sentence": 0.004259834997355938,
+        "Complex Sentence": 0.0025611117016524076,
+        "Compound-Complex Sentence": 0.0006071303505450487,
+        "Incomplete Sentence": 0.002801864640787244
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What other drugs will affect omeprazole?",
+      "section_id": "interactions",
+      "subsection_title": null,
+      "block_index": 87,
+      "sentence_index": 0,
+      "sentence": "digoxin ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978572726249695,
+      "probabilities": {
+        "Simple Sentence": 0.0008188466308638453,
+        "Compound Sentence": 0.0006085151107981801,
+        "Complex Sentence": 0.00027055488317273557,
+        "Compound-Complex Sentence": 0.0004447646497283131,
+        "Incomplete Sentence": 0.9978572726249695
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What other drugs will affect omeprazole?",
+      "section_id": "interactions",
+      "subsection_title": null,
+      "block_index": 88,
+      "sentence_index": 0,
+      "sentence": "digoxin ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978572726249695,
+      "probabilities": {
+        "Simple Sentence": 0.0008188466308638453,
+        "Compound Sentence": 0.0006085151107981801,
+        "Complex Sentence": 0.00027055488317273557,
+        "Compound-Complex Sentence": 0.0004447646497283131,
+        "Incomplete Sentence": 0.9978572726249695
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What other drugs will affect omeprazole?",
+      "section_id": "interactions",
+      "subsection_title": null,
+      "block_index": 89,
+      "sentence_index": 0,
+      "sentence": "clopidogrel ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9977321624755859,
+      "probabilities": {
+        "Simple Sentence": 0.0009040570585057139,
+        "Compound Sentence": 0.0006222595693543553,
+        "Complex Sentence": 0.00028405780903995037,
+        "Compound-Complex Sentence": 0.00045748319826088846,
+        "Incomplete Sentence": 0.9977321624755859
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What other drugs will affect omeprazole?",
+      "section_id": "interactions",
+      "subsection_title": null,
+      "block_index": 90,
+      "sentence_index": 0,
+      "sentence": "clopidogrel ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9977321624755859,
+      "probabilities": {
+        "Simple Sentence": 0.0009040570585057139,
+        "Compound Sentence": 0.0006222595693543553,
+        "Complex Sentence": 0.00028405780903995037,
+        "Compound-Complex Sentence": 0.00045748319826088846,
+        "Incomplete Sentence": 0.9977321624755859
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What other drugs will affect omeprazole?",
+      "section_id": "interactions",
+      "subsection_title": null,
+      "block_index": 91,
+      "sentence_index": 0,
+      "sentence": "methotrexate ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9975564479827881,
+      "probabilities": {
+        "Simple Sentence": 0.0010598641820251942,
+        "Compound Sentence": 0.0006307143485173583,
+        "Complex Sentence": 0.0002768874110188335,
+        "Compound-Complex Sentence": 0.0004760882002301514,
+        "Incomplete Sentence": 0.9975564479827881
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What other drugs will affect omeprazole?",
+      "section_id": "interactions",
+      "subsection_title": null,
+      "block_index": 92,
+      "sentence_index": 0,
+      "sentence": "methotrexate ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9975564479827881,
+      "probabilities": {
+        "Simple Sentence": 0.0010598641820251942,
+        "Compound Sentence": 0.0006307143485173583,
+        "Complex Sentence": 0.0002768874110188335,
+        "Compound-Complex Sentence": 0.0004760882002301514,
+        "Incomplete Sentence": 0.9975564479827881
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What other drugs will affect omeprazole?",
+      "section_id": "interactions",
+      "subsection_title": null,
+      "block_index": 93,
+      "sentence_index": 0,
+      "sentence": "St. John's wort ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.996038556098938,
+      "probabilities": {
+        "Simple Sentence": 0.0020912676118314266,
+        "Compound Sentence": 0.0009926800848916173,
+        "Complex Sentence": 0.00039217082667164505,
+        "Compound-Complex Sentence": 0.0004852130950894207,
+        "Incomplete Sentence": 0.996038556098938
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What other drugs will affect omeprazole?",
+      "section_id": "interactions",
+      "subsection_title": null,
+      "block_index": 94,
+      "sentence_index": 0,
+      "sentence": "St. John's wort ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.996038556098938,
+      "probabilities": {
+        "Simple Sentence": 0.0020912676118314266,
+        "Compound Sentence": 0.0009926800848916173,
+        "Complex Sentence": 0.00039217082667164505,
+        "Compound-Complex Sentence": 0.0004852130950894207,
+        "Incomplete Sentence": 0.996038556098938
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What other drugs will affect omeprazole?",
+      "section_id": "interactions",
+      "subsection_title": null,
+      "block_index": 95,
+      "sentence_index": 0,
+      "sentence": "a diuretic or \"water pill\"; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.99615877866745,
+      "probabilities": {
+        "Simple Sentence": 0.00158262113109231,
+        "Compound Sentence": 0.0010074498131871223,
+        "Complex Sentence": 0.00040863966569304466,
+        "Compound-Complex Sentence": 0.0008425783598795533,
+        "Incomplete Sentence": 0.99615877866745
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What other drugs will affect omeprazole?",
+      "section_id": "interactions",
+      "subsection_title": null,
+      "block_index": 96,
+      "sentence_index": 0,
+      "sentence": "a diuretic or \"water pill\"; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.99615877866745,
+      "probabilities": {
+        "Simple Sentence": 0.00158262113109231,
+        "Compound Sentence": 0.0010074498131871223,
+        "Complex Sentence": 0.00040863966569304466,
+        "Compound-Complex Sentence": 0.0008425783598795533,
+        "Incomplete Sentence": 0.99615877866745
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What other drugs will affect omeprazole?",
+      "section_id": "interactions",
+      "subsection_title": null,
+      "block_index": 97,
+      "sentence_index": 0,
+      "sentence": "an antibiotic - amoxicillin , clarithromycin , rifampin .",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.99529629945755,
+      "probabilities": {
+        "Simple Sentence": 0.0017014120239764452,
+        "Compound Sentence": 0.001194173819385469,
+        "Complex Sentence": 0.0004745458427350968,
+        "Compound-Complex Sentence": 0.001333498628810048,
+        "Incomplete Sentence": 0.99529629945755
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What other drugs will affect omeprazole?",
+      "section_id": "interactions",
+      "subsection_title": null,
+      "block_index": 98,
+      "sentence_index": 0,
+      "sentence": "an antibiotic - amoxicillin , clarithromycin , rifampin .",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.99529629945755,
+      "probabilities": {
+        "Simple Sentence": 0.0017014120239764452,
+        "Compound Sentence": 0.001194173819385469,
+        "Complex Sentence": 0.0004745458427350968,
+        "Compound-Complex Sentence": 0.001333498628810048,
+        "Incomplete Sentence": 0.99529629945755
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What other drugs will affect omeprazole?",
+      "section_id": "interactions",
+      "subsection_title": null,
+      "block_index": 99,
+      "sentence_index": 0,
+      "sentence": "This list is not complete and many other drugs may interact with omeprazole.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.5106501579284668,
+      "probabilities": {
+        "Simple Sentence": 0.5106501579284668,
+        "Compound Sentence": 0.4363558888435364,
+        "Complex Sentence": 0.03449659422039986,
+        "Compound-Complex Sentence": 0.008599468506872654,
+        "Incomplete Sentence": 0.0098979277536273
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What other drugs will affect omeprazole?",
+      "section_id": "interactions",
+      "subsection_title": null,
+      "block_index": 99,
+      "sentence_index": 1,
+      "sentence": "This includes prescription and over-the-counter medicines, vitamins , and herbal products .",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8488540053367615,
+      "probabilities": {
+        "Simple Sentence": 0.8488540053367615,
+        "Compound Sentence": 0.07332230359315872,
+        "Complex Sentence": 0.036646176129579544,
+        "Compound-Complex Sentence": 0.007940785028040409,
+        "Incomplete Sentence": 0.03323664143681526
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "omeprazole.html",
+      "section_title": "What other drugs will affect omeprazole?",
+      "section_id": "interactions",
+      "subsection_title": null,
+      "block_index": 99,
+      "sentence_index": 2,
+      "sentence": "Not all possible drug interactions are listed here.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9794979095458984,
+      "probabilities": {
+        "Simple Sentence": 0.9794979095458984,
+        "Compound Sentence": 0.006145690102130175,
+        "Complex Sentence": 0.0035777543671429157,
+        "Compound-Complex Sentence": 0.0007433757418766618,
+        "Incomplete Sentence": 0.010035284794867039
+      }
+    }
+  ]
+}

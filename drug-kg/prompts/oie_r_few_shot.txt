@@ -1,0 +1,14 @@
+Example 1:
+Text: Lipitor (atorvastatin) belongs to a group of drugs called statins. Lipitor is used together with diet to lower blood levels of "bad" cholesterol (LDL) and to reduce the risk of stroke and heart attack.
+Candidate entities: ["Lipitor", "atorvastatin", "statins", "diet", "high LDL cholesterol", "stroke", "heart attack"]
+Triplets: [["Lipitor", "has generic name", "atorvastatin"], ["Lipitor", "belongs to drug class", "statins"], ["Lipitor", "used in combination with", "diet"], ["Lipitor", "treats", "high LDL cholesterol"], ["Lipitor", "reduces risk of", "stroke"], ["Lipitor", "reduces risk of", "heart attack"]]
+
+Example 2:
+Text: You should not use metformin if you have severe kidney disease or metabolic acidosis. Tell your doctor if you have ever had liver disease or heart disease. Metformin may cause lactic acidosis, a serious condition.
+Candidate entities: ["metformin", "severe kidney disease", "metabolic acidosis", "liver disease", "heart disease", "lactic acidosis"]
+Triplets: [["metformin", "contraindicated in", "severe kidney disease"], ["metformin", "contraindicated in", "metabolic acidosis"], ["metformin", "use with caution in", "liver disease"], ["metformin", "use with caution in", "heart disease"], ["metformin", "has serious side effect", "lactic acidosis"]]
+
+Example 3:
+Text: Common side effects of sertraline may include nausea, diarrhea, and trouble sleeping. Sertraline is taken by mouth once a day. The usual adult starting dose is 50 mg once daily.
+Candidate entities: ["sertraline", "nausea", "diarrhea", "trouble sleeping", "oral", "50 mg once daily"]
+Triplets: [["sertraline", "has side effect", "nausea"], ["sertraline", "has side effect", "diarrhea"], ["sertraline", "has side effect", "trouble sleeping"], ["sertraline", "administered via", "oral"], ["sertraline", "has recommended dose", "50 mg once daily"]]

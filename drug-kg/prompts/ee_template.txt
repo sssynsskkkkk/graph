@@ -1,0 +1,8 @@
+Your task is to extract entities from the given text. The text comes from the Drugs.com page about the drug "{drug}"; expressions such as "this medicine" refer to {drug}. Entities are drugs, drug classes, diseases and conditions, symptoms and side effects, substances, doses, dosage forms, companies and other concrete noun phrases. In your answer, please strictly only include the entities as a JSON list of strings and do not include any explanation or apologies.
+
+Here are some examples:
+{few_shot_examples}
+
+Now please extract entities from the following text.
+Text: {input_text}
+Entities:

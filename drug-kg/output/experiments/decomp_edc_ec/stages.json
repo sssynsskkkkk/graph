@@ -1,0 +1,43 @@
+{
+  "copy_from": {
+    "seconds": 0,
+    "finished_at": "2026-10-07 16:32:48",
+    "source": "decomp_edc"
+  },
+  "export": {
+    "seconds": 21.5,
+    "finished_at": "2026-10-07 16:33:09",
+    "n_entities": 8466,
+    "n_triples": 13198,
+    "n_relations": 210
+  },
+  "canon_entities": {
+    "seconds": 528.6,
+    "finished_at": "2026-10-07 16:56:07",
+    "n_entities_in": 8466,
+    "n_edges_in": 210,
+    "numeric_guard": true,
+    "type_guard": false,
+    "strict_prompt": false,
+    "entities_after_semhash": 7844,
+    "edges_after_semhash": 207,
+    "entities_after_lm": 5066,
+    "edges_after_lm": 143,
+    "lm_calls": 5471,
+    "n_node_clusters": 62,
+    "n_edge_clusters": 1,
+    "n_entities_out": 5064,
+    "n_triples_out": 11940,
+    "llm_calls": {
+      "calls": 3188,
+      "cache_hits": 2283,
+      "prompt_tokens": 957764,
+      "completion_tokens": 189437,
+      "errors": 0
+    }
+  },
+  "audit": {
+    "seconds": 1.4,
+    "finished_at": "2026-10-07 16:56:10"
+  }
+}

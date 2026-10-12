@@ -1,0 +1,76 @@
+llm:
+  base_url: http://localhost:8000/v1
+  api_key: EMPTY
+  model: drugkg-llm
+  temperature: 0.0
+  max_tokens: 1024
+  concurrency: 16
+  timeout: 300
+  cache_dir: /home/heesun/graph/drug-kg/output/cache/llm_coref_decomp_edc_r2
+  extra_body:
+    chat_template_kwargs:
+      enable_thinking: false
+embedder:
+  model: BAAI/bge-base-en-v1.5
+  device: cpu
+scrape:
+  pages:
+  - main
+  delay_range:
+  - 6
+  - 10
+  max_retries: 4
+  raw_dir: data/raw_html
+  url_map: data/drug_urls.json
+chunking:
+  max_chars: 1100
+  min_chars: 150
+  include_sections:
+  - uses
+  - warnings
+  - before-taking
+  - dosage
+  - missed-dose
+  - overdose
+  - what-to-avoid
+  - side-effects
+  - interactions
+  - ingredients
+  - manufacturer
+  - contraindications
+  include_unlisted_sections: true
+  exclude_sections:
+  - related-drugs
+  - faq
+  - references
+  - more-about
+  - further-information
+  - images
+  - popular-faq
+edc:
+  schema_path: schemas/drug_seed_schema.csv
+  enrich_schema: true
+  top_k_candidates: 5
+  auto_accept_sim: 0.97
+  new_relation_merge_sim: 0.8
+  refinement_iterations: 0
+  relation_hint_top_k: 10
+  consolidate_schema: true
+  consolidate_sim: 0.8
+postprocess:
+  max_entity_chars: 120
+  drop_relations: []
+  min_enriched_relation_count: 2
+  relation_merges:
+    has instruction: has administration instruction
+output:
+  dir: output
+  kg_dir: output/kg
+  edc_dir: output/edc
+  schema_dir: output/schema
+entity_canon:
+  semhash_threshold: 0.95
+  cluster_size: 128
+  top_k: 16
+  workers: 16
+  numeric_guard: true

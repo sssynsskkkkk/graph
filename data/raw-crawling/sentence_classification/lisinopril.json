@@ -1,0 +1,3006 @@
+{
+  "drug": "Lisinopril",
+  "source_file": "data/raw-crawling/raw-crawling/lisinopril.html",
+  "model": "models/codekg_bert_large/final_model",
+  "sentence_count": 176,
+  "label_counts": {
+    "Complex Sentence": 17,
+    "Compound Sentence": 19,
+    "Incomplete Sentence": 103,
+    "Simple Sentence": 37
+  },
+  "sentences": [
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": null,
+      "block_index": 0,
+      "sentence_index": 0,
+      "sentence": "Generic name: lisinopril [ lyse-IN-oh-pril ] Brand names: Prinivil , Qbrelis , Zestril Dosage forms: oral solution (1 mg/mL), oral tablet (10 mg; 2.5 mg; 20 mg; 30 mg; 40 mg; 5 mg) Drug class: Angiotensin Converting Enzyme Inhibitors",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.3921673595905304,
+      "probabilities": {
+        "Simple Sentence": 0.023910684511065483,
+        "Compound Sentence": 0.3921673595905304,
+        "Complex Sentence": 0.21536266803741455,
+        "Compound-Complex Sentence": 0.3302380442619324,
+        "Incomplete Sentence": 0.03832126781344414
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": null,
+      "block_index": 1,
+      "sentence_index": 0,
+      "sentence": "Medically reviewed by Melisa Puckey, BPharm .",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9966495633125305,
+      "probabilities": {
+        "Simple Sentence": 0.0018034508684650064,
+        "Compound Sentence": 0.0008162597077898681,
+        "Complex Sentence": 0.00030561030143871903,
+        "Compound-Complex Sentence": 0.0004251273931004107,
+        "Incomplete Sentence": 0.9966495633125305
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": null,
+      "block_index": 1,
+      "sentence_index": 1,
+      "sentence": "Last updated on Aug 26, 2026.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9931328892707825,
+      "probabilities": {
+        "Simple Sentence": 0.004118787124752998,
+        "Compound Sentence": 0.0014457639772444963,
+        "Complex Sentence": 0.0004772281972691417,
+        "Compound-Complex Sentence": 0.0008253820124082267,
+        "Incomplete Sentence": 0.9931328892707825
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What is lisinopril?",
+      "block_index": 2,
+      "sentence_index": 0,
+      "sentence": "Lisinopril is used alone or in combination with other medications to treat high blood pressure in adults and children 6 years of age and older.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9583464860916138,
+      "probabilities": {
+        "Simple Sentence": 0.9583464860916138,
+        "Compound Sentence": 0.017874905839562416,
+        "Complex Sentence": 0.01952509395778179,
+        "Compound-Complex Sentence": 0.0014408156275749207,
+        "Incomplete Sentence": 0.002812727587297559
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What is lisinopril?",
+      "block_index": 3,
+      "sentence_index": 0,
+      "sentence": "Lisinopril is also used in adults to treat congestive heart failure and to improve survival after a heart attack .",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.6370800137519836,
+      "probabilities": {
+        "Simple Sentence": 0.2130827158689499,
+        "Compound Sentence": 0.6370800137519836,
+        "Complex Sentence": 0.12248429656028748,
+        "Compound-Complex Sentence": 0.018519224599003792,
+        "Incomplete Sentence": 0.008833709172904491
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What is lisinopril?",
+      "block_index": 4,
+      "sentence_index": 0,
+      "sentence": "Lisinopril belongs to a class of medications called angiotensin-converting enzyme (ACE) inhibitors.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9897776246070862,
+      "probabilities": {
+        "Simple Sentence": 0.9897776246070862,
+        "Compound Sentence": 0.004257787950336933,
+        "Complex Sentence": 0.003374772844836116,
+        "Compound-Complex Sentence": 0.0006337914965115488,
+        "Incomplete Sentence": 0.001956031657755375
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What is lisinopril?",
+      "block_index": 4,
+      "sentence_index": 1,
+      "sentence": "It works by decreasing certain chemicals that tighten the blood vessels, so blood flows more smoothly and the heart can pump blood more efficiently.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.4828893542289734,
+      "probabilities": {
+        "Simple Sentence": 0.012065310962498188,
+        "Compound Sentence": 0.4828893542289734,
+        "Complex Sentence": 0.12764094769954681,
+        "Compound-Complex Sentence": 0.36808106303215027,
+        "Incomplete Sentence": 0.009323349222540855
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What is lisinopril?",
+      "block_index": 5,
+      "sentence_index": 0,
+      "sentence": "High blood pressure is a common condition and when not treated, can cause damage to the brain, heart, blood vessels, kidneys, and other parts of the body.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.8196732401847839,
+      "probabilities": {
+        "Simple Sentence": 0.015949901193380356,
+        "Compound Sentence": 0.8196732401847839,
+        "Complex Sentence": 0.10743900388479233,
+        "Compound-Complex Sentence": 0.05168842896819115,
+        "Incomplete Sentence": 0.005249456502497196
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What is lisinopril?",
+      "block_index": 5,
+      "sentence_index": 1,
+      "sentence": "Damage to these organs may cause heart disease, a heart attack, heart failure, stroke, kidney failure, loss of vision, and other problems.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.47697505354881287,
+      "probabilities": {
+        "Simple Sentence": 0.3432169258594513,
+        "Compound Sentence": 0.47697505354881287,
+        "Complex Sentence": 0.14521192014217377,
+        "Compound-Complex Sentence": 0.02198401838541031,
+        "Incomplete Sentence": 0.012612038291990757
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What is lisinopril?",
+      "block_index": 5,
+      "sentence_index": 2,
+      "sentence": "In addition to taking medication, making lifestyle changes will also help to control your blood pressure.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.6778051257133484,
+      "probabilities": {
+        "Simple Sentence": 0.15414640307426453,
+        "Compound Sentence": 0.13556955754756927,
+        "Complex Sentence": 0.6778051257133484,
+        "Compound-Complex Sentence": 0.024882687255740166,
+        "Incomplete Sentence": 0.007596206851303577
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What is lisinopril?",
+      "block_index": 5,
+      "sentence_index": 3,
+      "sentence": "These changes include eating a diet that is low in fat and salt, maintaining a healthy weight, exercising at least 30 minutes most days, not smoking, and using alcohol in moderation.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.6522659063339233,
+      "probabilities": {
+        "Simple Sentence": 0.08136208355426788,
+        "Compound Sentence": 0.6522659063339233,
+        "Complex Sentence": 0.22355367243289948,
+        "Compound-Complex Sentence": 0.028686564415693283,
+        "Incomplete Sentence": 0.014131707139313221
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Warnings",
+      "block_index": 6,
+      "sentence_index": 0,
+      "sentence": "Do not use lisinopril if you are pregnant.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.5471396446228027,
+      "probabilities": {
+        "Simple Sentence": 0.5471396446228027,
+        "Compound Sentence": 0.018288390710949898,
+        "Complex Sentence": 0.007253339048475027,
+        "Compound-Complex Sentence": 0.007812153082340956,
+        "Incomplete Sentence": 0.4195065200328827
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Warnings",
+      "block_index": 6,
+      "sentence_index": 1,
+      "sentence": "It could harm the unborn baby.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9367973208427429,
+      "probabilities": {
+        "Simple Sentence": 0.9367973208427429,
+        "Compound Sentence": 0.012608378194272518,
+        "Complex Sentence": 0.005430744960904121,
+        "Compound-Complex Sentence": 0.002322088461369276,
+        "Incomplete Sentence": 0.04284144937992096
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Warnings",
+      "block_index": 6,
+      "sentence_index": 2,
+      "sentence": "Stop using this medicine and tell your doctor right away if you become pregnant.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.5888726115226746,
+      "probabilities": {
+        "Simple Sentence": 0.5888726115226746,
+        "Compound Sentence": 0.11443021893501282,
+        "Complex Sentence": 0.03154616430401802,
+        "Compound-Complex Sentence": 0.032963383942842484,
+        "Incomplete Sentence": 0.23218762874603271
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Warnings",
+      "block_index": 7,
+      "sentence_index": 0,
+      "sentence": "You should not use this medicine if you have ever had angioedema.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9838119149208069,
+      "probabilities": {
+        "Simple Sentence": 0.9838119149208069,
+        "Compound Sentence": 0.007748045958578587,
+        "Complex Sentence": 0.004693693947046995,
+        "Compound-Complex Sentence": 0.0009148144163191319,
+        "Incomplete Sentence": 0.0028316196985542774
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Warnings",
+      "block_index": 7,
+      "sentence_index": 1,
+      "sentence": "Do not take lisinopril within 36 hours before or after taking medicine that contains sacubitril (such as Entresto).",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.5347131490707397,
+      "probabilities": {
+        "Simple Sentence": 0.5347131490707397,
+        "Compound Sentence": 0.03344016522169113,
+        "Complex Sentence": 0.009613570757210255,
+        "Compound-Complex Sentence": 0.007421541027724743,
+        "Incomplete Sentence": 0.41481155157089233
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Warnings",
+      "block_index": 8,
+      "sentence_index": 0,
+      "sentence": "If you have diabetes, do not use lisinopril together with any medication that contains aliskiren (such as Amturnide, Tekturna, Tekamlo).",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.6311423778533936,
+      "probabilities": {
+        "Simple Sentence": 0.09766709059476852,
+        "Compound Sentence": 0.21342873573303223,
+        "Complex Sentence": 0.6311423778533936,
+        "Compound-Complex Sentence": 0.045408330857753754,
+        "Incomplete Sentence": 0.012353479862213135
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Warnings",
+      "block_index": 9,
+      "sentence_index": 0,
+      "sentence": "You may also need to avoid taking lisinopril with aliskiren if you have kidney disease.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.7545340657234192,
+      "probabilities": {
+        "Simple Sentence": 0.7545340657234192,
+        "Compound Sentence": 0.13514846563339233,
+        "Complex Sentence": 0.09398100525140762,
+        "Compound-Complex Sentence": 0.010741849429905415,
+        "Incomplete Sentence": 0.005594609305262566
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 10,
+      "sentence_index": 0,
+      "sentence": "You should not use lisinopril if you are allergic to it or to any other ACE (angiotensin converting enzyme) inhibitor such as captopril , fosinopril , enalapril , benazepril , moexipril , perindopril , quinapril , ramipril , or trandolapril .",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.9224259257316589,
+      "probabilities": {
+        "Simple Sentence": 0.014507465995848179,
+        "Compound Sentence": 0.024106362834572792,
+        "Complex Sentence": 0.9224259257316589,
+        "Compound-Complex Sentence": 0.03560081124305725,
+        "Incomplete Sentence": 0.003359434427693486
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 11,
+      "sentence_index": 0,
+      "sentence": "Do not take lisinopril within 36 hours before or after taking medicine that contains sacubitril (such as Entresto ).",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.5347131490707397,
+      "probabilities": {
+        "Simple Sentence": 0.5347131490707397,
+        "Compound Sentence": 0.03344016522169113,
+        "Complex Sentence": 0.009613570757210255,
+        "Compound-Complex Sentence": 0.007421541027724743,
+        "Incomplete Sentence": 0.41481155157089233
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 12,
+      "sentence_index": 0,
+      "sentence": "If you have diabetes, do not take lisinopril with any medication that contains aliskiren (a blood pressure medicine).",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.4501112401485443,
+      "probabilities": {
+        "Simple Sentence": 0.4501112401485443,
+        "Compound Sentence": 0.23141475021839142,
+        "Complex Sentence": 0.27022117376327515,
+        "Compound-Complex Sentence": 0.028915494680404663,
+        "Incomplete Sentence": 0.019337259232997894
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 13,
+      "sentence_index": 0,
+      "sentence": "Do not take lisinopril if you have a history of angioedema (severe allergic reaction).",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8374069929122925,
+      "probabilities": {
+        "Simple Sentence": 0.8374069929122925,
+        "Compound Sentence": 0.05788366496562958,
+        "Complex Sentence": 0.018054520711302757,
+        "Compound-Complex Sentence": 0.008420765399932861,
+        "Incomplete Sentence": 0.07823403179645538
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 14,
+      "sentence_index": 0,
+      "sentence": "To make sure this medicine is safe for you, tell your doctor if you have ever had:",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.5898634791374207,
+      "probabilities": {
+        "Simple Sentence": 0.5898634791374207,
+        "Compound Sentence": 0.05568905547261238,
+        "Complex Sentence": 0.02098805643618107,
+        "Compound-Complex Sentence": 0.009609032422304153,
+        "Incomplete Sentence": 0.3238504230976105
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 15,
+      "sentence_index": 0,
+      "sentence": "heart disease , heart problems such as a recent heart attack;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9962490200996399,
+      "probabilities": {
+        "Simple Sentence": 0.001963540678843856,
+        "Compound Sentence": 0.0008369139977730811,
+        "Complex Sentence": 0.000313343305606395,
+        "Compound-Complex Sentence": 0.0006373126525431871,
+        "Incomplete Sentence": 0.9962490200996399
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 16,
+      "sentence_index": 0,
+      "sentence": "heart disease , heart problems such as a recent heart attack;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9962490200996399,
+      "probabilities": {
+        "Simple Sentence": 0.001963540678843856,
+        "Compound Sentence": 0.0008369139977730811,
+        "Complex Sentence": 0.000313343305606395,
+        "Compound-Complex Sentence": 0.0006373126525431871,
+        "Incomplete Sentence": 0.9962490200996399
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 17,
+      "sentence_index": 0,
+      "sentence": "low blood pressure ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9970308542251587,
+      "probabilities": {
+        "Simple Sentence": 0.0013260745909065008,
+        "Compound Sentence": 0.0007362719625234604,
+        "Complex Sentence": 0.00029286876088008285,
+        "Compound-Complex Sentence": 0.0006139778415672481,
+        "Incomplete Sentence": 0.9970308542251587
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 18,
+      "sentence_index": 0,
+      "sentence": "low blood pressure ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9970308542251587,
+      "probabilities": {
+        "Simple Sentence": 0.0013260745909065008,
+        "Compound Sentence": 0.0007362719625234604,
+        "Complex Sentence": 0.00029286876088008285,
+        "Compound-Complex Sentence": 0.0006139778415672481,
+        "Incomplete Sentence": 0.9970308542251587
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 19,
+      "sentence_index": 0,
+      "sentence": "low white blood cell count;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9969112277030945,
+      "probabilities": {
+        "Simple Sentence": 0.0013753719395026565,
+        "Compound Sentence": 0.0007775648846291006,
+        "Complex Sentence": 0.00029686465859413147,
+        "Compound-Complex Sentence": 0.0006389830377884209,
+        "Incomplete Sentence": 0.9969112277030945
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 20,
+      "sentence_index": 0,
+      "sentence": "low white blood cell count;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9969112277030945,
+      "probabilities": {
+        "Simple Sentence": 0.0013753719395026565,
+        "Compound Sentence": 0.0007775648846291006,
+        "Complex Sentence": 0.00029686465859413147,
+        "Compound-Complex Sentence": 0.0006389830377884209,
+        "Incomplete Sentence": 0.9969112277030945
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 21,
+      "sentence_index": 0,
+      "sentence": "stomach pain;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9972646236419678,
+      "probabilities": {
+        "Simple Sentence": 0.001203566906042397,
+        "Compound Sentence": 0.0006837656255811453,
+        "Complex Sentence": 0.00027843305724672973,
+        "Compound-Complex Sentence": 0.0005696361768059433,
+        "Incomplete Sentence": 0.9972646236419678
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 22,
+      "sentence_index": 0,
+      "sentence": "stomach pain;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9972646236419678,
+      "probabilities": {
+        "Simple Sentence": 0.001203566906042397,
+        "Compound Sentence": 0.0006837656255811453,
+        "Complex Sentence": 0.00027843305724672973,
+        "Compound-Complex Sentence": 0.0005696361768059433,
+        "Incomplete Sentence": 0.9972646236419678
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 23,
+      "sentence_index": 0,
+      "sentence": "if you are on a low-salt diet;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9969632029533386,
+      "probabilities": {
+        "Simple Sentence": 0.0012603305513039231,
+        "Compound Sentence": 0.0007806488429196179,
+        "Complex Sentence": 0.00032605906017124653,
+        "Compound-Complex Sentence": 0.0006696833879686892,
+        "Incomplete Sentence": 0.9969632029533386
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 24,
+      "sentence_index": 0,
+      "sentence": "if you are on a low-salt diet;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9969639182090759,
+      "probabilities": {
+        "Simple Sentence": 0.0012603314826264977,
+        "Compound Sentence": 0.0007798874285072088,
+        "Complex Sentence": 0.0003260592930018902,
+        "Compound-Complex Sentence": 0.0006696838536299765,
+        "Incomplete Sentence": 0.9969639182090759
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 25,
+      "sentence_index": 0,
+      "sentence": "diabetes;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9973256587982178,
+      "probabilities": {
+        "Simple Sentence": 0.0012178287142887712,
+        "Compound Sentence": 0.0006493154214695096,
+        "Complex Sentence": 0.0002844971604645252,
+        "Compound-Complex Sentence": 0.0005227596266195178,
+        "Incomplete Sentence": 0.9973256587982178
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 26,
+      "sentence_index": 0,
+      "sentence": "diabetes;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9973256587982178,
+      "probabilities": {
+        "Simple Sentence": 0.0012178287142887712,
+        "Compound Sentence": 0.0006493154214695096,
+        "Complex Sentence": 0.0002844971604645252,
+        "Compound-Complex Sentence": 0.0005227596266195178,
+        "Incomplete Sentence": 0.9973256587982178
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 27,
+      "sentence_index": 0,
+      "sentence": "liver disease ; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976580142974854,
+      "probabilities": {
+        "Simple Sentence": 0.000997698400169611,
+        "Compound Sentence": 0.0006007186602801085,
+        "Complex Sentence": 0.0002571074292063713,
+        "Compound-Complex Sentence": 0.00048647684161551297,
+        "Incomplete Sentence": 0.9976580142974854
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 28,
+      "sentence_index": 0,
+      "sentence": "liver disease ; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976580142974854,
+      "probabilities": {
+        "Simple Sentence": 0.000997698400169611,
+        "Compound Sentence": 0.0006007186602801085,
+        "Complex Sentence": 0.0002571074292063713,
+        "Compound-Complex Sentence": 0.00048647684161551297,
+        "Incomplete Sentence": 0.9976580142974854
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 29,
+      "sentence_index": 0,
+      "sentence": "kidney disease (or if you are on dialysis).",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9963665008544922,
+      "probabilities": {
+        "Simple Sentence": 0.0019333264790475368,
+        "Compound Sentence": 0.0007878378964960575,
+        "Complex Sentence": 0.00026183901354670525,
+        "Compound-Complex Sentence": 0.0006505941855721176,
+        "Incomplete Sentence": 0.9963665008544922
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 30,
+      "sentence_index": 0,
+      "sentence": "kidney disease (or if you are on dialysis).",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9963665008544922,
+      "probabilities": {
+        "Simple Sentence": 0.0019333264790475368,
+        "Compound Sentence": 0.0007878378964960575,
+        "Complex Sentence": 0.00026183901354670525,
+        "Compound-Complex Sentence": 0.0006505941855721176,
+        "Incomplete Sentence": 0.9963665008544922
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 31,
+      "sentence_index": 0,
+      "sentence": "You may also need to avoid taking lisinopril with aliskiren if you have kidney disease.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.7545275092124939,
+      "probabilities": {
+        "Simple Sentence": 0.7545275092124939,
+        "Compound Sentence": 0.13521328568458557,
+        "Complex Sentence": 0.09392283856868744,
+        "Compound-Complex Sentence": 0.010741755366325378,
+        "Incomplete Sentence": 0.005594560410827398
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 32,
+      "sentence_index": 0,
+      "sentence": "Stop using this medicine and tell your doctor right away if you become pregnant.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.5891303420066833,
+      "probabilities": {
+        "Simple Sentence": 0.5891303420066833,
+        "Compound Sentence": 0.11457816511392593,
+        "Complex Sentence": 0.03159080818295479,
+        "Compound-Complex Sentence": 0.032977811992168427,
+        "Incomplete Sentence": 0.23172283172607422
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 32,
+      "sentence_index": 1,
+      "sentence": "Lisinopril can cause injury or death to the unborn baby if you use the medicine during your second or third trimester.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8562663197517395,
+      "probabilities": {
+        "Simple Sentence": 0.8562663197517395,
+        "Compound Sentence": 0.08937274664640427,
+        "Complex Sentence": 0.04382346197962761,
+        "Compound-Complex Sentence": 0.006274951621890068,
+        "Incomplete Sentence": 0.0042624627240002155
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 33,
+      "sentence_index": 0,
+      "sentence": "Do not breastfeed.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9820782542228699,
+      "probabilities": {
+        "Simple Sentence": 0.013465357013046741,
+        "Compound Sentence": 0.0022913110442459583,
+        "Complex Sentence": 0.0008153979433700442,
+        "Compound-Complex Sentence": 0.0013496256433427334,
+        "Incomplete Sentence": 0.9820782542228699
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "How should I take lisinopril?",
+      "block_index": 34,
+      "sentence_index": 0,
+      "sentence": "Take lisinopril exactly as prescribed by your doctor.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9727041125297546,
+      "probabilities": {
+        "Simple Sentence": 0.018900001421570778,
+        "Compound Sentence": 0.004683953244239092,
+        "Complex Sentence": 0.0013032295973971486,
+        "Compound-Complex Sentence": 0.002408738946542144,
+        "Incomplete Sentence": 0.9727041125297546
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "How should I take lisinopril?",
+      "block_index": 34,
+      "sentence_index": 1,
+      "sentence": "Follow all directions on your prescription label and read all medication guides or instruction sheets.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8321007490158081,
+      "probabilities": {
+        "Simple Sentence": 0.11981695890426636,
+        "Compound Sentence": 0.026578588411211967,
+        "Complex Sentence": 0.006484802346676588,
+        "Compound-Complex Sentence": 0.015018835663795471,
+        "Incomplete Sentence": 0.8321007490158081
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "How should I take lisinopril?",
+      "block_index": 34,
+      "sentence_index": 2,
+      "sentence": "Your doctor may occasionally change your dose..",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9460614919662476,
+      "probabilities": {
+        "Simple Sentence": 0.9460614919662476,
+        "Compound Sentence": 0.009467031806707382,
+        "Complex Sentence": 0.00385879329405725,
+        "Compound-Complex Sentence": 0.0016023128991946578,
+        "Incomplete Sentence": 0.03901050612330437
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "How should I take lisinopril?",
+      "block_index": 35,
+      "sentence_index": 0,
+      "sentence": "You may take lisinopril with or without food.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9753286838531494,
+      "probabilities": {
+        "Simple Sentence": 0.9753286838531494,
+        "Compound Sentence": 0.010981393977999687,
+        "Complex Sentence": 0.004064560867846012,
+        "Compound-Complex Sentence": 0.0017447350546717644,
+        "Incomplete Sentence": 0.007880686782300472
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "How should I take lisinopril?",
+      "block_index": 36,
+      "sentence_index": 0,
+      "sentence": "Measure liquid medicine with the supplied measuring device (not a kitchen spoon).",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.989562451839447,
+      "probabilities": {
+        "Simple Sentence": 0.005309404339641333,
+        "Compound Sentence": 0.002299771411344409,
+        "Complex Sentence": 0.0009255690965801477,
+        "Compound-Complex Sentence": 0.0019028573296964169,
+        "Incomplete Sentence": 0.989562451839447
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "How should I take lisinopril?",
+      "block_index": 37,
+      "sentence_index": 0,
+      "sentence": "Your blood pressure will need to be checked often and you may need frequent blood tests.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.7683013677597046,
+      "probabilities": {
+        "Simple Sentence": 0.1797461062669754,
+        "Compound Sentence": 0.7683013677597046,
+        "Complex Sentence": 0.021987434476614,
+        "Compound-Complex Sentence": 0.013894413597881794,
+        "Incomplete Sentence": 0.016070649027824402
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "How should I take lisinopril?",
+      "block_index": 38,
+      "sentence_index": 0,
+      "sentence": "Tell your doctor if you have a planned surgery .",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.95521080493927,
+      "probabilities": {
+        "Simple Sentence": 0.03097626008093357,
+        "Compound Sentence": 0.006569513585418463,
+        "Complex Sentence": 0.002525363815948367,
+        "Compound-Complex Sentence": 0.004718001466244459,
+        "Incomplete Sentence": 0.95521080493927
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "How should I take lisinopril?",
+      "block_index": 39,
+      "sentence_index": 0,
+      "sentence": "Call your doctor if you have ongoing vomiting or diarrhea , or if you are sweating more than usual.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.5006394982337952,
+      "probabilities": {
+        "Simple Sentence": 0.15657462179660797,
+        "Compound Sentence": 0.15584999322891235,
+        "Complex Sentence": 0.06805258989334106,
+        "Compound-Complex Sentence": 0.11888326704502106,
+        "Incomplete Sentence": 0.5006394982337952
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "How should I take lisinopril?",
+      "block_index": 39,
+      "sentence_index": 1,
+      "sentence": "You can easily become dehydrated while taking lisinopril.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9901069402694702,
+      "probabilities": {
+        "Simple Sentence": 0.9901069402694702,
+        "Compound Sentence": 0.005036982242017984,
+        "Complex Sentence": 0.002265362534672022,
+        "Compound-Complex Sentence": 0.0006377281388267875,
+        "Incomplete Sentence": 0.001952864695340395
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "How should I take lisinopril?",
+      "block_index": 39,
+      "sentence_index": 2,
+      "sentence": "This can lead to very low blood pressure, an electrolyte imbalance, or kidney failure .",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.40838712453842163,
+      "probabilities": {
+        "Simple Sentence": 0.40838712453842163,
+        "Compound Sentence": 0.3556801676750183,
+        "Complex Sentence": 0.20034830272197723,
+        "Compound-Complex Sentence": 0.023701442405581474,
+        "Incomplete Sentence": 0.011882969178259373
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "How should I take lisinopril?",
+      "block_index": 40,
+      "sentence_index": 0,
+      "sentence": "If you have high blood pressure, keep using lisinopril even if you feel well.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.874477207660675,
+      "probabilities": {
+        "Simple Sentence": 0.874477207660675,
+        "Compound Sentence": 0.06713675707578659,
+        "Complex Sentence": 0.03339778259396553,
+        "Compound-Complex Sentence": 0.008349979296326637,
+        "Incomplete Sentence": 0.01663838140666485
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "How should I take lisinopril?",
+      "block_index": 40,
+      "sentence_index": 1,
+      "sentence": "High blood pressure often has no symptoms.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9875143766403198,
+      "probabilities": {
+        "Simple Sentence": 0.9875143766403198,
+        "Compound Sentence": 0.006639215629547834,
+        "Complex Sentence": 0.0029699658043682575,
+        "Compound-Complex Sentence": 0.0006213239394128323,
+        "Incomplete Sentence": 0.00225502229295671
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "How should I take lisinopril?",
+      "block_index": 41,
+      "sentence_index": 0,
+      "sentence": "Store tightly closed at room temperature, away from moisture and heat.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9943512678146362,
+      "probabilities": {
+        "Simple Sentence": 0.0034883946646004915,
+        "Compound Sentence": 0.0010590412421151996,
+        "Complex Sentence": 0.0003930387902073562,
+        "Compound-Complex Sentence": 0.0007082347292453051,
+        "Incomplete Sentence": 0.9943512678146362
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "How should I take lisinopril?",
+      "block_index": 41,
+      "sentence_index": 1,
+      "sentence": "Do not freeze.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9880220890045166,
+      "probabilities": {
+        "Simple Sentence": 0.006276843603700399,
+        "Compound Sentence": 0.0023899944499135017,
+        "Complex Sentence": 0.0008835333865135908,
+        "Compound-Complex Sentence": 0.002427631290629506,
+        "Incomplete Sentence": 0.9880220890045166
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 42,
+      "sentence_index": 0,
+      "sentence": "Usual Adult Dose for Hypertension:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978623986244202,
+      "probabilities": {
+        "Simple Sentence": 0.0008148623164743185,
+        "Compound Sentence": 0.000578388455323875,
+        "Complex Sentence": 0.00028548541013151407,
+        "Compound-Complex Sentence": 0.000458885362604633,
+        "Incomplete Sentence": 0.9978623986244202
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 43,
+      "sentence_index": 0,
+      "sentence": "Initial dose: 10 mg orally once a day; 5 mg orally once a day Maintenance dose: 20 to 40 mg orally once a day Maximum dose: 80 mg orally once a day Comments: -The initial dose is 5 mg orally once a day in patients receiving a diuretic.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.5590850114822388,
+      "probabilities": {
+        "Simple Sentence": 0.025393791496753693,
+        "Compound Sentence": 0.5590850114822388,
+        "Complex Sentence": 0.31011590361595154,
+        "Compound-Complex Sentence": 0.09049156308174133,
+        "Incomplete Sentence": 0.014913668856024742
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 43,
+      "sentence_index": 1,
+      "sentence": "-The 80 mg dose is used but does not appear to give greater effect.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.5218610167503357,
+      "probabilities": {
+        "Simple Sentence": 0.5218610167503357,
+        "Compound Sentence": 0.03207556530833244,
+        "Complex Sentence": 0.005934832151979208,
+        "Compound-Complex Sentence": 0.00579735217615962,
+        "Incomplete Sentence": 0.4343312382698059
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 43,
+      "sentence_index": 2,
+      "sentence": "-If blood pressure is not controlled with lisinopril alone, a low dose of a diuretic may be added (e.g., hydrochlorothiazide, 12.5 mg).",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.7650671601295471,
+      "probabilities": {
+        "Simple Sentence": 0.02886471338570118,
+        "Compound Sentence": 0.15369699895381927,
+        "Complex Sentence": 0.7650671601295471,
+        "Compound-Complex Sentence": 0.04536624252796173,
+        "Incomplete Sentence": 0.007004860322922468
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 43,
+      "sentence_index": 3,
+      "sentence": "After the addition of a diuretic, it may be possible to reduce the dose of lisinopril.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.8019611239433289,
+      "probabilities": {
+        "Simple Sentence": 0.06780263781547546,
+        "Compound Sentence": 0.09731267392635345,
+        "Complex Sentence": 0.8019611239433289,
+        "Compound-Complex Sentence": 0.0257789995521307,
+        "Incomplete Sentence": 0.007144600618630648
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 44,
+      "sentence_index": 0,
+      "sentence": "Usual Adult Dose for Congestive Heart Failure:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.997678816318512,
+      "probabilities": {
+        "Simple Sentence": 0.0009299764642491937,
+        "Compound Sentence": 0.0005960562848486006,
+        "Complex Sentence": 0.00029767403611913323,
+        "Compound-Complex Sentence": 0.0004975375486537814,
+        "Incomplete Sentence": 0.997678816318512
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 45,
+      "sentence_index": 0,
+      "sentence": "Initial dose: 2.5 to 5 mg orally once a day Maintenance dose: Dosage should be increased as tolerated Maximum dose: 40 mg orally once a day Comments: -The diuretic dose may need to be adjusted to help minimize hypovolemia, which may contribute to hypotension.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.47271427512168884,
+      "probabilities": {
+        "Simple Sentence": 0.014828885905444622,
+        "Compound Sentence": 0.07184118777513504,
+        "Complex Sentence": 0.47271427512168884,
+        "Compound-Complex Sentence": 0.4316740930080414,
+        "Incomplete Sentence": 0.00894162803888321
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 45,
+      "sentence_index": 1,
+      "sentence": "The appearance of hypotension after the initial dose of lisinopril does not preclude subsequent careful dose titration with the drug.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.5088820457458496,
+      "probabilities": {
+        "Simple Sentence": 0.19552208483219147,
+        "Compound Sentence": 0.5088820457458496,
+        "Complex Sentence": 0.26452067494392395,
+        "Compound-Complex Sentence": 0.02035784348845482,
+        "Incomplete Sentence": 0.010717358440160751
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 46,
+      "sentence_index": 0,
+      "sentence": "Usual Adult Dose for Myocardial Infarction:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9977200627326965,
+      "probabilities": {
+        "Simple Sentence": 0.0009164910297840834,
+        "Compound Sentence": 0.0005834110779687762,
+        "Complex Sentence": 0.00029536979855038226,
+        "Compound-Complex Sentence": 0.0004846103838644922,
+        "Incomplete Sentence": 0.9977200627326965
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 47,
+      "sentence_index": 0,
+      "sentence": "Initial dose: 5 mg orally (within 24 hours of the onset of acute myocardial infarction) Subsequent doses: 5 mg orally after 24 hours, then 10 mg orally after 48 hours.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.7484944462776184,
+      "probabilities": {
+        "Simple Sentence": 0.01460757665336132,
+        "Compound Sentence": 0.7484944462776184,
+        "Complex Sentence": 0.11520646512508392,
+        "Compound-Complex Sentence": 0.10715509206056595,
+        "Incomplete Sentence": 0.014536424539983273
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 47,
+      "sentence_index": 1,
+      "sentence": "Maintenance dose: 10 mg orally once a day.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9063782691955566,
+      "probabilities": {
+        "Simple Sentence": 0.08488459885120392,
+        "Compound Sentence": 0.004831136204302311,
+        "Complex Sentence": 0.0014505703002214432,
+        "Compound-Complex Sentence": 0.002455483889207244,
+        "Incomplete Sentence": 0.9063782691955566
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 47,
+      "sentence_index": 2,
+      "sentence": "Dosing should continue for at least 6 weeks.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9838201999664307,
+      "probabilities": {
+        "Simple Sentence": 0.9838201999664307,
+        "Compound Sentence": 0.007904787547886372,
+        "Complex Sentence": 0.004509513266384602,
+        "Compound-Complex Sentence": 0.0009475558763369918,
+        "Incomplete Sentence": 0.0028178507927805185
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 47,
+      "sentence_index": 3,
+      "sentence": "Comments: -Therapy should be initiated at 2.5 mg in patients with a low systolic blood pressure (less than or equal to 120 mm Hg and greater than 100 mmHg) during the first 3 days after the infarct.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.7990012764930725,
+      "probabilities": {
+        "Simple Sentence": 0.03336746245622635,
+        "Compound Sentence": 0.10999691486358643,
+        "Complex Sentence": 0.7990012764930725,
+        "Compound-Complex Sentence": 0.04786675050854683,
+        "Incomplete Sentence": 0.009767549112439156
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 47,
+      "sentence_index": 4,
+      "sentence": "If prolonged hypotension occurs (systolic blood pressure less than 90 mmHg for more than 1 hour) therapy should be withdrawn.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.7218705415725708,
+      "probabilities": {
+        "Simple Sentence": 0.08254873007535934,
+        "Compound Sentence": 0.15539295971393585,
+        "Complex Sentence": 0.7218705415725708,
+        "Compound-Complex Sentence": 0.031840912997722626,
+        "Incomplete Sentence": 0.008346856571733952
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 47,
+      "sentence_index": 5,
+      "sentence": "Uses: Reduction of mortality in acute myocardial infarction",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9896654486656189,
+      "probabilities": {
+        "Simple Sentence": 0.0061079938896000385,
+        "Compound Sentence": 0.0017583206063136458,
+        "Complex Sentence": 0.0008436514181084931,
+        "Compound-Complex Sentence": 0.0016245932783931494,
+        "Incomplete Sentence": 0.9896654486656189
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 48,
+      "sentence_index": 0,
+      "sentence": "Usual Adult Dose for Diabetic Nephropathy:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.997735857963562,
+      "probabilities": {
+        "Simple Sentence": 0.0008944008150137961,
+        "Compound Sentence": 0.0006096306606195867,
+        "Complex Sentence": 0.0002976910909637809,
+        "Compound-Complex Sentence": 0.00046242575626820326,
+        "Incomplete Sentence": 0.997735857963562
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 49,
+      "sentence_index": 0,
+      "sentence": "Initial dose: 10 to 20 mg orally once a day Maintenance dose: 20 to 40 mg orally once a day Dosage may be titrated upward every 3 days Comments: -Not an approved indication.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.7967804074287415,
+      "probabilities": {
+        "Simple Sentence": 0.02504359744489193,
+        "Compound Sentence": 0.7967804074287415,
+        "Complex Sentence": 0.09658966213464737,
+        "Compound-Complex Sentence": 0.050812263041734695,
+        "Incomplete Sentence": 0.030774084851145744
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 50,
+      "sentence_index": 0,
+      "sentence": "Usual Geriatric Dose for Hypertension:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978882670402527,
+      "probabilities": {
+        "Simple Sentence": 0.0008448658627457917,
+        "Compound Sentence": 0.0005767113761976361,
+        "Complex Sentence": 0.00026326527586206794,
+        "Compound-Complex Sentence": 0.0004269046476110816,
+        "Incomplete Sentence": 0.9978882670402527
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 51,
+      "sentence_index": 0,
+      "sentence": "Initial dose: 2.5 to 5 mg orally once a day Maintenance dose: Dosages should be increased at 2.5 mg to 5 mg per day at 1 to 2 week intervals.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.6982381343841553,
+      "probabilities": {
+        "Simple Sentence": 0.07273636758327484,
+        "Compound Sentence": 0.6982381343841553,
+        "Complex Sentence": 0.18314960598945618,
+        "Compound-Complex Sentence": 0.029850944876670837,
+        "Incomplete Sentence": 0.016024939715862274
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 51,
+      "sentence_index": 1,
+      "sentence": "Maximum dose: 40 mg orally once a day",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9878202676773071,
+      "probabilities": {
+        "Simple Sentence": 0.008172893896698952,
+        "Compound Sentence": 0.0018338878871873021,
+        "Complex Sentence": 0.0006300720269791782,
+        "Compound-Complex Sentence": 0.0015427811304107308,
+        "Incomplete Sentence": 0.9878202676773071
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 52,
+      "sentence_index": 0,
+      "sentence": "Usual Pediatric Dose for Hypertension:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978885054588318,
+      "probabilities": {
+        "Simple Sentence": 0.0008544078445993364,
+        "Compound Sentence": 0.0005465529393404722,
+        "Complex Sentence": 0.0002609616203699261,
+        "Compound-Complex Sentence": 0.0004495822067838162,
+        "Incomplete Sentence": 0.9978885054588318
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 53,
+      "sentence_index": 0,
+      "sentence": "Pediatric patients greater than or equal to 6 years of age: Initial dose: 0.07 mg/kg orally once a day (Maximum initial dose is 5 mg once a day) Maintenance dose: Dosage should be adjusted according to blood pressure response at 1 to 2 week intervals.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.7888502478599548,
+      "probabilities": {
+        "Simple Sentence": 0.015112140215933323,
+        "Compound Sentence": 0.07960110157728195,
+        "Complex Sentence": 0.7888502478599548,
+        "Compound-Complex Sentence": 0.1096116453409195,
+        "Incomplete Sentence": 0.006824891548603773
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Dosing information",
+      "block_index": 53,
+      "sentence_index": 1,
+      "sentence": "Maximum dose: Doses above 0.61 mg/kg or greater than 40 mg have not been studied in pediatric patients Comments: -This drug is not recommended in pediatric patients less than 6 years old or in pediatric patients with glomerular filtration rate less than 30 mL/min.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.4521619379520416,
+      "probabilities": {
+        "Simple Sentence": 0.039819348603487015,
+        "Compound Sentence": 0.42893528938293457,
+        "Complex Sentence": 0.4521619379520416,
+        "Compound-Complex Sentence": 0.0633830577135086,
+        "Incomplete Sentence": 0.015700440853834152
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What happens if I miss a dose?",
+      "block_index": 54,
+      "sentence_index": 0,
+      "sentence": "Take the medicine as soon as you can, but skip the missed dose if it is almost time for your next dose.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.5548331141471863,
+      "probabilities": {
+        "Simple Sentence": 0.034681499004364014,
+        "Compound Sentence": 0.5548331141471863,
+        "Complex Sentence": 0.1757701188325882,
+        "Compound-Complex Sentence": 0.1901833564043045,
+        "Incomplete Sentence": 0.0445319265127182
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What happens if I miss a dose?",
+      "block_index": 54,
+      "sentence_index": 1,
+      "sentence": "Do not take two doses at one time.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8406311869621277,
+      "probabilities": {
+        "Simple Sentence": 0.1439555436372757,
+        "Compound Sentence": 0.009007163345813751,
+        "Complex Sentence": 0.003043655538931489,
+        "Compound-Complex Sentence": 0.0033624458592385054,
+        "Incomplete Sentence": 0.8406311869621277
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What happens if I overdose?",
+      "block_index": 55,
+      "sentence_index": 0,
+      "sentence": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9916187524795532,
+      "probabilities": {
+        "Simple Sentence": 0.004755693022161722,
+        "Compound Sentence": 0.0015366615261882544,
+        "Complex Sentence": 0.000675922492519021,
+        "Compound-Complex Sentence": 0.0014128766488283873,
+        "Incomplete Sentence": 0.9916187524795532
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What should I avoid while taking lisinopril?",
+      "block_index": 56,
+      "sentence_index": 0,
+      "sentence": "Avoid getting up too fast from a sitting or lying position, or you may feel dizzy.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.5983689427375793,
+      "probabilities": {
+        "Simple Sentence": 0.3250100314617157,
+        "Compound Sentence": 0.0488063246011734,
+        "Complex Sentence": 0.012479537166655064,
+        "Compound-Complex Sentence": 0.015335110947489738,
+        "Incomplete Sentence": 0.5983689427375793
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What should I avoid while taking lisinopril?",
+      "block_index": 57,
+      "sentence_index": 0,
+      "sentence": "Do not use potassium supplements or salt substitutes, unless your doctor has told you to.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8119000196456909,
+      "probabilities": {
+        "Simple Sentence": 0.15495383739471436,
+        "Compound Sentence": 0.021197207272052765,
+        "Complex Sentence": 0.005114064086228609,
+        "Compound-Complex Sentence": 0.006834843195974827,
+        "Incomplete Sentence": 0.8119000196456909
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What should I avoid while taking lisinopril?",
+      "block_index": 58,
+      "sentence_index": 0,
+      "sentence": "Avoid becoming overheated or dehydrated during exercise, in hot weather, or by not drinking enough fluids.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9870299696922302,
+      "probabilities": {
+        "Simple Sentence": 0.006871725898236036,
+        "Compound Sentence": 0.003258677665144205,
+        "Complex Sentence": 0.000934082840103656,
+        "Compound-Complex Sentence": 0.0019054161384701729,
+        "Incomplete Sentence": 0.9870299696922302
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What should I avoid while taking lisinopril?",
+      "block_index": 58,
+      "sentence_index": 1,
+      "sentence": "Follow your doctor's instructions about the type and amount of liquids you should drink.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9742698669433594,
+      "probabilities": {
+        "Simple Sentence": 0.0186870526522398,
+        "Compound Sentence": 0.0037770902272313833,
+        "Complex Sentence": 0.0012382754357531667,
+        "Compound-Complex Sentence": 0.002027662470936775,
+        "Incomplete Sentence": 0.9742698669433594
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What should I avoid while taking lisinopril?",
+      "block_index": 58,
+      "sentence_index": 2,
+      "sentence": "In some cases, drinking too much liquid can be as unsafe as not drinking enough.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.919532060623169,
+      "probabilities": {
+        "Simple Sentence": 0.919532060623169,
+        "Compound Sentence": 0.038750648498535156,
+        "Complex Sentence": 0.030717026442289352,
+        "Compound-Complex Sentence": 0.0032969757448881865,
+        "Incomplete Sentence": 0.007703220006078482
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 59,
+      "sentence_index": 0,
+      "sentence": "Get emergency medical help if you have signs of an allergic reaction to lisinopril: severe stomach pain, hives, difficult breathing, swelling of your face, lips, tongue, or throat.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.4998393654823303,
+      "probabilities": {
+        "Simple Sentence": 0.10678631067276001,
+        "Compound Sentence": 0.4998393654823303,
+        "Complex Sentence": 0.2794959843158722,
+        "Compound-Complex Sentence": 0.07158799469470978,
+        "Incomplete Sentence": 0.04229040443897247
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 60,
+      "sentence_index": 0,
+      "sentence": "Lisinopril may cause serious side effects.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9901464581489563,
+      "probabilities": {
+        "Simple Sentence": 0.9901464581489563,
+        "Compound Sentence": 0.003970174118876457,
+        "Complex Sentence": 0.0019095665775239468,
+        "Compound-Complex Sentence": 0.0006855473620817065,
+        "Incomplete Sentence": 0.0032881773076951504
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 60,
+      "sentence_index": 1,
+      "sentence": "Call your doctor at once if you have:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9766668081283569,
+      "probabilities": {
+        "Simple Sentence": 0.011462459340691566,
+        "Compound Sentence": 0.005734211299568415,
+        "Complex Sentence": 0.0023055458441376686,
+        "Compound-Complex Sentence": 0.0038310158997774124,
+        "Incomplete Sentence": 0.9766668081283569
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 61,
+      "sentence_index": 0,
+      "sentence": "a light-headed feeling, like you might pass out;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9957385063171387,
+      "probabilities": {
+        "Simple Sentence": 0.0018146043876186013,
+        "Compound Sentence": 0.0011146749602630734,
+        "Complex Sentence": 0.0003777705132961273,
+        "Compound-Complex Sentence": 0.0009543634951114655,
+        "Incomplete Sentence": 0.9957385063171387
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 62,
+      "sentence_index": 0,
+      "sentence": "a light-headed feeling, like you might pass out;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9957385063171387,
+      "probabilities": {
+        "Simple Sentence": 0.0018146043876186013,
+        "Compound Sentence": 0.0011146749602630734,
+        "Complex Sentence": 0.0003777705132961273,
+        "Compound-Complex Sentence": 0.0009543634951114655,
+        "Incomplete Sentence": 0.9957385063171387
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 63,
+      "sentence_index": 0,
+      "sentence": "high blood potassium - nausea , weakness, tingly feeling, chest pain, irregular heartbeats, loss of movement;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9891128540039062,
+      "probabilities": {
+        "Simple Sentence": 0.007442152127623558,
+        "Compound Sentence": 0.0015798901440575719,
+        "Complex Sentence": 0.000606727262493223,
+        "Compound-Complex Sentence": 0.0012583688367158175,
+        "Incomplete Sentence": 0.9891128540039062
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 64,
+      "sentence_index": 0,
+      "sentence": "high blood potassium - nausea , weakness, tingly feeling, chest pain, irregular heartbeats, loss of movement;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9891128540039062,
+      "probabilities": {
+        "Simple Sentence": 0.007442152127623558,
+        "Compound Sentence": 0.0015798901440575719,
+        "Complex Sentence": 0.000606727262493223,
+        "Compound-Complex Sentence": 0.0012583688367158175,
+        "Incomplete Sentence": 0.9891128540039062
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 65,
+      "sentence_index": 0,
+      "sentence": "low white blood cell counts - fever , mouth sores, skin sores, sore throat , cough ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.992747962474823,
+      "probabilities": {
+        "Simple Sentence": 0.003790908493101597,
+        "Compound Sentence": 0.0014200216392055154,
+        "Complex Sentence": 0.000611340394243598,
+        "Compound-Complex Sentence": 0.0014297622255980968,
+        "Incomplete Sentence": 0.992747962474823
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 66,
+      "sentence_index": 0,
+      "sentence": "low white blood cell counts - fever , mouth sores, skin sores, sore throat , cough ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9927443265914917,
+      "probabilities": {
+        "Simple Sentence": 0.003793208859860897,
+        "Compound Sentence": 0.0014200164005160332,
+        "Complex Sentence": 0.0006113381823524833,
+        "Compound-Complex Sentence": 0.0014311537379398942,
+        "Incomplete Sentence": 0.9927443265914917
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 67,
+      "sentence_index": 0,
+      "sentence": "kidney problems - swelling, urinating less, feeling tired or short of breath; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9930278658866882,
+      "probabilities": {
+        "Simple Sentence": 0.004424620419740677,
+        "Compound Sentence": 0.0012498510768637061,
+        "Complex Sentence": 0.00042690473492257297,
+        "Compound-Complex Sentence": 0.0008708341047167778,
+        "Incomplete Sentence": 0.9930278658866882
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 68,
+      "sentence_index": 0,
+      "sentence": "kidney problems - swelling, urinating less, feeling tired or short of breath; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9930278658866882,
+      "probabilities": {
+        "Simple Sentence": 0.004424620419740677,
+        "Compound Sentence": 0.0012498510768637061,
+        "Complex Sentence": 0.00042690473492257297,
+        "Compound-Complex Sentence": 0.0008708341047167778,
+        "Incomplete Sentence": 0.9930278658866882
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 69,
+      "sentence_index": 0,
+      "sentence": "liver problems - loss of appetite, stomach pain (upper right side), tiredness, itching, dark urine, clay-colored stools, jaundice (yellowing of the skin or eyes).",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.5067009329795837,
+      "probabilities": {
+        "Simple Sentence": 0.5067009329795837,
+        "Compound Sentence": 0.10729513317346573,
+        "Complex Sentence": 0.0300458837300539,
+        "Compound-Complex Sentence": 0.012772021815180779,
+        "Incomplete Sentence": 0.3431859612464905
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 70,
+      "sentence_index": 0,
+      "sentence": "liver problems - loss of appetite, stomach pain (upper right side), tiredness, itching, dark urine, clay-colored stools, jaundice (yellowing of the skin or eyes).",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.5067009329795837,
+      "probabilities": {
+        "Simple Sentence": 0.5067009329795837,
+        "Compound Sentence": 0.10729513317346573,
+        "Complex Sentence": 0.0300458837300539,
+        "Compound-Complex Sentence": 0.012772021815180779,
+        "Incomplete Sentence": 0.3431859612464905
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 71,
+      "sentence_index": 0,
+      "sentence": "Common lisinopril side effects may include:",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9624322056770325,
+      "probabilities": {
+        "Simple Sentence": 0.9624322056770325,
+        "Compound Sentence": 0.005798778031021357,
+        "Complex Sentence": 0.005549467168748379,
+        "Compound-Complex Sentence": 0.0011902354890480638,
+        "Incomplete Sentence": 0.025029359385371208
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 72,
+      "sentence_index": 0,
+      "sentence": "headache , dizziness;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9966849684715271,
+      "probabilities": {
+        "Simple Sentence": 0.0016610701568424702,
+        "Compound Sentence": 0.0008146959589794278,
+        "Complex Sentence": 0.00028265337459743023,
+        "Compound-Complex Sentence": 0.000556660583242774,
+        "Incomplete Sentence": 0.9966849684715271
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 73,
+      "sentence_index": 0,
+      "sentence": "headache , dizziness;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9966849684715271,
+      "probabilities": {
+        "Simple Sentence": 0.0016610701568424702,
+        "Compound Sentence": 0.0008146959589794278,
+        "Complex Sentence": 0.00028265337459743023,
+        "Compound-Complex Sentence": 0.000556660583242774,
+        "Incomplete Sentence": 0.9966849684715271
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 74,
+      "sentence_index": 0,
+      "sentence": "low blood pressure, cough; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.996833860874176,
+      "probabilities": {
+        "Simple Sentence": 0.0013935163151472807,
+        "Compound Sentence": 0.0007024167571216822,
+        "Complex Sentence": 0.0003253806207794696,
+        "Compound-Complex Sentence": 0.00074480363400653,
+        "Incomplete Sentence": 0.996833860874176
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 75,
+      "sentence_index": 0,
+      "sentence": "low blood pressure, cough; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.996833860874176,
+      "probabilities": {
+        "Simple Sentence": 0.0013935163151472807,
+        "Compound Sentence": 0.0007024167571216822,
+        "Complex Sentence": 0.0003253806207794696,
+        "Compound-Complex Sentence": 0.00074480363400653,
+        "Incomplete Sentence": 0.996833860874176
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 76,
+      "sentence_index": 0,
+      "sentence": "chest pain.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968472123146057,
+      "probabilities": {
+        "Simple Sentence": 0.0013572715688496828,
+        "Compound Sentence": 0.0007752403616905212,
+        "Complex Sentence": 0.00025390551309101284,
+        "Compound-Complex Sentence": 0.0007662085699848831,
+        "Incomplete Sentence": 0.9968472123146057
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 77,
+      "sentence_index": 0,
+      "sentence": "chest pain.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968472123146057,
+      "probabilities": {
+        "Simple Sentence": 0.0013572715688496828,
+        "Compound Sentence": 0.0007752403616905212,
+        "Complex Sentence": 0.00025390551309101284,
+        "Compound-Complex Sentence": 0.0007662085699848831,
+        "Incomplete Sentence": 0.9968472123146057
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 78,
+      "sentence_index": 0,
+      "sentence": "This is not a complete list of side effects and others may occur.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8379635214805603,
+      "probabilities": {
+        "Simple Sentence": 0.8379635214805603,
+        "Compound Sentence": 0.10669127106666565,
+        "Complex Sentence": 0.029844889417290688,
+        "Compound-Complex Sentence": 0.006823876406997442,
+        "Incomplete Sentence": 0.018676454201340675
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 78,
+      "sentence_index": 1,
+      "sentence": "Call your doctor for medical advice about side effects.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9224351644515991,
+      "probabilities": {
+        "Simple Sentence": 0.06066320836544037,
+        "Compound Sentence": 0.008363625966012478,
+        "Complex Sentence": 0.003304156241938472,
+        "Compound-Complex Sentence": 0.005233823787420988,
+        "Incomplete Sentence": 0.9224351644515991
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Lisinopril side effects",
+      "block_index": 78,
+      "sentence_index": 2,
+      "sentence": "You may report side effects to FDA at 1-800-FDA-1088.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9825566411018372,
+      "probabilities": {
+        "Simple Sentence": 0.9825566411018372,
+        "Compound Sentence": 0.00803855899721384,
+        "Complex Sentence": 0.0037391898222267628,
+        "Compound-Complex Sentence": 0.0007530149887315929,
+        "Incomplete Sentence": 0.004912673495709896
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What other drugs will affect lisinopril?",
+      "block_index": 79,
+      "sentence_index": 0,
+      "sentence": "Lisinopril can harm your kidneys, especially if you also use certain medicines for infections, cancer , or osteoporosis .",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.656976580619812,
+      "probabilities": {
+        "Simple Sentence": 0.09472735971212387,
+        "Compound Sentence": 0.21235381066799164,
+        "Complex Sentence": 0.656976580619812,
+        "Compound-Complex Sentence": 0.029463618993759155,
+        "Incomplete Sentence": 0.0064786216244101524
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What other drugs will affect lisinopril?",
+      "block_index": 80,
+      "sentence_index": 0,
+      "sentence": "Tell your doctor about all your other medicines, especially:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9908733367919922,
+      "probabilities": {
+        "Simple Sentence": 0.00556172663345933,
+        "Compound Sentence": 0.0018667009426280856,
+        "Complex Sentence": 0.000762360985390842,
+        "Compound-Complex Sentence": 0.000935890304390341,
+        "Incomplete Sentence": 0.9908733367919922
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What other drugs will affect lisinopril?",
+      "block_index": 81,
+      "sentence_index": 0,
+      "sentence": "a diuretic or \"water pill\" that may increase blood potassium such as spironolactone , triamterene , or amiloride ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9817430973052979,
+      "probabilities": {
+        "Simple Sentence": 0.005671882536262274,
+        "Compound Sentence": 0.005243072751909494,
+        "Complex Sentence": 0.002093713032081723,
+        "Compound-Complex Sentence": 0.005248195957392454,
+        "Incomplete Sentence": 0.9817430973052979
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What other drugs will affect lisinopril?",
+      "block_index": 82,
+      "sentence_index": 0,
+      "sentence": "a diuretic or \"water pill\" that may increase blood potassium such as spironolactone , triamterene , or amiloride ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9817430973052979,
+      "probabilities": {
+        "Simple Sentence": 0.005671882536262274,
+        "Compound Sentence": 0.005243072751909494,
+        "Complex Sentence": 0.002093713032081723,
+        "Compound-Complex Sentence": 0.005248195957392454,
+        "Incomplete Sentence": 0.9817430973052979
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What other drugs will affect lisinopril?",
+      "block_index": 83,
+      "sentence_index": 0,
+      "sentence": "NSAIDs (nonsteroidal anti-inflammatory drugs) - aspirin , ibuprofen ( Advil , Motrin ), naproxen ( Aleve ), celecoxib , diclofenac , indomethacin , meloxicam , and others;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.955411434173584,
+      "probabilities": {
+        "Simple Sentence": 0.025075683370232582,
+        "Compound Sentence": 0.009403183124959469,
+        "Complex Sentence": 0.004008869174867868,
+        "Compound-Complex Sentence": 0.0061008683405816555,
+        "Incomplete Sentence": 0.955411434173584
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What other drugs will affect lisinopril?",
+      "block_index": 84,
+      "sentence_index": 0,
+      "sentence": "NSAIDs (nonsteroidal anti-inflammatory drugs) - aspirin , ibuprofen ( Advil , Motrin ), naproxen ( Aleve ), celecoxib , diclofenac , indomethacin , meloxicam , and others;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.955411434173584,
+      "probabilities": {
+        "Simple Sentence": 0.025075683370232582,
+        "Compound Sentence": 0.009403183124959469,
+        "Complex Sentence": 0.004008869174867868,
+        "Compound-Complex Sentence": 0.0061008683405816555,
+        "Incomplete Sentence": 0.955411434173584
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What other drugs will affect lisinopril?",
+      "block_index": 85,
+      "sentence_index": 0,
+      "sentence": "insulin or diabetes medications;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9963839054107666,
+      "probabilities": {
+        "Simple Sentence": 0.0019671653863042593,
+        "Compound Sentence": 0.0008370273280888796,
+        "Complex Sentence": 0.00027873105136677623,
+        "Compound-Complex Sentence": 0.0005330870626494288,
+        "Incomplete Sentence": 0.9963839054107666
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What other drugs will affect lisinopril?",
+      "block_index": 86,
+      "sentence_index": 0,
+      "sentence": "insulin or diabetes medications;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9963839054107666,
+      "probabilities": {
+        "Simple Sentence": 0.0019671653863042593,
+        "Compound Sentence": 0.0008370273280888796,
+        "Complex Sentence": 0.00027873105136677623,
+        "Compound-Complex Sentence": 0.0005330870626494288,
+        "Incomplete Sentence": 0.9963839054107666
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What other drugs will affect lisinopril?",
+      "block_index": 87,
+      "sentence_index": 0,
+      "sentence": "medicine to prevent organ transplant rejection such as temsirolimus , sirolimus , or everolimus ; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9934993982315063,
+      "probabilities": {
+        "Simple Sentence": 0.0031199147924780846,
+        "Compound Sentence": 0.0016420738538727164,
+        "Complex Sentence": 0.0005430871970020235,
+        "Compound-Complex Sentence": 0.001195515156723559,
+        "Incomplete Sentence": 0.9934993982315063
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What other drugs will affect lisinopril?",
+      "block_index": 88,
+      "sentence_index": 0,
+      "sentence": "medicine to prevent organ transplant rejection such as temsirolimus , sirolimus , or everolimus ; or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9934993982315063,
+      "probabilities": {
+        "Simple Sentence": 0.0031199147924780846,
+        "Compound Sentence": 0.0016420738538727164,
+        "Complex Sentence": 0.0005430871970020235,
+        "Compound-Complex Sentence": 0.001195515156723559,
+        "Incomplete Sentence": 0.9934993982315063
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What other drugs will affect lisinopril?",
+      "block_index": 89,
+      "sentence_index": 0,
+      "sentence": "heart or blood pressure medication",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9969256520271301,
+      "probabilities": {
+        "Simple Sentence": 0.001189721398986876,
+        "Compound Sentence": 0.0007836746517568827,
+        "Complex Sentence": 0.000333127478370443,
+        "Compound-Complex Sentence": 0.0007677669054828584,
+        "Incomplete Sentence": 0.9969256520271301
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What other drugs will affect lisinopril?",
+      "block_index": 90,
+      "sentence_index": 0,
+      "sentence": "heart or blood pressure medication",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9969256520271301,
+      "probabilities": {
+        "Simple Sentence": 0.001189721398986876,
+        "Compound Sentence": 0.0007836746517568827,
+        "Complex Sentence": 0.000333127478370443,
+        "Compound-Complex Sentence": 0.0007677669054828584,
+        "Incomplete Sentence": 0.9969256520271301
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What other drugs will affect lisinopril?",
+      "block_index": 91,
+      "sentence_index": 0,
+      "sentence": "lithium",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9959652423858643,
+      "probabilities": {
+        "Simple Sentence": 0.0010701243299990892,
+        "Compound Sentence": 0.0009189083939418197,
+        "Complex Sentence": 0.0004947466077283025,
+        "Compound-Complex Sentence": 0.0015509515069425106,
+        "Incomplete Sentence": 0.9959652423858643
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What other drugs will affect lisinopril?",
+      "block_index": 92,
+      "sentence_index": 0,
+      "sentence": "gold injections.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9983267188072205,
+      "probabilities": {
+        "Simple Sentence": 0.0006445942563004792,
+        "Compound Sentence": 0.00046906902571208775,
+        "Complex Sentence": 0.00018640064809005708,
+        "Compound-Complex Sentence": 0.00037324472214095294,
+        "Incomplete Sentence": 0.9983267188072205
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What other drugs will affect lisinopril?",
+      "block_index": 93,
+      "sentence_index": 0,
+      "sentence": "This list is not complete.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.7046464085578918,
+      "probabilities": {
+        "Simple Sentence": 0.2505143880844116,
+        "Compound Sentence": 0.02298506163060665,
+        "Complex Sentence": 0.012159682810306549,
+        "Compound-Complex Sentence": 0.009694544598460197,
+        "Incomplete Sentence": 0.7046464085578918
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What other drugs will affect lisinopril?",
+      "block_index": 93,
+      "sentence_index": 1,
+      "sentence": "Other drugs may interact with lisinopril, including prescription and over-the-counter medicines, vitamins , and herbal products .",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.6277469992637634,
+      "probabilities": {
+        "Simple Sentence": 0.10700228810310364,
+        "Compound Sentence": 0.22668981552124023,
+        "Complex Sentence": 0.6277469992637634,
+        "Compound-Complex Sentence": 0.029103204607963562,
+        "Incomplete Sentence": 0.009457658044993877
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "What other drugs will affect lisinopril?",
+      "block_index": 93,
+      "sentence_index": 2,
+      "sentence": "Not all possible drug interactions are listed here.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9794979095458984,
+      "probabilities": {
+        "Simple Sentence": 0.9794979095458984,
+        "Compound Sentence": 0.006145690102130175,
+        "Complex Sentence": 0.0035777543671429157,
+        "Compound-Complex Sentence": 0.0007433757418766618,
+        "Incomplete Sentence": 0.010035284794867039
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Popular FAQ",
+      "block_index": 94,
+      "sentence_index": 0,
+      "sentence": "Angiotensin-converting enzyme (ACE) inhibitors are a class of prescription blood pressure medications that commonly cause coughing as a side effect.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.5334975123405457,
+      "probabilities": {
+        "Simple Sentence": 0.3976249098777771,
+        "Compound Sentence": 0.04626500979065895,
+        "Complex Sentence": 0.5334975123405457,
+        "Compound-Complex Sentence": 0.014668529853224754,
+        "Incomplete Sentence": 0.007944049313664436
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Popular FAQ",
+      "block_index": 94,
+      "sentence_index": 1,
+      "sentence": "Available medications in this class include... Continue reading",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.7914831638336182,
+      "probabilities": {
+        "Simple Sentence": 0.19058161973953247,
+        "Compound Sentence": 0.008580519817769527,
+        "Complex Sentence": 0.004508388694375753,
+        "Compound-Complex Sentence": 0.004846251104027033,
+        "Incomplete Sentence": 0.7914831638336182
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Popular FAQ",
+      "block_index": 95,
+      "sentence_index": 0,
+      "sentence": "A dry, tickly cough is one of the most common side effects of lisinopril and other ACE inhibitors.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9721810221672058,
+      "probabilities": {
+        "Simple Sentence": 0.9721810221672058,
+        "Compound Sentence": 0.01154289860278368,
+        "Complex Sentence": 0.013113390654325485,
+        "Compound-Complex Sentence": 0.0011472349287942052,
+        "Incomplete Sentence": 0.0020154269877821207
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Popular FAQ",
+      "block_index": 95,
+      "sentence_index": 1,
+      "sentence": "It is usually not dangerous, but can be very annoying.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8898945450782776,
+      "probabilities": {
+        "Simple Sentence": 0.8898945450782776,
+        "Compound Sentence": 0.06139171123504639,
+        "Complex Sentence": 0.013941262848675251,
+        "Compound-Complex Sentence": 0.006624085828661919,
+        "Incomplete Sentence": 0.028148377314209938
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Popular FAQ",
+      "block_index": 95,
+      "sentence_index": 2,
+      "sentence": "In most people, the cough improves or disappears after the medication is changed, and there are safe alternatives such as ARBs that your clinician can use instead.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.8680029511451721,
+      "probabilities": {
+        "Simple Sentence": 0.005923280492424965,
+        "Compound Sentence": 0.8680029511451721,
+        "Complex Sentence": 0.007165802642703056,
+        "Compound-Complex Sentence": 0.11181869357824326,
+        "Incomplete Sentence": 0.007089239079505205
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Popular FAQ",
+      "block_index": 96,
+      "sentence_index": 0,
+      "sentence": "Lisinopril is usually taken once a day, and for most people it can be taken in the morning or evening as long as it is taken at the same time every day.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.9629343152046204,
+      "probabilities": {
+        "Simple Sentence": 0.006590374745428562,
+        "Compound Sentence": 0.9629343152046204,
+        "Complex Sentence": 0.007084262557327747,
+        "Compound-Complex Sentence": 0.018949216231703758,
+        "Incomplete Sentence": 0.004441885277628899
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Popular FAQ",
+      "block_index": 96,
+      "sentence_index": 1,
+      "sentence": "Morning dosing is common because it fits daily routines and aligns with how blood pressure naturally rises after waking.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.8910110592842102,
+      "probabilities": {
+        "Simple Sentence": 0.022579986602067947,
+        "Compound Sentence": 0.05986185371875763,
+        "Complex Sentence": 0.8910110592842102,
+        "Compound-Complex Sentence": 0.022969190031290054,
+        "Incomplete Sentence": 0.003577909432351589
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Popular FAQ",
+      "block_index": 96,
+      "sentence_index": 2,
+      "sentence": "Continue reading",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968401193618774,
+      "probabilities": {
+        "Simple Sentence": 0.0008514289511367679,
+        "Compound Sentence": 0.0008564324234612286,
+        "Complex Sentence": 0.00037671401514671743,
+        "Compound-Complex Sentence": 0.0010752563830465078,
+        "Incomplete Sentence": 0.9968401193618774
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Popular FAQ",
+      "block_index": 97,
+      "sentence_index": 0,
+      "sentence": "Drug interactions with green tea can include certain blood pressure medicines, statin cholesterol-lowering treatments, and warfarin, an anticoagulant (blood thinner) used to help prevent blood clots and medicines used to treat hot flashes and night sweats in women due to menopause.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.7184221744537354,
+      "probabilities": {
+        "Simple Sentence": 0.016994958743453026,
+        "Compound Sentence": 0.10236767679452896,
+        "Complex Sentence": 0.7184221744537354,
+        "Compound-Complex Sentence": 0.15590165555477142,
+        "Incomplete Sentence": 0.006313450634479523
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Popular FAQ",
+      "block_index": 97,
+      "sentence_index": 1,
+      "sentence": "Continue reading",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968401193618774,
+      "probabilities": {
+        "Simple Sentence": 0.0008514289511367679,
+        "Compound Sentence": 0.0008564324234612286,
+        "Complex Sentence": 0.00037671401514671743,
+        "Compound-Complex Sentence": 0.0010752563830465078,
+        "Incomplete Sentence": 0.9968401193618774
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Popular FAQ",
+      "block_index": 98,
+      "sentence_index": 0,
+      "sentence": "Lisinopril is a commonly prescribed medication for high blood pressure and heart conditions, but stopping it suddenly without medical advice can be dangerous and is not recommended in most situations.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.8968822956085205,
+      "probabilities": {
+        "Simple Sentence": 0.008398273959755898,
+        "Compound Sentence": 0.8968822956085205,
+        "Complex Sentence": 0.006976025179028511,
+        "Compound-Complex Sentence": 0.07848358154296875,
+        "Incomplete Sentence": 0.009259800426661968
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Popular FAQ",
+      "block_index": 99,
+      "sentence_index": 0,
+      "sentence": "No, lisinopril does not cause weight gain.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.98478102684021,
+      "probabilities": {
+        "Simple Sentence": 0.98478102684021,
+        "Compound Sentence": 0.00818263366818428,
+        "Complex Sentence": 0.0029415679164230824,
+        "Compound-Complex Sentence": 0.0006455460097640753,
+        "Incomplete Sentence": 0.0034491312690079212
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Popular FAQ",
+      "block_index": 99,
+      "sentence_index": 1,
+      "sentence": "Weight gain was not reported as a side effect in the clinical studies used to approve the drug, and research reviews describe lisinopril as \"weight neutral.\"",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.9663941860198975,
+      "probabilities": {
+        "Simple Sentence": 0.005836882162839174,
+        "Compound Sentence": 0.9663941860198975,
+        "Complex Sentence": 0.005981138441711664,
+        "Compound-Complex Sentence": 0.017579544335603714,
+        "Incomplete Sentence": 0.004208256024867296
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Popular FAQ",
+      "block_index": 99,
+      "sentence_index": 2,
+      "sentence": "If you notice the scale going up after starting lisinopril, the cause is usually something else such as fluid buildup, another medicine, or a health condition.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.7320272922515869,
+      "probabilities": {
+        "Simple Sentence": 0.019989993423223495,
+        "Compound Sentence": 0.18653711676597595,
+        "Complex Sentence": 0.7320272922515869,
+        "Compound-Complex Sentence": 0.05566778779029846,
+        "Incomplete Sentence": 0.00577778834849596
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Popular FAQ",
+      "block_index": 99,
+      "sentence_index": 3,
+      "sentence": "Continue reading",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968401193618774,
+      "probabilities": {
+        "Simple Sentence": 0.0008514289511367679,
+        "Compound Sentence": 0.0008564324234612286,
+        "Complex Sentence": 0.00037671401514671743,
+        "Compound-Complex Sentence": 0.0010752563830465078,
+        "Incomplete Sentence": 0.9968401193618774
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Popular FAQ",
+      "block_index": 100,
+      "sentence_index": 0,
+      "sentence": "Qbrelis (lisinopril) Qbrelis (lisinopril) oral solution comes in one strength: 1 milligram per milliliter (1 mg/mL).",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9177031517028809,
+      "probabilities": {
+        "Simple Sentence": 0.9177031517028809,
+        "Compound Sentence": 0.04908980429172516,
+        "Complex Sentence": 0.02495049312710762,
+        "Compound-Complex Sentence": 0.0031153049785643816,
+        "Incomplete Sentence": 0.005141288507729769
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Popular FAQ",
+      "block_index": 100,
+      "sentence_index": 1,
+      "sentence": "This means every 1 mL of the liquid contains 1 mg of lisinopril, a widely used blood pressure medicine.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.448635458946228,
+      "probabilities": {
+        "Simple Sentence": 0.2328626811504364,
+        "Compound Sentence": 0.2777491807937622,
+        "Complex Sentence": 0.448635458946228,
+        "Compound-Complex Sentence": 0.027988580986857414,
+        "Incomplete Sentence": 0.01276414841413498
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Popular FAQ",
+      "block_index": 100,
+      "sentence_index": 2,
+      "sentence": "Qbrelis is sold as a ready-to-use liquid in a 150 mL bottle.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9802272319793701,
+      "probabilities": {
+        "Simple Sentence": 0.9802272319793701,
+        "Compound Sentence": 0.009900344535708427,
+        "Complex Sentence": 0.004365452565252781,
+        "Compound-Complex Sentence": 0.0009097026777453721,
+        "Incomplete Sentence": 0.004597348626703024
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Popular FAQ",
+      "block_index": 100,
+      "sentence_index": 3,
+      "sentence": "Continue reading",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968401193618774,
+      "probabilities": {
+        "Simple Sentence": 0.0008514289511367679,
+        "Compound Sentence": 0.0008564324234612286,
+        "Complex Sentence": 0.00037671401514671743,
+        "Compound-Complex Sentence": 0.0010752563830465078,
+        "Incomplete Sentence": 0.9968401193618774
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "More FAQ",
+      "block_index": 101,
+      "sentence_index": 0,
+      "sentence": "How long after taking 5 mg lisinopril will my blood pressure drop down?",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.7199303507804871,
+      "probabilities": {
+        "Simple Sentence": 0.7199303507804871,
+        "Compound Sentence": 0.04381963983178139,
+        "Complex Sentence": 0.018217753618955612,
+        "Compound-Complex Sentence": 0.012171246111392975,
+        "Incomplete Sentence": 0.20586101710796356
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "More FAQ",
+      "block_index": 102,
+      "sentence_index": 0,
+      "sentence": "Do ACE inhibitors make COVID-19 worse?",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.902445375919342,
+      "probabilities": {
+        "Simple Sentence": 0.07517033070325851,
+        "Compound Sentence": 0.011399006471037865,
+        "Complex Sentence": 0.004518739879131317,
+        "Compound-Complex Sentence": 0.006466478109359741,
+        "Incomplete Sentence": 0.902445375919342
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "More FAQ",
+      "block_index": 103,
+      "sentence_index": 0,
+      "sentence": "View more FAQ",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976668357849121,
+      "probabilities": {
+        "Simple Sentence": 0.0008865129784680903,
+        "Compound Sentence": 0.0005709800170734525,
+        "Complex Sentence": 0.00030532528762705624,
+        "Compound-Complex Sentence": 0.0005704227951355278,
+        "Incomplete Sentence": 0.9976668357849121
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "More about lisinopril",
+      "block_index": 104,
+      "sentence_index": 0,
+      "sentence": "Check interactions",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976571798324585,
+      "probabilities": {
+        "Simple Sentence": 0.0006747463485226035,
+        "Compound Sentence": 0.0006197870243340731,
+        "Complex Sentence": 0.0002985409810207784,
+        "Compound-Complex Sentence": 0.0007497993065044284,
+        "Incomplete Sentence": 0.9976571798324585
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "More about lisinopril",
+      "block_index": 105,
+      "sentence_index": 0,
+      "sentence": "Compare alternatives",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9973191618919373,
+      "probabilities": {
+        "Simple Sentence": 0.0006938934093341231,
+        "Compound Sentence": 0.0007733384263701737,
+        "Complex Sentence": 0.0003458583087194711,
+        "Compound-Complex Sentence": 0.0008677911828272045,
+        "Incomplete Sentence": 0.9973191618919373
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "More about lisinopril",
+      "block_index": 106,
+      "sentence_index": 0,
+      "sentence": "Pricing & coupons",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9980949759483337,
+      "probabilities": {
+        "Simple Sentence": 0.0006051041418686509,
+        "Compound Sentence": 0.000543472240678966,
+        "Complex Sentence": 0.00023742545454297215,
+        "Compound-Complex Sentence": 0.0005190916126593947,
+        "Incomplete Sentence": 0.9980949759483337
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "More about lisinopril",
+      "block_index": 107,
+      "sentence_index": 0,
+      "sentence": "Reviews (648)",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.997967541217804,
+      "probabilities": {
+        "Simple Sentence": 0.0006421636790037155,
+        "Compound Sentence": 0.0005503455176949501,
+        "Complex Sentence": 0.0002780856448225677,
+        "Compound-Complex Sentence": 0.0005617485148832202,
+        "Incomplete Sentence": 0.997967541217804
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "More about lisinopril",
+      "block_index": 108,
+      "sentence_index": 0,
+      "sentence": "Drug images",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9981614947319031,
+      "probabilities": {
+        "Simple Sentence": 0.00048340647481381893,
+        "Compound Sentence": 0.0004796446010004729,
+        "Complex Sentence": 0.0002539920969866216,
+        "Compound-Complex Sentence": 0.0006213125889189541,
+        "Incomplete Sentence": 0.9981614947319031
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "More about lisinopril",
+      "block_index": 109,
+      "sentence_index": 0,
+      "sentence": "Side effects",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9979200959205627,
+      "probabilities": {
+        "Simple Sentence": 0.000545503746252507,
+        "Compound Sentence": 0.0005380964139476418,
+        "Complex Sentence": 0.00029312996775843203,
+        "Compound-Complex Sentence": 0.0007031821878626943,
+        "Incomplete Sentence": 0.9979200959205627
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "More about lisinopril",
+      "block_index": 110,
+      "sentence_index": 0,
+      "sentence": "Dosage information",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9979810118675232,
+      "probabilities": {
+        "Simple Sentence": 0.0007104729302227497,
+        "Compound Sentence": 0.0005979862180538476,
+        "Complex Sentence": 0.00023280664754565805,
+        "Compound-Complex Sentence": 0.0004776882124133408,
+        "Incomplete Sentence": 0.9979810118675232
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "More about lisinopril",
+      "block_index": 111,
+      "sentence_index": 0,
+      "sentence": "Patient tips",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978949427604675,
+      "probabilities": {
+        "Simple Sentence": 0.0005323336226865649,
+        "Compound Sentence": 0.0005886644939891994,
+        "Complex Sentence": 0.0002780653885565698,
+        "Compound-Complex Sentence": 0.0007059166091494262,
+        "Incomplete Sentence": 0.9978949427604675
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "More about lisinopril",
+      "block_index": 112,
+      "sentence_index": 0,
+      "sentence": "During pregnancy",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.997847318649292,
+      "probabilities": {
+        "Simple Sentence": 0.0006217239424586296,
+        "Compound Sentence": 0.0005644300836138427,
+        "Complex Sentence": 0.0002694973663892597,
+        "Compound-Complex Sentence": 0.0006969781243242323,
+        "Incomplete Sentence": 0.997847318649292
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "More about lisinopril",
+      "block_index": 113,
+      "sentence_index": 0,
+      "sentence": "Support group",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9980746507644653,
+      "probabilities": {
+        "Simple Sentence": 0.0005579813732765615,
+        "Compound Sentence": 0.0005717715830542147,
+        "Complex Sentence": 0.00025847379583865404,
+        "Compound-Complex Sentence": 0.000537129701115191,
+        "Incomplete Sentence": 0.9980746507644653
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "More about lisinopril",
+      "block_index": 114,
+      "sentence_index": 0,
+      "sentence": "Drug class: Angiotensin Converting Enzyme Inhibitors",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9975481629371643,
+      "probabilities": {
+        "Simple Sentence": 0.000909646216314286,
+        "Compound Sentence": 0.0006475602858699858,
+        "Complex Sentence": 0.000288759678369388,
+        "Compound-Complex Sentence": 0.0006059549632482231,
+        "Incomplete Sentence": 0.9975481629371643
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "More about lisinopril",
+      "block_index": 115,
+      "sentence_index": 0,
+      "sentence": "Breastfeeding",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9979565143585205,
+      "probabilities": {
+        "Simple Sentence": 0.0007968388381414115,
+        "Compound Sentence": 0.0005864056874997914,
+        "Complex Sentence": 0.00022785270994063467,
+        "Compound-Complex Sentence": 0.0004323884204495698,
+        "Incomplete Sentence": 0.9979565143585205
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "More about lisinopril",
+      "block_index": 116,
+      "sentence_index": 0,
+      "sentence": "En español",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978704452514648,
+      "probabilities": {
+        "Simple Sentence": 0.0006452440866269171,
+        "Compound Sentence": 0.0005990889039821923,
+        "Complex Sentence": 0.00026532539050094783,
+        "Compound-Complex Sentence": 0.0006199195049703121,
+        "Incomplete Sentence": 0.9978704452514648
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Patient resources",
+      "block_index": 117,
+      "sentence_index": 0,
+      "sentence": "Zestril , Prinivil , Qbrelis",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9959381818771362,
+      "probabilities": {
+        "Simple Sentence": 0.001096542226150632,
+        "Compound Sentence": 0.0011775674065575004,
+        "Complex Sentence": 0.000586936715990305,
+        "Compound-Complex Sentence": 0.0012007929617539048,
+        "Incomplete Sentence": 0.9959381818771362
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Professional resources",
+      "block_index": 118,
+      "sentence_index": 0,
+      "sentence": "Lisinopril monograph",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9981512427330017,
+      "probabilities": {
+        "Simple Sentence": 0.0006200939533300698,
+        "Compound Sentence": 0.0004963169922120869,
+        "Complex Sentence": 0.00025078540784306824,
+        "Compound-Complex Sentence": 0.0004815169086214155,
+        "Incomplete Sentence": 0.9981512427330017
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Professional resources",
+      "block_index": 119,
+      "sentence_index": 0,
+      "sentence": "Lisinopril (FDA)",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9980999827384949,
+      "probabilities": {
+        "Simple Sentence": 0.0007320400909520686,
+        "Compound Sentence": 0.0004662227293010801,
+        "Complex Sentence": 0.00023102245177142322,
+        "Compound-Complex Sentence": 0.00047079796786420047,
+        "Incomplete Sentence": 0.9980999827384949
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Professional resources",
+      "block_index": 120,
+      "sentence_index": 0,
+      "sentence": "Zestril , Prinivil , Qbrelis",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9959381818771362,
+      "probabilities": {
+        "Simple Sentence": 0.001096542226150632,
+        "Compound Sentence": 0.0011775674065575004,
+        "Complex Sentence": 0.000586936715990305,
+        "Compound-Complex Sentence": 0.0012007929617539048,
+        "Incomplete Sentence": 0.9959381818771362
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Related treatment guides",
+      "block_index": 121,
+      "sentence_index": 0,
+      "sentence": "Diabetic Kidney Disease",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9979752898216248,
+      "probabilities": {
+        "Simple Sentence": 0.0006997957825660706,
+        "Compound Sentence": 0.0005568371270783246,
+        "Complex Sentence": 0.00020909331215079874,
+        "Compound-Complex Sentence": 0.0005590165965259075,
+        "Incomplete Sentence": 0.9979752898216248
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Related treatment guides",
+      "block_index": 122,
+      "sentence_index": 0,
+      "sentence": "Coronary Artery Disease",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9981817007064819,
+      "probabilities": {
+        "Simple Sentence": 0.0005848221480846405,
+        "Compound Sentence": 0.0005016925279051065,
+        "Complex Sentence": 0.00021960171579848975,
+        "Compound-Complex Sentence": 0.0005120873684063554,
+        "Incomplete Sentence": 0.9981817007064819
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Related treatment guides",
+      "block_index": 123,
+      "sentence_index": 0,
+      "sentence": "Heart Attack",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9973279237747192,
+      "probabilities": {
+        "Simple Sentence": 0.0006891721859574318,
+        "Compound Sentence": 0.0006986592197790742,
+        "Complex Sentence": 0.00032269323128275573,
+        "Compound-Complex Sentence": 0.0009615042945370078,
+        "Incomplete Sentence": 0.9973279237747192
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Related treatment guides",
+      "block_index": 124,
+      "sentence_index": 0,
+      "sentence": "Alport Syndrome",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9980089068412781,
+      "probabilities": {
+        "Simple Sentence": 0.0007294756942428648,
+        "Compound Sentence": 0.0005818727659061551,
+        "Complex Sentence": 0.00024782828404568136,
+        "Compound-Complex Sentence": 0.0004319890576880425,
+        "Incomplete Sentence": 0.9980089068412781
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Further information",
+      "block_index": 125,
+      "sentence_index": 0,
+      "sentence": "Remember, keep this and all other medicines out of the reach of children, never share your medicines with others, and use lisinopril only for the indication prescribed.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.7499544620513916,
+      "probabilities": {
+        "Simple Sentence": 0.023479914292693138,
+        "Compound Sentence": 0.7499544620513916,
+        "Complex Sentence": 0.06834064424037933,
+        "Compound-Complex Sentence": 0.13542304933071136,
+        "Incomplete Sentence": 0.02280200459063053
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Further information",
+      "block_index": 126,
+      "sentence_index": 0,
+      "sentence": "Always consult your healthcare provider to ensure the information displayed on this page applies to your personal circumstances.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.7206799387931824,
+      "probabilities": {
+        "Simple Sentence": 0.23835229873657227,
+        "Compound Sentence": 0.019536510109901428,
+        "Complex Sentence": 0.010710352100431919,
+        "Compound-Complex Sentence": 0.010720816440880299,
+        "Incomplete Sentence": 0.7206799387931824
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Further information",
+      "block_index": 127,
+      "sentence_index": 0,
+      "sentence": "Medical Disclaimer",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978055357933044,
+      "probabilities": {
+        "Simple Sentence": 0.0006821351125836372,
+        "Compound Sentence": 0.0006229133578017354,
+        "Complex Sentence": 0.00026221718871966004,
+        "Compound-Complex Sentence": 0.0006271861493587494,
+        "Incomplete Sentence": 0.9978055357933044
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Further information",
+      "block_index": 128,
+      "sentence_index": 0,
+      "sentence": "Copyright 1996-2026 Cerner Multum, Inc.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9958053827285767,
+      "probabilities": {
+        "Simple Sentence": 0.002088227542117238,
+        "Compound Sentence": 0.0011546373134478927,
+        "Complex Sentence": 0.0003288764273747802,
+        "Compound-Complex Sentence": 0.0006228801212273538,
+        "Incomplete Sentence": 0.9958053827285767
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "lisinopril.html",
+      "section_title": "Further information",
+      "block_index": 128,
+      "sentence_index": 1,
+      "sentence": "Version: 18.01.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9910629987716675,
+      "probabilities": {
+        "Simple Sentence": 0.004783439915627241,
+        "Compound Sentence": 0.001786786480806768,
+        "Complex Sentence": 0.000638343917671591,
+        "Compound-Complex Sentence": 0.0017284337664023042,
+        "Incomplete Sentence": 0.9910629987716675
+      }
+    }
+  ]
+}

@@ -1,0 +1,5152 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "apixaban#what-is-apixaban#0",
+     "section_id": "what-is-apixaban",
+     "section_heading": "What is apixaban?",
+     "text": "Apixaban is used to lower the risk of stroke and blood clots.\nIt is used in adults with a heart rhythm disorder called atrial fibrillation.\nThe atrial fibrillation is not caused by a heart valve problem.\nApixaban is used in adults to treat blood clots in the legs (DVT) or lungs (PE).\nApixaban is used to lower the risk of blood clots happening again.\nThis risk reduction occurs after you have received treatment for blood clots.\nApixaban is used in adults after hip or knee replacement surgery.\nIt is used to prevent clots that can occur in the legs or in the lungs.\nClots in the legs are known as deep vein thrombosis (DVT).\nClots in the lungs are known as pulmonary embolism (PE).\nApixaban is used in children from birth to less than 18 years of age.\nIt is used to treat blood clots in the legs (DVT) or lungs (PE).\nIt is used to lower the risk of clots happening again.\nThis is done after receiving treatment for at least 5 days.\nApixaban is not approved for use in children who weigh less than 5.7 pounds (2.6 kg).\nApixaban may also be used for purposes not listed in this medication guide.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Apixaban\", \"treats\", \"stroke\"], [\"Apixaban\", \"treats\", \"blood clots\"], [\"Apixaban\", \"used in\", \"adults with atrial fibrillation\"], [\"atrial fibrillation\", \"not caused by\", \"heart valve problem\"], [\"Apixaban\", \"treats\", \"deep vein thrombosis (DVT)\"], [\"Apixaban\", \"treats\", \"pulmonary embolism (PE)\"], [\"Apixaban\", \"reduces risk of\", \"blood clots happening again\"], [\"Apixaban\", \"used after\", \"treatment for blood clots\"], [\"Apixaban\", \"used in\", \"adults after hip or knee replacement surgery\"], [\"Apixaban\", \"prevents\", \"clots in legs\"], [\"Apixaban\", \"prevents\", \"clots in lungs\"], [\"deep vein thrombosis\", \"known as\", \"DVT\"], [\"pulmonary embolism\", \"known as\", \"PE\"], [\"Apixaban\", \"used in\", \"children from birth to less than 18 years of age\"], [\"Apixaban\", \"treats\", \"DVT in children\"], [\"Apixaban\", \"treats\", \"PE in children\"], [\"Apixaban\", \"reduces risk of\", \"clots happening again in children\"], [\"Apixaban\", \"used after\", \"treatment for at least 5 days in children\"], [\"Apixaban\", \"not approved for\", \"children who weigh less than 5.7 pounds (2.6 kg)\"], [\"Apixaban\", \"may be used for\", \"purposes not listed in this medication guide\"]]",
+     "oie": [
+      [
+       "Apixaban",
+       "treats",
+       "stroke"
+      ],
+      [
+       "Apixaban",
+       "treats",
+       "blood clots"
+      ],
+      [
+       "Apixaban",
+       "used in",
+       "adults with atrial fibrillation"
+      ],
+      [
+       "atrial fibrillation",
+       "not caused by",
+       "heart valve problem"
+      ],
+      [
+       "Apixaban",
+       "treats",
+       "deep vein thrombosis (DVT)"
+      ],
+      [
+       "Apixaban",
+       "treats",
+       "pulmonary embolism (PE)"
+      ],
+      [
+       "Apixaban",
+       "reduces risk of",
+       "blood clots happening again"
+      ],
+      [
+       "Apixaban",
+       "used after",
+       "treatment for blood clots"
+      ],
+      [
+       "Apixaban",
+       "used in",
+       "adults after hip or knee replacement surgery"
+      ],
+      [
+       "Apixaban",
+       "prevents",
+       "clots in legs"
+      ],
+      [
+       "Apixaban",
+       "prevents",
+       "clots in lungs"
+      ],
+      [
+       "deep vein thrombosis",
+       "known as",
+       "DVT"
+      ],
+      [
+       "pulmonary embolism",
+       "known as",
+       "PE"
+      ],
+      [
+       "Apixaban",
+       "used in",
+       "children from birth to less than 18 years of age"
+      ],
+      [
+       "Apixaban",
+       "treats",
+       "DVT in children"
+      ],
+      [
+       "Apixaban",
+       "treats",
+       "PE in children"
+      ],
+      [
+       "Apixaban",
+       "reduces risk of",
+       "clots happening again in children"
+      ],
+      [
+       "Apixaban",
+       "used after",
+       "treatment for at least 5 days in children"
+      ],
+      [
+       "Apixaban",
+       "not approved for",
+       "children who weigh less than 5.7 pounds (2.6 kg)"
+      ],
+      [
+       "Apixaban",
+       "may be used for",
+       "purposes not listed in this medication guide"
+      ]
+     ],
+     "schema_definition": {
+      "known as": "The subject medical condition is also referred to by the name specified by the object entity.",
+      "may be used for": "The subject drug may be used for the purpose or indication specified by the object entity.",
+      "not approved for": "The subject drug is not approved for use in the patient group or condition specified by the object entity.",
+      "not caused by": "The subject medical condition is not associated with the cause specified by the object entity.",
+      "prevents": "The subject drug is used to prevent the occurrence of the medical condition specified by the object entity.",
+      "reduces risk of": "The subject drug is used to lower the risk of the medical condition or event specified by the object entity.",
+      "treats": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+      "used after": "The subject drug is used following the treatment or condition specified by the object entity.",
+      "used in": "The subject drug is used in the patient group or situation specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Apixaban",
+        "treats",
+        "stroke"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "treats",
+        "blood clots"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "used in population",
+        "adults with atrial fibrillation"
+       ],
+       "raw_relation": "used in",
+       "definition": "The subject drug is used in the patient group or situation specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may be used for",
+         0.9366
+        ],
+        [
+         "treats",
+         0.9275
+        ],
+        [
+         "used in population",
+         0.9223
+        ],
+        [
+         "may be prescribed with",
+         0.9053
+        ],
+        [
+         "belongs to drug class",
+         0.9019
+        ]
+       ],
+       "answer": "C. 'used in"
+      },
+      {
+       "triplet": [
+        "atrial fibrillation",
+        "not caused by",
+        "heart valve problem"
+       ],
+       "raw_relation": "not caused by",
+       "definition": "The subject medical condition is not associated with the cause specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "not approved for",
+         0.8012
+        ],
+        [
+         "contraindicated in",
+         0.7975
+        ],
+        [
+         "does not stop chest pain once",
+         0.7738
+        ],
+        [
+         "does not need to be stopped during",
+         0.7539
+        ],
+        [
+         "has symptom",
+         0.7453
+        ]
+       ],
+       "answer": "F. None of the"
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "treats",
+        "deep vein thrombosis (DVT)"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "treats",
+        "pulmonary embolism (PE)"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "reduces risk of",
+        "blood clots happening again"
+       ],
+       "raw_relation": "reduces risk of",
+       "definition": "The subject drug is used to lower the risk of the medical condition or event specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "used after",
+        "treatment for blood clots"
+       ],
+       "raw_relation": "used after",
+       "definition": "The subject drug is used following the treatment or condition specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "may be used for",
+         0.9437
+        ],
+        [
+         "treats",
+         0.9325
+        ],
+        [
+         "has related treatment guide",
+         0.9173
+        ],
+        [
+         "used in combination with",
+         0.8977
+        ],
+        [
+         "may be prescribed with",
+         0.8969
+        ]
+       ],
+       "answer": "F. None of the"
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "used in population",
+        "adults after hip or knee replacement surgery"
+       ],
+       "raw_relation": "used in",
+       "definition": "The subject drug is used in the patient group or situation specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may be used for",
+         0.9366
+        ],
+        [
+         "treats",
+         0.9275
+        ],
+        [
+         "used in population",
+         0.9223
+        ],
+        [
+         "may be prescribed with",
+         0.9053
+        ],
+        [
+         "belongs to drug class",
+         0.9019
+        ]
+       ],
+       "answer": "C. 'used in"
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "reduces risk of",
+        "clots in legs"
+       ],
+       "raw_relation": "prevents",
+       "definition": "The subject drug is used to prevent the occurrence of the medical condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "reduces risk of",
+         0.9397
+        ],
+        [
+         "treats",
+         0.9008
+        ],
+        [
+         "may be used for",
+         0.8999
+        ],
+        [
+         "should be avoided with",
+         0.8717
+        ],
+        [
+         "contraindicated in",
+         0.8694
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "reduces risk of",
+        "clots in lungs"
+       ],
+       "raw_relation": "prevents",
+       "definition": "The subject drug is used to prevent the occurrence of the medical condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "reduces risk of",
+         0.9397
+        ],
+        [
+         "treats",
+         0.9008
+        ],
+        [
+         "may be used for",
+         0.8999
+        ],
+        [
+         "should be avoided with",
+         0.8717
+        ],
+        [
+         "contraindicated in",
+         0.8694
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "deep vein thrombosis",
+        "known as",
+        "DVT"
+       ],
+       "raw_relation": "known as",
+       "definition": "The subject medical condition is also referred to by the name specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "has symptom",
+         0.8745
+        ],
+        [
+         "has treatment requirement",
+         0.8538
+        ],
+        [
+         "treats",
+         0.8502
+        ],
+        [
+         "may be used for",
+         0.8344
+        ],
+        [
+         "has related treatment guide",
+         0.8251
+        ]
+       ],
+       "answer": "F. None of the"
+      },
+      {
+       "triplet": [
+        "pulmonary embolism",
+        "known as",
+        "PE"
+       ],
+       "raw_relation": "known as",
+       "definition": "The subject medical condition is also referred to by the name specified by the object entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has symptom",
+         0.8745
+        ],
+        [
+         "has treatment requirement",
+         0.8538
+        ],
+        [
+         "treats",
+         0.8502
+        ],
+        [
+         "may be used for",
+         0.8344
+        ],
+        [
+         "has related treatment guide",
+         0.8251
+        ]
+       ],
+       "answer": "F. None of the"
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "used in population",
+        "children from birth to less than 18 years of age"
+       ],
+       "raw_relation": "used in",
+       "definition": "The subject drug is used in the patient group or situation specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may be used for",
+         0.9366
+        ],
+        [
+         "treats",
+         0.9275
+        ],
+        [
+         "used in population",
+         0.9223
+        ],
+        [
+         "may be prescribed with",
+         0.9053
+        ],
+        [
+         "belongs to drug class",
+         0.9019
+        ]
+       ],
+       "answer": "C. 'used in"
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "treats",
+        "DVT in children"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "treats",
+        "PE in children"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "reduces risk of",
+        "clots happening again in children"
+       ],
+       "raw_relation": "reduces risk of",
+       "definition": "The subject drug is used to lower the risk of the medical condition or event specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "used after",
+        "treatment for at least 5 days in children"
+       ],
+       "raw_relation": "used after",
+       "definition": "The subject drug is used following the treatment or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "may be used for",
+         0.9437
+        ],
+        [
+         "treats",
+         0.9325
+        ],
+        [
+         "has related treatment guide",
+         0.9173
+        ],
+        [
+         "used in combination with",
+         0.8977
+        ],
+        [
+         "may be prescribed with",
+         0.8969
+        ]
+       ],
+       "answer": "F."
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "not approved for",
+        "children who weigh less than 5.7 pounds (2.6 kg)"
+       ],
+       "raw_relation": "not approved for",
+       "definition": "The subject drug is not approved for use in the patient group or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "may be used for",
+        "purposes not listed in this medication guide"
+       ],
+       "raw_relation": "may be used for",
+       "definition": "The subject drug may be used for the purpose or indication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "apixaban#apixaban-side-effects#0",
+     "section_id": "apixaban-side-effects",
+     "section_heading": "Apixaban side effects",
+     "text": "Get emergency medical help if you have signs of an allergic reaction: hives, difficult breathing, swelling of your face, lips, tongue, or throat.\nAlso seek emergency medical attention if you have symptoms of a spinal blood clot.\nSymptoms of a spinal blood clot include back pain, numbness, tingling, muscle weakness in your lower body, or loss of bladder or bowel control.\nApixaban can cause you to bleed more easily.\nCall your doctor at once if you have signs of bleeding such as:\nbruising or bleeding that will not stop, unusual bleeding (nosebleeds, bleeding gums, vaginal bleeding);\nunexpected pain, joint pain or swelling;\nheadache, dizziness, weakness, feeling like you might pass out;\nurine that looks red, pink, or brown; or\nbloody or tarry stools, coughing up blood or vomit that looks like coffee grounds.\nCommon side effects of apixaban may include:\nbleeding, including heavy menstrual bleeding; or\nheadache, vomiting.\nThis is not a complete list of side effects and others may occur.\nCall your doctor for medical advice about side effects.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"apixaban\", \"has serious side effect\", \"allergic reaction\"], [\"apixaban\", \"has serious side effect\", \"spinal blood clot\"], [\"spinal blood clot\", \"has symptom\", \"back pain\"], [\"spinal blood clot\", \"has symptom\", \"numbness\"], [\"spinal blood clot\", \"has symptom\", \"tingling\"], [\"spinal blood clot\", \"has symptom\", \"muscle weakness in lower body\"], [\"spinal blood clot\", \"has symptom\", \"loss of bladder or bowel control\"], [\"apixaban\", \"has side effect\", \"easy bleeding\"], [\"apixaban\", \"has side effect\", \"bleeding\"], [\"apixaban\", \"has side effect\", \"heavy menstrual bleeding\"], [\"apixaban\", \"has side effect\", \"headache\"], [\"apixaban\", \"has side effect\", \"vomiting\"], [\"apixaban\", \"has administration instruction\", \"call doctor at once if signs of bleeding\"], [\"apixaban\", \"has administration instruction\", \"call doctor for medical advice about side effects\"], [\"apixaban\", \"has overdose symptom\", \"bruising or bleeding that will not stop\"], [\"apixaban\", \"has overdose symptom\", \"unusual bleeding\"], [\"apixaban\", \"has overdose symptom\", \"unexpected pain\"], [\"apixaban\", \"has overdose symptom\", \"joint pain or swelling\"], [\"apixaban\", \"has overdose symptom\", \"headache\"], [\"apixaban\", \"has overdose symptom\", \"dizziness\"], [\"apixaban\", \"has overdose symptom\", \"weakness\"], [\"apixaban\", \"has overdose symptom\", \"feeling like you might pass out\"], [\"apixaban\", \"has overdose symptom\", \"red, pink, or brown urine\"], [\"apixaban\", \"has overdose symptom\", \"bloody or tarry stools\"], [\"apixaban\", \"has overdose symptom\", \"coughing up blood\"], [\"apixaban\", \"has overdose symptom\", \"vomit that looks like coffee grounds\"]]",
+     "oie": [
+      [
+       "apixaban",
+       "has serious side effect",
+       "allergic reaction"
+      ],
+      [
+       "apixaban",
+       "has serious side effect",
+       "spinal blood clot"
+      ],
+      [
+       "spinal blood clot",
+       "has symptom",
+       "back pain"
+      ],
+      [
+       "spinal blood clot",
+       "has symptom",
+       "numbness"
+      ],
+      [
+       "spinal blood clot",
+       "has symptom",
+       "tingling"
+      ],
+      [
+       "spinal blood clot",
+       "has symptom",
+       "muscle weakness in lower body"
+      ],
+      [
+       "spinal blood clot",
+       "has symptom",
+       "loss of bladder or bowel control"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "easy bleeding"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "bleeding"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "heavy menstrual bleeding"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "headache"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "vomiting"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "call doctor at once if signs of bleeding"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "call doctor for medical advice about side effects"
+      ],
+      [
+       "apixaban",
+       "has overdose symptom",
+       "bruising or bleeding that will not stop"
+      ],
+      [
+       "apixaban",
+       "has overdose symptom",
+       "unusual bleeding"
+      ],
+      [
+       "apixaban",
+       "has overdose symptom",
+       "unexpected pain"
+      ],
+      [
+       "apixaban",
+       "has overdose symptom",
+       "joint pain or swelling"
+      ],
+      [
+       "apixaban",
+       "has overdose symptom",
+       "headache"
+      ],
+      [
+       "apixaban",
+       "has overdose symptom",
+       "dizziness"
+      ],
+      [
+       "apixaban",
+       "has overdose symptom",
+       "weakness"
+      ],
+      [
+       "apixaban",
+       "has overdose symptom",
+       "feeling like you might pass out"
+      ],
+      [
+       "apixaban",
+       "has overdose symptom",
+       "red, pink, or brown urine"
+      ],
+      [
+       "apixaban",
+       "has overdose symptom",
+       "bloody or tarry stools"
+      ],
+      [
+       "apixaban",
+       "has overdose symptom",
+       "coughing up blood"
+      ],
+      [
+       "apixaban",
+       "has overdose symptom",
+       "vomit that looks like coffee grounds"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the specific action or instruction specified by the object entity to be followed by the patient.",
+      "has overdose symptom": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+      "has side effect": "The subject drug may cause the adverse effect or reaction specified by the object entity.",
+      "has symptom": "The medical condition specified by the subject entity is associated with the symptom specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "apixaban",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has serious side effect",
+        "spinal blood clot"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "spinal blood clot",
+        "has symptom",
+        "back pain"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The medical condition specified by the subject entity is associated with the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "spinal blood clot",
+        "has symptom",
+        "numbness"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The medical condition specified by the subject entity is associated with the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "spinal blood clot",
+        "has symptom",
+        "tingling"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The medical condition specified by the subject entity is associated with the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "spinal blood clot",
+        "has symptom",
+        "muscle weakness in lower body"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The medical condition specified by the subject entity is associated with the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "spinal blood clot",
+        "has symptom",
+        "loss of bladder or bowel control"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The medical condition specified by the subject entity is associated with the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "easy bleeding"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or reaction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "bleeding"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or reaction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "heavy menstrual bleeding"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or reaction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "headache"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or reaction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "vomiting"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or reaction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "call doctor at once if signs of bleeding"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "call doctor for medical advice about side effects"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has overdose symptom",
+        "bruising or bleeding that will not stop"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has overdose symptom",
+        "unusual bleeding"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has overdose symptom",
+        "unexpected pain"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has overdose symptom",
+        "joint pain or swelling"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has overdose symptom",
+        "headache"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has overdose symptom",
+        "dizziness"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has overdose symptom",
+        "weakness"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has overdose symptom",
+        "feeling like you might pass out"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has overdose symptom",
+        "red, pink, or brown urine"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has overdose symptom",
+        "bloody or tarry stools"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has overdose symptom",
+        "coughing up blood"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has overdose symptom",
+        "vomit that looks like coffee grounds"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom or adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "apixaban#apixaban-side-effects#1",
+     "section_id": "apixaban-side-effects",
+     "section_heading": "Apixaban side effects",
+     "text": "You may report side effects to FDA at 1-800-FDA-1088.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Apixaban\", \"has reporting contact\", \"FDA at 1-800-FDA-1088\"]]",
+     "oie": [
+      [
+       "Apixaban",
+       "has reporting contact",
+       "FDA at 1-800-FDA-1088"
+      ]
+     ],
+     "schema_definition": {
+      "has reporting contact": "The subject drug has a designated contact entity specified by the object for reporting side effects or adverse events."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Apixaban",
+        "has reporting contact",
+        "FDA at 1-800-FDA-1088"
+       ],
+       "raw_relation": "has reporting contact",
+       "definition": "The subject drug has a designated contact entity specified by the object for reporting side effects or adverse events.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "has side effect",
+         0.8952
+        ],
+        [
+         "has serious side effect",
+         0.843
+        ],
+        [
+         "may be used for",
+         0.8407
+        ],
+        [
+         "manufactured by",
+         0.8389
+        ],
+        [
+         "has related treatment guide",
+         0.8374
+        ]
+       ],
+       "answer": "F."
+      }
+     ]
+    },
+    {
+     "chunk_id": "apixaban#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "Do not stop taking apixaban unless your doctor tells you to.\nStopping suddenly can increase your risk of blood clot or stroke.\nSome drugs can increase your risk of bleeding when used with apixaban.\nTell your doctor about all other medicines you use.\nCall your doctor at once if you have signs of bleeding.\nEasy bruising is a sign of bleeding.\nUnusual bleeding is a sign of bleeding.\nUnexpected pain is a sign of bleeding.\nUnexpected swelling is a sign of bleeding.\nFeeling very weak is a sign of bleeding.\nFeeling dizzy is a sign of bleeding.\nBleeding gums are a sign of bleeding.\nNosebleeds are a sign of bleeding.\nHeavy menstrual bleeding is a sign of bleeding.\nBlood in your urine is a sign of bleeding.\nBlood in your stools is a sign of bleeding.\nCoughing up blood is a sign of bleeding.\nVomit that looks like coffee grounds is a sign of bleeding.\nAny bleeding that will not stop is a sign of bleeding.\nApixaban can cause a very serious blood clot around your spinal cord.\nThis can happen if you undergo a spinal tap.\nThis can also happen if you receive spinal anesthesia (epidural).",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"apixaban\", \"has administration instruction\", \"do not stop taking unless doctor tells you to\"], [\"apixaban\", \"has warning\", \"stopping suddenly can increase risk of blood clot or stroke\"], [\"apixaban\", \"interacts with\", \"drugs that increase risk of bleeding\"], [\"apixaban\", \"has administration instruction\", \"tell doctor about all other medicines used\"], [\"apixaban\", \"has overdose instruction\", \"call doctor at once if signs of bleeding\"], [\"apixaban\", \"has side effect\", \"easy bruising\"], [\"apixaban\", \"has side effect\", \"unusual bleeding\"], [\"apixaban\", \"has side effect\", \"unexpected pain\"], [\"apixaban\", \"has side effect\", \"unexpected swelling\"], [\"apixaban\", \"has side effect\", \"feeling very weak\"], [\"apixaban\", \"has side effect\", \"feeling dizzy\"], [\"apixaban\", \"has side effect\", \"bleeding gums\"], [\"apixaban\", \"has side effect\", \"nosebleeds\"], [\"apixaban\", \"has side effect\", \"heavy menstrual bleeding\"], [\"apixaban\", \"has side effect\", \"blood in urine\"], [\"apixaban\", \"has side effect\", \"blood in stools\"], [\"apixaban\", \"has side effect\", \"coughing up blood\"], [\"apixaban\", \"has side effect\", \"vomit that looks like coffee grounds\"], [\"apixaban\", \"has side effect\", \"any bleeding that will not stop\"], [\"apixaban\", \"has serious side effect\", \"very serious blood clot around spinal cord\"], [\"apixaban\", \"has warning\", \"can cause blood clot around spinal cord if undergo spinal tap\"], [\"apixaban\", \"has warning\", \"can cause blood clot around spinal cord if receive spinal anesthesia (epidural)\"]]",
+     "oie": [
+      [
+       "apixaban",
+       "has administration instruction",
+       "do not stop taking unless doctor tells you to"
+      ],
+      [
+       "apixaban",
+       "has warning",
+       "stopping suddenly can increase risk of blood clot or stroke"
+      ],
+      [
+       "apixaban",
+       "interacts with",
+       "drugs that increase risk of bleeding"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "tell doctor about all other medicines used"
+      ],
+      [
+       "apixaban",
+       "has overdose instruction",
+       "call doctor at once if signs of bleeding"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "easy bruising"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "unusual bleeding"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "unexpected pain"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "unexpected swelling"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "feeling very weak"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "feeling dizzy"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "bleeding gums"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "nosebleeds"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "heavy menstrual bleeding"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "blood in urine"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "blood in stools"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "coughing up blood"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "vomit that looks like coffee grounds"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "any bleeding that will not stop"
+      ],
+      [
+       "apixaban",
+       "has serious side effect",
+       "very serious blood clot around spinal cord"
+      ],
+      [
+       "apixaban",
+       "has warning",
+       "can cause blood clot around spinal cord if undergo spinal tap"
+      ],
+      [
+       "apixaban",
+       "has warning",
+       "can cause blood clot around spinal cord if receive spinal anesthesia (epidural)"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug has a specific instruction for administration as specified by the object entity.",
+      "has overdose instruction": "The subject drug has a specific instruction to be followed in case of overdose or adverse effects as specified by the object entity.",
+      "has serious side effect": "The subject drug may cause a serious or dangerous adverse effect specified by the object entity.",
+      "has side effect": "The subject drug may cause the adverse effect specified by the object entity.",
+      "has warning": "The subject drug has a specific warning or caution associated with it as described by the object entity.",
+      "interacts with": "The subject drug may interact with other substances or medications specified by the object entity, potentially leading to adverse effects."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "do not stop taking unless doctor tells you to"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug has a specific instruction for administration as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has warning",
+        "stopping suddenly can increase risk of blood clot or stroke"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a specific warning or caution associated with it as described by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "interacts with",
+        "drugs that increase risk of bleeding"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may interact with other substances or medications specified by the object entity, potentially leading to adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "tell doctor about all other medicines used"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug has a specific instruction for administration as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has overdose instruction",
+        "call doctor at once if signs of bleeding"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug has a specific instruction to be followed in case of overdose or adverse effects as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "easy bruising"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "unusual bleeding"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "unexpected pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "unexpected swelling"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "feeling very weak"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "feeling dizzy"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "bleeding gums"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "nosebleeds"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "heavy menstrual bleeding"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "blood in urine"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "blood in stools"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "coughing up blood"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "vomit that looks like coffee grounds"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "any bleeding that will not stop"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has serious side effect",
+        "very serious blood clot around spinal cord"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause a serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has warning",
+        "can cause blood clot around spinal cord if undergo spinal tap"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a specific warning or caution associated with it as described by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has warning",
+        "can cause blood clot around spinal cord if receive spinal anesthesia (epidural)"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a specific warning or caution associated with it as described by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "apixaban#warnings#1",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "Tell any doctor who treats you that you are taking apixaban.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"apixaban\", \"has administration instruction\", \"tell any doctor who treats you that you are taking apixaban\"]]",
+     "oie": [
+      [
+       "apixaban",
+       "has administration instruction",
+       "tell any doctor who treats you that you are taking apixaban"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the administration instruction specified by the object entity to be followed by the patient."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "tell any doctor who treats you that you are taking apixaban"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "apixaban#before-taking-this-medicine#0",
+     "section_id": "before-taking-this-medicine",
+     "section_heading": "Before taking this medicine",
+     "text": "You should not take apixaban if you are allergic to apixaban or if you have active bleeding from any cause.\nApixaban can cause a serious blood clot.\nThis can happen if you undergo a procedure.\nThe procedure could be a spinal tap.\nThe procedure could be receiving spinal anesthesia.\nSpinal anesthesia is also known as epidural.\nThis type of blood clot could cause permanent or long-term paralysis.\nApixaban can make it easier for you to bleed, even from a minor injury.\nCall your doctor if you have any bleeding that will not stop.\nTell your doctor if you have or have ever had:\nartificial heart valve;\na history of problems with your spine, a spinal surgery, or difficult or repeated spinal taps;\nbleeding problems;\nplan for surgery, or a medical or a dental procedure;\na thin tube (catheter) placed in your back to give you certain medicine;\nantiphospholipid syndrome, an immune system disorder that increases the risk of blood clots; or\nliver or kidney disease.\nIt is not known if apixaban will harm an unborn baby.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"apixaban\", \"contraindicated in\", \"allergy to apixaban\"], [\"apixaban\", \"contraindicated in\", \"active bleeding from any cause\"], [\"apixaban\", \"has serious side effect\", \"blood clot\"], [\"blood clot\", \"can occur during\", \"procedure\"], [\"procedure\", \"could be\", \"spinal tap\"], [\"procedure\", \"could be\", \"receiving spinal anesthesia\"], [\"spinal anesthesia\", \"also known as\", \"epidural\"], [\"blood clot\", \"can cause\", \"permanent or long-term paralysis\"], [\"apixaban\", \"increases risk of\", \"bleeding from minor injury\"], [\"apixaban\", \"has administration instruction\", \"call doctor if bleeding will not stop\"], [\"apixaban\", \"use with caution in\", \"artificial heart valve\"], [\"apixaban\", \"use with caution in\", \"history of problems with spine\"], [\"apixaban\", \"use with caution in\", \"spinal surgery\"], [\"apixaban\", \"use with caution in\", \"difficult or repeated spinal taps\"], [\"apixaban\", \"use with caution in\", \"bleeding problems\"], [\"apixaban\", \"use with caution in\", \"plan for surgery\"], [\"apixaban\", \"use with caution in\", \"medical or dental procedure\"], [\"apixaban\", \"use with caution in\", \"thin tube placed in back\"], [\"apixaban\", \"use with caution in\", \"antiphospholipid syndrome\"], [\"apixaban\", \"use with caution in\", \"liver or kidney disease\"], [\"apixaban\", \"has pregnancy or breastfeeding warning\", \"may harm unborn baby\"]]",
+     "oie": [
+      [
+       "apixaban",
+       "contraindicated in",
+       "allergy to apixaban"
+      ],
+      [
+       "apixaban",
+       "contraindicated in",
+       "active bleeding from any cause"
+      ],
+      [
+       "apixaban",
+       "has serious side effect",
+       "blood clot"
+      ],
+      [
+       "blood clot",
+       "can occur during",
+       "procedure"
+      ],
+      [
+       "procedure",
+       "could be",
+       "spinal tap"
+      ],
+      [
+       "procedure",
+       "could be",
+       "receiving spinal anesthesia"
+      ],
+      [
+       "spinal anesthesia",
+       "also known as",
+       "epidural"
+      ],
+      [
+       "blood clot",
+       "can cause",
+       "permanent or long-term paralysis"
+      ],
+      [
+       "apixaban",
+       "increases risk of",
+       "bleeding from minor injury"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "call doctor if bleeding will not stop"
+      ],
+      [
+       "apixaban",
+       "use with caution in",
+       "artificial heart valve"
+      ],
+      [
+       "apixaban",
+       "use with caution in",
+       "history of problems with spine"
+      ],
+      [
+       "apixaban",
+       "use with caution in",
+       "spinal surgery"
+      ],
+      [
+       "apixaban",
+       "use with caution in",
+       "difficult or repeated spinal taps"
+      ],
+      [
+       "apixaban",
+       "use with caution in",
+       "bleeding problems"
+      ],
+      [
+       "apixaban",
+       "use with caution in",
+       "plan for surgery"
+      ],
+      [
+       "apixaban",
+       "use with caution in",
+       "medical or dental procedure"
+      ],
+      [
+       "apixaban",
+       "use with caution in",
+       "thin tube placed in back"
+      ],
+      [
+       "apixaban",
+       "use with caution in",
+       "antiphospholipid syndrome"
+      ],
+      [
+       "apixaban",
+       "use with caution in",
+       "liver or kidney disease"
+      ],
+      [
+       "apixaban",
+       "has pregnancy or breastfeeding warning",
+       "may harm unborn baby"
+      ]
+     ],
+     "schema_definition": {
+      "also known as": "The subject entity is another name or synonym for the object entity.",
+      "can cause": "The subject entity may lead to or result in the condition or effect specified by the object entity.",
+      "can occur during": "The subject event or condition may happen during the process or situation specified by the object entity.",
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "could be": "The subject entity may be an example or instance of the object entity.",
+      "has administration instruction": "The subject drug requires the specific action or instruction specified by the object entity during its use.",
+      "has pregnancy or breastfeeding warning": "The subject drug may pose a risk to the unborn baby or nursing infant, as indicated by the object entity.",
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+      "increases risk of": "The subject drug may increase the likelihood of the condition or event specified by the object entity.",
+      "use with caution in": "The subject drug may require medical supervision or caution for patients who have the condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "apixaban",
+        "contraindicated in",
+        "allergy to apixaban"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "contraindicated in",
+        "active bleeding from any cause"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has serious side effect",
+        "blood clot"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "blood clot",
+        "occurs as",
+        "procedure"
+       ],
+       "raw_relation": "can occur during",
+       "definition": "The subject event or condition may happen during the process or situation specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "occurs as",
+         0.9365
+        ],
+        [
+         "involves",
+         0.9051
+        ],
+        [
+         "is defined as",
+         0.8564
+        ],
+        [
+         "located in",
+         0.8232
+        ],
+        [
+         "has symptom",
+         0.8227
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "procedure",
+        "involves",
+        "spinal tap"
+       ],
+       "raw_relation": "could be",
+       "definition": "The subject entity may be an example or instance of the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "located in",
+         0.835
+        ],
+        [
+         "involves",
+         0.8306
+        ],
+        [
+         "is defined as",
+         0.8267
+        ],
+        [
+         "may be used for",
+         0.8123
+        ],
+        [
+         "has symptom",
+         0.7913
+        ]
+       ],
+       "answer": "B. 'invol"
+      },
+      {
+       "triplet": [
+        "procedure",
+        "involves",
+        "receiving spinal anesthesia"
+       ],
+       "raw_relation": "could be",
+       "definition": "The subject entity may be an example or instance of the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "located in",
+         0.835
+        ],
+        [
+         "involves",
+         0.8306
+        ],
+        [
+         "is defined as",
+         0.8267
+        ],
+        [
+         "may be used for",
+         0.8123
+        ],
+        [
+         "has symptom",
+         0.7913
+        ]
+       ],
+       "answer": "B. 'invol"
+      },
+      {
+       "triplet": [
+        "spinal anesthesia",
+        "is defined as",
+        "epidural"
+       ],
+       "raw_relation": "also known as",
+       "definition": "The subject entity is another name or synonym for the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "located in",
+         0.8134
+        ],
+        [
+         "similar to",
+         0.7961
+        ],
+        [
+         "involves",
+         0.7946
+        ],
+        [
+         "is defined as",
+         0.7834
+        ],
+        [
+         "may be used for",
+         0.7789
+        ]
+       ],
+       "answer": "D. 'is defined"
+      },
+      {
+       "triplet": [
+        "blood clot",
+        "can cause",
+        "permanent or long-term paralysis"
+       ],
+       "raw_relation": "can cause",
+       "definition": "The subject entity may lead to or result in the condition or effect specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "occurs as",
+         0.8824
+        ],
+        [
+         "involves",
+         0.8738
+        ],
+        [
+         "is defined as",
+         0.8703
+        ],
+        [
+         "has symptom",
+         0.8525
+        ],
+        [
+         "may be used for",
+         0.8442
+        ]
+       ],
+       "answer": "F. None of the"
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "increases risk of",
+        "bleeding from minor injury"
+       ],
+       "raw_relation": "increases risk of",
+       "definition": "The subject drug may increase the likelihood of the condition or event specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "call doctor if bleeding will not stop"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or instruction specified by the object entity during its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "use with caution in",
+        "artificial heart valve"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "use with caution in",
+        "history of problems with spine"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "use with caution in",
+        "spinal surgery"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "use with caution in",
+        "difficult or repeated spinal taps"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "use with caution in",
+        "bleeding problems"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "use with caution in",
+        "plan for surgery"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "use with caution in",
+        "medical or dental procedure"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "use with caution in",
+        "thin tube placed in back"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "use with caution in",
+        "antiphospholipid syndrome"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "use with caution in",
+        "liver or kidney disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has pregnancy or breastfeeding warning",
+        "may harm unborn baby"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug may pose a risk to the unborn baby or nursing infant, as indicated by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "apixaban#before-taking-this-medicine#1",
+     "section_id": "before-taking-this-medicine",
+     "section_heading": "Before taking this medicine",
+     "text": "Taking apixaban during pregnancy may cause bleeding in the mother or the unborn baby.\nTell your doctor if you are pregnant or plan to become pregnant.\nDo not breastfeed while taking apixaban.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"apixaban\", \"has pregnancy or breastfeeding warning\", \"may cause bleeding in the mother or the unborn baby\"], [\"apixaban\", \"has administration instruction\", \"tell your doctor if you are pregnant or plan to become pregnant\"], [\"apixaban\", \"has administration instruction\", \"do not breastfeed while taking apixaban\"]]",
+     "oie": [
+      [
+       "apixaban",
+       "has pregnancy or breastfeeding warning",
+       "may cause bleeding in the mother or the unborn baby"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "tell your doctor if you are pregnant or plan to become pregnant"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "do not breastfeed while taking apixaban"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the patient to follow the specific instruction related to pregnancy or breastfeeding specified by the object entity.",
+      "has pregnancy or breastfeeding warning": "The subject drug may pose a risk to the mother or the unborn baby, as indicated by the warning specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "apixaban",
+        "has pregnancy or breastfeeding warning",
+        "may cause bleeding in the mother or the unborn baby"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug may pose a risk to the mother or the unborn baby, as indicated by the warning specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "tell your doctor if you are pregnant or plan to become pregnant"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instruction related to pregnancy or breastfeeding specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "do not breastfeed while taking apixaban"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instruction related to pregnancy or breastfeeding specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+     "section_id": "how-should-i-take-apixaban",
+     "section_heading": "How should I take apixaban?",
+     "text": "Follow all directions on your prescription label and read all medication guides or instruction sheets.\nYour doctor may occasionally change your dose.\nUse Apixaban exactly as directed.\nApixaban is usually taken twice per day.\nRead and carefully follow any Instructions for Use provided with your medicine.\nIf you cannot swallow a tablet whole, you may crush it.\nYou may mix the medicine with a small amount of applesauce, apple juice, or water.\nIf your child is prescribed the tablets for oral suspension, it should be mixed with water.\nIt should be mixed with infant formula.\nIt should be mixed with apple juice.\nIt should be mixed with apple sauce.\nDo not swallow the tablet.\nIf your child is taking capsules for oral suspension, the capsule should be opened.\nThe capsule should be mixed with water or infant formula only.\nDo not swallow the capsule.\nMixed medicine should be used right away.\nApixaban may also be given through a feeding tube.\nApixaban can make it easier for you to bleed.\nThis can happen even from a minor injury such as a fall or a bump on the head.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"apixaban\", \"has administration instruction\", \"follow all directions on prescription label\"], [\"apixaban\", \"has administration instruction\", \"read all medication guides or instruction sheets\"], [\"apixaban\", \"has administration instruction\", \"use exactly as directed\"], [\"apixaban\", \"has recommended dose\", \"twice per day\"], [\"apixaban\", \"has administration instruction\", \"read and carefully follow any instructions for use provided with medicine\"], [\"apixaban\", \"has administration instruction\", \"crush tablet if cannot swallow whole\"], [\"apixaban\", \"has administration instruction\", \"mix with small amount of applesauce, apple juice, or water\"], [\"apixaban\", \"has administration instruction\", \"mix with water if child prescribed tablets for oral suspension\"], [\"apixaban\", \"has administration instruction\", \"mix with infant formula\"], [\"apixaban\", \"has administration instruction\", \"mix with apple juice\"], [\"apixaban\", \"has administration instruction\", \"mix with apple sauce\"], [\"apixaban\", \"has administration instruction\", \"do not swallow tablet\"], [\"apixaban\", \"has administration instruction\", \"open capsule if child taking capsules for oral suspension\"], [\"apixaban\", \"has administration instruction\", \"mix capsule with water or infant formula only\"], [\"apixaban\", \"has administration instruction\", \"do not swallow capsule\"], [\"apixaban\", \"has administration instruction\", \"use mixed medicine right away\"], [\"apixaban\", \"has administration instruction\", \"may be given through feeding tube\"], [\"apixaban\", \"has side effect\", \"increased risk of bleeding\"], [\"apixaban\", \"has side effect\", \"bleeding from minor injury such as fall or bump on head\"]]",
+     "oie": [
+      [
+       "apixaban",
+       "has administration instruction",
+       "follow all directions on prescription label"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "read all medication guides or instruction sheets"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "use exactly as directed"
+      ],
+      [
+       "apixaban",
+       "has recommended dose",
+       "twice per day"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "read and carefully follow any instructions for use provided with medicine"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "crush tablet if cannot swallow whole"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "mix with small amount of applesauce, apple juice, or water"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "mix with water if child prescribed tablets for oral suspension"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "mix with infant formula"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "mix with apple juice"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "mix with apple sauce"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "do not swallow tablet"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "open capsule if child taking capsules for oral suspension"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "mix capsule with water or infant formula only"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "do not swallow capsule"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "use mixed medicine right away"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "may be given through feeding tube"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "increased risk of bleeding"
+      ],
+      [
+       "apixaban",
+       "has side effect",
+       "bleeding from minor injury such as fall or bump on head"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the administration or usage method specified by the object entity.",
+      "has recommended dose": "The subject drug is typically administered at the dose frequency or amount specified by the object entity.",
+      "has side effect": "The subject drug may cause the adverse effect or complication specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "follow all directions on prescription label"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "read all medication guides or instruction sheets"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "use exactly as directed"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has recommended dose",
+        "twice per day"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug is typically administered at the dose frequency or amount specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "read and carefully follow any instructions for use provided with medicine"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "crush tablet if cannot swallow whole"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "mix with small amount of applesauce, apple juice, or water"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "mix with water if child prescribed tablets for oral suspension"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "mix with infant formula"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "mix with apple juice"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "mix with apple sauce"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "do not swallow tablet"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "open capsule if child taking capsules for oral suspension"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "mix capsule with water or infant formula only"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "do not swallow capsule"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "use mixed medicine right away"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "may be given through feeding tube"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or usage method specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "increased risk of bleeding"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or complication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has side effect",
+        "bleeding from minor injury such as fall or bump on head"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or complication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "apixaban#how-should-i-take-apixaban#1",
+     "section_id": "how-should-i-take-apixaban",
+     "section_heading": "How should I take apixaban?",
+     "text": "Tell your doctor or seek emergency medical attention if you fall or hit your head.\nTell your doctor or seek emergency medical attention if you have any bleeding that will not stop.\nIf you have a planned surgery or dental procedure, your doctor may tell you to stop taking apixaban.\nYour doctor may tell you to stop taking apixaban for a short time.\nYou may need to stop taking apixaban for a short time before a planned surgery or dental procedure.\nDoses are based on weight in children and teenagers.\nYour child's dose may change if the child gains or loses weight.\nIf your child vomits within 30 minutes after taking apixaban, take another dose.\nIf the child vomits after more than 30 minutes of taking apixaban.\nDo not take another dose.\nGive the next dose as scheduled.\nDo not change your dose or stop taking apixaban unless your doctor tells you to.\nIf you stop taking apixaban for any reason.\nYour doctor may prescribe another medicine.\nThe medicine is to prevent blood clots.\nKeep all follow-up visits with your healthcare provider.\nStore at room temperature away from moisture and heat.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"apixaban\", \"has administration instruction\", \"tell doctor or seek emergency medical attention if fall or hit head\"], [\"apixaban\", \"has administration instruction\", \"tell doctor or seek emergency medical attention if bleeding does not stop\"], [\"apixaban\", \"has administration instruction\", \"doctor may tell to stop taking for short time\"], [\"apixaban\", \"has administration instruction\", \"may need to stop for short time before surgery or dental procedure\"], [\"apixaban\", \"has recommended dose\", \"based on weight in children and teenagers\"], [\"apixaban\", \"has administration instruction\", \"child's dose may change if weight gains or loses\"], [\"apixaban\", \"has administration instruction\", \"if child vomits within 30 minutes after taking, take another dose\"], [\"apixaban\", \"has administration instruction\", \"if child vomits after more than 30 minutes of taking\"], [\"apixaban\", \"has administration instruction\", \"do not take another dose\"], [\"apixaban\", \"has administration instruction\", \"give next dose as scheduled\"], [\"apixaban\", \"has administration instruction\", \"do not change dose or stop unless doctor tells\"], [\"apixaban\", \"has administration instruction\", \"if stop for any reason, doctor may prescribe another medicine\"], [\"apixaban\", \"has purpose\", \"prevent blood clots\"], [\"apixaban\", \"has administration instruction\", \"keep all follow-up visits with healthcare provider\"], [\"apixaban\", \"has storage instruction\", \"store at room temperature away from moisture and heat\"]]",
+     "oie": [
+      [
+       "apixaban",
+       "has administration instruction",
+       "tell doctor or seek emergency medical attention if fall or hit head"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "tell doctor or seek emergency medical attention if bleeding does not stop"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "doctor may tell to stop taking for short time"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "may need to stop for short time before surgery or dental procedure"
+      ],
+      [
+       "apixaban",
+       "has recommended dose",
+       "based on weight in children and teenagers"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "child's dose may change if weight gains or loses"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "if child vomits within 30 minutes after taking, take another dose"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "if child vomits after more than 30 minutes of taking"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "do not take another dose"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "give next dose as scheduled"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "do not change dose or stop unless doctor tells"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "if stop for any reason, doctor may prescribe another medicine"
+      ],
+      [
+       "apixaban",
+       "has purpose",
+       "prevent blood clots"
+      ],
+      [
+       "apixaban",
+       "has administration instruction",
+       "keep all follow-up visits with healthcare provider"
+      ],
+      [
+       "apixaban",
+       "has storage instruction",
+       "store at room temperature away from moisture and heat"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the specific action or guidance specified by the object entity to be followed by the patient or healthcare provider.",
+      "has purpose": "The subject drug is used for the medical purpose or therapeutic goal specified by the object entity.",
+      "has recommended dose": "The subject drug's dosage is determined based on the factor or condition specified by the object entity.",
+      "has storage instruction": "The subject drug should be stored under the environmental conditions specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "tell doctor or seek emergency medical attention if fall or hit head"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guidance specified by the object entity to be followed by the patient or healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "tell doctor or seek emergency medical attention if bleeding does not stop"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guidance specified by the object entity to be followed by the patient or healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "doctor may tell to stop taking for short time"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guidance specified by the object entity to be followed by the patient or healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "may need to stop for short time before surgery or dental procedure"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guidance specified by the object entity to be followed by the patient or healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has recommended dose",
+        "based on weight in children and teenagers"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug's dosage is determined based on the factor or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "child's dose may change if weight gains or loses"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guidance specified by the object entity to be followed by the patient or healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "if child vomits within 30 minutes after taking, take another dose"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guidance specified by the object entity to be followed by the patient or healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "if child vomits after more than 30 minutes of taking"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guidance specified by the object entity to be followed by the patient or healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "do not take another dose"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guidance specified by the object entity to be followed by the patient or healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "give next dose as scheduled"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guidance specified by the object entity to be followed by the patient or healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "do not change dose or stop unless doctor tells"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guidance specified by the object entity to be followed by the patient or healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "if stop for any reason, doctor may prescribe another medicine"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guidance specified by the object entity to be followed by the patient or healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "may be used for",
+        "prevent blood clots"
+       ],
+       "raw_relation": "has purpose",
+       "definition": "The subject drug is used for the medical purpose or therapeutic goal specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "treats",
+         0.9352
+        ],
+        [
+         "may be used for",
+         0.9332
+        ],
+        [
+         "has related treatment guide",
+         0.9011
+        ],
+        [
+         "belongs to drug class",
+         0.8871
+        ],
+        [
+         "has benefit",
+         0.884
+        ]
+       ],
+       "answer": "B. 'may be"
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has administration instruction",
+        "keep all follow-up visits with healthcare provider"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guidance specified by the object entity to be followed by the patient or healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "apixaban",
+        "has storage instruction",
+        "store at room temperature away from moisture and heat"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug should be stored under the environmental conditions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "apixaban#what-happens-if-i-miss-a-dose#0",
+     "section_id": "what-happens-if-i-miss-a-dose",
+     "section_heading": "What happens if I miss a dose?",
+     "text": "Take a missed dose as soon as you remember a missed dose on the same day.\nTake your next dose at the regular time and stay on your twice-daily schedule.\nDo not take two doses at one time.\nGet your prescription refilled before you run out of medicine completely.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Apixaban\", \"has missed dose instruction\", \"take missed dose as soon as remembered on same day\"], [\"Apixaban\", \"has missed dose instruction\", \"take next dose at regular time and stay on twice-daily schedule\"], [\"Apixaban\", \"has missed dose instruction\", \"do not take two doses at one time\"], [\"Apixaban\", \"has administration instruction\", \"get prescription refilled before running out of medicine completely\"]]",
+     "oie": [
+      [
+       "Apixaban",
+       "has missed dose instruction",
+       "take missed dose as soon as remembered on same day"
+      ],
+      [
+       "Apixaban",
+       "has missed dose instruction",
+       "take next dose at regular time and stay on twice-daily schedule"
+      ],
+      [
+       "Apixaban",
+       "has missed dose instruction",
+       "do not take two doses at one time"
+      ],
+      [
+       "Apixaban",
+       "has administration instruction",
+       "get prescription refilled before running out of medicine completely"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the administration or management instruction specified by the object entity.",
+      "has missed dose instruction": "The subject drug requires the specific action to be taken if a dose is missed, as specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Apixaban",
+        "has missed dose instruction",
+        "take missed dose as soon as remembered on same day"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug requires the specific action to be taken if a dose is missed, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "has missed dose instruction",
+        "take next dose at regular time and stay on twice-daily schedule"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug requires the specific action to be taken if a dose is missed, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "has missed dose instruction",
+        "do not take two doses at one time"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug requires the specific action to be taken if a dose is missed, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "has administration instruction",
+        "get prescription refilled before running out of medicine completely"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration or management instruction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "apixaban#what-happens-if-i-overdose#0",
+     "section_id": "what-happens-if-i-overdose",
+     "section_heading": "What happens if I overdose?",
+     "text": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Apixaban\", \"has overdose instruction\", \"seek emergency medical attention\"], [\"Apixaban\", \"has overdose instruction\", \"call Poison Help line at 1-800-222-1222\"]]",
+     "oie": [
+      [
+       "Apixaban",
+       "has overdose instruction",
+       "seek emergency medical attention"
+      ],
+      [
+       "Apixaban",
+       "has overdose instruction",
+       "call Poison Help line at 1-800-222-1222"
+      ]
+     ],
+     "schema_definition": {
+      "has overdose instruction": "The subject drug requires the action specified by the object entity to be taken in case of an overdose."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Apixaban",
+        "has overdose instruction",
+        "seek emergency medical attention"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity to be taken in case of an overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "has overdose instruction",
+        "call Poison Help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity to be taken in case of an overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "apixaban#what-should-i-avoid-while-taking-apixaban#0",
+     "section_id": "what-should-i-avoid-while-taking-apixaban",
+     "section_heading": "What should I avoid while taking apixaban?",
+     "text": "Avoid activities that may increase your risk of bleeding or injury.\nUse extra care while shaving or brushing your teeth.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Apixaban\", \"has administration instruction\", \"avoid activities that increase risk of bleeding or injury\"], [\"Apixaban\", \"has administration instruction\", \"use extra care while shaving or brushing teeth\"]]",
+     "oie": [
+      [
+       "Apixaban",
+       "has administration instruction",
+       "avoid activities that increase risk of bleeding or injury"
+      ],
+      [
+       "Apixaban",
+       "has administration instruction",
+       "use extra care while shaving or brushing teeth"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the patient to follow the specific instruction specified by the object entity during its administration."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Apixaban",
+        "has administration instruction",
+        "avoid activities that increase risk of bleeding or injury"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instruction specified by the object entity during its administration.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "has administration instruction",
+        "use extra care while shaving or brushing teeth"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instruction specified by the object entity during its administration.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+     "section_id": "what-other-drugs-will-affect-apixaban",
+     "section_heading": "What other drugs will affect apixaban?",
+     "text": "Sometimes it is not safe to use certain medicines at the same time.\nSome drugs can affect your blood levels of other drugs you use.\nThis may increase side effects.\nThis may make the medicines less effective.\nTell your doctor about all your current medicines.\nMany drugs can affect apixaban, especially:\na blood thinner or any other medicines to treat or prevent blood clots such as enoxaparin, warfarin, heparin, clopidogrel, dipyridamole, prasugrel, and others;\nan antidepressant; or\nNSAIDs (nonsteroidal anti-inflammatory drugs) --aspirin, ibuprofen (Advil, Motrin), naproxen (Aleve), celecoxib, diclofenac, indomethacin, meloxicam, and others.\nThis list is not complete and many other drugs may affect apixaban.\nList includes prescription and over-the-counter medicines, vitamins, and herbal products.\nNot all possible drug interactions are listed here.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Apixaban\", \"interacts with\", \"blood thinner or other medicines to treat or prevent blood clots\"], [\"Apixaban\", \"interacts with\", \"enoxaparin\"], [\"Apixaban\", \"interacts with\", \"warfarin\"], [\"Apixaban\", \"interacts with\", \"heparin\"], [\"Apixaban\", \"interacts with\", \"clopidogrel\"], [\"Apixaban\", \"interacts with\", \"dipyridamole\"], [\"Apixaban\", \"interacts with\", \"prasugrel\"], [\"Apixaban\", \"interacts with\", \"antidepressant\"], [\"Apixaban\", \"interacts with\", \"NSAIDs\"], [\"Apixaban\", \"interacts with\", \"aspirin\"], [\"Apixaban\", \"interacts with\", \"ibuprofen\"], [\"Apixaban\", \"interacts with\", \"naproxen\"], [\"Apixaban\", \"interacts with\", \"celecoxib\"], [\"Apixaban\", \"interacts with\", \"diclofenac\"], [\"Apixaban\", \"interacts with\", \"indomethacin\"], [\"Apixaban\", \"interacts with\", \"meloxicam\"], [\"Apixaban\", \"has warning\", \"drug interactions may increase side effects\"], [\"Apixaban\", \"has warning\", \"drug interactions may make medicines less effective\"], [\"Apixaban\", \"has administration instruction\", \"tell your doctor about all current medicines\"], [\"Apixaban\", \"has warning\", \"this list is not complete\"], [\"Apixaban\", \"has warning\", \"many other drugs may affect apixaban\"], [\"Apixaban\", \"has warning\", \"not all possible drug interactions are listed here\"], [\"Apixaban\", \"interacts with\", \"vitamins\"], [\"Apixaban\", \"interacts with\", \"herbal products\"], [\"Apixaban\", \"interacts with\", \"over-the-counter medicines\"], [\"Apixaban\", \"interacts with\", \"prescription medicines\"]]",
+     "oie": [
+      [
+       "Apixaban",
+       "interacts with",
+       "blood thinner or other medicines to treat or prevent blood clots"
+      ],
+      [
+       "Apixaban",
+       "interacts with",
+       "enoxaparin"
+      ],
+      [
+       "Apixaban",
+       "interacts with",
+       "warfarin"
+      ],
+      [
+       "Apixaban",
+       "interacts with",
+       "heparin"
+      ],
+      [
+       "Apixaban",
+       "interacts with",
+       "clopidogrel"
+      ],
+      [
+       "Apixaban",
+       "interacts with",
+       "dipyridamole"
+      ],
+      [
+       "Apixaban",
+       "interacts with",
+       "prasugrel"
+      ],
+      [
+       "Apixaban",
+       "interacts with",
+       "antidepressant"
+      ],
+      [
+       "Apixaban",
+       "interacts with",
+       "NSAIDs"
+      ],
+      [
+       "Apixaban",
+       "interacts with",
+       "aspirin"
+      ],
+      [
+       "Apixaban",
+       "interacts with",
+       "ibuprofen"
+      ],
+      [
+       "Apixaban",
+       "interacts with",
+       "naproxen"
+      ],
+      [
+       "Apixaban",
+       "interacts with",
+       "celecoxib"
+      ],
+      [
+       "Apixaban",
+       "interacts with",
+       "diclofenac"
+      ],
+      [
+       "Apixaban",
+       "interacts with",
+       "indomethacin"
+      ],
+      [
+       "Apixaban",
+       "interacts with",
+       "meloxicam"
+      ],
+      [
+       "Apixaban",
+       "has warning",
+       "drug interactions may increase side effects"
+      ],
+      [
+       "Apixaban",
+       "has warning",
+       "drug interactions may make medicines less effective"
+      ],
+      [
+       "Apixaban",
+       "has administration instruction",
+       "tell your doctor about all current medicines"
+      ],
+      [
+       "Apixaban",
+       "has warning",
+       "this list is not complete"
+      ],
+      [
+       "Apixaban",
+       "has warning",
+       "many other drugs may affect apixaban"
+      ],
+      [
+       "Apixaban",
+       "has warning",
+       "not all possible drug interactions are listed here"
+      ],
+      [
+       "Apixaban",
+       "interacts with",
+       "vitamins"
+      ],
+      [
+       "Apixaban",
+       "interacts with",
+       "herbal products"
+      ],
+      [
+       "Apixaban",
+       "interacts with",
+       "over-the-counter medicines"
+      ],
+      [
+       "Apixaban",
+       "interacts with",
+       "prescription medicines"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "Patients taking the subject drug should inform their healthcare provider about all medications they are currently using.",
+      "has warning": "The subject drug has a caution or warning related to the object entity, such as potential adverse effects or limitations in information.",
+      "interacts with": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "blood thinner or other medicines to treat or prevent blood clots"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "enoxaparin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "warfarin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "heparin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "clopidogrel"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "dipyridamole"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "prasugrel"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "antidepressant"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "NSAIDs"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "aspirin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "ibuprofen"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "naproxen"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "celecoxib"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "diclofenac"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "indomethacin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "meloxicam"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "has warning",
+        "drug interactions may increase side effects"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a caution or warning related to the object entity, such as potential adverse effects or limitations in information.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "has warning",
+        "drug interactions may make medicines less effective"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a caution or warning related to the object entity, such as potential adverse effects or limitations in information.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "has administration instruction",
+        "tell your doctor about all current medicines"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug should inform their healthcare provider about all medications they are currently using.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "has warning",
+        "this list is not complete"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a caution or warning related to the object entity, such as potential adverse effects or limitations in information.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "has warning",
+        "many other drugs may affect apixaban"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a caution or warning related to the object entity, such as potential adverse effects or limitations in information.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "has warning",
+        "not all possible drug interactions are listed here"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a caution or warning related to the object entity, such as potential adverse effects or limitations in information.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "vitamins"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "herbal products"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "over-the-counter medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Apixaban",
+        "interacts with",
+        "prescription medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object entity, which can affect its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "Apixaban",
+    "treats",
+    "stroke"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "Apixaban",
+    "treats",
+    "blood clots"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "Apixaban",
+    "used in population",
+    "adults with atrial fibrillation"
+   ],
+   "raw_relation": "used in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "atrial fibrillation",
+    "not caused by",
+    "heart valve problem"
+   ],
+   "raw_relation": "not caused by",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "Apixaban",
+    "treats",
+    "deep vein thrombosis (DVT)"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "Apixaban",
+    "treats",
+    "pulmonary embolism (PE)"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "Apixaban",
+    "reduces risk of",
+    "blood clots happening again"
+   ],
+   "raw_relation": "reduces risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "Apixaban",
+    "used after",
+    "treatment for blood clots"
+   ],
+   "raw_relation": "used after",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "Apixaban",
+    "used in population",
+    "adults after hip or knee replacement surgery"
+   ],
+   "raw_relation": "used in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "Apixaban",
+    "reduces risk of",
+    "clots in legs"
+   ],
+   "raw_relation": "prevents",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "Apixaban",
+    "reduces risk of",
+    "clots in lungs"
+   ],
+   "raw_relation": "prevents",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "deep vein thrombosis",
+    "known as",
+    "DVT"
+   ],
+   "raw_relation": "known as",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "pulmonary embolism",
+    "known as",
+    "PE"
+   ],
+   "raw_relation": "known as",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "Apixaban",
+    "used in population",
+    "children from birth to less than 18 years of age"
+   ],
+   "raw_relation": "used in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "Apixaban",
+    "treats",
+    "DVT in children"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "Apixaban",
+    "treats",
+    "PE in children"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "Apixaban",
+    "reduces risk of",
+    "clots happening again in children"
+   ],
+   "raw_relation": "reduces risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "Apixaban",
+    "used after",
+    "treatment for at least 5 days in children"
+   ],
+   "raw_relation": "used after",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "Apixaban",
+    "not approved for",
+    "children who weigh less than 5.7 pounds (2.6 kg)"
+   ],
+   "raw_relation": "not approved for",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-is-apixaban#0",
+   "section_id": "what-is-apixaban",
+   "triplet": [
+    "Apixaban",
+    "may be used for",
+    "purposes not listed in this medication guide"
+   ],
+   "raw_relation": "may be used for",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has serious side effect",
+    "spinal blood clot"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "spinal blood clot",
+    "has symptom",
+    "back pain"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "spinal blood clot",
+    "has symptom",
+    "numbness"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "spinal blood clot",
+    "has symptom",
+    "tingling"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "spinal blood clot",
+    "has symptom",
+    "muscle weakness in lower body"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "spinal blood clot",
+    "has symptom",
+    "loss of bladder or bowel control"
+   ],
+   "raw_relation": "has symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "easy bleeding"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "bleeding"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "heavy menstrual bleeding"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "headache"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "vomiting"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "call doctor at once if signs of bleeding"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "call doctor for medical advice about side effects"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has overdose symptom",
+    "bruising or bleeding that will not stop"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has overdose symptom",
+    "unusual bleeding"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has overdose symptom",
+    "unexpected pain"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has overdose symptom",
+    "joint pain or swelling"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has overdose symptom",
+    "headache"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has overdose symptom",
+    "dizziness"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has overdose symptom",
+    "weakness"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has overdose symptom",
+    "feeling like you might pass out"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has overdose symptom",
+    "red, pink, or brown urine"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has overdose symptom",
+    "bloody or tarry stools"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has overdose symptom",
+    "coughing up blood"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#0",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "apixaban",
+    "has overdose symptom",
+    "vomit that looks like coffee grounds"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#apixaban-side-effects#1",
+   "section_id": "apixaban-side-effects",
+   "triplet": [
+    "Apixaban",
+    "has reporting contact",
+    "FDA at 1-800-FDA-1088"
+   ],
+   "raw_relation": "has reporting contact",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "do not stop taking unless doctor tells you to"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has warning",
+    "stopping suddenly can increase risk of blood clot or stroke"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "interacts with",
+    "drugs that increase risk of bleeding"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "tell doctor about all other medicines used"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has overdose instruction",
+    "call doctor at once if signs of bleeding"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "easy bruising"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "unusual bleeding"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "unexpected pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "unexpected swelling"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "feeling very weak"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "feeling dizzy"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "bleeding gums"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "nosebleeds"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "heavy menstrual bleeding"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "blood in urine"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "blood in stools"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "coughing up blood"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "vomit that looks like coffee grounds"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "any bleeding that will not stop"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has serious side effect",
+    "very serious blood clot around spinal cord"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has warning",
+    "can cause blood clot around spinal cord if undergo spinal tap"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has warning",
+    "can cause blood clot around spinal cord if receive spinal anesthesia (epidural)"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "tell any doctor who treats you that you are taking apixaban"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "apixaban",
+    "contraindicated in",
+    "allergy to apixaban"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "apixaban",
+    "contraindicated in",
+    "active bleeding from any cause"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "apixaban",
+    "has serious side effect",
+    "blood clot"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "blood clot",
+    "occurs as",
+    "procedure"
+   ],
+   "raw_relation": "can occur during",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "procedure",
+    "involves",
+    "spinal tap"
+   ],
+   "raw_relation": "could be",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "procedure",
+    "involves",
+    "receiving spinal anesthesia"
+   ],
+   "raw_relation": "could be",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "spinal anesthesia",
+    "is defined as",
+    "epidural"
+   ],
+   "raw_relation": "also known as",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "blood clot",
+    "can cause",
+    "permanent or long-term paralysis"
+   ],
+   "raw_relation": "can cause",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "apixaban",
+    "increases risk of",
+    "bleeding from minor injury"
+   ],
+   "raw_relation": "increases risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "call doctor if bleeding will not stop"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "apixaban",
+    "use with caution in",
+    "artificial heart valve"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "apixaban",
+    "use with caution in",
+    "history of problems with spine"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "apixaban",
+    "use with caution in",
+    "spinal surgery"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "apixaban",
+    "use with caution in",
+    "difficult or repeated spinal taps"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "apixaban",
+    "use with caution in",
+    "bleeding problems"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "apixaban",
+    "use with caution in",
+    "plan for surgery"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "apixaban",
+    "use with caution in",
+    "medical or dental procedure"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "apixaban",
+    "use with caution in",
+    "thin tube placed in back"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "apixaban",
+    "use with caution in",
+    "antiphospholipid syndrome"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "apixaban",
+    "use with caution in",
+    "liver or kidney disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "apixaban",
+    "has pregnancy or breastfeeding warning",
+    "may harm unborn baby"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#1",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "apixaban",
+    "has pregnancy or breastfeeding warning",
+    "may cause bleeding in the mother or the unborn baby"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#1",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "tell your doctor if you are pregnant or plan to become pregnant"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#before-taking-this-medicine#1",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "do not breastfeed while taking apixaban"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "follow all directions on prescription label"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "read all medication guides or instruction sheets"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "use exactly as directed"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has recommended dose",
+    "twice per day"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "read and carefully follow any instructions for use provided with medicine"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "crush tablet if cannot swallow whole"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "mix with small amount of applesauce, apple juice, or water"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "mix with water if child prescribed tablets for oral suspension"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "mix with infant formula"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "mix with apple juice"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "mix with apple sauce"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "do not swallow tablet"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "open capsule if child taking capsules for oral suspension"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "mix capsule with water or infant formula only"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "do not swallow capsule"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "use mixed medicine right away"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "may be given through feeding tube"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "increased risk of bleeding"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#0",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has side effect",
+    "bleeding from minor injury such as fall or bump on head"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#1",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "tell doctor or seek emergency medical attention if fall or hit head"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#1",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "tell doctor or seek emergency medical attention if bleeding does not stop"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#1",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "doctor may tell to stop taking for short time"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#1",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "may need to stop for short time before surgery or dental procedure"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#1",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has recommended dose",
+    "based on weight in children and teenagers"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#1",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "child's dose may change if weight gains or loses"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#1",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "if child vomits within 30 minutes after taking, take another dose"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#1",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "if child vomits after more than 30 minutes of taking"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#1",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "do not take another dose"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#1",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "give next dose as scheduled"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#1",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "do not change dose or stop unless doctor tells"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#1",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "if stop for any reason, doctor may prescribe another medicine"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#1",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "may be used for",
+    "prevent blood clots"
+   ],
+   "raw_relation": "has purpose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#1",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has administration instruction",
+    "keep all follow-up visits with healthcare provider"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#how-should-i-take-apixaban#1",
+   "section_id": "how-should-i-take-apixaban",
+   "triplet": [
+    "apixaban",
+    "has storage instruction",
+    "store at room temperature away from moisture and heat"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Apixaban",
+    "has missed dose instruction",
+    "take missed dose as soon as remembered on same day"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Apixaban",
+    "has missed dose instruction",
+    "take next dose at regular time and stay on twice-daily schedule"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Apixaban",
+    "has missed dose instruction",
+    "do not take two doses at one time"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Apixaban",
+    "has administration instruction",
+    "get prescription refilled before running out of medicine completely"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Apixaban",
+    "has overdose instruction",
+    "seek emergency medical attention"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Apixaban",
+    "has overdose instruction",
+    "call Poison Help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-should-i-avoid-while-taking-apixaban#0",
+   "section_id": "what-should-i-avoid-while-taking-apixaban",
+   "triplet": [
+    "Apixaban",
+    "has administration instruction",
+    "avoid activities that increase risk of bleeding or injury"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-should-i-avoid-while-taking-apixaban#0",
+   "section_id": "what-should-i-avoid-while-taking-apixaban",
+   "triplet": [
+    "Apixaban",
+    "has administration instruction",
+    "use extra care while shaving or brushing teeth"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "blood thinner or other medicines to treat or prevent blood clots"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "enoxaparin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "warfarin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "heparin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "clopidogrel"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "dipyridamole"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "prasugrel"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "antidepressant"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "NSAIDs"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "aspirin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "ibuprofen"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "naproxen"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "celecoxib"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "diclofenac"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "indomethacin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "meloxicam"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "has warning",
+    "drug interactions may increase side effects"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "has warning",
+    "drug interactions may make medicines less effective"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "has administration instruction",
+    "tell your doctor about all current medicines"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "has warning",
+    "this list is not complete"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "has warning",
+    "many other drugs may affect apixaban"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "has warning",
+    "not all possible drug interactions are listed here"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "vitamins"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "herbal products"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "over-the-counter medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "apixaban#what-other-drugs-will-affect-apixaban#0",
+   "section_id": "what-other-drugs-will-affect-apixaban",
+   "triplet": [
+    "Apixaban",
+    "interacts with",
+    "prescription medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  }
+ ],
+ "name": "Apixaban",
+ "slug": "apixaban",
+ "n_chunks": 13,
+ "seconds": 20.7,
+ "llm_model": "Qwen/Qwen3-14B-AWQ"
+}

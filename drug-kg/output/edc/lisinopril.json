@@ -1,0 +1,6562 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "lisinopril#uses#0",
+     "section_id": "uses",
+     "section_heading": "What is lisinopril?",
+     "text": "Lisinopril is used alone or in combination with other medications to treat high blood pressure in adults and children 6 years of age and older.\nLisinopril is also used in adults to treat congestive heart failure and to improve survival after a heart attack.\nLisinopril belongs to a class of medications called angiotensin-converting enzyme (ACE) inhibitors. It works by decreasing certain chemicals that tighten the blood vessels, so blood flows more smoothly and the heart can pump blood more efficiently.\nHigh blood pressure is a common condition and when not treated, can cause damage to the brain, heart, blood vessels, kidneys, and other parts of the body. Damage to these organs may cause heart disease, a heart attack, heart failure, stroke, kidney failure, loss of vision, and other problems. In addition to taking medication, making lifestyle changes will also help to control your blood pressure. These changes include eating a diet that is low in fat and salt, maintaining a healthy weight, exercising at least 30 minutes most days, not smoking, and using alcohol in moderation.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Lisinopril\", \"treats\", \"high blood pressure in adults and children 6 years of age and older\"], [\"Lisinopril\", \"used in combination with\", \"other medications\"], [\"Lisinopril\", \"treats\", \"congestive heart failure\"], [\"Lisinopril\", \"improves survival after\", \"heart attack\"], [\"Lisinopril\", \"belongs to drug class\", \"ACE inhibitors\"], [\"Lisinopril\", \"has mechanism of action\", \"decreasing chemicals that tighten blood vessels\"], [\"Lisinopril\", \"has effect\", \"improves blood flow\"], [\"Lisinopril\", \"has effect\", \"enhances heart pumping efficiency\"], [\"high blood pressure\", \"can cause damage to\", \"brain\"], [\"high blood pressure\", \"can cause damage to\", \"heart\"], [\"high blood pressure\", \"can cause damage to\", \"blood vessels\"], [\"high blood pressure\", \"can cause damage to\", \"kidneys\"], [\"high blood pressure\", \"can lead to\", \"heart disease\"], [\"high blood pressure\", \"can lead to\", \"heart attack\"], [\"high blood pressure\", \"can lead to\", \"heart failure\"], [\"high blood pressure\", \"can lead to\", \"stroke\"], [\"high blood pressure\", \"can lead to\", \"kidney failure\"], [\"high blood pressure\", \"can lead to\", \"loss of vision\"], [\"high blood pressure\", \"can lead to\", \"other problems\"], [\"high blood pressure\", \"requires lifestyle changes\"], [\"lifestyle change\", \"includes\", \"low fat and low salt diet\"], [\"lifestyle change\", \"includes\", \"maintaining healthy weight\"], [\"lifestyle change\", \"includes\", \"exercising at least 30 minutes most days\"], [\"lifestyle change\", \"includes\", \"not smoking\"], [\"lifestyle change\", \"includes\", \"moderate alcohol use\"]]",
+     "oie": [
+      [
+       "Lisinopril",
+       "treats",
+       "high blood pressure in adults and children 6 years of age and older"
+      ],
+      [
+       "Lisinopril",
+       "used in combination with",
+       "other medications"
+      ],
+      [
+       "Lisinopril",
+       "treats",
+       "congestive heart failure"
+      ],
+      [
+       "Lisinopril",
+       "improves survival after",
+       "heart attack"
+      ],
+      [
+       "Lisinopril",
+       "belongs to drug class",
+       "ACE inhibitors"
+      ],
+      [
+       "Lisinopril",
+       "has mechanism of action",
+       "decreasing chemicals that tighten blood vessels"
+      ],
+      [
+       "Lisinopril",
+       "has effect",
+       "improves blood flow"
+      ],
+      [
+       "Lisinopril",
+       "has effect",
+       "enhances heart pumping efficiency"
+      ],
+      [
+       "high blood pressure",
+       "can cause damage to",
+       "brain"
+      ],
+      [
+       "high blood pressure",
+       "can cause damage to",
+       "heart"
+      ],
+      [
+       "high blood pressure",
+       "can cause damage to",
+       "blood vessels"
+      ],
+      [
+       "high blood pressure",
+       "can cause damage to",
+       "kidneys"
+      ],
+      [
+       "high blood pressure",
+       "can lead to",
+       "heart disease"
+      ],
+      [
+       "high blood pressure",
+       "can lead to",
+       "heart attack"
+      ],
+      [
+       "high blood pressure",
+       "can lead to",
+       "heart failure"
+      ],
+      [
+       "high blood pressure",
+       "can lead to",
+       "stroke"
+      ],
+      [
+       "high blood pressure",
+       "can lead to",
+       "kidney failure"
+      ],
+      [
+       "high blood pressure",
+       "can lead to",
+       "loss of vision"
+      ],
+      [
+       "high blood pressure",
+       "can lead to",
+       "other problems"
+      ],
+      [
+       "lifestyle change",
+       "includes",
+       "low fat and low salt diet"
+      ],
+      [
+       "lifestyle change",
+       "includes",
+       "maintaining healthy weight"
+      ],
+      [
+       "lifestyle change",
+       "includes",
+       "exercising at least 30 minutes most days"
+      ],
+      [
+       "lifestyle change",
+       "includes",
+       "not smoking"
+      ],
+      [
+       "lifestyle change",
+       "includes",
+       "moderate alcohol use"
+      ]
+     ],
+     "schema_definition": {
+      "belongs to drug class": "The subject drug is a member of the pharmacological drug class specified by the object entity.",
+      "can cause damage to": "The condition specified by the object entity may result in physical or functional damage to the organ or tissue specified by the subject entity.",
+      "can lead to": "The condition specified by the subject entity may result in the development of the medical condition or outcome specified by the object entity.",
+      "has effect": "The subject drug produces the physiological or functional outcome specified by the object entity.",
+      "has mechanism of action": "The subject drug exerts its therapeutic effect by modulating the biological process or chemical pathway specified by the object entity.",
+      "improves survival after": "The subject drug enhances the chances of survival following the specified medical event or condition.",
+      "includes": "The activity or intervention specified by the subject entity comprises the component or practice specified by the object entity.",
+      "treats": "The subject drug is used to manage or alleviate the medical condition specified by the object entity.",
+      "used in combination with": "The subject drug is administered alongside other medications or therapies to achieve a therapeutic effect."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Lisinopril",
+        "treats",
+        "high blood pressure in adults and children 6 years of age and older"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "used in combination with",
+        "other medications"
+       ],
+       "raw_relation": "used in combination with",
+       "definition": "The subject drug is administered alongside other medications or therapies to achieve a therapeutic effect.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "treats",
+        "congestive heart failure"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "treats",
+        "heart attack"
+       ],
+       "raw_relation": "improves survival after",
+       "definition": "The subject drug enhances the chances of survival following the specified medical event or condition.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "increases risk of",
+         0.8578
+        ],
+        [
+         "reduces risk of",
+         0.8263
+        ],
+        [
+         "treats",
+         0.7721
+        ],
+        [
+         "has warning",
+         0.7636
+        ],
+        [
+         "has onset of effect",
+         0.7558
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "belongs to drug class",
+        "ACE inhibitors"
+       ],
+       "raw_relation": "belongs to drug class",
+       "definition": "The subject drug is a member of the pharmacological drug class specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has mechanism of action",
+        "decreasing chemicals that tighten blood vessels"
+       ],
+       "raw_relation": "has mechanism of action",
+       "definition": "The subject drug exerts its therapeutic effect by modulating the biological process or chemical pathway specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has mechanism of action",
+        "improves blood flow"
+       ],
+       "raw_relation": "has effect",
+       "definition": "The subject drug produces the physiological or functional outcome specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has mechanism of action",
+         0.895
+        ],
+        [
+         "treats",
+         0.8699
+        ],
+        [
+         "belongs to drug class",
+         0.8552
+        ],
+        [
+         "has dosage form",
+         0.8512
+        ],
+        [
+         "manufactured by",
+         0.8505
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has mechanism of action",
+        "enhances heart pumping efficiency"
+       ],
+       "raw_relation": "has effect",
+       "definition": "The subject drug produces the physiological or functional outcome specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has mechanism of action",
+         0.895
+        ],
+        [
+         "treats",
+         0.8699
+        ],
+        [
+         "belongs to drug class",
+         0.8552
+        ],
+        [
+         "has dosage form",
+         0.8512
+        ],
+        [
+         "manufactured by",
+         0.8505
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "high blood pressure",
+        "can cause damage to",
+        "brain"
+       ],
+       "raw_relation": "can cause damage to",
+       "definition": "The condition specified by the object entity may result in physical or functional damage to the organ or tissue specified by the subject entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "has side effect",
+         0.8051
+        ],
+        [
+         "has serious side effect",
+         0.7906
+        ],
+        [
+         "affects",
+         0.787
+        ],
+        [
+         "interacts with",
+         0.7695
+        ],
+        [
+         "treats",
+         0.7686
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "high blood pressure",
+        "can cause damage to",
+        "heart"
+       ],
+       "raw_relation": "can cause damage to",
+       "definition": "The condition specified by the object entity may result in physical or functional damage to the organ or tissue specified by the subject entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has side effect",
+         0.8051
+        ],
+        [
+         "has serious side effect",
+         0.7906
+        ],
+        [
+         "affects",
+         0.787
+        ],
+        [
+         "interacts with",
+         0.7695
+        ],
+        [
+         "treats",
+         0.7686
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "high blood pressure",
+        "can cause damage to",
+        "blood vessels"
+       ],
+       "raw_relation": "can cause damage to",
+       "definition": "The condition specified by the object entity may result in physical or functional damage to the organ or tissue specified by the subject entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has side effect",
+         0.8051
+        ],
+        [
+         "has serious side effect",
+         0.7906
+        ],
+        [
+         "affects",
+         0.787
+        ],
+        [
+         "interacts with",
+         0.7695
+        ],
+        [
+         "treats",
+         0.7686
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "high blood pressure",
+        "can cause damage to",
+        "kidneys"
+       ],
+       "raw_relation": "can cause damage to",
+       "definition": "The condition specified by the object entity may result in physical or functional damage to the organ or tissue specified by the subject entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has side effect",
+         0.8051
+        ],
+        [
+         "has serious side effect",
+         0.7906
+        ],
+        [
+         "affects",
+         0.787
+        ],
+        [
+         "interacts with",
+         0.7695
+        ],
+        [
+         "treats",
+         0.7686
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "high blood pressure",
+        "affects",
+        "heart disease"
+       ],
+       "raw_relation": "can lead to",
+       "definition": "The condition specified by the subject entity may result in the development of the medical condition or outcome specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "affects",
+         0.8176
+        ],
+        [
+         "treats",
+         0.8163
+        ],
+        [
+         "has side effect",
+         0.7893
+        ],
+        [
+         "increases risk of",
+         0.7842
+        ],
+        [
+         "has mechanism of action",
+         0.7786
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "high blood pressure",
+        "increases risk of",
+        "heart attack"
+       ],
+       "raw_relation": "can lead to",
+       "definition": "The condition specified by the subject entity may result in the development of the medical condition or outcome specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "affects",
+         0.8176
+        ],
+        [
+         "treats",
+         0.8163
+        ],
+        [
+         "has side effect",
+         0.7893
+        ],
+        [
+         "increases risk of",
+         0.7842
+        ],
+        [
+         "has mechanism of action",
+         0.7786
+        ]
+       ],
+       "answer": "D"
+      },
+      {
+       "triplet": [
+        "high blood pressure",
+        "affects",
+        "heart failure"
+       ],
+       "raw_relation": "can lead to",
+       "definition": "The condition specified by the subject entity may result in the development of the medical condition or outcome specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "affects",
+         0.8176
+        ],
+        [
+         "treats",
+         0.8163
+        ],
+        [
+         "has side effect",
+         0.7893
+        ],
+        [
+         "increases risk of",
+         0.7842
+        ],
+        [
+         "has mechanism of action",
+         0.7786
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "high blood pressure",
+        "increases risk of",
+        "stroke"
+       ],
+       "raw_relation": "can lead to",
+       "definition": "The condition specified by the subject entity may result in the development of the medical condition or outcome specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "affects",
+         0.8176
+        ],
+        [
+         "treats",
+         0.8163
+        ],
+        [
+         "has side effect",
+         0.7893
+        ],
+        [
+         "increases risk of",
+         0.7842
+        ],
+        [
+         "has mechanism of action",
+         0.7786
+        ]
+       ],
+       "answer": "D"
+      },
+      {
+       "triplet": [
+        "high blood pressure",
+        "can cause damage to",
+        "kidney failure"
+       ],
+       "raw_relation": "can lead to",
+       "definition": "The condition specified by the subject entity may result in the development of the medical condition or outcome specified by the object entity.",
+       "status": "mapped_new",
+       "candidates": [
+        [
+         "affects",
+         0.8176
+        ],
+        [
+         "treats",
+         0.8163
+        ],
+        [
+         "has side effect",
+         0.7893
+        ],
+        [
+         "increases risk of",
+         0.7842
+        ],
+        [
+         "has mechanism of action",
+         0.7786
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "high blood pressure",
+        "can cause damage to",
+        "loss of vision"
+       ],
+       "raw_relation": "can lead to",
+       "definition": "The condition specified by the subject entity may result in the development of the medical condition or outcome specified by the object entity.",
+       "status": "mapped_new",
+       "candidates": [
+        [
+         "affects",
+         0.8176
+        ],
+        [
+         "treats",
+         0.8163
+        ],
+        [
+         "has side effect",
+         0.7893
+        ],
+        [
+         "increases risk of",
+         0.7842
+        ],
+        [
+         "has mechanism of action",
+         0.7786
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "high blood pressure",
+        "can cause damage to",
+        "other problems"
+       ],
+       "raw_relation": "can lead to",
+       "definition": "The condition specified by the subject entity may result in the development of the medical condition or outcome specified by the object entity.",
+       "status": "mapped_new",
+       "candidates": [
+        [
+         "affects",
+         0.8176
+        ],
+        [
+         "treats",
+         0.8163
+        ],
+        [
+         "has side effect",
+         0.7893
+        ],
+        [
+         "increases risk of",
+         0.7842
+        ],
+        [
+         "has mechanism of action",
+         0.7786
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "lifestyle change",
+        "includes",
+        "low fat and low salt diet"
+       ],
+       "raw_relation": "includes",
+       "definition": "The activity or intervention specified by the subject entity comprises the component or practice specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "has instruction",
+         0.7723
+        ],
+        [
+         "has administration instruction",
+         0.7615
+        ],
+        [
+         "used in combination with",
+         0.7614
+        ],
+        [
+         "administered via",
+         0.7595
+        ],
+        [
+         "are supported by",
+         0.7568
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "lifestyle change",
+        "includes",
+        "maintaining healthy weight"
+       ],
+       "raw_relation": "includes",
+       "definition": "The activity or intervention specified by the subject entity comprises the component or practice specified by the object entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has instruction",
+         0.7723
+        ],
+        [
+         "has administration instruction",
+         0.7615
+        ],
+        [
+         "used in combination with",
+         0.7614
+        ],
+        [
+         "administered via",
+         0.7595
+        ],
+        [
+         "are supported by",
+         0.7568
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "lifestyle change",
+        "has instruction",
+        "exercising at least 30 minutes most days"
+       ],
+       "raw_relation": "includes",
+       "definition": "The activity or intervention specified by the subject entity comprises the component or practice specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has instruction",
+         0.7723
+        ],
+        [
+         "has administration instruction",
+         0.7615
+        ],
+        [
+         "used in combination with",
+         0.7614
+        ],
+        [
+         "administered via",
+         0.7595
+        ],
+        [
+         "are supported by",
+         0.7568
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "lifestyle change",
+        "includes",
+        "not smoking"
+       ],
+       "raw_relation": "includes",
+       "definition": "The activity or intervention specified by the subject entity comprises the component or practice specified by the object entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has instruction",
+         0.7723
+        ],
+        [
+         "has administration instruction",
+         0.7615
+        ],
+        [
+         "used in combination with",
+         0.7614
+        ],
+        [
+         "administered via",
+         0.7595
+        ],
+        [
+         "are supported by",
+         0.7568
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "lifestyle change",
+        "includes",
+        "moderate alcohol use"
+       ],
+       "raw_relation": "includes",
+       "definition": "The activity or intervention specified by the subject entity comprises the component or practice specified by the object entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has instruction",
+         0.7723
+        ],
+        [
+         "has administration instruction",
+         0.7615
+        ],
+        [
+         "used in combination with",
+         0.7614
+        ],
+        [
+         "administered via",
+         0.7595
+        ],
+        [
+         "are supported by",
+         0.7568
+        ]
+       ],
+       "answer": "F"
+      }
+     ]
+    },
+    {
+     "chunk_id": "lisinopril#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "Do not use lisinopril if you are pregnant. It could harm the unborn baby. Stop using this medicine and tell your doctor right away if you become pregnant.\nYou should not use this medicine if you have ever had angioedema. Do not take lisinopril within 36 hours before or after taking medicine that contains sacubitril (such as Entresto).\nIf you have diabetes, do not use lisinopril together with any medication that contains aliskiren (such as Amturnide, Tekturna, Tekamlo).\nYou may also need to avoid taking lisinopril with aliskiren if you have kidney disease.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"lisinopril\", \"contraindicated in\", \"pregnancy\"], [\"lisinopril\", \"has pregnancy warning\", \"could harm unborn baby\"], [\"lisinopril\", \"should be stopped if\", \"pregnancy occurs\"], [\"lisinopril\", \"contraindicated in\", \"history of angioedema\"], [\"lisinopril\", \"interacts with\", \"medicines containing sacubitril\"], [\"lisinopril\", \"should not be taken within\", \"36 hours before or after sacubitril containing medicine\"], [\"lisinopril\", \"has interaction warning\", \"with aliskiren in diabetes\"], [\"lisinopril\", \"has interaction warning\", \"with aliskiren in kidney disease\"]]",
+     "oie": [
+      [
+       "lisinopril",
+       "contraindicated in",
+       "pregnancy"
+      ],
+      [
+       "lisinopril",
+       "has pregnancy warning",
+       "could harm unborn baby"
+      ],
+      [
+       "lisinopril",
+       "should be stopped if",
+       "pregnancy occurs"
+      ],
+      [
+       "lisinopril",
+       "contraindicated in",
+       "history of angioedema"
+      ],
+      [
+       "lisinopril",
+       "interacts with",
+       "medicines containing sacubitril"
+      ],
+      [
+       "lisinopril",
+       "should not be taken within",
+       "36 hours before or after sacubitril containing medicine"
+      ],
+      [
+       "lisinopril",
+       "has interaction warning",
+       "with aliskiren in diabetes"
+      ],
+      [
+       "lisinopril",
+       "has interaction warning",
+       "with aliskiren in kidney disease"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "has interaction warning": "The subject drug may have a dangerous or clinically significant interaction with the substance specified by the object entity under certain conditions.",
+      "has pregnancy warning": "The subject drug may cause harm to the unborn baby if used during pregnancy.",
+      "interacts with": "The subject drug may produce a clinically significant interaction when used concurrently with the substance specified by the object entity.",
+      "should be stopped if": "Patients taking the subject drug should discontinue use immediately if the specified condition occurs.",
+      "should not be taken within": "The subject drug should not be used within the specified time frame before or after the use of the substance specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "lisinopril",
+        "contraindicated in",
+        "pregnancy"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "has pregnancy or breastfeeding warning",
+        "could harm unborn baby"
+       ],
+       "raw_relation": "has pregnancy warning",
+       "definition": "The subject drug may cause harm to the unborn baby if used during pregnancy.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has pregnancy or breastfeeding warning",
+         0.8326
+        ],
+        [
+         "has side effect",
+         0.7464
+        ],
+        [
+         "has serious side effect",
+         0.7399
+        ],
+        [
+         "has warning",
+         0.7376
+        ],
+        [
+         "interacts with",
+         0.7291
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "contraindicated in",
+        "pregnancy occurs"
+       ],
+       "raw_relation": "should be stopped if",
+       "definition": "Patients taking the subject drug should discontinue use immediately if the specified condition occurs.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has discontinuation rate",
+         0.8174
+        ],
+        [
+         "should be avoided with",
+         0.7885
+        ],
+        [
+         "use with caution in",
+         0.7533
+        ],
+        [
+         "contraindicated in",
+         0.7523
+        ],
+        [
+         "not used to treat",
+         0.7503
+        ]
+       ],
+       "answer": "D"
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "contraindicated in",
+        "history of angioedema"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "interacts with",
+        "medicines containing sacubitril"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a clinically significant interaction when used concurrently with the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "should be avoided with",
+        "36 hours before or after sacubitril containing medicine"
+       ],
+       "raw_relation": "should not be taken within",
+       "definition": "The subject drug should not be used within the specified time frame before or after the use of the substance specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.8664
+        ],
+        [
+         "should be avoided with",
+         0.8621
+        ],
+        [
+         "has duration of treatment",
+         0.8185
+        ],
+        [
+         "has administration instruction",
+         0.8141
+        ],
+        [
+         "not used to treat",
+         0.811
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "interacts with",
+        "with aliskiren in diabetes"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject drug may have a dangerous or clinically significant interaction with the substance specified by the object entity under certain conditions.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "interacts with",
+         0.9299
+        ],
+        [
+         "has serious side effect",
+         0.9002
+        ],
+        [
+         "has side effect",
+         0.8815
+        ],
+        [
+         "has warning",
+         0.8776
+        ],
+        [
+         "use with caution in",
+         0.8742
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "interacts with",
+        "with aliskiren in kidney disease"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject drug may have a dangerous or clinically significant interaction with the substance specified by the object entity under certain conditions.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "interacts with",
+         0.9299
+        ],
+        [
+         "has serious side effect",
+         0.9002
+        ],
+        [
+         "has side effect",
+         0.8815
+        ],
+        [
+         "has warning",
+         0.8776
+        ],
+        [
+         "use with caution in",
+         0.8742
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "lisinopril#before-taking#0",
+     "section_id": "before-taking",
+     "section_heading": "Before taking this medicine",
+     "text": "You should not use lisinopril if you are allergic to it or to any other ACE (angiotensin converting enzyme) inhibitor such as captopril, fosinopril, enalapril, benazepril, moexipril, perindopril, quinapril, ramipril, or trandolapril.\nDo not take lisinopril within 36 hours before or after taking medicine that contains sacubitril (such as Entresto).\nIf you have diabetes, do not take lisinopril with any medication that contains aliskiren (a blood pressure medicine).\nDo not take lisinopril if you have a history of angioedema (severe allergic reaction).\nTo make sure this medicine is safe for you, tell your doctor if you have ever had:\n- heart disease, heart problems such as a recent heart attack;\n- low blood pressure;\n- low white blood cell count;\n- stomach pain;\n- if you are on a low-salt diet;\n- diabetes;\n- liver disease; or\n- kidney disease (or if you are on dialysis).\nYou may also need to avoid taking lisinopril with aliskiren if you have kidney disease.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[\n  [\"lisinopril\", \"contraindicated in\", \"allergy to lisinopril or other ACE inhibitors\"],\n  [\"lisinopril\", \"interacts with\", \"medicines containing sacubitril\"],\n  [\"lisinopril\", \"contraindicated in\", \"combination with aliskiren in patients with diabetes\"],\n  [\"lisinopril\", \"contraindicated in\", \"history of angioedema\"],\n  [\"lisinopril\", \"requires disclosure of\", \"heart disease\"],\n  [\"lisinopril\", \"requires disclosure of\", \"low blood pressure\"],\n  [\"lisinopril\", \"requires disclosure of\", \"low white blood cell count\"],\n  [\"lisinopril\", \"requires disclosure of\", \"stomach pain\"],\n  [\"lisinopril\", \"requires disclosure of\", \"low-salt diet\"],\n  [\"lisinopril\", \"requires disclosure of\", \"diabetes\"],\n  [\"lisinopril\", \"requires disclosure of\", \"liver disease\"],\n  [\"lisinopril\", \"requires disclosure of\", \"kidney disease\"],\n  [\"lisinopril\", \"should be avoided with\", \"aliskiren in patients with kidney disease\"]\n]",
+     "oie": [
+      [
+       "lisinopril",
+       "contraindicated in",
+       "allergy to lisinopril or other ACE inhibitors"
+      ],
+      [
+       "lisinopril",
+       "interacts with",
+       "medicines containing sacubitril"
+      ],
+      [
+       "lisinopril",
+       "contraindicated in",
+       "combination with aliskiren in patients with diabetes"
+      ],
+      [
+       "lisinopril",
+       "contraindicated in",
+       "history of angioedema"
+      ],
+      [
+       "lisinopril",
+       "requires disclosure of",
+       "heart disease"
+      ],
+      [
+       "lisinopril",
+       "requires disclosure of",
+       "low blood pressure"
+      ],
+      [
+       "lisinopril",
+       "requires disclosure of",
+       "low white blood cell count"
+      ],
+      [
+       "lisinopril",
+       "requires disclosure of",
+       "stomach pain"
+      ],
+      [
+       "lisinopril",
+       "requires disclosure of",
+       "low-salt diet"
+      ],
+      [
+       "lisinopril",
+       "requires disclosure of",
+       "diabetes"
+      ],
+      [
+       "lisinopril",
+       "requires disclosure of",
+       "liver disease"
+      ],
+      [
+       "lisinopril",
+       "requires disclosure of",
+       "kidney disease"
+      ],
+      [
+       "lisinopril",
+       "should be avoided with",
+       "aliskiren in patients with kidney disease"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+      "interacts with": "The subject drug may have a pharmacological interaction with the substance or medication specified by the object entity, potentially affecting its efficacy or safety.",
+      "requires disclosure of": "Patients must inform their doctor about the presence of the medical condition or health status specified by the object entity before using the subject drug.",
+      "should be avoided with": "Patients taking the subject drug should avoid using the substance or medication specified by the object entity, especially in the presence of the specified condition."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "lisinopril",
+        "contraindicated in",
+        "allergy to lisinopril or other ACE inhibitors"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "interacts with",
+        "medicines containing sacubitril"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or medication specified by the object entity, potentially affecting its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "contraindicated in",
+        "combination with aliskiren in patients with diabetes"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "contraindicated in",
+        "history of angioedema"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "should inform doctor about",
+        "heart disease"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients must inform their doctor about the presence of the medical condition or health status specified by the object entity before using the subject drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.9252
+        ],
+        [
+         "requires monitoring of",
+         0.8573
+        ],
+        [
+         "use with caution in",
+         0.8227
+        ],
+        [
+         "treats",
+         0.8078
+        ],
+        [
+         "increases risk of",
+         0.8067
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "should inform doctor about",
+        "low blood pressure"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients must inform their doctor about the presence of the medical condition or health status specified by the object entity before using the subject drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.9252
+        ],
+        [
+         "requires monitoring of",
+         0.8573
+        ],
+        [
+         "use with caution in",
+         0.8227
+        ],
+        [
+         "treats",
+         0.8078
+        ],
+        [
+         "increases risk of",
+         0.8067
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "should inform doctor about",
+        "low white blood cell count"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients must inform their doctor about the presence of the medical condition or health status specified by the object entity before using the subject drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.9252
+        ],
+        [
+         "requires monitoring of",
+         0.8573
+        ],
+        [
+         "use with caution in",
+         0.8227
+        ],
+        [
+         "treats",
+         0.8078
+        ],
+        [
+         "increases risk of",
+         0.8067
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "should inform doctor about",
+        "stomach pain"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients must inform their doctor about the presence of the medical condition or health status specified by the object entity before using the subject drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.9252
+        ],
+        [
+         "requires monitoring of",
+         0.8573
+        ],
+        [
+         "use with caution in",
+         0.8227
+        ],
+        [
+         "treats",
+         0.8078
+        ],
+        [
+         "increases risk of",
+         0.8067
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "should inform doctor about",
+        "low-salt diet"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients must inform their doctor about the presence of the medical condition or health status specified by the object entity before using the subject drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.9252
+        ],
+        [
+         "requires monitoring of",
+         0.8573
+        ],
+        [
+         "use with caution in",
+         0.8227
+        ],
+        [
+         "treats",
+         0.8078
+        ],
+        [
+         "increases risk of",
+         0.8067
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "should inform doctor about",
+        "diabetes"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients must inform their doctor about the presence of the medical condition or health status specified by the object entity before using the subject drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.9252
+        ],
+        [
+         "requires monitoring of",
+         0.8573
+        ],
+        [
+         "use with caution in",
+         0.8227
+        ],
+        [
+         "treats",
+         0.8078
+        ],
+        [
+         "increases risk of",
+         0.8067
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "should inform doctor about",
+        "liver disease"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients must inform their doctor about the presence of the medical condition or health status specified by the object entity before using the subject drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.9252
+        ],
+        [
+         "requires monitoring of",
+         0.8573
+        ],
+        [
+         "use with caution in",
+         0.8227
+        ],
+        [
+         "treats",
+         0.8078
+        ],
+        [
+         "increases risk of",
+         0.8067
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "should inform doctor about",
+        "kidney disease"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients must inform their doctor about the presence of the medical condition or health status specified by the object entity before using the subject drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.9252
+        ],
+        [
+         "requires monitoring of",
+         0.8573
+        ],
+        [
+         "use with caution in",
+         0.8227
+        ],
+        [
+         "treats",
+         0.8078
+        ],
+        [
+         "increases risk of",
+         0.8067
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "should be avoided with",
+        "aliskiren in patients with kidney disease"
+       ],
+       "raw_relation": "should be avoided with",
+       "definition": "Patients taking the subject drug should avoid using the substance or medication specified by the object entity, especially in the presence of the specified condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "lisinopril#before-taking#1",
+     "section_id": "before-taking",
+     "section_heading": "Before taking this medicine",
+     "text": "Stop using this medicine and tell your doctor right away if you become pregnant. Lisinopril can cause injury or death to the unborn baby if you use the medicine during your second or third trimester.\nDo not breastfeed.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Lisinopril\", \"contraindicated in\", \"pregnancy during second trimester\"], [\"Lisinopril\", \"contraindicated in\", \"pregnancy during third trimester\"], [\"Lisinopril\", \"has warning\", \"may cause injury or death to unborn baby during second or third trimester\"], [\"Lisinopril\", \"not recommended in\", \"breastfeeding\"]]",
+     "oie": [
+      [
+       "Lisinopril",
+       "contraindicated in",
+       "pregnancy during second trimester"
+      ],
+      [
+       "Lisinopril",
+       "contraindicated in",
+       "pregnancy during third trimester"
+      ],
+      [
+       "Lisinopril",
+       "has warning",
+       "may cause injury or death to unborn baby during second or third trimester"
+      ],
+      [
+       "Lisinopril",
+       "not recommended in",
+       "breastfeeding"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "has warning": "The subject drug carries a warning that it may cause the adverse effect or outcome specified by the object entity.",
+      "not recommended in": "The subject drug is not advised for use in the specified condition or activity due to potential risks."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Lisinopril",
+        "contraindicated in",
+        "pregnancy during second trimester"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "contraindicated in",
+        "pregnancy during third trimester"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has warning",
+        "may cause injury or death to unborn baby during second or third trimester"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a warning that it may cause the adverse effect or outcome specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "not approved for",
+        "breastfeeding"
+       ],
+       "raw_relation": "not recommended in",
+       "definition": "The subject drug is not advised for use in the specified condition or activity due to potential risks.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "not approved for",
+         0.841
+        ],
+        [
+         "contraindicated in",
+         0.8175
+        ],
+        [
+         "has warning",
+         0.8018
+        ],
+        [
+         "reduces risk of",
+         0.7989
+        ],
+        [
+         "use with caution in",
+         0.7966
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "lisinopril#directions#0",
+     "section_id": "directions",
+     "section_heading": "How should I take lisinopril?",
+     "text": "Take lisinopril exactly as prescribed by your doctor. Follow all directions on your prescription label and read all medication guides or instruction sheets. Your doctor may occasionally change your dose..\nYou may take lisinopril with or without food.\nMeasure liquid medicine with the supplied measuring device (not a kitchen spoon).\nYour blood pressure will need to be checked often and you may need frequent blood tests.\nTell your doctor if you have a planned surgery.\nCall your doctor if you have ongoing vomiting or diarrhea, or if you are sweating more than usual. You can easily become dehydrated while taking lisinopril. This can lead to very low blood pressure, an electrolyte imbalance, or kidney failure.\nIf you have high blood pressure, keep using lisinopril even if you feel well. High blood pressure often has no symptoms.\nStore tightly closed at room temperature, away from moisture and heat. Do not freeze.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Lisinopril\", \"has administration instruction\", \"take exactly as prescribed by doctor\"], [\"Lisinopril\", \"has administration instruction\", \"follow directions on prescription label\"], [\"Lisinopril\", \"has administration instruction\", \"read all medication guides or instruction sheets\"], [\"Lisinopril\", \"has administration instruction\", \"may be taken with or without food\"], [\"Lisinopril\", \"has administration instruction\", \"measure liquid with supplied device\"], [\"Lisinopril\", \"requires frequent monitoring of\", \"blood pressure\"], [\"Lisinopril\", \"requires frequent monitoring of\", \"blood tests\"], [\"Lisinopril\", \"has patient instruction\", \"tell doctor about planned surgery\"], [\"Lisinopril\", \"has patient instruction\", \"call doctor if ongoing vomiting or diarrhea\"], [\"Lisinopril\", \"has patient instruction\", \"call doctor if sweating more than usual\"], [\"Lisinopril\", \"has risk of\", \"dehydration\"], [\"Lisinopril\", \"has risk of\", \"very low blood pressure\"], [\"Lisinopril\", \"has risk of\", \"electrolyte imbalance\"], [\"Lisinopril\", \"has risk of\", \"kidney failure\"], [\"Lisinopril\", \"has warning\", \"high blood pressure may have no symptoms\"], [\"Lisinopril\", \"has storage instruction\", \"store tightly closed at room temperature away from moisture and heat\"], [\"Lisinopril\", \"has storage instruction\", \"do not freeze\"]]",
+     "oie": [
+      [
+       "Lisinopril",
+       "has administration instruction",
+       "take exactly as prescribed by doctor"
+      ],
+      [
+       "Lisinopril",
+       "has administration instruction",
+       "follow directions on prescription label"
+      ],
+      [
+       "Lisinopril",
+       "has administration instruction",
+       "read all medication guides or instruction sheets"
+      ],
+      [
+       "Lisinopril",
+       "has administration instruction",
+       "may be taken with or without food"
+      ],
+      [
+       "Lisinopril",
+       "has administration instruction",
+       "measure liquid with supplied device"
+      ],
+      [
+       "Lisinopril",
+       "requires frequent monitoring of",
+       "blood pressure"
+      ],
+      [
+       "Lisinopril",
+       "requires frequent monitoring of",
+       "blood tests"
+      ],
+      [
+       "Lisinopril",
+       "has patient instruction",
+       "tell doctor about planned surgery"
+      ],
+      [
+       "Lisinopril",
+       "has patient instruction",
+       "call doctor if ongoing vomiting or diarrhea"
+      ],
+      [
+       "Lisinopril",
+       "has patient instruction",
+       "call doctor if sweating more than usual"
+      ],
+      [
+       "Lisinopril",
+       "has risk of",
+       "dehydration"
+      ],
+      [
+       "Lisinopril",
+       "has risk of",
+       "very low blood pressure"
+      ],
+      [
+       "Lisinopril",
+       "has risk of",
+       "electrolyte imbalance"
+      ],
+      [
+       "Lisinopril",
+       "has risk of",
+       "kidney failure"
+      ],
+      [
+       "Lisinopril",
+       "has warning",
+       "high blood pressure may have no symptoms"
+      ],
+      [
+       "Lisinopril",
+       "has storage instruction",
+       "store tightly closed at room temperature away from moisture and heat"
+      ],
+      [
+       "Lisinopril",
+       "has storage instruction",
+       "do not freeze"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+      "has patient instruction": "Patients taking the subject drug are instructed to perform the action or report the condition specified by the object entity.",
+      "has risk of": "The subject drug may lead to or cause the adverse condition or complication specified by the object entity.",
+      "has storage instruction": "The subject drug should be stored under the conditions specified by the object entity.",
+      "requires frequent monitoring of": "The subject drug necessitates regular assessment or testing for the condition or parameter specified by the object entity.",
+      "has warning": "The subject drug carries a warning that the condition specified by the object entity may be asymptomatic or go unnoticed."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Lisinopril",
+        "has administration instruction",
+        "take exactly as prescribed by doctor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has administration instruction",
+        "follow directions on prescription label"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has administration instruction",
+        "read all medication guides or instruction sheets"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has administration instruction",
+        "may be taken with or without food"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has administration instruction",
+        "measure liquid with supplied device"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "requires monitoring of",
+        "blood pressure"
+       ],
+       "raw_relation": "requires frequent monitoring of",
+       "definition": "The subject drug necessitates regular assessment or testing for the condition or parameter specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires monitoring of",
+         0.8787
+        ],
+        [
+         "has administration instruction",
+         0.8325
+        ],
+        [
+         "treats",
+         0.8219
+        ],
+        [
+         "used in combination with",
+         0.8157
+        ],
+        [
+         "similar to",
+         0.8059
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "requires monitoring of",
+        "blood tests"
+       ],
+       "raw_relation": "requires frequent monitoring of",
+       "definition": "The subject drug necessitates regular assessment or testing for the condition or parameter specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires monitoring of",
+         0.8787
+        ],
+        [
+         "has administration instruction",
+         0.8325
+        ],
+        [
+         "treats",
+         0.8219
+        ],
+        [
+         "used in combination with",
+         0.8157
+        ],
+        [
+         "similar to",
+         0.8059
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "should inform doctor about",
+        "tell doctor about planned surgery"
+       ],
+       "raw_relation": "has patient instruction",
+       "definition": "Patients taking the subject drug are instructed to perform the action or report the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.902
+        ],
+        [
+         "requires monitoring of",
+         0.8818
+        ],
+        [
+         "has instruction",
+         0.8695
+        ],
+        [
+         "use with caution in",
+         0.8654
+        ],
+        [
+         "treats",
+         0.8621
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "should inform doctor about",
+        "call doctor if ongoing vomiting or diarrhea"
+       ],
+       "raw_relation": "has patient instruction",
+       "definition": "Patients taking the subject drug are instructed to perform the action or report the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.902
+        ],
+        [
+         "requires monitoring of",
+         0.8818
+        ],
+        [
+         "has instruction",
+         0.8695
+        ],
+        [
+         "use with caution in",
+         0.8654
+        ],
+        [
+         "treats",
+         0.8621
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "should inform doctor about",
+        "call doctor if sweating more than usual"
+       ],
+       "raw_relation": "has patient instruction",
+       "definition": "Patients taking the subject drug are instructed to perform the action or report the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.902
+        ],
+        [
+         "requires monitoring of",
+         0.8818
+        ],
+        [
+         "has instruction",
+         0.8695
+        ],
+        [
+         "use with caution in",
+         0.8654
+        ],
+        [
+         "treats",
+         0.8621
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "dehydration"
+       ],
+       "raw_relation": "has risk of",
+       "definition": "The subject drug may lead to or cause the adverse condition or complication specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9723
+        ],
+        [
+         "has serious side effect",
+         0.9328
+        ],
+        [
+         "interacts with",
+         0.8962
+        ],
+        [
+         "has warning",
+         0.8936
+        ],
+        [
+         "use with caution in",
+         0.8831
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has serious side effect",
+        "very low blood pressure"
+       ],
+       "raw_relation": "has risk of",
+       "definition": "The subject drug may lead to or cause the adverse condition or complication specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9723
+        ],
+        [
+         "has serious side effect",
+         0.9328
+        ],
+        [
+         "interacts with",
+         0.8962
+        ],
+        [
+         "has warning",
+         0.8936
+        ],
+        [
+         "use with caution in",
+         0.8831
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has serious side effect",
+        "electrolyte imbalance"
+       ],
+       "raw_relation": "has risk of",
+       "definition": "The subject drug may lead to or cause the adverse condition or complication specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9723
+        ],
+        [
+         "has serious side effect",
+         0.9328
+        ],
+        [
+         "interacts with",
+         0.8962
+        ],
+        [
+         "has warning",
+         0.8936
+        ],
+        [
+         "use with caution in",
+         0.8831
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has serious side effect",
+        "kidney failure"
+       ],
+       "raw_relation": "has risk of",
+       "definition": "The subject drug may lead to or cause the adverse condition or complication specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9723
+        ],
+        [
+         "has serious side effect",
+         0.9328
+        ],
+        [
+         "interacts with",
+         0.8962
+        ],
+        [
+         "has warning",
+         0.8936
+        ],
+        [
+         "use with caution in",
+         0.8831
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has warning",
+        "high blood pressure may have no symptoms"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a warning that the condition specified by the object entity may be asymptomatic or go unnoticed.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has storage instruction",
+        "store tightly closed at room temperature away from moisture and heat"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug should be stored under the conditions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has storage instruction",
+        "do not freeze"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug should be stored under the conditions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "lisinopril#dosage#0",
+     "section_id": "dosage",
+     "section_heading": "Dosing information",
+     "text": "Usual Adult Dose for Hypertension:\nInitial dose: 10 mg orally once a day; 5 mg orally once a day Maintenance dose: 20 to 40 mg orally once a day Maximum dose: 80 mg orally once a day Comments: -The initial dose is 5 mg orally once a day in patients receiving a diuretic. -The 80 mg dose is used but does not appear to give greater effect. -If blood pressure is not controlled with lisinopril alone, a low dose of a diuretic may be added (e.g., hydrochlorothiazide, 12.5 mg). After the addition of a diuretic, it may be possible to reduce the dose of lisinopril.\nUsual Adult Dose for Congestive Heart Failure:\nInitial dose: 2.5 to 5 mg orally once a day Maintenance dose: Dosage should be increased as tolerated Maximum dose: 40 mg orally once a day Comments: -The diuretic dose may need to be adjusted to help minimize hypovolemia, which may contribute to hypotension. The appearance of hypotension after the initial dose of lisinopril does not preclude subsequent careful dose titration with the drug.\nUsual Adult Dose for Myocardial Infarction:",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"lisinopril\", \"has recommended dose\", \"10 mg orally once a day\"], [\"lisinopril\", \"has recommended dose\", \"5 mg orally once a day\"], [\"lisinopril\", \"has maintenance dose\", \"20 to 40 mg orally once a day\"], [\"lisinopril\", \"has maximum dose\", \"80 mg orally once a day\"], [\"lisinopril\", \"has alternative initial dose\", \"5 mg orally once a day in patients receiving a diuretic\"], [\"lisinopril\", \"has dose adjustment note\", \"80 mg dose does not appear to give greater effect\"], [\"lisinopril\", \"has combination therapy recommendation\", \"low dose diuretic such as hydrochlorothiazide 12.5 mg\"], [\"lisinopril\", \"has dose reduction possibility\", \"after addition of diuretic\"], [\"lisinopril\", \"has recommended dose\", \"2.5 to 5 mg orally once a day\"], [\"lisinopril\", \"has maintenance dose\", \"increased as tolerated\"], [\"lisinopril\", \"has maximum dose\", \"40 mg orally once a day\"], [\"lisinopril\", \"has warning\", \"hypotension may occur after initial dose\"], [\"lisinopril\", \"has warning\", \"hypovolemia may require diuretic dose adjustment\"]]",
+     "oie": [
+      [
+       "lisinopril",
+       "has recommended dose",
+       "10 mg orally once a day"
+      ],
+      [
+       "lisinopril",
+       "has recommended dose",
+       "5 mg orally once a day"
+      ],
+      [
+       "lisinopril",
+       "has maintenance dose",
+       "20 to 40 mg orally once a day"
+      ],
+      [
+       "lisinopril",
+       "has maximum dose",
+       "80 mg orally once a day"
+      ],
+      [
+       "lisinopril",
+       "has alternative initial dose",
+       "5 mg orally once a day in patients receiving a diuretic"
+      ],
+      [
+       "lisinopril",
+       "has dose adjustment note",
+       "80 mg dose does not appear to give greater effect"
+      ],
+      [
+       "lisinopril",
+       "has combination therapy recommendation",
+       "low dose diuretic such as hydrochlorothiazide 12.5 mg"
+      ],
+      [
+       "lisinopril",
+       "has dose reduction possibility",
+       "after addition of diuretic"
+      ],
+      [
+       "lisinopril",
+       "has recommended dose",
+       "2.5 to 5 mg orally once a day"
+      ],
+      [
+       "lisinopril",
+       "has maintenance dose",
+       "increased as tolerated"
+      ],
+      [
+       "lisinopril",
+       "has maximum dose",
+       "40 mg orally once a day"
+      ],
+      [
+       "lisinopril",
+       "has warning",
+       "hypotension may occur after initial dose"
+      ],
+      [
+       "lisinopril",
+       "has warning",
+       "hypovolemia may require diuretic dose adjustment"
+      ]
+     ],
+     "schema_definition": {
+      "has alternative initial dose": "The subject drug is prescribed at a different initial dose than the standard one for specific patient conditions specified by the object entity.",
+      "has combination therapy recommendation": "The subject drug is used in combination with another medication specified by the object entity to improve treatment outcomes.",
+      "has dose adjustment note": "A note regarding the effectiveness or clinical impact of a specific dose of the subject drug is provided in the context of the object entity.",
+      "has dose reduction possibility": "After a specific treatment addition or condition, the dose of the subject drug may be reduced as indicated by the object entity.",
+      "has maintenance dose": "The subject drug is prescribed at a dose range for long-term management of the condition specified by the object entity.",
+      "has maximum dose": "The highest recommended dose of the subject drug for a given indication is specified by the object entity.",
+      "has recommended dose": "The subject drug is recommended to be administered at the dose specified by the object entity for a particular condition or patient group.",
+      "has warning": "The subject drug may cause the adverse effect or condition specified by the object entity, and caution is advised."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "lisinopril",
+        "has recommended dose",
+        "10 mg orally once a day"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug is recommended to be administered at the dose specified by the object entity for a particular condition or patient group.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "has recommended dose",
+        "5 mg orally once a day"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug is recommended to be administered at the dose specified by the object entity for a particular condition or patient group.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "has recommended dose",
+        "20 to 40 mg orally once a day"
+       ],
+       "raw_relation": "has maintenance dose",
+       "definition": "The subject drug is prescribed at a dose range for long-term management of the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.8778
+        ],
+        [
+         "treats",
+         0.8469
+        ],
+        [
+         "has dosage form",
+         0.8429
+        ],
+        [
+         "used in population",
+         0.8375
+        ],
+        [
+         "has strength",
+         0.8294
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "has maximum dose",
+        "80 mg orally once a day"
+       ],
+       "raw_relation": "has maximum dose",
+       "definition": "The highest recommended dose of the subject drug for a given indication is specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "may require dose adjustment",
+        "5 mg orally once a day in patients receiving a diuretic"
+       ],
+       "raw_relation": "has alternative initial dose",
+       "definition": "The subject drug is prescribed at a different initial dose than the standard one for specific patient conditions specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may require dose adjustment",
+         0.8397
+        ],
+        [
+         "has recommended dose",
+         0.8347
+        ],
+        [
+         "not used to treat",
+         0.8221
+        ],
+        [
+         "has dosage form",
+         0.8211
+        ],
+        [
+         "has side effect",
+         0.8139
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "has dose adjustment note",
+        "80 mg dose does not appear to give greater effect"
+       ],
+       "raw_relation": "has dose adjustment note",
+       "definition": "A note regarding the effectiveness or clinical impact of a specific dose of the subject drug is provided in the context of the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.8554
+        ],
+        [
+         "has strength",
+         0.8536
+        ],
+        [
+         "has dosage form",
+         0.8439
+        ],
+        [
+         "has side effect",
+         0.8067
+        ],
+        [
+         "treats",
+         0.8031
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "used in combination with",
+        "low dose diuretic such as hydrochlorothiazide 12.5 mg"
+       ],
+       "raw_relation": "has combination therapy recommendation",
+       "definition": "The subject drug is used in combination with another medication specified by the object entity to improve treatment outcomes.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in combination with",
+         0.8865
+        ],
+        [
+         "treats",
+         0.8764
+        ],
+        [
+         "similar to",
+         0.8668
+        ],
+        [
+         "has dosage form",
+         0.851
+        ],
+        [
+         "not used to treat",
+         0.8397
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "used in combination with",
+        "after addition of diuretic"
+       ],
+       "raw_relation": "has dose reduction possibility",
+       "definition": "After a specific treatment addition or condition, the dose of the subject drug may be reduced as indicated by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.8374
+        ],
+        [
+         "lowers level of",
+         0.8304
+        ],
+        [
+         "has strength",
+         0.8213
+        ],
+        [
+         "has dosage form",
+         0.8161
+        ],
+        [
+         "used in combination with",
+         0.8136
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "has recommended dose",
+        "2.5 to 5 mg orally once a day"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug is recommended to be administered at the dose specified by the object entity for a particular condition or patient group.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "has recommended dose",
+        "increased as tolerated"
+       ],
+       "raw_relation": "has maintenance dose",
+       "definition": "The subject drug is prescribed at a dose range for long-term management of the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.8778
+        ],
+        [
+         "treats",
+         0.8469
+        ],
+        [
+         "has dosage form",
+         0.8429
+        ],
+        [
+         "used in population",
+         0.8375
+        ],
+        [
+         "has strength",
+         0.8294
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "has maximum dose",
+        "40 mg orally once a day"
+       ],
+       "raw_relation": "has maximum dose",
+       "definition": "The highest recommended dose of the subject drug for a given indication is specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "has warning",
+        "hypotension may occur after initial dose"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may cause the adverse effect or condition specified by the object entity, and caution is advised.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "lisinopril",
+        "has warning",
+        "hypovolemia may require diuretic dose adjustment"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may cause the adverse effect or condition specified by the object entity, and caution is advised.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "lisinopril#dosage#1",
+     "section_id": "dosage",
+     "section_heading": "Dosing information",
+     "text": "Initial dose: 5 mg orally (within 24 hours of the onset of acute myocardial infarction) Subsequent doses: 5 mg orally after 24 hours, then 10 mg orally after 48 hours. Maintenance dose: 10 mg orally once a day. Dosing should continue for at least 6 weeks. Comments: -Therapy should be initiated at 2.5 mg in patients with a low systolic blood pressure (less than or equal to 120 mm Hg and greater than 100 mmHg) during the first 3 days after the infarct. If prolonged hypotension occurs (systolic blood pressure less than 90 mmHg for more than 1 hour) therapy should be withdrawn. Uses: Reduction of mortality in acute myocardial infarction\nUsual Adult Dose for Diabetic Nephropathy:\nInitial dose: 10 to 20 mg orally once a day Maintenance dose: 20 to 40 mg orally once a day Dosage may be titrated upward every 3 days Comments: -Not an approved indication.\nUsual Geriatric Dose for Hypertension:\nInitial dose: 2.5 to 5 mg orally once a day Maintenance dose: Dosages should be increased at 2.5 mg to 5 mg per day at 1 to 2 week intervals. Maximum dose: 40 mg orally once a day",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[\n  [\"Lisinopril\", \"has initial dose\", \"5 mg orally within 24 hours of acute myocardial infarction\"],\n  [\"Lisinopril\", \"has subsequent dose\", \"5 mg orally after 24 hours\"],\n  [\"Lisinopril\", \"has subsequent dose\", \"10 mg orally after 48 hours\"],\n  [\"Lisinopril\", \"has maintenance dose\", \"10 mg orally once a day\"],\n  [\"Lisinopril\", \"has dosing duration\", \"at least 6 weeks\"],\n  [\"Lisinopril\", \"has initial dose\", \"2.5 mg orally in patients with low systolic blood pressure (less than or equal to 120 mm Hg and greater than 100 mm Hg) during first 3 days after infarct\"],\n  [\"Lisinopril\", \"should be withdrawn if\", \"prolonged hypotension occurs (systolic blood pressure less than 90 mm Hg for more than 1 hour)\"],\n  [\"Lisinopril\", \"used in treatment of\", \"acute myocardial infarction\"],\n  [\"Lisinopril\", \"reduces mortality in\", \"acute myocardial infarction\"],\n  [\"Lisinopril\", \"has usual adult dose for\", \"diabetic nephropathy\"],\n  [\"Lisinopril\", \"has usual adult dose for diabetic nephropathy initial dose\", \"10 to 20 mg orally once a day\"],\n  [\"Lisinopril\", \"has usual adult dose for diabetic nephropathy maintenance dose\", \"20 to 40 mg orally once a day\"],\n  [\"Lisinopril\", \"has usual adult dose for diabetic nephropathy dosage adjustment\", \"titrated upward every 3 days\"],\n  [\"Lisinopril\", \"has usual geriatric dose for\", \"hypertension\"],\n  [\"Lisinopril\", \"has usual geriatric dose for hypertension initial dose\", \"2.5 to 5 mg orally once a day\"],\n  [\"Lisinopril\", \"has usual geriatric dose for hypertension maintenance dose\", \"increased by 2.5 to 5 mg per day at 1 to 2 week intervals\"],\n  [\"Lisinopril\", \"has usual geriatric dose for hypertension maximum dose\", \"40 mg orally once a day\"],\n  [\"Lisinopril\", \"has indication status for diabetic nephropathy\", \"not approved\"]\n]",
+     "oie": [
+      [
+       "Lisinopril",
+       "has initial dose",
+       "5 mg orally within 24 hours of acute myocardial infarction"
+      ],
+      [
+       "Lisinopril",
+       "has subsequent dose",
+       "5 mg orally after 24 hours"
+      ],
+      [
+       "Lisinopril",
+       "has subsequent dose",
+       "10 mg orally after 48 hours"
+      ],
+      [
+       "Lisinopril",
+       "has maintenance dose",
+       "10 mg orally once a day"
+      ],
+      [
+       "Lisinopril",
+       "has dosing duration",
+       "at least 6 weeks"
+      ],
+      [
+       "Lisinopril",
+       "has initial dose",
+       "2.5 mg orally in patients with low systolic blood pressure (less than or equal to 120 mm Hg and greater than 100 mm Hg) during first 3 days after infarct"
+      ],
+      [
+       "Lisinopril",
+       "should be withdrawn if",
+       "prolonged hypotension occurs (systolic blood pressure less than 90 mm Hg for more than 1 hour)"
+      ],
+      [
+       "Lisinopril",
+       "used in treatment of",
+       "acute myocardial infarction"
+      ],
+      [
+       "Lisinopril",
+       "reduces mortality in",
+       "acute myocardial infarction"
+      ],
+      [
+       "Lisinopril",
+       "has usual adult dose for",
+       "diabetic nephropathy"
+      ],
+      [
+       "Lisinopril",
+       "has usual adult dose for diabetic nephropathy initial dose",
+       "10 to 20 mg orally once a day"
+      ],
+      [
+       "Lisinopril",
+       "has usual adult dose for diabetic nephropathy maintenance dose",
+       "20 to 40 mg orally once a day"
+      ],
+      [
+       "Lisinopril",
+       "has usual adult dose for diabetic nephropathy dosage adjustment",
+       "titrated upward every 3 days"
+      ],
+      [
+       "Lisinopril",
+       "has usual geriatric dose for",
+       "hypertension"
+      ],
+      [
+       "Lisinopril",
+       "has usual geriatric dose for hypertension initial dose",
+       "2.5 to 5 mg orally once a day"
+      ],
+      [
+       "Lisinopril",
+       "has usual geriatric dose for hypertension maintenance dose",
+       "increased by 2.5 to 5 mg per day at 1 to 2 week intervals"
+      ],
+      [
+       "Lisinopril",
+       "has usual geriatric dose for hypertension maximum dose",
+       "40 mg orally once a day"
+      ],
+      [
+       "Lisinopril",
+       "has indication status for diabetic nephropathy",
+       "not approved"
+      ]
+     ],
+     "schema_definition": {
+      "has dosing duration": "The subject drug should be administered for the minimum duration specified by the object entity.",
+      "has indication status for diabetic nephropathy": "The subject drug is not approved for use in treating the condition specified by the object entity.",
+      "has initial dose": "The subject drug is started at the dose specified by the object entity, typically at the beginning of treatment.",
+      "has maintenance dose": "The subject drug is administered at the specified dose once daily for ongoing treatment.",
+      "has subsequent dose": "The subject drug is given at the specified dose after a defined time interval following the initial dose.",
+      "has usual adult dose for": "The subject drug is typically prescribed at the dose range specified by the object entity for the specified condition in adults.",
+      "has usual adult dose for diabetic nephropathy dosage adjustment": "The dose of the subject drug for diabetic nephropathy is increased gradually as specified by the object entity.",
+      "has usual adult dose for diabetic nephropathy initial dose": "The subject drug is initiated at the dose range specified by the object entity for diabetic nephropathy in adults.",
+      "has usual adult dose for diabetic nephropathy maintenance dose": "The subject drug is maintained at the dose range specified by the object entity for diabetic nephropathy in adults.",
+      "has usual geriatric dose for": "The subject drug is typically prescribed at the dose range specified by the object entity for the specified condition in elderly patients.",
+      "has usual geriatric dose for hypertension initial dose": "The subject drug is started at the dose range specified by the object entity for hypertension in elderly patients.",
+      "has usual geriatric dose for hypertension maintenance dose": "The subject drug's dose for hypertension in elderly patients is increased at the rate specified by the object entity.",
+      "has usual geriatric dose for hypertension maximum dose": "The maximum daily dose of the subject drug for hypertension in elderly patients is specified by the object entity.",
+      "reduces mortality in": "The subject drug is used to lower the risk of death in patients with the condition specified by the object entity.",
+      "should be withdrawn if": "The subject drug should be discontinued if the specified clinical condition occurs.",
+      "used in treatment of": "The subject drug is indicated for the management or treatment of the medical condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Lisinopril",
+        "has recommended dose",
+        "5 mg orally within 24 hours of acute myocardial infarction"
+       ],
+       "raw_relation": "has initial dose",
+       "definition": "The subject drug is started at the dose specified by the object entity, typically at the beginning of treatment.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.9029
+        ],
+        [
+         "has strength",
+         0.8543
+        ],
+        [
+         "has onset of effect",
+         0.8488
+        ],
+        [
+         "must be started after",
+         0.8458
+        ],
+        [
+         "has dosage form",
+         0.8351
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has recommended dose",
+        "5 mg orally after 24 hours"
+       ],
+       "raw_relation": "has subsequent dose",
+       "definition": "The subject drug is given at the specified dose after a defined time interval following the initial dose.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.8224
+        ],
+        [
+         "has duration of treatment",
+         0.8122
+        ],
+        [
+         "must be started after",
+         0.8091
+        ],
+        [
+         "has onset of effect",
+         0.8082
+        ],
+        [
+         "has strength",
+         0.7842
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has recommended dose",
+        "10 mg orally after 48 hours"
+       ],
+       "raw_relation": "has subsequent dose",
+       "definition": "The subject drug is given at the specified dose after a defined time interval following the initial dose.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.8224
+        ],
+        [
+         "has duration of treatment",
+         0.8122
+        ],
+        [
+         "must be started after",
+         0.8091
+        ],
+        [
+         "has onset of effect",
+         0.8082
+        ],
+        [
+         "has strength",
+         0.7842
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has recommended dose",
+        "10 mg orally once a day"
+       ],
+       "raw_relation": "has maintenance dose",
+       "definition": "The subject drug is administered at the specified dose once daily for ongoing treatment.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has maximum dose",
+         0.8316
+        ],
+        [
+         "has recommended dose",
+         0.8266
+        ],
+        [
+         "has dosage form",
+         0.7931
+        ],
+        [
+         "has strength",
+         0.7883
+        ],
+        [
+         "may require dose adjustment",
+         0.7863
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has duration of treatment",
+        "at least 6 weeks"
+       ],
+       "raw_relation": "has dosing duration",
+       "definition": "The subject drug should be administered for the minimum duration specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has duration of treatment",
+         0.8953
+        ],
+        [
+         "has administration instruction",
+         0.8685
+        ],
+        [
+         "administered via",
+         0.835
+        ],
+        [
+         "has recommended dose",
+         0.8306
+        ],
+        [
+         "has dosage form",
+         0.8298
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has recommended dose",
+        "2.5 mg orally in patients with low systolic blood pressure (less than or equal to 120 mm Hg and greater than 100 mm Hg) during first 3 days after infarct"
+       ],
+       "raw_relation": "has initial dose",
+       "definition": "The subject drug is started at the dose specified by the object entity, typically at the beginning of treatment.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.9029
+        ],
+        [
+         "has strength",
+         0.8543
+        ],
+        [
+         "has onset of effect",
+         0.8488
+        ],
+        [
+         "must be started after",
+         0.8458
+        ],
+        [
+         "has dosage form",
+         0.8351
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "contraindicated in",
+        "prolonged hypotension occurs (systolic blood pressure less than 90 mm Hg for more than 1 hour)"
+       ],
+       "raw_relation": "should be withdrawn if",
+       "definition": "The subject drug should be discontinued if the specified clinical condition occurs.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "not used to treat",
+         0.7914
+        ],
+        [
+         "has discontinuation rate",
+         0.7772
+        ],
+        [
+         "use with caution in",
+         0.7724
+        ],
+        [
+         "contraindicated in",
+         0.7677
+        ],
+        [
+         "may require dose adjustment",
+         0.7662
+        ]
+       ],
+       "answer": "D"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "treats",
+        "acute myocardial infarction"
+       ],
+       "raw_relation": "used in treatment of",
+       "definition": "The subject drug is indicated for the management or treatment of the medical condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "treats",
+         0.972
+        ],
+        [
+         "belongs to drug class",
+         0.8965
+        ],
+        [
+         "reduces risk of",
+         0.8869
+        ],
+        [
+         "not used to treat",
+         0.8864
+        ],
+        [
+         "manufactured by",
+         0.8812
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "reduces risk of",
+        "acute myocardial infarction"
+       ],
+       "raw_relation": "reduces mortality in",
+       "definition": "The subject drug is used to lower the risk of death in patients with the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "reduces risk of",
+         0.9248
+        ],
+        [
+         "treats",
+         0.8916
+        ],
+        [
+         "used in population",
+         0.8669
+        ],
+        [
+         "increases risk of",
+         0.8493
+        ],
+        [
+         "not used to treat",
+         0.8372
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has recommended dose",
+        "diabetic nephropathy"
+       ],
+       "raw_relation": "has usual adult dose for",
+       "definition": "The subject drug is typically prescribed at the dose range specified by the object entity for the specified condition in adults.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.9108
+        ],
+        [
+         "used in population",
+         0.8778
+        ],
+        [
+         "has dosage form",
+         0.8617
+        ],
+        [
+         "has strength",
+         0.8552
+        ],
+        [
+         "treats",
+         0.8408
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has recommended dose",
+        "10 to 20 mg orally once a day"
+       ],
+       "raw_relation": "has usual adult dose for diabetic nephropathy initial dose",
+       "definition": "The subject drug is initiated at the dose range specified by the object entity for diabetic nephropathy in adults.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.8042
+        ],
+        [
+         "has dosage form",
+         0.7808
+        ],
+        [
+         "used in population",
+         0.7745
+        ],
+        [
+         "has strength",
+         0.7713
+        ],
+        [
+         "belongs to drug class",
+         0.7538
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has recommended dose",
+        "20 to 40 mg orally once a day"
+       ],
+       "raw_relation": "has usual adult dose for diabetic nephropathy maintenance dose",
+       "definition": "The subject drug is maintained at the dose range specified by the object entity for diabetic nephropathy in adults.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.8015
+        ],
+        [
+         "has dosage form",
+         0.7874
+        ],
+        [
+         "has strength",
+         0.7814
+        ],
+        [
+         "used in population",
+         0.7757
+        ],
+        [
+         "belongs to drug class",
+         0.7588
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has recommended dose",
+        "titrated upward every 3 days"
+       ],
+       "raw_relation": "has usual adult dose for diabetic nephropathy dosage adjustment",
+       "definition": "The dose of the subject drug for diabetic nephropathy is increased gradually as specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "increases level of",
+         0.7911
+        ],
+        [
+         "has dosage form",
+         0.7852
+        ],
+        [
+         "has strength",
+         0.7788
+        ],
+        [
+         "has recommended dose",
+         0.7769
+        ],
+        [
+         "increases risk of",
+         0.761
+        ]
+       ],
+       "answer": "D"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has recommended dose",
+        "hypertension"
+       ],
+       "raw_relation": "has usual geriatric dose for",
+       "definition": "The subject drug is typically prescribed at the dose range specified by the object entity for the specified condition in elderly patients.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.8959
+        ],
+        [
+         "used in population",
+         0.8783
+        ],
+        [
+         "has strength",
+         0.8502
+        ],
+        [
+         "has dosage form",
+         0.8496
+        ],
+        [
+         "treats",
+         0.8297
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has recommended dose",
+        "2.5 to 5 mg orally once a day"
+       ],
+       "raw_relation": "has usual geriatric dose for hypertension initial dose",
+       "definition": "The subject drug is started at the dose range specified by the object entity for hypertension in elderly patients.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.8095
+        ],
+        [
+         "has recommended dose",
+         0.809
+        ],
+        [
+         "has strength",
+         0.7916
+        ],
+        [
+         "has dosage form",
+         0.7764
+        ],
+        [
+         "belongs to drug class",
+         0.7492
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has recommended dose",
+        "increased by 2.5 to 5 mg per day at 1 to 2 week intervals"
+       ],
+       "raw_relation": "has usual geriatric dose for hypertension maintenance dose",
+       "definition": "The subject drug's dose for hypertension in elderly patients is increased at the rate specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.7789
+        ],
+        [
+         "has strength",
+         0.7762
+        ],
+        [
+         "increases level of",
+         0.7714
+        ],
+        [
+         "may require dose adjustment",
+         0.771
+        ],
+        [
+         "has recommended dose",
+         0.7667
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has maximum dose",
+        "40 mg orally once a day"
+       ],
+       "raw_relation": "has usual geriatric dose for hypertension maximum dose",
+       "definition": "The maximum daily dose of the subject drug for hypertension in elderly patients is specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has maximum dose",
+         0.825
+        ],
+        [
+         "has recommended dose",
+         0.7992
+        ],
+        [
+         "has strength",
+         0.797
+        ],
+        [
+         "has dosage form",
+         0.7952
+        ],
+        [
+         "used in population",
+         0.7833
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "not approved for",
+        "not approved"
+       ],
+       "raw_relation": "has indication status for diabetic nephropathy",
+       "definition": "The subject drug is not approved for use in treating the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "not approved for",
+         0.9409
+        ],
+        [
+         "not used to treat",
+         0.8665
+        ],
+        [
+         "contraindicated in",
+         0.8593
+        ],
+        [
+         "treats",
+         0.8272
+        ],
+        [
+         "use with caution in",
+         0.8217
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "lisinopril#dosage#2",
+     "section_id": "dosage",
+     "section_heading": "Dosing information",
+     "text": "Usual Pediatric Dose for Hypertension:\nPediatric patients greater than or equal to 6 years of age: Initial dose: 0.07 mg/kg orally once a day (Maximum initial dose is 5 mg once a day) Maintenance dose: Dosage should be adjusted according to blood pressure response at 1 to 2 week intervals. Maximum dose: Doses above 0.61 mg/kg or greater than 40 mg have not been studied in pediatric patients Comments: -This drug is not recommended in pediatric patients less than 6 years old or in pediatric patients with glomerular filtration rate less than 30 mL/min.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Lisinopril\", \"has recommended initial dose\", \"0.07 mg/kg orally once a day\"], [\"Lisinopril\", \"has maximum initial dose\", \"5 mg once a day\"], [\"Lisinopril\", \"has maintenance dose instruction\", \"adjust dosage based on blood pressure response every 1 to 2 weeks\"], [\"Lisinopril\", \"has maximum dose\", \"0.61 mg/kg or greater than 40 mg\"], [\"Lisinopril\", \"contraindicated in\", \"pediatric patients less than 6 years old\"], [\"Lisinopril\", \"contraindicated in\", \"pediatric patients with glomerular filtration rate less than 30 mL/min\"]]",
+     "oie": [
+      [
+       "Lisinopril",
+       "has recommended initial dose",
+       "0.07 mg/kg orally once a day"
+      ],
+      [
+       "Lisinopril",
+       "has maximum initial dose",
+       "5 mg once a day"
+      ],
+      [
+       "Lisinopril",
+       "has maintenance dose instruction",
+       "adjust dosage based on blood pressure response every 1 to 2 weeks"
+      ],
+      [
+       "Lisinopril",
+       "has maximum dose",
+       "0.61 mg/kg or greater than 40 mg"
+      ],
+      [
+       "Lisinopril",
+       "contraindicated in",
+       "pediatric patients less than 6 years old"
+      ],
+      [
+       "Lisinopril",
+       "contraindicated in",
+       "pediatric patients with glomerular filtration rate less than 30 mL/min"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "has maintenance dose instruction": "The subject drug requires dosage adjustment based on the patient's response to blood pressure at specified intervals.",
+      "has maximum dose": "The highest safe dose of the subject drug is limited to the value specified by the object entity.",
+      "has maximum initial dose": "The highest safe initial dose of the subject drug is limited to the value specified by the object entity.",
+      "has recommended initial dose": "The subject drug is recommended to be started at the dose specified by the object entity for initial treatment."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Lisinopril",
+        "has recommended dose",
+        "0.07 mg/kg orally once a day"
+       ],
+       "raw_relation": "has recommended initial dose",
+       "definition": "The subject drug is recommended to be started at the dose specified by the object entity for initial treatment.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.8904
+        ],
+        [
+         "has strength",
+         0.8541
+        ],
+        [
+         "must be started after",
+         0.8456
+        ],
+        [
+         "has dosage form",
+         0.8315
+        ],
+        [
+         "used in population",
+         0.8308
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has maximum dose",
+        "5 mg once a day"
+       ],
+       "raw_relation": "has maximum initial dose",
+       "definition": "The highest safe initial dose of the subject drug is limited to the value specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has strength",
+         0.7946
+        ],
+        [
+         "has maximum dose",
+         0.7691
+        ],
+        [
+         "has effectiveness condition",
+         0.7602
+        ],
+        [
+         "has dosage form",
+         0.7581
+        ],
+        [
+         "has recommended dose",
+         0.7534
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "may require dose adjustment",
+        "adjust dosage based on blood pressure response every 1 to 2 weeks"
+       ],
+       "raw_relation": "has maintenance dose instruction",
+       "definition": "The subject drug requires dosage adjustment based on the patient's response to blood pressure at specified intervals.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may require dose adjustment",
+         0.8359
+        ],
+        [
+         "has recommended dose",
+         0.7622
+        ],
+        [
+         "monitors through",
+         0.7593
+        ],
+        [
+         "has dosage form",
+         0.7412
+        ],
+        [
+         "has strength",
+         0.7376
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has maximum dose",
+        "0.61 mg/kg or greater than 40 mg"
+       ],
+       "raw_relation": "has maximum dose",
+       "definition": "The highest safe dose of the subject drug is limited to the value specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "contraindicated in",
+        "pediatric patients less than 6 years old"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "contraindicated in",
+        "pediatric patients with glomerular filtration rate less than 30 mL/min"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "lisinopril#missed-dose#0",
+     "section_id": "missed-dose",
+     "section_heading": "What happens if I miss a dose?",
+     "text": "Take the medicine as soon as you can, but skip the missed dose if it is almost time for your next dose. Do not take two doses at one time.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Lisinopril\", \"has missed dose instruction\", \"take as soon as possible\"], [\"Lisinopril\", \"has missed dose instruction\", \"skip if almost time for next dose\"], [\"Lisinopril\", \"has administration instruction\", \"do not take two doses at one time\"]]",
+     "oie": [
+      [
+       "Lisinopril",
+       "has missed dose instruction",
+       "take as soon as possible"
+      ],
+      [
+       "Lisinopril",
+       "has missed dose instruction",
+       "skip if almost time for next dose"
+      ],
+      [
+       "Lisinopril",
+       "has administration instruction",
+       "do not take two doses at one time"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug includes specific guidelines for its administration that patients should follow to ensure safe and effective use.",
+      "has missed dose instruction": "The subject drug specifies how to handle a missed dose, including actions to take based on the timing relative to the next scheduled dose."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Lisinopril",
+        "has missed dose instruction",
+        "take as soon as possible"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug specifies how to handle a missed dose, including actions to take based on the timing relative to the next scheduled dose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has missed dose instruction",
+        "skip if almost time for next dose"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug specifies how to handle a missed dose, including actions to take based on the timing relative to the next scheduled dose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has administration instruction",
+        "do not take two doses at one time"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug includes specific guidelines for its administration that patients should follow to ensure safe and effective use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "lisinopril#overdose#0",
+     "section_id": "overdose",
+     "section_heading": "What happens if I overdose?",
+     "text": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Lisinopril\", \"has overdose instruction\", \"seek emergency medical attention\"], [\"Lisinopril\", \"has overdose instruction\", \"call Poison Help line at 1-800-222-1222\"]]",
+     "oie": [
+      [
+       "Lisinopril",
+       "has overdose instruction",
+       "seek emergency medical attention"
+      ],
+      [
+       "Lisinopril",
+       "has overdose instruction",
+       "call Poison Help line at 1-800-222-1222"
+      ]
+     ],
+     "schema_definition": {
+      "has overdose instruction": "The subject drug requires the action specified by the object entity in case of overdose."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Lisinopril",
+        "has overdose instruction",
+        "seek emergency medical attention"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has overdose instruction",
+        "call Poison Help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "lisinopril#what-to-avoid#0",
+     "section_id": "what-to-avoid",
+     "section_heading": "What should I avoid while taking lisinopril?",
+     "text": "Avoid getting up too fast from a sitting or lying position, or you may feel dizzy.\nDo not use potassium supplements or salt substitutes, unless your doctor has told you to.\nAvoid becoming overheated or dehydrated during exercise, in hot weather, or by not drinking enough fluids. Follow your doctor's instructions about the type and amount of liquids you should drink. In some cases, drinking too much liquid can be as unsafe as not drinking enough.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Lisinopril\", \"has administration instruction\", \"avoid getting up too fast from sitting or lying position\"], [\"Lisinopril\", \"should not be used with\", \"potassium supplements\"], [\"Lisinopril\", \"should not be used with\", \"salt substitutes\"], [\"Lisinopril\", \"has warning\", \"avoid becoming overheated or dehydrated during exercise, in hot weather, or by not drinking enough fluids\"], [\"Lisinopril\", \"requires monitoring of\", \"fluid intake amount and type\"], [\"Lisinopril\", \"has safety instruction\", \"drinking too much liquid can be as unsafe as not drinking enough fluids\"]]",
+     "oie": [
+      [
+       "Lisinopril",
+       "has administration instruction",
+       "avoid getting up too fast from sitting or lying position"
+      ],
+      [
+       "Lisinopril",
+       "should not be used with",
+       "potassium supplements"
+      ],
+      [
+       "Lisinopril",
+       "should not be used with",
+       "salt substitutes"
+      ],
+      [
+       "Lisinopril",
+       "has warning",
+       "avoid becoming overheated or dehydrated during exercise, in hot weather, or by not drinking enough fluids"
+      ],
+      [
+       "Lisinopril",
+       "requires monitoring of",
+       "fluid intake amount and type"
+      ],
+      [
+       "Lisinopril",
+       "has safety instruction",
+       "drinking too much liquid can be as unsafe as not drinking enough fluids"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug includes specific guidance on how it should be administered or positioned during use.",
+      "has safety instruction": "The subject drug includes advice on precautions to prevent harmful effects related to its use.",
+      "has warning": "The subject drug includes a cautionary note about potential risks or adverse outcomes associated with its use.",
+      "requires monitoring of": "The subject drug's safe use depends on regular assessment or control of the specified parameter.",
+      "should not be used with": "The subject drug may interact dangerously with the specified substance or activity and should be avoided in combination."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Lisinopril",
+        "has administration instruction",
+        "avoid getting up too fast from sitting or lying position"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug includes specific guidance on how it should be administered or positioned during use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "should be avoided with",
+        "potassium supplements"
+       ],
+       "raw_relation": "should not be used with",
+       "definition": "The subject drug may interact dangerously with the specified substance or activity and should be avoided in combination.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "interacts with",
+         0.8402
+        ],
+        [
+         "has warning",
+         0.8244
+        ],
+        [
+         "should be avoided with",
+         0.812
+        ],
+        [
+         "has serious side effect",
+         0.7949
+        ],
+        [
+         "use with caution in",
+         0.7875
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "should be avoided with",
+        "salt substitutes"
+       ],
+       "raw_relation": "should not be used with",
+       "definition": "The subject drug may interact dangerously with the specified substance or activity and should be avoided in combination.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "interacts with",
+         0.8402
+        ],
+        [
+         "has warning",
+         0.8244
+        ],
+        [
+         "should be avoided with",
+         0.812
+        ],
+        [
+         "has serious side effect",
+         0.7949
+        ],
+        [
+         "use with caution in",
+         0.7875
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has warning",
+        "avoid becoming overheated or dehydrated during exercise, in hot weather, or by not drinking enough fluids"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug includes a cautionary note about potential risks or adverse outcomes associated with its use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "requires monitoring of",
+        "fluid intake amount and type"
+       ],
+       "raw_relation": "requires monitoring of",
+       "definition": "The subject drug's safe use depends on regular assessment or control of the specified parameter.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has warning",
+        "drinking too much liquid can be as unsafe as not drinking enough fluids"
+       ],
+       "raw_relation": "has safety instruction",
+       "definition": "The subject drug includes advice on precautions to prevent harmful effects related to its use.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has warning",
+         0.8399
+        ],
+        [
+         "reduces risk of",
+         0.8145
+        ],
+        [
+         "use with caution in",
+         0.791
+        ],
+        [
+         "interacts with",
+         0.7808
+        ],
+        [
+         "has side effect",
+         0.7717
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "lisinopril#side-effects#0",
+     "section_id": "side-effects",
+     "section_heading": "Lisinopril side effects",
+     "text": "Get emergency medical help if you have signs of an allergic reaction to lisinopril: severe stomach pain, hives, difficult breathing, swelling of your face, lips, tongue, or throat.\nLisinopril may cause serious side effects. Call your doctor at once if you have:\n- a light-headed feeling, like you might pass out;\n- high blood potassium - nausea, weakness, tingly feeling, chest pain, irregular heartbeats, loss of movement;\n- low white blood cell counts - fever, mouth sores, skin sores, sore throat, cough;\n- kidney problems - swelling, urinating less, feeling tired or short of breath; or\n- liver problems - loss of appetite, stomach pain (upper right side), tiredness, itching, dark urine, clay-colored stools, jaundice (yellowing of the skin or eyes).\nCommon lisinopril side effects may include:\n- headache, dizziness;\n- low blood pressure, cough; or\n- chest pain.\nThis is not a complete list of side effects and others may occur. Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Lisinopril\", \"has serious side effect\", \"allergic reaction\"], [\"Lisinopril\", \"has side effect\", \"headache\"], [\"Lisinopril\", \"has side effect\", \"dizziness\"], [\"Lisinopril\", \"has side effect\", \"low blood pressure\"], [\"Lisinopril\", \"has side effect\", \"cough\"], [\"Lisinopril\", \"has side effect\", \"chest pain\"], [\"Lisinopril\", \"has side effect\", \"severe stomach pain\"], [\"Lisinopril\", \"has side effect\", \"hives\"], [\"Lisinopril\", \"has side effect\", \"difficult breathing\"], [\"Lisinopril\", \"has side effect\", \"swelling of face\"], [\"Lisinopril\", \"has side effect\", \"swelling of lips\"], [\"Lisinopril\", \"has side effect\", \"swelling of tongue\"], [\"Lisinopril\", \"has side effect\", \"swelling of throat\"], [\"Lisinopril\", \"has side effect\", \"high blood potassium\"], [\"Lisinopril\", \"has side effect\", \"nausea\"], [\"Lisinopril\", \"has side effect\", \"weakness\"], [\"Lisinopril\", \"has side effect\", \"tingly feeling\"], [\"Lisinopril\", \"has side effect\", \"chest pain\"], [\"Lisinopril\", \"has side effect\", \"irregular heartbeats\"], [\"Lisinopril\", \"has side effect\", \"loss of movement\"], [\"Lisinopril\", \"has side effect\", \"low white blood cell count\"], [\"Lisinopril\", \"has side effect\", \"fever\"], [\"Lisinopril\", \"has side effect\", \"mouth sores\"], [\"Lisinopril\", \"has side effect\", \"skin sores\"], [\"Lisinopril\", \"has side effect\", \"sore throat\"], [\"Lisinopril\", \"has side effect\", \"cough\"], [\"Lisinopril\", \"has side effect\", \"kidney problems\"], [\"Lisinopril\", \"has side effect\", \"swelling\"], [\"Lisinopril\", \"has side effect\", \"urinating less\"], [\"Lisinopril\", \"has side effect\", \"tiredness\"], [\"Lisinopril\", \"has side effect\", \"short of breath\"], [\"Lisinopril\", \"has side effect\", \"loss of appetite\"], [\"Lisinopril\", \"has side effect\", \"stomach pain (upper right side)\"], [\"Lisinopril\", \"has side effect\", \"itching\"], [\"Lisinopril\", \"has side effect\", \"dark urine\"], [\"Lisinopril\", \"has side effect\", \"clay-colored stools\"], [\"Lisinopril\", \"has side effect\", \"jaundice\"], [\"Lisinopril\", \"has side effect\", \"yellowing of skin or eyes\"], [\"Lisinopril\", \"has administration instruction\", \"call doctor if you have light-headed feeling\"], [\"Lisinopril\", \"has administration instruction\", \"call doctor if you have high blood potassium\"], [\"Lisinopril\", \"has administration instruction\", \"call doctor if you have low white blood cell count\"], [\"Lisinopril\", \"has administration instruction\", \"call doctor if you have kidney problems\"], [\"Lisinopril\", \"has administration instruction\", \"call doctor if you have liver problems\"], [\"Lisinopril\", \"has administration instruction\", \"call doctor for medical advice about side effects\"], [\"Lisinopril\", \"has reporting instruction\", \"report side effects to FDA at 1-800-FDA-1088\"]]",
+     "oie": [
+      [
+       "Lisinopril",
+       "has serious side effect",
+       "allergic reaction"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "headache"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "dizziness"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "low blood pressure"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "cough"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "chest pain"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "severe stomach pain"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "hives"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "difficult breathing"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "swelling of face"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "swelling of lips"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "swelling of tongue"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "swelling of throat"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "high blood potassium"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "nausea"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "weakness"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "tingly feeling"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "irregular heartbeats"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "loss of movement"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "low white blood cell count"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "fever"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "mouth sores"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "skin sores"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "sore throat"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "kidney problems"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "swelling"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "urinating less"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "tiredness"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "short of breath"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "loss of appetite"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "stomach pain (upper right side)"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "itching"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "dark urine"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "clay-colored stools"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "jaundice"
+      ],
+      [
+       "Lisinopril",
+       "has side effect",
+       "yellowing of skin or eyes"
+      ],
+      [
+       "Lisinopril",
+       "has administration instruction",
+       "call doctor if you have light-headed feeling"
+      ],
+      [
+       "Lisinopril",
+       "has administration instruction",
+       "call doctor if you have high blood potassium"
+      ],
+      [
+       "Lisinopril",
+       "has administration instruction",
+       "call doctor if you have low white blood cell count"
+      ],
+      [
+       "Lisinopril",
+       "has administration instruction",
+       "call doctor if you have kidney problems"
+      ],
+      [
+       "Lisinopril",
+       "has administration instruction",
+       "call doctor if you have liver problems"
+      ],
+      [
+       "Lisinopril",
+       "has administration instruction",
+       "call doctor for medical advice about side effects"
+      ],
+      [
+       "Lisinopril",
+       "has reporting instruction",
+       "report side effects to FDA at 1-800-FDA-1088"
+      ]
+     ],
+     "schema_definition": {
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+      "has side effect": "The subject drug may cause the symptom or condition specified by the object entity.",
+      "has administration instruction": "When the subject drug is taken, patients should take specific action if they experience the condition or symptom specified by the object entity.",
+      "has reporting instruction": "Patients are advised to report the side effect specified by the object entity to the designated authority or contact."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Lisinopril",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "headache"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "dizziness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "low blood pressure"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "cough"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "chest pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "severe stomach pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "hives"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "difficult breathing"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "swelling of face"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "swelling of lips"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "swelling of tongue"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "swelling of throat"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "high blood potassium"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "nausea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "weakness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "tingly feeling"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "irregular heartbeats"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "loss of movement"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "low white blood cell count"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "fever"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "mouth sores"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "skin sores"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "sore throat"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "kidney problems"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "swelling"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "urinating less"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "tiredness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "short of breath"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "loss of appetite"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "stomach pain (upper right side)"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "itching"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "dark urine"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "clay-colored stools"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "jaundice"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "yellowing of skin or eyes"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has administration instruction",
+        "call doctor if you have light-headed feeling"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "When the subject drug is taken, patients should take specific action if they experience the condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has administration instruction",
+        "call doctor if you have high blood potassium"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "When the subject drug is taken, patients should take specific action if they experience the condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has administration instruction",
+        "call doctor if you have low white blood cell count"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "When the subject drug is taken, patients should take specific action if they experience the condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has administration instruction",
+        "call doctor if you have kidney problems"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "When the subject drug is taken, patients should take specific action if they experience the condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has administration instruction",
+        "call doctor if you have liver problems"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "When the subject drug is taken, patients should take specific action if they experience the condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has administration instruction",
+        "call doctor for medical advice about side effects"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "When the subject drug is taken, patients should take specific action if they experience the condition or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "should inform doctor about",
+        "report side effects to FDA at 1-800-FDA-1088"
+       ],
+       "raw_relation": "has reporting instruction",
+       "definition": "Patients are advised to report the side effect specified by the object entity to the designated authority or contact.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8584
+        ],
+        [
+         "should inform doctor about",
+         0.8431
+        ],
+        [
+         "has serious side effect",
+         0.825
+        ],
+        [
+         "use with caution in",
+         0.8073
+        ],
+        [
+         "has warning",
+         0.7852
+        ]
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "chunk_id": "lisinopril#interactions#0",
+     "section_id": "interactions",
+     "section_heading": "What other drugs will affect lisinopril?",
+     "text": "Lisinopril can harm your kidneys, especially if you also use certain medicines for infections, cancer, or osteoporosis.\nTell your doctor about all your other medicines, especially:\n- a diuretic or \"water pill\" that may increase blood potassium such as spironolactone, triamterene, or amiloride;\n- NSAIDs (nonsteroidal anti-inflammatory drugs) - aspirin, ibuprofen (Advil, Motrin), naproxen (Aleve), celecoxib, diclofenac, indomethacin, meloxicam, and others;\n- insulin or diabetes medications;\n- medicine to prevent organ transplant rejection such as temsirolimus, sirolimus, or everolimus; or\n- heart or blood pressure medication\n- lithium\n- gold injections.\nThis list is not complete. Other drugs may interact with lisinopril, including prescription and over-the-counter medicines, vitamins, and herbal products. Not all possible drug interactions are listed here.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Lisinopril\", \"has risk of\", \"kidney harm\"], [\"Lisinopril\", \"interacts with\", \"diuretics that increase blood potassium\"], [\"Lisinopril\", \"interacts with\", \"NSAIDs\"], [\"Lisinopril\", \"interacts with\", \"insulin or diabetes medications\"], [\"Lisinopril\", \"interacts with\", \"immunosuppressants for organ transplant rejection\"], [\"Lisinopril\", \"interacts with\", \"lithium\"], [\"Lisinopril\", \"interacts with\", \"gold injections\"], [\"Lisinopril\", \"interacts with\", \"other prescription and over-the-counter medicines\"], [\"Lisinopril\", \"interacts with\", \"vitamins\"], [\"Lisinopril\", \"interacts with\", \"herbal products\"], [\"Lisinopril\", \"has incomplete interaction list\", \"possible drug interactions\"]]",
+     "oie": [
+      [
+       "Lisinopril",
+       "has risk of",
+       "kidney harm"
+      ],
+      [
+       "Lisinopril",
+       "interacts with",
+       "diuretics that increase blood potassium"
+      ],
+      [
+       "Lisinopril",
+       "interacts with",
+       "NSAIDs"
+      ],
+      [
+       "Lisinopril",
+       "interacts with",
+       "insulin or diabetes medications"
+      ],
+      [
+       "Lisinopril",
+       "interacts with",
+       "immunosuppressants for organ transplant rejection"
+      ],
+      [
+       "Lisinopril",
+       "interacts with",
+       "lithium"
+      ],
+      [
+       "Lisinopril",
+       "interacts with",
+       "gold injections"
+      ],
+      [
+       "Lisinopril",
+       "interacts with",
+       "other prescription and over-the-counter medicines"
+      ],
+      [
+       "Lisinopril",
+       "interacts with",
+       "vitamins"
+      ],
+      [
+       "Lisinopril",
+       "interacts with",
+       "herbal products"
+      ],
+      [
+       "Lisinopril",
+       "has incomplete interaction list",
+       "possible drug interactions"
+      ]
+     ],
+     "schema_definition": {
+      "has risk of": "The subject drug may cause the adverse effect or condition specified by the object entity.",
+      "interacts with": "The subject drug may have a pharmacological interaction with the substance or class of substances specified by the object entity, potentially leading to altered efficacy or increased risk of adverse effects.",
+      "has incomplete interaction list": "The list of potential interactions for the subject drug is not exhaustive and may miss other drugs, including prescription, over-the-counter, vitamins, and herbal products."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Lisinopril",
+        "has side effect",
+        "kidney harm"
+       ],
+       "raw_relation": "has risk of",
+       "definition": "The subject drug may cause the adverse effect or condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9873
+        ],
+        [
+         "has serious side effect",
+         0.9275
+        ],
+        [
+         "interacts with",
+         0.9074
+        ],
+        [
+         "has warning",
+         0.8912
+        ],
+        [
+         "not used to treat",
+         0.8866
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "interacts with",
+        "diuretics that increase blood potassium"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or class of substances specified by the object entity, potentially leading to altered efficacy or increased risk of adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "interacts with",
+        "NSAIDs"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or class of substances specified by the object entity, potentially leading to altered efficacy or increased risk of adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "interacts with",
+        "insulin or diabetes medications"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or class of substances specified by the object entity, potentially leading to altered efficacy or increased risk of adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "interacts with",
+        "immunosuppressants for organ transplant rejection"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or class of substances specified by the object entity, potentially leading to altered efficacy or increased risk of adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "interacts with",
+        "lithium"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or class of substances specified by the object entity, potentially leading to altered efficacy or increased risk of adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "interacts with",
+        "gold injections"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or class of substances specified by the object entity, potentially leading to altered efficacy or increased risk of adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "interacts with",
+        "other prescription and over-the-counter medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or class of substances specified by the object entity, potentially leading to altered efficacy or increased risk of adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "interacts with",
+        "vitamins"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or class of substances specified by the object entity, potentially leading to altered efficacy or increased risk of adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "interacts with",
+        "herbal products"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or class of substances specified by the object entity, potentially leading to altered efficacy or increased risk of adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Lisinopril",
+        "has incomplete interaction list",
+        "possible drug interactions"
+       ],
+       "raw_relation": "has incomplete interaction list",
+       "definition": "The list of potential interactions for the subject drug is not exhaustive and may miss other drugs, including prescription, over-the-counter, vitamins, and herbal products.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "may require dose adjustment",
+         0.73
+        ],
+        [
+         "similar to",
+         0.704
+        ],
+        [
+         "interacts with",
+         0.6985
+        ],
+        [
+         "use with caution in",
+         0.6713
+        ],
+        [
+         "increases risk of",
+         0.6648
+        ]
+       ],
+       "answer": "F"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Lisinopril",
+    "treats",
+    "high blood pressure in adults and children 6 years of age and older"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Lisinopril",
+    "used in combination with",
+    "other medications"
+   ],
+   "raw_relation": "used in combination with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Lisinopril",
+    "treats",
+    "congestive heart failure"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Lisinopril",
+    "treats",
+    "heart attack"
+   ],
+   "raw_relation": "improves survival after",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Lisinopril",
+    "belongs to drug class",
+    "ACE inhibitors"
+   ],
+   "raw_relation": "belongs to drug class",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Lisinopril",
+    "has mechanism of action",
+    "decreasing chemicals that tighten blood vessels"
+   ],
+   "raw_relation": "has mechanism of action",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Lisinopril",
+    "has mechanism of action",
+    "improves blood flow"
+   ],
+   "raw_relation": "has effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Lisinopril",
+    "has mechanism of action",
+    "enhances heart pumping efficiency"
+   ],
+   "raw_relation": "has effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "high blood pressure",
+    "can cause damage to",
+    "brain"
+   ],
+   "raw_relation": "can cause damage to",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "high blood pressure",
+    "can cause damage to",
+    "heart"
+   ],
+   "raw_relation": "can cause damage to",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "high blood pressure",
+    "can cause damage to",
+    "blood vessels"
+   ],
+   "raw_relation": "can cause damage to",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "high blood pressure",
+    "can cause damage to",
+    "kidneys"
+   ],
+   "raw_relation": "can cause damage to",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "high blood pressure",
+    "affects",
+    "heart disease"
+   ],
+   "raw_relation": "can lead to",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "high blood pressure",
+    "increases risk of",
+    "heart attack"
+   ],
+   "raw_relation": "can lead to",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "high blood pressure",
+    "affects",
+    "heart failure"
+   ],
+   "raw_relation": "can lead to",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "high blood pressure",
+    "increases risk of",
+    "stroke"
+   ],
+   "raw_relation": "can lead to",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "high blood pressure",
+    "can cause damage to",
+    "kidney failure"
+   ],
+   "raw_relation": "can lead to",
+   "status": "mapped_new"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "high blood pressure",
+    "can cause damage to",
+    "loss of vision"
+   ],
+   "raw_relation": "can lead to",
+   "status": "mapped_new"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "high blood pressure",
+    "can cause damage to",
+    "other problems"
+   ],
+   "raw_relation": "can lead to",
+   "status": "mapped_new"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "lifestyle change",
+    "includes",
+    "low fat and low salt diet"
+   ],
+   "raw_relation": "includes",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "lifestyle change",
+    "includes",
+    "maintaining healthy weight"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "lifestyle change",
+    "has instruction",
+    "exercising at least 30 minutes most days"
+   ],
+   "raw_relation": "includes",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "lifestyle change",
+    "includes",
+    "not smoking"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "lifestyle change",
+    "includes",
+    "moderate alcohol use"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "lisinopril",
+    "contraindicated in",
+    "pregnancy"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "lisinopril",
+    "has pregnancy or breastfeeding warning",
+    "could harm unborn baby"
+   ],
+   "raw_relation": "has pregnancy warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "lisinopril",
+    "contraindicated in",
+    "pregnancy occurs"
+   ],
+   "raw_relation": "should be stopped if",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "lisinopril",
+    "contraindicated in",
+    "history of angioedema"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "lisinopril",
+    "interacts with",
+    "medicines containing sacubitril"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "lisinopril",
+    "should be avoided with",
+    "36 hours before or after sacubitril containing medicine"
+   ],
+   "raw_relation": "should not be taken within",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "lisinopril",
+    "interacts with",
+    "with aliskiren in diabetes"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "lisinopril",
+    "interacts with",
+    "with aliskiren in kidney disease"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "lisinopril",
+    "contraindicated in",
+    "allergy to lisinopril or other ACE inhibitors"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "lisinopril",
+    "interacts with",
+    "medicines containing sacubitril"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "lisinopril",
+    "contraindicated in",
+    "combination with aliskiren in patients with diabetes"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "lisinopril",
+    "contraindicated in",
+    "history of angioedema"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "lisinopril",
+    "should inform doctor about",
+    "heart disease"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "lisinopril",
+    "should inform doctor about",
+    "low blood pressure"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "lisinopril",
+    "should inform doctor about",
+    "low white blood cell count"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "lisinopril",
+    "should inform doctor about",
+    "stomach pain"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "lisinopril",
+    "should inform doctor about",
+    "low-salt diet"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "lisinopril",
+    "should inform doctor about",
+    "diabetes"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "lisinopril",
+    "should inform doctor about",
+    "liver disease"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "lisinopril",
+    "should inform doctor about",
+    "kidney disease"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "lisinopril",
+    "should be avoided with",
+    "aliskiren in patients with kidney disease"
+   ],
+   "raw_relation": "should be avoided with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#before-taking#1",
+   "section_id": "before-taking",
+   "triplet": [
+    "Lisinopril",
+    "contraindicated in",
+    "pregnancy during second trimester"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#before-taking#1",
+   "section_id": "before-taking",
+   "triplet": [
+    "Lisinopril",
+    "contraindicated in",
+    "pregnancy during third trimester"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#before-taking#1",
+   "section_id": "before-taking",
+   "triplet": [
+    "Lisinopril",
+    "has warning",
+    "may cause injury or death to unborn baby during second or third trimester"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#before-taking#1",
+   "section_id": "before-taking",
+   "triplet": [
+    "Lisinopril",
+    "not approved for",
+    "breastfeeding"
+   ],
+   "raw_relation": "not recommended in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Lisinopril",
+    "has administration instruction",
+    "take exactly as prescribed by doctor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Lisinopril",
+    "has administration instruction",
+    "follow directions on prescription label"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Lisinopril",
+    "has administration instruction",
+    "read all medication guides or instruction sheets"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Lisinopril",
+    "has administration instruction",
+    "may be taken with or without food"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Lisinopril",
+    "has administration instruction",
+    "measure liquid with supplied device"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Lisinopril",
+    "requires monitoring of",
+    "blood pressure"
+   ],
+   "raw_relation": "requires frequent monitoring of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Lisinopril",
+    "requires monitoring of",
+    "blood tests"
+   ],
+   "raw_relation": "requires frequent monitoring of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Lisinopril",
+    "should inform doctor about",
+    "tell doctor about planned surgery"
+   ],
+   "raw_relation": "has patient instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Lisinopril",
+    "should inform doctor about",
+    "call doctor if ongoing vomiting or diarrhea"
+   ],
+   "raw_relation": "has patient instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Lisinopril",
+    "should inform doctor about",
+    "call doctor if sweating more than usual"
+   ],
+   "raw_relation": "has patient instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "dehydration"
+   ],
+   "raw_relation": "has risk of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Lisinopril",
+    "has serious side effect",
+    "very low blood pressure"
+   ],
+   "raw_relation": "has risk of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Lisinopril",
+    "has serious side effect",
+    "electrolyte imbalance"
+   ],
+   "raw_relation": "has risk of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Lisinopril",
+    "has serious side effect",
+    "kidney failure"
+   ],
+   "raw_relation": "has risk of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Lisinopril",
+    "has warning",
+    "high blood pressure may have no symptoms"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Lisinopril",
+    "has storage instruction",
+    "store tightly closed at room temperature away from moisture and heat"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Lisinopril",
+    "has storage instruction",
+    "do not freeze"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "lisinopril",
+    "has recommended dose",
+    "10 mg orally once a day"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "lisinopril",
+    "has recommended dose",
+    "5 mg orally once a day"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "lisinopril",
+    "has recommended dose",
+    "20 to 40 mg orally once a day"
+   ],
+   "raw_relation": "has maintenance dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "lisinopril",
+    "has maximum dose",
+    "80 mg orally once a day"
+   ],
+   "raw_relation": "has maximum dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "lisinopril",
+    "may require dose adjustment",
+    "5 mg orally once a day in patients receiving a diuretic"
+   ],
+   "raw_relation": "has alternative initial dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "lisinopril",
+    "has dose adjustment note",
+    "80 mg dose does not appear to give greater effect"
+   ],
+   "raw_relation": "has dose adjustment note",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "lisinopril",
+    "used in combination with",
+    "low dose diuretic such as hydrochlorothiazide 12.5 mg"
+   ],
+   "raw_relation": "has combination therapy recommendation",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "lisinopril",
+    "used in combination with",
+    "after addition of diuretic"
+   ],
+   "raw_relation": "has dose reduction possibility",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "lisinopril",
+    "has recommended dose",
+    "2.5 to 5 mg orally once a day"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "lisinopril",
+    "has recommended dose",
+    "increased as tolerated"
+   ],
+   "raw_relation": "has maintenance dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "lisinopril",
+    "has maximum dose",
+    "40 mg orally once a day"
+   ],
+   "raw_relation": "has maximum dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "lisinopril",
+    "has warning",
+    "hypotension may occur after initial dose"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "lisinopril",
+    "has warning",
+    "hypovolemia may require diuretic dose adjustment"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "has recommended dose",
+    "5 mg orally within 24 hours of acute myocardial infarction"
+   ],
+   "raw_relation": "has initial dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "has recommended dose",
+    "5 mg orally after 24 hours"
+   ],
+   "raw_relation": "has subsequent dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "has recommended dose",
+    "10 mg orally after 48 hours"
+   ],
+   "raw_relation": "has subsequent dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "has recommended dose",
+    "10 mg orally once a day"
+   ],
+   "raw_relation": "has maintenance dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "has duration of treatment",
+    "at least 6 weeks"
+   ],
+   "raw_relation": "has dosing duration",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "has recommended dose",
+    "2.5 mg orally in patients with low systolic blood pressure (less than or equal to 120 mm Hg and greater than 100 mm Hg) during first 3 days after infarct"
+   ],
+   "raw_relation": "has initial dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "contraindicated in",
+    "prolonged hypotension occurs (systolic blood pressure less than 90 mm Hg for more than 1 hour)"
+   ],
+   "raw_relation": "should be withdrawn if",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "treats",
+    "acute myocardial infarction"
+   ],
+   "raw_relation": "used in treatment of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "reduces risk of",
+    "acute myocardial infarction"
+   ],
+   "raw_relation": "reduces mortality in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "has recommended dose",
+    "diabetic nephropathy"
+   ],
+   "raw_relation": "has usual adult dose for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "has recommended dose",
+    "10 to 20 mg orally once a day"
+   ],
+   "raw_relation": "has usual adult dose for diabetic nephropathy initial dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "has recommended dose",
+    "20 to 40 mg orally once a day"
+   ],
+   "raw_relation": "has usual adult dose for diabetic nephropathy maintenance dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "has recommended dose",
+    "titrated upward every 3 days"
+   ],
+   "raw_relation": "has usual adult dose for diabetic nephropathy dosage adjustment",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "has recommended dose",
+    "hypertension"
+   ],
+   "raw_relation": "has usual geriatric dose for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "has recommended dose",
+    "2.5 to 5 mg orally once a day"
+   ],
+   "raw_relation": "has usual geriatric dose for hypertension initial dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "has recommended dose",
+    "increased by 2.5 to 5 mg per day at 1 to 2 week intervals"
+   ],
+   "raw_relation": "has usual geriatric dose for hypertension maintenance dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "has maximum dose",
+    "40 mg orally once a day"
+   ],
+   "raw_relation": "has usual geriatric dose for hypertension maximum dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "not approved for",
+    "not approved"
+   ],
+   "raw_relation": "has indication status for diabetic nephropathy",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "has recommended dose",
+    "0.07 mg/kg orally once a day"
+   ],
+   "raw_relation": "has recommended initial dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "has maximum dose",
+    "5 mg once a day"
+   ],
+   "raw_relation": "has maximum initial dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "may require dose adjustment",
+    "adjust dosage based on blood pressure response every 1 to 2 weeks"
+   ],
+   "raw_relation": "has maintenance dose instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "has maximum dose",
+    "0.61 mg/kg or greater than 40 mg"
+   ],
+   "raw_relation": "has maximum dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "contraindicated in",
+    "pediatric patients less than 6 years old"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Lisinopril",
+    "contraindicated in",
+    "pediatric patients with glomerular filtration rate less than 30 mL/min"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "Lisinopril",
+    "has missed dose instruction",
+    "take as soon as possible"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "Lisinopril",
+    "has missed dose instruction",
+    "skip if almost time for next dose"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "Lisinopril",
+    "has administration instruction",
+    "do not take two doses at one time"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "Lisinopril",
+    "has overdose instruction",
+    "seek emergency medical attention"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "Lisinopril",
+    "has overdose instruction",
+    "call Poison Help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Lisinopril",
+    "has administration instruction",
+    "avoid getting up too fast from sitting or lying position"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Lisinopril",
+    "should be avoided with",
+    "potassium supplements"
+   ],
+   "raw_relation": "should not be used with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Lisinopril",
+    "should be avoided with",
+    "salt substitutes"
+   ],
+   "raw_relation": "should not be used with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Lisinopril",
+    "has warning",
+    "avoid becoming overheated or dehydrated during exercise, in hot weather, or by not drinking enough fluids"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Lisinopril",
+    "requires monitoring of",
+    "fluid intake amount and type"
+   ],
+   "raw_relation": "requires monitoring of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Lisinopril",
+    "has warning",
+    "drinking too much liquid can be as unsafe as not drinking enough fluids"
+   ],
+   "raw_relation": "has safety instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "headache"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "dizziness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "low blood pressure"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "cough"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "chest pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "severe stomach pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "hives"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "difficult breathing"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "swelling of face"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "swelling of lips"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "swelling of tongue"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "swelling of throat"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "high blood potassium"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "nausea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "weakness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "tingly feeling"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "irregular heartbeats"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "loss of movement"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "low white blood cell count"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "fever"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "mouth sores"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "skin sores"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "sore throat"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "kidney problems"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "swelling"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "urinating less"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "tiredness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "short of breath"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "loss of appetite"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "stomach pain (upper right side)"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "itching"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "dark urine"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "clay-colored stools"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "jaundice"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "yellowing of skin or eyes"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has administration instruction",
+    "call doctor if you have light-headed feeling"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has administration instruction",
+    "call doctor if you have high blood potassium"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has administration instruction",
+    "call doctor if you have low white blood cell count"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has administration instruction",
+    "call doctor if you have kidney problems"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has administration instruction",
+    "call doctor if you have liver problems"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "has administration instruction",
+    "call doctor for medical advice about side effects"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Lisinopril",
+    "should inform doctor about",
+    "report side effects to FDA at 1-800-FDA-1088"
+   ],
+   "raw_relation": "has reporting instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Lisinopril",
+    "has side effect",
+    "kidney harm"
+   ],
+   "raw_relation": "has risk of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "lisinopril#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Lisinopril",
+    "interacts with",
+    "diuretics that increase blood potassium"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Lisinopril",
+    "interacts with",
+    "NSAIDs"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Lisinopril",
+    "interacts with",
+    "insulin or diabetes medications"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Lisinopril",
+    "interacts with",
+    "immunosuppressants for organ transplant rejection"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Lisinopril",
+    "interacts with",
+    "lithium"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Lisinopril",
+    "interacts with",
+    "gold injections"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Lisinopril",
+    "interacts with",
+    "other prescription and over-the-counter medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Lisinopril",
+    "interacts with",
+    "vitamins"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Lisinopril",
+    "interacts with",
+    "herbal products"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "lisinopril#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Lisinopril",
+    "has incomplete interaction list",
+    "possible drug interactions"
+   ],
+   "raw_relation": "has incomplete interaction list",
+   "status": "enriched"
+  }
+ ],
+ "name": "Lisinopril",
+ "slug": "lisinopril",
+ "n_chunks": 13,
+ "seconds": 27.5,
+ "llm_model": "drugkg-llm"
+}

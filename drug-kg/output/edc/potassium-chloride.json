@@ -1,0 +1,4933 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "potassium-chloride#uses#0",
+     "section_id": "uses",
+     "section_heading": "What is potassium chloride?",
+     "text": "Potassium is a mineral that is found in many foods and is needed for several functions of your body, especially the beating of your heart.\nPotassium chloride is used to prevent or to treat low blood levels of potassium (hypokalemia).\nPotassium levels can be low as a result of a disease or from taking certain medicines, or after a prolonged illness with diarrhea or vomiting.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"potassium chloride\", \"treats\", \"low blood potassium\"], [\"potassium chloride\", \"used to prevent\", \"hypokalemia\"], [\"hypokalemia\", \"caused by\", \"disease\"], [\"hypokalemia\", \"caused by\", \"certain medicines\"], [\"hypokalemia\", \"caused by\", \"prolonged illness with diarrhea or vomiting\"]]",
+     "oie": [
+      [
+       "potassium chloride",
+       "treats",
+       "low blood potassium"
+      ],
+      [
+       "potassium chloride",
+       "used to prevent",
+       "hypokalemia"
+      ],
+      [
+       "hypokalemia",
+       "caused by",
+       "disease"
+      ],
+      [
+       "hypokalemia",
+       "caused by",
+       "certain medicines"
+      ],
+      [
+       "hypokalemia",
+       "caused by",
+       "prolonged illness with diarrhea or vomiting"
+      ]
+     ],
+     "schema_definition": {
+      "caused by": "The condition specified by the object entity is a contributing factor leading to the occurrence of the condition specified by the subject entity.",
+      "treats": "The subject substance is used to manage or correct the medical condition specified by the object entity.",
+      "used to prevent": "The subject substance is administered to stop or delay the onset of the condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "potassium chloride",
+        "treats",
+        "low blood potassium"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject substance is used to manage or correct the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "reduces risk of",
+        "hypokalemia"
+       ],
+       "raw_relation": "used to prevent",
+       "definition": "The subject substance is administered to stop or delay the onset of the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has withdrawal symptom",
+         0.8368
+        ],
+        [
+         "can occur with",
+         0.8053
+        ],
+        [
+         "has onset of effect",
+         0.803
+        ],
+        [
+         "has side effect",
+         0.8027
+        ],
+        [
+         "reduces risk of",
+         0.8025
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "hypokalemia",
+        "caused by",
+        "disease"
+       ],
+       "raw_relation": "caused by",
+       "definition": "The condition specified by the object entity is a contributing factor leading to the occurrence of the condition specified by the subject entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "affects",
+         0.8397
+        ],
+        [
+         "can occur with",
+         0.804
+        ],
+        [
+         "are supported by",
+         0.7622
+        ],
+        [
+         "requires replacement if",
+         0.7619
+        ],
+        [
+         "has side effect",
+         0.761
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "hypokalemia",
+        "has side effect",
+        "certain medicines"
+       ],
+       "raw_relation": "caused by",
+       "definition": "The condition specified by the object entity is a contributing factor leading to the occurrence of the condition specified by the subject entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "affects",
+         0.8397
+        ],
+        [
+         "can occur with",
+         0.804
+        ],
+        [
+         "are supported by",
+         0.7622
+        ],
+        [
+         "requires replacement if",
+         0.7619
+        ],
+        [
+         "has side effect",
+         0.761
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "hypokalemia",
+        "caused by",
+        "prolonged illness with diarrhea or vomiting"
+       ],
+       "raw_relation": "caused by",
+       "definition": "The condition specified by the object entity is a contributing factor leading to the occurrence of the condition specified by the subject entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "affects",
+         0.8397
+        ],
+        [
+         "can occur with",
+         0.804
+        ],
+        [
+         "are supported by",
+         0.7622
+        ],
+        [
+         "requires replacement if",
+         0.7619
+        ],
+        [
+         "has side effect",
+         0.761
+        ]
+       ],
+       "answer": "F"
+      }
+     ]
+    },
+    {
+     "chunk_id": "potassium-chloride#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "You should not use potassium chloride if you have high levels of potassium in your blood (hyperkalemia), or if you also take a \"potassium-sparing\" diuretic.\nTo be sure potassium chloride is helping your condition, your blood may need to be tested often. Your heart rate may also be checked using an electrocardiograph or ECG (sometimes called an EKG) to measure electrical activity of the heart. This test will help your doctor determine how long to treat you with potassium. Do not miss any scheduled appointments.\nSerious side effects of potassium include uneven heartbeat, muscle weakness or limp feeling, severe stomach pain, and numbness or tingling in your hands, feet, or mouth.\nDo not stop taking this medicine without first talking to your doctor. If you stop taking this medicine suddenly, your condition may become worse.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Potassium Chloride\", \"contraindicated in\", \"hyperkalemia\"], [\"Potassium Chloride\", \"interacts with\", \"potassium-sparing diuretics\"], [\"Potassium Chloride\", \"requires monitoring of\", \"blood potassium levels\"], [\"Potassium Chloride\", \"requires monitoring of\", \"heart rate\"], [\"Potassium Chloride\", \"has administration instruction\", \"do not miss scheduled appointments\"], [\"Potassium Chloride\", \"has serious side effect\", \"uneven heartbeat\"], [\"Potassium Chloride\", \"has serious side effect\", \"muscle weakness or limp feeling\"], [\"Potassium Chloride\", \"has serious side effect\", \"severe stomach pain\"], [\"Potassium Chloride\", \"has serious side effect\", \"numbness or tingling in hands, feet, or mouth\"], [\"Potassium Chloride\", \"has warning\", \"do not stop taking without consulting doctor\"], [\"Potassium Chloride\", \"has warning\", \"condition may worsen if stopped suddenly\"]]",
+     "oie": [
+      [
+       "Potassium Chloride",
+       "contraindicated in",
+       "hyperkalemia"
+      ],
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "potassium-sparing diuretics"
+      ],
+      [
+       "Potassium Chloride",
+       "requires monitoring of",
+       "blood potassium levels"
+      ],
+      [
+       "Potassium Chloride",
+       "requires monitoring of",
+       "heart rate"
+      ],
+      [
+       "Potassium Chloride",
+       "has administration instruction",
+       "do not miss scheduled appointments"
+      ],
+      [
+       "Potassium Chloride",
+       "has serious side effect",
+       "uneven heartbeat"
+      ],
+      [
+       "Potassium Chloride",
+       "has serious side effect",
+       "muscle weakness or limp feeling"
+      ],
+      [
+       "Potassium Chloride",
+       "has serious side effect",
+       "severe stomach pain"
+      ],
+      [
+       "Potassium Chloride",
+       "has serious side effect",
+       "numbness or tingling in hands, feet, or mouth"
+      ],
+      [
+       "Potassium Chloride",
+       "has warning",
+       "do not stop taking without consulting doctor"
+      ],
+      [
+       "Potassium Chloride",
+       "has warning",
+       "condition may worsen if stopped suddenly"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "has administration instruction": "Patients taking the subject drug are instructed to follow the specific action or behavior specified by the object entity.",
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+      "has warning": "The subject drug carries a caution or advisory specified by the object entity regarding its use or discontinuation.",
+      "interacts with": "The subject drug may produce a pharmacological interaction when used concurrently with the substance specified by the object entity.",
+      "requires monitoring of": "The subject drug's therapeutic effect or safety requires regular assessment of the parameter specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "contraindicated in",
+        "hyperkalemia"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "potassium-sparing diuretics"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when used concurrently with the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "requires monitoring of",
+        "blood potassium levels"
+       ],
+       "raw_relation": "requires monitoring of",
+       "definition": "The subject drug's therapeutic effect or safety requires regular assessment of the parameter specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "requires monitoring of",
+        "heart rate"
+       ],
+       "raw_relation": "requires monitoring of",
+       "definition": "The subject drug's therapeutic effect or safety requires regular assessment of the parameter specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has administration instruction",
+        "do not miss scheduled appointments"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients taking the subject drug are instructed to follow the specific action or behavior specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has serious side effect",
+        "uneven heartbeat"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has serious side effect",
+        "muscle weakness or limp feeling"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has serious side effect",
+        "severe stomach pain"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has serious side effect",
+        "numbness or tingling in hands, feet, or mouth"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has warning",
+        "do not stop taking without consulting doctor"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or advisory specified by the object entity regarding its use or discontinuation.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has warning",
+        "condition may worsen if stopped suddenly"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or advisory specified by the object entity regarding its use or discontinuation.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "potassium-chloride#warnings#1",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "Do not crush, chew, or suck on an extended-release tablet or capsule. Swallow the pill whole unless your doctor or pharmacist tells you your specific tablet can be broken. Crushing or chewing the pill may cause too much of the drug to be released at one time. Sucking on a tablet can irritate your mouth or throat. Take potassium chloride with food or just after a meal.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"potassium chloride\", \"has administration instruction\", \"swallow whole unless doctor or pharmacist specifies\"], [\"potassium chloride\", \"should not be\", \"crushed\"], [\"potassium chloride\", \"should not be\", \"chewed\"], [\"potassium chloride\", \"should not be\", \"sucked on\"], [\"potassium chloride\", \"has administration instruction\", \"take with food or just after a meal\"]]",
+     "oie": [
+      [
+       "potassium chloride",
+       "has administration instruction",
+       "swallow whole unless doctor or pharmacist specifies"
+      ],
+      [
+       "potassium chloride",
+       "should not be",
+       "crushed"
+      ],
+      [
+       "potassium chloride",
+       "should not be",
+       "chewed"
+      ],
+      [
+       "potassium chloride",
+       "should not be",
+       "sucked on"
+      ],
+      [
+       "potassium chloride",
+       "has administration instruction",
+       "take with food or just after a meal"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+      "should not be": "The subject drug should not be subjected to the action or behavior specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "potassium chloride",
+        "has administration instruction",
+        "swallow whole unless doctor or pharmacist specifies"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "should not be taken",
+        "crushed"
+       ],
+       "raw_relation": "should not be",
+       "definition": "The subject drug should not be subjected to the action or behavior specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.9066
+        ],
+        [
+         "should not be taken",
+         0.899
+        ],
+        [
+         "should be avoided with",
+         0.8901
+        ],
+        [
+         "does not reduce risk of",
+         0.8687
+        ],
+        [
+         "should not be stored in",
+         0.8463
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "should not be taken",
+        "chewed"
+       ],
+       "raw_relation": "should not be",
+       "definition": "The subject drug should not be subjected to the action or behavior specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.9066
+        ],
+        [
+         "should not be taken",
+         0.899
+        ],
+        [
+         "should be avoided with",
+         0.8901
+        ],
+        [
+         "does not reduce risk of",
+         0.8687
+        ],
+        [
+         "should not be stored in",
+         0.8463
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "should not be taken",
+        "sucked on"
+       ],
+       "raw_relation": "should not be",
+       "definition": "The subject drug should not be subjected to the action or behavior specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.9066
+        ],
+        [
+         "should not be taken",
+         0.899
+        ],
+        [
+         "should be avoided with",
+         0.8901
+        ],
+        [
+         "does not reduce risk of",
+         0.8687
+        ],
+        [
+         "should not be stored in",
+         0.8463
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has administration instruction",
+        "take with food or just after a meal"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "potassium-chloride#before-taking#0",
+     "section_id": "before-taking",
+     "section_heading": "Before taking this medicine",
+     "text": "You should not use potassium chloride if you are allergic to it, or if:\n- you have high levels of potassium in your blood (hyperkalemia); or\n- you take a \"potassium-sparing\" diuretic (water pill) such as amiloride, spironolactone, or triamterene.\nTo make sure this medicine is safe for you, tell your doctor if you have ever had:\n- kidney disease;\n- cirrhosis or other liver disease;\n- an adrenal gland disorder;\n- a large tissue injury such as a severe burn;\n- severe dehydration;\n- diabetes;\n- heart disease or high blood pressure;\n- stomach or intestinal bleeding;\n- a blockage in your stomach or intestines; or\n- chronic diarrhea (such as ulcerative colitis, Crohn's disease).\nIt is not known whether this medicine will harm an unborn baby. Your dose needs may be different during pregnancy. Tell your doctor if you are pregnant or breastfeeding.\nDo not give this medicine to a child without medical advice.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"potassium chloride\", \"contraindicated in\", \"allergy to potassium chloride\"], [\"potassium chloride\", \"contraindicated in\", \"high blood potassium levels\"], [\"potassium chloride\", \"contraindicated in\", \"use with potassium-sparing diuretics\"], [\"potassium chloride\", \"contraindicated in\", \"use with amiloride\"], [\"potassium chloride\", \"contraindicated in\", \"use with spironolactone\"], [\"potassium chloride\", \"contraindicated in\", \"use with triamterene\"], [\"potassium chloride\", \"use with caution in\", \"kidney disease\"], [\"potassium chloride\", \"use with caution in\", \"liver disease\"], [\"potassium chloride\", \"use with caution in\", \"adrenal gland disorder\"], [\"potassium chloride\", \"use with caution in\", \"large tissue injury\"], [\"potassium chloride\", \"use with caution in\", \"severe dehydration\"], [\"potassium chloride\", \"use with caution in\", \"diabetes\"], [\"potassium chloride\", \"use with caution in\", \"heart disease\"], [\"potassium chloride\", \"use with caution in\", \"high blood pressure\"], [\"potassium chloride\", \"use with caution in\", \"stomach or intestinal bleeding\"], [\"potassium chloride\", \"use with caution in\", \"blockage in stomach or intestines\"], [\"potassium chloride\", \"use with caution in\", \"chronic diarrhea\"], [\"potassium chloride\", \"has pregnancy warning\", \"may harm unborn baby\"], [\"potassium chloride\", \"has dose adjustment instruction\", \"during pregnancy\"], [\"potassium chloride\", \"should not be given to\", \"children without medical advice\"]]",
+     "oie": [
+      [
+       "potassium chloride",
+       "contraindicated in",
+       "allergy to potassium chloride"
+      ],
+      [
+       "potassium chloride",
+       "contraindicated in",
+       "high blood potassium levels"
+      ],
+      [
+       "potassium chloride",
+       "contraindicated in",
+       "use with potassium-sparing diuretics"
+      ],
+      [
+       "potassium chloride",
+       "contraindicated in",
+       "use with amiloride"
+      ],
+      [
+       "potassium chloride",
+       "contraindicated in",
+       "use with spironolactone"
+      ],
+      [
+       "potassium chloride",
+       "contraindicated in",
+       "use with triamterene"
+      ],
+      [
+       "potassium chloride",
+       "use with caution in",
+       "kidney disease"
+      ],
+      [
+       "potassium chloride",
+       "use with caution in",
+       "liver disease"
+      ],
+      [
+       "potassium chloride",
+       "use with caution in",
+       "adrenal gland disorder"
+      ],
+      [
+       "potassium chloride",
+       "use with caution in",
+       "large tissue injury"
+      ],
+      [
+       "potassium chloride",
+       "use with caution in",
+       "severe dehydration"
+      ],
+      [
+       "potassium chloride",
+       "use with caution in",
+       "diabetes"
+      ],
+      [
+       "potassium chloride",
+       "use with caution in",
+       "heart disease"
+      ],
+      [
+       "potassium chloride",
+       "use with caution in",
+       "high blood pressure"
+      ],
+      [
+       "potassium chloride",
+       "use with caution in",
+       "stomach or intestinal bleeding"
+      ],
+      [
+       "potassium chloride",
+       "use with caution in",
+       "blockage in stomach or intestines"
+      ],
+      [
+       "potassium chloride",
+       "use with caution in",
+       "chronic diarrhea"
+      ],
+      [
+       "potassium chloride",
+       "has pregnancy warning",
+       "may harm unborn baby"
+      ],
+      [
+       "potassium chloride",
+       "has dose adjustment instruction",
+       "during pregnancy"
+      ],
+      [
+       "potassium chloride",
+       "should not be given to",
+       "children without medical advice"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition or are allergic to the substance specified by the object entity.",
+      "has dose adjustment instruction": "The subject drug may require a modified dosage during the specified medical condition or life stage.",
+      "has pregnancy warning": "The subject drug may pose a risk to the developing fetus, and its use during pregnancy requires medical evaluation.",
+      "should not be given to": "The subject drug should not be administered to the specified patient group without prior medical advice.",
+      "use with caution in": "The subject drug may pose safety risks or require medical supervision for patients who have the condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "potassium chloride",
+        "contraindicated in",
+        "allergy to potassium chloride"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or are allergic to the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "contraindicated in",
+        "high blood potassium levels"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or are allergic to the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "contraindicated in",
+        "use with potassium-sparing diuretics"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or are allergic to the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "contraindicated in",
+        "use with amiloride"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or are allergic to the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "contraindicated in",
+        "use with spironolactone"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or are allergic to the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "contraindicated in",
+        "use with triamterene"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or are allergic to the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "use with caution in",
+        "kidney disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "use with caution in",
+        "liver disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "use with caution in",
+        "adrenal gland disorder"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "use with caution in",
+        "large tissue injury"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "use with caution in",
+        "severe dehydration"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "use with caution in",
+        "diabetes"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "use with caution in",
+        "heart disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "use with caution in",
+        "high blood pressure"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "use with caution in",
+        "stomach or intestinal bleeding"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "use with caution in",
+        "blockage in stomach or intestines"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "use with caution in",
+        "chronic diarrhea"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may pose safety risks or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has pregnancy or breastfeeding warning",
+        "may harm unborn baby"
+       ],
+       "raw_relation": "has pregnancy warning",
+       "definition": "The subject drug may pose a risk to the developing fetus, and its use during pregnancy requires medical evaluation.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has pregnancy or breastfeeding warning",
+         0.8137
+        ],
+        [
+         "has serious side effect",
+         0.758
+        ],
+        [
+         "use with caution in",
+         0.7428
+        ],
+        [
+         "requires monitoring of",
+         0.7423
+        ],
+        [
+         "has warning",
+         0.7379
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "may require dose adjustment",
+        "during pregnancy"
+       ],
+       "raw_relation": "has dose adjustment instruction",
+       "definition": "The subject drug may require a modified dosage during the specified medical condition or life stage.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may require dose adjustment",
+         0.8685
+        ],
+        [
+         "has dose adjustment based on",
+         0.8352
+        ],
+        [
+         "has indication for initial dose",
+         0.83
+        ],
+        [
+         "has dose modification instruction",
+         0.825
+        ],
+        [
+         "has product variation",
+         0.8161
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "contraindicated in",
+        "children without medical advice"
+       ],
+       "raw_relation": "should not be given to",
+       "definition": "The subject drug should not be administered to the specified patient group without prior medical advice.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.8231
+        ],
+        [
+         "has repeat course interval restriction",
+         0.82
+        ],
+        [
+         "requires doctor consultation before discontinuation",
+         0.8023
+        ],
+        [
+         "has contraindicated route",
+         0.7841
+        ],
+        [
+         "should not be taken",
+         0.7773
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "potassium-chloride#dosage#0",
+     "section_id": "dosage",
+     "section_heading": "How should I take potassium chloride?",
+     "text": "Take potassium chloride exactly as prescribed by your doctor. Follow all directions on your prescription label and read all medication guides or instruction sheets. Your doctor may occasionally change your dose.\nRead and carefully follow any Instructions for Use provided with your medicine. Ask your doctor or pharmacist if you do not understand these instructions.\nTake potassium chloride with a full glass of water. Take potassium chloride with food or just after a meal.\nMeasure liquid medicine with the dosing syringe provided, or with a special dose-measuring spoon or medicine cup. If you do not have a dose-measuring device, ask your pharmacist for one.\nDo not crush, chew, or suck on a tablet or capsule. Sucking on the pill could irritate your mouth or throat.\nCall your doctor if you have trouble swallowing a potassium chloride capsule or tablet. You may be able to dissolve the tablet in water, or mix the medicine from a capsule with soft food. Carefully follow your doctor's instructions.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Potassium Chloride\", \"has administration instruction\", \"take exactly as prescribed by your doctor\"], [\"Potassium Chloride\", \"has administration instruction\", \"follow all directions on prescription label\"], [\"Potassium Chloride\", \"has administration instruction\", \"read all medication guides or instruction sheets\"], [\"Potassium Chloride\", \"has administration instruction\", \"read and carefully follow Instructions for Use\"], [\"Potassium Chloride\", \"has administration instruction\", \"take with a full glass of water\"], [\"Potassium Chloride\", \"has administration instruction\", \"take with food or just after a meal\"], [\"Potassium Chloride\", \"has administration instruction\", \"measure liquid medicine with dosing syringe or special dose-measuring spoon or medicine cup\"], [\"Potassium Chloride\", \"has administration instruction\", \"do not crush, chew, or suck on a tablet or capsule\"], [\"Potassium Chloride\", \"has administration instruction\", \"sucking on pill could irritate mouth or throat\"], [\"Potassium Chloride\", \"has administration instruction\", \"call doctor if have trouble swallowing capsule or tablet\"], [\"Potassium Chloride\", \"has administration instruction\", \"may be able to dissolve tablet in water or mix medicine from capsule with soft food\"], [\"Potassium Chloride\", \"has administration instruction\", \"carefully follow doctor's instructions\"], [\"Potassium Chloride\", \"has recommended dose\", \"may be changed by doctor\"]]",
+     "oie": [
+      [
+       "Potassium Chloride",
+       "has administration instruction",
+       "take exactly as prescribed by your doctor"
+      ],
+      [
+       "Potassium Chloride",
+       "has administration instruction",
+       "follow all directions on prescription label"
+      ],
+      [
+       "Potassium Chloride",
+       "has administration instruction",
+       "read all medication guides or instruction sheets"
+      ],
+      [
+       "Potassium Chloride",
+       "has administration instruction",
+       "read and carefully follow Instructions for Use"
+      ],
+      [
+       "Potassium Chloride",
+       "has administration instruction",
+       "take with a full glass of water"
+      ],
+      [
+       "Potassium Chloride",
+       "has administration instruction",
+       "take with food or just after a meal"
+      ],
+      [
+       "Potassium Chloride",
+       "has administration instruction",
+       "measure liquid medicine with dosing syringe or special dose-measuring spoon or medicine cup"
+      ],
+      [
+       "Potassium Chloride",
+       "has administration instruction",
+       "do not crush, chew, or suck on a tablet or capsule"
+      ],
+      [
+       "Potassium Chloride",
+       "has administration instruction",
+       "sucking on pill could irritate mouth or throat"
+      ],
+      [
+       "Potassium Chloride",
+       "has administration instruction",
+       "call doctor if have trouble swallowing capsule or tablet"
+      ],
+      [
+       "Potassium Chloride",
+       "has administration instruction",
+       "may be able to dissolve tablet in water or mix medicine from capsule with soft food"
+      ],
+      [
+       "Potassium Chloride",
+       "has administration instruction",
+       "carefully follow doctor's instructions"
+      ],
+      [
+       "Potassium Chloride",
+       "has recommended dose",
+       "may be changed by doctor"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+      "has recommended dose": "The recommended dose of the subject drug may be adjusted by the prescribing doctor as needed."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has administration instruction",
+        "take exactly as prescribed by your doctor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has administration instruction",
+        "follow all directions on prescription label"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has administration instruction",
+        "read all medication guides or instruction sheets"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has administration instruction",
+        "read and carefully follow Instructions for Use"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has administration instruction",
+        "take with a full glass of water"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has administration instruction",
+        "take with food or just after a meal"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has administration instruction",
+        "measure liquid medicine with dosing syringe or special dose-measuring spoon or medicine cup"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has administration instruction",
+        "do not crush, chew, or suck on a tablet or capsule"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has administration instruction",
+        "sucking on pill could irritate mouth or throat"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has administration instruction",
+        "call doctor if have trouble swallowing capsule or tablet"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has administration instruction",
+        "may be able to dissolve tablet in water or mix medicine from capsule with soft food"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has administration instruction",
+        "carefully follow doctor's instructions"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has recommended dose",
+        "may be changed by doctor"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The recommended dose of the subject drug may be adjusted by the prescribing doctor as needed.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "potassium-chloride#dosage#1",
+     "section_id": "dosage",
+     "section_heading": "How should I take potassium chloride?",
+     "text": "Mix the powder form of this medicine with at least 4 ounces (one-half cup) of cold water or fruit juice before taking. Drink the mixture slowly, over 5 to 10 minutes in all. To make sure you get the entire dose, add a little more water to the same glass, swirl gently and drink right away.\nTo be sure this medicine is helping your condition, you may need frequent blood tests. You may not notice any change in your symptoms, but your blood work will help your doctor determine how long to treat you with potassium chloride. Your heart function may need to be checked using an electrocardiograph or ECG (sometimes called an EKG). Even if you have no symptoms, tests can help your doctor determine if this medicine is effective.\nYour treatment may include a special diet. Follow the diet plan created for you by your doctor or nutrition counselor. Get familiar with the list of foods you should eat or avoid to help control your condition.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Potassium Chloride\", \"has administration instruction\", \"mix powder with at least 4 ounces of cold water or fruit juice\"], [\"Potassium Chloride\", \"has administration instruction\", \"drink mixture slowly over 5 to 10 minutes\"], [\"Potassium Chloride\", \"has administration instruction\", \"add more water to glass, swirl gently, and drink right away\"], [\"Potassium Chloride\", \"requires monitoring of\", \"blood levels\"], [\"Potassium Chloride\", \"has monitoring instruction\", \"frequent blood tests\"], [\"Potassium Chloride\", \"has monitoring instruction\", \"heart function using electrocardiograph or ECG\"], [\"Potassium Chloride\", \"has treatment component\", \"special diet\"], [\"Potassium Chloride\", \"has diet instruction\", \"follow diet plan created by doctor or nutrition counselor\"], [\"Potassium Chloride\", \"has diet instruction\", \"get familiar with list of foods to eat or avoid\"]]",
+     "oie": [
+      [
+       "Potassium Chloride",
+       "has administration instruction",
+       "mix powder with at least 4 ounces of cold water or fruit juice"
+      ],
+      [
+       "Potassium Chloride",
+       "has administration instruction",
+       "drink mixture slowly over 5 to 10 minutes"
+      ],
+      [
+       "Potassium Chloride",
+       "has administration instruction",
+       "add more water to glass, swirl gently, and drink right away"
+      ],
+      [
+       "Potassium Chloride",
+       "requires monitoring of",
+       "blood levels"
+      ],
+      [
+       "Potassium Chloride",
+       "has monitoring instruction",
+       "frequent blood tests"
+      ],
+      [
+       "Potassium Chloride",
+       "has monitoring instruction",
+       "heart function using electrocardiograph or ECG"
+      ],
+      [
+       "Potassium Chloride",
+       "has treatment component",
+       "special diet"
+      ],
+      [
+       "Potassium Chloride",
+       "has diet instruction",
+       "follow diet plan created by doctor or nutrition counselor"
+      ],
+      [
+       "Potassium Chloride",
+       "has diet instruction",
+       "get familiar with list of foods to eat or avoid"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject medication requires the specific steps or method specified by the object entity to be properly administered.",
+      "has diet instruction": "The subject medication includes instructions for patients to follow a specific diet as part of their treatment plan.",
+      "has monitoring instruction": "The subject medication requires the specified medical test or procedure to be performed to assess its effectiveness or safety.",
+      "has treatment component": "The subject medication includes the specified intervention or component as part of its overall treatment regimen.",
+      "requires monitoring of": "The subject medication necessitates regular assessment of the specified physiological parameter to ensure safe and effective treatment."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has administration instruction",
+        "mix powder with at least 4 ounces of cold water or fruit juice"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject medication requires the specific steps or method specified by the object entity to be properly administered.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has administration instruction",
+        "drink mixture slowly over 5 to 10 minutes"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject medication requires the specific steps or method specified by the object entity to be properly administered.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has administration instruction",
+        "add more water to glass, swirl gently, and drink right away"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject medication requires the specific steps or method specified by the object entity to be properly administered.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "requires monitoring of",
+        "blood levels"
+       ],
+       "raw_relation": "requires monitoring of",
+       "definition": "The subject medication necessitates regular assessment of the specified physiological parameter to ensure safe and effective treatment.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "requires monitoring of",
+        "frequent blood tests"
+       ],
+       "raw_relation": "has monitoring instruction",
+       "definition": "The subject medication requires the specified medical test or procedure to be performed to assess its effectiveness or safety.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires use of",
+         0.8807
+        ],
+        [
+         "requires monitoring of",
+         0.8633
+        ],
+        [
+         "use with caution in",
+         0.8024
+        ],
+        [
+         "requires patient to read",
+         0.7956
+        ],
+        [
+         "has indication for initial dose",
+         0.7783
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "requires monitoring of",
+        "heart function using electrocardiograph or ECG"
+       ],
+       "raw_relation": "has monitoring instruction",
+       "definition": "The subject medication requires the specified medical test or procedure to be performed to assess its effectiveness or safety.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires use of",
+         0.8807
+        ],
+        [
+         "requires monitoring of",
+         0.8633
+        ],
+        [
+         "use with caution in",
+         0.8024
+        ],
+        [
+         "requires patient to read",
+         0.7956
+        ],
+        [
+         "has indication for initial dose",
+         0.7783
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "used in combination with",
+        "special diet"
+       ],
+       "raw_relation": "has treatment component",
+       "definition": "The subject medication includes the specified intervention or component as part of its overall treatment regimen.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.8392
+        ],
+        [
+         "has recommended treatment for severe hypoglycemia",
+         0.82
+        ],
+        [
+         "used in combination with",
+         0.8138
+        ],
+        [
+         "has indication for initial dose",
+         0.8123
+        ],
+        [
+         "treats",
+         0.809
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "requires use of",
+        "follow diet plan created by doctor or nutrition counselor"
+       ],
+       "raw_relation": "has diet instruction",
+       "definition": "The subject medication includes instructions for patients to follow a specific diet as part of their treatment plan.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires use of",
+         0.7953
+        ],
+        [
+         "requires patient to read",
+         0.7815
+        ],
+        [
+         "has patient instruction",
+         0.7805
+        ],
+        [
+         "has recommended dose",
+         0.7742
+        ],
+        [
+         "has missed dose instruction",
+         0.7696
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "requires use of",
+        "get familiar with list of foods to eat or avoid"
+       ],
+       "raw_relation": "has diet instruction",
+       "definition": "The subject medication includes instructions for patients to follow a specific diet as part of their treatment plan.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires use of",
+         0.7953
+        ],
+        [
+         "requires patient to read",
+         0.7815
+        ],
+        [
+         "has patient instruction",
+         0.7805
+        ],
+        [
+         "has recommended dose",
+         0.7742
+        ],
+        [
+         "has missed dose instruction",
+         0.7696
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "potassium-chloride#dosage#2",
+     "section_id": "dosage",
+     "section_heading": "How should I take potassium chloride?",
+     "text": "Potassium-rich foods include: squash, baked potatoes (skin on), spinach, lentils, broccoli, Brussels sprouts, zucchini, kidney or navy beans, raisins, watermelon, orange juice, bananas, cantaloupe, and low-fat milk or yogurt. Consume only the daily amounts recommended by your doctor or nutrition counselor.\nSome tablets are made with a shell that is not absorbed or melted in the body. Part of this shell may appear in your stool. This is normal and will not make the medicine less effective.\nStore at room temperature away from moisture and heat. Keep the medication in a closed container.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"potassium chloride\", \"has food source\", \"squash\"], [\"potassium chloride\", \"has food source\", \"baked potatoes (skin on)\"], [\"potassium chloride\", \"has food source\", \"spinach\"], [\"potassium chloride\", \"has food source\", \"lentils\"], [\"potassium chloride\", \"has food source\", \"broccoli\"], [\"potassium chloride\", \"has food source\", \"Brussels sprouts\"], [\"potassium chloride\", \"has food source\", \"zucchini\"], [\"potassium chloride\", \"has food source\", \"kidney or navy beans\"], [\"potassium chloride\", \"has food source\", \"raisins\"], [\"potassium chloride\", \"has food source\", \"watermelon\"], [\"potassium chloride\", \"has food source\", \"orange juice\"], [\"potassium chloride\", \"has food source\", \"bananas\"], [\"potassium chloride\", \"has food source\", \"cantaloupe\"], [\"potassium chloride\", \"has food source\", \"low-fat milk or yogurt\"], [\"potassium chloride\", \"has administration instruction\", \"consume only daily amounts recommended by doctor or nutrition counselor\"], [\"potassium chloride\", \"has formulation feature\", \"shell not absorbed or melted in body\"], [\"potassium chloride\", \"has excretion feature\", \"part of shell may appear in stool\"], [\"potassium chloride\", \"has storage instruction\", \"store at room temperature away from moisture and heat\"], [\"potassium chloride\", \"has storage instruction\", \"keep in closed container\"]]",
+     "oie": [
+      [
+       "potassium chloride",
+       "has food source",
+       "squash"
+      ],
+      [
+       "potassium chloride",
+       "has food source",
+       "baked potatoes (skin on)"
+      ],
+      [
+       "potassium chloride",
+       "has food source",
+       "spinach"
+      ],
+      [
+       "potassium chloride",
+       "has food source",
+       "lentils"
+      ],
+      [
+       "potassium chloride",
+       "has food source",
+       "broccoli"
+      ],
+      [
+       "potassium chloride",
+       "has food source",
+       "Brussels sprouts"
+      ],
+      [
+       "potassium chloride",
+       "has food source",
+       "zucchini"
+      ],
+      [
+       "potassium chloride",
+       "has food source",
+       "kidney or navy beans"
+      ],
+      [
+       "potassium chloride",
+       "has food source",
+       "raisins"
+      ],
+      [
+       "potassium chloride",
+       "has food source",
+       "watermelon"
+      ],
+      [
+       "potassium chloride",
+       "has food source",
+       "orange juice"
+      ],
+      [
+       "potassium chloride",
+       "has food source",
+       "bananas"
+      ],
+      [
+       "potassium chloride",
+       "has food source",
+       "cantaloupe"
+      ],
+      [
+       "potassium chloride",
+       "has food source",
+       "low-fat milk or yogurt"
+      ],
+      [
+       "potassium chloride",
+       "has administration instruction",
+       "consume only daily amounts recommended by doctor or nutrition counselor"
+      ],
+      [
+       "potassium chloride",
+       "has formulation feature",
+       "shell not absorbed or melted in body"
+      ],
+      [
+       "potassium chloride",
+       "has excretion feature",
+       "part of shell may appear in stool"
+      ],
+      [
+       "potassium chloride",
+       "has storage instruction",
+       "store at room temperature away from moisture and heat"
+      ],
+      [
+       "potassium chloride",
+       "has storage instruction",
+       "keep in closed container"
+      ]
+     ],
+     "schema_definition": {
+      "has food source": "The subject nutrient or substance can be obtained from the food item specified by the object entity.",
+      "has administration instruction": "The subject substance should be consumed in the amount or manner specified by the object entity.",
+      "has excretion feature": "A portion of the subject substance or its formulation may be excreted in the stool as described by the object entity.",
+      "has formulation feature": "The subject substance has a specific physical or chemical characteristic in its formulation as described by the object entity.",
+      "has storage instruction": "The subject substance should be stored under the conditions specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "potassium chloride",
+        "has food source",
+        "squash"
+       ],
+       "raw_relation": "has food source",
+       "definition": "The subject nutrient or substance can be obtained from the food item specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.7884
+        ],
+        [
+         "can pass into",
+         0.7734
+        ],
+        [
+         "delivers",
+         0.7708
+        ],
+        [
+         "contains ingredient",
+         0.7698
+        ],
+        [
+         "has packaging detail",
+         0.7695
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has food source",
+        "baked potatoes (skin on)"
+       ],
+       "raw_relation": "has food source",
+       "definition": "The subject nutrient or substance can be obtained from the food item specified by the object entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.7884
+        ],
+        [
+         "can pass into",
+         0.7734
+        ],
+        [
+         "delivers",
+         0.7708
+        ],
+        [
+         "contains ingredient",
+         0.7698
+        ],
+        [
+         "has packaging detail",
+         0.7695
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has food source",
+        "spinach"
+       ],
+       "raw_relation": "has food source",
+       "definition": "The subject nutrient or substance can be obtained from the food item specified by the object entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.7884
+        ],
+        [
+         "can pass into",
+         0.7734
+        ],
+        [
+         "delivers",
+         0.7708
+        ],
+        [
+         "contains ingredient",
+         0.7698
+        ],
+        [
+         "has packaging detail",
+         0.7695
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has food source",
+        "lentils"
+       ],
+       "raw_relation": "has food source",
+       "definition": "The subject nutrient or substance can be obtained from the food item specified by the object entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.7884
+        ],
+        [
+         "can pass into",
+         0.7734
+        ],
+        [
+         "delivers",
+         0.7708
+        ],
+        [
+         "contains ingredient",
+         0.7698
+        ],
+        [
+         "has packaging detail",
+         0.7695
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has food source",
+        "broccoli"
+       ],
+       "raw_relation": "has food source",
+       "definition": "The subject nutrient or substance can be obtained from the food item specified by the object entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.7884
+        ],
+        [
+         "can pass into",
+         0.7734
+        ],
+        [
+         "delivers",
+         0.7708
+        ],
+        [
+         "contains ingredient",
+         0.7698
+        ],
+        [
+         "has packaging detail",
+         0.7695
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has food source",
+        "Brussels sprouts"
+       ],
+       "raw_relation": "has food source",
+       "definition": "The subject nutrient or substance can be obtained from the food item specified by the object entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.7884
+        ],
+        [
+         "can pass into",
+         0.7734
+        ],
+        [
+         "delivers",
+         0.7708
+        ],
+        [
+         "contains ingredient",
+         0.7698
+        ],
+        [
+         "has packaging detail",
+         0.7695
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has food source",
+        "zucchini"
+       ],
+       "raw_relation": "has food source",
+       "definition": "The subject nutrient or substance can be obtained from the food item specified by the object entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.7884
+        ],
+        [
+         "can pass into",
+         0.7734
+        ],
+        [
+         "delivers",
+         0.7708
+        ],
+        [
+         "contains ingredient",
+         0.7698
+        ],
+        [
+         "has packaging detail",
+         0.7695
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has food source",
+        "kidney or navy beans"
+       ],
+       "raw_relation": "has food source",
+       "definition": "The subject nutrient or substance can be obtained from the food item specified by the object entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.7884
+        ],
+        [
+         "can pass into",
+         0.7734
+        ],
+        [
+         "delivers",
+         0.7708
+        ],
+        [
+         "contains ingredient",
+         0.7698
+        ],
+        [
+         "has packaging detail",
+         0.7695
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has food source",
+        "raisins"
+       ],
+       "raw_relation": "has food source",
+       "definition": "The subject nutrient or substance can be obtained from the food item specified by the object entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.7884
+        ],
+        [
+         "can pass into",
+         0.7734
+        ],
+        [
+         "delivers",
+         0.7708
+        ],
+        [
+         "contains ingredient",
+         0.7698
+        ],
+        [
+         "has packaging detail",
+         0.7695
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has food source",
+        "watermelon"
+       ],
+       "raw_relation": "has food source",
+       "definition": "The subject nutrient or substance can be obtained from the food item specified by the object entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.7884
+        ],
+        [
+         "can pass into",
+         0.7734
+        ],
+        [
+         "delivers",
+         0.7708
+        ],
+        [
+         "contains ingredient",
+         0.7698
+        ],
+        [
+         "has packaging detail",
+         0.7695
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has food source",
+        "orange juice"
+       ],
+       "raw_relation": "has food source",
+       "definition": "The subject nutrient or substance can be obtained from the food item specified by the object entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.7884
+        ],
+        [
+         "can pass into",
+         0.7734
+        ],
+        [
+         "delivers",
+         0.7708
+        ],
+        [
+         "contains ingredient",
+         0.7698
+        ],
+        [
+         "has packaging detail",
+         0.7695
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has food source",
+        "bananas"
+       ],
+       "raw_relation": "has food source",
+       "definition": "The subject nutrient or substance can be obtained from the food item specified by the object entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.7884
+        ],
+        [
+         "can pass into",
+         0.7734
+        ],
+        [
+         "delivers",
+         0.7708
+        ],
+        [
+         "contains ingredient",
+         0.7698
+        ],
+        [
+         "has packaging detail",
+         0.7695
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has food source",
+        "cantaloupe"
+       ],
+       "raw_relation": "has food source",
+       "definition": "The subject nutrient or substance can be obtained from the food item specified by the object entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.7884
+        ],
+        [
+         "can pass into",
+         0.7734
+        ],
+        [
+         "delivers",
+         0.7708
+        ],
+        [
+         "contains ingredient",
+         0.7698
+        ],
+        [
+         "has packaging detail",
+         0.7695
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has food source",
+        "low-fat milk or yogurt"
+       ],
+       "raw_relation": "has food source",
+       "definition": "The subject nutrient or substance can be obtained from the food item specified by the object entity.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.7884
+        ],
+        [
+         "can pass into",
+         0.7734
+        ],
+        [
+         "delivers",
+         0.7708
+        ],
+        [
+         "contains ingredient",
+         0.7698
+        ],
+        [
+         "has packaging detail",
+         0.7695
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has administration instruction",
+        "consume only daily amounts recommended by doctor or nutrition counselor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject substance should be consumed in the amount or manner specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has inactive ingredient",
+        "shell not absorbed or melted in body"
+       ],
+       "raw_relation": "has formulation feature",
+       "definition": "The subject substance has a specific physical or chemical characteristic in its formulation as described by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has packaging detail",
+         0.8309
+        ],
+        [
+         "delivers",
+         0.8263
+        ],
+        [
+         "may have ph adjusted with",
+         0.8224
+        ],
+        [
+         "has dosage form",
+         0.8147
+        ],
+        [
+         "has inactive ingredient",
+         0.8139
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has inactive ingredient",
+        "part of shell may appear in stool"
+       ],
+       "raw_relation": "has excretion feature",
+       "definition": "A portion of the subject substance or its formulation may be excreted in the stool as described by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has inactive ingredient",
+         0.794
+        ],
+        [
+         "has metabolism pathway",
+         0.7934
+        ],
+        [
+         "can pass into",
+         0.7883
+        ],
+        [
+         "can occur with",
+         0.7814
+        ],
+        [
+         "delivers",
+         0.7696
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has storage instruction",
+        "store at room temperature away from moisture and heat"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject substance should be stored under the conditions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has storage instruction",
+        "keep in closed container"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject substance should be stored under the conditions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "potassium-chloride#missed-dose#0",
+     "section_id": "missed-dose",
+     "section_heading": "What happens if I miss a dose?",
+     "text": "Take the missed dose as soon as you remember. Skip the missed dose if it is almost time for your next scheduled dose. Do not take extra medicine to make up the missed dose.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"potassium chloride\", \"has missed dose instruction\", \"take as soon as remembered\"], [\"potassium chloride\", \"has missed dose instruction\", \"skip if nearly time for next dose\"], [\"potassium chloride\", \"has missed dose instruction\", \"do not take extra medicine\"]]",
+     "oie": [
+      [
+       "potassium chloride",
+       "has missed dose instruction",
+       "take as soon as remembered"
+      ],
+      [
+       "potassium chloride",
+       "has missed dose instruction",
+       "skip if nearly time for next dose"
+      ],
+      [
+       "potassium chloride",
+       "has missed dose instruction",
+       "do not take extra medicine"
+      ]
+     ],
+     "schema_definition": {
+      "has missed dose instruction": "The subject drug includes specific guidance on how to manage a missed dose, as specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "potassium chloride",
+        "has missed dose instruction",
+        "take as soon as remembered"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug includes specific guidance on how to manage a missed dose, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has missed dose instruction",
+        "skip if nearly time for next dose"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug includes specific guidance on how to manage a missed dose, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "potassium chloride",
+        "has missed dose instruction",
+        "do not take extra medicine"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug includes specific guidance on how to manage a missed dose, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "potassium-chloride#overdose#0",
+     "section_id": "overdose",
+     "section_heading": "What happens if I overdose?",
+     "text": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.\nOverdose symptoms may include irregular heartbeats, chest pain, or muscle weakness.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Potassium Chloride\", \"has overdose instruction\", \"seek emergency medical attention\"], [\"Potassium Chloride\", \"has overdose instruction\", \"call Poison Help line at 1-800-222-1222\"], [\"Potassium Chloride\", \"has overdose symptom\", \"irregular heartbeats\"], [\"Potassium Chloride\", \"has overdose symptom\", \"chest pain\"], [\"Potassium Chloride\", \"has overdose symptom\", \"muscle weakness\"]]",
+     "oie": [
+      [
+       "Potassium Chloride",
+       "has overdose instruction",
+       "seek emergency medical attention"
+      ],
+      [
+       "Potassium Chloride",
+       "has overdose instruction",
+       "call Poison Help line at 1-800-222-1222"
+      ],
+      [
+       "Potassium Chloride",
+       "has overdose symptom",
+       "irregular heartbeats"
+      ],
+      [
+       "Potassium Chloride",
+       "has overdose symptom",
+       "chest pain"
+      ],
+      [
+       "Potassium Chloride",
+       "has overdose symptom",
+       "muscle weakness"
+      ]
+     ],
+     "schema_definition": {
+      "has overdose instruction": "The subject drug requires the action specified by the object entity in case of overdose.",
+      "has overdose symptom": "An overdose of the subject drug may cause the symptom specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has overdose instruction",
+        "seek emergency medical attention"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has overdose instruction",
+        "call Poison Help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has overdose symptom",
+        "irregular heartbeats"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has overdose symptom",
+        "chest pain"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has overdose symptom",
+        "muscle weakness"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "potassium-chloride#what-to-avoid#0",
+     "section_id": "what-to-avoid",
+     "section_heading": "What to avoid",
+     "text": "Avoid taking supplements or using other products that contain potassium without first asking your doctor. Salt substitutes or low-salt dietary products often contain potassium. If you take certain products together you may accidentally get too much potassium. Read the label of any other medicine you are using to see if it contains potassium.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Potassium Chloride\", \"interacts with\", \"supplements containing potassium\"], [\"Potassium Chloride\", \"interacts with\", \"products containing potassium\"], [\"Potassium Chloride\", \"interacts with\", \"salt substitutes\"], [\"Potassium Chloride\", \"interacts with\", \"low-salt dietary products\"], [\"Potassium Chloride\", \"has warning\", \"risk of excessive potassium intake\"], [\"Potassium Chloride\", \"requires patient instruction\", \"read label of other medicines for potassium content\"]]",
+     "oie": [
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "supplements containing potassium"
+      ],
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "products containing potassium"
+      ],
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "salt substitutes"
+      ],
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "low-salt dietary products"
+      ],
+      [
+       "Potassium Chloride",
+       "has warning",
+       "risk of excessive potassium intake"
+      ],
+      [
+       "Potassium Chloride",
+       "requires patient instruction",
+       "read label of other medicines for potassium content"
+      ]
+     ],
+     "schema_definition": {
+      "has warning": "The subject substance carries a caution or alert regarding the potential for adverse effects, such as excessive intake of the specified component.",
+      "interacts with": "The subject substance may produce a harmful or unintended effect when combined with the specified products or substances.",
+      "requires patient instruction": "Patients should be informed and guided to take specific actions, such as checking labels, to avoid adverse outcomes when using the subject substance."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "supplements containing potassium"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject substance may produce a harmful or unintended effect when combined with the specified products or substances.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "products containing potassium"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject substance may produce a harmful or unintended effect when combined with the specified products or substances.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "salt substitutes"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject substance may produce a harmful or unintended effect when combined with the specified products or substances.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "low-salt dietary products"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject substance may produce a harmful or unintended effect when combined with the specified products or substances.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has warning",
+        "risk of excessive potassium intake"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject substance carries a caution or alert regarding the potential for adverse effects, such as excessive intake of the specified component.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "requires use of",
+        "read label of other medicines for potassium content"
+       ],
+       "raw_relation": "requires patient instruction",
+       "definition": "Patients should be informed and guided to take specific actions, such as checking labels, to avoid adverse outcomes when using the subject substance.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires use of",
+         0.7955
+        ],
+        [
+         "has overdose instruction",
+         0.7713
+        ],
+        [
+         "has missed dose instruction",
+         0.7675
+        ],
+        [
+         "use with caution in",
+         0.7674
+        ],
+        [
+         "requires monitoring of",
+         0.7608
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "potassium-chloride#side-effects#0",
+     "section_id": "side-effects",
+     "section_heading": "Potassium chloride side effects",
+     "text": "Get emergency medical help if you have signs of an allergic reaction to potassium chloride: hives; difficult breathing; swelling of your face, lips, tongue, or throat.\nStop using this medicine and call your doctor at once if you have:\n- severe throat irritation;\n- stomach bloating, severe vomiting, severe stomach pain;\n- high potassium level - nausea, weakness, tingly feeling, chest pain, irregular heartbeats, loss of movement; or\n- signs of stomach bleeding - bloody or tarry stools, coughing up blood or vomit that looks like coffee grounds.\nCommon potassium chloride side effects may include:\n- nausea, vomiting, diarrhea;\n- gas, stomach pain; or\n- the appearance of a potassium chloride tablet in your stool.\nThis is not a complete list of side effects and others may occur. Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[\n  [\"Potassium Chloride\", \"has serious side effect\", \"allergic reaction\"],\n  [\"Potassium Chloride\", \"has serious side effect\", \"hives\"],\n  [\"Potassium Chloride\", \"has serious side effect\", \"difficult breathing\"],\n  [\"Potassium Chloride\", \"has serious side effect\", \"swelling of face, lips, tongue, or throat\"],\n  [\"Potassium Chloride\", \"has side effect\", \"nausea\"],\n  [\"Potassium Chloride\", \"has side effect\", \"vomiting\"],\n  [\"Potassium Chloride\", \"has side effect\", \"diarrhea\"],\n  [\"Potassium Chloride\", \"has side effect\", \"gas\"],\n  [\"Potassium Chloride\", \"has side effect\", \"stomach pain\"],\n  [\"Potassium Chloride\", \"has side effect\", \"appearance of tablet in stool\"],\n  [\"Potassium Chloride\", \"has warning\", \"severe throat irritation\"],\n  [\"Potassium Chloride\", \"has warning\", \"stomach bloating\"],\n  [\"Potassium Chloride\", \"has warning\", \"severe vomiting\"],\n  [\"Potassium Chloride\", \"has warning\", \"severe stomach pain\"],\n  [\"Potassium Chloride\", \"has warning\", \"high potassium level\"],\n  [\"Potassium Chloride\", \"has warning\", \"weakness\"],\n  [\"Potassium Chloride\", \"has warning\", \"tingly feeling\"],\n  [\"Potassium Chloride\", \"has warning\", \"chest pain\"],\n  [\"Potassium Chloride\", \"has warning\", \"irregular heartbeats\"],\n  [\"Potassium Chloride\", \"has warning\", \"loss of movement\"],\n  [\"Potassium Chloride\", \"has warning\", \"signs of stomach bleeding\"],\n  [\"Potassium Chloride\", \"has warning\", \"bloody or tarry stools\"],\n  [\"Potassium Chloride\", \"has warning\", \"coughing up blood\"],\n  [\"Potassium Chloride\", \"has warning\", \"vomit that looks like coffee grounds\"],\n  [\"Potassium Chloride\", \"has instruction\", \"get emergency medical help for allergic reaction\"],\n  [\"Potassium Chloride\", \"has instruction\", \"stop use and call doctor immediately for severe throat irritation\"],\n  [\"Potassium Chloride\", \"has instruction\", \"stop use and call doctor immediately for stomach bloating, severe vomiting, severe stomach pain\"],\n  [\"Potassium Chloride\", \"has instruction\", \"stop use and call doctor immediately for high potassium level symptoms\"],\n  [\"Potassium Chloride\", \"has instruction\", \"stop use and call doctor immediately for signs of stomach bleeding\"],\n  [\"Potassium Chloride\", \"has instruction\", \"call doctor for medical advice about side effects\"],\n  [\"Potassium Chloride\", \"has instruction\", \"report side effects to FDA at 1-800-FDA-1088\"]\n]",
+     "oie": [
+      [
+       "Potassium Chloride",
+       "has serious side effect",
+       "allergic reaction"
+      ],
+      [
+       "Potassium Chloride",
+       "has serious side effect",
+       "hives"
+      ],
+      [
+       "Potassium Chloride",
+       "has serious side effect",
+       "difficult breathing"
+      ],
+      [
+       "Potassium Chloride",
+       "has serious side effect",
+       "swelling of face, lips, tongue, or throat"
+      ],
+      [
+       "Potassium Chloride",
+       "has side effect",
+       "nausea"
+      ],
+      [
+       "Potassium Chloride",
+       "has side effect",
+       "vomiting"
+      ],
+      [
+       "Potassium Chloride",
+       "has side effect",
+       "diarrhea"
+      ],
+      [
+       "Potassium Chloride",
+       "has side effect",
+       "gas"
+      ],
+      [
+       "Potassium Chloride",
+       "has side effect",
+       "stomach pain"
+      ],
+      [
+       "Potassium Chloride",
+       "has side effect",
+       "appearance of tablet in stool"
+      ],
+      [
+       "Potassium Chloride",
+       "has warning",
+       "severe throat irritation"
+      ],
+      [
+       "Potassium Chloride",
+       "has warning",
+       "stomach bloating"
+      ],
+      [
+       "Potassium Chloride",
+       "has warning",
+       "severe vomiting"
+      ],
+      [
+       "Potassium Chloride",
+       "has warning",
+       "severe stomach pain"
+      ],
+      [
+       "Potassium Chloride",
+       "has warning",
+       "high potassium level"
+      ],
+      [
+       "Potassium Chloride",
+       "has warning",
+       "weakness"
+      ],
+      [
+       "Potassium Chloride",
+       "has warning",
+       "tingly feeling"
+      ],
+      [
+       "Potassium Chloride",
+       "has warning",
+       "chest pain"
+      ],
+      [
+       "Potassium Chloride",
+       "has warning",
+       "irregular heartbeats"
+      ],
+      [
+       "Potassium Chloride",
+       "has warning",
+       "loss of movement"
+      ],
+      [
+       "Potassium Chloride",
+       "has warning",
+       "signs of stomach bleeding"
+      ],
+      [
+       "Potassium Chloride",
+       "has warning",
+       "bloody or tarry stools"
+      ],
+      [
+       "Potassium Chloride",
+       "has warning",
+       "coughing up blood"
+      ],
+      [
+       "Potassium Chloride",
+       "has warning",
+       "vomit that looks like coffee grounds"
+      ],
+      [
+       "Potassium Chloride",
+       "has instruction",
+       "get emergency medical help for allergic reaction"
+      ],
+      [
+       "Potassium Chloride",
+       "has instruction",
+       "stop use and call doctor immediately for severe throat irritation"
+      ],
+      [
+       "Potassium Chloride",
+       "has instruction",
+       "stop use and call doctor immediately for stomach bloating, severe vomiting, severe stomach pain"
+      ],
+      [
+       "Potassium Chloride",
+       "has instruction",
+       "stop use and call doctor immediately for high potassium level symptoms"
+      ],
+      [
+       "Potassium Chloride",
+       "has instruction",
+       "stop use and call doctor immediately for signs of stomach bleeding"
+      ],
+      [
+       "Potassium Chloride",
+       "has instruction",
+       "call doctor for medical advice about side effects"
+      ],
+      [
+       "Potassium Chloride",
+       "has instruction",
+       "report side effects to FDA at 1-800-FDA-1088"
+      ]
+     ],
+     "schema_definition": {
+      "has instruction": "The subject drug includes specific actions or steps that patients should follow in response to certain conditions or symptoms involving the drug.",
+      "has serious side effect": "The subject drug may cause the serious or potentially life-threatening adverse effect specified by the object entity.",
+      "has side effect": "The subject drug may cause the adverse effect specified by the object entity, which is typically less severe than a serious side effect.",
+      "has warning": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or symptom specified by the object entity, indicating the need for medical attention or monitoring."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially life-threatening adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has serious side effect",
+        "hives"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially life-threatening adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has serious side effect",
+        "difficult breathing"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially life-threatening adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has serious side effect",
+        "swelling of face, lips, tongue, or throat"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially life-threatening adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has side effect",
+        "nausea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity, which is typically less severe than a serious side effect.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has side effect",
+        "vomiting"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity, which is typically less severe than a serious side effect.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has side effect",
+        "diarrhea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity, which is typically less severe than a serious side effect.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has side effect",
+        "gas"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity, which is typically less severe than a serious side effect.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has side effect",
+        "stomach pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity, which is typically less severe than a serious side effect.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has side effect",
+        "appearance of tablet in stool"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity, which is typically less severe than a serious side effect.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has warning",
+        "severe throat irritation"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or symptom specified by the object entity, indicating the need for medical attention or monitoring.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has warning",
+        "stomach bloating"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or symptom specified by the object entity, indicating the need for medical attention or monitoring.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has warning",
+        "severe vomiting"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or symptom specified by the object entity, indicating the need for medical attention or monitoring.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has warning",
+        "severe stomach pain"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or symptom specified by the object entity, indicating the need for medical attention or monitoring.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has warning",
+        "high potassium level"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or symptom specified by the object entity, indicating the need for medical attention or monitoring.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has warning",
+        "weakness"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or symptom specified by the object entity, indicating the need for medical attention or monitoring.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has warning",
+        "tingly feeling"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or symptom specified by the object entity, indicating the need for medical attention or monitoring.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has warning",
+        "chest pain"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or symptom specified by the object entity, indicating the need for medical attention or monitoring.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has warning",
+        "irregular heartbeats"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or symptom specified by the object entity, indicating the need for medical attention or monitoring.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has warning",
+        "loss of movement"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or symptom specified by the object entity, indicating the need for medical attention or monitoring.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has warning",
+        "signs of stomach bleeding"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or symptom specified by the object entity, indicating the need for medical attention or monitoring.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has warning",
+        "bloody or tarry stools"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or symptom specified by the object entity, indicating the need for medical attention or monitoring.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has warning",
+        "coughing up blood"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or symptom specified by the object entity, indicating the need for medical attention or monitoring.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has warning",
+        "vomit that looks like coffee grounds"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or symptom specified by the object entity, indicating the need for medical attention or monitoring.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has instruction",
+        "get emergency medical help for allergic reaction"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug includes specific actions or steps that patients should follow in response to certain conditions or symptoms involving the drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has instruction",
+        "stop use and call doctor immediately for severe throat irritation"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug includes specific actions or steps that patients should follow in response to certain conditions or symptoms involving the drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has instruction",
+        "stop use and call doctor immediately for stomach bloating, severe vomiting, severe stomach pain"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug includes specific actions or steps that patients should follow in response to certain conditions or symptoms involving the drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has instruction",
+        "stop use and call doctor immediately for high potassium level symptoms"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug includes specific actions or steps that patients should follow in response to certain conditions or symptoms involving the drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has instruction",
+        "stop use and call doctor immediately for signs of stomach bleeding"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug includes specific actions or steps that patients should follow in response to certain conditions or symptoms involving the drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has instruction",
+        "call doctor for medical advice about side effects"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug includes specific actions or steps that patients should follow in response to certain conditions or symptoms involving the drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has instruction",
+        "report side effects to FDA at 1-800-FDA-1088"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug includes specific actions or steps that patients should follow in response to certain conditions or symptoms involving the drug.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "potassium-chloride#interactions#0",
+     "section_id": "interactions",
+     "section_heading": "What other drugs will affect potassium chloride?",
+     "text": "Tell your doctor about all your current medicines and any you start or stop using, especially:\n- a diuretic or \"water pill\"; or\n- heart or blood pressure medication.\n- NSAIDs (nonsteroidal anti-inflammatory drugs) such as aspirin, ibuprofen, naproxen, celecoxib, diclofenac, indomethacin, or meloxicam.\nThis list is not complete. Other drugs may interact with potassium chloride, including prescription and over-the-counter medicines, vitamins, and herbal products. Not all possible interactions are listed in this medication guide.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Potassium Chloride\", \"interacts with\", \"diuretics\"], [\"Potassium Chloride\", \"interacts with\", \"heart medication\"], [\"Potassium Chloride\", \"interacts with\", \"blood pressure medication\"], [\"Potassium Chloride\", \"interacts with\", \"NSAIDs\"], [\"Potassium Chloride\", \"interacts with\", \"aspirin\"], [\"Potassium Chloride\", \"interacts with\", \"ibuprofen\"], [\"Potassium Chloride\", \"interacts with\", \"naproxen\"], [\"Potassium Chloride\", \"interacts with\", \"celecoxib\"], [\"Potassium Chloride\", \"interacts with\", \"diclofenac\"], [\"Potassium Chloride\", \"interacts with\", \"indomethacin\"], [\"Potassium Chloride\", \"interacts with\", \"meloxicam\"], [\"Potassium Chloride\", \"has interaction warning\", \"not all possible interactions are listed\"], [\"Potassium Chloride\", \"interacts with\", \"prescription medicines\"], [\"Potassium Chloride\", \"interacts with\", \"over-the-counter medicines\"], [\"Potassium Chloride\", \"interacts with\", \"vitamins\"], [\"Potassium Chloride\", \"interacts with\", \"herbal products\"]]",
+     "oie": [
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "diuretics"
+      ],
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "heart medication"
+      ],
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "blood pressure medication"
+      ],
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "NSAIDs"
+      ],
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "aspirin"
+      ],
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "ibuprofen"
+      ],
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "naproxen"
+      ],
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "celecoxib"
+      ],
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "diclofenac"
+      ],
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "indomethacin"
+      ],
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "meloxicam"
+      ],
+      [
+       "Potassium Chloride",
+       "has interaction warning",
+       "not all possible interactions are listed"
+      ],
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "prescription medicines"
+      ],
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "over-the-counter medicines"
+      ],
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "vitamins"
+      ],
+      [
+       "Potassium Chloride",
+       "interacts with",
+       "herbal products"
+      ]
+     ],
+     "schema_definition": {
+      "interacts with": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+      "has interaction warning": "The subject drug has a warning that not all possible drug interactions are listed, and caution is advised when combining it with other medications."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "diuretics"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "heart medication"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "blood pressure medication"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "NSAIDs"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "aspirin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "ibuprofen"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "naproxen"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "celecoxib"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "diclofenac"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "indomethacin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "meloxicam"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "has incomplete interaction list",
+        "not all possible interactions are listed"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject drug has a warning that not all possible drug interactions are listed, and caution is advised when combining it with other medications.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has incomplete interaction list",
+         0.8257
+        ],
+        [
+         "has patient instruction",
+         0.8246
+        ],
+        [
+         "has off label use",
+         0.8065
+        ],
+        [
+         "may require dose adjustment",
+         0.7689
+        ],
+        [
+         "has unclear mechanism of action",
+         0.7667
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "prescription medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "over-the-counter medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "vitamins"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Potassium Chloride",
+        "interacts with",
+        "herbal products"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or class of substances specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "potassium-chloride#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "potassium chloride",
+    "treats",
+    "low blood potassium"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "potassium chloride",
+    "reduces risk of",
+    "hypokalemia"
+   ],
+   "raw_relation": "used to prevent",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "potassium-chloride#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "hypokalemia",
+    "caused by",
+    "disease"
+   ],
+   "raw_relation": "caused by",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "potassium-chloride#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "hypokalemia",
+    "has side effect",
+    "certain medicines"
+   ],
+   "raw_relation": "caused by",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "potassium-chloride#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "hypokalemia",
+    "caused by",
+    "prolonged illness with diarrhea or vomiting"
+   ],
+   "raw_relation": "caused by",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Potassium Chloride",
+    "contraindicated in",
+    "hyperkalemia"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "potassium-sparing diuretics"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Potassium Chloride",
+    "requires monitoring of",
+    "blood potassium levels"
+   ],
+   "raw_relation": "requires monitoring of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Potassium Chloride",
+    "requires monitoring of",
+    "heart rate"
+   ],
+   "raw_relation": "requires monitoring of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Potassium Chloride",
+    "has administration instruction",
+    "do not miss scheduled appointments"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Potassium Chloride",
+    "has serious side effect",
+    "uneven heartbeat"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Potassium Chloride",
+    "has serious side effect",
+    "muscle weakness or limp feeling"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Potassium Chloride",
+    "has serious side effect",
+    "severe stomach pain"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Potassium Chloride",
+    "has serious side effect",
+    "numbness or tingling in hands, feet, or mouth"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Potassium Chloride",
+    "has warning",
+    "do not stop taking without consulting doctor"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Potassium Chloride",
+    "has warning",
+    "condition may worsen if stopped suddenly"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "potassium chloride",
+    "has administration instruction",
+    "swallow whole unless doctor or pharmacist specifies"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "potassium chloride",
+    "should not be taken",
+    "crushed"
+   ],
+   "raw_relation": "should not be",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "potassium-chloride#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "potassium chloride",
+    "should not be taken",
+    "chewed"
+   ],
+   "raw_relation": "should not be",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "potassium-chloride#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "potassium chloride",
+    "should not be taken",
+    "sucked on"
+   ],
+   "raw_relation": "should not be",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "potassium-chloride#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "potassium chloride",
+    "has administration instruction",
+    "take with food or just after a meal"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "contraindicated in",
+    "allergy to potassium chloride"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "contraindicated in",
+    "high blood potassium levels"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "contraindicated in",
+    "use with potassium-sparing diuretics"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "contraindicated in",
+    "use with amiloride"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "contraindicated in",
+    "use with spironolactone"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "contraindicated in",
+    "use with triamterene"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "use with caution in",
+    "kidney disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "use with caution in",
+    "liver disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "use with caution in",
+    "adrenal gland disorder"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "use with caution in",
+    "large tissue injury"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "use with caution in",
+    "severe dehydration"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "use with caution in",
+    "diabetes"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "use with caution in",
+    "heart disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "use with caution in",
+    "high blood pressure"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "use with caution in",
+    "stomach or intestinal bleeding"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "use with caution in",
+    "blockage in stomach or intestines"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "use with caution in",
+    "chronic diarrhea"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "has pregnancy or breastfeeding warning",
+    "may harm unborn baby"
+   ],
+   "raw_relation": "has pregnancy warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "may require dose adjustment",
+    "during pregnancy"
+   ],
+   "raw_relation": "has dose adjustment instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "potassium-chloride#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "potassium chloride",
+    "contraindicated in",
+    "children without medical advice"
+   ],
+   "raw_relation": "should not be given to",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "has administration instruction",
+    "take exactly as prescribed by your doctor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "has administration instruction",
+    "follow all directions on prescription label"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "has administration instruction",
+    "read all medication guides or instruction sheets"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "has administration instruction",
+    "read and carefully follow Instructions for Use"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "has administration instruction",
+    "take with a full glass of water"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "has administration instruction",
+    "take with food or just after a meal"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "has administration instruction",
+    "measure liquid medicine with dosing syringe or special dose-measuring spoon or medicine cup"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "has administration instruction",
+    "do not crush, chew, or suck on a tablet or capsule"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "has administration instruction",
+    "sucking on pill could irritate mouth or throat"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "has administration instruction",
+    "call doctor if have trouble swallowing capsule or tablet"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "has administration instruction",
+    "may be able to dissolve tablet in water or mix medicine from capsule with soft food"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "has administration instruction",
+    "carefully follow doctor's instructions"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "has recommended dose",
+    "may be changed by doctor"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "has administration instruction",
+    "mix powder with at least 4 ounces of cold water or fruit juice"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "has administration instruction",
+    "drink mixture slowly over 5 to 10 minutes"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "has administration instruction",
+    "add more water to glass, swirl gently, and drink right away"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "requires monitoring of",
+    "blood levels"
+   ],
+   "raw_relation": "requires monitoring of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "requires monitoring of",
+    "frequent blood tests"
+   ],
+   "raw_relation": "has monitoring instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "requires monitoring of",
+    "heart function using electrocardiograph or ECG"
+   ],
+   "raw_relation": "has monitoring instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "used in combination with",
+    "special diet"
+   ],
+   "raw_relation": "has treatment component",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "requires use of",
+    "follow diet plan created by doctor or nutrition counselor"
+   ],
+   "raw_relation": "has diet instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Potassium Chloride",
+    "requires use of",
+    "get familiar with list of foods to eat or avoid"
+   ],
+   "raw_relation": "has diet instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "potassium chloride",
+    "has food source",
+    "squash"
+   ],
+   "raw_relation": "has food source",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "potassium chloride",
+    "has food source",
+    "baked potatoes (skin on)"
+   ],
+   "raw_relation": "has food source",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "potassium chloride",
+    "has food source",
+    "spinach"
+   ],
+   "raw_relation": "has food source",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "potassium chloride",
+    "has food source",
+    "lentils"
+   ],
+   "raw_relation": "has food source",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "potassium chloride",
+    "has food source",
+    "broccoli"
+   ],
+   "raw_relation": "has food source",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "potassium chloride",
+    "has food source",
+    "Brussels sprouts"
+   ],
+   "raw_relation": "has food source",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "potassium chloride",
+    "has food source",
+    "zucchini"
+   ],
+   "raw_relation": "has food source",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "potassium chloride",
+    "has food source",
+    "kidney or navy beans"
+   ],
+   "raw_relation": "has food source",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "potassium chloride",
+    "has food source",
+    "raisins"
+   ],
+   "raw_relation": "has food source",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "potassium chloride",
+    "has food source",
+    "watermelon"
+   ],
+   "raw_relation": "has food source",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "potassium chloride",
+    "has food source",
+    "orange juice"
+   ],
+   "raw_relation": "has food source",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "potassium chloride",
+    "has food source",
+    "bananas"
+   ],
+   "raw_relation": "has food source",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "potassium chloride",
+    "has food source",
+    "cantaloupe"
+   ],
+   "raw_relation": "has food source",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "potassium chloride",
+    "has food source",
+    "low-fat milk or yogurt"
+   ],
+   "raw_relation": "has food source",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "potassium chloride",
+    "has administration instruction",
+    "consume only daily amounts recommended by doctor or nutrition counselor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "potassium chloride",
+    "has inactive ingredient",
+    "shell not absorbed or melted in body"
+   ],
+   "raw_relation": "has formulation feature",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "potassium chloride",
+    "has inactive ingredient",
+    "part of shell may appear in stool"
+   ],
+   "raw_relation": "has excretion feature",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "potassium chloride",
+    "has storage instruction",
+    "store at room temperature away from moisture and heat"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "potassium chloride",
+    "has storage instruction",
+    "keep in closed container"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "potassium chloride",
+    "has missed dose instruction",
+    "take as soon as remembered"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "potassium chloride",
+    "has missed dose instruction",
+    "skip if nearly time for next dose"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "potassium chloride",
+    "has missed dose instruction",
+    "do not take extra medicine"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "Potassium Chloride",
+    "has overdose instruction",
+    "seek emergency medical attention"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "Potassium Chloride",
+    "has overdose instruction",
+    "call Poison Help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "Potassium Chloride",
+    "has overdose symptom",
+    "irregular heartbeats"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "Potassium Chloride",
+    "has overdose symptom",
+    "chest pain"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "Potassium Chloride",
+    "has overdose symptom",
+    "muscle weakness"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "supplements containing potassium"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "products containing potassium"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "salt substitutes"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "low-salt dietary products"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Potassium Chloride",
+    "has warning",
+    "risk of excessive potassium intake"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Potassium Chloride",
+    "requires use of",
+    "read label of other medicines for potassium content"
+   ],
+   "raw_relation": "requires patient instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has serious side effect",
+    "hives"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has serious side effect",
+    "difficult breathing"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has serious side effect",
+    "swelling of face, lips, tongue, or throat"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has side effect",
+    "nausea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has side effect",
+    "vomiting"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has side effect",
+    "diarrhea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has side effect",
+    "gas"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has side effect",
+    "stomach pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has side effect",
+    "appearance of tablet in stool"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has warning",
+    "severe throat irritation"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has warning",
+    "stomach bloating"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has warning",
+    "severe vomiting"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has warning",
+    "severe stomach pain"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has warning",
+    "high potassium level"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has warning",
+    "weakness"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has warning",
+    "tingly feeling"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has warning",
+    "chest pain"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has warning",
+    "irregular heartbeats"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has warning",
+    "loss of movement"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has warning",
+    "signs of stomach bleeding"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has warning",
+    "bloody or tarry stools"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has warning",
+    "coughing up blood"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has warning",
+    "vomit that looks like coffee grounds"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has instruction",
+    "get emergency medical help for allergic reaction"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has instruction",
+    "stop use and call doctor immediately for severe throat irritation"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has instruction",
+    "stop use and call doctor immediately for stomach bloating, severe vomiting, severe stomach pain"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has instruction",
+    "stop use and call doctor immediately for high potassium level symptoms"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has instruction",
+    "stop use and call doctor immediately for signs of stomach bleeding"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has instruction",
+    "call doctor for medical advice about side effects"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Potassium Chloride",
+    "has instruction",
+    "report side effects to FDA at 1-800-FDA-1088"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "diuretics"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "heart medication"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "blood pressure medication"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "NSAIDs"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "aspirin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "ibuprofen"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "naproxen"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "celecoxib"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "diclofenac"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "indomethacin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "meloxicam"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Potassium Chloride",
+    "has incomplete interaction list",
+    "not all possible interactions are listed"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "potassium-chloride#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "prescription medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "over-the-counter medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "vitamins"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "potassium-chloride#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Potassium Chloride",
+    "interacts with",
+    "herbal products"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  }
+ ],
+ "name": "Potassium Chloride",
+ "slug": "potassium-chloride",
+ "n_chunks": 12,
+ "seconds": 13.4,
+ "llm_model": "drugkg-llm"
+}

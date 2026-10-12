@@ -1,0 +1,6440 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "flonase#uses#0",
+     "section_id": "uses",
+     "section_heading": "What is Flonase?",
+     "text": "Flonase is a nasal spray containing fluticasone propionate. Fluticasone propionate is a corticosteroid that reduces inflammation in the lining of the nose.\nFlonase Nasal Spray is used to treat nasal congestion, sneezing, runny nose, and itchy or watery eyes caused by seasonal or year-round allergies.\nFlonase Allergy Relief is for use in adults and children who are at least 4 years old and is available without a prescription. Children's Flonase Allergy Relief contains the same medicine and is also for ages 4 and older.\nFlonase Sensimist contains fluticasone furoate rather than fluticasone propionate and is approved for use in adults and children 2 years of age and older. Children's Flonase Sensimist is also for ages 2 and older. In Flonase Sensimist labeling, relief of itchy, watery eyes applies to ages 12 and older.\nThe brand-name prescription version of Flonase nasal spray has been discontinued in the United States. Generic fluticasone propionate nasal spray is still available by prescription, and over-the-counter Flonase products and store brands remain on the market.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Flonase Nasal Spray\", \"has active ingredient\", \"fluticasone propionate\"], [\"fluticasone propionate\", \"has drug class\", \"corticosteroid\"], [\"fluticasone propionate\", \"reduces\", \"nasal inflammation\"], [\"Flonase Nasal Spray\", \"treats\", \"nasal congestion\"], [\"Flonase Nasal Spray\", \"treats\", \"sneezing\"], [\"Flonase Nasal Spray\", \"treats\", \"runny nose\"], [\"Flonase Nasal Spray\", \"treats\", \"itchy or watery eyes\"], [\"Flonase Allergy Relief\", \"has intended use population\", \"adults and children at least 4 years old\"], [\"Children's Flonase Allergy Relief\", \"has intended use population\", \"children at least 4 years old\"], [\"Flonase Sensimist\", \"has active ingredient\", \"fluticasone furoate\"], [\"Flonase Sensimist\", \"has intended use population\", \"adults and children 2 years of age and older\"], [\"Children's Flonase Sensimist\", \"has intended use population\", \"children 2 years of age and older\"], [\"Flonase Sensimist\", \"treats\", \"itchy watery eyes\"], [\"Flonase Sensimist\", \"treats itchy watery eyes\", \"ages 12 and older\"], [\"Flonase Nasal Spray\", \"has availability status\", \"prescription only\"], [\"generic fluticasone propionate nasal spray\", \"has availability status\", \"available by prescription\"], [\"over-the-counter Flonase products\", \"has availability status\", \"available without prescription\"], [\"store brands\", \"has availability status\", \"available without prescription\"], [\"Flonase Nasal Spray\", \"has brand status\", \"discontinued in United States\"]]",
+     "oie": [
+      [
+       "Flonase Nasal Spray",
+       "has active ingredient",
+       "fluticasone propionate"
+      ],
+      [
+       "fluticasone propionate",
+       "has drug class",
+       "corticosteroid"
+      ],
+      [
+       "fluticasone propionate",
+       "reduces",
+       "nasal inflammation"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "treats",
+       "nasal congestion"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "treats",
+       "sneezing"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "treats",
+       "runny nose"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "treats",
+       "itchy or watery eyes"
+      ],
+      [
+       "Flonase Allergy Relief",
+       "has intended use population",
+       "adults and children at least 4 years old"
+      ],
+      [
+       "Children's Flonase Allergy Relief",
+       "has intended use population",
+       "children at least 4 years old"
+      ],
+      [
+       "Flonase Sensimist",
+       "has active ingredient",
+       "fluticasone furoate"
+      ],
+      [
+       "Flonase Sensimist",
+       "has intended use population",
+       "adults and children 2 years of age and older"
+      ],
+      [
+       "Children's Flonase Sensimist",
+       "has intended use population",
+       "children 2 years of age and older"
+      ],
+      [
+       "Flonase Sensimist",
+       "treats",
+       "itchy watery eyes"
+      ],
+      [
+       "Flonase Sensimist",
+       "treats itchy watery eyes",
+       "ages 12 and older"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has availability status",
+       "prescription only"
+      ],
+      [
+       "generic fluticasone propionate nasal spray",
+       "has availability status",
+       "available by prescription"
+      ],
+      [
+       "over-the-counter Flonase products",
+       "has availability status",
+       "available without prescription"
+      ],
+      [
+       "store brands",
+       "has availability status",
+       "available without prescription"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has brand status",
+       "discontinued in United States"
+      ]
+     ],
+     "schema_definition": {
+      "has active ingredient": "The subject drug contains the active pharmaceutical ingredient specified by the object entity.",
+      "has availability status": "The subject drug is available in the market under the specified availability condition.",
+      "has brand status": "The subject drug's brand status in the specified region indicates whether it is discontinued or still available.",
+      "has drug class": "The subject drug belongs to the pharmacological class specified by the object entity.",
+      "has intended use population": "The subject drug is intended for use in the specified age group or population.",
+      "reduces": "The subject drug is used to decrease or alleviate the severity of the condition or inflammation specified by the object entity.",
+      "treats": "The subject drug is used to manage or relieve the symptoms of the medical condition specified by the object entity.",
+      "treats itchy watery eyes": "The subject drug provides relief from itchy and watery eyes, with the specified age group being the target for this effect."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "contains ingredient",
+        "fluticasone propionate"
+       ],
+       "raw_relation": "has active ingredient",
+       "definition": "The subject drug contains the active pharmaceutical ingredient specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contains ingredient",
+         0.9784
+        ],
+        [
+         "has inactive ingredient",
+         0.9277
+        ],
+        [
+         "has dosage form",
+         0.9086
+        ],
+        [
+         "manufactured by",
+         0.8969
+        ],
+        [
+         "has packaging detail",
+         0.8885
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "fluticasone propionate",
+        "belongs to drug class",
+        "corticosteroid"
+       ],
+       "raw_relation": "has drug class",
+       "definition": "The subject drug belongs to the pharmacological class specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "belongs to drug class",
+         0.9666
+        ],
+        [
+         "has dosage form",
+         0.8764
+        ],
+        [
+         "similar to",
+         0.8671
+        ],
+        [
+         "treats",
+         0.866
+        ],
+        [
+         "has controlled substance schedule",
+         0.8656
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "fluticasone propionate",
+        "treats",
+        "nasal inflammation"
+       ],
+       "raw_relation": "reduces",
+       "definition": "The subject drug is used to decrease or alleviate the severity of the condition or inflammation specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "treats",
+         0.8876
+        ],
+        [
+         "reduces risk of",
+         0.8737
+        ],
+        [
+         "may reduce response to",
+         0.863
+        ],
+        [
+         "lowers level of",
+         0.8489
+        ],
+        [
+         "has side effect",
+         0.835
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "treats",
+        "nasal congestion"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or relieve the symptoms of the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "treats",
+        "sneezing"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or relieve the symptoms of the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "treats",
+        "runny nose"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or relieve the symptoms of the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "treats",
+        "itchy or watery eyes"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or relieve the symptoms of the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Allergy Relief",
+        "used in population",
+        "adults and children at least 4 years old"
+       ],
+       "raw_relation": "has intended use population",
+       "definition": "The subject drug is intended for use in the specified age group or population.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.9217
+        ],
+        [
+         "has risk variation by age group",
+         0.8264
+        ],
+        [
+         "has indication for initial dose",
+         0.8158
+        ],
+        [
+         "reduces risk of",
+         0.798
+        ],
+        [
+         "requires use of",
+         0.798
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Children's Flonase Allergy Relief",
+        "used in population",
+        "children at least 4 years old"
+       ],
+       "raw_relation": "has intended use population",
+       "definition": "The subject drug is intended for use in the specified age group or population.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.9217
+        ],
+        [
+         "has risk variation by age group",
+         0.8264
+        ],
+        [
+         "has indication for initial dose",
+         0.8158
+        ],
+        [
+         "reduces risk of",
+         0.798
+        ],
+        [
+         "requires use of",
+         0.798
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Sensimist",
+        "contains ingredient",
+        "fluticasone furoate"
+       ],
+       "raw_relation": "has active ingredient",
+       "definition": "The subject drug contains the active pharmaceutical ingredient specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contains ingredient",
+         0.9784
+        ],
+        [
+         "has inactive ingredient",
+         0.9277
+        ],
+        [
+         "has dosage form",
+         0.9086
+        ],
+        [
+         "manufactured by",
+         0.8969
+        ],
+        [
+         "has packaging detail",
+         0.8885
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Sensimist",
+        "used in population",
+        "adults and children 2 years of age and older"
+       ],
+       "raw_relation": "has intended use population",
+       "definition": "The subject drug is intended for use in the specified age group or population.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.9217
+        ],
+        [
+         "has risk variation by age group",
+         0.8264
+        ],
+        [
+         "has indication for initial dose",
+         0.8158
+        ],
+        [
+         "reduces risk of",
+         0.798
+        ],
+        [
+         "requires use of",
+         0.798
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Children's Flonase Sensimist",
+        "used in population",
+        "children 2 years of age and older"
+       ],
+       "raw_relation": "has intended use population",
+       "definition": "The subject drug is intended for use in the specified age group or population.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.9217
+        ],
+        [
+         "has risk variation by age group",
+         0.8264
+        ],
+        [
+         "has indication for initial dose",
+         0.8158
+        ],
+        [
+         "reduces risk of",
+         0.798
+        ],
+        [
+         "requires use of",
+         0.798
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Sensimist",
+        "treats",
+        "itchy watery eyes"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or relieve the symptoms of the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Sensimist",
+        "treats",
+        "ages 12 and older"
+       ],
+       "raw_relation": "treats itchy watery eyes",
+       "definition": "The subject drug provides relief from itchy and watery eyes, with the specified age group being the target for this effect.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.7491
+        ],
+        [
+         "has onset of effect",
+         0.6922
+        ],
+        [
+         "has indication for initial dose",
+         0.6792
+        ],
+        [
+         "has risk variation by age group",
+         0.6752
+        ],
+        [
+         "treats",
+         0.6748
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has availability status",
+        "prescription only"
+       ],
+       "raw_relation": "has availability status",
+       "definition": "The subject drug is available in the market under the specified availability condition.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "has dosage form",
+         0.8285
+        ],
+        [
+         "manufactured by",
+         0.8279
+        ],
+        [
+         "has strength",
+         0.8177
+        ],
+        [
+         "contains ingredient",
+         0.8164
+        ],
+        [
+         "has brand name",
+         0.8138
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "generic fluticasone propionate nasal spray",
+        "has availability status",
+        "available by prescription"
+       ],
+       "raw_relation": "has availability status",
+       "definition": "The subject drug is available in the market under the specified availability condition.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has dosage form",
+         0.8285
+        ],
+        [
+         "manufactured by",
+         0.8279
+        ],
+        [
+         "has strength",
+         0.8177
+        ],
+        [
+         "contains ingredient",
+         0.8164
+        ],
+        [
+         "has brand name",
+         0.8138
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "over-the-counter Flonase products",
+        "has dosage form",
+        "available without prescription"
+       ],
+       "raw_relation": "has availability status",
+       "definition": "The subject drug is available in the market under the specified availability condition.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has dosage form",
+         0.8285
+        ],
+        [
+         "manufactured by",
+         0.8279
+        ],
+        [
+         "has strength",
+         0.8177
+        ],
+        [
+         "contains ingredient",
+         0.8164
+        ],
+        [
+         "has brand name",
+         0.8138
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "store brands",
+        "has availability status",
+        "available without prescription"
+       ],
+       "raw_relation": "has availability status",
+       "definition": "The subject drug is available in the market under the specified availability condition.",
+       "status": "direct",
+       "candidates": [
+        [
+         "has dosage form",
+         0.8285
+        ],
+        [
+         "manufactured by",
+         0.8279
+        ],
+        [
+         "has strength",
+         0.8177
+        ],
+        [
+         "contains ingredient",
+         0.8164
+        ],
+        [
+         "has brand name",
+         0.8138
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "is discontinued",
+        "discontinued in United States"
+       ],
+       "raw_relation": "has brand status",
+       "definition": "The subject drug's brand status in the specified region indicates whether it is discontinued or still available.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has brand name",
+         0.7344
+        ],
+        [
+         "is discontinued",
+         0.7225
+        ],
+        [
+         "manufactured by",
+         0.7168
+        ],
+        [
+         "distributed from",
+         0.7136
+        ],
+        [
+         "contains ingredient",
+         0.7053
+        ]
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "chunk_id": "flonase#uses#1",
+     "section_id": "uses",
+     "section_heading": "What is Flonase?",
+     "text": "Some products sold under the Flonase brand name are not nasal sprays and do not contain fluticasone. Flonase Headache & Allergy Relief caplets contain acetaminophen, chlorpheniramine, and phenylephrine, and Flonase Nighttime Allergy Relief tablets contain triprolidine. Check the active ingredients on the carton before use.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Flonase\", \"has brand name variant\", \"Flonase Headache & Allergy Relief caplets\"], [\"Flonase Headache & Allergy Relief caplets\", \"contains active ingredient\", \"acetaminophen\"], [\"Flonase Headache & Allergy Relief caplets\", \"contains active ingredient\", \"chlorpheniramine\"], [\"Flonase Headache & Allergy Relief caplets\", \"contains active ingredient\", \"phenylephrine\"], [\"Flonase Nighttime Allergy Relief tablets\", \"contains active ingredient\", \"triprolidine\"], [\"Flonase\", \"has warning\", \"products sold under this name may not be nasal sprays or contain fluticasone\"], [\"Flonase\", \"requires verification of\", \"active ingredients on carton\"]]",
+     "oie": [
+      [
+       "Flonase",
+       "has brand name variant",
+       "Flonase Headache & Allergy Relief caplets"
+      ],
+      [
+       "Flonase Headache & Allergy Relief caplets",
+       "contains active ingredient",
+       "acetaminophen"
+      ],
+      [
+       "Flonase Headache & Allergy Relief caplets",
+       "contains active ingredient",
+       "chlorpheniramine"
+      ],
+      [
+       "Flonase Headache & Allergy Relief caplets",
+       "contains active ingredient",
+       "phenylephrine"
+      ],
+      [
+       "Flonase Nighttime Allergy Relief tablets",
+       "contains active ingredient",
+       "triprolidine"
+      ],
+      [
+       "Flonase",
+       "has warning",
+       "products sold under this name may not be nasal sprays or contain fluticasone"
+      ],
+      [
+       "Flonase",
+       "requires verification of",
+       "active ingredients on carton"
+      ]
+     ],
+     "schema_definition": {
+      "contains active ingredient": "The subject product contains the active ingredient specified by the object entity.",
+      "has brand name variant": "The subject product has a different product form or version marketed under a specific brand name variant.",
+      "has warning": "The subject product includes a warning about potential inaccuracies or misrepresentations regarding its composition or form.",
+      "requires verification of": "Before use, the subject product requires confirmation of the active ingredients listed on the packaging."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Flonase",
+        "has product variation",
+        "Flonase Headache & Allergy Relief caplets"
+       ],
+       "raw_relation": "has brand name variant",
+       "definition": "The subject product has a different product form or version marketed under a specific brand name variant.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has product variation",
+         0.8217
+        ],
+        [
+         "has brand name",
+         0.796
+        ],
+        [
+         "manufactured by",
+         0.7542
+        ],
+        [
+         "has generic name",
+         0.7504
+        ],
+        [
+         "distributed from",
+         0.7335
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Headache & Allergy Relief caplets",
+        "contains ingredient",
+        "acetaminophen"
+       ],
+       "raw_relation": "contains active ingredient",
+       "definition": "The subject product contains the active ingredient specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contains ingredient",
+         0.9734
+        ],
+        [
+         "has inactive ingredient",
+         0.8745
+        ],
+        [
+         "manufactured by",
+         0.8592
+        ],
+        [
+         "has packaging detail",
+         0.8495
+        ],
+        [
+         "has dosage form",
+         0.8366
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Headache & Allergy Relief caplets",
+        "contains ingredient",
+        "chlorpheniramine"
+       ],
+       "raw_relation": "contains active ingredient",
+       "definition": "The subject product contains the active ingredient specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contains ingredient",
+         0.9734
+        ],
+        [
+         "has inactive ingredient",
+         0.8745
+        ],
+        [
+         "manufactured by",
+         0.8592
+        ],
+        [
+         "has packaging detail",
+         0.8495
+        ],
+        [
+         "has dosage form",
+         0.8366
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Headache & Allergy Relief caplets",
+        "contains ingredient",
+        "phenylephrine"
+       ],
+       "raw_relation": "contains active ingredient",
+       "definition": "The subject product contains the active ingredient specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contains ingredient",
+         0.9734
+        ],
+        [
+         "has inactive ingredient",
+         0.8745
+        ],
+        [
+         "manufactured by",
+         0.8592
+        ],
+        [
+         "has packaging detail",
+         0.8495
+        ],
+        [
+         "has dosage form",
+         0.8366
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nighttime Allergy Relief tablets",
+        "contains ingredient",
+        "triprolidine"
+       ],
+       "raw_relation": "contains active ingredient",
+       "definition": "The subject product contains the active ingredient specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contains ingredient",
+         0.9734
+        ],
+        [
+         "has inactive ingredient",
+         0.8745
+        ],
+        [
+         "manufactured by",
+         0.8592
+        ],
+        [
+         "has packaging detail",
+         0.8495
+        ],
+        [
+         "has dosage form",
+         0.8366
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase",
+        "has warning",
+        "products sold under this name may not be nasal sprays or contain fluticasone"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject product includes a warning about potential inaccuracies or misrepresentations regarding its composition or form.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase",
+        "contains ingredient",
+        "active ingredients on carton"
+       ],
+       "raw_relation": "requires verification of",
+       "definition": "Before use, the subject product requires confirmation of the active ingredients listed on the packaging.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contains ingredient",
+         0.8039
+        ],
+        [
+         "has packaging detail",
+         0.7767
+        ],
+        [
+         "has warning",
+         0.7447
+        ],
+        [
+         "requires use of",
+         0.7442
+        ],
+        [
+         "has inactive ingredient",
+         0.7315
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "flonase#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "Before using Flonase Nasal Spray, tell your doctor if you have glaucoma or cataracts, liver disease, diabetes, herpes simplex virus of your eyes, tuberculosis or any other infection, sores or ulcers inside your nose, or if you have recently had injury of or surgery on your nose.\nYou may start to feel relief on the first day, but it can take several days of regular once-daily use before you get the full effect. Tell your doctor if your symptoms do not improve within 7 days, or if you develop new symptoms such as severe facial pain or thick nasal discharge.\nCorticosteroids can affect the way your immune system responds to infection. Avoid being near people who are sick or have infections. Stop use and ask a doctor if you have, or come into contact with someone who has, chickenpox, measles, or tuberculosis.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Flonase Nasal Spray\", \"has contraindication\", \"glaucoma\"], [\"Flonase Nasal Spray\", \"has contraindication\", \"cataracts\"], [\"Flonase Nasal Spray\", \"has contraindication\", \"liver disease\"], [\"Flonase Nasal Spray\", \"has contraindication\", \"diabetes\"], [\"Flonase Nasal Spray\", \"has contraindication\", \"herpes simplex virus of eyes\"], [\"Flonase Nasal Spray\", \"has contraindication\", \"tuberculosis\"], [\"Flonase Nasal Spray\", \"has contraindication\", \"nasal sores or ulcers\"], [\"Flonase Nasal Spray\", \"has contraindication\", \"recent nasal injury\"], [\"Flonase Nasal Spray\", \"has administration instruction\", \"use once daily\"], [\"Flonase Nasal Spray\", \"has warning\", \"symptoms may take several days to improve\"], [\"Flonase Nasal Spray\", \"has warning\", \"tell doctor if symptoms do not improve within 7 days\"], [\"Flonase Nasal Spray\", \"has warning\", \"report new symptoms such as severe facial pain or thick nasal discharge\"], [\"Flonase Nasal Spray\", \"has immune system effect\", \"increased susceptibility to infection\"], [\"Flonase Nasal Spray\", \"has precaution\", \"avoid exposure to sick people\"], [\"Flonase Nasal Spray\", \"has precaution\", \"stop use and consult doctor if exposed to chickenpox\"], [\"Flonase Nasal Spray\", \"has precaution\", \"stop use and consult doctor if exposed to measles\"], [\"Flonase Nasal Spray\", \"has precaution\", \"stop use and consult doctor if exposed to tuberculosis\"]]",
+     "oie": [
+      [
+       "Flonase Nasal Spray",
+       "has contraindication",
+       "glaucoma"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has contraindication",
+       "cataracts"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has contraindication",
+       "liver disease"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has contraindication",
+       "diabetes"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has contraindication",
+       "herpes simplex virus of eyes"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has contraindication",
+       "tuberculosis"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has contraindication",
+       "nasal sores or ulcers"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has contraindication",
+       "recent nasal injury"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has administration instruction",
+       "use once daily"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has warning",
+       "symptoms may take several days to improve"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has warning",
+       "tell doctor if symptoms do not improve within 7 days"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has warning",
+       "report new symptoms such as severe facial pain or thick nasal discharge"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has immune system effect",
+       "increased susceptibility to infection"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has precaution",
+       "avoid exposure to sick people"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has precaution",
+       "stop use and consult doctor if exposed to chickenpox"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has precaution",
+       "stop use and consult doctor if exposed to measles"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has precaution",
+       "stop use and consult doctor if exposed to tuberculosis"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug should be administered according to the instruction specified by the object entity.",
+      "has contraindication": "The subject drug should not be used by individuals who have the condition specified by the object entity.",
+      "has immune system effect": "The subject drug may alter the immune system's response, increasing susceptibility to infections as specified by the object entity.",
+      "has precaution": "The subject drug requires specific protective measures or actions to be taken by users when exposed to the condition or substance specified by the object entity.",
+      "has warning": "The subject drug may have the effect or outcome specified by the object entity, and users should be informed to take appropriate action."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "contraindicated in",
+        "glaucoma"
+       ],
+       "raw_relation": "has contraindication",
+       "definition": "The subject drug should not be used by individuals who have the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.9673
+        ],
+        [
+         "should not be taken",
+         0.8925
+        ],
+        [
+         "should be avoided with",
+         0.8792
+        ],
+        [
+         "does not reduce risk of",
+         0.8608
+        ],
+        [
+         "should not be stored in",
+         0.8359
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "contraindicated in",
+        "cataracts"
+       ],
+       "raw_relation": "has contraindication",
+       "definition": "The subject drug should not be used by individuals who have the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.9673
+        ],
+        [
+         "should not be taken",
+         0.8925
+        ],
+        [
+         "should be avoided with",
+         0.8792
+        ],
+        [
+         "does not reduce risk of",
+         0.8608
+        ],
+        [
+         "should not be stored in",
+         0.8359
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "contraindicated in",
+        "liver disease"
+       ],
+       "raw_relation": "has contraindication",
+       "definition": "The subject drug should not be used by individuals who have the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.9673
+        ],
+        [
+         "should not be taken",
+         0.8925
+        ],
+        [
+         "should be avoided with",
+         0.8792
+        ],
+        [
+         "does not reduce risk of",
+         0.8608
+        ],
+        [
+         "should not be stored in",
+         0.8359
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "contraindicated in",
+        "diabetes"
+       ],
+       "raw_relation": "has contraindication",
+       "definition": "The subject drug should not be used by individuals who have the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.9673
+        ],
+        [
+         "should not be taken",
+         0.8925
+        ],
+        [
+         "should be avoided with",
+         0.8792
+        ],
+        [
+         "does not reduce risk of",
+         0.8608
+        ],
+        [
+         "should not be stored in",
+         0.8359
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "contraindicated in",
+        "herpes simplex virus of eyes"
+       ],
+       "raw_relation": "has contraindication",
+       "definition": "The subject drug should not be used by individuals who have the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.9673
+        ],
+        [
+         "should not be taken",
+         0.8925
+        ],
+        [
+         "should be avoided with",
+         0.8792
+        ],
+        [
+         "does not reduce risk of",
+         0.8608
+        ],
+        [
+         "should not be stored in",
+         0.8359
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "contraindicated in",
+        "tuberculosis"
+       ],
+       "raw_relation": "has contraindication",
+       "definition": "The subject drug should not be used by individuals who have the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.9673
+        ],
+        [
+         "should not be taken",
+         0.8925
+        ],
+        [
+         "should be avoided with",
+         0.8792
+        ],
+        [
+         "does not reduce risk of",
+         0.8608
+        ],
+        [
+         "should not be stored in",
+         0.8359
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "contraindicated in",
+        "nasal sores or ulcers"
+       ],
+       "raw_relation": "has contraindication",
+       "definition": "The subject drug should not be used by individuals who have the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.9673
+        ],
+        [
+         "should not be taken",
+         0.8925
+        ],
+        [
+         "should be avoided with",
+         0.8792
+        ],
+        [
+         "does not reduce risk of",
+         0.8608
+        ],
+        [
+         "should not be stored in",
+         0.8359
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "contraindicated in",
+        "recent nasal injury"
+       ],
+       "raw_relation": "has contraindication",
+       "definition": "The subject drug should not be used by individuals who have the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.9673
+        ],
+        [
+         "should not be taken",
+         0.8925
+        ],
+        [
+         "should be avoided with",
+         0.8792
+        ],
+        [
+         "does not reduce risk of",
+         0.8608
+        ],
+        [
+         "should not be stored in",
+         0.8359
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has administration instruction",
+        "use once daily"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the instruction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has warning",
+        "symptoms may take several days to improve"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may have the effect or outcome specified by the object entity, and users should be informed to take appropriate action.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has warning",
+        "tell doctor if symptoms do not improve within 7 days"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may have the effect or outcome specified by the object entity, and users should be informed to take appropriate action.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has warning",
+        "report new symptoms such as severe facial pain or thick nasal discharge"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may have the effect or outcome specified by the object entity, and users should be informed to take appropriate action.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "increases risk of",
+        "increased susceptibility to infection"
+       ],
+       "raw_relation": "has immune system effect",
+       "definition": "The subject drug may alter the immune system's response, increasing susceptibility to infections as specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "increases level of",
+         0.8232
+        ],
+        [
+         "increases risk of",
+         0.8151
+        ],
+        [
+         "has side effect",
+         0.8148
+        ],
+        [
+         "interacts with",
+         0.8045
+        ],
+        [
+         "has dose adjustment based on",
+         0.7992
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has warning",
+        "avoid exposure to sick people"
+       ],
+       "raw_relation": "has precaution",
+       "definition": "The subject drug requires specific protective measures or actions to be taken by users when exposed to the condition or substance specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has warning",
+         0.8606
+        ],
+        [
+         "use with caution in",
+         0.8476
+        ],
+        [
+         "reduces risk of",
+         0.8452
+        ],
+        [
+         "requires monitoring of",
+         0.8434
+        ],
+        [
+         "interacts with",
+         0.832
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has warning",
+        "stop use and consult doctor if exposed to chickenpox"
+       ],
+       "raw_relation": "has precaution",
+       "definition": "The subject drug requires specific protective measures or actions to be taken by users when exposed to the condition or substance specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has warning",
+         0.8606
+        ],
+        [
+         "use with caution in",
+         0.8476
+        ],
+        [
+         "reduces risk of",
+         0.8452
+        ],
+        [
+         "requires monitoring of",
+         0.8434
+        ],
+        [
+         "interacts with",
+         0.832
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has warning",
+        "stop use and consult doctor if exposed to measles"
+       ],
+       "raw_relation": "has precaution",
+       "definition": "The subject drug requires specific protective measures or actions to be taken by users when exposed to the condition or substance specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has warning",
+         0.8606
+        ],
+        [
+         "use with caution in",
+         0.8476
+        ],
+        [
+         "reduces risk of",
+         0.8452
+        ],
+        [
+         "requires monitoring of",
+         0.8434
+        ],
+        [
+         "interacts with",
+         0.832
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has warning",
+        "stop use and consult doctor if exposed to tuberculosis"
+       ],
+       "raw_relation": "has precaution",
+       "definition": "The subject drug requires specific protective measures or actions to be taken by users when exposed to the condition or substance specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has warning",
+         0.8606
+        ],
+        [
+         "use with caution in",
+         0.8476
+        ],
+        [
+         "reduces risk of",
+         0.8452
+        ],
+        [
+         "requires monitoring of",
+         0.8434
+        ],
+        [
+         "interacts with",
+         0.832
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "flonase#warnings#1",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "Do not administer Flonase Allergy Relief Nasal Spray to a child younger than 4 years old, or Flonase Sensimist to a child younger than 2 years. Corticosteroid medication can affect growth in children. Talk with your doctor if you think your child is not growing at a normal rate while using this medicine.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Flonase Nasal Spray\", \"contraindicated in\", \"children younger than 4 years old\"], [\"Flonase Nasal Spray\", \"contraindicated in\", \"children younger than 2 years old\"], [\"Flonase Nasal Spray\", \"has warning\", \"may affect growth in children\"], [\"Flonase Nasal Spray\", \"requires consultation with doctor if\", \"child not growing at normal rate\"]]",
+     "oie": [
+      [
+       "Flonase Nasal Spray",
+       "contraindicated in",
+       "children younger than 4 years old"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "contraindicated in",
+       "children younger than 2 years old"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has warning",
+       "may affect growth in children"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires consultation with doctor if",
+       "child not growing at normal rate"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject medication should not be administered to individuals who have the condition or age specified by the object entity.",
+      "has warning": "The subject medication may have a potential adverse effect or impact on health as specified by the object entity.",
+      "requires consultation with doctor if": "If the subject medication is being used in a situation specified by the object entity, a medical consultation is necessary."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "contraindicated in",
+        "children younger than 4 years old"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject medication should not be administered to individuals who have the condition or age specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "contraindicated in",
+        "children younger than 2 years old"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject medication should not be administered to individuals who have the condition or age specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has warning",
+        "may affect growth in children"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject medication may have a potential adverse effect or impact on health as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "should inform doctor about",
+        "child not growing at normal rate"
+       ],
+       "raw_relation": "requires consultation with doctor if",
+       "definition": "If the subject medication is being used in a situation specified by the object entity, a medical consultation is necessary.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires monitoring of",
+         0.8726
+        ],
+        [
+         "should inform doctor about",
+         0.852
+        ],
+        [
+         "treats",
+         0.8296
+        ],
+        [
+         "use with caution in",
+         0.8287
+        ],
+        [
+         "has serious side effect",
+         0.8167
+        ]
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "chunk_id": "flonase#before-taking#0",
+     "section_id": "before-taking",
+     "section_heading": "Before taking this medicine",
+     "text": "Do not use Flonase nasal spray:\n- if you are allergic to fluticasone or to any of the other ingredients\n- to treat asthma\n- if you have had an injury to your nose, or surgery on your nose, that is not fully healed.\nTo make sure Flonase is safe for you, tell your doctor if you have ever had:\n- sores or ulcers inside your nose;\n- injury of or surgery on your nose;\n- glaucoma or cataracts;\n- liver disease;\n- diabetes;\n- a weak immune system; or\n- any type of infection (bacterial, fungal, viral, or parasitic).\nIf you use Flonase without a prescription and you have any medical conditions, ask a doctor or pharmacist if this medicine is safe for you.\nTell your doctor if you are pregnant or breastfeeding.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Flonase Nasal Spray\", \"contraindicated in\", \"allergy to fluticasone or other ingredients\"], [\"Flonase Nasal Spray\", \"not indicated for\", \"treatment of asthma\"], [\"Flonase Nasal Spray\", \"contraindicated in\", \"nasal injury not fully healed\"], [\"Flonase Nasal Spray\", \"use with caution in\", \"nasal sores or ulcers\"], [\"Flonase Nasal Spray\", \"use with caution in\", \"nasal injury or surgery\"], [\"Flonase Nasal Spray\", \"use with caution in\", \"glaucoma or cataracts\"], [\"Flonase Nasal Spray\", \"use with caution in\", \"liver disease\"], [\"Flonase Nasal Spray\", \"use with caution in\", \"diabetes\"], [\"Flonase Nasal Spray\", \"use with caution in\", \"weak immune system\"], [\"Flonase Nasal Spray\", \"use with caution in\", \"any type of infection\"], [\"Flonase Nasal Spray\", \"requires medical evaluation before use\", \"pregnancy or breastfeeding\"]]",
+     "oie": [
+      [
+       "Flonase Nasal Spray",
+       "contraindicated in",
+       "allergy to fluticasone or other ingredients"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "not indicated for",
+       "treatment of asthma"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "contraindicated in",
+       "nasal injury not fully healed"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "use with caution in",
+       "nasal sores or ulcers"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "use with caution in",
+       "nasal injury or surgery"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "use with caution in",
+       "glaucoma or cataracts"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "use with caution in",
+       "liver disease"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "use with caution in",
+       "diabetes"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "use with caution in",
+       "weak immune system"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "use with caution in",
+       "any type of infection"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires medical evaluation before use",
+       "pregnancy or breastfeeding"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject medication should not be used by patients who have the condition or allergy specified by the object entity.",
+      "not indicated for": "The subject medication is not approved or recommended for treating the medical condition specified by the object entity.",
+      "requires medical evaluation before use": "Patients with the condition specified by the object entity should consult a healthcare professional before using the subject medication.",
+      "use with caution in": "The subject medication may pose risks or require careful monitoring in patients who have the condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "contraindicated in",
+        "allergy to fluticasone or other ingredients"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject medication should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "not approved for",
+        "treatment of asthma"
+       ],
+       "raw_relation": "not indicated for",
+       "definition": "The subject medication is not approved or recommended for treating the medical condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "not approved for",
+         0.9406
+        ],
+        [
+         "not used to treat",
+         0.8519
+        ],
+        [
+         "has not been studied in",
+         0.8434
+        ],
+        [
+         "use with caution in",
+         0.8229
+        ],
+        [
+         "contraindicated in",
+         0.8129
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "contraindicated in",
+        "nasal injury not fully healed"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject medication should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "use with caution in",
+        "nasal sores or ulcers"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject medication may pose risks or require careful monitoring in patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "use with caution in",
+        "nasal injury or surgery"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject medication may pose risks or require careful monitoring in patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "use with caution in",
+        "glaucoma or cataracts"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject medication may pose risks or require careful monitoring in patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "use with caution in",
+        "liver disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject medication may pose risks or require careful monitoring in patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "use with caution in",
+        "diabetes"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject medication may pose risks or require careful monitoring in patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "use with caution in",
+        "weak immune system"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject medication may pose risks or require careful monitoring in patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "use with caution in",
+        "any type of infection"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject medication may pose risks or require careful monitoring in patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "should inform doctor about",
+        "pregnancy or breastfeeding"
+       ],
+       "raw_relation": "requires medical evaluation before use",
+       "definition": "Patients with the condition specified by the object entity should consult a healthcare professional before using the subject medication.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8529
+        ],
+        [
+         "requires monitoring of",
+         0.8357
+        ],
+        [
+         "use with caution in",
+         0.8256
+        ],
+        [
+         "may require temporary discontinuation before",
+         0.8016
+        ],
+        [
+         "not used to treat",
+         0.7949
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "flonase#dosage#0",
+     "section_id": "dosage",
+     "section_heading": "How should I use Flonase Nasal Spray?",
+     "text": "Use Flonase exactly as directed on the label, or as prescribed by your doctor. Follow all directions on your prescription label and read all medication guides or instruction sheets.\nDo not share this medicine with another person, even if they have the same symptoms you have. Sharing a bottle can spread germs.\nYour dose will depend on the fluticasone brand or strength you use, and your dose may change once your symptoms improve. Follow all dosing instructions very carefully.\n- A child using the nasal spray should be supervised by an adult.\nRead and carefully follow any Instructions for Use provided with your medicine. Ask your doctor or pharmacist if you do not understand these instructions.\nShake the bottle before each use. Flonase Allergy Relief should be shaken gently, and Flonase Sensimist should be shaken vigorously.\nUse this product only once a day and do not use more than directed. Avoid getting the spray in your eyes or mouth.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Flonase Nasal Spray\", \"has administration instruction\", \"use exactly as directed on label or as prescribed by doctor\"], [\"Flonase Nasal Spray\", \"has administration instruction\", \"follow all directions on prescription label\"], [\"Flonase Nasal Spray\", \"has administration instruction\", \"read all medication guides or instruction sheets\"], [\"Flonase Nasal Spray\", \"should not be shared with\", \"another person\"], [\"Flonase Nasal Spray\", \"has dose variation based on\", \"fluticasone brand or strength\"], [\"Flonase Nasal Spray\", \"has dose variation based on\", \"symptom improvement\"], [\"Flonase Nasal Spray\", \"has administration instruction\", \"follow dosing instructions very carefully\"], [\"Flonase Nasal Spray\", \"has administration instruction\", \"read and carefully follow Instructions for Use\"], [\"Flonase Nasal Spray\", \"has administration instruction\", \"ask doctor or pharmacist if instructions are unclear\"], [\"Flonase Nasal Spray\", \"has administration instruction\", \"shake bottle before each use\"], [\"Flonase Allergy Relief\", \"has shaking instruction\", \"shake gently\"], [\"Flonase Sensimist\", \"has shaking instruction\", \"shake vigorously\"], [\"Flonase Nasal Spray\", \"has usage frequency\", \"once a day\"], [\"Flonase Nasal Spray\", \"has usage restriction\", \"do not use more than directed\"], [\"Flonase Nasal Spray\", \"has usage warning\", \"avoid getting spray in eyes or mouth\"]]",
+     "oie": [
+      [
+       "Flonase Nasal Spray",
+       "has administration instruction",
+       "use exactly as directed on label or as prescribed by doctor"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has administration instruction",
+       "follow all directions on prescription label"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has administration instruction",
+       "read all medication guides or instruction sheets"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "should not be shared with",
+       "another person"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has dose variation based on",
+       "fluticasone brand or strength"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has dose variation based on",
+       "symptom improvement"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has administration instruction",
+       "follow dosing instructions very carefully"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has administration instruction",
+       "read and carefully follow Instructions for Use"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has administration instruction",
+       "ask doctor or pharmacist if instructions are unclear"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has administration instruction",
+       "shake bottle before each use"
+      ],
+      [
+       "Flonase Allergy Relief",
+       "has shaking instruction",
+       "shake gently"
+      ],
+      [
+       "Flonase Sensimist",
+       "has shaking instruction",
+       "shake vigorously"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has usage frequency",
+       "once a day"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has usage restriction",
+       "do not use more than directed"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has usage warning",
+       "avoid getting spray in eyes or mouth"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject medication requires the user to follow the specific instructions specified by the object entity for proper use.",
+      "has dose variation based on": "The dosage of the subject medication may change depending on the factor specified by the object entity.",
+      "has shaking instruction": "The subject medication requires a specific shaking method as specified by the object entity.",
+      "has usage frequency": "The subject medication should be used a specific number of times per day as specified by the object entity.",
+      "has usage restriction": "The subject medication should not be used beyond the limit specified by the object entity.",
+      "has usage warning": "The subject medication should be used with caution to avoid the adverse effect or exposure specified by the object entity.",
+      "should not be shared with": "The subject medication should not be given to or used by another person, even if they have similar symptoms."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has administration instruction",
+        "use exactly as directed on label or as prescribed by doctor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject medication requires the user to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has administration instruction",
+        "follow all directions on prescription label"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject medication requires the user to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has administration instruction",
+        "read all medication guides or instruction sheets"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject medication requires the user to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "contraindicated in",
+        "another person"
+       ],
+       "raw_relation": "should not be shared with",
+       "definition": "The subject medication should not be given to or used by another person, even if they have similar symptoms.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.8204
+        ],
+        [
+         "has repeat course interval restriction",
+         0.7639
+        ],
+        [
+         "should not be taken",
+         0.7458
+        ],
+        [
+         "use with caution in",
+         0.7401
+        ],
+        [
+         "does not reduce risk of",
+         0.7359
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has dose adjustment based on",
+        "fluticasone brand or strength"
+       ],
+       "raw_relation": "has dose variation based on",
+       "definition": "The dosage of the subject medication may change depending on the factor specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has dose adjustment based on",
+         0.9518
+        ],
+        [
+         "has product variation",
+         0.8764
+        ],
+        [
+         "may require dose adjustment",
+         0.8656
+        ],
+        [
+         "has dosage form",
+         0.8626
+        ],
+        [
+         "has recommended dose",
+         0.8578
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has dose adjustment based on",
+        "symptom improvement"
+       ],
+       "raw_relation": "has dose variation based on",
+       "definition": "The dosage of the subject medication may change depending on the factor specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has dose adjustment based on",
+         0.9518
+        ],
+        [
+         "has product variation",
+         0.8764
+        ],
+        [
+         "may require dose adjustment",
+         0.8656
+        ],
+        [
+         "has dosage form",
+         0.8626
+        ],
+        [
+         "has recommended dose",
+         0.8578
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has administration instruction",
+        "follow dosing instructions very carefully"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject medication requires the user to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has administration instruction",
+        "read and carefully follow Instructions for Use"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject medication requires the user to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has administration instruction",
+        "ask doctor or pharmacist if instructions are unclear"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject medication requires the user to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has administration instruction",
+        "shake bottle before each use"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject medication requires the user to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Allergy Relief",
+        "has administration instruction",
+        "shake gently"
+       ],
+       "raw_relation": "has shaking instruction",
+       "definition": "The subject medication requires a specific shaking method as specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.8041
+        ],
+        [
+         "use with caution in",
+         0.8013
+        ],
+        [
+         "requires monitoring of",
+         0.8004
+        ],
+        [
+         "has dosage form",
+         0.7959
+        ],
+        [
+         "has product variation",
+         0.7886
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Sensimist",
+        "has administration instruction",
+        "shake vigorously"
+       ],
+       "raw_relation": "has shaking instruction",
+       "definition": "The subject medication requires a specific shaking method as specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.8041
+        ],
+        [
+         "use with caution in",
+         0.8013
+        ],
+        [
+         "requires monitoring of",
+         0.8004
+        ],
+        [
+         "has dosage form",
+         0.7959
+        ],
+        [
+         "has product variation",
+         0.7886
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has administration instruction",
+        "once a day"
+       ],
+       "raw_relation": "has usage frequency",
+       "definition": "The subject medication should be used a specific number of times per day as specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.841
+        ],
+        [
+         "has recommended dose",
+         0.817
+        ],
+        [
+         "has maintenance phase start",
+         0.8145
+        ],
+        [
+         "has dosage form",
+         0.8089
+        ],
+        [
+         "has duration of treatment",
+         0.8071
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "should not be taken",
+        "do not use more than directed"
+       ],
+       "raw_relation": "has usage restriction",
+       "definition": "The subject medication should not be used beyond the limit specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should not be taken",
+         0.9197
+        ],
+        [
+         "contraindicated in",
+         0.8943
+        ],
+        [
+         "does not reduce risk of",
+         0.8495
+        ],
+        [
+         "not approved for",
+         0.8242
+        ],
+        [
+         "should not be stored in",
+         0.8237
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has warning",
+        "avoid getting spray in eyes or mouth"
+       ],
+       "raw_relation": "has usage warning",
+       "definition": "The subject medication should be used with caution to avoid the adverse effect or exposure specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has warning",
+         0.8809
+        ],
+        [
+         "has side effect",
+         0.8665
+        ],
+        [
+         "has serious side effect",
+         0.8642
+        ],
+        [
+         "reduces risk of",
+         0.8549
+        ],
+        [
+         "use with caution in",
+         0.8479
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "flonase#dosage#1",
+     "section_id": "dosage",
+     "section_heading": "How should I use Flonase Nasal Spray?",
+     "text": "If you switched to fluticasone from another steroid medicine, you should not stop using it suddenly. Follow your doctor's instructions about tapering your dose.\nStorage differs between products. Store Flonase Allergy Relief and Children's Flonase Allergy Relief between 4°C and 30°C (39°F and 86°F). Store Flonase Sensimist between 15°C and 30°C (59°F and 86°F), and do not refrigerate or freeze it.\nThrow the bottle away once you have used the number of sprays stated on the carton, even if there is still liquid in the bottle. The correct amount of medicine in each spray cannot be assured after the labeled number of sprays has been used. Bottle sizes vary between products and pack sizes, ranging from 30 to 144 metered sprays.\nDosing information:\nUsual Adult Dose for Rhinitis (adults and children 12 years of age and older):\nFlonase Allergy Relief Nasal Spray (fluticasone propionate 50 mcg per spray):\n- Week 1: use 2 sprays in each nostril once daily\n- Week 2 through 6 months: use 1 or 2 sprays in each nostril once daily, as needed to treat your symptoms",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Flonase Nasal Spray\", \"has administration instruction\", \"use 2 sprays in each nostril once daily during week 1\"], [\"Flonase Nasal Spray\", \"has administration instruction\", \"use 1 or 2 sprays in each nostril once daily as needed during week 2 through 6 months\"], [\"Flonase Nasal Spray\", \"has storage instruction\", \"store between 4°C and 30°C (39°F and 86°F)\"], [\"Flonase Nasal Spray\", \"has storage instruction\", \"store between 15°C and 30°C (59°F and 86°F) and do not refrigerate or freeze\"], [\"Flonase Nasal Spray\", \"has warning\", \"do not stop suddenly if switched from another steroid medicine\"], [\"Flonase Nasal Spray\", \"has warning\", \"taper dose as directed by doctor\"], [\"Flonase Nasal Spray\", \"has expiration instruction\", \"throw away bottle when labeled number of sprays is used\"], [\"Flonase Nasal Spray\", \"has dosage form\", \"nasal spray\"], [\"Flonase Nasal Spray\", \"has strength\", \"50 mcg per spray\"], [\"Flonase Nasal Spray\", \"has spray count range\", \"30 to 144 metered sprays\"]]",
+     "oie": [
+      [
+       "Flonase Nasal Spray",
+       "has administration instruction",
+       "use 2 sprays in each nostril once daily during week 1"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has administration instruction",
+       "use 1 or 2 sprays in each nostril once daily as needed during week 2 through 6 months"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has storage instruction",
+       "store between 4°C and 30°C (39°F and 86°F)"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has storage instruction",
+       "store between 15°C and 30°C (59°F and 86°F) and do not refrigerate or freeze"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has warning",
+       "do not stop suddenly if switched from another steroid medicine"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has warning",
+       "taper dose as directed by doctor"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has expiration instruction",
+       "throw away bottle when labeled number of sprays is used"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has dosage form",
+       "nasal spray"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has strength",
+       "50 mcg per spray"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has spray count range",
+       "30 to 144 metered sprays"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug should be administered according to the dosing schedule specified by the object entity.",
+      "has dosage form": "The subject drug is available in the pharmaceutical dosage form specified by the object entity.",
+      "has expiration instruction": "The subject drug should be discarded after the number of sprays specified by the object entity has been used, even if liquid remains.",
+      "has spray count range": "The subject drug is available in bottle sizes ranging from the minimum to maximum number of metered sprays specified by the object entity.",
+      "has storage instruction": "The subject drug should be stored within the temperature range specified by the object entity, with any additional conditions (e.g., no refrigeration or freezing) also applied.",
+      "has strength": "The subject drug contains the active ingredient concentration specified by the object entity per dose unit.",
+      "has warning": "The subject drug carries a caution or advisory regarding its use, as specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has administration instruction",
+        "use 2 sprays in each nostril once daily during week 1"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the dosing schedule specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has administration instruction",
+        "use 1 or 2 sprays in each nostril once daily as needed during week 2 through 6 months"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the dosing schedule specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has storage instruction",
+        "store between 4°C and 30°C (39°F and 86°F)"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug should be stored within the temperature range specified by the object entity, with any additional conditions (e.g., no refrigeration or freezing) also applied.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has storage instruction",
+        "store between 15°C and 30°C (59°F and 86°F) and do not refrigerate or freeze"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug should be stored within the temperature range specified by the object entity, with any additional conditions (e.g., no refrigeration or freezing) also applied.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has warning",
+        "do not stop suddenly if switched from another steroid medicine"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or advisory regarding its use, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has warning",
+        "taper dose as directed by doctor"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or advisory regarding its use, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has disposal instruction",
+        "throw away bottle when labeled number of sprays is used"
+       ],
+       "raw_relation": "has expiration instruction",
+       "definition": "The subject drug should be discarded after the number of sprays specified by the object entity has been used, even if liquid remains.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has disposal instruction",
+         0.7945
+        ],
+        [
+         "should not be stored in",
+         0.7783
+        ],
+        [
+         "has inactive ingredient",
+         0.7682
+        ],
+        [
+         "has half life",
+         0.7657
+        ],
+        [
+         "not effectively removed by",
+         0.7553
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has dosage form",
+        "nasal spray"
+       ],
+       "raw_relation": "has dosage form",
+       "definition": "The subject drug is available in the pharmaceutical dosage form specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has strength",
+        "50 mcg per spray"
+       ],
+       "raw_relation": "has strength",
+       "definition": "The subject drug contains the active ingredient concentration specified by the object entity per dose unit.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has spray count range",
+        "30 to 144 metered sprays"
+       ],
+       "raw_relation": "has spray count range",
+       "definition": "The subject drug is available in bottle sizes ranging from the minimum to maximum number of metered sprays specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "has dosage form",
+         0.836
+        ],
+        [
+         "has strength",
+         0.8038
+        ],
+        [
+         "has volume",
+         0.7852
+        ],
+        [
+         "has recommended dose",
+         0.7812
+        ],
+        [
+         "manufactured by",
+         0.7726
+        ]
+       ],
+       "answer": "F"
+      }
+     ]
+    },
+    {
+     "chunk_id": "flonase#dosage#2",
+     "section_id": "dosage",
+     "section_heading": "How should I use Flonase Nasal Spray?",
+     "text": "- After 6 months of daily use: ask your doctor if you can keep using this medicine\nFlonase Sensimist Nasal Spray (fluticasone furoate 27.5 mcg per spray):\n- Week 1: use 2 sprays in each nostril once daily\n- Week 2 through 6 months: use 1 or 2 sprays in each nostril once daily, as needed to treat your symptoms\n- After 6 months of daily use: ask your doctor if you can keep using this medicine\nUsual Pediatric Dose for Rhinitis:\n- 4 to 11 years: Flonase Allergy Relief or Children's Flonase Allergy Relief (fluticasone propionate 50 mcg per spray): 1 spray in each nostril once daily.\n- 2 to 11 years: Flonase Sensimist or Children's Flonase Sensimist (fluticasone furoate 27.5 mcg per spray): 1 spray in each nostril once daily.\n- Under 4 years: do not use fluticasone propionate nasal spray.\n- Under 2 years: do not use fluticasone furoate nasal spray.\nAn adult should supervise a child using the spray. Children should use it for the shortest amount of time necessary to achieve symptom relief. Talk to your child's doctor if your child needs to use the spray for longer than two months a year.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Flonase Nasal Spray\", \"has administration instruction\", \"use 2 sprays in each nostril once daily during week 1\"], [\"Flonase Nasal Spray\", \"has administration instruction\", \"use 1 or 2 sprays in each nostril once daily as needed during week 2 through 6 months\"], [\"Flonase Nasal Spray\", \"has administration instruction\", \"ask doctor after 6 months of daily use if continued use is appropriate\"], [\"Flonase Nasal Spray\", \"has recommended dose\", \"1 spray in each nostril once daily for children 4 to 11 years using Flonase Allergy Relief or Children's Flonase Allergy Relief\"], [\"Flonase Nasal Spray\", \"has recommended dose\", \"1 spray in each nostril once daily for children 2 to 11 years using Flonase Sensimist or Children's Flonase Sensimist\"], [\"Flonase Nasal Spray\", \"contraindicated in\", \"children under 4 years using fluticasone propionate nasal spray\"], [\"Flonase Nasal Spray\", \"contraindicated in\", \"children under 2 years using fluticasone furoate nasal spray\"], [\"Flonase Nasal Spray\", \"has storage instruction\", \"adult should supervise child using the spray\"], [\"Flonase Nasal Spray\", \"has patient instruction\", \"children should use for shortest time necessary to achieve symptom relief\"], [\"Flonase Nasal Spray\", \"has patient instruction\", \"talk to child's doctor if used for longer than two months a year\"]]",
+     "oie": [
+      [
+       "Flonase Nasal Spray",
+       "has administration instruction",
+       "use 2 sprays in each nostril once daily during week 1"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has administration instruction",
+       "use 1 or 2 sprays in each nostril once daily as needed during week 2 through 6 months"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has administration instruction",
+       "ask doctor after 6 months of daily use if continued use is appropriate"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has recommended dose",
+       "1 spray in each nostril once daily for children 4 to 11 years using Flonase Allergy Relief or Children's Flonase Allergy Relief"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has recommended dose",
+       "1 spray in each nostril once daily for children 2 to 11 years using Flonase Sensimist or Children's Flonase Sensimist"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "contraindicated in",
+       "children under 4 years using fluticasone propionate nasal spray"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "contraindicated in",
+       "children under 2 years using fluticasone furoate nasal spray"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has storage instruction",
+       "adult should supervise child using the spray"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has patient instruction",
+       "children should use for shortest time necessary to achieve symptom relief"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has patient instruction",
+       "talk to child's doctor if used for longer than two months a year"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject medication should not be used by patients who have the specified condition or age group as defined by the object entity.",
+      "has administration instruction": "The subject medication has specific instructions for how it should be administered, as specified by the object entity.",
+      "has patient instruction": "The subject medication includes guidance for patients on how to use it safely and effectively, as specified by the object entity.",
+      "has recommended dose": "The subject medication has a recommended dosage regimen for specific patient groups, as specified by the object entity.",
+      "has storage instruction": "The subject medication requires specific storage conditions to maintain efficacy and safety, as specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has administration instruction",
+        "use 2 sprays in each nostril once daily during week 1"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject medication has specific instructions for how it should be administered, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has administration instruction",
+        "use 1 or 2 sprays in each nostril once daily as needed during week 2 through 6 months"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject medication has specific instructions for how it should be administered, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has administration instruction",
+        "ask doctor after 6 months of daily use if continued use is appropriate"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject medication has specific instructions for how it should be administered, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has recommended dose",
+        "1 spray in each nostril once daily for children 4 to 11 years using Flonase Allergy Relief or Children's Flonase Allergy Relief"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject medication has a recommended dosage regimen for specific patient groups, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has recommended dose",
+        "1 spray in each nostril once daily for children 2 to 11 years using Flonase Sensimist or Children's Flonase Sensimist"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject medication has a recommended dosage regimen for specific patient groups, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "contraindicated in",
+        "children under 4 years using fluticasone propionate nasal spray"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject medication should not be used by patients who have the specified condition or age group as defined by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "contraindicated in",
+        "children under 2 years using fluticasone furoate nasal spray"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject medication should not be used by patients who have the specified condition or age group as defined by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has storage instruction",
+        "adult should supervise child using the spray"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject medication requires specific storage conditions to maintain efficacy and safety, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has recommended dose",
+        "children should use for shortest time necessary to achieve symptom relief"
+       ],
+       "raw_relation": "has patient instruction",
+       "definition": "The subject medication includes guidance for patients on how to use it safely and effectively, as specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "treats",
+         0.8343
+        ],
+        [
+         "should inform doctor about",
+         0.8306
+        ],
+        [
+         "has overdose instruction",
+         0.8292
+        ],
+        [
+         "has recommended dose",
+         0.8267
+        ],
+        [
+         "used in population",
+         0.8263
+        ]
+       ],
+       "answer": "D"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "should inform doctor about",
+        "talk to child's doctor if used for longer than two months a year"
+       ],
+       "raw_relation": "has patient instruction",
+       "definition": "The subject medication includes guidance for patients on how to use it safely and effectively, as specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "treats",
+         0.8343
+        ],
+        [
+         "should inform doctor about",
+         0.8306
+        ],
+        [
+         "has overdose instruction",
+         0.8292
+        ],
+        [
+         "has recommended dose",
+         0.8267
+        ],
+        [
+         "used in population",
+         0.8263
+        ]
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "chunk_id": "flonase#dosage#3",
+     "section_id": "dosage",
+     "section_heading": "How should I use Flonase Nasal Spray?",
+     "text": "What happens if I miss a dose?:\nUse the medicine as soon as you can, but skip the missed dose if it is almost time for your next dose. Do not use two doses at one time.\nWhat happens if I overdose?:\nSeek emergency medical attention or call the Poison Help line at 1-800-222-1222.\nAn overdose of Flonase is not expected to produce life-threatening symptoms. Using more than the recommended dose, or using it for longer than directed, may increase the chance of corticosteroid-related side effects such as cataracts or glaucoma, adrenal gland problems, an increased risk of infection, sores inside the nose, or slower growth in children.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Flonase Nasal Spray\", \"has missed dose instruction\", \"use as soon as possible, skip if almost time for next dose\"], [\"Flonase Nasal Spray\", \"has overdose instruction\", \"seek emergency medical attention or call Poison Help line at 1-800-222-1222\"], [\"Flonase Nasal Spray\", \"has overdose warning\", \"not expected to produce life-threatening symptoms\"], [\"Flonase Nasal Spray\", \"has risk of corticosteroid side effect\", \"cataracts\"], [\"Flonase Nasal Spray\", \"has risk of corticosteroid side effect\", \"glaucoma\"], [\"Flonase Nasal Spray\", \"has risk of corticosteroid side effect\", \"adrenal gland problems\"], [\"Flonase Nasal Spray\", \"has risk of corticosteroid side effect\", \"increased risk of infection\"], [\"Flonase Nasal Spray\", \"has risk of corticosteroid side effect\", \"sores inside the nose\"], [\"Flonase Nasal Spray\", \"has risk of corticosteroid side effect\", \"slower growth in children\"]]",
+     "oie": [
+      [
+       "Flonase Nasal Spray",
+       "has missed dose instruction",
+       "use as soon as possible, skip if almost time for next dose"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has overdose instruction",
+       "seek emergency medical attention or call Poison Help line at 1-800-222-1222"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has overdose warning",
+       "not expected to produce life-threatening symptoms"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has risk of corticosteroid side effect",
+       "cataracts"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has risk of corticosteroid side effect",
+       "glaucoma"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has risk of corticosteroid side effect",
+       "adrenal gland problems"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has risk of corticosteroid side effect",
+       "increased risk of infection"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has risk of corticosteroid side effect",
+       "sores inside the nose"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has risk of corticosteroid side effect",
+       "slower growth in children"
+      ]
+     ],
+     "schema_definition": {
+      "has missed dose instruction": "The subject medication should be taken as soon as possible after a missed dose, but the missed dose should be skipped if it is close to the next scheduled dose.",
+      "has overdose instruction": "In case of overdose, the subject medication requires immediate emergency medical attention or contact with the Poison Help line.",
+      "has overdose warning": "The subject medication is not expected to cause life-threatening symptoms in case of overdose.",
+      "has risk of corticosteroid side effect": "The subject medication may lead to the adverse effect specified by the object entity when used beyond recommended doses or for prolonged periods."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has missed dose instruction",
+        "use as soon as possible, skip if almost time for next dose"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject medication should be taken as soon as possible after a missed dose, but the missed dose should be skipped if it is close to the next scheduled dose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has overdose instruction",
+        "seek emergency medical attention or call Poison Help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "In case of overdose, the subject medication requires immediate emergency medical attention or contact with the Poison Help line.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "does not reduce risk of",
+        "not expected to produce life-threatening symptoms"
+       ],
+       "raw_relation": "has overdose warning",
+       "definition": "The subject medication is not expected to cause life-threatening symptoms in case of overdose.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "dose not affected by",
+         0.797
+        ],
+        [
+         "does not reduce risk of",
+         0.7862
+        ],
+        [
+         "has side effect impact",
+         0.7596
+        ],
+        [
+         "has unknown risk duration",
+         0.7503
+        ],
+        [
+         "requires doctor consultation before discontinuation",
+         0.7418
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "cataracts"
+       ],
+       "raw_relation": "has risk of corticosteroid side effect",
+       "definition": "The subject medication may lead to the adverse effect specified by the object entity when used beyond recommended doses or for prolonged periods.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8827
+        ],
+        [
+         "has serious side effect",
+         0.8641
+        ],
+        [
+         "not used to treat",
+         0.8322
+        ],
+        [
+         "interacts with",
+         0.8261
+        ],
+        [
+         "use with caution in",
+         0.8226
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "glaucoma"
+       ],
+       "raw_relation": "has risk of corticosteroid side effect",
+       "definition": "The subject medication may lead to the adverse effect specified by the object entity when used beyond recommended doses or for prolonged periods.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8827
+        ],
+        [
+         "has serious side effect",
+         0.8641
+        ],
+        [
+         "not used to treat",
+         0.8322
+        ],
+        [
+         "interacts with",
+         0.8261
+        ],
+        [
+         "use with caution in",
+         0.8226
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has serious side effect",
+        "adrenal gland problems"
+       ],
+       "raw_relation": "has risk of corticosteroid side effect",
+       "definition": "The subject medication may lead to the adverse effect specified by the object entity when used beyond recommended doses or for prolonged periods.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8827
+        ],
+        [
+         "has serious side effect",
+         0.8641
+        ],
+        [
+         "not used to treat",
+         0.8322
+        ],
+        [
+         "interacts with",
+         0.8261
+        ],
+        [
+         "use with caution in",
+         0.8226
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "increased risk of infection"
+       ],
+       "raw_relation": "has risk of corticosteroid side effect",
+       "definition": "The subject medication may lead to the adverse effect specified by the object entity when used beyond recommended doses or for prolonged periods.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8827
+        ],
+        [
+         "has serious side effect",
+         0.8641
+        ],
+        [
+         "not used to treat",
+         0.8322
+        ],
+        [
+         "interacts with",
+         0.8261
+        ],
+        [
+         "use with caution in",
+         0.8226
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "sores inside the nose"
+       ],
+       "raw_relation": "has risk of corticosteroid side effect",
+       "definition": "The subject medication may lead to the adverse effect specified by the object entity when used beyond recommended doses or for prolonged periods.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8827
+        ],
+        [
+         "has serious side effect",
+         0.8641
+        ],
+        [
+         "not used to treat",
+         0.8322
+        ],
+        [
+         "interacts with",
+         0.8261
+        ],
+        [
+         "use with caution in",
+         0.8226
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "slower growth in children"
+       ],
+       "raw_relation": "has risk of corticosteroid side effect",
+       "definition": "The subject medication may lead to the adverse effect specified by the object entity when used beyond recommended doses or for prolonged periods.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8827
+        ],
+        [
+         "has serious side effect",
+         0.8641
+        ],
+        [
+         "not used to treat",
+         0.8322
+        ],
+        [
+         "interacts with",
+         0.8261
+        ],
+        [
+         "use with caution in",
+         0.8226
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "flonase#what-to-avoid#0",
+     "section_id": "what-to-avoid",
+     "section_heading": "What should I avoid while using Flonase?",
+     "text": "Avoid getting the spray in your eyes or mouth. If this does happen, rinse with water.\nAvoid being near people who are sick or have infections. Call your doctor for preventive treatment if you are exposed to chickenpox or measles.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Flonase Nasal Spray\", \"has administration instruction\", \"rinse with water if spray gets in eyes or mouth\"], [\"Flonase Nasal Spray\", \"should be avoided near\", \"people with infections\"], [\"Flonase Nasal Spray\", \"requires preventive treatment if exposed to\", \"chickenpox\"], [\"Flonase Nasal Spray\", \"requires preventive treatment if exposed to\", \"measles\"]]",
+     "oie": [
+      [
+       "Flonase Nasal Spray",
+       "has administration instruction",
+       "rinse with water if spray gets in eyes or mouth"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "should be avoided near",
+       "people with infections"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires preventive treatment if exposed to",
+       "chickenpox"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires preventive treatment if exposed to",
+       "measles"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject product includes specific instructions for handling or managing exposure, such as rinsing with water if the product comes into contact with eyes or mouth.",
+      "requires preventive treatment if exposed to": "The subject product necessitates medical preventive treatment if the user is exposed to the specified infectious disease.",
+      "should be avoided near": "The subject product should not be used or accessed by individuals in close proximity to people who have the specified condition."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has administration instruction",
+        "rinse with water if spray gets in eyes or mouth"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject product includes specific instructions for handling or managing exposure, such as rinsing with water if the product comes into contact with eyes or mouth.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "contraindicated in",
+        "people with infections"
+       ],
+       "raw_relation": "should be avoided near",
+       "definition": "The subject product should not be used or accessed by individuals in close proximity to people who have the specified condition.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.8072
+        ],
+        [
+         "should not be taken",
+         0.7399
+        ],
+        [
+         "should be avoided with",
+         0.7383
+        ],
+        [
+         "use with caution in",
+         0.7118
+        ],
+        [
+         "has legal restriction",
+         0.7098
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has warning",
+        "chickenpox"
+       ],
+       "raw_relation": "requires preventive treatment if exposed to",
+       "definition": "The subject product necessitates medical preventive treatment if the user is exposed to the specified infectious disease.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires use of",
+         0.8033
+        ],
+        [
+         "reduces risk of",
+         0.789
+        ],
+        [
+         "use with caution in",
+         0.7811
+        ],
+        [
+         "requires monitoring of",
+         0.7755
+        ],
+        [
+         "has warning",
+         0.7688
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "reduces risk of",
+        "measles"
+       ],
+       "raw_relation": "requires preventive treatment if exposed to",
+       "definition": "The subject product necessitates medical preventive treatment if the user is exposed to the specified infectious disease.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires use of",
+         0.8033
+        ],
+        [
+         "reduces risk of",
+         0.789
+        ],
+        [
+         "use with caution in",
+         0.7811
+        ],
+        [
+         "requires monitoring of",
+         0.7755
+        ],
+        [
+         "has warning",
+         0.7688
+        ]
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "chunk_id": "flonase#side-effects#0",
+     "section_id": "side-effects",
+     "section_heading": "Flonase side effects",
+     "text": "Get emergency medical help if you have signs of an allergic reaction to Flonase: hives, rash; feeling light-headed; difficult breathing; swelling of your face, lips, tongue, or throat.\nCall your doctor at once if you have:\n- severe or frequent nosebleeds;\n- a constant whistling sound from your nose, which may be a sign of damage inside your nose;\n- noisy breathing, runny nose, or crusting around your nostrils;\n- redness, sores, or white patches in your mouth or throat;\n- fever, chills, body aches;\n- new changes to your vision, blurred vision, eye pain, or seeing halos around lights;\n- any wound that will not heal; or\n- signs of a hormonal disorder: worsening tiredness or muscle weakness, feeling light-headed, nausea, vomiting.\nSteroid medicine can affect growth in children. Tell your doctor if your child is not growing at a normal rate while using this medicine.\nCommon Flonase side effects may include:\n- minor nosebleed, burning or itching in your nose;\n- stinging or sneezing for a few seconds right after use;\n- sores or white patches inside or around your nose;",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Flonase Nasal Spray\", \"has serious side effect\", \"allergic reaction\"], [\"Flonase Nasal Spray\", \"has allergic reaction sign\", \"hives\"], [\"Flonase Nasal Spray\", \"has allergic reaction sign\", \"rash\"], [\"Flonase Nasal Spray\", \"has allergic reaction sign\", \"feeling light-headed\"], [\"Flonase Nasal Spray\", \"has allergic reaction sign\", \"difficult breathing\"], [\"Flonase Nasal Spray\", \"has allergic reaction sign\", \"swelling of face, lips, tongue, or throat\"], [\"Flonase Nasal Spray\", \"requires immediate medical attention for\", \"severe or frequent nosebleeds\"], [\"Flonase Nasal Spray\", \"requires immediate medical attention for\", \"constant whistling sound from nose\"], [\"Flonase Nasal Spray\", \"requires immediate medical attention for\", \"noisy breathing\"], [\"Flonase Nasal Spray\", \"requires immediate medical attention for\", \"runny nose\"], [\"Flonase Nasal Spray\", \"requires immediate medical attention for\", \"crusting around nostrils\"], [\"Flonase Nasal Spray\", \"requires immediate medical attention for\", \"redness, sores, or white patches in mouth or throat\"], [\"Flonase Nasal Spray\", \"requires immediate medical attention for\", \"fever, chills, body aches\"], [\"Flonase Nasal Spray\", \"requires immediate medical attention for\", \"new changes to vision\"], [\"Flonase Nasal Spray\", \"requires immediate medical attention for\", \"blurred vision\"], [\"Flonase Nasal Spray\", \"requires immediate medical attention for\", \"eye pain\"], [\"Flonase Nasal Spray\", \"requires immediate medical attention for\", \"seeing halos around lights\"], [\"Flonase Nasal Spray\", \"requires immediate medical attention for\", \"wound that will not heal\"], [\"Flonase Nasal Spray\", \"requires immediate medical attention for\", \"signs of hormonal disorder\"], [\"Flonase Nasal Spray\", \"requires immediate medical attention for\", \"worsening tiredness or muscle weakness\"], [\"Flonase Nasal Spray\", \"requires immediate medical attention for\", \"feeling light-headed\"], [\"Flonase Nasal Spray\", \"requires immediate medical attention for\", \"nausea\"], [\"Flonase Nasal Spray\", \"requires immediate medical attention for\", \"vomiting\"], [\"Flonase Nasal Spray\", \"has side effect\", \"minor nosebleed\"], [\"Flonase Nasal Spray\", \"has side effect\", \"burning or itching in nose\"], [\"Flonase Nasal Spray\", \"has side effect\", \"stinging or sneezing after use\"], [\"Flonase Nasal Spray\", \"has side effect\", \"sores or white patches inside or around nose\"], [\"Flonase Nasal Spray\", \"has warning\", \"may affect growth in children\"], [\"Flonase Nasal Spray\", \"requires doctor consultation for\", \"child not growing at normal rate\"]]",
+     "oie": [
+      [
+       "Flonase Nasal Spray",
+       "has serious side effect",
+       "allergic reaction"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has allergic reaction sign",
+       "hives"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has allergic reaction sign",
+       "rash"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has allergic reaction sign",
+       "feeling light-headed"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has allergic reaction sign",
+       "difficult breathing"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has allergic reaction sign",
+       "swelling of face, lips, tongue, or throat"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires immediate medical attention for",
+       "severe or frequent nosebleeds"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires immediate medical attention for",
+       "constant whistling sound from nose"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires immediate medical attention for",
+       "noisy breathing"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires immediate medical attention for",
+       "runny nose"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires immediate medical attention for",
+       "crusting around nostrils"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires immediate medical attention for",
+       "redness, sores, or white patches in mouth or throat"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires immediate medical attention for",
+       "fever, chills, body aches"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires immediate medical attention for",
+       "new changes to vision"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires immediate medical attention for",
+       "blurred vision"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires immediate medical attention for",
+       "eye pain"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires immediate medical attention for",
+       "seeing halos around lights"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires immediate medical attention for",
+       "wound that will not heal"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires immediate medical attention for",
+       "signs of hormonal disorder"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires immediate medical attention for",
+       "worsening tiredness or muscle weakness"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires immediate medical attention for",
+       "feeling light-headed"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires immediate medical attention for",
+       "nausea"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires immediate medical attention for",
+       "vomiting"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has side effect",
+       "minor nosebleed"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has side effect",
+       "burning or itching in nose"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has side effect",
+       "stinging or sneezing after use"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has side effect",
+       "sores or white patches inside or around nose"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has warning",
+       "may affect growth in children"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "requires doctor consultation for",
+       "child not growing at normal rate"
+      ]
+     ],
+     "schema_definition": {
+      "has allergic reaction sign": "The subject drug may cause the specific symptom specified by the object entity, which is a sign of an allergic reaction.",
+      "has serious side effect": "The subject drug may cause the serious adverse effect specified by the object entity.",
+      "has side effect": "The subject drug may cause the symptom or condition specified by the object entity as a common side effect.",
+      "has warning": "The subject drug may have the effect or risk specified by the object entity, and patients should be informed of this potential impact.",
+      "requires doctor consultation for": "Patients should consult a doctor if the subject drug is being used in combination with the condition or symptom specified by the object entity.",
+      "requires immediate medical attention for": "The subject drug may lead to the condition or symptom specified by the object entity, which requires urgent medical evaluation and intervention."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "hives"
+       ],
+       "raw_relation": "has allergic reaction sign",
+       "definition": "The subject drug may cause the specific symptom specified by the object entity, which is a sign of an allergic reaction.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9106
+        ],
+        [
+         "has overdose symptom",
+         0.8657
+        ],
+        [
+         "mimics symptoms of",
+         0.8605
+        ],
+        [
+         "has serious side effect",
+         0.8558
+        ],
+        [
+         "interacts with",
+         0.8351
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "rash"
+       ],
+       "raw_relation": "has allergic reaction sign",
+       "definition": "The subject drug may cause the specific symptom specified by the object entity, which is a sign of an allergic reaction.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9106
+        ],
+        [
+         "has overdose symptom",
+         0.8657
+        ],
+        [
+         "mimics symptoms of",
+         0.8605
+        ],
+        [
+         "has serious side effect",
+         0.8558
+        ],
+        [
+         "interacts with",
+         0.8351
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "feeling light-headed"
+       ],
+       "raw_relation": "has allergic reaction sign",
+       "definition": "The subject drug may cause the specific symptom specified by the object entity, which is a sign of an allergic reaction.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9106
+        ],
+        [
+         "has overdose symptom",
+         0.8657
+        ],
+        [
+         "mimics symptoms of",
+         0.8605
+        ],
+        [
+         "has serious side effect",
+         0.8558
+        ],
+        [
+         "interacts with",
+         0.8351
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "difficult breathing"
+       ],
+       "raw_relation": "has allergic reaction sign",
+       "definition": "The subject drug may cause the specific symptom specified by the object entity, which is a sign of an allergic reaction.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9106
+        ],
+        [
+         "has overdose symptom",
+         0.8657
+        ],
+        [
+         "mimics symptoms of",
+         0.8605
+        ],
+        [
+         "has serious side effect",
+         0.8558
+        ],
+        [
+         "interacts with",
+         0.8351
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "swelling of face, lips, tongue, or throat"
+       ],
+       "raw_relation": "has allergic reaction sign",
+       "definition": "The subject drug may cause the specific symptom specified by the object entity, which is a sign of an allergic reaction.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9106
+        ],
+        [
+         "has overdose symptom",
+         0.8657
+        ],
+        [
+         "mimics symptoms of",
+         0.8605
+        ],
+        [
+         "has serious side effect",
+         0.8558
+        ],
+        [
+         "interacts with",
+         0.8351
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has serious side effect",
+        "severe or frequent nosebleeds"
+       ],
+       "raw_relation": "requires immediate medical attention for",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, which requires urgent medical evaluation and intervention.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9008
+        ],
+        [
+         "has side effect",
+         0.8863
+        ],
+        [
+         "has overdose symptom",
+         0.8762
+        ],
+        [
+         "use with caution in",
+         0.8752
+        ],
+        [
+         "requires monitoring of",
+         0.8746
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has serious side effect",
+        "constant whistling sound from nose"
+       ],
+       "raw_relation": "requires immediate medical attention for",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, which requires urgent medical evaluation and intervention.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9008
+        ],
+        [
+         "has side effect",
+         0.8863
+        ],
+        [
+         "has overdose symptom",
+         0.8762
+        ],
+        [
+         "use with caution in",
+         0.8752
+        ],
+        [
+         "requires monitoring of",
+         0.8746
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has serious side effect",
+        "noisy breathing"
+       ],
+       "raw_relation": "requires immediate medical attention for",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, which requires urgent medical evaluation and intervention.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9008
+        ],
+        [
+         "has side effect",
+         0.8863
+        ],
+        [
+         "has overdose symptom",
+         0.8762
+        ],
+        [
+         "use with caution in",
+         0.8752
+        ],
+        [
+         "requires monitoring of",
+         0.8746
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has serious side effect",
+        "runny nose"
+       ],
+       "raw_relation": "requires immediate medical attention for",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, which requires urgent medical evaluation and intervention.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9008
+        ],
+        [
+         "has side effect",
+         0.8863
+        ],
+        [
+         "has overdose symptom",
+         0.8762
+        ],
+        [
+         "use with caution in",
+         0.8752
+        ],
+        [
+         "requires monitoring of",
+         0.8746
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has serious side effect",
+        "crusting around nostrils"
+       ],
+       "raw_relation": "requires immediate medical attention for",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, which requires urgent medical evaluation and intervention.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9008
+        ],
+        [
+         "has side effect",
+         0.8863
+        ],
+        [
+         "has overdose symptom",
+         0.8762
+        ],
+        [
+         "use with caution in",
+         0.8752
+        ],
+        [
+         "requires monitoring of",
+         0.8746
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has serious side effect",
+        "redness, sores, or white patches in mouth or throat"
+       ],
+       "raw_relation": "requires immediate medical attention for",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, which requires urgent medical evaluation and intervention.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9008
+        ],
+        [
+         "has side effect",
+         0.8863
+        ],
+        [
+         "has overdose symptom",
+         0.8762
+        ],
+        [
+         "use with caution in",
+         0.8752
+        ],
+        [
+         "requires monitoring of",
+         0.8746
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has serious side effect",
+        "fever, chills, body aches"
+       ],
+       "raw_relation": "requires immediate medical attention for",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, which requires urgent medical evaluation and intervention.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9008
+        ],
+        [
+         "has side effect",
+         0.8863
+        ],
+        [
+         "has overdose symptom",
+         0.8762
+        ],
+        [
+         "use with caution in",
+         0.8752
+        ],
+        [
+         "requires monitoring of",
+         0.8746
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has serious side effect",
+        "new changes to vision"
+       ],
+       "raw_relation": "requires immediate medical attention for",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, which requires urgent medical evaluation and intervention.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9008
+        ],
+        [
+         "has side effect",
+         0.8863
+        ],
+        [
+         "has overdose symptom",
+         0.8762
+        ],
+        [
+         "use with caution in",
+         0.8752
+        ],
+        [
+         "requires monitoring of",
+         0.8746
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has serious side effect",
+        "blurred vision"
+       ],
+       "raw_relation": "requires immediate medical attention for",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, which requires urgent medical evaluation and intervention.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9008
+        ],
+        [
+         "has side effect",
+         0.8863
+        ],
+        [
+         "has overdose symptom",
+         0.8762
+        ],
+        [
+         "use with caution in",
+         0.8752
+        ],
+        [
+         "requires monitoring of",
+         0.8746
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has serious side effect",
+        "eye pain"
+       ],
+       "raw_relation": "requires immediate medical attention for",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, which requires urgent medical evaluation and intervention.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9008
+        ],
+        [
+         "has side effect",
+         0.8863
+        ],
+        [
+         "has overdose symptom",
+         0.8762
+        ],
+        [
+         "use with caution in",
+         0.8752
+        ],
+        [
+         "requires monitoring of",
+         0.8746
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has serious side effect",
+        "seeing halos around lights"
+       ],
+       "raw_relation": "requires immediate medical attention for",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, which requires urgent medical evaluation and intervention.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9008
+        ],
+        [
+         "has side effect",
+         0.8863
+        ],
+        [
+         "has overdose symptom",
+         0.8762
+        ],
+        [
+         "use with caution in",
+         0.8752
+        ],
+        [
+         "requires monitoring of",
+         0.8746
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has serious side effect",
+        "wound that will not heal"
+       ],
+       "raw_relation": "requires immediate medical attention for",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, which requires urgent medical evaluation and intervention.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9008
+        ],
+        [
+         "has side effect",
+         0.8863
+        ],
+        [
+         "has overdose symptom",
+         0.8762
+        ],
+        [
+         "use with caution in",
+         0.8752
+        ],
+        [
+         "requires monitoring of",
+         0.8746
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has serious side effect",
+        "signs of hormonal disorder"
+       ],
+       "raw_relation": "requires immediate medical attention for",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, which requires urgent medical evaluation and intervention.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9008
+        ],
+        [
+         "has side effect",
+         0.8863
+        ],
+        [
+         "has overdose symptom",
+         0.8762
+        ],
+        [
+         "use with caution in",
+         0.8752
+        ],
+        [
+         "requires monitoring of",
+         0.8746
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has serious side effect",
+        "worsening tiredness or muscle weakness"
+       ],
+       "raw_relation": "requires immediate medical attention for",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, which requires urgent medical evaluation and intervention.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9008
+        ],
+        [
+         "has side effect",
+         0.8863
+        ],
+        [
+         "has overdose symptom",
+         0.8762
+        ],
+        [
+         "use with caution in",
+         0.8752
+        ],
+        [
+         "requires monitoring of",
+         0.8746
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has serious side effect",
+        "feeling light-headed"
+       ],
+       "raw_relation": "requires immediate medical attention for",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, which requires urgent medical evaluation and intervention.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9008
+        ],
+        [
+         "has side effect",
+         0.8863
+        ],
+        [
+         "has overdose symptom",
+         0.8762
+        ],
+        [
+         "use with caution in",
+         0.8752
+        ],
+        [
+         "requires monitoring of",
+         0.8746
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has serious side effect",
+        "nausea"
+       ],
+       "raw_relation": "requires immediate medical attention for",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, which requires urgent medical evaluation and intervention.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9008
+        ],
+        [
+         "has side effect",
+         0.8863
+        ],
+        [
+         "has overdose symptom",
+         0.8762
+        ],
+        [
+         "use with caution in",
+         0.8752
+        ],
+        [
+         "requires monitoring of",
+         0.8746
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has serious side effect",
+        "vomiting"
+       ],
+       "raw_relation": "requires immediate medical attention for",
+       "definition": "The subject drug may lead to the condition or symptom specified by the object entity, which requires urgent medical evaluation and intervention.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9008
+        ],
+        [
+         "has side effect",
+         0.8863
+        ],
+        [
+         "has overdose symptom",
+         0.8762
+        ],
+        [
+         "use with caution in",
+         0.8752
+        ],
+        [
+         "requires monitoring of",
+         0.8746
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "minor nosebleed"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity as a common side effect.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "burning or itching in nose"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity as a common side effect.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "stinging or sneezing after use"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity as a common side effect.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "sores or white patches inside or around nose"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity as a common side effect.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has warning",
+        "may affect growth in children"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug may have the effect or risk specified by the object entity, and patients should be informed of this potential impact.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "should inform doctor about",
+        "child not growing at normal rate"
+       ],
+       "raw_relation": "requires doctor consultation for",
+       "definition": "Patients should consult a doctor if the subject drug is being used in combination with the condition or symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.898
+        ],
+        [
+         "requires monitoring of",
+         0.8774
+        ],
+        [
+         "mimics symptoms of",
+         0.8705
+        ],
+        [
+         "treats",
+         0.8453
+        ],
+        [
+         "has side effect",
+         0.8412
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "flonase#side-effects#1",
+     "section_id": "side-effects",
+     "section_heading": "Flonase side effects",
+     "text": "- cough, trouble breathing;\n- headache, back pain;\n- sinus pain, sore throat, fever; or\n- nausea, vomiting.\nThis is not a complete list of side effects, and others may occur. Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Flonase Nasal Spray\", \"has side effect\", \"cough\"], [\"Flonase Nasal Spray\", \"has side effect\", \"trouble breathing\"], [\"Flonase Nasal Spray\", \"has side effect\", \"headache\"], [\"Flonase Nasal Spray\", \"has side effect\", \"back pain\"], [\"Flonase Nasal Spray\", \"has side effect\", \"sinus pain\"], [\"Flonase Nasal Spray\", \"has side effect\", \"sore throat\"], [\"Flonase Nasal Spray\", \"has side effect\", \"fever\"], [\"Flonase Nasal Spray\", \"has side effect\", \"nausea\"], [\"Flonase Nasal Spray\", \"has side effect\", \"vomiting\"], [\"Flonase Nasal Spray\", \"has warning\", \"not a complete list of side effects\"], [\"Flonase Nasal Spray\", \"has instruction\", \"call doctor for medical advice about side effects\"], [\"Flonase Nasal Spray\", \"has reporting instruction\", \"report side effects to FDA at 1-800-FDA-1088\"]]",
+     "oie": [
+      [
+       "Flonase Nasal Spray",
+       "has side effect",
+       "cough"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has side effect",
+       "trouble breathing"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has side effect",
+       "headache"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has side effect",
+       "back pain"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has side effect",
+       "sinus pain"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has side effect",
+       "sore throat"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has side effect",
+       "fever"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has side effect",
+       "nausea"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has side effect",
+       "vomiting"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has warning",
+       "not a complete list of side effects"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has instruction",
+       "call doctor for medical advice about side effects"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has reporting instruction",
+       "report side effects to FDA at 1-800-FDA-1088"
+      ]
+     ],
+     "schema_definition": {
+      "has side effect": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+      "has instruction": "The subject drug comes with a recommended action or guidance for patients regarding its use or management.",
+      "has reporting instruction": "Patients using the subject drug are advised to take specific steps to report adverse effects to a designated authority.",
+      "has warning": "The subject drug includes a cautionary note indicating that the list of specified effects is not exhaustive and other effects may occur."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "cough"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "trouble breathing"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "headache"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "back pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "sinus pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "sore throat"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "fever"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "nausea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has side effect",
+        "vomiting"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has warning",
+        "not a complete list of side effects"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug includes a cautionary note indicating that the list of specified effects is not exhaustive and other effects may occur.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has instruction",
+        "call doctor for medical advice about side effects"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug comes with a recommended action or guidance for patients regarding its use or management.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "should inform doctor about",
+        "report side effects to FDA at 1-800-FDA-1088"
+       ],
+       "raw_relation": "has reporting instruction",
+       "definition": "Patients using the subject drug are advised to take specific steps to report adverse effects to a designated authority.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8143
+        ],
+        [
+         "use with caution in",
+         0.8021
+        ],
+        [
+         "should inform doctor about",
+         0.8015
+        ],
+        [
+         "has serious side effect",
+         0.797
+        ],
+        [
+         "requires use of",
+         0.7948
+        ]
+       ],
+       "answer": "C"
+      }
+     ]
+    },
+    {
+     "chunk_id": "flonase#interactions#0",
+     "section_id": "interactions",
+     "section_heading": "What other drugs will affect Flonase?",
+     "text": "Tell your doctor or pharmacist about all your other medicines, especially:\n- an antifungal medicine, such as ketoconazole tablets;\n- an antiviral medicine to treat hepatitis C or HIV/AIDS, such as ritonavir; or\n- another steroid medicine for asthma, allergies or skin rash.\nThis list is not complete. Other drugs may interact with fluticasone nasal, including prescription and over-the-counter medicines, vitamins, and herbal products. Not all possible drug interactions are listed here.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Flonase Nasal Spray\", \"interacts with\", \"antifungal medicine\"], [\"Flonase Nasal Spray\", \"interacts with\", \"antiviral medicine for hepatitis C\"], [\"Flonase Nasal Spray\", \"interacts with\", \"antiviral medicine for HIV/AIDS\"], [\"Flonase Nasal Spray\", \"interacts with\", \"steroid medicine for asthma\"], [\"Flonase Nasal Spray\", \"interacts with\", \"steroid medicine for allergies\"], [\"Flonase Nasal Spray\", \"interacts with\", \"steroid medicine for skin rash\"], [\"Flonase Nasal Spray\", \"has drug interaction warning\", \"not all possible interactions are listed\"], [\"Flonase Nasal Spray\", \"interacts with\", \"prescription medicines\"], [\"Flonase Nasal Spray\", \"interacts with\", \"over-the-counter medicines\"], [\"Flonase Nasal Spray\", \"interacts with\", \"vitamins\"], [\"Flonase Nasal Spray\", \"interacts with\", \"herbal products\"]]",
+     "oie": [
+      [
+       "Flonase Nasal Spray",
+       "interacts with",
+       "antifungal medicine"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "interacts with",
+       "antiviral medicine for hepatitis C"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "interacts with",
+       "antiviral medicine for HIV/AIDS"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "interacts with",
+       "steroid medicine for asthma"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "interacts with",
+       "steroid medicine for allergies"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "interacts with",
+       "steroid medicine for skin rash"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "has drug interaction warning",
+       "not all possible interactions are listed"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "interacts with",
+       "prescription medicines"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "interacts with",
+       "over-the-counter medicines"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "interacts with",
+       "vitamins"
+      ],
+      [
+       "Flonase Nasal Spray",
+       "interacts with",
+       "herbal products"
+      ]
+     ],
+     "schema_definition": {
+      "has drug interaction warning": "The subject drug includes a warning that not all possible interactions with other substances are listed.",
+      "interacts with": "The subject drug may have a pharmacological interaction with the specified type of medication or substance."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "interacts with",
+        "antifungal medicine"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the specified type of medication or substance.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "interacts with",
+        "antiviral medicine for hepatitis C"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the specified type of medication or substance.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "interacts with",
+        "antiviral medicine for HIV/AIDS"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the specified type of medication or substance.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "interacts with",
+        "steroid medicine for asthma"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the specified type of medication or substance.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "interacts with",
+        "steroid medicine for allergies"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the specified type of medication or substance.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "interacts with",
+        "steroid medicine for skin rash"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the specified type of medication or substance.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "has incomplete interaction list",
+        "not all possible interactions are listed"
+       ],
+       "raw_relation": "has drug interaction warning",
+       "definition": "The subject drug includes a warning that not all possible interactions with other substances are listed.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has incomplete interaction list",
+         0.823
+        ],
+        [
+         "has warning",
+         0.8015
+        ],
+        [
+         "has unknown risk duration",
+         0.8013
+        ],
+        [
+         "has unclear mechanism of action",
+         0.8005
+        ],
+        [
+         "interacts with",
+         0.7942
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "interacts with",
+        "prescription medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the specified type of medication or substance.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "interacts with",
+        "over-the-counter medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the specified type of medication or substance.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "interacts with",
+        "vitamins"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the specified type of medication or substance.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Flonase Nasal Spray",
+        "interacts with",
+        "herbal products"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the specified type of medication or substance.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "flonase#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "contains ingredient",
+    "fluticasone propionate"
+   ],
+   "raw_relation": "has active ingredient",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "fluticasone propionate",
+    "belongs to drug class",
+    "corticosteroid"
+   ],
+   "raw_relation": "has drug class",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "fluticasone propionate",
+    "treats",
+    "nasal inflammation"
+   ],
+   "raw_relation": "reduces",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "treats",
+    "nasal congestion"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "treats",
+    "sneezing"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "treats",
+    "runny nose"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "treats",
+    "itchy or watery eyes"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Flonase Allergy Relief",
+    "used in population",
+    "adults and children at least 4 years old"
+   ],
+   "raw_relation": "has intended use population",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Children's Flonase Allergy Relief",
+    "used in population",
+    "children at least 4 years old"
+   ],
+   "raw_relation": "has intended use population",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Flonase Sensimist",
+    "contains ingredient",
+    "fluticasone furoate"
+   ],
+   "raw_relation": "has active ingredient",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Flonase Sensimist",
+    "used in population",
+    "adults and children 2 years of age and older"
+   ],
+   "raw_relation": "has intended use population",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Children's Flonase Sensimist",
+    "used in population",
+    "children 2 years of age and older"
+   ],
+   "raw_relation": "has intended use population",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Flonase Sensimist",
+    "treats",
+    "itchy watery eyes"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Flonase Sensimist",
+    "treats",
+    "ages 12 and older"
+   ],
+   "raw_relation": "treats itchy watery eyes",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has availability status",
+    "prescription only"
+   ],
+   "raw_relation": "has availability status",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "flonase#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "generic fluticasone propionate nasal spray",
+    "has availability status",
+    "available by prescription"
+   ],
+   "raw_relation": "has availability status",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "over-the-counter Flonase products",
+    "has dosage form",
+    "available without prescription"
+   ],
+   "raw_relation": "has availability status",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "store brands",
+    "has availability status",
+    "available without prescription"
+   ],
+   "raw_relation": "has availability status",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "is discontinued",
+    "discontinued in United States"
+   ],
+   "raw_relation": "has brand status",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#uses#1",
+   "section_id": "uses",
+   "triplet": [
+    "Flonase",
+    "has product variation",
+    "Flonase Headache & Allergy Relief caplets"
+   ],
+   "raw_relation": "has brand name variant",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#uses#1",
+   "section_id": "uses",
+   "triplet": [
+    "Flonase Headache & Allergy Relief caplets",
+    "contains ingredient",
+    "acetaminophen"
+   ],
+   "raw_relation": "contains active ingredient",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#uses#1",
+   "section_id": "uses",
+   "triplet": [
+    "Flonase Headache & Allergy Relief caplets",
+    "contains ingredient",
+    "chlorpheniramine"
+   ],
+   "raw_relation": "contains active ingredient",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#uses#1",
+   "section_id": "uses",
+   "triplet": [
+    "Flonase Headache & Allergy Relief caplets",
+    "contains ingredient",
+    "phenylephrine"
+   ],
+   "raw_relation": "contains active ingredient",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#uses#1",
+   "section_id": "uses",
+   "triplet": [
+    "Flonase Nighttime Allergy Relief tablets",
+    "contains ingredient",
+    "triprolidine"
+   ],
+   "raw_relation": "contains active ingredient",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#uses#1",
+   "section_id": "uses",
+   "triplet": [
+    "Flonase",
+    "has warning",
+    "products sold under this name may not be nasal sprays or contain fluticasone"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#uses#1",
+   "section_id": "uses",
+   "triplet": [
+    "Flonase",
+    "contains ingredient",
+    "active ingredients on carton"
+   ],
+   "raw_relation": "requires verification of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "contraindicated in",
+    "glaucoma"
+   ],
+   "raw_relation": "has contraindication",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "contraindicated in",
+    "cataracts"
+   ],
+   "raw_relation": "has contraindication",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "contraindicated in",
+    "liver disease"
+   ],
+   "raw_relation": "has contraindication",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "contraindicated in",
+    "diabetes"
+   ],
+   "raw_relation": "has contraindication",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "contraindicated in",
+    "herpes simplex virus of eyes"
+   ],
+   "raw_relation": "has contraindication",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "contraindicated in",
+    "tuberculosis"
+   ],
+   "raw_relation": "has contraindication",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "contraindicated in",
+    "nasal sores or ulcers"
+   ],
+   "raw_relation": "has contraindication",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "contraindicated in",
+    "recent nasal injury"
+   ],
+   "raw_relation": "has contraindication",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has administration instruction",
+    "use once daily"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has warning",
+    "symptoms may take several days to improve"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has warning",
+    "tell doctor if symptoms do not improve within 7 days"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has warning",
+    "report new symptoms such as severe facial pain or thick nasal discharge"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "increases risk of",
+    "increased susceptibility to infection"
+   ],
+   "raw_relation": "has immune system effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has warning",
+    "avoid exposure to sick people"
+   ],
+   "raw_relation": "has precaution",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has warning",
+    "stop use and consult doctor if exposed to chickenpox"
+   ],
+   "raw_relation": "has precaution",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has warning",
+    "stop use and consult doctor if exposed to measles"
+   ],
+   "raw_relation": "has precaution",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has warning",
+    "stop use and consult doctor if exposed to tuberculosis"
+   ],
+   "raw_relation": "has precaution",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "contraindicated in",
+    "children younger than 4 years old"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "contraindicated in",
+    "children younger than 2 years old"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has warning",
+    "may affect growth in children"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "should inform doctor about",
+    "child not growing at normal rate"
+   ],
+   "raw_relation": "requires consultation with doctor if",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "contraindicated in",
+    "allergy to fluticasone or other ingredients"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "not approved for",
+    "treatment of asthma"
+   ],
+   "raw_relation": "not indicated for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "contraindicated in",
+    "nasal injury not fully healed"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "use with caution in",
+    "nasal sores or ulcers"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "use with caution in",
+    "nasal injury or surgery"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "use with caution in",
+    "glaucoma or cataracts"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "use with caution in",
+    "liver disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "use with caution in",
+    "diabetes"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "use with caution in",
+    "weak immune system"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "use with caution in",
+    "any type of infection"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "should inform doctor about",
+    "pregnancy or breastfeeding"
+   ],
+   "raw_relation": "requires medical evaluation before use",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has administration instruction",
+    "use exactly as directed on label or as prescribed by doctor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has administration instruction",
+    "follow all directions on prescription label"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has administration instruction",
+    "read all medication guides or instruction sheets"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "contraindicated in",
+    "another person"
+   ],
+   "raw_relation": "should not be shared with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has dose adjustment based on",
+    "fluticasone brand or strength"
+   ],
+   "raw_relation": "has dose variation based on",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has dose adjustment based on",
+    "symptom improvement"
+   ],
+   "raw_relation": "has dose variation based on",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has administration instruction",
+    "follow dosing instructions very carefully"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has administration instruction",
+    "read and carefully follow Instructions for Use"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has administration instruction",
+    "ask doctor or pharmacist if instructions are unclear"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has administration instruction",
+    "shake bottle before each use"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Allergy Relief",
+    "has administration instruction",
+    "shake gently"
+   ],
+   "raw_relation": "has shaking instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Sensimist",
+    "has administration instruction",
+    "shake vigorously"
+   ],
+   "raw_relation": "has shaking instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has administration instruction",
+    "once a day"
+   ],
+   "raw_relation": "has usage frequency",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "should not be taken",
+    "do not use more than directed"
+   ],
+   "raw_relation": "has usage restriction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has warning",
+    "avoid getting spray in eyes or mouth"
+   ],
+   "raw_relation": "has usage warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has administration instruction",
+    "use 2 sprays in each nostril once daily during week 1"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has administration instruction",
+    "use 1 or 2 sprays in each nostril once daily as needed during week 2 through 6 months"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has storage instruction",
+    "store between 4°C and 30°C (39°F and 86°F)"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has storage instruction",
+    "store between 15°C and 30°C (59°F and 86°F) and do not refrigerate or freeze"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has warning",
+    "do not stop suddenly if switched from another steroid medicine"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has warning",
+    "taper dose as directed by doctor"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has disposal instruction",
+    "throw away bottle when labeled number of sprays is used"
+   ],
+   "raw_relation": "has expiration instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has dosage form",
+    "nasal spray"
+   ],
+   "raw_relation": "has dosage form",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has strength",
+    "50 mcg per spray"
+   ],
+   "raw_relation": "has strength",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has spray count range",
+    "30 to 144 metered sprays"
+   ],
+   "raw_relation": "has spray count range",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "flonase#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has administration instruction",
+    "use 2 sprays in each nostril once daily during week 1"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has administration instruction",
+    "use 1 or 2 sprays in each nostril once daily as needed during week 2 through 6 months"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has administration instruction",
+    "ask doctor after 6 months of daily use if continued use is appropriate"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has recommended dose",
+    "1 spray in each nostril once daily for children 4 to 11 years using Flonase Allergy Relief or Children's Flonase Allergy Relief"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has recommended dose",
+    "1 spray in each nostril once daily for children 2 to 11 years using Flonase Sensimist or Children's Flonase Sensimist"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "contraindicated in",
+    "children under 4 years using fluticasone propionate nasal spray"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "contraindicated in",
+    "children under 2 years using fluticasone furoate nasal spray"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has storage instruction",
+    "adult should supervise child using the spray"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has recommended dose",
+    "children should use for shortest time necessary to achieve symptom relief"
+   ],
+   "raw_relation": "has patient instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#dosage#2",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "should inform doctor about",
+    "talk to child's doctor if used for longer than two months a year"
+   ],
+   "raw_relation": "has patient instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#dosage#3",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has missed dose instruction",
+    "use as soon as possible, skip if almost time for next dose"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#3",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has overdose instruction",
+    "seek emergency medical attention or call Poison Help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#dosage#3",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "does not reduce risk of",
+    "not expected to produce life-threatening symptoms"
+   ],
+   "raw_relation": "has overdose warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#dosage#3",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "cataracts"
+   ],
+   "raw_relation": "has risk of corticosteroid side effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#dosage#3",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "glaucoma"
+   ],
+   "raw_relation": "has risk of corticosteroid side effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#dosage#3",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has serious side effect",
+    "adrenal gland problems"
+   ],
+   "raw_relation": "has risk of corticosteroid side effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#dosage#3",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "increased risk of infection"
+   ],
+   "raw_relation": "has risk of corticosteroid side effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#dosage#3",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "sores inside the nose"
+   ],
+   "raw_relation": "has risk of corticosteroid side effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#dosage#3",
+   "section_id": "dosage",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "slower growth in children"
+   ],
+   "raw_relation": "has risk of corticosteroid side effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has administration instruction",
+    "rinse with water if spray gets in eyes or mouth"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "contraindicated in",
+    "people with infections"
+   ],
+   "raw_relation": "should be avoided near",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has warning",
+    "chickenpox"
+   ],
+   "raw_relation": "requires preventive treatment if exposed to",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "reduces risk of",
+    "measles"
+   ],
+   "raw_relation": "requires preventive treatment if exposed to",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "hives"
+   ],
+   "raw_relation": "has allergic reaction sign",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "rash"
+   ],
+   "raw_relation": "has allergic reaction sign",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "feeling light-headed"
+   ],
+   "raw_relation": "has allergic reaction sign",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "difficult breathing"
+   ],
+   "raw_relation": "has allergic reaction sign",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "swelling of face, lips, tongue, or throat"
+   ],
+   "raw_relation": "has allergic reaction sign",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has serious side effect",
+    "severe or frequent nosebleeds"
+   ],
+   "raw_relation": "requires immediate medical attention for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has serious side effect",
+    "constant whistling sound from nose"
+   ],
+   "raw_relation": "requires immediate medical attention for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has serious side effect",
+    "noisy breathing"
+   ],
+   "raw_relation": "requires immediate medical attention for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has serious side effect",
+    "runny nose"
+   ],
+   "raw_relation": "requires immediate medical attention for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has serious side effect",
+    "crusting around nostrils"
+   ],
+   "raw_relation": "requires immediate medical attention for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has serious side effect",
+    "redness, sores, or white patches in mouth or throat"
+   ],
+   "raw_relation": "requires immediate medical attention for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has serious side effect",
+    "fever, chills, body aches"
+   ],
+   "raw_relation": "requires immediate medical attention for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has serious side effect",
+    "new changes to vision"
+   ],
+   "raw_relation": "requires immediate medical attention for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has serious side effect",
+    "blurred vision"
+   ],
+   "raw_relation": "requires immediate medical attention for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has serious side effect",
+    "eye pain"
+   ],
+   "raw_relation": "requires immediate medical attention for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has serious side effect",
+    "seeing halos around lights"
+   ],
+   "raw_relation": "requires immediate medical attention for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has serious side effect",
+    "wound that will not heal"
+   ],
+   "raw_relation": "requires immediate medical attention for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has serious side effect",
+    "signs of hormonal disorder"
+   ],
+   "raw_relation": "requires immediate medical attention for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has serious side effect",
+    "worsening tiredness or muscle weakness"
+   ],
+   "raw_relation": "requires immediate medical attention for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has serious side effect",
+    "feeling light-headed"
+   ],
+   "raw_relation": "requires immediate medical attention for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has serious side effect",
+    "nausea"
+   ],
+   "raw_relation": "requires immediate medical attention for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has serious side effect",
+    "vomiting"
+   ],
+   "raw_relation": "requires immediate medical attention for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "minor nosebleed"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "burning or itching in nose"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "stinging or sneezing after use"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "sores or white patches inside or around nose"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has warning",
+    "may affect growth in children"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "should inform doctor about",
+    "child not growing at normal rate"
+   ],
+   "raw_relation": "requires doctor consultation for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "cough"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "trouble breathing"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "headache"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "back pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "sinus pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "sore throat"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "fever"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "nausea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has side effect",
+    "vomiting"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has warning",
+    "not a complete list of side effects"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has instruction",
+    "call doctor for medical advice about side effects"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "should inform doctor about",
+    "report side effects to FDA at 1-800-FDA-1088"
+   ],
+   "raw_relation": "has reporting instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "interacts with",
+    "antifungal medicine"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "interacts with",
+    "antiviral medicine for hepatitis C"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "interacts with",
+    "antiviral medicine for HIV/AIDS"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "interacts with",
+    "steroid medicine for asthma"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "interacts with",
+    "steroid medicine for allergies"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "interacts with",
+    "steroid medicine for skin rash"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "has incomplete interaction list",
+    "not all possible interactions are listed"
+   ],
+   "raw_relation": "has drug interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "flonase#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "interacts with",
+    "prescription medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "interacts with",
+    "over-the-counter medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "interacts with",
+    "vitamins"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "flonase#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "Flonase Nasal Spray",
+    "interacts with",
+    "herbal products"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  }
+ ],
+ "name": "Fluticasone",
+ "slug": "flonase",
+ "n_chunks": 13,
+ "seconds": 20.7,
+ "llm_model": "drugkg-llm"
+}

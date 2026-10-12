@@ -1,0 +1,3619 @@
+{
+  "drug": "Metformin",
+  "source_file": "data/raw-crawling/raw-crawling/metformin.html",
+  "model": "models/codekg_bert_large/final_model",
+  "sentence_count": 212,
+  "label_counts": {
+    "Complex Sentence": 34,
+    "Compound Sentence": 24,
+    "Compound-Complex Sentence": 8,
+    "Incomplete Sentence": 104,
+    "Simple Sentence": 42
+  },
+  "sentences": [
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": null,
+      "block_index": 0,
+      "sentence_index": 0,
+      "sentence": "Generic name: metformin [ met-FOR-min ] Brand names: Fortamet (discontinued), Glucophage (discontinued), Glucophage XR (discontinued), Glumetza.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.5850799679756165,
+      "probabilities": {
+        "Simple Sentence": 0.023821216076612473,
+        "Compound Sentence": 0.5850799679756165,
+        "Complex Sentence": 0.22452449798583984,
+        "Compound-Complex Sentence": 0.13275060057640076,
+        "Incomplete Sentence": 0.033823732286691666
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": null,
+      "block_index": 0,
+      "sentence_index": 1,
+      "sentence": "Riomet Drug class: Biguanides",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.997769832611084,
+      "probabilities": {
+        "Simple Sentence": 0.0008414721232838929,
+        "Compound Sentence": 0.0005245268694125116,
+        "Complex Sentence": 0.00028296103118918836,
+        "Compound-Complex Sentence": 0.0005811655428260565,
+        "Incomplete Sentence": 0.997769832611084
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": null,
+      "block_index": 1,
+      "sentence_index": 0,
+      "sentence": "Medically reviewed by Melisa Puckey, BPharm .",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9966495633125305,
+      "probabilities": {
+        "Simple Sentence": 0.0018034508684650064,
+        "Compound Sentence": 0.0008162597077898681,
+        "Complex Sentence": 0.00030561030143871903,
+        "Compound-Complex Sentence": 0.0004251273931004107,
+        "Incomplete Sentence": 0.9966495633125305
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": null,
+      "block_index": 1,
+      "sentence_index": 1,
+      "sentence": "Last updated on Oct 1, 2026.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9933087825775146,
+      "probabilities": {
+        "Simple Sentence": 0.0038711680099368095,
+        "Compound Sentence": 0.0014460200909525156,
+        "Complex Sentence": 0.0005080967675894499,
+        "Compound-Complex Sentence": 0.00086599140195176,
+        "Incomplete Sentence": 0.9933087825775146
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What is metformin?",
+      "block_index": 2,
+      "sentence_index": 0,
+      "sentence": "Metformin is a first-line treatment used for type 2 diabetes in adults and children 10 years and older to help improve blood sugar levels.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.6545901298522949,
+      "probabilities": {
+        "Simple Sentence": 0.23569178581237793,
+        "Compound Sentence": 0.08149268478155136,
+        "Complex Sentence": 0.6545901298522949,
+        "Compound-Complex Sentence": 0.021519731730222702,
+        "Incomplete Sentence": 0.006705678068101406
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What is metformin?",
+      "block_index": 2,
+      "sentence_index": 1,
+      "sentence": "It is also used off-label to improve symptoms of polycystic ovarian syndrome (PCOS) and other conditions.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.4776016175746918,
+      "probabilities": {
+        "Simple Sentence": 0.4776016175746918,
+        "Compound Sentence": 0.331633597612381,
+        "Complex Sentence": 0.15872186422348022,
+        "Compound-Complex Sentence": 0.021356478333473206,
+        "Incomplete Sentence": 0.010686405003070831
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What is metformin?",
+      "block_index": 2,
+      "sentence_index": 2,
+      "sentence": "Metformin tablets should be used together with dietary changes and exercise for better results.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9724941253662109,
+      "probabilities": {
+        "Simple Sentence": 0.9724941253662109,
+        "Compound Sentence": 0.011239279992878437,
+        "Complex Sentence": 0.013061689212918282,
+        "Compound-Complex Sentence": 0.001116649596951902,
+        "Incomplete Sentence": 0.0020882145036011934
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What is metformin?",
+      "block_index": 3,
+      "sentence_index": 0,
+      "sentence": "Metformin belongs to the drug class biguanides .",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9909249544143677,
+      "probabilities": {
+        "Simple Sentence": 0.9909249544143677,
+        "Compound Sentence": 0.004095420241355896,
+        "Complex Sentence": 0.0024371426552534103,
+        "Compound-Complex Sentence": 0.0005822739331051707,
+        "Incomplete Sentence": 0.001960212364792824
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What is metformin?",
+      "block_index": 4,
+      "sentence_index": 0,
+      "sentence": "Metformin works by reducing glucose absorption from the intestines, lowering liver glucose production, and improving insulin sensitivity.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.4614841043949127,
+      "probabilities": {
+        "Simple Sentence": 0.04446062073111534,
+        "Compound Sentence": 0.4614841043949127,
+        "Complex Sentence": 0.4574458599090576,
+        "Compound-Complex Sentence": 0.029704056680202484,
+        "Incomplete Sentence": 0.006905368994921446
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What is metformin?",
+      "block_index": 4,
+      "sentence_index": 1,
+      "sentence": "Managing blood sugar levels with medications like metformin can prevent diabetes complications such as kidney damage, nerve issues, blindness, amputations, sexual dysfunction, and lower the risk of cardiovascular disease.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.7364121079444885,
+      "probabilities": {
+        "Simple Sentence": 0.04614415392279625,
+        "Compound Sentence": 0.16903574764728546,
+        "Complex Sentence": 0.7364121079444885,
+        "Compound-Complex Sentence": 0.040385447442531586,
+        "Incomplete Sentence": 0.008022568188607693
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Boxed warning for lactic acidosis",
+      "block_index": 5,
+      "sentence_index": 0,
+      "sentence": "Metformin has a boxed warning for lactic acidosis , a dangerous build-up of lactic acid in your blood, which can cause death, hypothermia, hypotension, and resistant bradyarrhythmias.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.847148597240448,
+      "probabilities": {
+        "Simple Sentence": 0.03057243674993515,
+        "Compound Sentence": 0.08466086536645889,
+        "Complex Sentence": 0.847148597240448,
+        "Compound-Complex Sentence": 0.032369859516620636,
+        "Incomplete Sentence": 0.005248234607279301
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Boxed warning for lactic acidosis",
+      "block_index": 5,
+      "sentence_index": 1,
+      "sentence": "A boxed warning is the strongest safety-related warning issued by the FDA.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9776530265808105,
+      "probabilities": {
+        "Simple Sentence": 0.9776530265808105,
+        "Compound Sentence": 0.009980988688766956,
+        "Complex Sentence": 0.005463792011141777,
+        "Compound-Complex Sentence": 0.0009772153571248055,
+        "Incomplete Sentence": 0.005925101228058338
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Boxed warning for lactic acidosis",
+      "block_index": 6,
+      "sentence_index": 0,
+      "sentence": "This is an extremely rare side effect but certain things can raise your risk of lactic acidosis, including kidney problems, taking certain other medicines, being over 65, having an imaging test that uses contrast dye, having surgery or other medical procedures, conditions that lower oxygen levels in the body, drinking too much alcohol, liver problems, and certain rare inherited metabolic disorders (mitochondrial diseases).",
+      "predicted_label": "Compound-Complex Sentence",
+      "confidence": 0.8518505096435547,
+      "probabilities": {
+        "Simple Sentence": 0.010103084146976471,
+        "Compound Sentence": 0.04730149358510971,
+        "Complex Sentence": 0.07764501869678497,
+        "Compound-Complex Sentence": 0.8518505096435547,
+        "Incomplete Sentence": 0.01309992279857397
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Boxed warning for lactic acidosis",
+      "block_index": 7,
+      "sentence_index": 0,
+      "sentence": "Stop taking metformin and call your healthcare professional immediately if you have any symptoms of lactic acidosis, including if you feel:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.46671122312545776,
+      "probabilities": {
+        "Simple Sentence": 0.07810960710048676,
+        "Compound Sentence": 0.25418052077293396,
+        "Complex Sentence": 0.08612237870693207,
+        "Compound-Complex Sentence": 0.11487622559070587,
+        "Incomplete Sentence": 0.46671122312545776
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Boxed warning for lactic acidosis",
+      "block_index": 8,
+      "sentence_index": 0,
+      "sentence": "very weak and tired",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9973132014274597,
+      "probabilities": {
+        "Simple Sentence": 0.0010175213683396578,
+        "Compound Sentence": 0.0007061943178996444,
+        "Complex Sentence": 0.0002839385124389082,
+        "Compound-Complex Sentence": 0.0006791405030526221,
+        "Incomplete Sentence": 0.9973132014274597
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Boxed warning for lactic acidosis",
+      "block_index": 9,
+      "sentence_index": 0,
+      "sentence": "have unusual (not normal) muscle pain",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9972001314163208,
+      "probabilities": {
+        "Simple Sentence": 0.0008839376387186348,
+        "Compound Sentence": 0.0008207082864828408,
+        "Complex Sentence": 0.00032045377884060144,
+        "Compound-Complex Sentence": 0.0007747578201815486,
+        "Incomplete Sentence": 0.9972001314163208
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Boxed warning for lactic acidosis",
+      "block_index": 10,
+      "sentence_index": 0,
+      "sentence": "have trouble breathing",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9969446063041687,
+      "probabilities": {
+        "Simple Sentence": 0.0006916036945767701,
+        "Compound Sentence": 0.0009189141565002501,
+        "Complex Sentence": 0.0003705504641402513,
+        "Compound-Complex Sentence": 0.0010743194725364447,
+        "Incomplete Sentence": 0.9969446063041687
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Boxed warning for lactic acidosis",
+      "block_index": 11,
+      "sentence_index": 0,
+      "sentence": "have unusual sleepiness or sleep longer than usual",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.996624231338501,
+      "probabilities": {
+        "Simple Sentence": 0.0014000425580888987,
+        "Compound Sentence": 0.0008765521924942732,
+        "Complex Sentence": 0.0003545051149558276,
+        "Compound-Complex Sentence": 0.0007446470553986728,
+        "Incomplete Sentence": 0.996624231338501
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Boxed warning for lactic acidosis",
+      "block_index": 12,
+      "sentence_index": 0,
+      "sentence": "have unexplained stomach or intestinal problems with nausea and vomiting, or diarrhea",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9958555102348328,
+      "probabilities": {
+        "Simple Sentence": 0.0014950166223570704,
+        "Compound Sentence": 0.0011740251211449504,
+        "Complex Sentence": 0.0004504223179537803,
+        "Compound-Complex Sentence": 0.0010250033810734749,
+        "Incomplete Sentence": 0.9958555102348328
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Boxed warning for lactic acidosis",
+      "block_index": 13,
+      "sentence_index": 0,
+      "sentence": "cold, especially in your arms and legs",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9954735636711121,
+      "probabilities": {
+        "Simple Sentence": 0.0023067411966621876,
+        "Compound Sentence": 0.0011396914487704635,
+        "Complex Sentence": 0.0003981206682510674,
+        "Compound-Complex Sentence": 0.0006818713736720383,
+        "Incomplete Sentence": 0.9954735636711121
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Boxed warning for lactic acidosis",
+      "block_index": 14,
+      "sentence_index": 0,
+      "sentence": "dizzy or lightheaded",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9970788955688477,
+      "probabilities": {
+        "Simple Sentence": 0.0009394551161676645,
+        "Compound Sentence": 0.0008238202426582575,
+        "Complex Sentence": 0.00032355915755033493,
+        "Compound-Complex Sentence": 0.0008343455847352743,
+        "Incomplete Sentence": 0.9970788955688477
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Boxed warning for lactic acidosis",
+      "block_index": 15,
+      "sentence_index": 0,
+      "sentence": "have a slow or irregular heartbeat",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9972279667854309,
+      "probabilities": {
+        "Simple Sentence": 0.000794703490100801,
+        "Compound Sentence": 0.0008048568270169199,
+        "Complex Sentence": 0.0003106031217612326,
+        "Compound-Complex Sentence": 0.0008618004503659904,
+        "Incomplete Sentence": 0.9972279667854309
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Other warnings",
+      "block_index": 16,
+      "sentence_index": 0,
+      "sentence": "Vitamin B12 deficiency: Metformin can lower your vitamin B12 levels over time.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.990699827671051,
+      "probabilities": {
+        "Simple Sentence": 0.990699827671051,
+        "Compound Sentence": 0.0038454777095466852,
+        "Complex Sentence": 0.002766415011137724,
+        "Compound-Complex Sentence": 0.00035655172541737556,
+        "Incomplete Sentence": 0.002331830793991685
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Other warnings",
+      "block_index": 16,
+      "sentence_index": 1,
+      "sentence": "Your doctor may check your blood counts every year and your B12 levels every 2 to 3 years to catch any problems early.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.40631982684135437,
+      "probabilities": {
+        "Simple Sentence": 0.3649348318576813,
+        "Compound Sentence": 0.40631982684135437,
+        "Complex Sentence": 0.1942891776561737,
+        "Compound-Complex Sentence": 0.022174380719661713,
+        "Incomplete Sentence": 0.012281783856451511
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Other warnings",
+      "block_index": 17,
+      "sentence_index": 0,
+      "sentence": "Low blood sugar when taken with insulin or other diabetes medicines: Taking metformin along with insulin or certain other diabetes drugs (ones that boost insulin release) raises the risk of low blood sugar.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.9146551489830017,
+      "probabilities": {
+        "Simple Sentence": 0.02658803202211857,
+        "Compound Sentence": 0.028846949338912964,
+        "Complex Sentence": 0.9146551489830017,
+        "Compound-Complex Sentence": 0.025707166641950607,
+        "Incomplete Sentence": 0.004202731419354677
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Other warnings",
+      "block_index": 17,
+      "sentence_index": 1,
+      "sentence": "If you're on one of these combinations, your doctor may lower the dose of the other medicine.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.4936397671699524,
+      "probabilities": {
+        "Simple Sentence": 0.19373732805252075,
+        "Compound Sentence": 0.4936397671699524,
+        "Complex Sentence": 0.27128592133522034,
+        "Compound-Complex Sentence": 0.028398526832461357,
+        "Incomplete Sentence": 0.012938463129103184
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Other warnings",
+      "block_index": 18,
+      "sentence_index": 0,
+      "sentence": "Macrovascular Outcomes: There have been no clinical studies that clearly show metformin reduces the risk of macrovascular disease, such as diseases or conditions that affect the coronary arteries, the aorta, and large arteries in the brain and limbs.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.9217855334281921,
+      "probabilities": {
+        "Simple Sentence": 0.012436660937964916,
+        "Compound Sentence": 0.014133930206298828,
+        "Complex Sentence": 0.9217855334281921,
+        "Compound-Complex Sentence": 0.047680407762527466,
+        "Incomplete Sentence": 0.003963366616517305
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Common side effects",
+      "block_index": 19,
+      "sentence_index": 0,
+      "sentence": "Common side effects of metformin hydrochloride tablets include diarrhea, nausea, vomiting, wind (flatulence), indigestion, and headache.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.35985419154167175,
+      "probabilities": {
+        "Simple Sentence": 0.26715990900993347,
+        "Compound Sentence": 0.3372274339199066,
+        "Complex Sentence": 0.35985419154167175,
+        "Compound-Complex Sentence": 0.02628503181040287,
+        "Incomplete Sentence": 0.009473438374698162
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Common side effects",
+      "block_index": 19,
+      "sentence_index": 1,
+      "sentence": "These side effects occurred in 5% or more of patients in the US clinical trial of using metformin for type 2 diabetic patients.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.4974217414855957,
+      "probabilities": {
+        "Simple Sentence": 0.31788331270217896,
+        "Compound Sentence": 0.14990103244781494,
+        "Complex Sentence": 0.4974217414855957,
+        "Compound-Complex Sentence": 0.025903034955263138,
+        "Incomplete Sentence": 0.008890863507986069
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Common side effects",
+      "block_index": 19,
+      "sentence_index": 2,
+      "sentence": "In the same study, 6% of patients discontinued metformin due to diarrhea.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.49553757905960083,
+      "probabilities": {
+        "Simple Sentence": 0.49553757905960083,
+        "Compound Sentence": 0.30964556336402893,
+        "Complex Sentence": 0.16339100897312164,
+        "Compound-Complex Sentence": 0.020917877554893494,
+        "Incomplete Sentence": 0.010507902130484581
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Common side effects",
+      "block_index": 20,
+      "sentence_index": 0,
+      "sentence": "Less common side effects were abnormal stools, hypoglycemia, myalgia, lightheadedness, dyspnea, nail disorder, rash, increased sweating, taste disorder, chest discomfort, chills, flu syndrome, flushing, and palpitation, which occurred between 1% and less than 5% of patients.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.47012823820114136,
+      "probabilities": {
+        "Simple Sentence": 0.07555647939443588,
+        "Compound Sentence": 0.47012823820114136,
+        "Complex Sentence": 0.3783124089241028,
+        "Compound-Complex Sentence": 0.05764898285269737,
+        "Incomplete Sentence": 0.018353888764977455
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Common side effects",
+      "block_index": 21,
+      "sentence_index": 0,
+      "sentence": "Taking your medicine with meals can help reduce these side effects, and you may find the slow-release tablets reduce gastric side effects.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.895749032497406,
+      "probabilities": {
+        "Simple Sentence": 0.00646883575245738,
+        "Compound Sentence": 0.895749032497406,
+        "Complex Sentence": 0.007330151740461588,
+        "Compound-Complex Sentence": 0.0837254524230957,
+        "Incomplete Sentence": 0.006726525258272886
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Common side effects",
+      "block_index": 21,
+      "sentence_index": 1,
+      "sentence": "Tell your doctor if the side effects bother you a lot, last for more than a few weeks, come back after they've gone away, or start later in therapy.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.6131387948989868,
+      "probabilities": {
+        "Simple Sentence": 0.0428394116461277,
+        "Compound Sentence": 0.6131387948989868,
+        "Complex Sentence": 0.11839896440505981,
+        "Compound-Complex Sentence": 0.1530700922012329,
+        "Incomplete Sentence": 0.07255275547504425
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Common side effects",
+      "block_index": 21,
+      "sentence_index": 2,
+      "sentence": "You may need a lower dose or need to stop taking the medicine for a short period or for good.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.5021592378616333,
+      "probabilities": {
+        "Simple Sentence": 0.5021592378616333,
+        "Compound Sentence": 0.330290287733078,
+        "Complex Sentence": 0.12360139191150665,
+        "Compound-Complex Sentence": 0.021384520456194878,
+        "Incomplete Sentence": 0.022564509883522987
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Common side effects",
+      "block_index": 22,
+      "sentence_index": 0,
+      "sentence": "Metformin rarely causes hypoglycemia (low blood sugar) by itself.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9795418977737427,
+      "probabilities": {
+        "Simple Sentence": 0.9795418977737427,
+        "Compound Sentence": 0.012880638241767883,
+        "Complex Sentence": 0.004749234765768051,
+        "Compound-Complex Sentence": 0.0007655109511688352,
+        "Incomplete Sentence": 0.002062665531411767
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Common side effects",
+      "block_index": 22,
+      "sentence_index": 1,
+      "sentence": "However, hypoglycemia can happen if you do not eat enough, if you drink alcohol, or if you take other medicines to lower blood sugar.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.5643401145935059,
+      "probabilities": {
+        "Simple Sentence": 0.033300720155239105,
+        "Compound Sentence": 0.5643401145935059,
+        "Complex Sentence": 0.3590668737888336,
+        "Compound-Complex Sentence": 0.034223850816488266,
+        "Incomplete Sentence": 0.009068417362868786
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Serious side effects",
+      "block_index": 23,
+      "sentence_index": 0,
+      "sentence": "Get emergency medical help if you have signs of an allergic reaction to metformin: hives ; difficult breathing; swelling of your face, lips, tongue, or throat.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.41438254714012146,
+      "probabilities": {
+        "Simple Sentence": 0.21938958764076233,
+        "Compound Sentence": 0.41438254714012146,
+        "Complex Sentence": 0.23668521642684937,
+        "Compound-Complex Sentence": 0.06268472224473953,
+        "Incomplete Sentence": 0.06685799360275269
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Serious side effects",
+      "block_index": 24,
+      "sentence_index": 0,
+      "sentence": "This medicine can rarely cause patients to develop lactic acidosis, which can be fatal.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.5013079047203064,
+      "probabilities": {
+        "Simple Sentence": 0.20473423600196838,
+        "Compound Sentence": 0.25893470644950867,
+        "Complex Sentence": 0.5013079047203064,
+        "Compound-Complex Sentence": 0.026464765891432762,
+        "Incomplete Sentence": 0.008558355271816254
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Serious side effects",
+      "block_index": 24,
+      "sentence_index": 1,
+      "sentence": "See the “Warnings - Boxed Warning” for more details.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.802398145198822,
+      "probabilities": {
+        "Simple Sentence": 0.802398145198822,
+        "Compound Sentence": 0.05606277659535408,
+        "Complex Sentence": 0.06860575079917908,
+        "Compound-Complex Sentence": 0.010421332903206348,
+        "Incomplete Sentence": 0.06251201778650284
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Serious side effects",
+      "block_index": 25,
+      "sentence_index": 0,
+      "sentence": "Call your doctor at once if you have signs of liver problems, such as upper stomach pain, loss of appetite, dark urine, clay-colored stools, or yellowing of your skin or eyes (jaundice).",
+      "predicted_label": "Compound-Complex Sentence",
+      "confidence": 0.31819266080856323,
+      "probabilities": {
+        "Simple Sentence": 0.06930293142795563,
+        "Compound Sentence": 0.2926322817802429,
+        "Complex Sentence": 0.26247406005859375,
+        "Compound-Complex Sentence": 0.31819266080856323,
+        "Incomplete Sentence": 0.05739806219935417
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Contraindications",
+      "block_index": 26,
+      "sentence_index": 0,
+      "sentence": "You should not use metformin if you have:",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8260315656661987,
+      "probabilities": {
+        "Simple Sentence": 0.8260315656661987,
+        "Compound Sentence": 0.011392343789339066,
+        "Complex Sentence": 0.005023334175348282,
+        "Compound-Complex Sentence": 0.003252824302762747,
+        "Incomplete Sentence": 0.15429995954036713
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Contraindications",
+      "block_index": 27,
+      "sentence_index": 0,
+      "sentence": "severe kidney disease, or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9974834322929382,
+      "probabilities": {
+        "Simple Sentence": 0.0010423377389088273,
+        "Compound Sentence": 0.0006772692431695759,
+        "Complex Sentence": 0.00023543347197119147,
+        "Compound-Complex Sentence": 0.0005614759284071624,
+        "Incomplete Sentence": 0.9974834322929382
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Contraindications",
+      "block_index": 28,
+      "sentence_index": 0,
+      "sentence": "metabolic acidosis or diabetic ketoacidosis (call your doctor for treatment), or",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9877463579177856,
+      "probabilities": {
+        "Simple Sentence": 0.007184006739407778,
+        "Compound Sentence": 0.0026267266366630793,
+        "Complex Sentence": 0.0008971966453827918,
+        "Compound-Complex Sentence": 0.0015456817345693707,
+        "Incomplete Sentence": 0.9877463579177856
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Contraindications",
+      "block_index": 29,
+      "sentence_index": 0,
+      "sentence": "an allergy to metformin or any of the inactive ingredients in this medicine.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9963544607162476,
+      "probabilities": {
+        "Simple Sentence": 0.0016945108072832227,
+        "Compound Sentence": 0.0009006072650663555,
+        "Complex Sentence": 0.0002633745316416025,
+        "Compound-Complex Sentence": 0.0007870593690313399,
+        "Incomplete Sentence": 0.9963544607162476
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 30,
+      "sentence_index": 0,
+      "sentence": "If you need to have surgery or any type of x-ray or CT scan using a dye that is injected into your veins, you may need to temporarily stop taking metformin.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.926656186580658,
+      "probabilities": {
+        "Simple Sentence": 0.022038988769054413,
+        "Compound Sentence": 0.02561565488576889,
+        "Complex Sentence": 0.926656186580658,
+        "Compound-Complex Sentence": 0.022103650495409966,
+        "Incomplete Sentence": 0.003585489932447672
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 30,
+      "sentence_index": 1,
+      "sentence": "Be sure your caregivers know ahead of time that you are using this medication.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.6538680195808411,
+      "probabilities": {
+        "Simple Sentence": 0.30378004908561707,
+        "Compound Sentence": 0.021538015455007553,
+        "Complex Sentence": 0.009585478343069553,
+        "Compound-Complex Sentence": 0.011228468269109726,
+        "Incomplete Sentence": 0.6538680195808411
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 31,
+      "sentence_index": 0,
+      "sentence": "Tell your doctor if you have ever had:",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9955188035964966,
+      "probabilities": {
+        "Simple Sentence": 0.002102459315210581,
+        "Compound Sentence": 0.0011209780350327492,
+        "Complex Sentence": 0.00044156101648695767,
+        "Compound-Complex Sentence": 0.0008161303121596575,
+        "Incomplete Sentence": 0.9955188035964966
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 32,
+      "sentence_index": 0,
+      "sentence": "kidney disease (your kidney function may need to be checked before you take this medicine);",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9952697157859802,
+      "probabilities": {
+        "Simple Sentence": 0.0022561466321349144,
+        "Compound Sentence": 0.0012153182178735733,
+        "Complex Sentence": 0.00039186811773106456,
+        "Compound-Complex Sentence": 0.0008668540976941586,
+        "Incomplete Sentence": 0.9952697157859802
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 33,
+      "sentence_index": 0,
+      "sentence": "high ketone levels in your blood or urine;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9971883893013,
+      "probabilities": {
+        "Simple Sentence": 0.001347169978544116,
+        "Compound Sentence": 0.000714429363142699,
+        "Complex Sentence": 0.0002437854855088517,
+        "Compound-Complex Sentence": 0.0005061117699369788,
+        "Incomplete Sentence": 0.9971883893013
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 34,
+      "sentence_index": 0,
+      "sentence": "heart disease, congestive heart failure ;",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.996099591255188,
+      "probabilities": {
+        "Simple Sentence": 0.0020934389904141426,
+        "Compound Sentence": 0.0008778035989962518,
+        "Complex Sentence": 0.00029374039149843156,
+        "Compound-Complex Sentence": 0.0006353529170155525,
+        "Incomplete Sentence": 0.996099591255188
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 35,
+      "sentence_index": 0,
+      "sentence": "liver disease or liver impairment",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9973896145820618,
+      "probabilities": {
+        "Simple Sentence": 0.0010795325506478548,
+        "Compound Sentence": 0.000622045889031142,
+        "Complex Sentence": 0.0002626202767714858,
+        "Compound-Complex Sentence": 0.0006461940356530249,
+        "Incomplete Sentence": 0.9973896145820618
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 36,
+      "sentence_index": 0,
+      "sentence": "if you also use insulin , or other oral diabetes medications.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9963647723197937,
+      "probabilities": {
+        "Simple Sentence": 0.001336234505288303,
+        "Compound Sentence": 0.000888387265149504,
+        "Complex Sentence": 0.00042625286732800305,
+        "Compound-Complex Sentence": 0.0009843157604336739,
+        "Incomplete Sentence": 0.9963647723197937
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 37,
+      "sentence_index": 0,
+      "sentence": "You may develop lactic acidosis, a dangerous build-up of lactic acid in your blood.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.977852463722229,
+      "probabilities": {
+        "Simple Sentence": 0.977852463722229,
+        "Compound Sentence": 0.010699767619371414,
+        "Complex Sentence": 0.007465995382517576,
+        "Compound-Complex Sentence": 0.0010465666418895125,
+        "Incomplete Sentence": 0.002935169031843543
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 37,
+      "sentence_index": 1,
+      "sentence": "This may be more likely if you have other medical conditions, a severe infection, chronic alcoholism , or if you are 65 or older.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.5184460878372192,
+      "probabilities": {
+        "Simple Sentence": 0.10407618433237076,
+        "Compound Sentence": 0.5184460878372192,
+        "Complex Sentence": 0.3326158821582794,
+        "Compound-Complex Sentence": 0.033272866159677505,
+        "Incomplete Sentence": 0.011588982306420803
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 37,
+      "sentence_index": 2,
+      "sentence": "Ask your doctor about your risk.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.981669008731842,
+      "probabilities": {
+        "Simple Sentence": 0.011507109738886356,
+        "Compound Sentence": 0.0031891739927232265,
+        "Complex Sentence": 0.0011606960324570537,
+        "Compound-Complex Sentence": 0.002474048174917698,
+        "Incomplete Sentence": 0.981669008731842
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 38,
+      "sentence_index": 0,
+      "sentence": "Metformin immediate release tablets should not be given to a child younger than 10 years old.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9796039462089539,
+      "probabilities": {
+        "Simple Sentence": 0.9796039462089539,
+        "Compound Sentence": 0.009745413437485695,
+        "Complex Sentence": 0.007638065610080957,
+        "Compound-Complex Sentence": 0.0007929523126222193,
+        "Incomplete Sentence": 0.002219550311565399
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Before taking this medicine",
+      "block_index": 39,
+      "sentence_index": 0,
+      "sentence": "This medicine should not be used for type 1 diabetes.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9908635020256042,
+      "probabilities": {
+        "Simple Sentence": 0.9908635020256042,
+        "Compound Sentence": 0.0034925341606140137,
+        "Complex Sentence": 0.0027587779331952333,
+        "Compound-Complex Sentence": 0.0005868043517693877,
+        "Incomplete Sentence": 0.0022983020171523094
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Pregnancy",
+      "block_index": 40,
+      "sentence_index": 0,
+      "sentence": "Follow your doctor's instructions about using metformin if you are pregnant or you become pregnant.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9371946454048157,
+      "probabilities": {
+        "Simple Sentence": 0.047603704035282135,
+        "Compound Sentence": 0.0074043720960617065,
+        "Complex Sentence": 0.0027479627169668674,
+        "Compound-Complex Sentence": 0.005049343220889568,
+        "Incomplete Sentence": 0.9371946454048157
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Pregnancy",
+      "block_index": 40,
+      "sentence_index": 1,
+      "sentence": "Controlling diabetes is very important during pregnancy, and having high blood sugar may cause complications in both the mother and the baby.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.9654709100723267,
+      "probabilities": {
+        "Simple Sentence": 0.004848506301641464,
+        "Compound Sentence": 0.9654709100723267,
+        "Complex Sentence": 0.00524760689586401,
+        "Compound-Complex Sentence": 0.020638475194573402,
+        "Incomplete Sentence": 0.003794503165408969
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Pregnancy",
+      "block_index": 40,
+      "sentence_index": 2,
+      "sentence": "Tell your doctor if you become pregnant while taking metformin.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8941383957862854,
+      "probabilities": {
+        "Simple Sentence": 0.08365656435489655,
+        "Compound Sentence": 0.011905647814273834,
+        "Complex Sentence": 0.0038295050617307425,
+        "Compound-Complex Sentence": 0.006469828076660633,
+        "Incomplete Sentence": 0.8941383957862854
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Pregnancy",
+      "block_index": 41,
+      "sentence_index": 0,
+      "sentence": "Metformin may stimulate ovulation in some women and may increase the risk of unintended pregnancy.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.8695070743560791,
+      "probabilities": {
+        "Simple Sentence": 0.0723990648984909,
+        "Compound Sentence": 0.8695070743560791,
+        "Complex Sentence": 0.04044954478740692,
+        "Compound-Complex Sentence": 0.011504419147968292,
+        "Incomplete Sentence": 0.006139857694506645
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Pregnancy",
+      "block_index": 41,
+      "sentence_index": 1,
+      "sentence": "Talk to your doctor about your risk.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9845983982086182,
+      "probabilities": {
+        "Simple Sentence": 0.0087021104991436,
+        "Compound Sentence": 0.0029438959900289774,
+        "Complex Sentence": 0.0011065180879086256,
+        "Compound-Complex Sentence": 0.002649219473823905,
+        "Incomplete Sentence": 0.9845983982086182
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Breastfeeding",
+      "block_index": 42,
+      "sentence_index": 0,
+      "sentence": "Talk to your healthcare provider if you are breastfeeding or plan to breastfeed.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9347907900810242,
+      "probabilities": {
+        "Simple Sentence": 0.04990628734230995,
+        "Compound Sentence": 0.007720939815044403,
+        "Complex Sentence": 0.00233985367231071,
+        "Compound-Complex Sentence": 0.0052421363070607185,
+        "Incomplete Sentence": 0.9347907900810242
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Breastfeeding",
+      "block_index": 42,
+      "sentence_index": 1,
+      "sentence": "Metformin can pass into your breast milk.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.990884006023407,
+      "probabilities": {
+        "Simple Sentence": 0.990884006023407,
+        "Compound Sentence": 0.0036907291505485773,
+        "Complex Sentence": 0.0017450804589316249,
+        "Compound-Complex Sentence": 0.0004970529698766768,
+        "Incomplete Sentence": 0.003183161374181509
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Breastfeeding",
+      "block_index": 42,
+      "sentence_index": 2,
+      "sentence": "Your healthcare provider will be able to advise you about the best way to feed your baby while you take this medicine.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.41544514894485474,
+      "probabilities": {
+        "Simple Sentence": 0.41544514894485474,
+        "Compound Sentence": 0.22042591869831085,
+        "Complex Sentence": 0.3308984637260437,
+        "Compound-Complex Sentence": 0.022017786279320717,
+        "Incomplete Sentence": 0.011212687939405441
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 43,
+      "sentence_index": 0,
+      "sentence": "Take metformin exactly as prescribed by your doctor.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9785070419311523,
+      "probabilities": {
+        "Simple Sentence": 0.014320080168545246,
+        "Compound Sentence": 0.004000887740403414,
+        "Complex Sentence": 0.0011728837853297591,
+        "Compound-Complex Sentence": 0.001999043161049485,
+        "Incomplete Sentence": 0.9785070419311523
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 43,
+      "sentence_index": 1,
+      "sentence": "Follow all directions on your prescription label and read all medication guides or instruction sheets.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8324329257011414,
+      "probabilities": {
+        "Simple Sentence": 0.11957251280546188,
+        "Compound Sentence": 0.026524359360337257,
+        "Complex Sentence": 0.0064747328869998455,
+        "Compound-Complex Sentence": 0.01499551348388195,
+        "Incomplete Sentence": 0.8324329257011414
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 43,
+      "sentence_index": 2,
+      "sentence": "Your doctor may occasionally change your dose.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9836176633834839,
+      "probabilities": {
+        "Simple Sentence": 0.9836176633834839,
+        "Compound Sentence": 0.007167854346334934,
+        "Complex Sentence": 0.002833826467394829,
+        "Compound-Complex Sentence": 0.0008727496606297791,
+        "Incomplete Sentence": 0.005507873836904764
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 43,
+      "sentence_index": 3,
+      "sentence": "Use the medicine exactly as directed.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9924667477607727,
+      "probabilities": {
+        "Simple Sentence": 0.003952366765588522,
+        "Compound Sentence": 0.0017814713064581156,
+        "Complex Sentence": 0.0005719001637771726,
+        "Compound-Complex Sentence": 0.0012273790780454874,
+        "Incomplete Sentence": 0.9924667477607727
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 44,
+      "sentence_index": 0,
+      "sentence": "Take metformin with a meal, unless your doctor tells you otherwise.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9103492498397827,
+      "probabilities": {
+        "Simple Sentence": 0.0738554298877716,
+        "Compound Sentence": 0.009588895365595818,
+        "Complex Sentence": 0.0024494400713592768,
+        "Compound-Complex Sentence": 0.0037568993866443634,
+        "Incomplete Sentence": 0.9103492498397827
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 44,
+      "sentence_index": 1,
+      "sentence": "Some forms of metformin are taken only once daily with the evening meal.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9871512651443481,
+      "probabilities": {
+        "Simple Sentence": 0.9871512651443481,
+        "Compound Sentence": 0.00616805674508214,
+        "Complex Sentence": 0.0034490025136619806,
+        "Compound-Complex Sentence": 0.0007120894733816385,
+        "Incomplete Sentence": 0.002519650151953101
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 44,
+      "sentence_index": 2,
+      "sentence": "Follow your doctor's instructions.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.982801616191864,
+      "probabilities": {
+        "Simple Sentence": 0.009781701490283012,
+        "Compound Sentence": 0.0030976436100900173,
+        "Complex Sentence": 0.001227353815920651,
+        "Compound-Complex Sentence": 0.003091599326580763,
+        "Incomplete Sentence": 0.982801616191864
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 45,
+      "sentence_index": 0,
+      "sentence": "Take immediate release tablets in divided doses 2 to 3 times a day with meals.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9024544358253479,
+      "probabilities": {
+        "Simple Sentence": 0.08191680163145065,
+        "Compound Sentence": 0.008947271853685379,
+        "Complex Sentence": 0.0027247692923992872,
+        "Compound-Complex Sentence": 0.003956780303269625,
+        "Incomplete Sentence": 0.9024544358253479
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 45,
+      "sentence_index": 1,
+      "sentence": "Your dose will be increased slowly to minimise gastrointestinal side effects.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9665655493736267,
+      "probabilities": {
+        "Simple Sentence": 0.9665655493736267,
+        "Compound Sentence": 0.01987396739423275,
+        "Complex Sentence": 0.0072689540684223175,
+        "Compound-Complex Sentence": 0.0015081119490787387,
+        "Incomplete Sentence": 0.004783418495208025
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 46,
+      "sentence_index": 0,
+      "sentence": "Do not crush, chew, or break an extended-release tablet.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.5879790782928467,
+      "probabilities": {
+        "Simple Sentence": 0.3788870871067047,
+        "Compound Sentence": 0.018390746787190437,
+        "Complex Sentence": 0.006257135886698961,
+        "Compound-Complex Sentence": 0.00848593469709158,
+        "Incomplete Sentence": 0.5879790782928467
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 46,
+      "sentence_index": 1,
+      "sentence": "Swallow it whole.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9909781217575073,
+      "probabilities": {
+        "Simple Sentence": 0.0037473756819963455,
+        "Compound Sentence": 0.002030460862442851,
+        "Complex Sentence": 0.0008068731403909624,
+        "Compound-Complex Sentence": 0.0024372732732445,
+        "Incomplete Sentence": 0.9909781217575073
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 47,
+      "sentence_index": 0,
+      "sentence": "Measure liquid medicine carefully.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9923845529556274,
+      "probabilities": {
+        "Simple Sentence": 0.004497559275478125,
+        "Compound Sentence": 0.0013282997533679008,
+        "Complex Sentence": 0.0005096107488498092,
+        "Compound-Complex Sentence": 0.0012799109099432826,
+        "Incomplete Sentence": 0.9923845529556274
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 47,
+      "sentence_index": 1,
+      "sentence": "Shake the oral suspension before you measure a dose.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9824951887130737,
+      "probabilities": {
+        "Simple Sentence": 0.012829107232391834,
+        "Compound Sentence": 0.0022589503787457943,
+        "Complex Sentence": 0.0008350890129804611,
+        "Compound-Complex Sentence": 0.001581628224812448,
+        "Incomplete Sentence": 0.9824951887130737
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 47,
+      "sentence_index": 2,
+      "sentence": "Use the dosing syringe provided, or use a medicine dose-measuring device (not a kitchen spoon).",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9545131325721741,
+      "probabilities": {
+        "Simple Sentence": 0.013087409548461437,
+        "Compound Sentence": 0.013339021243155003,
+        "Complex Sentence": 0.004700763151049614,
+        "Compound-Complex Sentence": 0.014359678141772747,
+        "Incomplete Sentence": 0.9545131325721741
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 48,
+      "sentence_index": 0,
+      "sentence": "Some tablets are made with a shell that is not absorbed or melted in the body.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9686915278434753,
+      "probabilities": {
+        "Simple Sentence": 0.9686915278434753,
+        "Compound Sentence": 0.01307270210236311,
+        "Complex Sentence": 0.006840229500085115,
+        "Compound-Complex Sentence": 0.001568571082316339,
+        "Incomplete Sentence": 0.009826923720538616
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 48,
+      "sentence_index": 1,
+      "sentence": "Part of this shell may appear in your stool.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9839999079704285,
+      "probabilities": {
+        "Simple Sentence": 0.9839999079704285,
+        "Compound Sentence": 0.005896968301385641,
+        "Complex Sentence": 0.0029565072618424892,
+        "Compound-Complex Sentence": 0.0008478810777887702,
+        "Incomplete Sentence": 0.006298781372606754
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 48,
+      "sentence_index": 2,
+      "sentence": "This is normal and will not make the medicine less effective.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9216457605361938,
+      "probabilities": {
+        "Simple Sentence": 0.9216457605361938,
+        "Compound Sentence": 0.04826458916068077,
+        "Complex Sentence": 0.008714847266674042,
+        "Compound-Complex Sentence": 0.0037960971239954233,
+        "Incomplete Sentence": 0.01757870614528656
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 49,
+      "sentence_index": 0,
+      "sentence": "You may have low blood sugar (hypoglycemia) and feel very hungry, dizzy, irritable, confused, anxious, or shaky.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.7839170694351196,
+      "probabilities": {
+        "Simple Sentence": 0.09400345385074615,
+        "Compound Sentence": 0.7839170694351196,
+        "Complex Sentence": 0.08741787075996399,
+        "Compound-Complex Sentence": 0.021054530516266823,
+        "Incomplete Sentence": 0.013607108034193516
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 49,
+      "sentence_index": 1,
+      "sentence": "To quickly treat hypoglycemia, eat or drink a fast-acting source of sugar (fruit juice, hard candy, crackers, raisins, or non-diet soda).",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.47000691294670105,
+      "probabilities": {
+        "Simple Sentence": 0.39155662059783936,
+        "Compound Sentence": 0.10302021354436874,
+        "Complex Sentence": 0.47000691294670105,
+        "Compound-Complex Sentence": 0.021181708201766014,
+        "Incomplete Sentence": 0.01423462014645338
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 50,
+      "sentence_index": 0,
+      "sentence": "Your doctor may prescribe a glucagon injection kit in case you have severe hypoglycemia.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.5944156050682068,
+      "probabilities": {
+        "Simple Sentence": 0.5944156050682068,
+        "Compound Sentence": 0.23368756473064423,
+        "Complex Sentence": 0.14602386951446533,
+        "Compound-Complex Sentence": 0.01648775115609169,
+        "Incomplete Sentence": 0.009385268203914165
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 50,
+      "sentence_index": 1,
+      "sentence": "Be sure your family or close friends know how to give you this injection in an emergency.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.6272941827774048,
+      "probabilities": {
+        "Simple Sentence": 0.316967248916626,
+        "Compound Sentence": 0.03292229026556015,
+        "Complex Sentence": 0.010502064600586891,
+        "Compound-Complex Sentence": 0.012314180843532085,
+        "Incomplete Sentence": 0.6272941827774048
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 51,
+      "sentence_index": 0,
+      "sentence": "Blood sugar levels can be affected by stress , illness, surgery, exercise, alcohol use, or skipping meals.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8225643038749695,
+      "probabilities": {
+        "Simple Sentence": 0.8225643038749695,
+        "Compound Sentence": 0.08612802624702454,
+        "Complex Sentence": 0.07965540885925293,
+        "Compound-Complex Sentence": 0.006280355621129274,
+        "Incomplete Sentence": 0.005371873266994953
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 51,
+      "sentence_index": 1,
+      "sentence": "Ask your doctor before changing your dose or medication schedule.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8331738114356995,
+      "probabilities": {
+        "Simple Sentence": 0.13614477217197418,
+        "Compound Sentence": 0.014855747111141682,
+        "Complex Sentence": 0.005151586607098579,
+        "Compound-Complex Sentence": 0.01067410223186016,
+        "Incomplete Sentence": 0.8331738114356995
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 52,
+      "sentence_index": 0,
+      "sentence": "Metformin is only part of a complete treatment program that may also include diet, exercise, weight control, regular blood sugar testing, and special medical care.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.5950705409049988,
+      "probabilities": {
+        "Simple Sentence": 0.07957635819911957,
+        "Compound Sentence": 0.2877573072910309,
+        "Complex Sentence": 0.5950705409049988,
+        "Compound-Complex Sentence": 0.026949193328619003,
+        "Incomplete Sentence": 0.010646619834005833
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 52,
+      "sentence_index": 1,
+      "sentence": "Follow your doctor's instructions very closely.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9691058993339539,
+      "probabilities": {
+        "Simple Sentence": 0.02079218067228794,
+        "Compound Sentence": 0.0045585245825350285,
+        "Complex Sentence": 0.0018947164062410593,
+        "Compound-Complex Sentence": 0.003648596815764904,
+        "Incomplete Sentence": 0.9691058993339539
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 53,
+      "sentence_index": 0,
+      "sentence": "Store at room temperature away from moisture, heat, and light.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9910964965820312,
+      "probabilities": {
+        "Simple Sentence": 0.005452883895486593,
+        "Compound Sentence": 0.001713366829790175,
+        "Complex Sentence": 0.0005688839592039585,
+        "Compound-Complex Sentence": 0.001168414601124823,
+        "Incomplete Sentence": 0.9910964965820312
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 54,
+      "sentence_index": 0,
+      "sentence": "Your doctor may have you take extra vitamin B12 while you are taking this medicine.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9794837236404419,
+      "probabilities": {
+        "Simple Sentence": 0.9794837236404419,
+        "Compound Sentence": 0.009243675507605076,
+        "Complex Sentence": 0.005190298892557621,
+        "Compound-Complex Sentence": 0.0012066003400832415,
+        "Incomplete Sentence": 0.0048758345656096935
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How should I take metformin?",
+      "block_index": 54,
+      "sentence_index": 1,
+      "sentence": "Take only the amount of vitamin B12 that your doctor has prescribed.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9143689274787903,
+      "probabilities": {
+        "Simple Sentence": 0.06968710571527481,
+        "Compound Sentence": 0.01013790164142847,
+        "Complex Sentence": 0.002426848514005542,
+        "Compound-Complex Sentence": 0.0033792310860008,
+        "Incomplete Sentence": 0.9143689274787903
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Usual Adult Metformin Dose for Diabetes Type 2",
+      "block_index": 55,
+      "sentence_index": 0,
+      "sentence": "Initial dose: 500 mg orally twice a day or 850 mg orally once a day Dose titration: Increase by 500 mg increments weekly or 850 mg every 2 weeks as tolerated.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.7278159260749817,
+      "probabilities": {
+        "Simple Sentence": 0.025148892775177956,
+        "Compound Sentence": 0.7278159260749817,
+        "Complex Sentence": 0.12191268056631088,
+        "Compound-Complex Sentence": 0.08386090397834778,
+        "Incomplete Sentence": 0.041261546313762665
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Usual Adult Metformin Dose for Diabetes Type 2",
+      "block_index": 55,
+      "sentence_index": 1,
+      "sentence": "Maintenance dose: 2000 mg/day in divided doses Maximum dose: 2550 mg/day.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9258992075920105,
+      "probabilities": {
+        "Simple Sentence": 0.06012287735939026,
+        "Compound Sentence": 0.008436125703155994,
+        "Complex Sentence": 0.0024864189326763153,
+        "Compound-Complex Sentence": 0.003055362496525049,
+        "Incomplete Sentence": 0.9258992075920105
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Usual Adult Metformin Dose for Diabetes Type 2",
+      "block_index": 55,
+      "sentence_index": 2,
+      "sentence": "Doses above 2,000 mg may be better tolerated given 3 times",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9811750650405884,
+      "probabilities": {
+        "Simple Sentence": 0.9811750650405884,
+        "Compound Sentence": 0.009359641931951046,
+        "Complex Sentence": 0.0030238302424550056,
+        "Compound-Complex Sentence": 0.0008307155221700668,
+        "Incomplete Sentence": 0.00561077194288373
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Usual Adult Metformin Dose for Diabetes Type 2",
+      "block_index": 56,
+      "sentence_index": 0,
+      "sentence": "Initial dose: 500 to 1000 mg orally once a day Dose titration: Increase in 500 mg increments weekly as tolerated Maximum dose: 2000 mg/day",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.6760079860687256,
+      "probabilities": {
+        "Simple Sentence": 0.05425764620304108,
+        "Compound Sentence": 0.1818118691444397,
+        "Complex Sentence": 0.036426860839128494,
+        "Compound-Complex Sentence": 0.05149567499756813,
+        "Incomplete Sentence": 0.6760079860687256
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Usual Pediatric Dose for Diabetes Type 2 ( 10 years or older)",
+      "block_index": 57,
+      "sentence_index": 0,
+      "sentence": "Initial dose: 500 mg orally twice a day Dose titration: Increase in 500 mg increments weekly as tolerated; daily dose should be taken in divided doses 2 to 3 times a day with meals Maximum dose: 2000 mg/day",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.3038291335105896,
+      "probabilities": {
+        "Simple Sentence": 0.03178190812468529,
+        "Compound Sentence": 0.3038291335105896,
+        "Complex Sentence": 0.09469810128211975,
+        "Compound-Complex Sentence": 0.2818204462528229,
+        "Incomplete Sentence": 0.2878704071044922
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Usual Pediatric Dose for Diabetes Type 2 ( 10 years or older)",
+      "block_index": 58,
+      "sentence_index": 0,
+      "sentence": "Initial dose: 500 mg orally once a day with evening meal Dose titration: Increase in 500 mg increments weekly based on glycemic control and tolerability Maximum dose: 2000 mg/day",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.5129141211509705,
+      "probabilities": {
+        "Simple Sentence": 0.03684823587536812,
+        "Compound Sentence": 0.5129141211509705,
+        "Complex Sentence": 0.09765266627073288,
+        "Compound-Complex Sentence": 0.18259519338607788,
+        "Incomplete Sentence": 0.16998977959156036
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Renal Impairment",
+      "block_index": 59,
+      "sentence_index": 0,
+      "sentence": "Before starting treatment, assess renal function with estimated glomerular filtration rate (eGFR)",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8466678261756897,
+      "probabilities": {
+        "Simple Sentence": 0.8466678261756897,
+        "Compound Sentence": 0.020038513466715813,
+        "Complex Sentence": 0.024348745122551918,
+        "Compound-Complex Sentence": 0.0075281718745827675,
+        "Incomplete Sentence": 0.10141674429178238
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Renal Impairment",
+      "block_index": 60,
+      "sentence_index": 0,
+      "sentence": "Do not use this medicine in patients with eGFR below 30 mL/minute/1.73 m 2",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8391072750091553,
+      "probabilities": {
+        "Simple Sentence": 0.14595744013786316,
+        "Compound Sentence": 0.008307047188282013,
+        "Complex Sentence": 0.003285010578110814,
+        "Compound-Complex Sentence": 0.003343265037983656,
+        "Incomplete Sentence": 0.8391072750091553
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Renal Impairment",
+      "block_index": 61,
+      "sentence_index": 0,
+      "sentence": "It is not recommended to start metformin tablets in patients with eGFR between 30 to 45 mL/minute/1.73 m 2",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.6939190030097961,
+      "probabilities": {
+        "Simple Sentence": 0.6939190030097961,
+        "Compound Sentence": 0.1413918286561966,
+        "Complex Sentence": 0.14115038514137268,
+        "Compound-Complex Sentence": 0.015300754457712173,
+        "Incomplete Sentence": 0.008238032460212708
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Renal Impairment",
+      "block_index": 62,
+      "sentence_index": 0,
+      "sentence": "While taking this medicine, assess the risk/benefit of continuing if eGFR falls below 45 mL/minute/1.73 m 2",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.6153296828269958,
+      "probabilities": {
+        "Simple Sentence": 0.6153296828269958,
+        "Compound Sentence": 0.0325794443488121,
+        "Complex Sentence": 0.03414296731352806,
+        "Compound-Complex Sentence": 0.011248165741562843,
+        "Incomplete Sentence": 0.3066997230052948
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Renal Impairment",
+      "block_index": 63,
+      "sentence_index": 0,
+      "sentence": "If eGFR falls below 30 mL/minute/1.73 m 2 discontinue this medication",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9796512722969055,
+      "probabilities": {
+        "Simple Sentence": 0.9796512722969055,
+        "Compound Sentence": 0.008562999777495861,
+        "Complex Sentence": 0.004427267704159021,
+        "Compound-Complex Sentence": 0.0011997565161436796,
+        "Incomplete Sentence": 0.006158669013530016
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Renal Impairment",
+      "block_index": 64,
+      "sentence_index": 0,
+      "sentence": "Metformin immediate release tablets are available as 500 mg, 850 mg, and 1,000 mg tablets.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9680835008621216,
+      "probabilities": {
+        "Simple Sentence": 0.9680835008621216,
+        "Compound Sentence": 0.020175494253635406,
+        "Complex Sentence": 0.00698098074644804,
+        "Compound-Complex Sentence": 0.0012137049343436956,
+        "Incomplete Sentence": 0.0035464365500956774
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Hepatic Impairment",
+      "block_index": 65,
+      "sentence_index": 0,
+      "sentence": "Avoid use in patients with hepatic impairment.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9911724925041199,
+      "probabilities": {
+        "Simple Sentence": 0.005572581198066473,
+        "Compound Sentence": 0.0015389728359878063,
+        "Complex Sentence": 0.0005313355941325426,
+        "Compound-Complex Sentence": 0.001184589578770101,
+        "Incomplete Sentence": 0.9911724925041199
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What happens if I miss a dose?",
+      "block_index": 66,
+      "sentence_index": 0,
+      "sentence": "Take the medicine as soon as you can, but skip the missed dose if it is almost time for your next dose.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.5546407103538513,
+      "probabilities": {
+        "Simple Sentence": 0.03473725542426109,
+        "Compound Sentence": 0.5546407103538513,
+        "Complex Sentence": 0.17581109702587128,
+        "Compound-Complex Sentence": 0.19016382098197937,
+        "Incomplete Sentence": 0.04464709758758545
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What happens if I miss a dose?",
+      "block_index": 66,
+      "sentence_index": 1,
+      "sentence": "Do not take two doses at one time.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8405129909515381,
+      "probabilities": {
+        "Simple Sentence": 0.1440759301185608,
+        "Compound Sentence": 0.009005897678434849,
+        "Complex Sentence": 0.003043227596208453,
+        "Compound-Complex Sentence": 0.0033619729802012444,
+        "Incomplete Sentence": 0.8405129909515381
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What happens if I overdose?",
+      "block_index": 67,
+      "sentence_index": 0,
+      "sentence": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9916199445724487,
+      "probabilities": {
+        "Simple Sentence": 0.00475598918274045,
+        "Compound Sentence": 0.0015366633888334036,
+        "Complex Sentence": 0.0006759232492186129,
+        "Compound-Complex Sentence": 0.001411499222740531,
+        "Incomplete Sentence": 0.9916199445724487
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What happens if I overdose?",
+      "block_index": 67,
+      "sentence_index": 1,
+      "sentence": "An overdose can cause severe hypoglycemia or lactic acidosis.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9877187013626099,
+      "probabilities": {
+        "Simple Sentence": 0.9877187013626099,
+        "Compound Sentence": 0.006918619386851788,
+        "Complex Sentence": 0.002804261166602373,
+        "Compound-Complex Sentence": 0.0005815245676785707,
+        "Incomplete Sentence": 0.0019769014324992895
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What to avoid",
+      "block_index": 68,
+      "sentence_index": 0,
+      "sentence": "Avoid drinking alcohol.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9965259432792664,
+      "probabilities": {
+        "Simple Sentence": 0.0015948428772389889,
+        "Compound Sentence": 0.0008105983724817634,
+        "Complex Sentence": 0.0003085711214225739,
+        "Compound-Complex Sentence": 0.0007600008393637836,
+        "Incomplete Sentence": 0.9965259432792664
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What to avoid",
+      "block_index": 68,
+      "sentence_index": 1,
+      "sentence": "It lowers blood sugar and may increase your risk of lactic acidosis .",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8392746448516846,
+      "probabilities": {
+        "Simple Sentence": 0.8392746448516846,
+        "Compound Sentence": 0.12341415882110596,
+        "Complex Sentence": 0.026199521496891975,
+        "Compound-Complex Sentence": 0.005972857587039471,
+        "Incomplete Sentence": 0.005138878710567951
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What other drugs will affect metformin?",
+      "block_index": 69,
+      "sentence_index": 0,
+      "sentence": "Many drugs can interact with metformin; this includes prescription and over-the-counter medicines, vitamins , and herbal products .",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.5291190147399902,
+      "probabilities": {
+        "Simple Sentence": 0.05394744127988815,
+        "Compound Sentence": 0.5291190147399902,
+        "Complex Sentence": 0.3792537748813629,
+        "Compound-Complex Sentence": 0.029503079131245613,
+        "Incomplete Sentence": 0.008176722563803196
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What other drugs will affect metformin?",
+      "block_index": 69,
+      "sentence_index": 1,
+      "sentence": "Not all possible interactions are listed here.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9489114880561829,
+      "probabilities": {
+        "Simple Sentence": 0.9489114880561829,
+        "Compound Sentence": 0.009873810224235058,
+        "Complex Sentence": 0.005152568221092224,
+        "Compound-Complex Sentence": 0.0015485930489376187,
+        "Incomplete Sentence": 0.034513507038354874
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What other drugs will affect metformin?",
+      "block_index": 69,
+      "sentence_index": 2,
+      "sentence": "Tell your doctor about all your current medicines and any medicine you start or stop using.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9043543338775635,
+      "probabilities": {
+        "Simple Sentence": 0.07272705435752869,
+        "Compound Sentence": 0.013886980712413788,
+        "Complex Sentence": 0.003312974004074931,
+        "Compound-Complex Sentence": 0.005718718282878399,
+        "Incomplete Sentence": 0.9043543338775635
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What other drugs will affect metformin?",
+      "block_index": 70,
+      "sentence_index": 0,
+      "sentence": "Medicines that have a carbonic anhydrase inhibiting effect like topiramate (often used for seizures or migraines), zonisamide (used for seizures), acetazolamide (used for glaucoma, altitude sickness, and other conditions), and dichlorphenamide (used for a muscle condition called periodic paralysis) can raise the risk of a rare but serious condition called lactic acidosis when taken with metformin.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.9376981258392334,
+      "probabilities": {
+        "Simple Sentence": 0.025958886370062828,
+        "Compound Sentence": 0.01208379864692688,
+        "Complex Sentence": 0.9376981258392334,
+        "Compound-Complex Sentence": 0.020000791177153587,
+        "Incomplete Sentence": 0.004258413799107075
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What other drugs will affect metformin?",
+      "block_index": 70,
+      "sentence_index": 1,
+      "sentence": "These medicines commonly lower a substance in your blood called bicarbonate, which your body needs to keep its acid levels balanced.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.8590472936630249,
+      "probabilities": {
+        "Simple Sentence": 0.0326327420771122,
+        "Compound Sentence": 0.07245637476444244,
+        "Complex Sentence": 0.8590472936630249,
+        "Compound-Complex Sentence": 0.03074556775391102,
+        "Incomplete Sentence": 0.005118068307638168
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What other drugs will affect metformin?",
+      "block_index": 70,
+      "sentence_index": 2,
+      "sentence": "If you're taking metformin along with any of these medicines, your doctor may want to monitor you more closely.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.6780819296836853,
+      "probabilities": {
+        "Simple Sentence": 0.048952486366033554,
+        "Compound Sentence": 0.21399398148059845,
+        "Complex Sentence": 0.6780819296836853,
+        "Compound-Complex Sentence": 0.04999116063117981,
+        "Incomplete Sentence": 0.008980444632470608
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What other drugs will affect metformin?",
+      "block_index": 71,
+      "sentence_index": 0,
+      "sentence": "Other medicines that may increase risk of lactic acidosis.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9962254762649536,
+      "probabilities": {
+        "Simple Sentence": 0.0016798755386844277,
+        "Compound Sentence": 0.000881350482814014,
+        "Complex Sentence": 0.0004324822803027928,
+        "Compound-Complex Sentence": 0.0007808333029970527,
+        "Incomplete Sentence": 0.9962254762649536
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What other drugs will affect metformin?",
+      "block_index": 71,
+      "sentence_index": 1,
+      "sentence": "Some medicines including cimetidine (used for heartburn), ranolazine (used for chest pain/angina), dolutegravir (used to treat HIV), and vandetanib (used to treat certain thyroid cancers) can all cause metformin levels to increase.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.8894748687744141,
+      "probabilities": {
+        "Simple Sentence": 0.03967685624957085,
+        "Compound Sentence": 0.039522167295217514,
+        "Complex Sentence": 0.8894748687744141,
+        "Compound-Complex Sentence": 0.02458784729242325,
+        "Incomplete Sentence": 0.006738374941051006
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What other drugs will affect metformin?",
+      "block_index": 71,
+      "sentence_index": 2,
+      "sentence": "They do this by blocking the same pathway your kidneys use to clear metformin out of your system.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9600638747215271,
+      "probabilities": {
+        "Simple Sentence": 0.9600638747215271,
+        "Compound Sentence": 0.0255661029368639,
+        "Complex Sentence": 0.00998985581099987,
+        "Compound-Complex Sentence": 0.0013245361624285579,
+        "Incomplete Sentence": 0.0030556730926036835
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What other drugs will affect metformin?",
+      "block_index": 71,
+      "sentence_index": 3,
+      "sentence": "Since higher metformin levels raise the risk of lactic acidosis, your doctor will weigh the benefits and risks before prescribing any of these together with metformin.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.953481137752533,
+      "probabilities": {
+        "Simple Sentence": 0.01366725005209446,
+        "Compound Sentence": 0.011735972948372364,
+        "Complex Sentence": 0.953481137752533,
+        "Compound-Complex Sentence": 0.018540065735578537,
+        "Incomplete Sentence": 0.0025755346287041903
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What other drugs will affect metformin?",
+      "block_index": 72,
+      "sentence_index": 0,
+      "sentence": "Insulin or other diabetes medicines that raise insulin (like sulfonylureas) : Combining these with metformin can lower your blood sugar too much.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.33517375588417053,
+      "probabilities": {
+        "Simple Sentence": 0.3298162817955017,
+        "Compound Sentence": 0.2930583655834198,
+        "Complex Sentence": 0.33517375588417053,
+        "Compound-Complex Sentence": 0.028847184032201767,
+        "Incomplete Sentence": 0.013104422949254513
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What other drugs will affect metformin?",
+      "block_index": 72,
+      "sentence_index": 1,
+      "sentence": "Your doctor may need to adjust your dose if you're taking more than one diabetes medicine.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8567867279052734,
+      "probabilities": {
+        "Simple Sentence": 0.8567867279052734,
+        "Compound Sentence": 0.0737675204873085,
+        "Complex Sentence": 0.05343194305896759,
+        "Compound-Complex Sentence": 0.00861564464867115,
+        "Incomplete Sentence": 0.0073981937021017075
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What other drugs will affect metformin?",
+      "block_index": 73,
+      "sentence_index": 0,
+      "sentence": "Alcohol: Drinking alcohol, especially in large amounts or regularly, can make it harder for your body to process metformin normally and raises the risk of lactic acidosis.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.8595859408378601,
+      "probabilities": {
+        "Simple Sentence": 0.025906598195433617,
+        "Compound Sentence": 0.07360309362411499,
+        "Complex Sentence": 0.8595859408378601,
+        "Compound-Complex Sentence": 0.03605566918849945,
+        "Incomplete Sentence": 0.004848727956414223
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What other drugs will affect metformin?",
+      "block_index": 74,
+      "sentence_index": 0,
+      "sentence": "Contrast dye used in imaging tests (like CT scans): This type of dye can temporarily affect kidney function, which can let metformin build up in your body.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.8698179721832275,
+      "probabilities": {
+        "Simple Sentence": 0.01746293716132641,
+        "Compound Sentence": 0.04117152467370033,
+        "Complex Sentence": 0.8698179721832275,
+        "Compound-Complex Sentence": 0.06597688794136047,
+        "Incomplete Sentence": 0.005570599809288979
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "What other drugs will affect metformin?",
+      "block_index": 74,
+      "sentence_index": 1,
+      "sentence": "Your doctor may have you stop taking metformin around the time of the test and restart it once your kidney function is confirmed to be back to normal.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.537876546382904,
+      "probabilities": {
+        "Simple Sentence": 0.03499507158994675,
+        "Compound Sentence": 0.3682355284690857,
+        "Complex Sentence": 0.537876546382904,
+        "Compound-Complex Sentence": 0.04951992630958557,
+        "Incomplete Sentence": 0.009372917003929615
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Does metformin work for weight loss?",
+      "block_index": 75,
+      "sentence_index": 0,
+      "sentence": "Yes.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9842511415481567,
+      "probabilities": {
+        "Simple Sentence": 0.003172679105773568,
+        "Compound Sentence": 0.003484506392851472,
+        "Complex Sentence": 0.0020888373255729675,
+        "Compound-Complex Sentence": 0.00700290035456419,
+        "Incomplete Sentence": 0.9842511415481567
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Does metformin work for weight loss?",
+      "block_index": 75,
+      "sentence_index": 1,
+      "sentence": "Metformin can lead to a modest weight loss, though results vary, and it's generally smaller amount of weight loss than what's seen with medications specifically approved for weight loss.",
+      "predicted_label": "Compound-Complex Sentence",
+      "confidence": 0.7746988534927368,
+      "probabilities": {
+        "Simple Sentence": 0.007521072402596474,
+        "Compound Sentence": 0.17939385771751404,
+        "Complex Sentence": 0.027591656893491745,
+        "Compound-Complex Sentence": 0.7746988534927368,
+        "Incomplete Sentence": 0.0107945017516613
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Does metformin work for weight loss?",
+      "block_index": 76,
+      "sentence_index": 0,
+      "sentence": "In the landmark Diabetes Prevention Program (DPP) , a randomized controlled trial in people at high risk for diabetes, participants taking metformin lost more weight than those on placebo.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.9294273853302002,
+      "probabilities": {
+        "Simple Sentence": 0.01774444617331028,
+        "Compound Sentence": 0.02135169692337513,
+        "Complex Sentence": 0.9294273853302002,
+        "Compound-Complex Sentence": 0.027977338060736656,
+        "Incomplete Sentence": 0.0034992105793207884
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Does metformin work for weight loss?",
+      "block_index": 76,
+      "sentence_index": 1,
+      "sentence": "Metformin patients lost 2.7% of body weight after one year, compared to 0.43% for placebo, and 2.1% after two years compared to essentially no change (0.02%) for placebo.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.9695488214492798,
+      "probabilities": {
+        "Simple Sentence": 0.006913468241691589,
+        "Compound Sentence": 0.9695488214492798,
+        "Complex Sentence": 0.007570747286081314,
+        "Compound-Complex Sentence": 0.012415190227329731,
+        "Incomplete Sentence": 0.003551804693415761
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Does metformin work for weight loss?",
+      "block_index": 76,
+      "sentence_index": 2,
+      "sentence": "Looking at it another way, 29% of people on metformin lost at least 5% of their starting body weight after one year, versus just 13% on placebo , a gap that held up at the two-year mark (26% vs. 14%).",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.8879989981651306,
+      "probabilities": {
+        "Simple Sentence": 0.017985330894589424,
+        "Compound Sentence": 0.027025559917092323,
+        "Complex Sentence": 0.8879989981651306,
+        "Compound-Complex Sentence": 0.06028910353779793,
+        "Incomplete Sentence": 0.006700966972857714
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Does metformin work for weight loss?",
+      "block_index": 77,
+      "sentence_index": 0,
+      "sentence": "Metformin is not FDA-approved for weight loss.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9882351160049438,
+      "probabilities": {
+        "Simple Sentence": 0.9882351160049438,
+        "Compound Sentence": 0.006129768211394548,
+        "Complex Sentence": 0.002421051263809204,
+        "Compound-Complex Sentence": 0.0005784293753094971,
+        "Incomplete Sentence": 0.0026357369497418404
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How does metformin help PCOS?",
+      "block_index": 78,
+      "sentence_index": 0,
+      "sentence": "Metformin is prescribed to manage polycystic ovary syndrome (PCOS) because it improves how the body responds to insulin.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.925043523311615,
+      "probabilities": {
+        "Simple Sentence": 0.01993423141539097,
+        "Compound Sentence": 0.030754370614886284,
+        "Complex Sentence": 0.925043523311615,
+        "Compound-Complex Sentence": 0.02185075171291828,
+        "Incomplete Sentence": 0.00241711619310081
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How does metformin help PCOS?",
+      "block_index": 78,
+      "sentence_index": 1,
+      "sentence": "PCOS affects about 1 in 10 women of reproductive age and is often marked by insulin resistance, in which the body doesn't respond well to insulin, prompting the pancreas to produce more.",
+      "predicted_label": "Compound-Complex Sentence",
+      "confidence": 0.6676241755485535,
+      "probabilities": {
+        "Simple Sentence": 0.01406056247651577,
+        "Compound Sentence": 0.1167544573545456,
+        "Complex Sentence": 0.19334334135055542,
+        "Compound-Complex Sentence": 0.6676241755485535,
+        "Incomplete Sentence": 0.00821748748421669
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How does metformin help PCOS?",
+      "block_index": 78,
+      "sentence_index": 2,
+      "sentence": "This excess insulin drives up androgen (male hormone) production, worsening symptoms like irregular periods, infertility, acne, and excess hair growth.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.6137574315071106,
+      "probabilities": {
+        "Simple Sentence": 0.061546631157398224,
+        "Compound Sentence": 0.2811358571052551,
+        "Complex Sentence": 0.6137574315071106,
+        "Compound-Complex Sentence": 0.034222424030303955,
+        "Incomplete Sentence": 0.009337633848190308
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How does metformin help PCOS?",
+      "block_index": 78,
+      "sentence_index": 3,
+      "sentence": "Metformin helps by lowering insulin levels, decreasing the liver's glucose production, improving glucose uptake by muscles, and reducing circulating androgen levels as well, which can support more regular ovulation and menstrual cycles.",
+      "predicted_label": "Compound-Complex Sentence",
+      "confidence": 0.8661801218986511,
+      "probabilities": {
+        "Simple Sentence": 0.008752735331654549,
+        "Compound Sentence": 0.02581380121409893,
+        "Complex Sentence": 0.09014302492141724,
+        "Compound-Complex Sentence": 0.8661801218986511,
+        "Incomplete Sentence": 0.00911029800772667
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How does metformin help PCOS?",
+      "block_index": 79,
+      "sentence_index": 0,
+      "sentence": "Although metformin is not FDA-approved to treat PCOS, it's widely prescribed as an off-label treatment, particularly for those with insulin resistance or fertility difficulties, and it's backed by extensive research and clinical guidelines.",
+      "predicted_label": "Compound-Complex Sentence",
+      "confidence": 0.8647634983062744,
+      "probabilities": {
+        "Simple Sentence": 0.005691754166036844,
+        "Compound Sentence": 0.0971185714006424,
+        "Complex Sentence": 0.02321457490324974,
+        "Compound-Complex Sentence": 0.8647634983062744,
+        "Incomplete Sentence": 0.009211602620780468
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "How does metformin help PCOS?",
+      "block_index": 79,
+      "sentence_index": 1,
+      "sentence": "Beyond helping regulate cycles and support ovulation, metformin may also help reduce androgen-related symptoms such as acne and excess hair growth, and can aid with weight management for those affected by PCOS-related weight gain.",
+      "predicted_label": "Compound-Complex Sentence",
+      "confidence": 0.8530348539352417,
+      "probabilities": {
+        "Simple Sentence": 0.007014778442680836,
+        "Compound Sentence": 0.0977385863661766,
+        "Complex Sentence": 0.03447740897536278,
+        "Compound-Complex Sentence": 0.8530348539352417,
+        "Incomplete Sentence": 0.007734380196779966
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 80,
+      "sentence_index": 0,
+      "sentence": "Saadati S, Mason T, Godini R, Vanky E, Teede H, Mousa A. Metformin use in women with polycystic ovary syndrome (PCOS): Opportunities, benefits, and clinical challenges.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.7187342047691345,
+      "probabilities": {
+        "Simple Sentence": 0.0379059761762619,
+        "Compound Sentence": 0.12095488607883453,
+        "Complex Sentence": 0.7187342047691345,
+        "Compound-Complex Sentence": 0.10349293798208237,
+        "Incomplete Sentence": 0.018911994993686676
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 80,
+      "sentence_index": 1,
+      "sentence": "Diabetes Obes Metab .",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.997512698173523,
+      "probabilities": {
+        "Simple Sentence": 0.0009749206947162747,
+        "Compound Sentence": 0.0006792763015255332,
+        "Complex Sentence": 0.00027046145987696946,
+        "Compound-Complex Sentence": 0.0005625901976600289,
+        "Incomplete Sentence": 0.997512698173523
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 80,
+      "sentence_index": 2,
+      "sentence": "2025;27(Suppl 3):31-47. doi:10.1111/dom.16422",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.851736843585968,
+      "probabilities": {
+        "Simple Sentence": 0.10393460839986801,
+        "Compound Sentence": 0.025884004309773445,
+        "Complex Sentence": 0.009829258546233177,
+        "Compound-Complex Sentence": 0.00861519668251276,
+        "Incomplete Sentence": 0.851736843585968
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 81,
+      "sentence_index": 0,
+      "sentence": "Teede HJ, et al.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9813296794891357,
+      "probabilities": {
+        "Simple Sentence": 0.011678577400743961,
+        "Compound Sentence": 0.0030125160701572895,
+        "Complex Sentence": 0.00121479167137295,
+        "Compound-Complex Sentence": 0.002764440141618252,
+        "Incomplete Sentence": 0.9813296794891357
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 81,
+      "sentence_index": 1,
+      "sentence": "; International PCOS Network.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9970616698265076,
+      "probabilities": {
+        "Simple Sentence": 0.0012561541516333818,
+        "Compound Sentence": 0.0008726654923520982,
+        "Complex Sentence": 0.00034644504194147885,
+        "Compound-Complex Sentence": 0.0004630167386494577,
+        "Incomplete Sentence": 0.9970616698265076
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 81,
+      "sentence_index": 2,
+      "sentence": "International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome 2023.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9859738349914551,
+      "probabilities": {
+        "Simple Sentence": 0.009654355235397816,
+        "Compound Sentence": 0.0017398277996107936,
+        "Complex Sentence": 0.001033838139846921,
+        "Compound-Complex Sentence": 0.0015981154283508658,
+        "Incomplete Sentence": 0.9859738349914551
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 81,
+      "sentence_index": 3,
+      "sentence": "Monash University, Monash Centre for Health Research and Implementation.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9958147406578064,
+      "probabilities": {
+        "Simple Sentence": 0.00212683598510921,
+        "Compound Sentence": 0.0009638029150664806,
+        "Complex Sentence": 0.0003875147958751768,
+        "Compound-Complex Sentence": 0.0007072021253407001,
+        "Incomplete Sentence": 0.9958147406578064
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 81,
+      "sentence_index": 4,
+      "sentence": "Accessed July 17, 2026. https://www.monash.edu/medicine/mchri/pcos/guideline",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9784522652626038,
+      "probabilities": {
+        "Simple Sentence": 0.0075034769251942635,
+        "Compound Sentence": 0.006121169775724411,
+        "Complex Sentence": 0.0024467511102557182,
+        "Compound-Complex Sentence": 0.005476275458931923,
+        "Incomplete Sentence": 0.9784522652626038
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 82,
+      "sentence_index": 0,
+      "sentence": "Attia GM, Almouteri MM, Alnakhli FT. Role of Metformin in Polycystic Ovary Syndrome (PCOS)-Related Infertility.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.4541066288948059,
+      "probabilities": {
+        "Simple Sentence": 0.21286147832870483,
+        "Compound Sentence": 0.20828618109226227,
+        "Complex Sentence": 0.4541066288948059,
+        "Compound-Complex Sentence": 0.08494997024536133,
+        "Incomplete Sentence": 0.03979581221938133
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 82,
+      "sentence_index": 1,
+      "sentence": "Cureus .",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976016879081726,
+      "probabilities": {
+        "Simple Sentence": 0.0008769836276769638,
+        "Compound Sentence": 0.0005919497925788164,
+        "Complex Sentence": 0.0002818103530444205,
+        "Compound-Complex Sentence": 0.0006475950358435512,
+        "Incomplete Sentence": 0.9976016879081726
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 82,
+      "sentence_index": 2,
+      "sentence": "2023;15(8):e44493.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9194656610488892,
+      "probabilities": {
+        "Simple Sentence": 0.05578731745481491,
+        "Compound Sentence": 0.012064854614436626,
+        "Complex Sentence": 0.004410327412188053,
+        "Compound-Complex Sentence": 0.00827182549983263,
+        "Incomplete Sentence": 0.9194656610488892
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 82,
+      "sentence_index": 3,
+      "sentence": "doi:10.7759/cureus.44493",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.8709046244621277,
+      "probabilities": {
+        "Simple Sentence": 0.1107230857014656,
+        "Compound Sentence": 0.008869499899446964,
+        "Complex Sentence": 0.003611708525568247,
+        "Compound-Complex Sentence": 0.005891076289117336,
+        "Incomplete Sentence": 0.8709046244621277
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 83,
+      "sentence_index": 0,
+      "sentence": "World Health Organization.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.995062530040741,
+      "probabilities": {
+        "Simple Sentence": 0.0026153537910431623,
+        "Compound Sentence": 0.0009574483265168965,
+        "Complex Sentence": 0.0004928521811962128,
+        "Compound-Complex Sentence": 0.0008717666496522725,
+        "Incomplete Sentence": 0.995062530040741
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 83,
+      "sentence_index": 1,
+      "sentence": "Polycystic ovary syndrome.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9977855682373047,
+      "probabilities": {
+        "Simple Sentence": 0.0008961940184235573,
+        "Compound Sentence": 0.0005567313055507839,
+        "Complex Sentence": 0.00022340734722092748,
+        "Compound-Complex Sentence": 0.0005380238872021437,
+        "Incomplete Sentence": 0.9977855682373047
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 83,
+      "sentence_index": 2,
+      "sentence": "Fact sheet.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.99815434217453,
+      "probabilities": {
+        "Simple Sentence": 0.000693796609994024,
+        "Compound Sentence": 0.0004886238020844758,
+        "Complex Sentence": 0.00022305383754428476,
+        "Compound-Complex Sentence": 0.00044014345621690154,
+        "Incomplete Sentence": 0.99815434217453
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 83,
+      "sentence_index": 3,
+      "sentence": "Accessed July 17, 2026. https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9836424589157104,
+      "probabilities": {
+        "Simple Sentence": 0.008049897849559784,
+        "Compound Sentence": 0.0045529440976679325,
+        "Complex Sentence": 0.0012587631354108453,
+        "Compound-Complex Sentence": 0.002496026223525405,
+        "Incomplete Sentence": 0.9836424589157104
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 84,
+      "sentence_index": 0,
+      "sentence": "Metformin should be taken after having a meal or eating food, especially when you are first starting treatment.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.5248940587043762,
+      "probabilities": {
+        "Simple Sentence": 0.5248940587043762,
+        "Compound Sentence": 0.18011875450611115,
+        "Complex Sentence": 0.2665233910083771,
+        "Compound-Complex Sentence": 0.020352350547909737,
+        "Incomplete Sentence": 0.008111433126032352
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 84,
+      "sentence_index": 1,
+      "sentence": "This can help reduce any stomach side effects.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.969789445400238,
+      "probabilities": {
+        "Simple Sentence": 0.969789445400238,
+        "Compound Sentence": 0.013856965117156506,
+        "Complex Sentence": 0.011235418729484081,
+        "Compound-Complex Sentence": 0.0019889879040420055,
+        "Incomplete Sentence": 0.0031291169580072165
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 85,
+      "sentence_index": 0,
+      "sentence": "Yes, metformin and Ozempic (semaglutide) are often used together under a healthcare provider’s guidance to manage type 2 diabetes.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.4163081645965576,
+      "probabilities": {
+        "Simple Sentence": 0.38956063985824585,
+        "Compound Sentence": 0.16302861273288727,
+        "Complex Sentence": 0.4163081645965576,
+        "Compound-Complex Sentence": 0.021594561636447906,
+        "Incomplete Sentence": 0.009507955051958561
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 85,
+      "sentence_index": 1,
+      "sentence": "They work through different mechanisms to lower blood sugar and may also help with weight management, but both have specific safety considerations such as Ozempic’s boxed thyroid warning and metformin’s kidney function requirements.",
+      "predicted_label": "Compound-Complex Sentence",
+      "confidence": 0.7196333408355713,
+      "probabilities": {
+        "Simple Sentence": 0.008728839457035065,
+        "Compound Sentence": 0.223149836063385,
+        "Complex Sentence": 0.03810194134712219,
+        "Compound-Complex Sentence": 0.7196333408355713,
+        "Incomplete Sentence": 0.010386019013822079
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 85,
+      "sentence_index": 2,
+      "sentence": "Continue reading",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968401193618774,
+      "probabilities": {
+        "Simple Sentence": 0.0008514289511367679,
+        "Compound Sentence": 0.0008564324234612286,
+        "Complex Sentence": 0.00037671401514671743,
+        "Compound-Complex Sentence": 0.0010752563830465078,
+        "Incomplete Sentence": 0.9968401193618774
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 86,
+      "sentence_index": 0,
+      "sentence": "Metformin will usually start lowering your blood sugar (glucose) levels in the first week of treatment, but it may take 2 to 3 months to see its full effect.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.8032209873199463,
+      "probabilities": {
+        "Simple Sentence": 0.005920812487602234,
+        "Compound Sentence": 0.8032209873199463,
+        "Complex Sentence": 0.02111445926129818,
+        "Compound-Complex Sentence": 0.16382291913032532,
+        "Incomplete Sentence": 0.005920812487602234
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 86,
+      "sentence_index": 1,
+      "sentence": "Metformin is a preferred initial oral treatment for people with type 2 diabetes, and is usually taken on a long-term basis.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.9429792165756226,
+      "probabilities": {
+        "Simple Sentence": 0.02454741857945919,
+        "Compound Sentence": 0.9429792165756226,
+        "Complex Sentence": 0.016986902803182602,
+        "Compound-Complex Sentence": 0.010671737603843212,
+        "Incomplete Sentence": 0.004814829211682081
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 86,
+      "sentence_index": 2,
+      "sentence": "It may be combined with other blood glucose-lowering treatments, if needed.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.8027181029319763,
+      "probabilities": {
+        "Simple Sentence": 0.8027181029319763,
+        "Compound Sentence": 0.11274322867393494,
+        "Complex Sentence": 0.0653783455491066,
+        "Compound-Complex Sentence": 0.009851394221186638,
+        "Incomplete Sentence": 0.009308912791311741
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 87,
+      "sentence_index": 0,
+      "sentence": "Metformin is widely considered the safest first-line medication for type 2 diabetes.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9841315150260925,
+      "probabilities": {
+        "Simple Sentence": 0.9841315150260925,
+        "Compound Sentence": 0.007619231473654509,
+        "Complex Sentence": 0.0057611349038779736,
+        "Compound-Complex Sentence": 0.0006540007889270782,
+        "Incomplete Sentence": 0.0018341905670240521
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 87,
+      "sentence_index": 1,
+      "sentence": "With decades of clinical use and extensive safety data, it remains the preferred initial treatment according to the American Diabetes Association (ADA).",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.9006974697113037,
+      "probabilities": {
+        "Simple Sentence": 0.017664004117250443,
+        "Compound Sentence": 0.04752010107040405,
+        "Complex Sentence": 0.9006974697113037,
+        "Compound-Complex Sentence": 0.02919420413672924,
+        "Incomplete Sentence": 0.004924314562231302
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 87,
+      "sentence_index": 2,
+      "sentence": "However, the safest medication for any individual depends on their specific health profile, age, kidney function, and treatment goals.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.49764731526374817,
+      "probabilities": {
+        "Simple Sentence": 0.03531768545508385,
+        "Compound Sentence": 0.42649251222610474,
+        "Complex Sentence": 0.49764731526374817,
+        "Compound-Complex Sentence": 0.03132030740380287,
+        "Incomplete Sentence": 0.00922217033803463
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 88,
+      "sentence_index": 0,
+      "sentence": "Metformin causes diarrhea by changing gut bacteria, affecting bile acid absorption, blocking water absorption in the intestines, and increasing gut-stimulating hormones.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.7828047871589661,
+      "probabilities": {
+        "Simple Sentence": 0.03478248044848442,
+        "Compound Sentence": 0.14459235966205597,
+        "Complex Sentence": 0.7828047871589661,
+        "Compound-Complex Sentence": 0.0320274792611599,
+        "Incomplete Sentence": 0.005792901385575533
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 88,
+      "sentence_index": 1,
+      "sentence": "These combined effects make stools looser and more frequent.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9846120476722717,
+      "probabilities": {
+        "Simple Sentence": 0.9846120476722717,
+        "Compound Sentence": 0.007967359386384487,
+        "Complex Sentence": 0.0038508824072778225,
+        "Compound-Complex Sentence": 0.0009048918727785349,
+        "Incomplete Sentence": 0.002664824714884162
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 89,
+      "sentence_index": 0,
+      "sentence": "If you take metformin without food you may end up with an upset stomach, especially if you are just starting treatment.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.48897621035575867,
+      "probabilities": {
+        "Simple Sentence": 0.07862401753664017,
+        "Compound Sentence": 0.3813733160495758,
+        "Complex Sentence": 0.48897621035575867,
+        "Compound-Complex Sentence": 0.041777290403842926,
+        "Incomplete Sentence": 0.009249230846762657
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 89,
+      "sentence_index": 1,
+      "sentence": "Nausea and vomiting are some of the most common side effects with metformin and can occur in over 30% of patients.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.8610084056854248,
+      "probabilities": {
+        "Simple Sentence": 0.07272380590438843,
+        "Compound Sentence": 0.8610084056854248,
+        "Complex Sentence": 0.04680522903800011,
+        "Compound-Complex Sentence": 0.01366106141358614,
+        "Incomplete Sentence": 0.0058014290407299995
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 89,
+      "sentence_index": 2,
+      "sentence": "Continue reading",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968401193618774,
+      "probabilities": {
+        "Simple Sentence": 0.0008514289511367679,
+        "Compound Sentence": 0.0008564324234612286,
+        "Complex Sentence": 0.00037671401514671743,
+        "Compound-Complex Sentence": 0.0010752563830465078,
+        "Incomplete Sentence": 0.9968401193618774
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 90,
+      "sentence_index": 0,
+      "sentence": "When metformin is used alone as a single agent, it lowers A1C by about 1 to 1.5 percentage points (1-1.5%) on average, at standard therapeutic doses.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.8957952260971069,
+      "probabilities": {
+        "Simple Sentence": 0.03466597571969032,
+        "Compound Sentence": 0.041672468185424805,
+        "Complex Sentence": 0.8957952260971069,
+        "Compound-Complex Sentence": 0.022968819364905357,
+        "Incomplete Sentence": 0.004897512961179018
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 90,
+      "sentence_index": 1,
+      "sentence": "A1C is a measure of longer-term blood sugar control.",
+      "predicted_label": "Simple Sentence",
+      "confidence": 0.9913457632064819,
+      "probabilities": {
+        "Simple Sentence": 0.9913457632064819,
+        "Compound Sentence": 0.0038451675791293383,
+        "Complex Sentence": 0.0025118913035839796,
+        "Compound-Complex Sentence": 0.0004422940546646714,
+        "Incomplete Sentence": 0.0018548676744103432
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 90,
+      "sentence_index": 2,
+      "sentence": "In most patients, metformin is suggested as the initial treatment for type 2 diabetes, but its glucose-lowering effect may not be adequate for all patients if used alone.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.634448766708374,
+      "probabilities": {
+        "Simple Sentence": 0.007546741981059313,
+        "Compound Sentence": 0.634448766708374,
+        "Complex Sentence": 0.014848126098513603,
+        "Compound-Complex Sentence": 0.33237773180007935,
+        "Incomplete Sentence": 0.010778583586215973
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 90,
+      "sentence_index": 3,
+      "sentence": "Continue reading",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968401193618774,
+      "probabilities": {
+        "Simple Sentence": 0.0008514289511367679,
+        "Compound Sentence": 0.0008564324234612286,
+        "Complex Sentence": 0.00037671401514671743,
+        "Compound-Complex Sentence": 0.0010752563830465078,
+        "Incomplete Sentence": 0.9968401193618774
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 91,
+      "sentence_index": 0,
+      "sentence": "Metformin is generally considered weight neutral or modestly weight reducing, with average losses around 1–3 kg (2–7 lb) over several months in people with type 2 diabetes or obesity.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.6877490282058716,
+      "probabilities": {
+        "Simple Sentence": 0.032103683799505234,
+        "Compound Sentence": 0.23115581274032593,
+        "Complex Sentence": 0.6877490282058716,
+        "Compound-Complex Sentence": 0.0419529564678669,
+        "Incomplete Sentence": 0.0070384833961725235
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 91,
+      "sentence_index": 1,
+      "sentence": "Many people lose little or no weight, and the effect varies widely between individuals.",
+      "predicted_label": "Compound Sentence",
+      "confidence": 0.9626095294952393,
+      "probabilities": {
+        "Simple Sentence": 0.007306676357984543,
+        "Compound Sentence": 0.9626095294952393,
+        "Complex Sentence": 0.009539013728499413,
+        "Compound-Complex Sentence": 0.015696488320827484,
+        "Incomplete Sentence": 0.0048483205027878284
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 91,
+      "sentence_index": 2,
+      "sentence": "Continue reading",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9968401193618774,
+      "probabilities": {
+        "Simple Sentence": 0.0008514289511367679,
+        "Compound Sentence": 0.0008564324234612286,
+        "Complex Sentence": 0.00037671401514671743,
+        "Compound-Complex Sentence": 0.0010752563830465078,
+        "Incomplete Sentence": 0.9968401193618774
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 92,
+      "sentence_index": 0,
+      "sentence": "Signs or symptoms of lactic acidosis may include feeling very weak or tired, unusual muscle pain or weakness, unusual sleepiness, trouble breathing, stomach discomfort, nausea, vomiting, diarrhea, feeling cold, dizziness, and changes in your heartbeat.",
+      "predicted_label": "Complex Sentence",
+      "confidence": 0.6271910071372986,
+      "probabilities": {
+        "Simple Sentence": 0.0709727555513382,
+        "Compound Sentence": 0.25865858793258667,
+        "Complex Sentence": 0.6271910071372986,
+        "Compound-Complex Sentence": 0.035039834678173065,
+        "Incomplete Sentence": 0.00813783798366785
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Popular FAQ",
+      "block_index": 93,
+      "sentence_index": 0,
+      "sentence": "View more FAQ",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976668357849121,
+      "probabilities": {
+        "Simple Sentence": 0.0008865129784680903,
+        "Compound Sentence": 0.0005709800170734525,
+        "Complex Sentence": 0.00030532528762705624,
+        "Compound-Complex Sentence": 0.0005704227951355278,
+        "Incomplete Sentence": 0.9976668357849121
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 94,
+      "sentence_index": 0,
+      "sentence": "Riomet Prescribing Information",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9981881976127625,
+      "probabilities": {
+        "Simple Sentence": 0.0007454515434801579,
+        "Compound Sentence": 0.0004968203138560057,
+        "Complex Sentence": 0.00019005070498678833,
+        "Compound-Complex Sentence": 0.00037944025825709105,
+        "Incomplete Sentence": 0.9981881976127625
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 95,
+      "sentence_index": 0,
+      "sentence": "Metformin Prescribing Information",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.998090922832489,
+      "probabilities": {
+        "Simple Sentence": 0.0008106829482130706,
+        "Compound Sentence": 0.0005065698642283678,
+        "Complex Sentence": 0.00019760220311582088,
+        "Compound-Complex Sentence": 0.0003941319009754807,
+        "Incomplete Sentence": 0.998090922832489
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 96,
+      "sentence_index": 0,
+      "sentence": "Metformin Oral Solution Prescribing Information",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9977536797523499,
+      "probabilities": {
+        "Simple Sentence": 0.0010868035024031997,
+        "Compound Sentence": 0.0005123678711242974,
+        "Complex Sentence": 0.00021233889856375754,
+        "Compound-Complex Sentence": 0.00043484102934598923,
+        "Incomplete Sentence": 0.9977536797523499
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 97,
+      "sentence_index": 0,
+      "sentence": "Metformin Extended Release Tablets Prescribing Information",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.7990765571594238,
+      "probabilities": {
+        "Simple Sentence": 0.19278620183467865,
+        "Compound Sentence": 0.00431783264502883,
+        "Complex Sentence": 0.0016777290729805827,
+        "Compound-Complex Sentence": 0.002141661010682583,
+        "Incomplete Sentence": 0.7990765571594238
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "References",
+      "block_index": 98,
+      "sentence_index": 0,
+      "sentence": "Glumetza Prescribing Information",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9983450174331665,
+      "probabilities": {
+        "Simple Sentence": 0.0006082183099351823,
+        "Compound Sentence": 0.0004834953579120338,
+        "Complex Sentence": 0.00017856415070127696,
+        "Compound-Complex Sentence": 0.0003847239422611892,
+        "Incomplete Sentence": 0.9983450174331665
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "More about metformin",
+      "block_index": 99,
+      "sentence_index": 0,
+      "sentence": "Check interactions",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976571798324585,
+      "probabilities": {
+        "Simple Sentence": 0.0006747463485226035,
+        "Compound Sentence": 0.0006197870243340731,
+        "Complex Sentence": 0.0002985409810207784,
+        "Compound-Complex Sentence": 0.0007497993065044284,
+        "Incomplete Sentence": 0.9976571798324585
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "More about metformin",
+      "block_index": 100,
+      "sentence_index": 0,
+      "sentence": "Compare alternatives",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9973191618919373,
+      "probabilities": {
+        "Simple Sentence": 0.0006938934093341231,
+        "Compound Sentence": 0.0007733384263701737,
+        "Complex Sentence": 0.0003458583087194711,
+        "Compound-Complex Sentence": 0.0008677911828272045,
+        "Incomplete Sentence": 0.9973191618919373
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "More about metformin",
+      "block_index": 101,
+      "sentence_index": 0,
+      "sentence": "Pricing & coupons",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9980949759483337,
+      "probabilities": {
+        "Simple Sentence": 0.0006051041418686509,
+        "Compound Sentence": 0.000543472240678966,
+        "Complex Sentence": 0.00023742545454297215,
+        "Compound-Complex Sentence": 0.0005190916126593947,
+        "Incomplete Sentence": 0.9980949759483337
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "More about metformin",
+      "block_index": 102,
+      "sentence_index": 0,
+      "sentence": "Reviews (672)",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.998019814491272,
+      "probabilities": {
+        "Simple Sentence": 0.000650402216706425,
+        "Compound Sentence": 0.0005267117521725595,
+        "Complex Sentence": 0.00026849310961551964,
+        "Compound-Complex Sentence": 0.0005344839883036911,
+        "Incomplete Sentence": 0.998019814491272
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "More about metformin",
+      "block_index": 103,
+      "sentence_index": 0,
+      "sentence": "Drug images",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9981614947319031,
+      "probabilities": {
+        "Simple Sentence": 0.00048340647481381893,
+        "Compound Sentence": 0.0004796446010004729,
+        "Complex Sentence": 0.0002539920969866216,
+        "Compound-Complex Sentence": 0.0006213125889189541,
+        "Incomplete Sentence": 0.9981614947319031
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "More about metformin",
+      "block_index": 104,
+      "sentence_index": 0,
+      "sentence": "Latest FDA alerts (18)",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9966423511505127,
+      "probabilities": {
+        "Simple Sentence": 0.0017659674631431699,
+        "Compound Sentence": 0.0007957895286381245,
+        "Complex Sentence": 0.00036362805985845625,
+        "Compound-Complex Sentence": 0.00043224095134064555,
+        "Incomplete Sentence": 0.9966423511505127
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "More about metformin",
+      "block_index": 105,
+      "sentence_index": 0,
+      "sentence": "Side effects",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9979200959205627,
+      "probabilities": {
+        "Simple Sentence": 0.000545503746252507,
+        "Compound Sentence": 0.0005380964139476418,
+        "Complex Sentence": 0.00029312996775843203,
+        "Compound-Complex Sentence": 0.0007031821878626943,
+        "Incomplete Sentence": 0.9979200959205627
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "More about metformin",
+      "block_index": 106,
+      "sentence_index": 0,
+      "sentence": "Dosage information",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9979810118675232,
+      "probabilities": {
+        "Simple Sentence": 0.0007104729302227497,
+        "Compound Sentence": 0.0005979862180538476,
+        "Complex Sentence": 0.00023280664754565805,
+        "Compound-Complex Sentence": 0.0004776882124133408,
+        "Incomplete Sentence": 0.9979810118675232
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "More about metformin",
+      "block_index": 107,
+      "sentence_index": 0,
+      "sentence": "Patient tips",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978949427604675,
+      "probabilities": {
+        "Simple Sentence": 0.0005323336226865649,
+        "Compound Sentence": 0.0005886644939891994,
+        "Complex Sentence": 0.0002780653885565698,
+        "Compound-Complex Sentence": 0.0007059166091494262,
+        "Incomplete Sentence": 0.9978949427604675
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "More about metformin",
+      "block_index": 108,
+      "sentence_index": 0,
+      "sentence": "During pregnancy",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.997847318649292,
+      "probabilities": {
+        "Simple Sentence": 0.0006217239424586296,
+        "Compound Sentence": 0.0005644300836138427,
+        "Complex Sentence": 0.0002694973663892597,
+        "Compound-Complex Sentence": 0.0006969781243242323,
+        "Incomplete Sentence": 0.997847318649292
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "More about metformin",
+      "block_index": 109,
+      "sentence_index": 0,
+      "sentence": "Support group",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9980746507644653,
+      "probabilities": {
+        "Simple Sentence": 0.0005579813732765615,
+        "Compound Sentence": 0.0005717715830542147,
+        "Complex Sentence": 0.00025847379583865404,
+        "Compound-Complex Sentence": 0.000537129701115191,
+        "Incomplete Sentence": 0.9980746507644653
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "More about metformin",
+      "block_index": 110,
+      "sentence_index": 0,
+      "sentence": "Drug class: biguanides",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9980301260948181,
+      "probabilities": {
+        "Simple Sentence": 0.0006789652397856116,
+        "Compound Sentence": 0.0004928759299218655,
+        "Complex Sentence": 0.0002416201459709555,
+        "Compound-Complex Sentence": 0.0005563242011703551,
+        "Incomplete Sentence": 0.9980301260948181
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "More about metformin",
+      "block_index": 111,
+      "sentence_index": 0,
+      "sentence": "Breastfeeding",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9979557991027832,
+      "probabilities": {
+        "Simple Sentence": 0.0007980064838193357,
+        "Compound Sentence": 0.000586405280046165,
+        "Complex Sentence": 0.00022785254986956716,
+        "Compound-Complex Sentence": 0.00043196609476581216,
+        "Incomplete Sentence": 0.9979557991027832
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "More about metformin",
+      "block_index": 112,
+      "sentence_index": 0,
+      "sentence": "En español",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978698492050171,
+      "probabilities": {
+        "Simple Sentence": 0.0006446139886975288,
+        "Compound Sentence": 0.0005990885547362268,
+        "Complex Sentence": 0.0002653252158779651,
+        "Compound-Complex Sentence": 0.0006211310974322259,
+        "Incomplete Sentence": 0.9978698492050171
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Patient resources",
+      "block_index": 113,
+      "sentence_index": 0,
+      "sentence": "Glucophage , Glumetza , Fortamet , Riomet , Riomet ER",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9952768087387085,
+      "probabilities": {
+        "Simple Sentence": 0.001935460139065981,
+        "Compound Sentence": 0.0012502374593168497,
+        "Complex Sentence": 0.0005100987036712468,
+        "Compound-Complex Sentence": 0.0010274132946506143,
+        "Incomplete Sentence": 0.9952768087387085
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Professional resources",
+      "block_index": 114,
+      "sentence_index": 0,
+      "sentence": "MetFORMIN monograph",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9981614947319031,
+      "probabilities": {
+        "Simple Sentence": 0.0006501769530586898,
+        "Compound Sentence": 0.0004731315711978823,
+        "Complex Sentence": 0.00023467499704565853,
+        "Compound-Complex Sentence": 0.0004805822973139584,
+        "Incomplete Sentence": 0.9981614947319031
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Professional resources",
+      "block_index": 115,
+      "sentence_index": 0,
+      "sentence": "Metformin (FDA)",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9979098439216614,
+      "probabilities": {
+        "Simple Sentence": 0.0008399481303058565,
+        "Compound Sentence": 0.0004976527998223901,
+        "Complex Sentence": 0.00024301075609400868,
+        "Compound-Complex Sentence": 0.0005094542866572738,
+        "Incomplete Sentence": 0.9979098439216614
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Professional resources",
+      "block_index": 116,
+      "sentence_index": 0,
+      "sentence": "Metformin Extended Release Tablets (FDA)",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978851675987244,
+      "probabilities": {
+        "Simple Sentence": 0.0009554874268360436,
+        "Compound Sentence": 0.0004976404597982764,
+        "Complex Sentence": 0.00022125834948383272,
+        "Compound-Complex Sentence": 0.00044045469257980585,
+        "Incomplete Sentence": 0.9978851675987244
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Professional resources",
+      "block_index": 117,
+      "sentence_index": 0,
+      "sentence": "Metformin Oral Solution (FDA)",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9976220726966858,
+      "probabilities": {
+        "Simple Sentence": 0.0010808391962200403,
+        "Compound Sentence": 0.0005229149828664958,
+        "Complex Sentence": 0.00024724885588511825,
+        "Compound-Complex Sentence": 0.0005270162946544588,
+        "Incomplete Sentence": 0.9976220726966858
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Professional resources",
+      "block_index": 118,
+      "sentence_index": 0,
+      "sentence": "Glucophage , Glumetza , Glucophage XR , Fortamet , Riomet",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9947863817214966,
+      "probabilities": {
+        "Simple Sentence": 0.0019998163916170597,
+        "Compound Sentence": 0.0014524201396852732,
+        "Complex Sentence": 0.0006649663555435836,
+        "Compound-Complex Sentence": 0.0010963442036882043,
+        "Incomplete Sentence": 0.9947863817214966
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Related treatment guides",
+      "block_index": 119,
+      "sentence_index": 0,
+      "sentence": "Insulin Resistance Syndrome",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9981764554977417,
+      "probabilities": {
+        "Simple Sentence": 0.0006780707626603544,
+        "Compound Sentence": 0.0005135872052051127,
+        "Complex Sentence": 0.0002116006799042225,
+        "Compound-Complex Sentence": 0.0004204074793960899,
+        "Incomplete Sentence": 0.9981764554977417
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Related treatment guides",
+      "block_index": 120,
+      "sentence_index": 0,
+      "sentence": "Type 2 Diabetes",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9982507824897766,
+      "probabilities": {
+        "Simple Sentence": 0.0005294124130159616,
+        "Compound Sentence": 0.0004925037501379848,
+        "Complex Sentence": 0.00022703129798173904,
+        "Compound-Complex Sentence": 0.000500259455293417,
+        "Incomplete Sentence": 0.9982507824897766
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Related treatment guides",
+      "block_index": 121,
+      "sentence_index": 0,
+      "sentence": "Diabetes, Type 3c",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9981654286384583,
+      "probabilities": {
+        "Simple Sentence": 0.0006360491388477385,
+        "Compound Sentence": 0.0004929427523165941,
+        "Complex Sentence": 0.0002217531728092581,
+        "Compound-Complex Sentence": 0.00048388069262728095,
+        "Incomplete Sentence": 0.9981654286384583
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Related treatment guides",
+      "block_index": 122,
+      "sentence_index": 0,
+      "sentence": "Polyendocrine Metabolic Ovarian Syndrome (Polycystic Ovary Syndrome)",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9977327585220337,
+      "probabilities": {
+        "Simple Sentence": 0.0009880766738206148,
+        "Compound Sentence": 0.0005902956472709775,
+        "Complex Sentence": 0.00023411650909110904,
+        "Compound-Complex Sentence": 0.0004548107390291989,
+        "Incomplete Sentence": 0.9977327585220337
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Related treatment guides",
+      "block_index": 123,
+      "sentence_index": 0,
+      "sentence": "Female Infertility",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9982241988182068,
+      "probabilities": {
+        "Simple Sentence": 0.0005066375015303493,
+        "Compound Sentence": 0.0005046622245572507,
+        "Complex Sentence": 0.00021119791199453175,
+        "Compound-Complex Sentence": 0.000553181569557637,
+        "Incomplete Sentence": 0.9982241988182068
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Further information",
+      "block_index": 124,
+      "sentence_index": 0,
+      "sentence": "Always consult your healthcare provider to ensure the information displayed on this page applies to your personal circumstances.",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.7202866077423096,
+      "probabilities": {
+        "Simple Sentence": 0.23868794739246368,
+        "Compound Sentence": 0.01956402137875557,
+        "Complex Sentence": 0.010725434869527817,
+        "Compound-Complex Sentence": 0.010735915042459965,
+        "Incomplete Sentence": 0.7202866077423096
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "metformin.html",
+      "section_title": "Further information",
+      "block_index": 125,
+      "sentence_index": 0,
+      "sentence": "Medical Disclaimer",
+      "predicted_label": "Incomplete Sentence",
+      "confidence": 0.9978043437004089,
+      "probabilities": {
+        "Simple Sentence": 0.0006821342976763844,
+        "Compound Sentence": 0.0006235212204046547,
+        "Complex Sentence": 0.000262216868577525,
+        "Compound-Complex Sentence": 0.0006277982029132545,
+        "Incomplete Sentence": 0.9978043437004089
+      }
+    }
+  ]
+}

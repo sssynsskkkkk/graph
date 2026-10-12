@@ -1,0 +1,22 @@
+{
+  "input": "/home/heesun/graph/data/text-only/coref_pipeline/1_classification/sentence_classification.jsonl",
+  "model": "codekg-llm",
+  "input_sentence_count": 8028,
+  "output_record_count": 8028,
+  "input_label_counts": {
+    "Complex Sentence": 793,
+    "Compound Sentence": 953,
+    "Compound-Complex Sentence": 170,
+    "Incomplete Sentence": 3902,
+    "Simple Sentence": 2210
+  },
+  "status_counts": {
+    "decomposed": 1916,
+    "excluded_incomplete": 3902,
+    "passthrough": 2210
+  },
+  "simplified_sentence_count": 8404,
+  "decomposition_parse_failures": 0,
+  "repaired_outputs": 16,
+  "still_truncated_outputs": 0
+}

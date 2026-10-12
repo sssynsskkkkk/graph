@@ -1,0 +1,5110 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+     "section_id": "what-is-amoxicillin",
+     "section_heading": "What is amoxicillin?",
+     "text": "Amoxicillin is a penicillin antibiotic.\nAmoxicillin is used to treat bacterial infections.\nThe infections include tonsillitis, bronchitis, sinusitis, pneumonia, and infections of the ear, nose, throat, skin, or urinary tract.\nAmoxicillin clavulanate is a combination of amoxicillin and clavulanate potassium.\nThe amoxicillin fights bacteria.\nThe clavulanate potassium helps prevent certain bacteria from becoming resistant to amoxicillin.\nAmoxicillin is sometimes used together with another antibiotic called clarithromycin (Biaxin).\nThis combination is used to treat stomach ulcers.\nThe ulcers are caused by Helicobacter pylori infection.\nThis combination is sometimes used with a stomach acid reducer called lansoprazole (Prevacid).\nAmoxicillin 500mg and 250mg are available as tablets or capsules and as an oral suspension.\nMany brands and forms of amoxicillin are available.\nNot all brands are listed on this leaflet.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Amoxicillin\", \"has drug class\", \"penicillin antibiotic\"], [\"Amoxicillin\", \"treats\", \"bacterial infection\"], [\"bacterial infection\", \"includes\", \"tonsillitis\"], [\"bacterial infection\", \"includes\", \"bronchitis\"], [\"bacterial infection\", \"includes\", \"sinusitis\"], [\"bacterial infection\", \"includes\", \"pneumonia\"], [\"bacterial infection\", \"includes\", \"infection of ear\"], [\"bacterial infection\", \"includes\", \"infection of nose\"], [\"bacterial infection\", \"includes\", \"infection of throat\"], [\"bacterial infection\", \"includes\", \"infection of skin\"], [\"bacterial infection\", \"includes\", \"infection of urinary tract\"], [\"Amoxicillin clavulanate\", \"is combination of\", \"amoxicillin\"], [\"Amoxicillin clavulanate\", \"is combination of\", \"clavulanate potassium\"], [\"amoxicillin\", \"has mechanism of action\", \"fights bacteria\"], [\"clavulanate potassium\", \"has mechanism of action\", \"helps prevent certain bacteria from becoming resistant to amoxicillin\"], [\"Amoxicillin\", \"used in combination with\", \"clarithromycin\"], [\"clarithromycin\", \"has brand name\", \"Biaxin\"], [\"Amoxicillin and clarithromycin combination\", \"treats\", \"stomach ulcer\"], [\"stomach ulcer\", \"caused by\", \"Helicobacter pylori infection\"], [\"Amoxicillin and clarithromycin combination\", \"used in combination with\", \"lansoprazole\"], [\"lansoprazole\", \"has brand name\", \"Prevacid\"], [\"Amoxicillin\", \"has dosage form\", \"tablet\"], [\"Amoxicillin\", \"has dosage form\", \"capsule\"], [\"Amoxicillin\", \"has dosage form\", \"oral suspension\"], [\"Amoxicillin\", \"has strength\", \"500mg\"], [\"Amoxicillin\", \"has strength\", \"250mg\"], [\"Amoxicillin\", \"has multiple brands and forms\", \"available\"], [\"Amoxicillin\", \"has note\", \"not all brands are listed on this leaflet\"]]",
+     "oie": [
+      [
+       "Amoxicillin",
+       "has drug class",
+       "penicillin antibiotic"
+      ],
+      [
+       "Amoxicillin",
+       "treats",
+       "bacterial infection"
+      ],
+      [
+       "bacterial infection",
+       "includes",
+       "tonsillitis"
+      ],
+      [
+       "bacterial infection",
+       "includes",
+       "bronchitis"
+      ],
+      [
+       "bacterial infection",
+       "includes",
+       "sinusitis"
+      ],
+      [
+       "bacterial infection",
+       "includes",
+       "pneumonia"
+      ],
+      [
+       "bacterial infection",
+       "includes",
+       "infection of ear"
+      ],
+      [
+       "bacterial infection",
+       "includes",
+       "infection of nose"
+      ],
+      [
+       "bacterial infection",
+       "includes",
+       "infection of throat"
+      ],
+      [
+       "bacterial infection",
+       "includes",
+       "infection of skin"
+      ],
+      [
+       "bacterial infection",
+       "includes",
+       "infection of urinary tract"
+      ],
+      [
+       "Amoxicillin clavulanate",
+       "is combination of",
+       "amoxicillin"
+      ],
+      [
+       "Amoxicillin clavulanate",
+       "is combination of",
+       "clavulanate potassium"
+      ],
+      [
+       "amoxicillin",
+       "has mechanism of action",
+       "fights bacteria"
+      ],
+      [
+       "clavulanate potassium",
+       "has mechanism of action",
+       "helps prevent certain bacteria from becoming resistant to amoxicillin"
+      ],
+      [
+       "Amoxicillin",
+       "used in combination with",
+       "clarithromycin"
+      ],
+      [
+       "clarithromycin",
+       "has brand name",
+       "Biaxin"
+      ],
+      [
+       "Amoxicillin and clarithromycin combination",
+       "treats",
+       "stomach ulcer"
+      ],
+      [
+       "stomach ulcer",
+       "caused by",
+       "Helicobacter pylori infection"
+      ],
+      [
+       "Amoxicillin and clarithromycin combination",
+       "used in combination with",
+       "lansoprazole"
+      ],
+      [
+       "lansoprazole",
+       "has brand name",
+       "Prevacid"
+      ],
+      [
+       "Amoxicillin",
+       "has dosage form",
+       "tablet"
+      ],
+      [
+       "Amoxicillin",
+       "has dosage form",
+       "capsule"
+      ],
+      [
+       "Amoxicillin",
+       "has dosage form",
+       "oral suspension"
+      ],
+      [
+       "Amoxicillin",
+       "has strength",
+       "500mg"
+      ],
+      [
+       "Amoxicillin",
+       "has strength",
+       "250mg"
+      ],
+      [
+       "Amoxicillin",
+       "has multiple brands and forms",
+       "available"
+      ],
+      [
+       "Amoxicillin",
+       "has note",
+       "not all brands are listed on this leaflet"
+      ]
+     ],
+     "schema_definition": {
+      "caused by": "The subject condition is caused by the pathogen or factor specified by the object entity.",
+      "has brand name": "The subject drug is marketed under the brand name specified by the object entity.",
+      "has dosage form": "The subject drug is available in the pharmaceutical dosage form specified by the object entity.",
+      "has drug class": "The subject drug is a member of the pharmacological drug class specified by the object entity.",
+      "has mechanism of action": "The subject drug functions through the mechanism specified by the object entity.",
+      "has multiple brands and forms": "The subject drug is available in multiple brands and forms as specified by the object entity.",
+      "has note": "The subject drug has the note or additional information specified by the object entity.",
+      "has strength": "The subject drug is available in the dose strength specified by the object entity.",
+      "includes": "The subject condition or category includes the specific condition or entity specified by the object entity.",
+      "is combination of": "The subject drug is a combination of the two drugs specified by the object entities.",
+      "treats": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+      "used in combination with": "The subject drug is used in combination with the other drug or substance specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Amoxicillin",
+        "belongs to drug class",
+        "penicillin antibiotic"
+       ],
+       "raw_relation": "has drug class",
+       "definition": "The subject drug is a member of the pharmacological drug class specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "belongs to drug class",
+         0.988
+        ],
+        [
+         "has dosage form",
+         0.8918
+        ],
+        [
+         "may be used for",
+         0.8892
+        ],
+        [
+         "treats",
+         0.8796
+        ],
+        [
+         "manufactured by",
+         0.8768
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "treats",
+        "bacterial infection"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "bacterial infection",
+        "includes",
+        "tonsillitis"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject condition or category includes the specific condition or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "bacterial infection",
+        "includes",
+        "bronchitis"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject condition or category includes the specific condition or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "bacterial infection",
+        "includes",
+        "sinusitis"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject condition or category includes the specific condition or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "bacterial infection",
+        "includes",
+        "pneumonia"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject condition or category includes the specific condition or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "bacterial infection",
+        "includes",
+        "infection of ear"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject condition or category includes the specific condition or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "bacterial infection",
+        "includes",
+        "infection of nose"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject condition or category includes the specific condition or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "bacterial infection",
+        "includes",
+        "infection of throat"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject condition or category includes the specific condition or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "bacterial infection",
+        "includes",
+        "infection of skin"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject condition or category includes the specific condition or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "bacterial infection",
+        "includes",
+        "infection of urinary tract"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject condition or category includes the specific condition or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin clavulanate",
+        "may be prescribed with",
+        "amoxicillin"
+       ],
+       "raw_relation": "is combination of",
+       "definition": "The subject drug is a combination of the two drugs specified by the object entities.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may be prescribed with",
+         0.936
+        ],
+        [
+         "similar to",
+         0.9033
+        ],
+        [
+         "belongs to drug class",
+         0.8915
+        ],
+        [
+         "may be used for",
+         0.8903
+        ],
+        [
+         "has dosage form",
+         0.8884
+        ]
+       ],
+       "answer": "A. 'may be"
+      },
+      {
+       "triplet": [
+        "Amoxicillin clavulanate",
+        "may be prescribed with",
+        "clavulanate potassium"
+       ],
+       "raw_relation": "is combination of",
+       "definition": "The subject drug is a combination of the two drugs specified by the object entities.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may be prescribed with",
+         0.936
+        ],
+        [
+         "similar to",
+         0.9033
+        ],
+        [
+         "belongs to drug class",
+         0.8915
+        ],
+        [
+         "may be used for",
+         0.8903
+        ],
+        [
+         "has dosage form",
+         0.8884
+        ]
+       ],
+       "answer": "A. 'may be"
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "has mechanism of action",
+        "fights bacteria"
+       ],
+       "raw_relation": "has mechanism of action",
+       "definition": "The subject drug functions through the mechanism specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clavulanate potassium",
+        "has mechanism of action",
+        "helps prevent certain bacteria from becoming resistant to amoxicillin"
+       ],
+       "raw_relation": "has mechanism of action",
+       "definition": "The subject drug functions through the mechanism specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "used in combination with",
+        "clarithromycin"
+       ],
+       "raw_relation": "used in combination with",
+       "definition": "The subject drug is used in combination with the other drug or substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "clarithromycin",
+        "has brand name",
+        "Biaxin"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin and clarithromycin combination",
+        "treats",
+        "stomach ulcer"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "stomach ulcer",
+        "can lead to",
+        "Helicobacter pylori infection"
+       ],
+       "raw_relation": "caused by",
+       "definition": "The subject condition is caused by the pathogen or factor specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has symptom",
+         0.865
+        ],
+        [
+         "can lead to",
+         0.8548
+        ],
+        [
+         "is defined as",
+         0.8344
+        ],
+        [
+         "has side effect",
+         0.8201
+        ],
+        [
+         "may be used for",
+         0.8052
+        ]
+       ],
+       "answer": "B. 'can lead"
+      },
+      {
+       "triplet": [
+        "Amoxicillin and clarithromycin combination",
+        "used in combination with",
+        "lansoprazole"
+       ],
+       "raw_relation": "used in combination with",
+       "definition": "The subject drug is used in combination with the other drug or substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "lansoprazole",
+        "has brand name",
+        "Prevacid"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has dosage form",
+        "tablet"
+       ],
+       "raw_relation": "has dosage form",
+       "definition": "The subject drug is available in the pharmaceutical dosage form specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has dosage form",
+        "capsule"
+       ],
+       "raw_relation": "has dosage form",
+       "definition": "The subject drug is available in the pharmaceutical dosage form specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has dosage form",
+        "oral suspension"
+       ],
+       "raw_relation": "has dosage form",
+       "definition": "The subject drug is available in the pharmaceutical dosage form specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has strength",
+        "500mg"
+       ],
+       "raw_relation": "has strength",
+       "definition": "The subject drug is available in the dose strength specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has strength",
+        "250mg"
+       ],
+       "raw_relation": "has strength",
+       "definition": "The subject drug is available in the dose strength specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has multiple brands and forms",
+        "available"
+       ],
+       "raw_relation": "has multiple brands and forms",
+       "definition": "The subject drug is available in multiple brands and forms as specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "has brand name",
+         0.9052
+        ],
+        [
+         "manufactured by",
+         0.8974
+        ],
+        [
+         "has dosage form",
+         0.8912
+        ],
+        [
+         "may be prescribed with",
+         0.8628
+        ],
+        [
+         "contains ingredient",
+         0.8552
+        ]
+       ],
+       "answer": "F. None of the"
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has multiple brands and forms",
+        "not all brands are listed on this leaflet"
+       ],
+       "raw_relation": "has note",
+       "definition": "The subject drug has the note or additional information specified by the object entity.",
+       "status": "mapped_new",
+       "candidates": [
+        [
+         "may be used for",
+         0.8938
+        ],
+        [
+         "similar to",
+         0.8749
+        ],
+        [
+         "has related treatment guide",
+         0.8748
+        ],
+        [
+         "may be prescribed with",
+         0.8696
+        ],
+        [
+         "has dosage form",
+         0.8674
+        ]
+       ],
+       "answer": "F. None of the"
+      }
+     ]
+    },
+    {
+     "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+     "section_id": "amoxicillin-side-effects",
+     "section_heading": "Amoxicillin side effects",
+     "text": "Common amoxicillin side effects:\nCommon amoxicillin side effects may include nausea, vomiting, diarrhea, or rash.\nThese side effects affected more than 1% of patients in clinical trials.\nSerious amoxicillin side effects:\nGet emergency medical help if you have signs of an allergic reaction to amoxicillin.\nSigns of an allergic reaction to amoxicillin include hives, difficult breathing, and swelling in your face or throat.\nGet emergency medical help if you have a severe skin reaction.\nSigns of a severe skin reaction include fever, sore throat, burning eyes, skin pain, and a red or purple skin rash with blistering and peeling.\nCall your doctor at once if you have:\nsevere stomach pain or vomiting (which may be signs of a serious intestinal condition); or\ndiarrhea that is watery or bloody (even if diarrhea occurs months after your last dose).\nThis is not a complete list of side effects.\nOthers may occur.\nCall your doctor for medical advice about side effects.\nYou may also report side effects to the FDA at 1-800-FDA-1088.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Amoxicillin\", \"has side effect\", \"nausea\"], [\"Amoxicillin\", \"has side effect\", \"vomiting\"], [\"Amoxicillin\", \"has side effect\", \"diarrhea\"], [\"Amoxicillin\", \"has side effect\", \"rash\"], [\"Amoxicillin\", \"has side effect prevalence\", \"more than 1% of patients in clinical trials\"], [\"Amoxicillin\", \"has serious side effect\", \"allergic reaction\"], [\"Amoxicillin\", \"has serious side effect symptom\", \"hives\"], [\"Amoxicillin\", \"has serious side effect symptom\", \"difficulty breathing\"], [\"Amoxicillin\", \"has serious side effect symptom\", \"swelling in face or throat\"], [\"Amoxicillin\", \"has serious side effect\", \"severe skin reaction\"], [\"Amoxicillin\", \"has serious side effect symptom\", \"fever\"], [\"Amoxicillin\", \"has serious side effect symptom\", \"sore throat\"], [\"Amoxicillin\", \"has serious side effect symptom\", \"burning eyes\"], [\"Amoxicillin\", \"has serious side effect symptom\", \"skin pain\"], [\"Amoxicillin\", \"has serious side effect symptom\", \"red or purple skin rash with blistering and peeling\"], [\"Amoxicillin\", \"has serious side effect\", \"severe stomach pain or vomiting\"], [\"Amoxicillin\", \"has serious side effect\", \"watery or bloody diarrhea\"], [\"Amoxicillin\", \"has administration instruction\", \"call your doctor at once if you have severe stomach pain or vomiting\"], [\"Amoxicillin\", \"has administration instruction\", \"call your doctor at once if you have watery or bloody diarrhea\"], [\"Amoxicillin\", \"has administration instruction\", \"call your doctor for medical advice about side effects\"], [\"Amoxicillin\", \"has administration instruction\", \"report side effects to the FDA at 1-800-FDA-1088\"], [\"Amoxicillin\", \"has warning\", \"this is not a complete list of side effects\"], [\"Amoxicillin\", \"has warning\", \"others may occur\"]]",
+     "oie": [
+      [
+       "Amoxicillin",
+       "has side effect",
+       "nausea"
+      ],
+      [
+       "Amoxicillin",
+       "has side effect",
+       "vomiting"
+      ],
+      [
+       "Amoxicillin",
+       "has side effect",
+       "diarrhea"
+      ],
+      [
+       "Amoxicillin",
+       "has side effect",
+       "rash"
+      ],
+      [
+       "Amoxicillin",
+       "has side effect prevalence",
+       "more than 1% of patients in clinical trials"
+      ],
+      [
+       "Amoxicillin",
+       "has serious side effect",
+       "allergic reaction"
+      ],
+      [
+       "Amoxicillin",
+       "has serious side effect symptom",
+       "hives"
+      ],
+      [
+       "Amoxicillin",
+       "has serious side effect symptom",
+       "difficulty breathing"
+      ],
+      [
+       "Amoxicillin",
+       "has serious side effect symptom",
+       "swelling in face or throat"
+      ],
+      [
+       "Amoxicillin",
+       "has serious side effect",
+       "severe skin reaction"
+      ],
+      [
+       "Amoxicillin",
+       "has serious side effect symptom",
+       "fever"
+      ],
+      [
+       "Amoxicillin",
+       "has serious side effect symptom",
+       "sore throat"
+      ],
+      [
+       "Amoxicillin",
+       "has serious side effect symptom",
+       "burning eyes"
+      ],
+      [
+       "Amoxicillin",
+       "has serious side effect symptom",
+       "skin pain"
+      ],
+      [
+       "Amoxicillin",
+       "has serious side effect symptom",
+       "red or purple skin rash with blistering and peeling"
+      ],
+      [
+       "Amoxicillin",
+       "has serious side effect",
+       "severe stomach pain or vomiting"
+      ],
+      [
+       "Amoxicillin",
+       "has serious side effect",
+       "watery or bloody diarrhea"
+      ],
+      [
+       "Amoxicillin",
+       "has administration instruction",
+       "call your doctor at once if you have severe stomach pain or vomiting"
+      ],
+      [
+       "Amoxicillin",
+       "has administration instruction",
+       "call your doctor at once if you have watery or bloody diarrhea"
+      ],
+      [
+       "Amoxicillin",
+       "has administration instruction",
+       "call your doctor for medical advice about side effects"
+      ],
+      [
+       "Amoxicillin",
+       "has administration instruction",
+       "report side effects to the FDA at 1-800-FDA-1088"
+      ],
+      [
+       "Amoxicillin",
+       "has warning",
+       "this is not a complete list of side effects"
+      ],
+      [
+       "Amoxicillin",
+       "has warning",
+       "others may occur"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the action or instruction specified by the object entity to be followed by patients.",
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+      "has serious side effect symptom": "A serious adverse effect caused by the subject drug may include the symptom specified by the object entity.",
+      "has side effect": "The subject drug may cause the adverse effect specified by the object entity.",
+      "has side effect prevalence": "The subject drug's side effect specified by the object entity occurs in the frequency or proportion of patients specified by the object entity.",
+      "has warning": "The subject drug has a caution or advisory note specified by the object entity that should be considered by patients or healthcare providers."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has side effect",
+        "nausea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has side effect",
+        "vomiting"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has side effect",
+        "diarrhea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has side effect",
+        "rash"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has side effect",
+        "more than 1% of patients in clinical trials"
+       ],
+       "raw_relation": "has side effect prevalence",
+       "definition": "The subject drug's side effect specified by the object entity occurs in the frequency or proportion of patients specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8888
+        ],
+        [
+         "has serious side effect",
+         0.8335
+        ],
+        [
+         "interacts with",
+         0.8302
+        ],
+        [
+         "has dose adjustment instruction",
+         0.8283
+        ],
+        [
+         "may be used for",
+         0.8193
+        ]
+       ],
+       "answer": "A. 'has side"
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has serious side effect",
+        "hives"
+       ],
+       "raw_relation": "has serious side effect symptom",
+       "definition": "A serious adverse effect caused by the subject drug may include the symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9625
+        ],
+        [
+         "has serious side effect",
+         0.9327
+        ],
+        [
+         "has overdose symptom",
+         0.9055
+        ],
+        [
+         "has overdose risk",
+         0.8778
+        ],
+        [
+         "interacts with",
+         0.8618
+        ]
+       ],
+       "answer": "B. 'has serious"
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has serious side effect",
+        "difficulty breathing"
+       ],
+       "raw_relation": "has serious side effect symptom",
+       "definition": "A serious adverse effect caused by the subject drug may include the symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9625
+        ],
+        [
+         "has serious side effect",
+         0.9327
+        ],
+        [
+         "has overdose symptom",
+         0.9055
+        ],
+        [
+         "has overdose risk",
+         0.8778
+        ],
+        [
+         "interacts with",
+         0.8618
+        ]
+       ],
+       "answer": "B. 'has serious"
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has serious side effect",
+        "swelling in face or throat"
+       ],
+       "raw_relation": "has serious side effect symptom",
+       "definition": "A serious adverse effect caused by the subject drug may include the symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9625
+        ],
+        [
+         "has serious side effect",
+         0.9327
+        ],
+        [
+         "has overdose symptom",
+         0.9055
+        ],
+        [
+         "has overdose risk",
+         0.8778
+        ],
+        [
+         "interacts with",
+         0.8618
+        ]
+       ],
+       "answer": "B. 'has serious"
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has serious side effect",
+        "severe skin reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has serious side effect",
+        "fever"
+       ],
+       "raw_relation": "has serious side effect symptom",
+       "definition": "A serious adverse effect caused by the subject drug may include the symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9625
+        ],
+        [
+         "has serious side effect",
+         0.9327
+        ],
+        [
+         "has overdose symptom",
+         0.9055
+        ],
+        [
+         "has overdose risk",
+         0.8778
+        ],
+        [
+         "interacts with",
+         0.8618
+        ]
+       ],
+       "answer": "B. 'has serious"
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has serious side effect",
+        "sore throat"
+       ],
+       "raw_relation": "has serious side effect symptom",
+       "definition": "A serious adverse effect caused by the subject drug may include the symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9625
+        ],
+        [
+         "has serious side effect",
+         0.9327
+        ],
+        [
+         "has overdose symptom",
+         0.9055
+        ],
+        [
+         "has overdose risk",
+         0.8778
+        ],
+        [
+         "interacts with",
+         0.8618
+        ]
+       ],
+       "answer": "B. 'has serious"
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has serious side effect",
+        "burning eyes"
+       ],
+       "raw_relation": "has serious side effect symptom",
+       "definition": "A serious adverse effect caused by the subject drug may include the symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9625
+        ],
+        [
+         "has serious side effect",
+         0.9327
+        ],
+        [
+         "has overdose symptom",
+         0.9055
+        ],
+        [
+         "has overdose risk",
+         0.8778
+        ],
+        [
+         "interacts with",
+         0.8618
+        ]
+       ],
+       "answer": "B. 'has serious"
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has serious side effect",
+        "skin pain"
+       ],
+       "raw_relation": "has serious side effect symptom",
+       "definition": "A serious adverse effect caused by the subject drug may include the symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9625
+        ],
+        [
+         "has serious side effect",
+         0.9327
+        ],
+        [
+         "has overdose symptom",
+         0.9055
+        ],
+        [
+         "has overdose risk",
+         0.8778
+        ],
+        [
+         "interacts with",
+         0.8618
+        ]
+       ],
+       "answer": "B. 'has serious"
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has serious side effect",
+        "red or purple skin rash with blistering and peeling"
+       ],
+       "raw_relation": "has serious side effect symptom",
+       "definition": "A serious adverse effect caused by the subject drug may include the symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9625
+        ],
+        [
+         "has serious side effect",
+         0.9327
+        ],
+        [
+         "has overdose symptom",
+         0.9055
+        ],
+        [
+         "has overdose risk",
+         0.8778
+        ],
+        [
+         "interacts with",
+         0.8618
+        ]
+       ],
+       "answer": "B. 'has serious"
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has serious side effect",
+        "severe stomach pain or vomiting"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has serious side effect",
+        "watery or bloody diarrhea"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has administration instruction",
+        "call your doctor at once if you have severe stomach pain or vomiting"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the action or instruction specified by the object entity to be followed by patients.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has administration instruction",
+        "call your doctor at once if you have watery or bloody diarrhea"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the action or instruction specified by the object entity to be followed by patients.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has administration instruction",
+        "call your doctor for medical advice about side effects"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the action or instruction specified by the object entity to be followed by patients.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has administration instruction",
+        "report side effects to the FDA at 1-800-FDA-1088"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the action or instruction specified by the object entity to be followed by patients.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has warning",
+        "this is not a complete list of side effects"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a caution or advisory note specified by the object entity that should be considered by patients or healthcare providers.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has warning",
+        "others may occur"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a caution or advisory note specified by the object entity that should be considered by patients or healthcare providers.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "amoxicillin#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "Do not use Amoxicillin if you are allergic to amoxicillin.\nDo not use Amoxicillin if you are allergic to any other penicillin antibiotic.\nExamples of other penicillin antibiotics include ampicillin, dicloxacillin, oxacillin, and penicillin.\nOther penicillin antibiotics include brands such as Omnipen, Principen, Dycill, Dynapen, Bactocill, Beepen-VK, Ledercillin VK, Pen-V, Pen-Vee K, Pfizerpen, V-Cillin K, and Veetids.\nBefore using amoxicillin, tell your doctor if you are allergic to cephalosporins.\nExamples of cephalosporins include Omnicef, Cefzil, Ceftin, and Keflex.\nThere are other cephalosporins as well.\nAlso, tell your doctor if you have asthma.\nTell your doctor if you have liver disease.\nTell your doctor if you have kidney disease.\nTell your doctor if you have a bleeding or blood-clotting disorder.\nTell your doctor if you have mononucleosis (also called \"mono\").\nTell your doctor if you have any type of allergy.\nAmoxicillin can make birth control pills less effective.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Amoxicillin\", \"contraindicated in\", \"allergy to amoxicillin\"], [\"Amoxicillin\", \"contraindicated in\", \"allergy to penicillin antibiotic\"], [\"penicillin antibiotic\", \"includes\", \"ampicillin\"], [\"penicillin antibiotic\", \"includes\", \"dicloxacillin\"], [\"penicillin antibiotic\", \"includes\", \"oxacillin\"], [\"penicillin antibiotic\", \"includes\", \"penicillin\"], [\"penicillin antibiotic\", \"has brand name\", \"Omnipen\"], [\"penicillin antibiotic\", \"has brand name\", \"Principen\"], [\"penicillin antibiotic\", \"has brand name\", \"Dycill\"], [\"penicillin antibiotic\", \"has brand name\", \"Dynapen\"], [\"penicillin antibiotic\", \"has brand name\", \"Bactocill\"], [\"penicillin antibiotic\", \"has brand name\", \"Beepen-VK\"], [\"penicillin antibiotic\", \"has brand name\", \"Ledercillin VK\"], [\"penicillin antibiotic\", \"has brand name\", \"Pen-V\"], [\"penicillin antibiotic\", \"has brand name\", \"Pen-Vee K\"], [\"penicillin antibiotic\", \"has brand name\", \"Pfizerpen\"], [\"penicillin antibiotic\", \"has brand name\", \"V-Cillin K\"], [\"penicillin antibiotic\", \"has brand name\", \"Veetids\"], [\"Amoxicillin\", \"use with caution in\", \"allergy to cephalosporin\"], [\"cephalosporin\", \"includes\", \"Omnicef\"], [\"cephalosporin\", \"includes\", \"Cefzil\"], [\"cephalosporin\", \"includes\", \"Ceftin\"], [\"cephalosporin\", \"includes\", \"Keflex\"], [\"cephalosporin\", \"includes\", \"other cephalosporins\"], [\"Amoxicillin\", \"use with caution in\", \"asthma\"], [\"Amoxicillin\", \"use with caution in\", \"liver disease\"], [\"Amoxicillin\", \"use with caution in\", \"kidney disease\"], [\"Amoxicillin\", \"use with caution in\", \"bleeding or blood-clotting disorder\"], [\"Amoxicillin\", \"use with caution in\", \"mononucleosis\"], [\"Amoxicillin\", \"use with caution in\", \"any type of allergy\"], [\"Amoxicillin\", \"interacts with\", \"birth control pills\"]]",
+     "oie": [
+      [
+       "Amoxicillin",
+       "contraindicated in",
+       "allergy to amoxicillin"
+      ],
+      [
+       "Amoxicillin",
+       "contraindicated in",
+       "allergy to penicillin antibiotic"
+      ],
+      [
+       "penicillin antibiotic",
+       "includes",
+       "ampicillin"
+      ],
+      [
+       "penicillin antibiotic",
+       "includes",
+       "dicloxacillin"
+      ],
+      [
+       "penicillin antibiotic",
+       "includes",
+       "oxacillin"
+      ],
+      [
+       "penicillin antibiotic",
+       "includes",
+       "penicillin"
+      ],
+      [
+       "penicillin antibiotic",
+       "has brand name",
+       "Omnipen"
+      ],
+      [
+       "penicillin antibiotic",
+       "has brand name",
+       "Principen"
+      ],
+      [
+       "penicillin antibiotic",
+       "has brand name",
+       "Dycill"
+      ],
+      [
+       "penicillin antibiotic",
+       "has brand name",
+       "Dynapen"
+      ],
+      [
+       "penicillin antibiotic",
+       "has brand name",
+       "Bactocill"
+      ],
+      [
+       "penicillin antibiotic",
+       "has brand name",
+       "Beepen-VK"
+      ],
+      [
+       "penicillin antibiotic",
+       "has brand name",
+       "Ledercillin VK"
+      ],
+      [
+       "penicillin antibiotic",
+       "has brand name",
+       "Pen-V"
+      ],
+      [
+       "penicillin antibiotic",
+       "has brand name",
+       "Pen-Vee K"
+      ],
+      [
+       "penicillin antibiotic",
+       "has brand name",
+       "Pfizerpen"
+      ],
+      [
+       "penicillin antibiotic",
+       "has brand name",
+       "V-Cillin K"
+      ],
+      [
+       "penicillin antibiotic",
+       "has brand name",
+       "Veetids"
+      ],
+      [
+       "Amoxicillin",
+       "use with caution in",
+       "allergy to cephalosporin"
+      ],
+      [
+       "cephalosporin",
+       "includes",
+       "Omnicef"
+      ],
+      [
+       "cephalosporin",
+       "includes",
+       "Cefzil"
+      ],
+      [
+       "cephalosporin",
+       "includes",
+       "Ceftin"
+      ],
+      [
+       "cephalosporin",
+       "includes",
+       "Keflex"
+      ],
+      [
+       "cephalosporin",
+       "includes",
+       "other cephalosporins"
+      ],
+      [
+       "Amoxicillin",
+       "use with caution in",
+       "asthma"
+      ],
+      [
+       "Amoxicillin",
+       "use with caution in",
+       "liver disease"
+      ],
+      [
+       "Amoxicillin",
+       "use with caution in",
+       "kidney disease"
+      ],
+      [
+       "Amoxicillin",
+       "use with caution in",
+       "bleeding or blood-clotting disorder"
+      ],
+      [
+       "Amoxicillin",
+       "use with caution in",
+       "mononucleosis"
+      ],
+      [
+       "Amoxicillin",
+       "use with caution in",
+       "any type of allergy"
+      ],
+      [
+       "Amoxicillin",
+       "interacts with",
+       "birth control pills"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "has brand name": "The subject drug class or entity is marketed under the brand name specified by the object entity.",
+      "includes": "The subject drug class or category includes the specific drug or entity specified by the object entity.",
+      "interacts with": "The subject drug may interact with the substance or medication specified by the object entity, potentially affecting its efficacy or safety.",
+      "use with caution in": "The subject drug may require medical supervision or caution when used by patients who have the condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Amoxicillin",
+        "contraindicated in",
+        "allergy to amoxicillin"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "contraindicated in",
+        "allergy to penicillin antibiotic"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "penicillin antibiotic",
+        "includes",
+        "ampicillin"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject drug class or category includes the specific drug or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "penicillin antibiotic",
+        "includes",
+        "dicloxacillin"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject drug class or category includes the specific drug or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "penicillin antibiotic",
+        "includes",
+        "oxacillin"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject drug class or category includes the specific drug or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "penicillin antibiotic",
+        "includes",
+        "penicillin"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject drug class or category includes the specific drug or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "penicillin antibiotic",
+        "has brand name",
+        "Omnipen"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug class or entity is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "penicillin antibiotic",
+        "has brand name",
+        "Principen"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug class or entity is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "penicillin antibiotic",
+        "has brand name",
+        "Dycill"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug class or entity is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "penicillin antibiotic",
+        "has brand name",
+        "Dynapen"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug class or entity is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "penicillin antibiotic",
+        "has brand name",
+        "Bactocill"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug class or entity is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "penicillin antibiotic",
+        "has brand name",
+        "Beepen-VK"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug class or entity is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "penicillin antibiotic",
+        "has brand name",
+        "Ledercillin VK"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug class or entity is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "penicillin antibiotic",
+        "has brand name",
+        "Pen-V"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug class or entity is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "penicillin antibiotic",
+        "has brand name",
+        "Pen-Vee K"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug class or entity is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "penicillin antibiotic",
+        "has brand name",
+        "Pfizerpen"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug class or entity is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "penicillin antibiotic",
+        "has brand name",
+        "V-Cillin K"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug class or entity is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "penicillin antibiotic",
+        "has brand name",
+        "Veetids"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug class or entity is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "use with caution in",
+        "allergy to cephalosporin"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution when used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cephalosporin",
+        "includes",
+        "Omnicef"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject drug class or category includes the specific drug or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cephalosporin",
+        "includes",
+        "Cefzil"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject drug class or category includes the specific drug or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cephalosporin",
+        "includes",
+        "Ceftin"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject drug class or category includes the specific drug or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cephalosporin",
+        "includes",
+        "Keflex"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject drug class or category includes the specific drug or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "cephalosporin",
+        "includes",
+        "other cephalosporins"
+       ],
+       "raw_relation": "includes",
+       "definition": "The subject drug class or category includes the specific drug or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "use with caution in",
+        "asthma"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution when used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "use with caution in",
+        "liver disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution when used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "use with caution in",
+        "kidney disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution when used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "use with caution in",
+        "bleeding or blood-clotting disorder"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution when used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "use with caution in",
+        "mononucleosis"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution when used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "use with caution in",
+        "any type of allergy"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may require medical supervision or caution when used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "interacts with",
+        "birth control pills"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may interact with the substance or medication specified by the object entity, potentially affecting its efficacy or safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "amoxicillin#warnings#1",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "Ask your doctor about using a non-hormone method of birth control (such as a condom, diaphragm, or spermicide) to prevent pregnancy while taking Amoxicillin.\nTake Amoxicillin for the full prescribed length of time.\nYour symptoms may improve before the infection is completely cleared.\nAmoxicillin will not treat a viral infection such as the common cold or flu.\nDo not share Amoxicillin with another person, even if another person have the same symptoms you have.\nAntibiotic medicines can cause diarrhea.\nAntibiotic medicines may happen while you are taking amoxicillin.\nAntibiotic medicines may happen within a few months after you stop taking amoxicillin.\nDiarrhea may be a sign of a new infection.\nIf you have diarrhea that is watery or bloody, stop taking Amoxicillin and call your doctor.\nDo not use anti-diarrhea medicine unless your doctor tells you to.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Amoxicillin\", \"has administration instruction\", \"use non-hormone birth control method to prevent pregnancy\"], [\"Amoxicillin\", \"has administration instruction\", \"take for full prescribed length of time\"], [\"Amoxicillin\", \"has warning\", \"symptoms may improve before infection is completely cleared\"], [\"Amoxicillin\", \"does not treat\", \"viral infection\"], [\"Amoxicillin\", \"has administration instruction\", \"do not share with another person\"], [\"Amoxicillin\", \"has side effect\", \"diarrhea\"], [\"Amoxicillin\", \"has side effect\", \"diarrhea during treatment\"], [\"Amoxicillin\", \"has side effect\", \"diarrhea within a few months after stopping\"], [\"Diarrhea\", \"may indicate\", \"new infection\"], [\"Amoxicillin\", \"has administration instruction\", \"stop and call doctor if watery or bloody diarrhea\"], [\"Amoxicillin\", \"has administration instruction\", \"do not use anti-diarrhea medicine unless instructed by doctor\"]]",
+     "oie": [
+      [
+       "Amoxicillin",
+       "has administration instruction",
+       "use non-hormone birth control method to prevent pregnancy"
+      ],
+      [
+       "Amoxicillin",
+       "has administration instruction",
+       "take for full prescribed length of time"
+      ],
+      [
+       "Amoxicillin",
+       "has warning",
+       "symptoms may improve before infection is completely cleared"
+      ],
+      [
+       "Amoxicillin",
+       "does not treat",
+       "viral infection"
+      ],
+      [
+       "Amoxicillin",
+       "has administration instruction",
+       "do not share with another person"
+      ],
+      [
+       "Amoxicillin",
+       "has side effect",
+       "diarrhea"
+      ],
+      [
+       "Amoxicillin",
+       "has side effect",
+       "diarrhea during treatment"
+      ],
+      [
+       "Amoxicillin",
+       "has side effect",
+       "diarrhea within a few months after stopping"
+      ],
+      [
+       "Diarrhea",
+       "may indicate",
+       "new infection"
+      ],
+      [
+       "Amoxicillin",
+       "has administration instruction",
+       "stop and call doctor if watery or bloody diarrhea"
+      ],
+      [
+       "Amoxicillin",
+       "has administration instruction",
+       "do not use anti-diarrhea medicine unless instructed by doctor"
+      ]
+     ],
+     "schema_definition": {
+      "does not treat": "The subject drug is ineffective against the medical condition specified by the object entity.",
+      "has administration instruction": "The subject drug requires the specific action or precaution specified by the object entity to be followed by the patient.",
+      "has side effect": "The subject drug may cause the adverse effect specified by the object entity.",
+      "has warning": "The subject drug is associated with a caution or potential issue specified by the object entity that patients should be aware of.",
+      "may indicate": "The subject condition or symptom may be a sign or indicator of the medical condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has administration instruction",
+        "use non-hormone birth control method to prevent pregnancy"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or precaution specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has administration instruction",
+        "take for full prescribed length of time"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or precaution specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has warning",
+        "symptoms may improve before infection is completely cleared"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug is associated with a caution or potential issue specified by the object entity that patients should be aware of.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "treats",
+        "viral infection"
+       ],
+       "raw_relation": "does not treat",
+       "definition": "The subject drug is ineffective against the medical condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.8417
+        ],
+        [
+         "not approved for",
+         0.8382
+        ],
+        [
+         "treats",
+         0.8306
+        ],
+        [
+         "should be avoided with",
+         0.8136
+        ],
+        [
+         "does not stop chest pain once",
+         0.8122
+        ]
+       ],
+       "answer": "C. 'treat"
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has administration instruction",
+        "do not share with another person"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or precaution specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has side effect",
+        "diarrhea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has side effect",
+        "diarrhea during treatment"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has side effect",
+        "diarrhea within a few months after stopping"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Diarrhea",
+        "can lead to",
+        "new infection"
+       ],
+       "raw_relation": "may indicate",
+       "definition": "The subject condition or symptom may be a sign or indicator of the medical condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has symptom",
+         0.9148
+        ],
+        [
+         "can lead to",
+         0.8646
+        ],
+        [
+         "is defined as",
+         0.8564
+        ],
+        [
+         "should inform doctor about",
+         0.8305
+        ],
+        [
+         "treats",
+         0.8283
+        ]
+       ],
+       "answer": "B. 'can lead"
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has administration instruction",
+        "stop and call doctor if watery or bloody diarrhea"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or precaution specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has administration instruction",
+        "do not use anti-diarrhea medicine unless instructed by doctor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or precaution specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "amoxicillin#before-taking-this-medicine#0",
+     "section_id": "before-taking-this-medicine",
+     "section_heading": "Before taking this medicine",
+     "text": "You should not use amoxicillin if you are allergic to any penicillin antibiotic.\nExamples of penicillin antibiotics include ampicillin, dicloxacillin, oxacillin, penicillin, and ticarcillin.\nTo make sure Amoxicillin is safe for you, tell your doctor if you have:\nTell your doctor if you have phenylketonuria (PKU).\nThe chewable tablets may contain phenylalanine.\nIt is not known whether Amoxicillin will harm an unborn baby.\nTell your doctor if you are pregnant or plan to become pregnant.\nAmoxicillin can make birth control pills less effective.\nAsk your doctor about using a non-hormonal birth control (condom, diaphragm, cervical cap, or contraceptive sponge) to prevent pregnancy.\nIt may not be safe to breastfeed while using Amoxicillin.\nAsk your doctor about any risk.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"amoxicillin\", \"contraindicated in\", \"allergy to penicillin antibiotic\"], [\"amoxicillin\", \"has related drug\", \"ampicillin\"], [\"amoxicillin\", \"has related drug\", \"dicloxacillin\"], [\"amoxicillin\", \"has related drug\", \"oxacillin\"], [\"amoxicillin\", \"has related drug\", \"penicillin\"], [\"amoxicillin\", \"has related drug\", \"ticarcillin\"], [\"amoxicillin\", \"requires patient disclosure of\", \"phenylketonuria (PKU)\"], [\"amoxicillin\", \"has ingredient\", \"phenylalanine\"], [\"amoxicillin\", \"has pregnancy or breastfeeding warning\", \"may harm an unborn baby\"], [\"amoxicillin\", \"requires patient disclosure of\", \"pregnancy or plan to become pregnant\"], [\"amoxicillin\", \"interacts with\", \"birth control pills\"], [\"amoxicillin\", \"has administration instruction\", \"use non-hormonal birth control (condom, diaphragm, cervical cap, or contraceptive sponge) to prevent pregnancy\"], [\"amoxicillin\", \"has pregnancy or breastfeeding warning\", \"may not be safe to breastfeed\"], [\"amoxicillin\", \"requires patient consultation about\", \"risk of breastfeeding\"]]",
+     "oie": [
+      [
+       "amoxicillin",
+       "contraindicated in",
+       "allergy to penicillin antibiotic"
+      ],
+      [
+       "amoxicillin",
+       "has related drug",
+       "ampicillin"
+      ],
+      [
+       "amoxicillin",
+       "has related drug",
+       "dicloxacillin"
+      ],
+      [
+       "amoxicillin",
+       "has related drug",
+       "oxacillin"
+      ],
+      [
+       "amoxicillin",
+       "has related drug",
+       "penicillin"
+      ],
+      [
+       "amoxicillin",
+       "has related drug",
+       "ticarcillin"
+      ],
+      [
+       "amoxicillin",
+       "requires patient disclosure of",
+       "phenylketonuria (PKU)"
+      ],
+      [
+       "amoxicillin",
+       "has ingredient",
+       "phenylalanine"
+      ],
+      [
+       "amoxicillin",
+       "has pregnancy or breastfeeding warning",
+       "may harm an unborn baby"
+      ],
+      [
+       "amoxicillin",
+       "requires patient disclosure of",
+       "pregnancy or plan to become pregnant"
+      ],
+      [
+       "amoxicillin",
+       "interacts with",
+       "birth control pills"
+      ],
+      [
+       "amoxicillin",
+       "has administration instruction",
+       "use non-hormonal birth control (condom, diaphragm, cervical cap, or contraceptive sponge) to prevent pregnancy"
+      ],
+      [
+       "amoxicillin",
+       "has pregnancy or breastfeeding warning",
+       "may not be safe to breastfeed"
+      ],
+      [
+       "amoxicillin",
+       "requires patient consultation about",
+       "risk of breastfeeding"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "has administration instruction": "The subject drug should be administered with the specific instruction or precaution specified by the object entity.",
+      "has ingredient": "The subject drug contains the ingredient or component specified by the object entity.",
+      "has pregnancy or breastfeeding warning": "The subject drug may pose a risk to an unborn baby or may not be safe to use while breastfeeding, as specified by the object entity.",
+      "has related drug": "The subject drug is related to or belongs to the same class as the drug specified by the object entity.",
+      "interacts with": "The subject drug may interact with or affect the efficacy of the substance or medication specified by the object entity.",
+      "requires patient consultation about": "The subject drug requires the patient to consult with their doctor about the specific concern or risk specified by the object entity.",
+      "requires patient disclosure of": "The subject drug requires the patient to inform their doctor about the condition or situation specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "amoxicillin",
+        "contraindicated in",
+        "allergy to penicillin antibiotic"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "belongs to drug class",
+        "ampicillin"
+       ],
+       "raw_relation": "has related drug",
+       "definition": "The subject drug is related to or belongs to the same class as the drug specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "belongs to drug class",
+         0.9078
+        ],
+        [
+         "similar to",
+         0.9024
+        ],
+        [
+         "may be used for",
+         0.8751
+        ],
+        [
+         "may be prescribed with",
+         0.8597
+        ],
+        [
+         "has related treatment guide",
+         0.8575
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "belongs to drug class",
+        "dicloxacillin"
+       ],
+       "raw_relation": "has related drug",
+       "definition": "The subject drug is related to or belongs to the same class as the drug specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "belongs to drug class",
+         0.9078
+        ],
+        [
+         "similar to",
+         0.9024
+        ],
+        [
+         "may be used for",
+         0.8751
+        ],
+        [
+         "may be prescribed with",
+         0.8597
+        ],
+        [
+         "has related treatment guide",
+         0.8575
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "belongs to drug class",
+        "oxacillin"
+       ],
+       "raw_relation": "has related drug",
+       "definition": "The subject drug is related to or belongs to the same class as the drug specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "belongs to drug class",
+         0.9078
+        ],
+        [
+         "similar to",
+         0.9024
+        ],
+        [
+         "may be used for",
+         0.8751
+        ],
+        [
+         "may be prescribed with",
+         0.8597
+        ],
+        [
+         "has related treatment guide",
+         0.8575
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "belongs to drug class",
+        "penicillin"
+       ],
+       "raw_relation": "has related drug",
+       "definition": "The subject drug is related to or belongs to the same class as the drug specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "belongs to drug class",
+         0.9078
+        ],
+        [
+         "similar to",
+         0.9024
+        ],
+        [
+         "may be used for",
+         0.8751
+        ],
+        [
+         "may be prescribed with",
+         0.8597
+        ],
+        [
+         "has related treatment guide",
+         0.8575
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "belongs to drug class",
+        "ticarcillin"
+       ],
+       "raw_relation": "has related drug",
+       "definition": "The subject drug is related to or belongs to the same class as the drug specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "belongs to drug class",
+         0.9078
+        ],
+        [
+         "similar to",
+         0.9024
+        ],
+        [
+         "may be used for",
+         0.8751
+        ],
+        [
+         "may be prescribed with",
+         0.8597
+        ],
+        [
+         "has related treatment guide",
+         0.8575
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "should inform doctor about",
+        "phenylketonuria (PKU)"
+       ],
+       "raw_relation": "requires patient disclosure of",
+       "definition": "The subject drug requires the patient to inform their doctor about the condition or situation specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.9604
+        ],
+        [
+         "requires monitoring of",
+         0.8838
+        ],
+        [
+         "may be used for",
+         0.8724
+        ],
+        [
+         "treats",
+         0.8713
+        ],
+        [
+         "use with caution in",
+         0.8666
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "contains ingredient",
+        "phenylalanine"
+       ],
+       "raw_relation": "has ingredient",
+       "definition": "The subject drug contains the ingredient or component specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contains ingredient",
+         0.9395
+        ],
+        [
+         "may be used for",
+         0.9112
+        ],
+        [
+         "similar to",
+         0.894
+        ],
+        [
+         "has dosage form",
+         0.8888
+        ],
+        [
+         "manufactured by",
+         0.8863
+        ]
+       ],
+       "answer": "A. 'contains ingredient"
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "has pregnancy or breastfeeding warning",
+        "may harm an unborn baby"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug may pose a risk to an unborn baby or may not be safe to use while breastfeeding, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "should inform doctor about",
+        "pregnancy or plan to become pregnant"
+       ],
+       "raw_relation": "requires patient disclosure of",
+       "definition": "The subject drug requires the patient to inform their doctor about the condition or situation specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.9604
+        ],
+        [
+         "requires monitoring of",
+         0.8838
+        ],
+        [
+         "may be used for",
+         0.8724
+        ],
+        [
+         "treats",
+         0.8713
+        ],
+        [
+         "use with caution in",
+         0.8666
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "interacts with",
+        "birth control pills"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may interact with or affect the efficacy of the substance or medication specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "has administration instruction",
+        "use non-hormonal birth control (condom, diaphragm, cervical cap, or contraceptive sponge) to prevent pregnancy"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered with the specific instruction or precaution specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "has pregnancy or breastfeeding warning",
+        "may not be safe to breastfeed"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug may pose a risk to an unborn baby or may not be safe to use while breastfeeding, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "should inform doctor about",
+        "risk of breastfeeding"
+       ],
+       "raw_relation": "requires patient consultation about",
+       "definition": "The subject drug requires the patient to consult with their doctor about the specific concern or risk specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.884
+        ],
+        [
+         "requires monitoring of",
+         0.8723
+        ],
+        [
+         "use with caution in",
+         0.8583
+        ],
+        [
+         "has serious side effect",
+         0.852
+        ],
+        [
+         "has related treatment guide",
+         0.8343
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#0",
+     "section_id": "how-should-i-take-amoxicillin",
+     "section_heading": "How should I take amoxicillin?",
+     "text": "Take amoxicillin exactly as prescribed by your doctor.\nFollow all directions on your prescription label and read all medication guides or instruction sheets.\nTake amoxicillin at the same time each day.\nSome forms of amoxicillin may be taken with or without food.\nCheck your medicine label to see if you should take your medicine with food or not.\nShake the oral suspension (liquid) before you measure a dose.\nMeasure liquid medicine with the dosing syringe provided, or use a medicine dose-measuring device (not a kitchen spoon).\nYou may mix the liquid with water, milk, baby formula, fruit juice, or ginger ale.\nDrink all of the mixture right away.\nDo not save for later use.\nYou must chew the chewable tablet before you swallow chewable tablet.\nSwallow the regular tablet whole and do not crush, chew, or break regular tablet.\nIf you are taking amoxicillin with clarithromycin and/or lansoprazole to treat stomach ulcer.\nUse all of your medications as directed.\nRead the medication guide or patient instructions provided with each medication.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"amoxicillin\", \"has administration instruction\", \"take exactly as prescribed by your doctor\"], [\"amoxicillin\", \"has administration instruction\", \"follow all directions on your prescription label\"], [\"amoxicillin\", \"has administration instruction\", \"read all medication guides or instruction sheets\"], [\"amoxicillin\", \"has administration instruction\", \"take at the same time each day\"], [\"amoxicillin\", \"has administration instruction\", \"some forms may be taken with or without food\"], [\"amoxicillin\", \"has administration instruction\", \"check medicine label to see if should take with food or not\"], [\"amoxicillin\", \"has administration instruction\", \"shake oral suspension before measuring a dose\"], [\"amoxicillin\", \"has administration instruction\", \"measure liquid medicine with dosing syringe or medicine dose-measuring device\"], [\"amoxicillin\", \"has administration instruction\", \"may mix liquid with water, milk, baby formula, fruit juice, or ginger ale\"], [\"amoxicillin\", \"has administration instruction\", \"drink all of the mixture right away\"], [\"amoxicillin\", \"has administration instruction\", \"do not save for later use\"], [\"amoxicillin\", \"has administration instruction\", \"must chew chewable tablet before swallowing\"], [\"amoxicillin\", \"has administration instruction\", \"swallow regular tablet whole and do not crush, chew, or break regular tablet\"], [\"amoxicillin\", \"has administration instruction\", \"if taking with clarithromycin and/or lansoprazole to treat stomach ulcer\"], [\"amoxicillin\", \"has administration instruction\", \"use all medications as directed\"], [\"amoxicillin\", \"has administration instruction\", \"read medication guide or patient instructions provided with each medication\"]]",
+     "oie": [
+      [
+       "amoxicillin",
+       "has administration instruction",
+       "take exactly as prescribed by your doctor"
+      ],
+      [
+       "amoxicillin",
+       "has administration instruction",
+       "follow all directions on your prescription label"
+      ],
+      [
+       "amoxicillin",
+       "has administration instruction",
+       "read all medication guides or instruction sheets"
+      ],
+      [
+       "amoxicillin",
+       "has administration instruction",
+       "take at the same time each day"
+      ],
+      [
+       "amoxicillin",
+       "has administration instruction",
+       "some forms may be taken with or without food"
+      ],
+      [
+       "amoxicillin",
+       "has administration instruction",
+       "check medicine label to see if should take with food or not"
+      ],
+      [
+       "amoxicillin",
+       "has administration instruction",
+       "shake oral suspension before measuring a dose"
+      ],
+      [
+       "amoxicillin",
+       "has administration instruction",
+       "measure liquid medicine with dosing syringe or medicine dose-measuring device"
+      ],
+      [
+       "amoxicillin",
+       "has administration instruction",
+       "may mix liquid with water, milk, baby formula, fruit juice, or ginger ale"
+      ],
+      [
+       "amoxicillin",
+       "has administration instruction",
+       "drink all of the mixture right away"
+      ],
+      [
+       "amoxicillin",
+       "has administration instruction",
+       "do not save for later use"
+      ],
+      [
+       "amoxicillin",
+       "has administration instruction",
+       "must chew chewable tablet before swallowing"
+      ],
+      [
+       "amoxicillin",
+       "has administration instruction",
+       "swallow regular tablet whole and do not crush, chew, or break regular tablet"
+      ],
+      [
+       "amoxicillin",
+       "has administration instruction",
+       "if taking with clarithromycin and/or lansoprazole to treat stomach ulcer"
+      ],
+      [
+       "amoxicillin",
+       "has administration instruction",
+       "use all medications as directed"
+      ],
+      [
+       "amoxicillin",
+       "has administration instruction",
+       "read medication guide or patient instructions provided with each medication"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the specific administration or usage instruction specified by the object entity to be followed by the patient."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "amoxicillin",
+        "has administration instruction",
+        "take exactly as prescribed by your doctor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration or usage instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "has administration instruction",
+        "follow all directions on your prescription label"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration or usage instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "has administration instruction",
+        "read all medication guides or instruction sheets"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration or usage instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "has administration instruction",
+        "take at the same time each day"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration or usage instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "has administration instruction",
+        "some forms may be taken with or without food"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration or usage instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "has administration instruction",
+        "check medicine label to see if should take with food or not"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration or usage instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "has administration instruction",
+        "shake oral suspension before measuring a dose"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration or usage instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "has administration instruction",
+        "measure liquid medicine with dosing syringe or medicine dose-measuring device"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration or usage instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "has administration instruction",
+        "may mix liquid with water, milk, baby formula, fruit juice, or ginger ale"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration or usage instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "has administration instruction",
+        "drink all of the mixture right away"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration or usage instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "has administration instruction",
+        "do not save for later use"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration or usage instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "has administration instruction",
+        "must chew chewable tablet before swallowing"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration or usage instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "has administration instruction",
+        "swallow regular tablet whole and do not crush, chew, or break regular tablet"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration or usage instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "has administration instruction",
+        "if taking with clarithromycin and/or lansoprazole to treat stomach ulcer"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration or usage instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "has administration instruction",
+        "use all medications as directed"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration or usage instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amoxicillin",
+        "has administration instruction",
+        "read medication guide or patient instructions provided with each medication"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration or usage instruction specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#1",
+     "section_id": "how-should-i-take-amoxicillin",
+     "section_heading": "How should I take amoxicillin?",
+     "text": "Do not change your doses or medication schedule without your doctor's advice.\nUse this medicine for the full prescribed length of time, even if your symptoms quickly improve.\nSkipping doses can increase your risk of infection, that is resistant to medication.\nAmoxicillin will not treat a viral infection such as the flu or a common cold.\nDo not share this medicine with another person, even if another person have the same symptoms you have.\nThis medicine can affect the results of certain medical tests.\nTell any doctor who treats you that you are using this medicine.\nStore tablets and capsules at room temperature, away from moisture, heat, and light.\nLiquid amoxicillin may need to be stored in a refrigerator or at room temperature, depending on the brand.\nCheck your label for storage instructions.\nIf stored in the refrigerator, do not allow Liquid amoxicillin to freeze.\nThrow away any liquid medicine that is not used within 14 days after liquid medicine was mixed at the pharmacy.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Amoxicillin\", \"has administration instruction\", \"do not change doses or medication schedule without doctor's advice\"], [\"Amoxicillin\", \"has administration instruction\", \"use for full prescribed length of time even if symptoms quickly improve\"], [\"Amoxicillin\", \"has missed dose instruction\", \"skipping doses can increase risk of infection resistant to medication\"], [\"Amoxicillin\", \"does not treat\", \"viral infection\"], [\"Amoxicillin\", \"has administration instruction\", \"do not share with another person even if they have same symptoms\"], [\"Amoxicillin\", \"affects\", \"results of certain medical tests\"], [\"Amoxicillin\", \"has administration instruction\", \"tell any doctor treating you that you are using this medicine\"], [\"Amoxicillin\", \"has storage instruction\", \"store tablets and capsules at room temperature away from moisture heat and light\"], [\"Amoxicillin\", \"has storage instruction\", \"liquid may need to be stored in refrigerator or at room temperature depending on brand\"], [\"Amoxicillin\", \"has storage instruction\", \"check label for storage instructions\"], [\"Amoxicillin\", \"has storage instruction\", \"if stored in refrigerator do not allow liquid to freeze\"], [\"Amoxicillin\", \"has storage instruction\", \"throw away any liquid not used within 14 days after mixed at pharmacy\"]]",
+     "oie": [
+      [
+       "Amoxicillin",
+       "has administration instruction",
+       "do not change doses or medication schedule without doctor's advice"
+      ],
+      [
+       "Amoxicillin",
+       "has administration instruction",
+       "use for full prescribed length of time even if symptoms quickly improve"
+      ],
+      [
+       "Amoxicillin",
+       "has missed dose instruction",
+       "skipping doses can increase risk of infection resistant to medication"
+      ],
+      [
+       "Amoxicillin",
+       "does not treat",
+       "viral infection"
+      ],
+      [
+       "Amoxicillin",
+       "has administration instruction",
+       "do not share with another person even if they have same symptoms"
+      ],
+      [
+       "Amoxicillin",
+       "affects",
+       "results of certain medical tests"
+      ],
+      [
+       "Amoxicillin",
+       "has administration instruction",
+       "tell any doctor treating you that you are using this medicine"
+      ],
+      [
+       "Amoxicillin",
+       "has storage instruction",
+       "store tablets and capsules at room temperature away from moisture heat and light"
+      ],
+      [
+       "Amoxicillin",
+       "has storage instruction",
+       "liquid may need to be stored in refrigerator or at room temperature depending on brand"
+      ],
+      [
+       "Amoxicillin",
+       "has storage instruction",
+       "check label for storage instructions"
+      ],
+      [
+       "Amoxicillin",
+       "has storage instruction",
+       "if stored in refrigerator do not allow liquid to freeze"
+      ],
+      [
+       "Amoxicillin",
+       "has storage instruction",
+       "throw away any liquid not used within 14 days after mixed at pharmacy"
+      ]
+     ],
+     "schema_definition": {
+      "affects": "The subject drug may influence or alter the results of the medical tests specified by the object entity.",
+      "does not treat": "The subject drug is ineffective against the medical condition specified by the object entity.",
+      "has administration instruction": "The subject drug requires the specific administration guidance specified by the object entity.",
+      "has missed dose instruction": "The subject drug has specific instructions regarding the consequences of missing a dose, as specified by the object entity.",
+      "has storage instruction": "The subject drug requires specific storage conditions as specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has administration instruction",
+        "do not change doses or medication schedule without doctor's advice"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration guidance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has administration instruction",
+        "use for full prescribed length of time even if symptoms quickly improve"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration guidance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has missed dose instruction",
+        "skipping doses can increase risk of infection resistant to medication"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug has specific instructions regarding the consequences of missing a dose, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "treats",
+        "viral infection"
+       ],
+       "raw_relation": "does not treat",
+       "definition": "The subject drug is ineffective against the medical condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.8417
+        ],
+        [
+         "not approved for",
+         0.8382
+        ],
+        [
+         "treats",
+         0.8306
+        ],
+        [
+         "should be avoided with",
+         0.8136
+        ],
+        [
+         "does not stop chest pain once",
+         0.8122
+        ]
+       ],
+       "answer": "C. 'treat"
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has administration instruction",
+        "do not share with another person even if they have same symptoms"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration guidance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "affects",
+        "results of certain medical tests"
+       ],
+       "raw_relation": "affects",
+       "definition": "The subject drug may influence or alter the results of the medical tests specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has administration instruction",
+        "tell any doctor treating you that you are using this medicine"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific administration guidance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has storage instruction",
+        "store tablets and capsules at room temperature away from moisture heat and light"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug requires specific storage conditions as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has storage instruction",
+        "liquid may need to be stored in refrigerator or at room temperature depending on brand"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug requires specific storage conditions as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has storage instruction",
+        "check label for storage instructions"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug requires specific storage conditions as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has storage instruction",
+        "if stored in refrigerator do not allow liquid to freeze"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug requires specific storage conditions as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has storage instruction",
+        "throw away any liquid not used within 14 days after mixed at pharmacy"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug requires specific storage conditions as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "amoxicillin#what-happens-if-i-miss-a-dose#0",
+     "section_id": "what-happens-if-i-miss-a-dose",
+     "section_heading": "What happens if I miss a dose?",
+     "text": "Skip the missed dose and use your next dose at the regular time.\nDo not use two doses at one time.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Amoxicillin\", \"has missed dose instruction\", \"skip the missed dose and use next dose at regular time\"], [\"Amoxicillin\", \"has administration instruction\", \"do not use two doses at one time\"]]",
+     "oie": [
+      [
+       "Amoxicillin",
+       "has missed dose instruction",
+       "skip the missed dose and use next dose at regular time"
+      ],
+      [
+       "Amoxicillin",
+       "has administration instruction",
+       "do not use two doses at one time"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug has a specific instruction regarding its administration, which is specified by the object entity.",
+      "has missed dose instruction": "The subject drug has a specific instruction regarding what to do if a dose is missed, which is specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has missed dose instruction",
+        "skip the missed dose and use next dose at regular time"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug has a specific instruction regarding what to do if a dose is missed, which is specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has administration instruction",
+        "do not use two doses at one time"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug has a specific instruction regarding its administration, which is specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "amoxicillin#what-happens-if-i-overdose#0",
+     "section_id": "what-happens-if-i-overdose",
+     "section_heading": "What happens if I overdose?",
+     "text": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Amoxicillin\", \"has overdose instruction\", \"seek emergency medical attention\"], [\"Amoxicillin\", \"has overdose instruction\", \"call Poison Help line at 1-800-222-1222\"]]",
+     "oie": [
+      [
+       "Amoxicillin",
+       "has overdose instruction",
+       "seek emergency medical attention"
+      ],
+      [
+       "Amoxicillin",
+       "has overdose instruction",
+       "call Poison Help line at 1-800-222-1222"
+      ]
+     ],
+     "schema_definition": {
+      "has overdose instruction": "The subject drug requires the action specified by the object entity to be taken in case of an overdose."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has overdose instruction",
+        "seek emergency medical attention"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity to be taken in case of an overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has overdose instruction",
+        "call Poison Help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity to be taken in case of an overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "amoxicillin#what-to-avoid#0",
+     "section_id": "what-to-avoid",
+     "section_heading": "What to avoid",
+     "text": "Antibiotic medicines can cause diarrhea, which may be a sign of a new infection.\nIf you have diarrhea that is watery or bloody, call your doctor before using anti-diarrhea medicine.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Amoxicillin\", \"has side effect\", \"diarrhea\"], [\"Amoxicillin\", \"has administration instruction\", \"call your doctor before using anti-diarrhea medicine if you have watery or bloody diarrhea\"]]",
+     "oie": [
+      [
+       "Amoxicillin",
+       "has side effect",
+       "diarrhea"
+      ],
+      [
+       "Amoxicillin",
+       "has administration instruction",
+       "call your doctor before using anti-diarrhea medicine if you have watery or bloody diarrhea"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the specific action or guidance specified by the object entity to be followed by the patient.",
+      "has side effect": "The subject drug may cause the adverse effect or unintended reaction specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has side effect",
+        "diarrhea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or unintended reaction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has administration instruction",
+        "call your doctor before using anti-diarrhea medicine if you have watery or bloody diarrhea"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific action or guidance specified by the object entity to be followed by the patient.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "amoxicillin#what-other-drugs-will-affect-amoxicillin#0",
+     "section_id": "what-other-drugs-will-affect-amoxicillin",
+     "section_heading": "What other drugs will affect amoxicillin?",
+     "text": "Tell your doctor about all your other medicines, especially:\nany other antibiotics;\nallopurinol;\nprobenecid; or\na blood thinner - warfarin, Coumadin, Jantoven;\nbirth control pills.\nThis list is not complete.\nOther drugs may interact with amoxicillin.\nThese drugs include prescription and over-the-counter medicines.\nThese drugs also include vitamins and herbal products.\nNot all possible drug interactions are listed here.\nTo check for interactions, click on the link below.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Amoxicillin\", \"interacts with\", \"antibiotics\"], [\"Amoxicillin\", \"interacts with\", \"allopurinol\"], [\"Amoxicillin\", \"interacts with\", \"probenecid\"], [\"Amoxicillin\", \"interacts with\", \"warfarin\"], [\"Amoxicillin\", \"interacts with\", \"Coumadin\"], [\"Amoxicillin\", \"interacts with\", \"Jantoven\"], [\"Amoxicillin\", \"interacts with\", \"birth control pills\"], [\"Amoxicillin\", \"has warning\", \"not all possible drug interactions are listed here\"], [\"Amoxicillin\", \"interacts with\", \"prescription medicines\"], [\"Amoxicillin\", \"interacts with\", \"over-the-counter medicines\"], [\"Amoxicillin\", \"interacts with\", \"vitamins\"], [\"Amoxicillin\", \"interacts with\", \"herbal products\"], [\"Amoxicillin\", \"has administration instruction\", \"check for interactions via provided link\"]]",
+     "oie": [
+      [
+       "Amoxicillin",
+       "interacts with",
+       "antibiotics"
+      ],
+      [
+       "Amoxicillin",
+       "interacts with",
+       "allopurinol"
+      ],
+      [
+       "Amoxicillin",
+       "interacts with",
+       "probenecid"
+      ],
+      [
+       "Amoxicillin",
+       "interacts with",
+       "warfarin"
+      ],
+      [
+       "Amoxicillin",
+       "interacts with",
+       "Coumadin"
+      ],
+      [
+       "Amoxicillin",
+       "interacts with",
+       "Jantoven"
+      ],
+      [
+       "Amoxicillin",
+       "interacts with",
+       "birth control pills"
+      ],
+      [
+       "Amoxicillin",
+       "has warning",
+       "not all possible drug interactions are listed here"
+      ],
+      [
+       "Amoxicillin",
+       "interacts with",
+       "prescription medicines"
+      ],
+      [
+       "Amoxicillin",
+       "interacts with",
+       "over-the-counter medicines"
+      ],
+      [
+       "Amoxicillin",
+       "interacts with",
+       "vitamins"
+      ],
+      [
+       "Amoxicillin",
+       "interacts with",
+       "herbal products"
+      ],
+      [
+       "Amoxicillin",
+       "has administration instruction",
+       "check for interactions via provided link"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the administration instruction specified by the object entity.",
+      "has warning": "The subject drug has a warning or caution specified by the object entity.",
+      "interacts with": "The subject drug may have a pharmacological interaction with the substance or entity specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Amoxicillin",
+        "interacts with",
+        "antibiotics"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "interacts with",
+        "allopurinol"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "interacts with",
+        "probenecid"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "interacts with",
+        "warfarin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "interacts with",
+        "Coumadin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "interacts with",
+        "Jantoven"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "interacts with",
+        "birth control pills"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has warning",
+        "not all possible drug interactions are listed here"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a warning or caution specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "interacts with",
+        "prescription medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "interacts with",
+        "over-the-counter medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "interacts with",
+        "vitamins"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "interacts with",
+        "herbal products"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance or entity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amoxicillin",
+        "has administration instruction",
+        "check for interactions via provided link"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the administration instruction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "belongs to drug class",
+    "penicillin antibiotic"
+   ],
+   "raw_relation": "has drug class",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "treats",
+    "bacterial infection"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "bacterial infection",
+    "includes",
+    "tonsillitis"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "bacterial infection",
+    "includes",
+    "bronchitis"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "bacterial infection",
+    "includes",
+    "sinusitis"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "bacterial infection",
+    "includes",
+    "pneumonia"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "bacterial infection",
+    "includes",
+    "infection of ear"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "bacterial infection",
+    "includes",
+    "infection of nose"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "bacterial infection",
+    "includes",
+    "infection of throat"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "bacterial infection",
+    "includes",
+    "infection of skin"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "bacterial infection",
+    "includes",
+    "infection of urinary tract"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "Amoxicillin clavulanate",
+    "may be prescribed with",
+    "amoxicillin"
+   ],
+   "raw_relation": "is combination of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "Amoxicillin clavulanate",
+    "may be prescribed with",
+    "clavulanate potassium"
+   ],
+   "raw_relation": "is combination of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "amoxicillin",
+    "has mechanism of action",
+    "fights bacteria"
+   ],
+   "raw_relation": "has mechanism of action",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "clavulanate potassium",
+    "has mechanism of action",
+    "helps prevent certain bacteria from becoming resistant to amoxicillin"
+   ],
+   "raw_relation": "has mechanism of action",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "used in combination with",
+    "clarithromycin"
+   ],
+   "raw_relation": "used in combination with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "clarithromycin",
+    "has brand name",
+    "Biaxin"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "Amoxicillin and clarithromycin combination",
+    "treats",
+    "stomach ulcer"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "stomach ulcer",
+    "can lead to",
+    "Helicobacter pylori infection"
+   ],
+   "raw_relation": "caused by",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "Amoxicillin and clarithromycin combination",
+    "used in combination with",
+    "lansoprazole"
+   ],
+   "raw_relation": "used in combination with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "lansoprazole",
+    "has brand name",
+    "Prevacid"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "has dosage form",
+    "tablet"
+   ],
+   "raw_relation": "has dosage form",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "has dosage form",
+    "capsule"
+   ],
+   "raw_relation": "has dosage form",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "has dosage form",
+    "oral suspension"
+   ],
+   "raw_relation": "has dosage form",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "has strength",
+    "500mg"
+   ],
+   "raw_relation": "has strength",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "has strength",
+    "250mg"
+   ],
+   "raw_relation": "has strength",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "has multiple brands and forms",
+    "available"
+   ],
+   "raw_relation": "has multiple brands and forms",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "amoxicillin#what-is-amoxicillin#0",
+   "section_id": "what-is-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "has multiple brands and forms",
+    "not all brands are listed on this leaflet"
+   ],
+   "raw_relation": "has note",
+   "status": "mapped_new"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has side effect",
+    "nausea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has side effect",
+    "vomiting"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has side effect",
+    "diarrhea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has side effect",
+    "rash"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has side effect",
+    "more than 1% of patients in clinical trials"
+   ],
+   "raw_relation": "has side effect prevalence",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has serious side effect",
+    "hives"
+   ],
+   "raw_relation": "has serious side effect symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has serious side effect",
+    "difficulty breathing"
+   ],
+   "raw_relation": "has serious side effect symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has serious side effect",
+    "swelling in face or throat"
+   ],
+   "raw_relation": "has serious side effect symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has serious side effect",
+    "severe skin reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has serious side effect",
+    "fever"
+   ],
+   "raw_relation": "has serious side effect symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has serious side effect",
+    "sore throat"
+   ],
+   "raw_relation": "has serious side effect symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has serious side effect",
+    "burning eyes"
+   ],
+   "raw_relation": "has serious side effect symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has serious side effect",
+    "skin pain"
+   ],
+   "raw_relation": "has serious side effect symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has serious side effect",
+    "red or purple skin rash with blistering and peeling"
+   ],
+   "raw_relation": "has serious side effect symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has serious side effect",
+    "severe stomach pain or vomiting"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has serious side effect",
+    "watery or bloody diarrhea"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has administration instruction",
+    "call your doctor at once if you have severe stomach pain or vomiting"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has administration instruction",
+    "call your doctor at once if you have watery or bloody diarrhea"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has administration instruction",
+    "call your doctor for medical advice about side effects"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has administration instruction",
+    "report side effects to the FDA at 1-800-FDA-1088"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has warning",
+    "this is not a complete list of side effects"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#amoxicillin-side-effects#0",
+   "section_id": "amoxicillin-side-effects",
+   "triplet": [
+    "Amoxicillin",
+    "has warning",
+    "others may occur"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "contraindicated in",
+    "allergy to amoxicillin"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "contraindicated in",
+    "allergy to penicillin antibiotic"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "penicillin antibiotic",
+    "includes",
+    "ampicillin"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "penicillin antibiotic",
+    "includes",
+    "dicloxacillin"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "penicillin antibiotic",
+    "includes",
+    "oxacillin"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "penicillin antibiotic",
+    "includes",
+    "penicillin"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "penicillin antibiotic",
+    "has brand name",
+    "Omnipen"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "penicillin antibiotic",
+    "has brand name",
+    "Principen"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "penicillin antibiotic",
+    "has brand name",
+    "Dycill"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "penicillin antibiotic",
+    "has brand name",
+    "Dynapen"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "penicillin antibiotic",
+    "has brand name",
+    "Bactocill"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "penicillin antibiotic",
+    "has brand name",
+    "Beepen-VK"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "penicillin antibiotic",
+    "has brand name",
+    "Ledercillin VK"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "penicillin antibiotic",
+    "has brand name",
+    "Pen-V"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "penicillin antibiotic",
+    "has brand name",
+    "Pen-Vee K"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "penicillin antibiotic",
+    "has brand name",
+    "Pfizerpen"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "penicillin antibiotic",
+    "has brand name",
+    "V-Cillin K"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "penicillin antibiotic",
+    "has brand name",
+    "Veetids"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "use with caution in",
+    "allergy to cephalosporin"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "cephalosporin",
+    "includes",
+    "Omnicef"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "cephalosporin",
+    "includes",
+    "Cefzil"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "cephalosporin",
+    "includes",
+    "Ceftin"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "cephalosporin",
+    "includes",
+    "Keflex"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "cephalosporin",
+    "includes",
+    "other cephalosporins"
+   ],
+   "raw_relation": "includes",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "use with caution in",
+    "asthma"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "use with caution in",
+    "liver disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "use with caution in",
+    "kidney disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "use with caution in",
+    "bleeding or blood-clotting disorder"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "use with caution in",
+    "mononucleosis"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "use with caution in",
+    "any type of allergy"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "interacts with",
+    "birth control pills"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "has administration instruction",
+    "use non-hormone birth control method to prevent pregnancy"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "has administration instruction",
+    "take for full prescribed length of time"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "has warning",
+    "symptoms may improve before infection is completely cleared"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "treats",
+    "viral infection"
+   ],
+   "raw_relation": "does not treat",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "has administration instruction",
+    "do not share with another person"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "has side effect",
+    "diarrhea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "has side effect",
+    "diarrhea during treatment"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "has side effect",
+    "diarrhea within a few months after stopping"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Diarrhea",
+    "can lead to",
+    "new infection"
+   ],
+   "raw_relation": "may indicate",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "has administration instruction",
+    "stop and call doctor if watery or bloody diarrhea"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "Amoxicillin",
+    "has administration instruction",
+    "do not use anti-diarrhea medicine unless instructed by doctor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "amoxicillin",
+    "contraindicated in",
+    "allergy to penicillin antibiotic"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "amoxicillin",
+    "belongs to drug class",
+    "ampicillin"
+   ],
+   "raw_relation": "has related drug",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "amoxicillin",
+    "belongs to drug class",
+    "dicloxacillin"
+   ],
+   "raw_relation": "has related drug",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "amoxicillin",
+    "belongs to drug class",
+    "oxacillin"
+   ],
+   "raw_relation": "has related drug",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "amoxicillin",
+    "belongs to drug class",
+    "penicillin"
+   ],
+   "raw_relation": "has related drug",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "amoxicillin",
+    "belongs to drug class",
+    "ticarcillin"
+   ],
+   "raw_relation": "has related drug",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "amoxicillin",
+    "should inform doctor about",
+    "phenylketonuria (PKU)"
+   ],
+   "raw_relation": "requires patient disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "amoxicillin",
+    "contains ingredient",
+    "phenylalanine"
+   ],
+   "raw_relation": "has ingredient",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "amoxicillin",
+    "has pregnancy or breastfeeding warning",
+    "may harm an unborn baby"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "amoxicillin",
+    "should inform doctor about",
+    "pregnancy or plan to become pregnant"
+   ],
+   "raw_relation": "requires patient disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "amoxicillin",
+    "interacts with",
+    "birth control pills"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "amoxicillin",
+    "has administration instruction",
+    "use non-hormonal birth control (condom, diaphragm, cervical cap, or contraceptive sponge) to prevent pregnancy"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "amoxicillin",
+    "has pregnancy or breastfeeding warning",
+    "may not be safe to breastfeed"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#before-taking-this-medicine#0",
+   "section_id": "before-taking-this-medicine",
+   "triplet": [
+    "amoxicillin",
+    "should inform doctor about",
+    "risk of breastfeeding"
+   ],
+   "raw_relation": "requires patient consultation about",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#0",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "amoxicillin",
+    "has administration instruction",
+    "take exactly as prescribed by your doctor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#0",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "amoxicillin",
+    "has administration instruction",
+    "follow all directions on your prescription label"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#0",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "amoxicillin",
+    "has administration instruction",
+    "read all medication guides or instruction sheets"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#0",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "amoxicillin",
+    "has administration instruction",
+    "take at the same time each day"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#0",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "amoxicillin",
+    "has administration instruction",
+    "some forms may be taken with or without food"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#0",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "amoxicillin",
+    "has administration instruction",
+    "check medicine label to see if should take with food or not"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#0",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "amoxicillin",
+    "has administration instruction",
+    "shake oral suspension before measuring a dose"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#0",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "amoxicillin",
+    "has administration instruction",
+    "measure liquid medicine with dosing syringe or medicine dose-measuring device"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#0",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "amoxicillin",
+    "has administration instruction",
+    "may mix liquid with water, milk, baby formula, fruit juice, or ginger ale"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#0",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "amoxicillin",
+    "has administration instruction",
+    "drink all of the mixture right away"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#0",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "amoxicillin",
+    "has administration instruction",
+    "do not save for later use"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#0",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "amoxicillin",
+    "has administration instruction",
+    "must chew chewable tablet before swallowing"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#0",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "amoxicillin",
+    "has administration instruction",
+    "swallow regular tablet whole and do not crush, chew, or break regular tablet"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#0",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "amoxicillin",
+    "has administration instruction",
+    "if taking with clarithromycin and/or lansoprazole to treat stomach ulcer"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#0",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "amoxicillin",
+    "has administration instruction",
+    "use all medications as directed"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#0",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "amoxicillin",
+    "has administration instruction",
+    "read medication guide or patient instructions provided with each medication"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#1",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "has administration instruction",
+    "do not change doses or medication schedule without doctor's advice"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#1",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "has administration instruction",
+    "use for full prescribed length of time even if symptoms quickly improve"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#1",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "has missed dose instruction",
+    "skipping doses can increase risk of infection resistant to medication"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#1",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "treats",
+    "viral infection"
+   ],
+   "raw_relation": "does not treat",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#1",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "has administration instruction",
+    "do not share with another person even if they have same symptoms"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#1",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "affects",
+    "results of certain medical tests"
+   ],
+   "raw_relation": "affects",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#1",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "has administration instruction",
+    "tell any doctor treating you that you are using this medicine"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#1",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "has storage instruction",
+    "store tablets and capsules at room temperature away from moisture heat and light"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#1",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "has storage instruction",
+    "liquid may need to be stored in refrigerator or at room temperature depending on brand"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#1",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "has storage instruction",
+    "check label for storage instructions"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#1",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "has storage instruction",
+    "if stored in refrigerator do not allow liquid to freeze"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#how-should-i-take-amoxicillin#1",
+   "section_id": "how-should-i-take-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "has storage instruction",
+    "throw away any liquid not used within 14 days after mixed at pharmacy"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Amoxicillin",
+    "has missed dose instruction",
+    "skip the missed dose and use next dose at regular time"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-happens-if-i-miss-a-dose#0",
+   "section_id": "what-happens-if-i-miss-a-dose",
+   "triplet": [
+    "Amoxicillin",
+    "has administration instruction",
+    "do not use two doses at one time"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Amoxicillin",
+    "has overdose instruction",
+    "seek emergency medical attention"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-happens-if-i-overdose#0",
+   "section_id": "what-happens-if-i-overdose",
+   "triplet": [
+    "Amoxicillin",
+    "has overdose instruction",
+    "call Poison Help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Amoxicillin",
+    "has side effect",
+    "diarrhea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Amoxicillin",
+    "has administration instruction",
+    "call your doctor before using anti-diarrhea medicine if you have watery or bloody diarrhea"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-other-drugs-will-affect-amoxicillin#0",
+   "section_id": "what-other-drugs-will-affect-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "interacts with",
+    "antibiotics"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-other-drugs-will-affect-amoxicillin#0",
+   "section_id": "what-other-drugs-will-affect-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "interacts with",
+    "allopurinol"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-other-drugs-will-affect-amoxicillin#0",
+   "section_id": "what-other-drugs-will-affect-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "interacts with",
+    "probenecid"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-other-drugs-will-affect-amoxicillin#0",
+   "section_id": "what-other-drugs-will-affect-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "interacts with",
+    "warfarin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-other-drugs-will-affect-amoxicillin#0",
+   "section_id": "what-other-drugs-will-affect-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "interacts with",
+    "Coumadin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-other-drugs-will-affect-amoxicillin#0",
+   "section_id": "what-other-drugs-will-affect-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "interacts with",
+    "Jantoven"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-other-drugs-will-affect-amoxicillin#0",
+   "section_id": "what-other-drugs-will-affect-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "interacts with",
+    "birth control pills"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-other-drugs-will-affect-amoxicillin#0",
+   "section_id": "what-other-drugs-will-affect-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "has warning",
+    "not all possible drug interactions are listed here"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-other-drugs-will-affect-amoxicillin#0",
+   "section_id": "what-other-drugs-will-affect-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "interacts with",
+    "prescription medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-other-drugs-will-affect-amoxicillin#0",
+   "section_id": "what-other-drugs-will-affect-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "interacts with",
+    "over-the-counter medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-other-drugs-will-affect-amoxicillin#0",
+   "section_id": "what-other-drugs-will-affect-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "interacts with",
+    "vitamins"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-other-drugs-will-affect-amoxicillin#0",
+   "section_id": "what-other-drugs-will-affect-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "interacts with",
+    "herbal products"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amoxicillin#what-other-drugs-will-affect-amoxicillin#0",
+   "section_id": "what-other-drugs-will-affect-amoxicillin",
+   "triplet": [
+    "Amoxicillin",
+    "has administration instruction",
+    "check for interactions via provided link"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  }
+ ],
+ "name": "Amoxicillin",
+ "slug": "amoxicillin",
+ "n_chunks": 11,
+ "seconds": 20.5,
+ "llm_model": "Qwen/Qwen3-14B-AWQ"
+}

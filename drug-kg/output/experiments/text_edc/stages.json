@@ -1,0 +1,47 @@
+{
+  "prepare": {
+    "seconds": 0.0,
+    "finished_at": "2026-10-07 15:38:26",
+    "input": "text",
+    "n_drugs": 50,
+    "n_chunks": 854,
+    "sentence_level": false
+  },
+  "extract": {
+    "seconds": 1507.7,
+    "finished_at": "2026-10-07 16:03:34",
+    "drugs_extracted": 50,
+    "llm_model": "Qwen/Qwen3-14B-AWQ",
+    "llm_stats": {
+      "calls": 4732,
+      "cache_hits": 0,
+      "prompt_tokens": 3888377,
+      "completion_tokens": 349381,
+      "errors": 0
+    },
+    "schema_size": 206
+  },
+  "consolidate": {
+    "seconds": 49.6,
+    "finished_at": "2026-10-07 16:04:23",
+    "n_merges": 0,
+    "llm_stats": {
+      "calls": 496,
+      "cache_hits": 0,
+      "prompt_tokens": 108427,
+      "completion_tokens": 992,
+      "errors": 0
+    }
+  },
+  "export": {
+    "seconds": 12.2,
+    "finished_at": "2026-10-07 16:04:36",
+    "n_entities": 7529,
+    "n_triples": 12233,
+    "n_relations": 149
+  },
+  "audit": {
+    "seconds": 0.7,
+    "finished_at": "2026-10-07 16:04:36"
+  }
+}

@@ -1,0 +1,70 @@
+2026-10-07 16:47:17,744 INFO drugkg.exp: experiment=decomp_edc_ec stage=canon_entities input=text args={'exp': 'decomp_edc_ec', 'config': '/home/dbstjr9611/drug-kg-edc/config.yaml', 'stage': 'canon_entities', 'input': 'text', 'text_dir': None, 'sentences_file': None, 'sentence_level': False, 'drop_incomplete': False, 'from_exp': None, 'entity_canon': 'kggen', 'no_canon_edges': False, 'no_structured': False, 'drugs': 'all', 'max_chunks': None, 'iterations': None, 'force': False, 'verbose': False}
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2641.03it/s]
+2026-10-07 16:47:35,538 INFO drugkg.edc.schema: schema loaded from /home/dbstjr9611/drug-kg-edc/output/experiments/decomp_edc_ec/schema/schema.csv: 279 relations
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 874.40it/s]
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 916.89it/s]
+2026-10-07 16:47:46,554 INFO drugkg.entity_canon: semhash: entities 8466 -> 7844, edges 210 -> 207
+2026-10-07 16:48:29,674 INFO drugkg.entity_canon: node k-means: 7844 items -> 62 clusters (sizes [128, 128, 128, 128, 128, 128]...)
+2026-10-07 16:48:29,675 INFO drugkg.entity_canon: edge k-means: 207 items -> 1 clusters (sizes [207]...)
+2026-10-07 16:56:03,322 INFO drugkg.exp: KGGen canonicalization: {'n_entities_in': 8466, 'n_edges_in': 210, 'numeric_guard': True, 'type_guard': False, 'strict_prompt': False, 'entities_after_semhash': 7844, 'edges_after_semhash': 207, 'entities_after_lm': 5066, 'edges_after_lm': 143, 'lm_calls': 5471, 'n_node_clusters': 62, 'n_edge_clusters': 1}
+2026-10-07 16:56:07,252 INFO drugkg.exp: kg_canon: 5064 entities, 11940 triples, 143 relations (from 8466 / 13198)
+2026-10-07 16:56:09,052 INFO drugkg.exp: experiment=decomp_edc_ec stage=audit input=text args={'exp': 'decomp_edc_ec', 'config': '/home/dbstjr9611/drug-kg-edc/config.yaml', 'stage': 'audit', 'input': 'text', 'text_dir': None, 'sentences_file': None, 'sentence_level': False, 'drop_incomplete': False, 'from_exp': None, 'entity_canon': 'none', 'no_canon_edges': False, 'no_structured': False, 'drugs': 'all', 'max_chunks': None, 'iterations': None, 'force': False, 'verbose': False}
+2026-10-07 16:56:09,759 INFO drugkg.exp: audit written to /home/dbstjr9611/drug-kg-edc/output/experiments/decomp_edc_ec/audit
+2026-10-07 16:56:10,449 INFO drugkg.exp: audit written to /home/dbstjr9611/drug-kg-edc/output/experiments/decomp_edc_ec/audit_canon
+2026-10-07 16:56:10,585 INFO drugkg.exp: experiment=decomp_edc_ec_g stage=all input=text args={'exp': 'decomp_edc_ec_g', 'config': '/home/dbstjr9611/drug-kg-edc/config.yaml', 'stage': 'all', 'input': 'text', 'text_dir': None, 'sentences_file': None, 'sentence_level': False, 'drop_incomplete': False, 'from_exp': 'decomp_edc', 'entity_canon': 'kggen_guarded', 'no_canon_edges': False, 'no_structured': False, 'drugs': 'all', 'max_chunks': None, 'iterations': None, 'force': False, 'verbose': False}
+2026-10-07 16:56:11,231 INFO drugkg.exp: copied chunks/edc/schema from experiment decomp_edc
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2606.61it/s]
+2026-10-07 16:56:28,247 INFO drugkg.edc.schema: schema loaded from /home/dbstjr9611/drug-kg-edc/output/experiments/decomp_edc_ec_g/schema/schema.csv: 279 relations
+2026-10-07 16:56:33,751 INFO drugkg.exp: exported decomp_edc_ec_g: 8466 entities, 13198 triples, 210 relations
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2932.12it/s]
+2026-10-07 16:56:42,437 INFO drugkg.edc.schema: schema loaded from /home/dbstjr9611/drug-kg-edc/output/experiments/decomp_edc_ec_g/schema/schema.csv: 279 relations
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 811.59it/s]
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 887.89it/s]
+2026-10-07 16:56:54,311 INFO drugkg.entity_canon: semhash: entities 8466 -> 8037, edges 210 -> 207
+2026-10-07 16:57:33,328 INFO drugkg.entity_canon: node k-means: 8037 items -> 63 clusters (sizes [128, 128, 128, 128, 128, 128]...)
+2026-10-07 16:57:33,329 INFO drugkg.entity_canon: edge k-means: 207 items -> 1 clusters (sizes [207]...)
+2026-10-07 17:10:43,318 INFO drugkg.exp: KGGen canonicalization: {'n_entities_in': 8466, 'n_edges_in': 210, 'numeric_guard': True, 'type_guard': True, 'strict_prompt': True, 'entities_after_semhash': 8037, 'edges_after_semhash': 207, 'entities_after_lm': 5670, 'edges_after_lm': 130, 'lm_calls': 6019, 'n_node_clusters': 63, 'n_edge_clusters': 1}
+2026-10-07 17:10:47,129 INFO drugkg.exp: kg_canon: 5669 entities, 11746 triples, 130 relations (from 8466 / 13198)
+2026-10-07 17:10:47,954 INFO drugkg.exp: audit written to /home/dbstjr9611/drug-kg-edc/output/experiments/decomp_edc_ec_g/audit
+2026-10-07 17:10:48,577 INFO drugkg.exp: audit written to /home/dbstjr9611/drug-kg-edc/output/experiments/decomp_edc_ec_g/audit_canon
+# Experiment comparison
+
+| metric | text_edc | decomp_edc | decomp_edc_ec | decomp_edc_ec_g |
+|---|---|---|---|---|
+| model | Qwen/Qwen3-14B-AWQ | Qwen/Qwen3-14B-AWQ | None | None |
+| input | text | sentences | decomp_edc | decomp_edc |
+| n_chunks | 854 | 911 | 911 | 911 |
+| open_triplets | 12113 | 13180 | 13180 | 13180 |
+| final_triplets | 12113 | 13180 | 13180 | 13180 |
+| extract_seconds | 1492 | 1559 | 1559 | 1559 |
+| status_mapped | 2468 | 2657 | 2657 | 2657 |
+| status_direct | 9426 | 10241 | 10241 | 10241 |
+| status_enriched | 166 | 239 | 239 | 239 |
+| status_mapped_new | 41 | 32 | 32 | 32 |
+| status_auto | 12 | 11 | 11 | 11 |
+| kg_entities | 7529 | 8466 | 8466 | 8466 |
+| kg_triples | 12233 | 13198 | 13198 | 13198 |
+| kg_relations | 149 | 210 | 210 | 210 |
+| kg_relations_enriched | 109 | 170 | 170 | 170 |
+| audit_entities_with_issue | 4323 | 4984 | 4984 | 4984 |
+| audit_dup_groups | 237 | 235 | 235 | 235 |
+| audit_sentence_like_concepts | 685 | 781 | 781 | 781 |
+| audit_composite | 606 | 636 | 636 | 636 |
+| audit_alias_split | 43 | 45 | 45 | 45 |
+| audit_type_mismatch_entities | 267 | 361 | 361 | 361 |
+| audit_boilerplate_hubs | 12 | 14 | 14 | 14 |
+| canon_entities |  |  | 5064 | 5669 |
+| canon_triples |  |  | 11940 | 11746 |
+| canon_relations |  |  | 143 | 130 |
+| canon_lm_calls |  |  | 5471 | 6019 |
+| canon_entities_after_semhash |  |  | 7844 | 8037 |
+| audit_canon_entities_with_issue |  |  | 3392 | 3527 |
+| audit_canon_dup_groups |  |  | 53 | 68 |
+| audit_canon_sentence_like_concepts |  |  | 463 | 523 |
+| audit_canon_composite |  |  | 294 | 366 |
+| audit_canon_alias_split |  |  | 34 | None |
+| audit_canon_type_mismatch_entities |  |  | 1136 | 1001 |
+| audit_canon_boilerplate_hubs |  |  | 26 | 20 |
+
+Stage seconds: {"text_edc": {"prepare": 0.0, "extract": 1507.7, "consolidate": 49.6, "export": 12.2, "audit": 0.7}, "decomp_edc": {"prepare": 0.2, "extract": 1582.0, "consolidate": 70.2, "export": 12.5, "audit": 0.7}, "decomp_edc_ec": {"copy_from": 0, "export": 21.5, "canon_entities": 528.6, "audit": 1.4}, "decomp_edc_ec_g": {"copy_from": 0, "export": 22.5, "canon_entities": 852.1, "audit": 1.3}}
+CANON_RERUN_DONE

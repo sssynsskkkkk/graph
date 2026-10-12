@@ -1,0 +1,5432 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "tamsulosin#uses#0",
+     "section_id": "uses",
+     "section_heading": "What is tamsulosin?",
+     "text": "Tamsulosin is used to treat the symptoms of an enlarged prostate, also called benign prostatic hyperplasia or BPH. These symptoms include a weak urine stream, trouble starting to urinate, dribbling, a feeling of not emptying the bladder completely, needing to urinate often or urgently, and getting up at night to urinate.\nTamsulosin belongs to a group of medicines called alpha blockers. It works by blocking alpha-1 receptors in the prostate and bladder neck. Blocking these receptors relaxes the muscle there, which improves urine flow and eases BPH symptoms.\nTamsulosin is taken once daily, about half an hour after the same meal each day. Capsules should be swallowed whole and not crushed, chewed, or opened.\nThe tamsulosin brand name was Flomax, which has now been discontinued in the U.S., but generic tamsulosin is available.\nTamsulosin is not approved to treat high blood pressure, and it is not approved for use in women or children.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"tamsulosin\", \"treats\", \"enlarged prostate\"], [\"tamsulosin\", \"treats\", \"benign prostatic hyperplasia\"], [\"tamsulosin\", \"treats\", \"weak urine stream\"], [\"tamsulosin\", \"treats\", \"trouble starting to urinate\"], [\"tamsulosin\", \"treats\", \"dribbling\"], [\"tamsulosin\", \"treats\", \"feeling of not emptying bladder\"], [\"tamsulosin\", \"treats\", \"frequent urination\"], [\"tamsulosin\", \"treats\", \"urgent urination\"], [\"tamsulosin\", \"treats\", \"nocturia\"], [\"tamsulosin\", \"belongs to drug class\", \"alpha blockers\"], [\"tamsulosin\", \"has mechanism of action\", \"blocking alpha-1 receptors in prostate and bladder neck\"], [\"tamsulosin\", \"has administration instruction\", \"taken once daily about half an hour after the same meal each day\"], [\"tamsulosin\", \"has administration instruction\", \"swallowed whole not crushed chewed or opened\"], [\"tamsulosin\", \"has brand name\", \"Flomax\"], [\"tamsulosin\", \"has warning\", \"not approved for high blood pressure\"], [\"tamsulosin\", \"has warning\", \"not approved for use in women\"], [\"tamsulosin\", \"has warning\", \"not approved for use in children\"]]",
+     "oie": [
+      [
+       "tamsulosin",
+       "treats",
+       "enlarged prostate"
+      ],
+      [
+       "tamsulosin",
+       "treats",
+       "benign prostatic hyperplasia"
+      ],
+      [
+       "tamsulosin",
+       "treats",
+       "weak urine stream"
+      ],
+      [
+       "tamsulosin",
+       "treats",
+       "trouble starting to urinate"
+      ],
+      [
+       "tamsulosin",
+       "treats",
+       "dribbling"
+      ],
+      [
+       "tamsulosin",
+       "treats",
+       "feeling of not emptying bladder"
+      ],
+      [
+       "tamsulosin",
+       "treats",
+       "frequent urination"
+      ],
+      [
+       "tamsulosin",
+       "treats",
+       "urgent urination"
+      ],
+      [
+       "tamsulosin",
+       "treats",
+       "nocturia"
+      ],
+      [
+       "tamsulosin",
+       "belongs to drug class",
+       "alpha blockers"
+      ],
+      [
+       "tamsulosin",
+       "has mechanism of action",
+       "blocking alpha-1 receptors in prostate and bladder neck"
+      ],
+      [
+       "tamsulosin",
+       "has administration instruction",
+       "taken once daily about half an hour after the same meal each day"
+      ],
+      [
+       "tamsulosin",
+       "has administration instruction",
+       "swallowed whole not crushed chewed or opened"
+      ],
+      [
+       "tamsulosin",
+       "has brand name",
+       "Flomax"
+      ],
+      [
+       "tamsulosin",
+       "has warning",
+       "not approved for high blood pressure"
+      ],
+      [
+       "tamsulosin",
+       "has warning",
+       "not approved for use in women"
+      ],
+      [
+       "tamsulosin",
+       "has warning",
+       "not approved for use in children"
+      ]
+     ],
+     "schema_definition": {
+      "belongs to drug class": "The subject drug is a member of the pharmacological drug class specified by the object entity.",
+      "has administration instruction": "The subject drug should be taken or administered according to the instructions specified by the object entity.",
+      "has brand name": "The subject drug is marketed under the brand name specified by the object entity.",
+      "has mechanism of action": "The subject drug exerts its therapeutic effect by blocking or inhibiting the specified biological target or pathway.",
+      "has warning": "The subject drug is not approved or is contraindicated for use in the condition or population specified by the object entity.",
+      "treats": "The subject drug is used to manage or alleviate the symptoms or condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "tamsulosin",
+        "treats",
+        "enlarged prostate"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "treats",
+        "benign prostatic hyperplasia"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "treats",
+        "weak urine stream"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "treats",
+        "trouble starting to urinate"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "treats",
+        "dribbling"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "treats",
+        "feeling of not emptying bladder"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "treats",
+        "frequent urination"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "treats",
+        "urgent urination"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "treats",
+        "nocturia"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the symptoms or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "belongs to drug class",
+        "alpha blockers"
+       ],
+       "raw_relation": "belongs to drug class",
+       "definition": "The subject drug is a member of the pharmacological drug class specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has mechanism of action",
+        "blocking alpha-1 receptors in prostate and bladder neck"
+       ],
+       "raw_relation": "has mechanism of action",
+       "definition": "The subject drug exerts its therapeutic effect by blocking or inhibiting the specified biological target or pathway.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has administration instruction",
+        "taken once daily about half an hour after the same meal each day"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be taken or administered according to the instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has administration instruction",
+        "swallowed whole not crushed chewed or opened"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be taken or administered according to the instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has brand name",
+        "Flomax"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has warning",
+        "not approved for high blood pressure"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug is not approved or is contraindicated for use in the condition or population specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has warning",
+        "not approved for use in women"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug is not approved or is contraindicated for use in the condition or population specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has warning",
+        "not approved for use in children"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug is not approved or is contraindicated for use in the condition or population specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "tamsulosin#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings and precautions",
+     "text": "Do not take tamsulosin if you are allergic to tamsulosin or to any of the ingredients in the capsule.\nDo not take tamsulosin with other alpha blockers such as alfuzosin (Uroxatral), doxazosin (Cardura), prazosin (Minipress), silodosin (Rapaflo), or terazosin (Hytrin).\nDo not take tamsulosin 0.4 mg with a strong CYP3A4 inhibitor such as ketoconazole. These medicines raise tamsulosin levels in your blood.\nTamsulosin can lower your blood pressure when you stand up, which may make you feel dizzy or faint. This is most likely when you first start taking it, when your dose changes, or when you start it again after a break. Get up slowly from sitting or lying down. Be careful driving or doing anything that needs you to be alert until you know how tamsulosin affects you.\nIn rare cases (probably fewer than 1 in 50,000 patients), tamsulosin can cause priapism, a painful erection that lasts a long time and is not related to sexual activity. Get medical help straight away if this happens, because without prompt treatment it can lead to permanent erectile dysfunction.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"tamsulosin\", \"contraindicated in\", \"allergy to tamsulosin or any ingredient in capsule\"], [\"tamsulosin\", \"interacts with\", \"alpha blockers such as alfuzosin\"], [\"tamsulosin\", \"interacts with\", \"alpha blockers such as doxazosin\"], [\"tamsulosin\", \"interacts with\", \"alpha blockers such as prazosin\"], [\"tamsulosin\", \"interacts with\", \"alpha blockers such as silodosin\"], [\"tamsulosin\", \"interacts with\", \"alpha blockers such as terazosin\"], [\"tamsulosin\", \"interacts with\", \"strong CYP3A4 inhibitors such as ketoconazole\"], [\"tamsulosin\", \"has side effect\", \"low blood pressure upon standing\"], [\"tamsulosin\", \"has side effect\", \"dizziness\"], [\"tamsulosin\", \"has side effect\", \"fainting\"], [\"tamsulosin\", \"has rare side effect\", \"priapism\"], [\"tamsulosin\", \"has instruction for dizziness\", \"get up slowly from sitting or lying down\"], [\"tamsulosin\", \"has warning\", \"avoid driving or alert activities until response is known\"], [\"tamsulosin\", \"has serious side effect\", \"priapism leading to permanent erectile dysfunction\"], [\"tamsulosin\", \"has risk of\", \"priapism in rare cases\"]]",
+     "oie": [
+      [
+       "tamsulosin",
+       "contraindicated in",
+       "allergy to tamsulosin or any ingredient in capsule"
+      ],
+      [
+       "tamsulosin",
+       "interacts with",
+       "alpha blockers such as alfuzosin"
+      ],
+      [
+       "tamsulosin",
+       "interacts with",
+       "alpha blockers such as doxazosin"
+      ],
+      [
+       "tamsulosin",
+       "interacts with",
+       "alpha blockers such as prazosin"
+      ],
+      [
+       "tamsulosin",
+       "interacts with",
+       "alpha blockers such as silodosin"
+      ],
+      [
+       "tamsulosin",
+       "interacts with",
+       "alpha blockers such as terazosin"
+      ],
+      [
+       "tamsulosin",
+       "interacts with",
+       "strong CYP3A4 inhibitors such as ketoconazole"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "low blood pressure upon standing"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "dizziness"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "fainting"
+      ],
+      [
+       "tamsulosin",
+       "has rare side effect",
+       "priapism"
+      ],
+      [
+       "tamsulosin",
+       "has instruction for dizziness",
+       "get up slowly from sitting or lying down"
+      ],
+      [
+       "tamsulosin",
+       "has warning",
+       "avoid driving or alert activities until response is known"
+      ],
+      [
+       "tamsulosin",
+       "has serious side effect",
+       "priapism leading to permanent erectile dysfunction"
+      ],
+      [
+       "tamsulosin",
+       "has risk of",
+       "priapism in rare cases"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition or sensitivity specified by the object entity.",
+      "has instruction for dizziness": "Patients taking the subject drug should follow the specific action or behavior specified by the object entity to manage dizziness.",
+      "has rare side effect": "The subject drug may cause the adverse effect specified by the object entity in rare cases.",
+      "has risk of": "The subject drug carries a risk of developing the adverse event or condition specified by the object entity.",
+      "has serious side effect": "The subject drug may cause the serious or potentially irreversible adverse effect specified by the object entity.",
+      "has side effect": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+      "has warning": "Patients taking the subject drug should be cautious or avoid certain activities as specified by the object entity.",
+      "interacts with": "The subject drug may produce a pharmacological interaction when co-administered with the substance or drug specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "tamsulosin",
+        "contraindicated in",
+        "allergy to tamsulosin or any ingredient in capsule"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or sensitivity specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "alpha blockers such as alfuzosin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or drug specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "alpha blockers such as doxazosin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or drug specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "alpha blockers such as prazosin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or drug specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "alpha blockers such as silodosin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or drug specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "alpha blockers such as terazosin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or drug specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "strong CYP3A4 inhibitors such as ketoconazole"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance or drug specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "low blood pressure upon standing"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "dizziness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "fainting"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect or symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has serious side effect",
+        "priapism"
+       ],
+       "raw_relation": "has rare side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity in rare cases.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9291
+        ],
+        [
+         "has serious side effect",
+         0.8944
+        ],
+        [
+         "not used to treat",
+         0.8507
+        ],
+        [
+         "interacts with",
+         0.8479
+        ],
+        [
+         "has warning",
+         0.8443
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has instruction",
+        "get up slowly from sitting or lying down"
+       ],
+       "raw_relation": "has instruction for dizziness",
+       "definition": "Patients taking the subject drug should follow the specific action or behavior specified by the object entity to manage dizziness.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has overdose instruction",
+         0.8266
+        ],
+        [
+         "has instruction",
+         0.8153
+        ],
+        [
+         "has missed dose instruction",
+         0.805
+        ],
+        [
+         "treats",
+         0.7994
+        ],
+        [
+         "has administration instruction",
+         0.7986
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has warning",
+        "avoid driving or alert activities until response is known"
+       ],
+       "raw_relation": "has warning",
+       "definition": "Patients taking the subject drug should be cautious or avoid certain activities as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has serious side effect",
+        "priapism leading to permanent erectile dysfunction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or potentially irreversible adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has serious side effect",
+        "priapism in rare cases"
+       ],
+       "raw_relation": "has risk of",
+       "definition": "The subject drug carries a risk of developing the adverse event or condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9379
+        ],
+        [
+         "has warning",
+         0.9114
+        ],
+        [
+         "has serious side effect",
+         0.9037
+        ],
+        [
+         "reduces risk of",
+         0.876
+        ],
+        [
+         "use with caution in",
+         0.8729
+        ]
+       ],
+       "answer": "C"
+      }
+     ]
+    },
+    {
+     "chunk_id": "tamsulosin#warnings#1",
+     "section_id": "warnings",
+     "section_heading": "Warnings and precautions",
+     "text": "An enlarged prostate and prostate cancer can occur together. Ask your doctor about prostate cancer screening before you start tamsulosin and at regular intervals while you are taking it.\nTamsulosin can cause a problem called intraoperative floppy iris syndrome (IFIS) during cataract or glaucoma surgery. Tell your eye surgeon that you take tamsulosin or have taken it in the past, even if you stopped months ago. Do not stop taking tamsulosin before surgery unless your surgeon tells you to. If you are already booked in for cataract or glaucoma surgery, starting tamsulosin is not recommended.\nIf you stop taking tamsulosin for several days, talk to your doctor before starting again. You will need to restart at the 0.4 mg dose.\nMany other medicines can interact with tamsulosin. Tell your doctor about everything you take, including prescription medicines, over-the-counter medicines, vitamins, and herbal products.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"tamsulosin\", \"can occur with\", \"enlarged prostate\"], [\"tamsulosin\", \"can occur with\", \"prostate cancer\"], [\"tamsulosin\", \"has warning\", \"intraoperative floppy iris syndrome during cataract or glaucoma surgery\"], [\"tamsulosin\", \"requires notification to\", \"eye surgeon\"], [\"tamsulosin\", \"requires notification to\", \"eye surgeon\"], [\"tamsulosin\", \"has instruction\", \"do not stop before surgery unless told by surgeon\"], [\"tamsulosin\", \"has instruction\", \"starting tamsulosin not recommended if already booked for cataract or glaucoma surgery\"], [\"tamsulosin\", \"has instruction\", \"talk to doctor before restarting after several days of discontinuation\"], [\"tamsulosin\", \"has recommended restart dose\", \"0.4 mg\"], [\"tamsulosin\", \"interacts with\", \"many other medicines\"], [\"tamsulosin\", \"requires disclosure of\", \"all medications including over-the-counter and herbal products\"]]",
+     "oie": [
+      [
+       "tamsulosin",
+       "can occur with",
+       "enlarged prostate"
+      ],
+      [
+       "tamsulosin",
+       "can occur with",
+       "prostate cancer"
+      ],
+      [
+       "tamsulosin",
+       "has warning",
+       "intraoperative floppy iris syndrome during cataract or glaucoma surgery"
+      ],
+      [
+       "tamsulosin",
+       "requires notification to",
+       "eye surgeon"
+      ],
+      [
+       "tamsulosin",
+       "has instruction",
+       "do not stop before surgery unless told by surgeon"
+      ],
+      [
+       "tamsulosin",
+       "has instruction",
+       "starting tamsulosin not recommended if already booked for cataract or glaucoma surgery"
+      ],
+      [
+       "tamsulosin",
+       "has instruction",
+       "talk to doctor before restarting after several days of discontinuation"
+      ],
+      [
+       "tamsulosin",
+       "has recommended restart dose",
+       "0.4 mg"
+      ],
+      [
+       "tamsulosin",
+       "interacts with",
+       "many other medicines"
+      ],
+      [
+       "tamsulosin",
+       "requires disclosure of",
+       "all medications including over-the-counter and herbal products"
+      ]
+     ],
+     "schema_definition": {
+      "can occur with": "The subject drug can be present in individuals who also have the condition specified by the object entity.",
+      "has instruction": "The subject drug comes with a specific directive or guidance for patient behavior or medical management as specified by the object entity.",
+      "has recommended restart dose": "When the subject drug is restarted after discontinuation, the recommended initial dose is specified by the object entity.",
+      "has warning": "The subject drug is associated with a potential adverse event or condition specified by the object entity that requires patient awareness.",
+      "interacts with": "The subject drug may produce a pharmacological interaction with the substance or class specified by the object entity.",
+      "requires disclosure of": "Patients taking the subject drug must inform their healthcare provider about the substances or products specified by the object entity.",
+      "requires notification to": "Patients taking the subject drug must inform the specified healthcare professional about their use of the drug."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "tamsulosin",
+        "mimics symptoms of",
+        "enlarged prostate"
+       ],
+       "raw_relation": "can occur with",
+       "definition": "The subject drug can be present in individuals who also have the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "mimics symptoms of",
+         0.8996
+        ],
+        [
+         "treats",
+         0.899
+        ],
+        [
+         "has side effect",
+         0.8928
+        ],
+        [
+         "has inactive ingredient",
+         0.8819
+        ],
+        [
+         "similar to",
+         0.881
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "can occur with",
+        "prostate cancer"
+       ],
+       "raw_relation": "can occur with",
+       "definition": "The subject drug can be present in individuals who also have the condition specified by the object entity.",
+       "status": "enriched",
+       "candidates": [
+        [
+         "mimics symptoms of",
+         0.8996
+        ],
+        [
+         "treats",
+         0.899
+        ],
+        [
+         "has side effect",
+         0.8928
+        ],
+        [
+         "has inactive ingredient",
+         0.8819
+        ],
+        [
+         "similar to",
+         0.881
+        ]
+       ],
+       "answer": "F"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has warning",
+        "intraoperative floppy iris syndrome during cataract or glaucoma surgery"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug is associated with a potential adverse event or condition specified by the object entity that requires patient awareness.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "should inform doctor about",
+        "eye surgeon"
+       ],
+       "raw_relation": "requires notification to",
+       "definition": "Patients taking the subject drug must inform the specified healthcare professional about their use of the drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8958
+        ],
+        [
+         "requires use of",
+         0.8452
+        ],
+        [
+         "requires monitoring of",
+         0.8376
+        ],
+        [
+         "requires patient to read",
+         0.8081
+        ],
+        [
+         "use with caution in",
+         0.8069
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has instruction",
+        "do not stop before surgery unless told by surgeon"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug comes with a specific directive or guidance for patient behavior or medical management as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has instruction",
+        "starting tamsulosin not recommended if already booked for cataract or glaucoma surgery"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug comes with a specific directive or guidance for patient behavior or medical management as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has instruction",
+        "talk to doctor before restarting after several days of discontinuation"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug comes with a specific directive or guidance for patient behavior or medical management as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has recommended dose",
+        "0.4 mg"
+       ],
+       "raw_relation": "has recommended restart dose",
+       "definition": "When the subject drug is restarted after discontinuation, the recommended initial dose is specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.8084
+        ],
+        [
+         "has maintenance phase start",
+         0.7904
+        ],
+        [
+         "has indication for initial dose",
+         0.7826
+        ],
+        [
+         "has withdrawal symptom",
+         0.7817
+        ],
+        [
+         "must be started after",
+         0.7782
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "many other medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction with the substance or class specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "should inform doctor about",
+        "all medications including over-the-counter and herbal products"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients taking the subject drug must inform their healthcare provider about the substances or products specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.9302
+        ],
+        [
+         "requires monitoring of",
+         0.8922
+        ],
+        [
+         "has dosage form",
+         0.8563
+        ],
+        [
+         "use with caution in",
+         0.8503
+        ],
+        [
+         "manufactured by",
+         0.8438
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "tamsulosin#before-taking#0",
+     "section_id": "before-taking",
+     "section_heading": "Before taking this medicine",
+     "text": "To make sure tamsulosin is safe for you, tell your doctor if you have ever had:\n- an allergy to tamsulosin or any of its ingredients\n- an allergy to sulfa drugs\n- kidney problems\n- liver problems\n- low blood pressure (hypotension)\nAlso tell your doctor if you are planning to have cataract or glaucoma surgery.\nAsk your doctor about prostate cancer screening before starting tamsulosin and at regular intervals afterwards.\nTamsulosin is not approved for use in women or in children.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"tamsulosin\", \"contraindicated in\", \"allergy to tamsulosin or its ingredients\"], [\"tamsulosin\", \"contraindicated in\", \"allergy to sulfa drugs\"], [\"tamsulosin\", \"contraindicated in\", \"kidney problems\"], [\"tamsulosin\", \"contraindicated in\", \"liver problems\"], [\"tamsulosin\", \"contraindicated in\", \"low blood pressure\"], [\"tamsulosin\", \"requires consultation before\", \"cataract surgery\"], [\"tamsulosin\", \"requires consultation before\", \"glaucoma surgery\"], [\"tamsulosin\", \"has indication for discussion\", \"prostate cancer screening\"], [\"tamsulosin\", \"not approved for\", \"women\"], [\"tamsulosin\", \"not approved for\", \"children\"]]",
+     "oie": [
+      [
+       "tamsulosin",
+       "contraindicated in",
+       "allergy to tamsulosin or its ingredients"
+      ],
+      [
+       "tamsulosin",
+       "contraindicated in",
+       "allergy to sulfa drugs"
+      ],
+      [
+       "tamsulosin",
+       "contraindicated in",
+       "kidney problems"
+      ],
+      [
+       "tamsulosin",
+       "contraindicated in",
+       "liver problems"
+      ],
+      [
+       "tamsulosin",
+       "contraindicated in",
+       "low blood pressure"
+      ],
+      [
+       "tamsulosin",
+       "requires consultation before",
+       "cataract surgery"
+      ],
+      [
+       "tamsulosin",
+       "requires consultation before",
+       "glaucoma surgery"
+      ],
+      [
+       "tamsulosin",
+       "has indication for discussion",
+       "prostate cancer screening"
+      ],
+      [
+       "tamsulosin",
+       "not approved for",
+       "women"
+      ],
+      [
+       "tamsulosin",
+       "not approved for",
+       "children"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+      "has indication for discussion": "The subject drug's use in conjunction with the condition specified by the object entity requires medical evaluation and patient discussion.",
+      "not approved for": "The subject drug is not authorized or recommended for use in the population or condition specified by the object entity.",
+      "requires consultation before": "Patients considering the subject drug in the context of the procedure or condition specified by the object entity should consult a doctor beforehand."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "tamsulosin",
+        "contraindicated in",
+        "allergy to tamsulosin or its ingredients"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "contraindicated in",
+        "allergy to sulfa drugs"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "contraindicated in",
+        "kidney problems"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "contraindicated in",
+        "liver problems"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "contraindicated in",
+        "low blood pressure"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition or allergy specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "should inform doctor about",
+        "cataract surgery"
+       ],
+       "raw_relation": "requires consultation before",
+       "definition": "Patients considering the subject drug in the context of the procedure or condition specified by the object entity should consult a doctor beforehand.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8845
+        ],
+        [
+         "requires monitoring of",
+         0.8544
+        ],
+        [
+         "use with caution in",
+         0.8102
+        ],
+        [
+         "mimics symptoms of",
+         0.8038
+        ],
+        [
+         "increases risk of",
+         0.8011
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "should inform doctor about",
+        "glaucoma surgery"
+       ],
+       "raw_relation": "requires consultation before",
+       "definition": "Patients considering the subject drug in the context of the procedure or condition specified by the object entity should consult a doctor beforehand.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8845
+        ],
+        [
+         "requires monitoring of",
+         0.8544
+        ],
+        [
+         "use with caution in",
+         0.8102
+        ],
+        [
+         "mimics symptoms of",
+         0.8038
+        ],
+        [
+         "increases risk of",
+         0.8011
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "should inform doctor about",
+        "prostate cancer screening"
+       ],
+       "raw_relation": "has indication for discussion",
+       "definition": "The subject drug's use in conjunction with the condition specified by the object entity requires medical evaluation and patient discussion.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8973
+        ],
+        [
+         "requires monitoring of",
+         0.8837
+        ],
+        [
+         "treats",
+         0.8746
+        ],
+        [
+         "use with caution in",
+         0.8723
+        ],
+        [
+         "not used to treat",
+         0.8689
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "not approved for",
+        "women"
+       ],
+       "raw_relation": "not approved for",
+       "definition": "The subject drug is not authorized or recommended for use in the population or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "not approved for",
+        "children"
+       ],
+       "raw_relation": "not approved for",
+       "definition": "The subject drug is not authorized or recommended for use in the population or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "tamsulosin#dosage#0",
+     "section_id": "dosage",
+     "section_heading": "How should I take tamsulosin?",
+     "text": "Take tamsulosin exactly as prescribed. Follow the directions on your prescription label and read any medication guides or instruction sheets.\n- Take once a day, about 30 minutes after the same meal each day. For example, 30 minutes after dinner.\n- Swallow the capsule whole. Do not crush, chew, break, or open it.\n- If you stop taking tamsulosin for several days, do not start again without talking to your doctor.\n- Store at room temperature, away from moisture and heat.\nDosing information:\nUsual adult dose for benign prostatic hyperplasia:\n- 0.4 mg by mouth once a day, taken about half an hour after the same meal each day.\n- If symptoms have not improved after 2 to 4 weeks at 0.4 mg, the dose may be increased to 0.8 mg once a day.\n- Tamsulosin 0.4 mg should not be taken with a strong CYP3A4 inhibitor such as ketoconazole.\n- If tamsulosin is stopped or interrupted for several days, treatment should start again at 0.4 mg once a day.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[\n  [\"tamsulosin\", \"has administration instruction\", \"take exactly as prescribed\"],\n  [\"tamsulosin\", \"has administration instruction\", \"follow directions on prescription label\"],\n  [\"tamsulosin\", \"has administration instruction\", \"read medication guides or instruction sheets\"],\n  [\"tamsulosin\", \"has administration instruction\", \"take once a day about 30 minutes after the same meal each day\"],\n  [\"tamsulosin\", \"has administration instruction\", \"take about half an hour after the same meal each day\"],\n  [\"tamsulosin\", \"has administration instruction\", \"take 30 minutes after dinner as example\"],\n  [\"tamsulosin\", \"has administration instruction\", \"swallow capsule whole\"],\n  [\"tamsulosin\", \"has administration instruction\", \"do not crush chew break or open capsule\"],\n  [\"tamsulosin\", \"has missed dose instruction\", \"do not start again without talking to your doctor if stopped for several days\"],\n  [\"tamsulosin\", \"has storage instruction\", \"store at room temperature away from moisture and heat\"],\n  [\"tamsulosin\", \"has recommended dose\", \"0.4 mg once a day\"],\n  [\"tamsulosin\", \"has recommended dose\", \"0.8 mg once a day\"],\n  [\"tamsulosin\", \"has dose adjustment instruction\", \"increase to 0.8 mg once a day if symptoms not improved after 2 to 4 weeks at 0.4 mg\"],\n  [\"tamsulosin\", \"has contraindication\", \"taken with strong CYP3A4 inhibitor such as ketoconazole\"],\n  [\"tamsulosin\", \"has restart instruction\", \"start again at 0.4 mg once a day if stopped or interrupted for several days\"],\n  [\"tamsulosin\", \"treats\", \"benign prostatic hyperplasia\"]\n]",
+     "oie": [
+      [
+       "tamsulosin",
+       "has administration instruction",
+       "take exactly as prescribed"
+      ],
+      [
+       "tamsulosin",
+       "has administration instruction",
+       "follow directions on prescription label"
+      ],
+      [
+       "tamsulosin",
+       "has administration instruction",
+       "read medication guides or instruction sheets"
+      ],
+      [
+       "tamsulosin",
+       "has administration instruction",
+       "take once a day about 30 minutes after the same meal each day"
+      ],
+      [
+       "tamsulosin",
+       "has administration instruction",
+       "take about half an hour after the same meal each day"
+      ],
+      [
+       "tamsulosin",
+       "has administration instruction",
+       "take 30 minutes after dinner as example"
+      ],
+      [
+       "tamsulosin",
+       "has administration instruction",
+       "swallow capsule whole"
+      ],
+      [
+       "tamsulosin",
+       "has administration instruction",
+       "do not crush chew break or open capsule"
+      ],
+      [
+       "tamsulosin",
+       "has missed dose instruction",
+       "do not start again without talking to your doctor if stopped for several days"
+      ],
+      [
+       "tamsulosin",
+       "has storage instruction",
+       "store at room temperature away from moisture and heat"
+      ],
+      [
+       "tamsulosin",
+       "has recommended dose",
+       "0.4 mg once a day"
+      ],
+      [
+       "tamsulosin",
+       "has recommended dose",
+       "0.8 mg once a day"
+      ],
+      [
+       "tamsulosin",
+       "has dose adjustment instruction",
+       "increase to 0.8 mg once a day if symptoms not improved after 2 to 4 weeks at 0.4 mg"
+      ],
+      [
+       "tamsulosin",
+       "has contraindication",
+       "taken with strong CYP3A4 inhibitor such as ketoconazole"
+      ],
+      [
+       "tamsulosin",
+       "has restart instruction",
+       "start again at 0.4 mg once a day if stopped or interrupted for several days"
+      ],
+      [
+       "tamsulosin",
+       "treats",
+       "benign prostatic hyperplasia"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+      "has contraindication": "The subject drug should not be used in combination with the substance or condition specified by the object entity.",
+      "has dose adjustment instruction": "The subject drug's dose should be increased to the specified amount if the specified condition is not improved after a defined period.",
+      "has missed dose instruction": "If the subject drug is stopped for several days, the patient should not restart without consulting a healthcare provider as specified by the object entity.",
+      "has recommended dose": "The subject drug is typically prescribed at the dose amount specified by the object entity.",
+      "has restart instruction": "If the subject drug is stopped or interrupted, treatment should be resumed at the dose specified by the object entity.",
+      "has storage instruction": "The subject drug should be stored under the conditions specified by the object entity.",
+      "treats": "The subject drug is used to manage or treat the medical condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "tamsulosin",
+        "has administration instruction",
+        "take exactly as prescribed"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has administration instruction",
+        "follow directions on prescription label"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has administration instruction",
+        "read medication guides or instruction sheets"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has administration instruction",
+        "take once a day about 30 minutes after the same meal each day"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has administration instruction",
+        "take about half an hour after the same meal each day"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has administration instruction",
+        "take 30 minutes after dinner as example"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has administration instruction",
+        "swallow capsule whole"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has administration instruction",
+        "do not crush chew break or open capsule"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be taken according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has missed dose instruction",
+        "do not start again without talking to your doctor if stopped for several days"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "If the subject drug is stopped for several days, the patient should not restart without consulting a healthcare provider as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has storage instruction",
+        "store at room temperature away from moisture and heat"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug should be stored under the conditions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has recommended dose",
+        "0.4 mg once a day"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug is typically prescribed at the dose amount specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has recommended dose",
+        "0.8 mg once a day"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug is typically prescribed at the dose amount specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "may require dose adjustment",
+        "increase to 0.8 mg once a day if symptoms not improved after 2 to 4 weeks at 0.4 mg"
+       ],
+       "raw_relation": "has dose adjustment instruction",
+       "definition": "The subject drug's dose should be increased to the specified amount if the specified condition is not improved after a defined period.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may require dose adjustment",
+         0.8279
+        ],
+        [
+         "has recommended dose after 4 weeks on 1 mg",
+         0.81
+        ],
+        [
+         "has indication for initial dose",
+         0.8064
+        ],
+        [
+         "has dose modification instruction",
+         0.7943
+        ],
+        [
+         "has dose adjustment based on",
+         0.7917
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "should be avoided with",
+        "taken with strong CYP3A4 inhibitor such as ketoconazole"
+       ],
+       "raw_relation": "has contraindication",
+       "definition": "The subject drug should not be used in combination with the substance or condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.9388
+        ],
+        [
+         "should not be taken",
+         0.9013
+        ],
+        [
+         "should be avoided with",
+         0.8834
+        ],
+        [
+         "does not reduce risk of",
+         0.8744
+        ],
+        [
+         "should not be stored in",
+         0.8507
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has missed dose instruction",
+        "start again at 0.4 mg once a day if stopped or interrupted for several days"
+       ],
+       "raw_relation": "has restart instruction",
+       "definition": "If the subject drug is stopped or interrupted, treatment should be resumed at the dose specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has withdrawal symptom",
+         0.8372
+        ],
+        [
+         "has missed dose instruction",
+         0.8339
+        ],
+        [
+         "has recommended dose",
+         0.801
+        ],
+        [
+         "must be started after",
+         0.7994
+        ],
+        [
+         "should not be stopped during",
+         0.784
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "treats",
+        "benign prostatic hyperplasia"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or treat the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "tamsulosin#missed-dose#0",
+     "section_id": "missed-dose",
+     "section_heading": "What happens if I miss a dose?",
+     "text": "Take the missed dose as soon as you remember. If you have missed the dose for the whole day, skip it and take your next dose at the usual time. Do not take two doses at once.\nIf you stop taking tamsulosin for several days in a row, talk to your doctor before starting again.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"tamsulosin\", \"has missed dose instruction\", \"take as soon as remembered\"], [\"tamsulosin\", \"has missed dose instruction\", \"skip if entire day missed and take next dose at usual time\"], [\"tamsulosin\", \"has missed dose instruction\", \"do not take two doses at once\"], [\"tamsulosin\", \"has warning\", \"consult doctor before restarting after several consecutive days of discontinuation\"]]",
+     "oie": [
+      [
+       "tamsulosin",
+       "has missed dose instruction",
+       "take as soon as remembered"
+      ],
+      [
+       "tamsulosin",
+       "has missed dose instruction",
+       "skip if entire day missed and take next dose at usual time"
+      ],
+      [
+       "tamsulosin",
+       "has missed dose instruction",
+       "do not take two doses at once"
+      ],
+      [
+       "tamsulosin",
+       "has warning",
+       "consult doctor before restarting after several consecutive days of discontinuation"
+      ]
+     ],
+     "schema_definition": {
+      "has missed dose instruction": "The subject drug has specific guidance for patients who miss a dose, as specified by the object entity.",
+      "has warning": "The subject drug includes a caution or recommendation for patients to consult a healthcare provider before resuming use after a period of discontinuation, as specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "tamsulosin",
+        "has missed dose instruction",
+        "take as soon as remembered"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug has specific guidance for patients who miss a dose, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has missed dose instruction",
+        "skip if entire day missed and take next dose at usual time"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug has specific guidance for patients who miss a dose, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has missed dose instruction",
+        "do not take two doses at once"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug has specific guidance for patients who miss a dose, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has warning",
+        "consult doctor before restarting after several consecutive days of discontinuation"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug includes a caution or recommendation for patients to consult a healthcare provider before resuming use after a period of discontinuation, as specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "tamsulosin#overdose#0",
+     "section_id": "overdose",
+     "section_heading": "What happens if I overdose?",
+     "text": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222. An overdose can cause a serious drop in blood pressure. Lying down flat can help until medical help arrives.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"tamsulosin\", \"has overdose instruction\", \"seek emergency medical attention\"], [\"tamsulosin\", \"has overdose instruction\", \"call Poison Help line at 1-800-222-1222\"], [\"tamsulosin\", \"has overdose symptom\", \"drop in blood pressure\"], [\"tamsulosin\", \"has administration instruction\", \"lie down flat until medical help arrives\"]]",
+     "oie": [
+      [
+       "tamsulosin",
+       "has overdose instruction",
+       "seek emergency medical attention"
+      ],
+      [
+       "tamsulosin",
+       "has overdose instruction",
+       "call Poison Help line at 1-800-222-1222"
+      ],
+      [
+       "tamsulosin",
+       "has overdose symptom",
+       "drop in blood pressure"
+      ],
+      [
+       "tamsulosin",
+       "has administration instruction",
+       "lie down flat until medical help arrives"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug should be administered according to the instruction specified by the object entity to ensure safety and effectiveness.",
+      "has overdose instruction": "In case of overdose of the subject drug, the patient should follow the instruction specified by the object entity.",
+      "has overdose symptom": "An overdose of the subject drug may cause the symptom specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "tamsulosin",
+        "has overdose instruction",
+        "seek emergency medical attention"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "In case of overdose of the subject drug, the patient should follow the instruction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has overdose instruction",
+        "call Poison Help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "In case of overdose of the subject drug, the patient should follow the instruction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has overdose symptom",
+        "drop in blood pressure"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has administration instruction",
+        "lie down flat until medical help arrives"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the instruction specified by the object entity to ensure safety and effectiveness.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "tamsulosin#what-to-avoid#0",
+     "section_id": "what-to-avoid",
+     "section_heading": "What should I avoid while taking tamsulosin?",
+     "text": "Avoid driving or other activities that could be dangerous until you know how tamsulosin affects you. It can make you feel dizzy or lightheaded.\nAvoid getting up too quickly from sitting or lying down, or you may feel dizzy.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Tamsulosin\", \"has side effect\", \"dizziness\"], [\"Tamsulosin\", \"has side effect\", \"lightheadedness\"], [\"Tamsulosin\", \"has administration instruction\", \"avoid driving or other dangerous activities until effects are known\"], [\"Tamsulosin\", \"has instruction\", \"avoid standing up too quickly from sitting or lying down\"]]",
+     "oie": [
+      [
+       "Tamsulosin",
+       "has side effect",
+       "dizziness"
+      ],
+      [
+       "Tamsulosin",
+       "has side effect",
+       "lightheadedness"
+      ],
+      [
+       "Tamsulosin",
+       "has administration instruction",
+       "avoid driving or other dangerous activities until effects are known"
+      ],
+      [
+       "Tamsulosin",
+       "has instruction",
+       "avoid standing up too quickly from sitting or lying down"
+      ]
+     ],
+     "schema_definition": {
+      "has side effect": "The subject drug may cause the adverse physiological sensation or condition specified by the object entity.",
+      "has administration instruction": "Patients should avoid certain activities or behaviors until they understand how the subject drug affects them.",
+      "has instruction": "Patients should avoid specific actions, such as sudden changes in position, to prevent adverse effects."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Tamsulosin",
+        "has side effect",
+        "dizziness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse physiological sensation or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Tamsulosin",
+        "has side effect",
+        "lightheadedness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse physiological sensation or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Tamsulosin",
+        "has administration instruction",
+        "avoid driving or other dangerous activities until effects are known"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "Patients should avoid certain activities or behaviors until they understand how the subject drug affects them.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Tamsulosin",
+        "has instruction",
+        "avoid standing up too quickly from sitting or lying down"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "Patients should avoid specific actions, such as sudden changes in position, to prevent adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "tamsulosin#side-effects#0",
+     "section_id": "side-effects",
+     "section_heading": "Tamsulosin side effects",
+     "text": "Get emergency medical help if you have signs of an allergic reaction, such as hives, itching, rash, swelling of your face, tongue, or throat, or trouble breathing. Rarely, tamsulosin has been linked to severe skin reactions with blistering and peeling of the skin.\nStop taking tamsulosin and call your doctor at once if you have:\n- a lightheaded feeling, like you might pass out\n- a painful erection that will not go away and is not related to sexual activity\nWhat are the common side effects of tamsulosin?:\nCommon tamsulosin side effects may include:\n- headache\n- dizziness\n- runny or stuffy nose, sore throat, cough, sinus congestion\n- flu-like symptoms or infection\n- weakness or lack of energy\n- back pain, chest pain\n- diarrhea, nausea\n- drowsiness or trouble sleeping\n- tooth problems\n- abnormal ejaculation, including a smaller amount of semen or no semen at all\n- reduced interest in sex\n- blurred vision",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"tamsulosin\", \"has serious side effect\", \"allergic reaction\"], [\"tamsulosin\", \"has side effect\", \"headache\"], [\"tamsulosin\", \"has side effect\", \"dizziness\"], [\"tamsulosin\", \"has side effect\", \"runny or stuffy nose\"], [\"tamsulosin\", \"has side effect\", \"sore throat\"], [\"tamsulosin\", \"has side effect\", \"cough\"], [\"tamsulosin\", \"has side effect\", \"sinus congestion\"], [\"tamsulosin\", \"has side effect\", \"flu-like symptoms\"], [\"tamsulosin\", \"has side effect\", \"infection\"], [\"tamsulosin\", \"has side effect\", \"weakness\"], [\"tamsulosin\", \"has side effect\", \"lack of energy\"], [\"tamsulosin\", \"has side effect\", \"back pain\"], [\"tamsulosin\", \"has side effect\", \"chest pain\"], [\"tamsulosin\", \"has side effect\", \"diarrhea\"], [\"tamsulosin\", \"has side effect\", \"nausea\"], [\"tamsulosin\", \"has side effect\", \"drowsiness\"], [\"tamsulosin\", \"has side effect\", \"trouble sleeping\"], [\"tamsulosin\", \"has side effect\", \"tooth problems\"], [\"tamsulosin\", \"has side effect\", \"abnormal ejaculation\"], [\"tamsulosin\", \"has side effect\", \"reduced interest in sex\"], [\"tamsulosin\", \"has side effect\", \"blurred vision\"], [\"tamsulosin\", \"has rare side effect\", \"severe skin reactions with blistering and peeling\"], [\"tamsulosin\", \"has warning\", \"lightheaded feeling like passing out\"], [\"tamsulosin\", \"has warning\", \"painful erection that will not go away\"], [\"tamsulosin\", \"requires emergency medical help for\", \"allergic reaction\"], [\"tamsulosin\", \"has instruction\", \"stop taking and call doctor if experiencing lightheadedness\"], [\"tamsulosin\", \"has instruction\", \"stop taking and call doctor if experiencing painful erection\"]]",
+     "oie": [
+      [
+       "tamsulosin",
+       "has serious side effect",
+       "allergic reaction"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "headache"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "dizziness"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "runny or stuffy nose"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "sore throat"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "cough"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "sinus congestion"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "flu-like symptoms"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "infection"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "weakness"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "lack of energy"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "back pain"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "chest pain"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "diarrhea"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "nausea"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "drowsiness"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "trouble sleeping"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "tooth problems"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "abnormal ejaculation"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "reduced interest in sex"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "blurred vision"
+      ],
+      [
+       "tamsulosin",
+       "has rare side effect",
+       "severe skin reactions with blistering and peeling"
+      ],
+      [
+       "tamsulosin",
+       "has warning",
+       "lightheaded feeling like passing out"
+      ],
+      [
+       "tamsulosin",
+       "has warning",
+       "painful erection that will not go away"
+      ],
+      [
+       "tamsulosin",
+       "requires emergency medical help for",
+       "allergic reaction"
+      ],
+      [
+       "tamsulosin",
+       "has instruction",
+       "stop taking and call doctor if experiencing lightheadedness"
+      ],
+      [
+       "tamsulosin",
+       "has instruction",
+       "stop taking and call doctor if experiencing painful erection"
+      ]
+     ],
+     "schema_definition": {
+      "has instruction": "The subject drug requires the patient to stop taking it and immediately contact a doctor if they experience the specified condition or symptom.",
+      "has rare side effect": "The subject drug may cause the serious or uncommon adverse effect specified by the object entity.",
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+      "has side effect": "The subject drug may cause the symptom or condition specified by the object entity.",
+      "has warning": "The subject drug carries a caution or alert regarding the specified symptom or condition, indicating potential risk.",
+      "requires emergency medical help for": "The subject drug may lead to a severe reaction that necessitates immediate emergency medical intervention."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "tamsulosin",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "headache"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "dizziness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "runny or stuffy nose"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "sore throat"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "cough"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "sinus congestion"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "flu-like symptoms"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "infection"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "weakness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "lack of energy"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "back pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "chest pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "diarrhea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "nausea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "drowsiness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "trouble sleeping"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "tooth problems"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "abnormal ejaculation"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "reduced interest in sex"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "blurred vision"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has serious side effect",
+        "severe skin reactions with blistering and peeling"
+       ],
+       "raw_relation": "has rare side effect",
+       "definition": "The subject drug may cause the serious or uncommon adverse effect specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9399
+        ],
+        [
+         "has serious side effect",
+         0.9306
+        ],
+        [
+         "interacts with",
+         0.87
+        ],
+        [
+         "has warning",
+         0.8591
+        ],
+        [
+         "has overdose symptom",
+         0.8547
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has warning",
+        "lightheaded feeling like passing out"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the specified symptom or condition, indicating potential risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has warning",
+        "painful erection that will not go away"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the specified symptom or condition, indicating potential risk.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "requires emergency medical help for",
+       "definition": "The subject drug may lead to a severe reaction that necessitates immediate emergency medical intervention.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.8238
+        ],
+        [
+         "has overdose symptom",
+         0.7775
+        ],
+        [
+         "may require temporary discontinuation before",
+         0.7748
+        ],
+        [
+         "has side effect",
+         0.7638
+        ],
+        [
+         "has warning",
+         0.7607
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has instruction",
+        "stop taking and call doctor if experiencing lightheadedness"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug requires the patient to stop taking it and immediately contact a doctor if they experience the specified condition or symptom.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has instruction",
+        "stop taking and call doctor if experiencing painful erection"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug requires the patient to stop taking it and immediately contact a doctor if they experience the specified condition or symptom.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "tamsulosin#side-effects#1",
+     "section_id": "side-effects",
+     "section_heading": "Tamsulosin side effects",
+     "text": "Some side effects are more likely at the higher 0.8 mg dose than at the usual 0.4 mg starting dose. In clinical studies, abnormal ejaculation was reported by about 8 in 100 men taking 0.4 mg and about 18 in 100 men taking 0.8 mg. Blurred vision was reported by about 2 in 100 men taking 0.8 mg, and was uncommon at 0.4 mg.\nThis is not a complete list of side effects and others may occur. Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"tamsulosin\", \"has side effect\", \"abnormal ejaculation\"], [\"tamsulosin\", \"has side effect\", \"blurred vision\"], [\"tamsulosin\", \"has side effect\", \"abnormal ejaculation at higher dose\"], [\"tamsulosin\", \"has side effect\", \"blurred vision at higher dose\"], [\"tamsulosin\", \"has side effect incidence at 0.4 mg\", \"8 in 100 men\"], [\"tamsulosin\", \"has side effect incidence at 0.8 mg\", \"18 in 100 men\"], [\"tamsulosin\", \"has side effect incidence at 0.8 mg\", \"2 in 100 men\"], [\"tamsulosin\", \"has side effect incidence at 0.4 mg\", \"uncommon\"], [\"tamsulosin\", \"has warning\", \"not a complete list of side effects\"], [\"tamsulosin\", \"has instruction\", \"call doctor for medical advice about side effects\"], [\"tamsulosin\", \"has reporting instruction\", \"report side effects to FDA at 1-800-FDA-1088\"]]",
+     "oie": [
+      [
+       "tamsulosin",
+       "has side effect",
+       "abnormal ejaculation"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "blurred vision"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "abnormal ejaculation at higher dose"
+      ],
+      [
+       "tamsulosin",
+       "has side effect",
+       "blurred vision at higher dose"
+      ],
+      [
+       "tamsulosin",
+       "has side effect incidence at 0.4 mg",
+       "8 in 100 men"
+      ],
+      [
+       "tamsulosin",
+       "has side effect incidence at 0.8 mg",
+       "18 in 100 men"
+      ],
+      [
+       "tamsulosin",
+       "has side effect incidence at 0.8 mg",
+       "2 in 100 men"
+      ],
+      [
+       "tamsulosin",
+       "has side effect incidence at 0.4 mg",
+       "uncommon"
+      ],
+      [
+       "tamsulosin",
+       "has warning",
+       "not a complete list of side effects"
+      ],
+      [
+       "tamsulosin",
+       "has instruction",
+       "call doctor for medical advice about side effects"
+      ],
+      [
+       "tamsulosin",
+       "has reporting instruction",
+       "report side effects to FDA at 1-800-FDA-1088"
+      ]
+     ],
+     "schema_definition": {
+      "has instruction": "The subject drug includes a specific action or guidance that patients should follow regarding side effects or usage.",
+      "has reporting instruction": "Patients taking the subject drug are instructed to report certain adverse effects to the specified authority or contact.",
+      "has side effect": "The subject drug is associated with the adverse effect specified by the object entity.",
+      "has side effect incidence at 0.4 mg": "The frequency of the specified side effect in patients taking the subject drug at a dose of 0.4 mg is reported.",
+      "has side effect incidence at 0.8 mg": "The frequency of the specified side effect in patients taking the subject drug at a dose of 0.8 mg is reported.",
+      "has warning": "The subject drug includes a caution or notice that the listed side effects are not exhaustive and others may occur."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "abnormal ejaculation"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug is associated with the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "blurred vision"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug is associated with the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "abnormal ejaculation at higher dose"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug is associated with the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "blurred vision at higher dose"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug is associated with the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "8 in 100 men"
+       ],
+       "raw_relation": "has side effect incidence at 0.4 mg",
+       "definition": "The frequency of the specified side effect in patients taking the subject drug at a dose of 0.4 mg is reported.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "most side effects reported in studies",
+         0.7715
+        ],
+        [
+         "has indication for initial dose",
+         0.7715
+        ],
+        [
+         "has side effect",
+         0.7704
+        ],
+        [
+         "has recommended dose after 4 weeks on 1 mg",
+         0.7653
+        ],
+        [
+         "may require dose adjustment",
+         0.7597
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "18 in 100 men"
+       ],
+       "raw_relation": "has side effect incidence at 0.8 mg",
+       "definition": "The frequency of the specified side effect in patients taking the subject drug at a dose of 0.8 mg is reported.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has indication for initial dose",
+         0.7776
+        ],
+        [
+         "most side effects reported in studies",
+         0.7737
+        ],
+        [
+         "has side effect",
+         0.7625
+        ],
+        [
+         "may require dose adjustment",
+         0.7507
+        ],
+        [
+         "has dosage form",
+         0.7418
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "2 in 100 men"
+       ],
+       "raw_relation": "has side effect incidence at 0.8 mg",
+       "definition": "The frequency of the specified side effect in patients taking the subject drug at a dose of 0.8 mg is reported.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has indication for initial dose",
+         0.7776
+        ],
+        [
+         "most side effects reported in studies",
+         0.7737
+        ],
+        [
+         "has side effect",
+         0.7625
+        ],
+        [
+         "may require dose adjustment",
+         0.7507
+        ],
+        [
+         "has dosage form",
+         0.7418
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has side effect",
+        "uncommon"
+       ],
+       "raw_relation": "has side effect incidence at 0.4 mg",
+       "definition": "The frequency of the specified side effect in patients taking the subject drug at a dose of 0.4 mg is reported.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "most side effects reported in studies",
+         0.7715
+        ],
+        [
+         "has indication for initial dose",
+         0.7715
+        ],
+        [
+         "has side effect",
+         0.7704
+        ],
+        [
+         "has recommended dose after 4 weeks on 1 mg",
+         0.7653
+        ],
+        [
+         "may require dose adjustment",
+         0.7597
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has warning",
+        "not a complete list of side effects"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug includes a caution or notice that the listed side effects are not exhaustive and others may occur.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has instruction",
+        "call doctor for medical advice about side effects"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug includes a specific action or guidance that patients should follow regarding side effects or usage.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "should inform doctor about",
+        "report side effects to FDA at 1-800-FDA-1088"
+       ],
+       "raw_relation": "has reporting instruction",
+       "definition": "Patients taking the subject drug are instructed to report certain adverse effects to the specified authority or contact.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.844
+        ],
+        [
+         "should inform doctor about",
+         0.8321
+        ],
+        [
+         "has serious side effect",
+         0.8186
+        ],
+        [
+         "use with caution in",
+         0.8151
+        ],
+        [
+         "requires monitoring of",
+         0.7865
+        ]
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "chunk_id": "tamsulosin#interactions#0",
+     "section_id": "interactions",
+     "section_heading": "What other drugs will affect tamsulosin?",
+     "text": "Tamsulosin is broken down in the body mainly by two liver enzymes, CYP3A4 and CYP2D6. Medicines that block these enzymes can raise the amount of tamsulosin in your blood and increase the risk of side effects.\nDo not take tamsulosin with:\n- strong CYP3A4 inhibitors, such as ketoconazole\n- other alpha blockers, such as alfuzosin, doxazosin, prazosin, silodosin, or terazosin\nUse with caution, and tell your doctor if you take:\n- moderate CYP3A4 inhibitors, such as erythromycin\n- strong CYP2D6 inhibitors, such as paroxetine, or moderate CYP2D6 inhibitors, such as terbinafine\n- cimetidine\n- warfarin\n- medicines for erectile dysfunction or pulmonary arterial hypertension known as PDE5 inhibitors, including avanafil (Stendra), sildenafil (Viagra, Revatio), tadalafil (Adcirca, Cialis), and vardenafil (Levitra). Taking these with tamsulosin can lower blood pressure enough to cause symptoms.\nSome of these cautions matter more at the higher 0.8 mg dose than at 0.4 mg. Your doctor will decide what is right for you.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"tamsulosin\", \"broken down by\", \"CYP3A4\"], [\"tamsulosin\", \"broken down by\", \"CYP2D6\"], [\"tamsulosin\", \"interacts with\", \"strong CYP3A4 inhibitors\"], [\"tamsulosin\", \"interacts with\", \"other alpha blockers\"], [\"tamsulosin\", \"has interaction warning\", \"strong CYP3A4 inhibitors\"], [\"tamsulosin\", \"has interaction warning\", \"other alpha blockers\"], [\"tamsulosin\", \"has interaction warning\", \"moderate CYP3A4 inhibitors\"], [\"tamsulosin\", \"has interaction warning\", \"strong CYP2D6 inhibitors\"], [\"tamsulosin\", \"has interaction warning\", \"moderate CYP2D6 inhibitors\"], [\"tamsulosin\", \"has interaction warning\", \"cimetidine\"], [\"tamsulosin\", \"has interaction warning\", \"warfarin\"], [\"tamsulosin\", \"has interaction warning\", \"PDE5 inhibitors\"], [\"tamsulosin\", \"has interaction warning\", \"avanafil\"], [\"tamsulosin\", \"has interaction warning\", \"sildenafil\"], [\"tamsulosin\", \"has interaction warning\", \"tadalafil\"], [\"tamsulosin\", \"has interaction warning\", \"vardenafil\"], [\"tamsulosin\", \"has increased side effect risk\", \"when taken with strong CYP3A4 inhibitors\"], [\"tamsulosin\", \"has increased side effect risk\", \"when taken with other alpha blockers\"], [\"tamsulosin\", \"has blood pressure lowering effect\", \"when taken with PDE5 inhibitors\"], [\"tamsulosin\", \"has dose-dependent caution\", \"higher 0.8 mg dose\"], [\"tamsulosin\", \"has dose-dependent caution\", \"0.4 mg dose\"]]",
+     "oie": [
+      [
+       "tamsulosin",
+       "broken down by",
+       "CYP3A4"
+      ],
+      [
+       "tamsulosin",
+       "broken down by",
+       "CYP2D6"
+      ],
+      [
+       "tamsulosin",
+       "interacts with",
+       "strong CYP3A4 inhibitors"
+      ],
+      [
+       "tamsulosin",
+       "interacts with",
+       "other alpha blockers"
+      ],
+      [
+       "tamsulosin",
+       "has interaction warning",
+       "strong CYP3A4 inhibitors"
+      ],
+      [
+       "tamsulosin",
+       "has interaction warning",
+       "other alpha blockers"
+      ],
+      [
+       "tamsulosin",
+       "has interaction warning",
+       "moderate CYP3A4 inhibitors"
+      ],
+      [
+       "tamsulosin",
+       "has interaction warning",
+       "strong CYP2D6 inhibitors"
+      ],
+      [
+       "tamsulosin",
+       "has interaction warning",
+       "moderate CYP2D6 inhibitors"
+      ],
+      [
+       "tamsulosin",
+       "has interaction warning",
+       "cimetidine"
+      ],
+      [
+       "tamsulosin",
+       "has interaction warning",
+       "warfarin"
+      ],
+      [
+       "tamsulosin",
+       "has interaction warning",
+       "PDE5 inhibitors"
+      ],
+      [
+       "tamsulosin",
+       "has interaction warning",
+       "avanafil"
+      ],
+      [
+       "tamsulosin",
+       "has interaction warning",
+       "sildenafil"
+      ],
+      [
+       "tamsulosin",
+       "has interaction warning",
+       "tadalafil"
+      ],
+      [
+       "tamsulosin",
+       "has interaction warning",
+       "vardenafil"
+      ],
+      [
+       "tamsulosin",
+       "has increased side effect risk",
+       "when taken with strong CYP3A4 inhibitors"
+      ],
+      [
+       "tamsulosin",
+       "has increased side effect risk",
+       "when taken with other alpha blockers"
+      ],
+      [
+       "tamsulosin",
+       "has blood pressure lowering effect",
+       "when taken with PDE5 inhibitors"
+      ],
+      [
+       "tamsulosin",
+       "has dose dependent caution",
+       "higher 0.8 mg dose"
+      ],
+      [
+       "tamsulosin",
+       "has dose dependent caution",
+       "0.4 mg dose"
+      ]
+     ],
+     "schema_definition": {
+      "broken down by": "The subject drug is metabolized or broken down in the body primarily by the specified liver enzymes.",
+      "has blood pressure lowering effect": "When the subject drug is taken concurrently with the specified medication, it may cause a reduction in blood pressure.",
+      "has dose dependent caution": "The level of caution required when using the subject drug increases with higher doses compared to lower doses.",
+      "has increased side effect risk": "Concurrent use of the subject drug and the specified substance increases the likelihood of experiencing adverse side effects.",
+      "has interaction warning": "The subject drug has a clinically significant interaction with the specified substance, requiring patient awareness and medical supervision.",
+      "interacts with": "The subject drug produces a pharmacological interaction when co-administered with the specified substance, potentially altering its effects or increasing risks."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "tamsulosin",
+        "has metabolism pathway",
+        "CYP3A4"
+       ],
+       "raw_relation": "broken down by",
+       "definition": "The subject drug is metabolized or broken down in the body primarily by the specified liver enzymes.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has metabolism pathway",
+         0.8466
+        ],
+        [
+         "lowers level of",
+         0.7858
+        ],
+        [
+         "has reduced plasma clearance in",
+         0.7731
+        ],
+        [
+         "increases level of",
+         0.7635
+        ],
+        [
+         "administered via",
+         0.7502
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has metabolism pathway",
+        "CYP2D6"
+       ],
+       "raw_relation": "broken down by",
+       "definition": "The subject drug is metabolized or broken down in the body primarily by the specified liver enzymes.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has metabolism pathway",
+         0.8466
+        ],
+        [
+         "lowers level of",
+         0.7858
+        ],
+        [
+         "has reduced plasma clearance in",
+         0.7731
+        ],
+        [
+         "increases level of",
+         0.7635
+        ],
+        [
+         "administered via",
+         0.7502
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "strong CYP3A4 inhibitors"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug produces a pharmacological interaction when co-administered with the specified substance, potentially altering its effects or increasing risks.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "other alpha blockers"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug produces a pharmacological interaction when co-administered with the specified substance, potentially altering its effects or increasing risks.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "strong CYP3A4 inhibitors"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject drug has a clinically significant interaction with the specified substance, requiring patient awareness and medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8372
+        ],
+        [
+         "requires monitoring of",
+         0.825
+        ],
+        [
+         "interacts with",
+         0.8173
+        ],
+        [
+         "has serious side effect",
+         0.8155
+        ],
+        [
+         "requires use of",
+         0.8117
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "other alpha blockers"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject drug has a clinically significant interaction with the specified substance, requiring patient awareness and medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8372
+        ],
+        [
+         "requires monitoring of",
+         0.825
+        ],
+        [
+         "interacts with",
+         0.8173
+        ],
+        [
+         "has serious side effect",
+         0.8155
+        ],
+        [
+         "requires use of",
+         0.8117
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "moderate CYP3A4 inhibitors"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject drug has a clinically significant interaction with the specified substance, requiring patient awareness and medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8372
+        ],
+        [
+         "requires monitoring of",
+         0.825
+        ],
+        [
+         "interacts with",
+         0.8173
+        ],
+        [
+         "has serious side effect",
+         0.8155
+        ],
+        [
+         "requires use of",
+         0.8117
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "strong CYP2D6 inhibitors"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject drug has a clinically significant interaction with the specified substance, requiring patient awareness and medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8372
+        ],
+        [
+         "requires monitoring of",
+         0.825
+        ],
+        [
+         "interacts with",
+         0.8173
+        ],
+        [
+         "has serious side effect",
+         0.8155
+        ],
+        [
+         "requires use of",
+         0.8117
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "moderate CYP2D6 inhibitors"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject drug has a clinically significant interaction with the specified substance, requiring patient awareness and medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8372
+        ],
+        [
+         "requires monitoring of",
+         0.825
+        ],
+        [
+         "interacts with",
+         0.8173
+        ],
+        [
+         "has serious side effect",
+         0.8155
+        ],
+        [
+         "requires use of",
+         0.8117
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "cimetidine"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject drug has a clinically significant interaction with the specified substance, requiring patient awareness and medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8372
+        ],
+        [
+         "requires monitoring of",
+         0.825
+        ],
+        [
+         "interacts with",
+         0.8173
+        ],
+        [
+         "has serious side effect",
+         0.8155
+        ],
+        [
+         "requires use of",
+         0.8117
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "warfarin"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject drug has a clinically significant interaction with the specified substance, requiring patient awareness and medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8372
+        ],
+        [
+         "requires monitoring of",
+         0.825
+        ],
+        [
+         "interacts with",
+         0.8173
+        ],
+        [
+         "has serious side effect",
+         0.8155
+        ],
+        [
+         "requires use of",
+         0.8117
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "PDE5 inhibitors"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject drug has a clinically significant interaction with the specified substance, requiring patient awareness and medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8372
+        ],
+        [
+         "requires monitoring of",
+         0.825
+        ],
+        [
+         "interacts with",
+         0.8173
+        ],
+        [
+         "has serious side effect",
+         0.8155
+        ],
+        [
+         "requires use of",
+         0.8117
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "avanafil"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject drug has a clinically significant interaction with the specified substance, requiring patient awareness and medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8372
+        ],
+        [
+         "requires monitoring of",
+         0.825
+        ],
+        [
+         "interacts with",
+         0.8173
+        ],
+        [
+         "has serious side effect",
+         0.8155
+        ],
+        [
+         "requires use of",
+         0.8117
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "sildenafil"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject drug has a clinically significant interaction with the specified substance, requiring patient awareness and medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8372
+        ],
+        [
+         "requires monitoring of",
+         0.825
+        ],
+        [
+         "interacts with",
+         0.8173
+        ],
+        [
+         "has serious side effect",
+         0.8155
+        ],
+        [
+         "requires use of",
+         0.8117
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "tadalafil"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject drug has a clinically significant interaction with the specified substance, requiring patient awareness and medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8372
+        ],
+        [
+         "requires monitoring of",
+         0.825
+        ],
+        [
+         "interacts with",
+         0.8173
+        ],
+        [
+         "has serious side effect",
+         0.8155
+        ],
+        [
+         "requires use of",
+         0.8117
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "interacts with",
+        "vardenafil"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject drug has a clinically significant interaction with the specified substance, requiring patient awareness and medical supervision.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "use with caution in",
+         0.8372
+        ],
+        [
+         "requires monitoring of",
+         0.825
+        ],
+        [
+         "interacts with",
+         0.8173
+        ],
+        [
+         "has serious side effect",
+         0.8155
+        ],
+        [
+         "requires use of",
+         0.8117
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "increases risk of",
+        "when taken with strong CYP3A4 inhibitors"
+       ],
+       "raw_relation": "has increased side effect risk",
+       "definition": "Concurrent use of the subject drug and the specified substance increases the likelihood of experiencing adverse side effects.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8337
+        ],
+        [
+         "increases risk of",
+         0.8228
+        ],
+        [
+         "interacts with",
+         0.8188
+        ],
+        [
+         "has serious side effect",
+         0.8031
+        ],
+        [
+         "has warning",
+         0.798
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "increases risk of",
+        "when taken with other alpha blockers"
+       ],
+       "raw_relation": "has increased side effect risk",
+       "definition": "Concurrent use of the subject drug and the specified substance increases the likelihood of experiencing adverse side effects.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8337
+        ],
+        [
+         "increases risk of",
+         0.8228
+        ],
+        [
+         "interacts with",
+         0.8188
+        ],
+        [
+         "has serious side effect",
+         0.8031
+        ],
+        [
+         "has warning",
+         0.798
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "has interaction effect",
+        "when taken with PDE5 inhibitors"
+       ],
+       "raw_relation": "has blood pressure lowering effect",
+       "definition": "When the subject drug is taken concurrently with the specified medication, it may cause a reduction in blood pressure.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may require dose adjustment",
+         0.7702
+        ],
+        [
+         "may reduce response to",
+         0.7669
+        ],
+        [
+         "has increased risk of hypokalemia after",
+         0.7545
+        ],
+        [
+         "has interaction effect",
+         0.7507
+        ],
+        [
+         "has unclear mechanism of action",
+         0.7357
+        ]
+       ],
+       "answer": "D"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "may require dose adjustment",
+        "higher 0.8 mg dose"
+       ],
+       "raw_relation": "has dose dependent caution",
+       "definition": "The level of caution required when using the subject drug increases with higher doses compared to lower doses.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may require dose adjustment",
+         0.8052
+        ],
+        [
+         "increases risk of",
+         0.7679
+        ],
+        [
+         "has warning",
+         0.7626
+        ],
+        [
+         "increases level of",
+         0.7572
+        ],
+        [
+         "has risk variation by age group",
+         0.7569
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "tamsulosin",
+        "may require dose adjustment",
+        "0.4 mg dose"
+       ],
+       "raw_relation": "has dose dependent caution",
+       "definition": "The level of caution required when using the subject drug increases with higher doses compared to lower doses.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may require dose adjustment",
+         0.8052
+        ],
+        [
+         "increases risk of",
+         0.7679
+        ],
+        [
+         "has warning",
+         0.7626
+        ],
+        [
+         "increases level of",
+         0.7572
+        ],
+        [
+         "has risk variation by age group",
+         0.7569
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "tamsulosin#interactions#1",
+     "section_id": "interactions",
+     "section_heading": "What other drugs will affect tamsulosin?",
+     "text": "No dose change is needed if you take tamsulosin with nifedipine, atenolol, enalapril, digoxin, theophylline, or furosemide.\nThis list is not complete, and many other medicines may interact with tamsulosin. This includes prescription and over-the-counter medicines, vitamins, and herbal products.\n- Tamsulosin Prescribing Information\n- Check interactions\n- Compare alternatives\n- Pricing & coupons\n- Reviews (581)\n- Drug images\n- Side effects\n- Dosage information\n- Patient tips\n- During pregnancy\n- Support group\n- Drug class: alpha blockers\n- Breastfeeding\n- En español\nPatient resources:\nOther brands:\nFlomax\nProfessional resources:\n- Tamsulosin monograph\n- Tamsulosin (FDA)\nOther brands:\nFlomax\nRelated treatment guides:\n- Benign Prostatic Hyperplasia\n- Urinary Tract Stones",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Tamsulosin\", \"interacts with\", \"nifedipine\"], [\"Tamsulosin\", \"interacts with\", \"atenolol\"], [\"Tamsulosin\", \"interacts with\", \"enalapril\"], [\"Tamsulosin\", \"interacts with\", \"digoxin\"], [\"Tamsulosin\", \"interacts with\", \"theophylline\"], [\"Tamsulosin\", \"interacts with\", \"furosemide\"], [\"Tamsulosin\", \"may interact with\", \"prescription medicines\"], [\"Tamsulosin\", \"may interact with\", \"over-the-counter medicines\"], [\"Tamsulosin\", \"may interact with\", \"vitamins\"], [\"Tamsulosin\", \"may interact with\", \"herbal products\"], [\"Tamsulosin\", \"has drug class\", \"alpha blockers\"], [\"Tamsulosin\", \"has brand name\", \"Flomax\"]]",
+     "oie": [
+      [
+       "Tamsulosin",
+       "interacts with",
+       "nifedipine"
+      ],
+      [
+       "Tamsulosin",
+       "interacts with",
+       "atenolol"
+      ],
+      [
+       "Tamsulosin",
+       "interacts with",
+       "enalapril"
+      ],
+      [
+       "Tamsulosin",
+       "interacts with",
+       "digoxin"
+      ],
+      [
+       "Tamsulosin",
+       "interacts with",
+       "theophylline"
+      ],
+      [
+       "Tamsulosin",
+       "interacts with",
+       "furosemide"
+      ],
+      [
+       "Tamsulosin",
+       "may interact with",
+       "prescription medicines"
+      ],
+      [
+       "Tamsulosin",
+       "may interact with",
+       "over-the-counter medicines"
+      ],
+      [
+       "Tamsulosin",
+       "may interact with",
+       "vitamins"
+      ],
+      [
+       "Tamsulosin",
+       "may interact with",
+       "herbal products"
+      ],
+      [
+       "Tamsulosin",
+       "has drug class",
+       "alpha blockers"
+      ],
+      [
+       "Tamsulosin",
+       "has brand name",
+       "Flomax"
+      ]
+     ],
+     "schema_definition": {
+      "has brand name": "The subject drug is marketed under the brand name specified by the object entity.",
+      "has drug class": "The subject drug belongs to the pharmacological class specified by the object entity.",
+      "interacts with": "The subject drug may produce a pharmacological interaction when co-administered with the substance specified by the object entity.",
+      "may interact with": "The subject drug could potentially produce a pharmacological interaction with the substance or category specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Tamsulosin",
+        "interacts with",
+        "nifedipine"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Tamsulosin",
+        "interacts with",
+        "atenolol"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Tamsulosin",
+        "interacts with",
+        "enalapril"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Tamsulosin",
+        "interacts with",
+        "digoxin"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Tamsulosin",
+        "interacts with",
+        "theophylline"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Tamsulosin",
+        "interacts with",
+        "furosemide"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Tamsulosin",
+        "interacts with",
+        "prescription medicines"
+       ],
+       "raw_relation": "may interact with",
+       "definition": "The subject drug could potentially produce a pharmacological interaction with the substance or category specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "interacts with",
+         0.9081
+        ],
+        [
+         "similar to",
+         0.8833
+        ],
+        [
+         "belongs to drug class",
+         0.875
+        ],
+        [
+         "increases risk of",
+         0.868
+        ],
+        [
+         "has side effect",
+         0.863
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Tamsulosin",
+        "interacts with",
+        "over-the-counter medicines"
+       ],
+       "raw_relation": "may interact with",
+       "definition": "The subject drug could potentially produce a pharmacological interaction with the substance or category specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "interacts with",
+         0.9081
+        ],
+        [
+         "similar to",
+         0.8833
+        ],
+        [
+         "belongs to drug class",
+         0.875
+        ],
+        [
+         "increases risk of",
+         0.868
+        ],
+        [
+         "has side effect",
+         0.863
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Tamsulosin",
+        "interacts with",
+        "vitamins"
+       ],
+       "raw_relation": "may interact with",
+       "definition": "The subject drug could potentially produce a pharmacological interaction with the substance or category specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "interacts with",
+         0.9081
+        ],
+        [
+         "similar to",
+         0.8833
+        ],
+        [
+         "belongs to drug class",
+         0.875
+        ],
+        [
+         "increases risk of",
+         0.868
+        ],
+        [
+         "has side effect",
+         0.863
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Tamsulosin",
+        "interacts with",
+        "herbal products"
+       ],
+       "raw_relation": "may interact with",
+       "definition": "The subject drug could potentially produce a pharmacological interaction with the substance or category specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "interacts with",
+         0.9081
+        ],
+        [
+         "similar to",
+         0.8833
+        ],
+        [
+         "belongs to drug class",
+         0.875
+        ],
+        [
+         "increases risk of",
+         0.868
+        ],
+        [
+         "has side effect",
+         0.863
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Tamsulosin",
+        "belongs to drug class",
+        "alpha blockers"
+       ],
+       "raw_relation": "has drug class",
+       "definition": "The subject drug belongs to the pharmacological class specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "belongs to drug class",
+         0.9666
+        ],
+        [
+         "has dosage form",
+         0.8764
+        ],
+        [
+         "similar to",
+         0.8671
+        ],
+        [
+         "treats",
+         0.866
+        ],
+        [
+         "has controlled substance schedule",
+         0.8656
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Tamsulosin",
+        "has brand name",
+        "Flomax"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "tamsulosin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "tamsulosin",
+    "treats",
+    "enlarged prostate"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "tamsulosin",
+    "treats",
+    "benign prostatic hyperplasia"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "tamsulosin",
+    "treats",
+    "weak urine stream"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "tamsulosin",
+    "treats",
+    "trouble starting to urinate"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "tamsulosin",
+    "treats",
+    "dribbling"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "tamsulosin",
+    "treats",
+    "feeling of not emptying bladder"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "tamsulosin",
+    "treats",
+    "frequent urination"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "tamsulosin",
+    "treats",
+    "urgent urination"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "tamsulosin",
+    "treats",
+    "nocturia"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "tamsulosin",
+    "belongs to drug class",
+    "alpha blockers"
+   ],
+   "raw_relation": "belongs to drug class",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "tamsulosin",
+    "has mechanism of action",
+    "blocking alpha-1 receptors in prostate and bladder neck"
+   ],
+   "raw_relation": "has mechanism of action",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "tamsulosin",
+    "has administration instruction",
+    "taken once daily about half an hour after the same meal each day"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "tamsulosin",
+    "has administration instruction",
+    "swallowed whole not crushed chewed or opened"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "tamsulosin",
+    "has brand name",
+    "Flomax"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "tamsulosin",
+    "has warning",
+    "not approved for high blood pressure"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "tamsulosin",
+    "has warning",
+    "not approved for use in women"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "tamsulosin",
+    "has warning",
+    "not approved for use in children"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "contraindicated in",
+    "allergy to tamsulosin or any ingredient in capsule"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "alpha blockers such as alfuzosin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "alpha blockers such as doxazosin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "alpha blockers such as prazosin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "alpha blockers such as silodosin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "alpha blockers such as terazosin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "strong CYP3A4 inhibitors such as ketoconazole"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "low blood pressure upon standing"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "dizziness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "fainting"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "has serious side effect",
+    "priapism"
+   ],
+   "raw_relation": "has rare side effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "has instruction",
+    "get up slowly from sitting or lying down"
+   ],
+   "raw_relation": "has instruction for dizziness",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "has warning",
+    "avoid driving or alert activities until response is known"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "has serious side effect",
+    "priapism leading to permanent erectile dysfunction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "has serious side effect",
+    "priapism in rare cases"
+   ],
+   "raw_relation": "has risk of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "mimics symptoms of",
+    "enlarged prostate"
+   ],
+   "raw_relation": "can occur with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "can occur with",
+    "prostate cancer"
+   ],
+   "raw_relation": "can occur with",
+   "status": "enriched"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "has warning",
+    "intraoperative floppy iris syndrome during cataract or glaucoma surgery"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "should inform doctor about",
+    "eye surgeon"
+   ],
+   "raw_relation": "requires notification to",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "has instruction",
+    "do not stop before surgery unless told by surgeon"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "has instruction",
+    "starting tamsulosin not recommended if already booked for cataract or glaucoma surgery"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "has instruction",
+    "talk to doctor before restarting after several days of discontinuation"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "has recommended dose",
+    "0.4 mg"
+   ],
+   "raw_relation": "has recommended restart dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "many other medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#warnings#1",
+   "section_id": "warnings",
+   "triplet": [
+    "tamsulosin",
+    "should inform doctor about",
+    "all medications including over-the-counter and herbal products"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "tamsulosin",
+    "contraindicated in",
+    "allergy to tamsulosin or its ingredients"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "tamsulosin",
+    "contraindicated in",
+    "allergy to sulfa drugs"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "tamsulosin",
+    "contraindicated in",
+    "kidney problems"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "tamsulosin",
+    "contraindicated in",
+    "liver problems"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "tamsulosin",
+    "contraindicated in",
+    "low blood pressure"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "tamsulosin",
+    "should inform doctor about",
+    "cataract surgery"
+   ],
+   "raw_relation": "requires consultation before",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "tamsulosin",
+    "should inform doctor about",
+    "glaucoma surgery"
+   ],
+   "raw_relation": "requires consultation before",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "tamsulosin",
+    "should inform doctor about",
+    "prostate cancer screening"
+   ],
+   "raw_relation": "has indication for discussion",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "tamsulosin",
+    "not approved for",
+    "women"
+   ],
+   "raw_relation": "not approved for",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "tamsulosin",
+    "not approved for",
+    "children"
+   ],
+   "raw_relation": "not approved for",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "tamsulosin",
+    "has administration instruction",
+    "take exactly as prescribed"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "tamsulosin",
+    "has administration instruction",
+    "follow directions on prescription label"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "tamsulosin",
+    "has administration instruction",
+    "read medication guides or instruction sheets"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "tamsulosin",
+    "has administration instruction",
+    "take once a day about 30 minutes after the same meal each day"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "tamsulosin",
+    "has administration instruction",
+    "take about half an hour after the same meal each day"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "tamsulosin",
+    "has administration instruction",
+    "take 30 minutes after dinner as example"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "tamsulosin",
+    "has administration instruction",
+    "swallow capsule whole"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "tamsulosin",
+    "has administration instruction",
+    "do not crush chew break or open capsule"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "tamsulosin",
+    "has missed dose instruction",
+    "do not start again without talking to your doctor if stopped for several days"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "tamsulosin",
+    "has storage instruction",
+    "store at room temperature away from moisture and heat"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "tamsulosin",
+    "has recommended dose",
+    "0.4 mg once a day"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "tamsulosin",
+    "has recommended dose",
+    "0.8 mg once a day"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "tamsulosin",
+    "may require dose adjustment",
+    "increase to 0.8 mg once a day if symptoms not improved after 2 to 4 weeks at 0.4 mg"
+   ],
+   "raw_relation": "has dose adjustment instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "tamsulosin",
+    "should be avoided with",
+    "taken with strong CYP3A4 inhibitor such as ketoconazole"
+   ],
+   "raw_relation": "has contraindication",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "tamsulosin",
+    "has missed dose instruction",
+    "start again at 0.4 mg once a day if stopped or interrupted for several days"
+   ],
+   "raw_relation": "has restart instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "tamsulosin",
+    "treats",
+    "benign prostatic hyperplasia"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "tamsulosin",
+    "has missed dose instruction",
+    "take as soon as remembered"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "tamsulosin",
+    "has missed dose instruction",
+    "skip if entire day missed and take next dose at usual time"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "tamsulosin",
+    "has missed dose instruction",
+    "do not take two doses at once"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "tamsulosin",
+    "has warning",
+    "consult doctor before restarting after several consecutive days of discontinuation"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "tamsulosin",
+    "has overdose instruction",
+    "seek emergency medical attention"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "tamsulosin",
+    "has overdose instruction",
+    "call Poison Help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "tamsulosin",
+    "has overdose symptom",
+    "drop in blood pressure"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "tamsulosin",
+    "has administration instruction",
+    "lie down flat until medical help arrives"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Tamsulosin",
+    "has side effect",
+    "dizziness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Tamsulosin",
+    "has side effect",
+    "lightheadedness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Tamsulosin",
+    "has administration instruction",
+    "avoid driving or other dangerous activities until effects are known"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "Tamsulosin",
+    "has instruction",
+    "avoid standing up too quickly from sitting or lying down"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "headache"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "dizziness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "runny or stuffy nose"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "sore throat"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "cough"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "sinus congestion"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "flu-like symptoms"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "infection"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "weakness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "lack of energy"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "back pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "chest pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "diarrhea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "nausea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "drowsiness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "trouble sleeping"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "tooth problems"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "abnormal ejaculation"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "reduced interest in sex"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "blurred vision"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has serious side effect",
+    "severe skin reactions with blistering and peeling"
+   ],
+   "raw_relation": "has rare side effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has warning",
+    "lightheaded feeling like passing out"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has warning",
+    "painful erection that will not go away"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "requires emergency medical help for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has instruction",
+    "stop taking and call doctor if experiencing lightheadedness"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has instruction",
+    "stop taking and call doctor if experiencing painful erection"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "abnormal ejaculation"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "blurred vision"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "abnormal ejaculation at higher dose"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "blurred vision at higher dose"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "8 in 100 men"
+   ],
+   "raw_relation": "has side effect incidence at 0.4 mg",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "18 in 100 men"
+   ],
+   "raw_relation": "has side effect incidence at 0.8 mg",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "2 in 100 men"
+   ],
+   "raw_relation": "has side effect incidence at 0.8 mg",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has side effect",
+    "uncommon"
+   ],
+   "raw_relation": "has side effect incidence at 0.4 mg",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has warning",
+    "not a complete list of side effects"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "has instruction",
+    "call doctor for medical advice about side effects"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "tamsulosin",
+    "should inform doctor about",
+    "report side effects to FDA at 1-800-FDA-1088"
+   ],
+   "raw_relation": "has reporting instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "has metabolism pathway",
+    "CYP3A4"
+   ],
+   "raw_relation": "broken down by",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "has metabolism pathway",
+    "CYP2D6"
+   ],
+   "raw_relation": "broken down by",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "strong CYP3A4 inhibitors"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "other alpha blockers"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "strong CYP3A4 inhibitors"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "other alpha blockers"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "moderate CYP3A4 inhibitors"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "strong CYP2D6 inhibitors"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "moderate CYP2D6 inhibitors"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "cimetidine"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "warfarin"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "PDE5 inhibitors"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "avanafil"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "sildenafil"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "tadalafil"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "interacts with",
+    "vardenafil"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "increases risk of",
+    "when taken with strong CYP3A4 inhibitors"
+   ],
+   "raw_relation": "has increased side effect risk",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "increases risk of",
+    "when taken with other alpha blockers"
+   ],
+   "raw_relation": "has increased side effect risk",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "has interaction effect",
+    "when taken with PDE5 inhibitors"
+   ],
+   "raw_relation": "has blood pressure lowering effect",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "may require dose adjustment",
+    "higher 0.8 mg dose"
+   ],
+   "raw_relation": "has dose dependent caution",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "tamsulosin",
+    "may require dose adjustment",
+    "0.4 mg dose"
+   ],
+   "raw_relation": "has dose dependent caution",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#1",
+   "section_id": "interactions",
+   "triplet": [
+    "Tamsulosin",
+    "interacts with",
+    "nifedipine"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#1",
+   "section_id": "interactions",
+   "triplet": [
+    "Tamsulosin",
+    "interacts with",
+    "atenolol"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#1",
+   "section_id": "interactions",
+   "triplet": [
+    "Tamsulosin",
+    "interacts with",
+    "enalapril"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#1",
+   "section_id": "interactions",
+   "triplet": [
+    "Tamsulosin",
+    "interacts with",
+    "digoxin"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#1",
+   "section_id": "interactions",
+   "triplet": [
+    "Tamsulosin",
+    "interacts with",
+    "theophylline"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#1",
+   "section_id": "interactions",
+   "triplet": [
+    "Tamsulosin",
+    "interacts with",
+    "furosemide"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#1",
+   "section_id": "interactions",
+   "triplet": [
+    "Tamsulosin",
+    "interacts with",
+    "prescription medicines"
+   ],
+   "raw_relation": "may interact with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#1",
+   "section_id": "interactions",
+   "triplet": [
+    "Tamsulosin",
+    "interacts with",
+    "over-the-counter medicines"
+   ],
+   "raw_relation": "may interact with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#1",
+   "section_id": "interactions",
+   "triplet": [
+    "Tamsulosin",
+    "interacts with",
+    "vitamins"
+   ],
+   "raw_relation": "may interact with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#1",
+   "section_id": "interactions",
+   "triplet": [
+    "Tamsulosin",
+    "interacts with",
+    "herbal products"
+   ],
+   "raw_relation": "may interact with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#1",
+   "section_id": "interactions",
+   "triplet": [
+    "Tamsulosin",
+    "belongs to drug class",
+    "alpha blockers"
+   ],
+   "raw_relation": "has drug class",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "tamsulosin#interactions#1",
+   "section_id": "interactions",
+   "triplet": [
+    "Tamsulosin",
+    "has brand name",
+    "Flomax"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  }
+ ],
+ "name": "Tamsulosin",
+ "slug": "tamsulosin",
+ "n_chunks": 12,
+ "seconds": 16.5,
+ "llm_model": "drugkg-llm"
+}

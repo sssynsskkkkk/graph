@@ -1,0 +1,476 @@
+{
+  "graph_file": "/home/heesun/graph/drug-kg/output/viz/coref_decomp_edc_r2/kg_explorer.html",
+  "graph_sha256": "4da352edc29176f558837e13ffca43f55971770d7ce016495c943dfb90230c76",
+  "gt_file": "data/gt_top50_review/gold_triplets_draft.jsonl",
+  "gt_sha256": "3bb4fd9b5385d9b26ee100f974e860e8fa5066d95b63cab2244d8bc939c0598f",
+  "graph_total_edges": 13202,
+  "graph_total_nodes": 8470,
+  "graph_total_document_count": 50,
+  "top50_edge_count": 13202,
+  "gt_count": 1894,
+  "selected_edge_count": 13202,
+  "edge_file": "graph_selected_edges.jsonl",
+  "selected_document_count": 50,
+  "rank_range": [
+    1,
+    50
+  ],
+  "embedding_model": "/home/heesun/.cache/huggingface/hub/models--Qwen--Qwen3-Embedding-0.6B/snapshots/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+  "documents": [
+    {
+      "rank": 1,
+      "drug": "Atorvastatin",
+      "document_slug": "atorvastatin",
+      "document_present": true,
+      "document_edge_count": 265,
+      "literal_document_drug_node": "atorvastatin",
+      "gt_count": 36
+    },
+    {
+      "rank": 2,
+      "drug": "Levothyroxine",
+      "document_slug": "levothyroxine",
+      "document_present": true,
+      "document_edge_count": 431,
+      "literal_document_drug_node": "levothyroxine",
+      "gt_count": 29
+    },
+    {
+      "rank": 3,
+      "drug": "Metformin",
+      "document_slug": "metformin",
+      "document_present": true,
+      "document_edge_count": 319,
+      "literal_document_drug_node": "metformin",
+      "gt_count": 35
+    },
+    {
+      "rank": 4,
+      "drug": "Amlodipine",
+      "document_slug": "amlodipine",
+      "document_present": true,
+      "document_edge_count": 156,
+      "literal_document_drug_node": "amlodipine",
+      "gt_count": 30
+    },
+    {
+      "rank": 5,
+      "drug": "Lisinopril",
+      "document_slug": "lisinopril",
+      "document_present": true,
+      "document_edge_count": 232,
+      "literal_document_drug_node": "lisinopril",
+      "gt_count": 34
+    },
+    {
+      "rank": 6,
+      "drug": "Albuterol",
+      "document_slug": "albuterol",
+      "document_present": true,
+      "document_edge_count": 154,
+      "literal_document_drug_node": "albuterol_inhalation",
+      "gt_count": 35
+    },
+    {
+      "rank": 7,
+      "drug": "Losartan",
+      "document_slug": "losartan",
+      "document_present": true,
+      "document_edge_count": 154,
+      "literal_document_drug_node": "losartan",
+      "gt_count": 32
+    },
+    {
+      "rank": 8,
+      "drug": "Metoprolol",
+      "document_slug": "metoprolol",
+      "document_present": true,
+      "document_edge_count": 400,
+      "literal_document_drug_node": "metoprolol",
+      "gt_count": 34
+    },
+    {
+      "rank": 9,
+      "drug": "Rosuvastatin",
+      "document_slug": "rosuvastatin",
+      "document_present": true,
+      "document_edge_count": 217,
+      "literal_document_drug_node": "rosuvastatin",
+      "gt_count": 31
+    },
+    {
+      "rank": 10,
+      "drug": "Omeprazole",
+      "document_slug": "omeprazole",
+      "document_present": true,
+      "document_edge_count": 193,
+      "literal_document_drug_node": "omeprazole",
+      "gt_count": 39
+    },
+    {
+      "rank": 11,
+      "drug": "Gabapentin",
+      "document_slug": "gabapentin",
+      "document_present": true,
+      "document_edge_count": 363,
+      "literal_document_drug_node": "gabapentin",
+      "gt_count": 33
+    },
+    {
+      "rank": 12,
+      "drug": "Sertraline",
+      "document_slug": "sertraline",
+      "document_present": true,
+      "document_edge_count": 700,
+      "literal_document_drug_node": "sertraline",
+      "gt_count": 31
+    },
+    {
+      "rank": 13,
+      "drug": "Escitalopram",
+      "document_slug": "escitalopram",
+      "document_present": true,
+      "document_edge_count": 234,
+      "literal_document_drug_node": "escitalopram",
+      "gt_count": 35
+    },
+    {
+      "rank": 14,
+      "drug": "Semaglutide",
+      "document_slug": "semaglutide",
+      "document_present": true,
+      "document_edge_count": 473,
+      "literal_document_drug_node": "semaglutide",
+      "gt_count": 22
+    },
+    {
+      "rank": 15,
+      "drug": "Dextroamphetamine + Amphetamine salts",
+      "document_slug": "adderall",
+      "document_present": true,
+      "document_edge_count": 334,
+      "literal_document_drug_node": "adderall",
+      "gt_count": 29
+    },
+    {
+      "rank": 16,
+      "drug": "Pantoprazole",
+      "document_slug": "pantoprazole",
+      "document_present": true,
+      "document_edge_count": 198,
+      "literal_document_drug_node": "pantoprazole",
+      "gt_count": 32
+    },
+    {
+      "rank": 17,
+      "drug": "Bupropion",
+      "document_slug": "bupropion",
+      "document_present": true,
+      "document_edge_count": 401,
+      "literal_document_drug_node": "bupropion",
+      "gt_count": 48
+    },
+    {
+      "rank": 18,
+      "drug": "Hydrochlorothiazide",
+      "document_slug": "hydrochlorothiazide",
+      "document_present": true,
+      "document_edge_count": 372,
+      "literal_document_drug_node": null,
+      "gt_count": 32
+    },
+    {
+      "rank": 19,
+      "drug": "Fluoxetine",
+      "document_slug": "fluoxetine",
+      "document_present": true,
+      "document_edge_count": 459,
+      "literal_document_drug_node": "fluoxetine",
+      "gt_count": 33
+    },
+    {
+      "rank": 20,
+      "drug": "Trazodone",
+      "document_slug": "trazodone",
+      "document_present": true,
+      "document_edge_count": 231,
+      "literal_document_drug_node": "trazodone",
+      "gt_count": 40
+    },
+    {
+      "rank": 21,
+      "drug": "Montelukast",
+      "document_slug": "montelukast",
+      "document_present": true,
+      "document_edge_count": 134,
+      "literal_document_drug_node": "montelukast",
+      "gt_count": 37
+    },
+    {
+      "rank": 22,
+      "drug": "Amoxicillin",
+      "document_slug": "amoxicillin",
+      "document_present": true,
+      "document_edge_count": 158,
+      "literal_document_drug_node": "amoxicillin",
+      "gt_count": 31
+    },
+    {
+      "rank": 23,
+      "drug": "Fluticasone",
+      "document_slug": "flonase",
+      "document_present": true,
+      "document_edge_count": 187,
+      "literal_document_drug_node": "flonase_nasal_spray",
+      "gt_count": 38
+    },
+    {
+      "rank": 24,
+      "drug": "Tamsulosin",
+      "document_slug": "tamsulosin",
+      "document_present": true,
+      "document_edge_count": 201,
+      "literal_document_drug_node": "tamsulosin",
+      "gt_count": 40
+    },
+    {
+      "rank": 25,
+      "drug": "Apixaban",
+      "document_slug": "apixaban",
+      "document_present": true,
+      "document_edge_count": 183,
+      "literal_document_drug_node": "apixaban",
+      "gt_count": 34
+    },
+    {
+      "rank": 26,
+      "drug": "Simvastatin",
+      "document_slug": "simvastatin",
+      "document_present": true,
+      "document_edge_count": 192,
+      "literal_document_drug_node": "simvastatin",
+      "gt_count": 50
+    },
+    {
+      "rank": 27,
+      "drug": "Insulin Glargine",
+      "document_slug": "insulin-glargine",
+      "document_present": true,
+      "document_edge_count": 244,
+      "literal_document_drug_node": "insulin_glargine",
+      "gt_count": 33
+    },
+    {
+      "rank": 28,
+      "drug": "Empagliflozin",
+      "document_slug": "empagliflozin",
+      "document_present": true,
+      "document_edge_count": 155,
+      "literal_document_drug_node": "empagliflozin",
+      "gt_count": 26
+    },
+    {
+      "rank": 29,
+      "drug": "Furosemide",
+      "document_slug": "furosemide",
+      "document_present": true,
+      "document_edge_count": 310,
+      "literal_document_drug_node": "furosemide",
+      "gt_count": 30
+    },
+    {
+      "rank": 30,
+      "drug": "Meloxicam",
+      "document_slug": "meloxicam",
+      "document_present": true,
+      "document_edge_count": 246,
+      "literal_document_drug_node": "meloxicam",
+      "gt_count": 30
+    },
+    {
+      "rank": 31,
+      "drug": "Acetaminophen + Hydrocodone",
+      "document_slug": "hydrocodone-acetaminophen",
+      "document_present": true,
+      "document_edge_count": 201,
+      "literal_document_drug_node": "hydrocodone_and_acetaminophen",
+      "gt_count": 41
+    },
+    {
+      "rank": 32,
+      "drug": "Tirzepatide",
+      "document_slug": "tirzepatide",
+      "document_present": true,
+      "document_edge_count": 414,
+      "literal_document_drug_node": "tirzepatide",
+      "gt_count": 43
+    },
+    {
+      "rank": 33,
+      "drug": "Methylphenidate",
+      "document_slug": "methylphenidate",
+      "document_present": true,
+      "document_edge_count": 269,
+      "literal_document_drug_node": "methylphenidate",
+      "gt_count": 47
+    },
+    {
+      "rank": 34,
+      "drug": "Duloxetine",
+      "document_slug": "duloxetine",
+      "document_present": true,
+      "document_edge_count": 217,
+      "literal_document_drug_node": "duloxetine",
+      "gt_count": 40
+    },
+    {
+      "rank": 35,
+      "drug": "Prednisone",
+      "document_slug": "prednisone",
+      "document_present": true,
+      "document_edge_count": 486,
+      "literal_document_drug_node": "prednisone",
+      "gt_count": 53
+    },
+    {
+      "rank": 36,
+      "drug": "Carvedilol",
+      "document_slug": "carvedilol",
+      "document_present": true,
+      "document_edge_count": 147,
+      "literal_document_drug_node": "carvedilol",
+      "gt_count": 29
+    },
+    {
+      "rank": 37,
+      "drug": "Famotidine",
+      "document_slug": "famotidine",
+      "document_present": true,
+      "document_edge_count": 114,
+      "literal_document_drug_node": "famotidine",
+      "gt_count": 32
+    },
+    {
+      "rank": 38,
+      "drug": "Ibuprofen",
+      "document_slug": "ibuprofen",
+      "document_present": true,
+      "document_edge_count": 197,
+      "literal_document_drug_node": "ibuprofen",
+      "gt_count": 43
+    },
+    {
+      "rank": 39,
+      "drug": "Buspirone",
+      "document_slug": "buspirone",
+      "document_present": true,
+      "document_edge_count": 125,
+      "literal_document_drug_node": "buspirone",
+      "gt_count": 35
+    },
+    {
+      "rank": 40,
+      "drug": "Venlafaxine",
+      "document_slug": "venlafaxine",
+      "document_present": true,
+      "document_edge_count": 287,
+      "literal_document_drug_node": "venlafaxine",
+      "gt_count": 64
+    },
+    {
+      "rank": 41,
+      "drug": "Tramadol",
+      "document_slug": "tramadol",
+      "document_present": true,
+      "document_edge_count": 477,
+      "literal_document_drug_node": "tramadol",
+      "gt_count": 48
+    },
+    {
+      "rank": 42,
+      "drug": "Potassium Chloride",
+      "document_slug": "potassium-chloride",
+      "document_present": true,
+      "document_edge_count": 163,
+      "literal_document_drug_node": "potassium_chloride",
+      "gt_count": 36
+    },
+    {
+      "rank": 43,
+      "drug": "Hydroxyzine",
+      "document_slug": "hydroxyzine",
+      "document_present": true,
+      "document_edge_count": 255,
+      "literal_document_drug_node": "hydroxyzine",
+      "gt_count": 53
+    },
+    {
+      "rank": 44,
+      "drug": "Allopurinol",
+      "document_slug": "allopurinol",
+      "document_present": true,
+      "document_edge_count": 176,
+      "literal_document_drug_node": "allopurinol",
+      "gt_count": 37
+    },
+    {
+      "rank": 45,
+      "drug": "Clopidogrel",
+      "document_slug": "clopidogrel",
+      "document_present": true,
+      "document_edge_count": 151,
+      "literal_document_drug_node": "clopidogrel",
+      "gt_count": 36
+    },
+    {
+      "rank": 46,
+      "drug": "Ergocalciferol",
+      "document_slug": "mtm/ergocalciferol",
+      "document_present": true,
+      "document_edge_count": 127,
+      "literal_document_drug_node": "ergocalciferol",
+      "gt_count": 41
+    },
+    {
+      "rank": 47,
+      "drug": "Cetirizine",
+      "document_slug": "cetirizine",
+      "document_present": true,
+      "document_edge_count": 127,
+      "literal_document_drug_node": "cetirizine",
+      "gt_count": 40
+    },
+    {
+      "rank": 48,
+      "drug": "Ondansetron",
+      "document_slug": "ondansetron",
+      "document_present": true,
+      "document_edge_count": 238,
+      "literal_document_drug_node": "ondansetron",
+      "gt_count": 35
+    },
+    {
+      "rank": 49,
+      "drug": "Cyclobenzaprine",
+      "document_slug": "cyclobenzaprine",
+      "document_present": true,
+      "document_edge_count": 427,
+      "literal_document_drug_node": "cyclobenzaprine",
+      "gt_count": 61
+    },
+    {
+      "rank": 50,
+      "drug": "Spironolactone",
+      "document_slug": "spironolactone",
+      "document_present": true,
+      "document_edge_count": 486,
+      "literal_document_drug_node": "spironolactone",
+      "gt_count": 61
+    }
+  ],
+  "reused_judgment_count": 0,
+  "reused_from": null,
+  "judge_prompt_sha256": "285d2baf06a4a108a65f93381bbcf91c7ad9d47ac15b73caedf8313373e659d9",
+  "retrieval_cosine_threshold": null,
+  "candidate_selection": "within-document top-7 triple cosine plus up to 2 exact-tail candidates"
+}

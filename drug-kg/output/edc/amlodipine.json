@@ -1,0 +1,4933 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "amlodipine#uses#0",
+     "section_id": "uses",
+     "section_heading": "What is amlodipine?",
+     "text": "Amlodipine besylate is a prescription medicine used to treat high blood pressure (hypertension) and to prevent certain types of angina (chest pain). It belongs to a class of medications called calcium channel blockers.\nAmlodipine besylate works by relaxing and widening the blood vessels, so blood flows more easily which improves blood pressure.\nAmlodipine besylate controls angina chest pain by increasing the supply of blood to the heart. If taken regularly, this medicine controls chest pain, but it does not stop chest pain once it starts. Your doctor may prescribe a different medication to take when you have chest pain.\nAmlodipine is also used alone or in combination with other medicines to treat high blood pressure (hypertension) in adults and children at least 6 years old. Lowering blood pressure may lower your risk of a stroke or heart attack.\nAmlodipine besylate is available as:\n- Amlodipine 5 mg tablets (Norvasc)\n- Amlodipine 10 mg tablets (Norvasc)\n- Amlodipine 2.5 mg tablets (Norvasc)\n- Amlodipine 1 mg/mL solution (Norliqva)\n- Amlodipine 1 mg/mL oral suspension (Katerzia)\n- Amlodipine single-dose powder for oral solution (Sdamlo).",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Amlodipine\", \"treats\", \"high blood pressure\"], [\"Amlodipine\", \"treats\", \"angina\"], [\"Amlodipine\", \"belongs to drug class\", \"calcium channel blockers\"], [\"Amlodipine\", \"has mechanism of action\", \"relaxing and widening blood vessels\"], [\"Amlodipine\", \"improves blood flow\", \"blood vessels\"], [\"Amlodipine\", \"controls angina by\", \"increasing blood supply to heart\"], [\"Amlodipine\", \"does not stop chest pain once it starts\", \"acute chest pain\"], [\"Amlodipine\", \"has recommended use\", \"adults and children at least 6 years old\"], [\"Amlodipine\", \"reduces risk of\", \"stroke\"], [\"Amlodipine\", \"reduces risk of\", \"heart attack\"], [\"Amlodipine\", \"has dosage form\", \"oral tablet\"], [\"Amlodipine\", \"has strength\", \"5 mg\"], [\"Amlodipine\", \"has strength\", \"10 mg\"], [\"Amlodipine\", \"has strength\", \"2.5 mg\"], [\"Amlodipine\", \"has dosage form\", \"oral solution\"], [\"Amlodipine\", \"has dosage form\", \"oral suspension\"], [\"Amlodipine\", \"has dosage form\", \"single-dose powder for oral solution\"], [\"Amlodipine\", \"has brand name\", \"Norvasc\"], [\"Amlodipine\", \"has brand name\", \"Norliqva\"], [\"Amlodipine\", \"has brand name\", \"Katerzia\"], [\"Amlodipine\", \"has brand name\", \"Sdamlo\"]]",
+     "oie": [
+      [
+       "Amlodipine",
+       "treats",
+       "high blood pressure"
+      ],
+      [
+       "Amlodipine",
+       "treats",
+       "angina"
+      ],
+      [
+       "Amlodipine",
+       "belongs to drug class",
+       "calcium channel blockers"
+      ],
+      [
+       "Amlodipine",
+       "has mechanism of action",
+       "relaxing and widening blood vessels"
+      ],
+      [
+       "Amlodipine",
+       "improves blood flow",
+       "blood vessels"
+      ],
+      [
+       "Amlodipine",
+       "controls angina by",
+       "increasing blood supply to heart"
+      ],
+      [
+       "Amlodipine",
+       "does not stop chest pain once it starts",
+       "acute chest pain"
+      ],
+      [
+       "Amlodipine",
+       "has recommended use",
+       "adults and children at least 6 years old"
+      ],
+      [
+       "Amlodipine",
+       "reduces risk of",
+       "stroke"
+      ],
+      [
+       "Amlodipine",
+       "reduces risk of",
+       "heart attack"
+      ],
+      [
+       "Amlodipine",
+       "has dosage form",
+       "oral tablet"
+      ],
+      [
+       "Amlodipine",
+       "has strength",
+       "5 mg"
+      ],
+      [
+       "Amlodipine",
+       "has strength",
+       "10 mg"
+      ],
+      [
+       "Amlodipine",
+       "has strength",
+       "2.5 mg"
+      ],
+      [
+       "Amlodipine",
+       "has dosage form",
+       "oral solution"
+      ],
+      [
+       "Amlodipine",
+       "has dosage form",
+       "oral suspension"
+      ],
+      [
+       "Amlodipine",
+       "has dosage form",
+       "single-dose powder for oral solution"
+      ],
+      [
+       "Amlodipine",
+       "has brand name",
+       "Norvasc"
+      ],
+      [
+       "Amlodipine",
+       "has brand name",
+       "Norliqva"
+      ],
+      [
+       "Amlodipine",
+       "has brand name",
+       "Katerzia"
+      ],
+      [
+       "Amlodipine",
+       "has brand name",
+       "Sdamlo"
+      ]
+     ],
+     "schema_definition": {
+      "belongs to drug class": "The subject drug is a member of the pharmacological drug class specified by the object entity.",
+      "controls angina by": "The subject drug manages angina by increasing the blood supply to the heart.",
+      "does not stop chest pain once it starts": "The subject drug does not provide immediate relief for acute chest pain.",
+      "has brand name": "The subject drug is marketed under the brand name specified by the object entity.",
+      "has dosage form": "The subject drug is available in the pharmaceutical dosage form specified by the object entity.",
+      "has mechanism of action": "The subject drug exerts its effect by performing the physiological process specified by the object entity.",
+      "has recommended use": "The subject drug is indicated for use in the patient population specified by the object entity.",
+      "has strength": "The subject drug is available in the specific dose strength specified by the object entity.",
+      "improves blood flow": "The subject drug enhances blood flow through the vascular system by acting on the specified anatomical structure.",
+      "reduces risk of": "The subject drug is used to lower the risk of the medical condition or event specified by the object entity.",
+      "treats": "The subject drug is used to manage or treat the medical condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Amlodipine",
+        "treats",
+        "high blood pressure"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or treat the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "treats",
+        "angina"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or treat the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "belongs to drug class",
+        "calcium channel blockers"
+       ],
+       "raw_relation": "belongs to drug class",
+       "definition": "The subject drug is a member of the pharmacological drug class specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has mechanism of action",
+        "relaxing and widening blood vessels"
+       ],
+       "raw_relation": "has mechanism of action",
+       "definition": "The subject drug exerts its effect by performing the physiological process specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has mechanism of action",
+        "blood vessels"
+       ],
+       "raw_relation": "improves blood flow",
+       "definition": "The subject drug enhances blood flow through the vascular system by acting on the specified anatomical structure.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "increases level of",
+         0.7435
+        ],
+        [
+         "has mechanism of action",
+         0.7398
+        ],
+        [
+         "can pass into",
+         0.7318
+        ],
+        [
+         "administered via",
+         0.7166
+        ],
+        [
+         "increases risk of",
+         0.7094
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "increases level of",
+        "increasing blood supply to heart"
+       ],
+       "raw_relation": "controls angina by",
+       "definition": "The subject drug manages angina by increasing the blood supply to the heart.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "increases level of",
+         0.7198
+        ],
+        [
+         "increases risk of",
+         0.7023
+        ],
+        [
+         "may require dose adjustment",
+         0.6854
+        ],
+        [
+         "treats",
+         0.6691
+        ],
+        [
+         "administered via",
+         0.6685
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "not used to treat",
+        "acute chest pain"
+       ],
+       "raw_relation": "does not stop chest pain once it starts",
+       "definition": "The subject drug does not provide immediate relief for acute chest pain.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "may require dose adjustment",
+         0.6869
+        ],
+        [
+         "has narrow therapeutic index",
+         0.6794
+        ],
+        [
+         "not used to treat",
+         0.6739
+        ],
+        [
+         "reduces risk of",
+         0.671
+        ],
+        [
+         "has onset of effect",
+         0.6619
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "used in population",
+        "adults and children at least 6 years old"
+       ],
+       "raw_relation": "has recommended use",
+       "definition": "The subject drug is indicated for use in the patient population specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.9444
+        ],
+        [
+         "treats",
+         0.9107
+        ],
+        [
+         "has dosage form",
+         0.9021
+        ],
+        [
+         "belongs to drug class",
+         0.8863
+        ],
+        [
+         "has recommended dose",
+         0.8859
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "reduces risk of",
+        "stroke"
+       ],
+       "raw_relation": "reduces risk of",
+       "definition": "The subject drug is used to lower the risk of the medical condition or event specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "reduces risk of",
+        "heart attack"
+       ],
+       "raw_relation": "reduces risk of",
+       "definition": "The subject drug is used to lower the risk of the medical condition or event specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has dosage form",
+        "oral tablet"
+       ],
+       "raw_relation": "has dosage form",
+       "definition": "The subject drug is available in the pharmaceutical dosage form specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has strength",
+        "5 mg"
+       ],
+       "raw_relation": "has strength",
+       "definition": "The subject drug is available in the specific dose strength specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has strength",
+        "10 mg"
+       ],
+       "raw_relation": "has strength",
+       "definition": "The subject drug is available in the specific dose strength specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has strength",
+        "2.5 mg"
+       ],
+       "raw_relation": "has strength",
+       "definition": "The subject drug is available in the specific dose strength specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has dosage form",
+        "oral solution"
+       ],
+       "raw_relation": "has dosage form",
+       "definition": "The subject drug is available in the pharmaceutical dosage form specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has dosage form",
+        "oral suspension"
+       ],
+       "raw_relation": "has dosage form",
+       "definition": "The subject drug is available in the pharmaceutical dosage form specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has dosage form",
+        "single-dose powder for oral solution"
+       ],
+       "raw_relation": "has dosage form",
+       "definition": "The subject drug is available in the pharmaceutical dosage form specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has brand name",
+        "Norvasc"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has brand name",
+        "Norliqva"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has brand name",
+        "Katerzia"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has brand name",
+        "Sdamlo"
+       ],
+       "raw_relation": "has brand name",
+       "definition": "The subject drug is marketed under the brand name specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "amlodipine#side-effects#0",
+     "section_id": "side-effects",
+     "section_heading": "Amlodipine side effects",
+     "text": "Common amlodipine side effects:\nThe most common amlodipine side may include:\n- dizziness, drowsiness;\n- swelling of your legs or ankles;\n- irregular heartbeat;\n- pounding heartbeats or fluttering in your chest;\n- muscle stiffness;\n- uncontrolled muscle movements;\n- feeling tired;\n- stomach pain, nausea; or\n- flushing (sudden warmth, redness, or tingly feeling).\nAmlodipine besylate may cause serious side effects:\nGet emergency medical help if you have signs of an allergic reaction to amlodipine: hives; difficulty breathing; swelling of your face, lips, tongue, or throat.\nIn rare cases, when you first start taking this medicine, your chest pain may get worse or you could have a heart attack. Seek emergency medical attention or call your doctor right away if you have symptoms such as: chest pain or pressure, pain spreading to your jaw or shoulder, nausea, sweating.\nCall your doctor at once if you have:\n- worsening chest pain; or\n- a light-headed feeling, like you might pass out.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"amlodipine\", \"has side effect\", \"dizziness\"], [\"amlodipine\", \"has side effect\", \"drowsiness\"], [\"amlodipine\", \"has side effect\", \"swelling of legs or ankles\"], [\"amlodipine\", \"has side effect\", \"irregular heartbeat\"], [\"amlodipine\", \"has side effect\", \"pounding heartbeats or fluttering in chest\"], [\"amlodipine\", \"has side effect\", \"muscle stiffness\"], [\"amlodipine\", \"has side effect\", \"uncontrolled muscle movements\"], [\"amlodipine\", \"has side effect\", \"feeling tired\"], [\"amlodipine\", \"has side effect\", \"stomach pain\"], [\"amlodipine\", \"has side effect\", \"nausea\"], [\"amlodipine\", \"has side effect\", \"flushing\"], [\"amlodipine\", \"has serious side effect\", \"allergic reaction\"], [\"amlodipine\", \"has serious side effect\", \"allergic reaction\"], [\"amlodipine\", \"has warning\", \"chest pain may worsen on initiation\"], [\"amlodipine\", \"has warning\", \"risk of heart attack on initiation\"], [\"amlodipine\", \"has symptom of serious event\", \"chest pain or pressure\"], [\"amlodipine\", \"has symptom of serious event\", \"pain spreading to jaw or shoulder\"], [\"amlodipine\", \"has symptom of serious event\", \"nausea\"], [\"amlodipine\", \"has symptom of serious event\", \"sweating\"], [\"amlodipine\", \"has instruction\", \"seek emergency medical attention for worsening chest pain\"], [\"amlodipine\", \"has instruction\", \"call doctor immediately for light-headed feeling\"]]",
+     "oie": [
+      [
+       "amlodipine",
+       "has side effect",
+       "dizziness"
+      ],
+      [
+       "amlodipine",
+       "has side effect",
+       "drowsiness"
+      ],
+      [
+       "amlodipine",
+       "has side effect",
+       "swelling of legs or ankles"
+      ],
+      [
+       "amlodipine",
+       "has side effect",
+       "irregular heartbeat"
+      ],
+      [
+       "amlodipine",
+       "has side effect",
+       "pounding heartbeats or fluttering in chest"
+      ],
+      [
+       "amlodipine",
+       "has side effect",
+       "muscle stiffness"
+      ],
+      [
+       "amlodipine",
+       "has side effect",
+       "uncontrolled muscle movements"
+      ],
+      [
+       "amlodipine",
+       "has side effect",
+       "feeling tired"
+      ],
+      [
+       "amlodipine",
+       "has side effect",
+       "stomach pain"
+      ],
+      [
+       "amlodipine",
+       "has side effect",
+       "nausea"
+      ],
+      [
+       "amlodipine",
+       "has side effect",
+       "flushing"
+      ],
+      [
+       "amlodipine",
+       "has serious side effect",
+       "allergic reaction"
+      ],
+      [
+       "amlodipine",
+       "has warning",
+       "chest pain may worsen on initiation"
+      ],
+      [
+       "amlodipine",
+       "has warning",
+       "risk of heart attack on initiation"
+      ],
+      [
+       "amlodipine",
+       "has symptom of serious event",
+       "chest pain or pressure"
+      ],
+      [
+       "amlodipine",
+       "has symptom of serious event",
+       "pain spreading to jaw or shoulder"
+      ],
+      [
+       "amlodipine",
+       "has symptom of serious event",
+       "nausea"
+      ],
+      [
+       "amlodipine",
+       "has symptom of serious event",
+       "sweating"
+      ],
+      [
+       "amlodipine",
+       "has instruction",
+       "seek emergency medical attention for worsening chest pain"
+      ],
+      [
+       "amlodipine",
+       "has instruction",
+       "call doctor immediately for light-headed feeling"
+      ]
+     ],
+     "schema_definition": {
+      "has side effect": "The subject drug may cause the adverse effect specified by the object entity.",
+      "has serious side effect": "The subject drug may cause a severe or dangerous adverse effect specified by the object entity.",
+      "has instruction": "Patients taking the subject drug should take the specified action in response to the condition or symptom mentioned.",
+      "has symptom of serious event": "The subject drug may lead to the symptom specified by the object entity, which may indicate a serious medical event.",
+      "has warning": "The subject drug carries a caution or risk that the specified condition or outcome may occur, particularly in the context described."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "amlodipine",
+        "has side effect",
+        "dizziness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has side effect",
+        "drowsiness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has side effect",
+        "swelling of legs or ankles"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has side effect",
+        "irregular heartbeat"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has side effect",
+        "pounding heartbeats or fluttering in chest"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has side effect",
+        "muscle stiffness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has side effect",
+        "uncontrolled muscle movements"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has side effect",
+        "feeling tired"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has side effect",
+        "stomach pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has side effect",
+        "nausea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has side effect",
+        "flushing"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause a severe or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has warning",
+        "chest pain may worsen on initiation"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or risk that the specified condition or outcome may occur, particularly in the context described.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has warning",
+        "risk of heart attack on initiation"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or risk that the specified condition or outcome may occur, particularly in the context described.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has serious side effect",
+        "chest pain or pressure"
+       ],
+       "raw_relation": "has symptom of serious event",
+       "definition": "The subject drug may lead to the symptom specified by the object entity, which may indicate a serious medical event.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9133
+        ],
+        [
+         "has side effect",
+         0.9088
+        ],
+        [
+         "has overdose symptom",
+         0.908
+        ],
+        [
+         "increases risk of",
+         0.8674
+        ],
+        [
+         "requires monitoring of",
+         0.8613
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has serious side effect",
+        "pain spreading to jaw or shoulder"
+       ],
+       "raw_relation": "has symptom of serious event",
+       "definition": "The subject drug may lead to the symptom specified by the object entity, which may indicate a serious medical event.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9133
+        ],
+        [
+         "has side effect",
+         0.9088
+        ],
+        [
+         "has overdose symptom",
+         0.908
+        ],
+        [
+         "increases risk of",
+         0.8674
+        ],
+        [
+         "requires monitoring of",
+         0.8613
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has serious side effect",
+        "nausea"
+       ],
+       "raw_relation": "has symptom of serious event",
+       "definition": "The subject drug may lead to the symptom specified by the object entity, which may indicate a serious medical event.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9133
+        ],
+        [
+         "has side effect",
+         0.9088
+        ],
+        [
+         "has overdose symptom",
+         0.908
+        ],
+        [
+         "increases risk of",
+         0.8674
+        ],
+        [
+         "requires monitoring of",
+         0.8613
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has serious side effect",
+        "sweating"
+       ],
+       "raw_relation": "has symptom of serious event",
+       "definition": "The subject drug may lead to the symptom specified by the object entity, which may indicate a serious medical event.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.9133
+        ],
+        [
+         "has side effect",
+         0.9088
+        ],
+        [
+         "has overdose symptom",
+         0.908
+        ],
+        [
+         "increases risk of",
+         0.8674
+        ],
+        [
+         "requires monitoring of",
+         0.8613
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has instruction",
+        "seek emergency medical attention for worsening chest pain"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "Patients taking the subject drug should take the specified action in response to the condition or symptom mentioned.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has instruction",
+        "call doctor immediately for light-headed feeling"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "Patients taking the subject drug should take the specified action in response to the condition or symptom mentioned.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "amlodipine#side-effects#1",
+     "section_id": "side-effects",
+     "section_heading": "Amlodipine side effects",
+     "text": "This is not a complete list of side effects and others may occur. Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"amlodipine\", \"has side effect\", \"unknown side effects\"], [\"amlodipine\", \"has instruction\", \"call doctor for medical advice about side effects\"], [\"amlodipine\", \"has reporting instruction\", \"report side effects to FDA at 1-800-FDA-1088\"]]",
+     "oie": [
+      [
+       "amlodipine",
+       "has side effect",
+       "unknown side effects"
+      ],
+      [
+       "amlodipine",
+       "has instruction",
+       "call doctor for medical advice about side effects"
+      ],
+      [
+       "amlodipine",
+       "has reporting instruction",
+       "report side effects to FDA at 1-800-FDA-1088"
+      ]
+     ],
+     "schema_definition": {
+      "has side effect": "The subject drug may cause the adverse effect specified by the object entity.",
+      "has instruction": "The subject drug comes with a recommendation or directive for patients to take specific action regarding side effects.",
+      "has reporting instruction": "The subject drug includes a directive for patients to report certain side effects to a specified authority or contact."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "amlodipine",
+        "has side effect",
+        "unknown side effects"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has instruction",
+        "call doctor for medical advice about side effects"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug comes with a recommendation or directive for patients to take specific action regarding side effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has instruction",
+        "report side effects to FDA at 1-800-FDA-1088"
+       ],
+       "raw_relation": "has reporting instruction",
+       "definition": "The subject drug includes a directive for patients to report certain side effects to a specified authority or contact.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has instruction",
+         0.8381
+        ],
+        [
+         "has side effect",
+         0.8144
+        ],
+        [
+         "should inform doctor about",
+         0.8061
+        ],
+        [
+         "use with caution in",
+         0.7959
+        ],
+        [
+         "has serious side effect",
+         0.7903
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "amlodipine#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "Before taking amlodipine besylate, tell your doctor if you have congestive heart failure or liver disease.\nDrinking alcohol can further lower your blood pressure and may increase certain side effects of amlodipine.\nIf you are being treated for high blood pressure, keep using amlodipine even if you feel well. High blood pressure often has no symptoms. You may need to use blood pressure medication for the rest of your life.\nAmlodipine is only part of a complete program of treatment that may also include diet, exercise, weight control, and other medications. Follow your diet, medication, and exercise routines very closely.\nTell your doctor about all other heart or blood pressure medications you are taking.\nYour chest pain may become worse when you first start taking amlodipine or when your dose is increased. Call your doctor if your chest pain is severe or ongoing.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Amlodipine\", \"should be used with\", \"congestive heart failure evaluation\"], [\"Amlodipine\", \"should be used with\", \"liver disease evaluation\"], [\"Amlodipine\", \"interacts with\", \"alcohol\"], [\"Amlodipine\", \"has risk factor\", \"low blood pressure\"], [\"Amlodipine\", \"has side effect exacerbation\", \"alcohol use\"], [\"Amlodipine\", \"treats\", \"high blood pressure\"], [\"Amlodipine\", \"has treatment component\", \"diet\"], [\"Amlodipine\", \"has treatment component\", \"exercise\"], [\"Amlodipine\", \"has treatment component\", \"weight control\"], [\"Amlodipine\", \"has treatment component\", \"other medications\"], [\"Amlodipine\", \"has warning\", \"chest pain may worsen at start or dose increase\"], [\"Amlodipine\", \"requires monitoring of\", \"blood pressure\"], [\"Amlodipine\", \"has medication interaction warning\", \"other heart or blood pressure medications\"], [\"Amlodipine\", \"has symptom\", \"worsening chest pain\"], [\"Amlodipine\", \"has instruction\", \"call doctor if chest pain is severe or ongoing\"]]",
+     "oie": [
+      [
+       "Amlodipine",
+       "should be used with",
+       "congestive heart failure evaluation"
+      ],
+      [
+       "Amlodipine",
+       "should be used with",
+       "liver disease evaluation"
+      ],
+      [
+       "Amlodipine",
+       "interacts with",
+       "alcohol"
+      ],
+      [
+       "Amlodipine",
+       "has risk factor",
+       "low blood pressure"
+      ],
+      [
+       "Amlodipine",
+       "has side effect exacerbation",
+       "alcohol use"
+      ],
+      [
+       "Amlodipine",
+       "treats",
+       "high blood pressure"
+      ],
+      [
+       "Amlodipine",
+       "has treatment component",
+       "diet"
+      ],
+      [
+       "Amlodipine",
+       "has treatment component",
+       "exercise"
+      ],
+      [
+       "Amlodipine",
+       "has treatment component",
+       "weight control"
+      ],
+      [
+       "Amlodipine",
+       "has treatment component",
+       "other medications"
+      ],
+      [
+       "Amlodipine",
+       "has warning",
+       "chest pain may worsen at start or dose increase"
+      ],
+      [
+       "Amlodipine",
+       "requires monitoring of",
+       "blood pressure"
+      ],
+      [
+       "Amlodipine",
+       "has medication interaction warning",
+       "other heart or blood pressure medications"
+      ],
+      [
+       "Amlodipine",
+       "has symptom",
+       "worsening chest pain"
+      ],
+      [
+       "Amlodipine",
+       "has instruction",
+       "call doctor if chest pain is severe or ongoing"
+      ]
+     ],
+     "schema_definition": {
+      "has instruction": "Patients taking the subject drug should follow the specific action or guidance specified by the object entity.",
+      "has medication interaction warning": "The subject drug may interact with the specified medication, and patients should be informed of this potential interaction.",
+      "has risk factor": "The condition or factor specified by the object entity increases the likelihood or severity of adverse effects or complications associated with the subject drug.",
+      "has side effect exacerbation": "The use of the object entity may worsen or intensify side effects caused by the subject drug.",
+      "has symptom": "The subject drug may cause or be associated with the symptom specified by the object entity.",
+      "has treatment component": "The subject drug is part of a broader treatment plan that includes the specified intervention or lifestyle factor.",
+      "has warning": "The subject drug carries a caution or alert regarding the specified outcome or condition that patients should be aware of.",
+      "interacts with": "The subject drug may produce a pharmacological interaction when co-administered with the substance specified by the object entity.",
+      "requires monitoring of": "The subject drug's effect or safety necessitates regular assessment or measurement of the parameter specified by the object entity.",
+      "should be used with": "The subject drug should be used in conjunction with evaluation or management of the condition specified by the object entity.",
+      "treats": "The subject drug is used to manage or alleviate the medical condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Amlodipine",
+        "used in combination with",
+        "congestive heart failure evaluation"
+       ],
+       "raw_relation": "should be used with",
+       "definition": "The subject drug should be used in conjunction with evaluation or management of the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "treats",
+         0.9272
+        ],
+        [
+         "has administration instruction",
+         0.8849
+        ],
+        [
+         "used in combination with",
+         0.8763
+        ],
+        [
+         "requires monitoring of",
+         0.8741
+        ],
+        [
+         "not used to treat",
+         0.872
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "requires monitoring of",
+        "liver disease evaluation"
+       ],
+       "raw_relation": "should be used with",
+       "definition": "The subject drug should be used in conjunction with evaluation or management of the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "treats",
+         0.9272
+        ],
+        [
+         "has administration instruction",
+         0.8849
+        ],
+        [
+         "used in combination with",
+         0.8763
+        ],
+        [
+         "requires monitoring of",
+         0.8741
+        ],
+        [
+         "not used to treat",
+         0.872
+        ]
+       ],
+       "answer": "D"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "interacts with",
+        "alcohol"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has warning",
+        "low blood pressure"
+       ],
+       "raw_relation": "has risk factor",
+       "definition": "The condition or factor specified by the object entity increases the likelihood or severity of adverse effects or complications associated with the subject drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "increases risk of",
+         0.8757
+        ],
+        [
+         "has side effect",
+         0.8728
+        ],
+        [
+         "has serious side effect",
+         0.8434
+        ],
+        [
+         "interacts with",
+         0.8313
+        ],
+        [
+         "has warning",
+         0.8165
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has serious side effect",
+        "alcohol use"
+       ],
+       "raw_relation": "has side effect exacerbation",
+       "definition": "The use of the object entity may worsen or intensify side effects caused by the subject drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9222
+        ],
+        [
+         "has serious side effect",
+         0.884
+        ],
+        [
+         "interacts with",
+         0.8767
+        ],
+        [
+         "has overdose symptom",
+         0.8746
+        ],
+        [
+         "has warning",
+         0.8471
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "treats",
+        "high blood pressure"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or alleviate the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "used in combination with",
+        "diet"
+       ],
+       "raw_relation": "has treatment component",
+       "definition": "The subject drug is part of a broader treatment plan that includes the specified intervention or lifestyle factor.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in combination with",
+         0.8426
+        ],
+        [
+         "has recommended dose",
+         0.7943
+        ],
+        [
+         "has recommended treatment for severe hypoglycemia",
+         0.7801
+        ],
+        [
+         "treats",
+         0.7801
+        ],
+        [
+         "has instruction",
+         0.7769
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "used in combination with",
+        "exercise"
+       ],
+       "raw_relation": "has treatment component",
+       "definition": "The subject drug is part of a broader treatment plan that includes the specified intervention or lifestyle factor.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in combination with",
+         0.8426
+        ],
+        [
+         "has recommended dose",
+         0.7943
+        ],
+        [
+         "has recommended treatment for severe hypoglycemia",
+         0.7801
+        ],
+        [
+         "treats",
+         0.7801
+        ],
+        [
+         "has instruction",
+         0.7769
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "used in combination with",
+        "weight control"
+       ],
+       "raw_relation": "has treatment component",
+       "definition": "The subject drug is part of a broader treatment plan that includes the specified intervention or lifestyle factor.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in combination with",
+         0.8426
+        ],
+        [
+         "has recommended dose",
+         0.7943
+        ],
+        [
+         "has recommended treatment for severe hypoglycemia",
+         0.7801
+        ],
+        [
+         "treats",
+         0.7801
+        ],
+        [
+         "has instruction",
+         0.7769
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "used in combination with",
+        "other medications"
+       ],
+       "raw_relation": "has treatment component",
+       "definition": "The subject drug is part of a broader treatment plan that includes the specified intervention or lifestyle factor.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in combination with",
+         0.8426
+        ],
+        [
+         "has recommended dose",
+         0.7943
+        ],
+        [
+         "has recommended treatment for severe hypoglycemia",
+         0.7801
+        ],
+        [
+         "treats",
+         0.7801
+        ],
+        [
+         "has instruction",
+         0.7769
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has warning",
+        "chest pain may worsen at start or dose increase"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the specified outcome or condition that patients should be aware of.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "requires monitoring of",
+        "blood pressure"
+       ],
+       "raw_relation": "requires monitoring of",
+       "definition": "The subject drug's effect or safety necessitates regular assessment or measurement of the parameter specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "interacts with",
+        "other heart or blood pressure medications"
+       ],
+       "raw_relation": "has medication interaction warning",
+       "definition": "The subject drug may interact with the specified medication, and patients should be informed of this potential interaction.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "interacts with",
+         0.8325
+        ],
+        [
+         "should inform doctor about",
+         0.828
+        ],
+        [
+         "requires monitoring of",
+         0.809
+        ],
+        [
+         "increases risk of",
+         0.8068
+        ],
+        [
+         "may require dose adjustment",
+         0.7998
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has side effect",
+        "worsening chest pain"
+       ],
+       "raw_relation": "has symptom",
+       "definition": "The subject drug may cause or be associated with the symptom specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9493
+        ],
+        [
+         "has overdose symptom",
+         0.9207
+        ],
+        [
+         "interacts with",
+         0.8897
+        ],
+        [
+         "treats",
+         0.8834
+        ],
+        [
+         "has serious side effect",
+         0.8731
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has instruction",
+        "call doctor if chest pain is severe or ongoing"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "Patients taking the subject drug should follow the specific action or guidance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "amlodipine#before-taking#0",
+     "section_id": "before-taking",
+     "section_heading": "Before taking this medicine",
+     "text": "You should not take amlodipine if you are allergic to it.\nTo make sure this medicine is safe for you, tell your doctor if you have ever had:\n- severe narrowing of a certain valve in your heart (aortic stenosis), or other heart problems;\n- coronary artery disease (clogged arteries); or\n- liver disease.\nIt is not known if amlodipine will harm an unborn baby. However, having high blood pressure during pregnancy may cause complications or medical problems in both mother and baby. The benefit of treating hypertension may outweigh any risks to the baby.\nDo not breastfeed while taking amlodipine. You can stop breastfeeding or take a different medicine.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"amlodipine\", \"contraindicated in\", \"allergy to amlodipine\"], [\"amlodipine\", \"use with caution in\", \"aortic stenosis\"], [\"amlodipine\", \"use with caution in\", \"heart problems\"], [\"amlodipine\", \"use with caution in\", \"coronary artery disease\"], [\"amlodipine\", \"use with caution in\", \"liver disease\"], [\"amlodipine\", \"has pregnancy or breastfeeding warning\", \"may harm an unborn baby\"], [\"amlodipine\", \"has breastfeeding instruction\", \"do not breastfeed\"], [\"amlodipine\", \"has breastfeeding instruction\", \"can stop breastfeeding or take different medicine\"]]",
+     "oie": [
+      [
+       "amlodipine",
+       "contraindicated in",
+       "allergy to amlodipine"
+      ],
+      [
+       "amlodipine",
+       "use with caution in",
+       "aortic stenosis"
+      ],
+      [
+       "amlodipine",
+       "use with caution in",
+       "heart problems"
+      ],
+      [
+       "amlodipine",
+       "use with caution in",
+       "coronary artery disease"
+      ],
+      [
+       "amlodipine",
+       "use with caution in",
+       "liver disease"
+      ],
+      [
+       "amlodipine",
+       "has pregnancy or breastfeeding warning",
+       "may harm an unborn baby"
+      ],
+      [
+       "amlodipine",
+       "has breastfeeding instruction",
+       "do not breastfeed"
+      ],
+      [
+       "amlodipine",
+       "has breastfeeding instruction",
+       "can stop breastfeeding or take different medicine"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "use with caution in": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+      "has breastfeeding instruction": "Patients taking the subject drug should follow the specific breastfeeding guidance specified by the object entity.",
+      "has pregnancy or breastfeeding warning": "The subject drug may pose a risk to an unborn baby or to a breastfeeding infant, as indicated by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "amlodipine",
+        "contraindicated in",
+        "allergy to amlodipine"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "use with caution in",
+        "aortic stenosis"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "use with caution in",
+        "heart problems"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "use with caution in",
+        "coronary artery disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "use with caution in",
+        "liver disease"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has pregnancy or breastfeeding warning",
+        "may harm an unborn baby"
+       ],
+       "raw_relation": "has pregnancy or breastfeeding warning",
+       "definition": "The subject drug may pose a risk to an unborn baby or to a breastfeeding infant, as indicated by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has pregnancy or breastfeeding warning",
+        "do not breastfeed"
+       ],
+       "raw_relation": "has breastfeeding instruction",
+       "definition": "Patients taking the subject drug should follow the specific breastfeeding guidance specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has pregnancy or breastfeeding warning",
+         0.837
+        ],
+        [
+         "has overdose instruction",
+         0.8114
+        ],
+        [
+         "administered via",
+         0.7975
+        ],
+        [
+         "has missed dose instruction",
+         0.7973
+        ],
+        [
+         "requires monitoring of",
+         0.7961
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has pregnancy or breastfeeding warning",
+        "can stop breastfeeding or take different medicine"
+       ],
+       "raw_relation": "has breastfeeding instruction",
+       "definition": "Patients taking the subject drug should follow the specific breastfeeding guidance specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has pregnancy or breastfeeding warning",
+         0.837
+        ],
+        [
+         "has overdose instruction",
+         0.8114
+        ],
+        [
+         "administered via",
+         0.7975
+        ],
+        [
+         "has missed dose instruction",
+         0.7973
+        ],
+        [
+         "requires monitoring of",
+         0.7961
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "amlodipine#directions#0",
+     "section_id": "directions",
+     "section_heading": "How should I take amlodipine?",
+     "text": "Take amlodipine exactly as prescribed by your doctor. Follow all directions on your prescription label and read all medication guides or instruction sheets. Your doctor may occasionally change your dose.\nAmlodipine is usually taken once per day.\nTake the medicine at the same time each day, with or without food.\nShake the oral suspension (liquid). Measure a dose with the supplied measuring device (not a kitchen spoon).\nAmlodipine for oral solution (Sdamlo) comes as a powder that you must mix with water to make a liquid (solution) before taking or giving it. Throw away Sdamlo if you do not take or give it within 60 minutes of mixing and get a new bottle. Do not store mixed Sdamlo.\nYour blood pressure will need to be checked often.\nIf you have high blood pressure, keep using amlodipine even if you feel well. High blood pressure often has no symptoms.\nDo not change your doses or stop taking any of your medications without your doctor's advice.\nYour treatment may also include diet, exercise, weight control, and blood tests.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Amlodipine\", \"has administration instruction\", \"take exactly as prescribed by your doctor\"], [\"Amlodipine\", \"has administration instruction\", \"follow all directions on prescription label\"], [\"Amlodipine\", \"has administration instruction\", \"read all medication guides or instruction sheets\"], [\"Amlodipine\", \"has administration instruction\", \"doctor may occasionally change your dose\"], [\"Amlodipine\", \"has dosing frequency\", \"once per day\"], [\"Amlodipine\", \"has administration instruction\", \"take at the same time each day with or without food\"], [\"Amlodipine\", \"has administration instruction\", \"shake the oral suspension\"], [\"Amlodipine\", \"has administration instruction\", \"measure dose with supplied measuring device\"], [\"Amlodipine\", \"has dosage form\", \"oral solution\"], [\"Amlodipine\", \"has dosage form\", \"oral tablet\"], [\"Amlodipine\", \"has preparation method\", \"mix powder with water to make liquid\"], [\"Amlodipine\", \"has storage instruction\", \"throw away mixed Sdamlo if not taken within 60 minutes\"], [\"Amlodipine\", \"has monitoring requirement\", \"blood pressure check often\"], [\"Amlodipine\", \"has patient instruction\", \"continue use even if feeling well if high blood pressure\"], [\"Amlodipine\", \"has patient instruction\", \"high blood pressure often has no symptoms\"], [\"Amlodipine\", \"has patient instruction\", \"do not change doses or stop medication without doctor's advice\"], [\"Amlodipine\", \"has treatment component\", \"diet\"], [\"Amlodipine\", \"has treatment component\", \"exercise\"], [\"Amlodipine\", \"has treatment component\", \"weight control\"], [\"Amlodipine\", \"has treatment component\", \"blood tests\"]]",
+     "oie": [
+      [
+       "Amlodipine",
+       "has administration instruction",
+       "take exactly as prescribed by your doctor"
+      ],
+      [
+       "Amlodipine",
+       "has administration instruction",
+       "follow all directions on prescription label"
+      ],
+      [
+       "Amlodipine",
+       "has administration instruction",
+       "read all medication guides or instruction sheets"
+      ],
+      [
+       "Amlodipine",
+       "has administration instruction",
+       "doctor may occasionally change your dose"
+      ],
+      [
+       "Amlodipine",
+       "has dosing frequency",
+       "once per day"
+      ],
+      [
+       "Amlodipine",
+       "has administration instruction",
+       "take at the same time each day with or without food"
+      ],
+      [
+       "Amlodipine",
+       "has administration instruction",
+       "shake the oral suspension"
+      ],
+      [
+       "Amlodipine",
+       "has administration instruction",
+       "measure dose with supplied measuring device"
+      ],
+      [
+       "Amlodipine",
+       "has dosage form",
+       "oral solution"
+      ],
+      [
+       "Amlodipine",
+       "has dosage form",
+       "oral tablet"
+      ],
+      [
+       "Amlodipine",
+       "has preparation method",
+       "mix powder with water to make liquid"
+      ],
+      [
+       "Amlodipine",
+       "has storage instruction",
+       "throw away mixed Sdamlo if not taken within 60 minutes"
+      ],
+      [
+       "Amlodipine",
+       "has monitoring requirement",
+       "blood pressure check often"
+      ],
+      [
+       "Amlodipine",
+       "has patient instruction",
+       "continue use even if feeling well if high blood pressure"
+      ],
+      [
+       "Amlodipine",
+       "has patient instruction",
+       "high blood pressure often has no symptoms"
+      ],
+      [
+       "Amlodipine",
+       "has patient instruction",
+       "do not change doses or stop medication without doctor's advice"
+      ],
+      [
+       "Amlodipine",
+       "has treatment component",
+       "diet"
+      ],
+      [
+       "Amlodipine",
+       "has treatment component",
+       "exercise"
+      ],
+      [
+       "Amlodipine",
+       "has treatment component",
+       "weight control"
+      ],
+      [
+       "Amlodipine",
+       "has treatment component",
+       "blood tests"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+      "has dosage form": "The subject drug is available in the pharmaceutical dosage form specified by the object entity.",
+      "has dosing frequency": "The subject drug is typically administered the specified number of times per day.",
+      "has monitoring requirement": "The subject's health condition requires regular assessment or testing as specified by the object entity.",
+      "has patient instruction": "The subject drug comes with specific guidance for patients regarding usage, symptoms, or behavior as specified by the object entity.",
+      "has preparation method": "The subject drug must be prepared by mixing the components as specified by the object entity before use.",
+      "has storage instruction": "The subject drug must be stored or discarded according to the instructions specified by the object entity.",
+      "has treatment component": "The subject drug's treatment regimen includes the specified intervention or lifestyle change as part of the overall management plan."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Amlodipine",
+        "has administration instruction",
+        "take exactly as prescribed by your doctor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has administration instruction",
+        "follow all directions on prescription label"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has administration instruction",
+        "read all medication guides or instruction sheets"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has administration instruction",
+        "doctor may occasionally change your dose"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has administration instruction",
+        "once per day"
+       ],
+       "raw_relation": "has dosing frequency",
+       "definition": "The subject drug is typically administered the specified number of times per day.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.8203
+        ],
+        [
+         "has maximum dose",
+         0.8046
+        ],
+        [
+         "has duration of treatment",
+         0.8019
+        ],
+        [
+         "has dosage form",
+         0.7916
+        ],
+        [
+         "has administration instruction",
+         0.7799
+        ]
+       ],
+       "answer": "E"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has administration instruction",
+        "take at the same time each day with or without food"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has administration instruction",
+        "shake the oral suspension"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has administration instruction",
+        "measure dose with supplied measuring device"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the patient to follow the specific instructions specified by the object entity for proper use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has dosage form",
+        "oral solution"
+       ],
+       "raw_relation": "has dosage form",
+       "definition": "The subject drug is available in the pharmaceutical dosage form specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has dosage form",
+        "oral tablet"
+       ],
+       "raw_relation": "has dosage form",
+       "definition": "The subject drug is available in the pharmaceutical dosage form specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has dosage form",
+        "mix powder with water to make liquid"
+       ],
+       "raw_relation": "has preparation method",
+       "definition": "The subject drug must be prepared by mixing the components as specified by the object entity before use.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.8485
+        ],
+        [
+         "contains ingredient",
+         0.8132
+        ],
+        [
+         "has dosage form",
+         0.8115
+        ],
+        [
+         "administered via",
+         0.8104
+        ],
+        [
+         "has storage instruction",
+         0.8046
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has storage instruction",
+        "throw away mixed Sdamlo if not taken within 60 minutes"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug must be stored or discarded according to the instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "requires monitoring of",
+        "blood pressure check often"
+       ],
+       "raw_relation": "has monitoring requirement",
+       "definition": "The subject's health condition requires regular assessment or testing as specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires monitoring of",
+         0.8346
+        ],
+        [
+         "use with caution in",
+         0.7717
+        ],
+        [
+         "treats",
+         0.7669
+        ],
+        [
+         "should inform doctor about",
+         0.766
+        ],
+        [
+         "requires patient adherence to",
+         0.762
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has instruction",
+        "continue use even if feeling well if high blood pressure"
+       ],
+       "raw_relation": "has patient instruction",
+       "definition": "The subject drug comes with specific guidance for patients regarding usage, symptoms, or behavior as specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8712
+        ],
+        [
+         "requires monitoring of",
+         0.8706
+        ],
+        [
+         "treats",
+         0.8612
+        ],
+        [
+         "has instruction",
+         0.8528
+        ],
+        [
+         "administered via",
+         0.8523
+        ]
+       ],
+       "answer": "D"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has instruction",
+        "high blood pressure often has no symptoms"
+       ],
+       "raw_relation": "has patient instruction",
+       "definition": "The subject drug comes with specific guidance for patients regarding usage, symptoms, or behavior as specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8712
+        ],
+        [
+         "requires monitoring of",
+         0.8706
+        ],
+        [
+         "treats",
+         0.8612
+        ],
+        [
+         "has instruction",
+         0.8528
+        ],
+        [
+         "administered via",
+         0.8523
+        ]
+       ],
+       "answer": "D"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has instruction",
+        "do not change doses or stop medication without doctor's advice"
+       ],
+       "raw_relation": "has patient instruction",
+       "definition": "The subject drug comes with specific guidance for patients regarding usage, symptoms, or behavior as specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8712
+        ],
+        [
+         "requires monitoring of",
+         0.8706
+        ],
+        [
+         "treats",
+         0.8612
+        ],
+        [
+         "has instruction",
+         0.8528
+        ],
+        [
+         "administered via",
+         0.8523
+        ]
+       ],
+       "answer": "D"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "used in combination with",
+        "diet"
+       ],
+       "raw_relation": "has treatment component",
+       "definition": "The subject drug's treatment regimen includes the specified intervention or lifestyle change as part of the overall management plan.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.7872
+        ],
+        [
+         "used in combination with",
+         0.7857
+        ],
+        [
+         "may require dose adjustment",
+         0.7727
+        ],
+        [
+         "has recommended treatment for severe hypoglycemia",
+         0.7719
+        ],
+        [
+         "treats",
+         0.7523
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "used in combination with",
+        "exercise"
+       ],
+       "raw_relation": "has treatment component",
+       "definition": "The subject drug's treatment regimen includes the specified intervention or lifestyle change as part of the overall management plan.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.7872
+        ],
+        [
+         "used in combination with",
+         0.7857
+        ],
+        [
+         "may require dose adjustment",
+         0.7727
+        ],
+        [
+         "has recommended treatment for severe hypoglycemia",
+         0.7719
+        ],
+        [
+         "treats",
+         0.7523
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "used in combination with",
+        "weight control"
+       ],
+       "raw_relation": "has treatment component",
+       "definition": "The subject drug's treatment regimen includes the specified intervention or lifestyle change as part of the overall management plan.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.7872
+        ],
+        [
+         "used in combination with",
+         0.7857
+        ],
+        [
+         "may require dose adjustment",
+         0.7727
+        ],
+        [
+         "has recommended treatment for severe hypoglycemia",
+         0.7719
+        ],
+        [
+         "treats",
+         0.7523
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "treats",
+        "blood tests"
+       ],
+       "raw_relation": "has treatment component",
+       "definition": "The subject drug's treatment regimen includes the specified intervention or lifestyle change as part of the overall management plan.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.7872
+        ],
+        [
+         "used in combination with",
+         0.7857
+        ],
+        [
+         "may require dose adjustment",
+         0.7727
+        ],
+        [
+         "has recommended treatment for severe hypoglycemia",
+         0.7719
+        ],
+        [
+         "treats",
+         0.7523
+        ]
+       ],
+       "answer": "E"
+      }
+     ]
+    },
+    {
+     "chunk_id": "amlodipine#directions#1",
+     "section_id": "directions",
+     "section_heading": "How should I take amlodipine?",
+     "text": "Store amlodipine tablets and oral solution (liquid) at room temperature away from moisture, heat, and light.\nStore amlodipine oral suspension in the refrigerator; do not freeze.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"amlodipine\", \"has storage instruction\", \"store oral tablet at room temperature away from moisture and heat and light\"], [\"amlodipine\", \"has storage instruction\", \"store oral suspension in refrigerator and do not freeze\"]]",
+     "oie": [
+      [
+       "amlodipine",
+       "has storage instruction",
+       "store oral tablet at room temperature away from moisture and heat and light"
+      ],
+      [
+       "amlodipine",
+       "has storage instruction",
+       "store oral suspension in refrigerator and do not freeze"
+      ]
+     ],
+     "schema_definition": {
+      "has storage instruction": "The subject drug has specific conditions or guidelines for storing the specified dosage form to maintain its efficacy and safety."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "amlodipine",
+        "has storage instruction",
+        "store oral tablet at room temperature away from moisture and heat and light"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug has specific conditions or guidelines for storing the specified dosage form to maintain its efficacy and safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has storage instruction",
+        "store oral suspension in refrigerator and do not freeze"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug has specific conditions or guidelines for storing the specified dosage form to maintain its efficacy and safety.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "amlodipine#dosage#0",
+     "section_id": "dosage",
+     "section_heading": "Amlodipine Dosing Information",
+     "text": "Usual Amlodipine Adult Dose for Hypertension:\nInitial dose: 5 mg orally once a day Maintenance dose: 5 to 10 mg orally once a day Maximum dose: 10 mg/day Comments: Patients who are small or fragile may be started on 2.5 mg orally once a day.\nUsual Adult Dose for Angina Pectoris:\nMaintenance dose: 5 to 10 mg orally once a day Maximum dose: 10 mg/day\nUsual Adult Dose for Coronary Artery Disease:\nMaintenance dose: 5 to 10 mg orally once a day Maximum dose: 10 mg/day\nUsual Geriatric Dose for Hypertension:\nInitial dose: 2.5 mg orally once a day Maintenance dose: 2.5 to 10 mg orally once a day Maximum dose: 10 mg/day.\nUsual Geriatric Dose for Angina Pectoris:",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"amlodipine\", \"has recommended dose\", \"5 mg once daily\"], [\"amlodipine\", \"has recommended dose\", \"5 to 10 mg once daily\"], [\"amlodipine\", \"has maximum dose\", \"10 mg/day\"], [\"amlodipine\", \"has initial dose\", \"5 mg once daily\"], [\"amlodipine\", \"has initial dose\", \"2.5 mg once daily\"], [\"amlodipine\", \"has maintenance dose\", \"5 to 10 mg once daily\"], [\"amlodipine\", \"has maintenance dose\", \"2.5 to 10 mg once daily\"], [\"amlodipine\", \"has dosage instruction for\", \"hypertension\"], [\"amlodipine\", \"has dosage instruction for\", \"angina pectoris\"], [\"amlodipine\", \"has dosage instruction for\", \"coronary artery disease\"], [\"amlodipine\", \"has dosage instruction for\", \"geriatric hypertension\"], [\"amlodipine\", \"has dosage instruction for\", \"geriatric angina pectoris\"]]",
+     "oie": [
+      [
+       "amlodipine",
+       "has recommended dose",
+       "5 mg once daily"
+      ],
+      [
+       "amlodipine",
+       "has recommended dose",
+       "5 to 10 mg once daily"
+      ],
+      [
+       "amlodipine",
+       "has maximum dose",
+       "10 mg/day"
+      ],
+      [
+       "amlodipine",
+       "has initial dose",
+       "5 mg once daily"
+      ],
+      [
+       "amlodipine",
+       "has initial dose",
+       "2.5 mg once daily"
+      ],
+      [
+       "amlodipine",
+       "has maintenance dose",
+       "5 to 10 mg once daily"
+      ],
+      [
+       "amlodipine",
+       "has maintenance dose",
+       "2.5 to 10 mg once daily"
+      ],
+      [
+       "amlodipine",
+       "has dosage instruction for",
+       "hypertension"
+      ],
+      [
+       "amlodipine",
+       "has dosage instruction for",
+       "angina pectoris"
+      ],
+      [
+       "amlodipine",
+       "has dosage instruction for",
+       "coronary artery disease"
+      ],
+      [
+       "amlodipine",
+       "has dosage instruction for",
+       "geriatric hypertension"
+      ],
+      [
+       "amlodipine",
+       "has dosage instruction for",
+       "geriatric angina pectoris"
+      ]
+     ],
+     "schema_definition": {
+      "has dosage instruction for": "The subject drug has specific dosing guidelines or recommendations for the medical condition specified by the object entity.",
+      "has initial dose": "The subject drug is prescribed at the starting dose specified by the object entity for a given condition.",
+      "has maintenance dose": "The subject drug is prescribed at the ongoing dose specified by the object entity for a given condition.",
+      "has maximum dose": "The highest dose of the subject drug that is recommended or safe for use in a given condition is specified by the object entity.",
+      "has recommended dose": "The subject drug is recommended to be administered at the dose range or specific dose specified by the object entity for a given condition."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "amlodipine",
+        "has recommended dose",
+        "5 mg once daily"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug is recommended to be administered at the dose range or specific dose specified by the object entity for a given condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has recommended dose",
+        "5 to 10 mg once daily"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug is recommended to be administered at the dose range or specific dose specified by the object entity for a given condition.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has maximum dose",
+        "10 mg/day"
+       ],
+       "raw_relation": "has maximum dose",
+       "definition": "The highest dose of the subject drug that is recommended or safe for use in a given condition is specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has recommended dose",
+        "5 mg once daily"
+       ],
+       "raw_relation": "has initial dose",
+       "definition": "The subject drug is prescribed at the starting dose specified by the object entity for a given condition.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.9178
+        ],
+        [
+         "has dosage form",
+         0.8872
+        ],
+        [
+         "has strength",
+         0.8859
+        ],
+        [
+         "used in population",
+         0.8681
+        ],
+        [
+         "treats",
+         0.8583
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has recommended dose",
+        "2.5 mg once daily"
+       ],
+       "raw_relation": "has initial dose",
+       "definition": "The subject drug is prescribed at the starting dose specified by the object entity for a given condition.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.9178
+        ],
+        [
+         "has dosage form",
+         0.8872
+        ],
+        [
+         "has strength",
+         0.8859
+        ],
+        [
+         "used in population",
+         0.8681
+        ],
+        [
+         "treats",
+         0.8583
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has recommended dose",
+        "5 to 10 mg once daily"
+       ],
+       "raw_relation": "has maintenance dose",
+       "definition": "The subject drug is prescribed at the ongoing dose specified by the object entity for a given condition.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.9194
+        ],
+        [
+         "has dosage form",
+         0.8927
+        ],
+        [
+         "has strength",
+         0.8906
+        ],
+        [
+         "treats",
+         0.8702
+        ],
+        [
+         "used in population",
+         0.8631
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has recommended dose",
+        "2.5 to 10 mg once daily"
+       ],
+       "raw_relation": "has maintenance dose",
+       "definition": "The subject drug is prescribed at the ongoing dose specified by the object entity for a given condition.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.9194
+        ],
+        [
+         "has dosage form",
+         0.8927
+        ],
+        [
+         "has strength",
+         0.8906
+        ],
+        [
+         "treats",
+         0.8702
+        ],
+        [
+         "used in population",
+         0.8631
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has recommended dose",
+        "hypertension"
+       ],
+       "raw_relation": "has dosage instruction for",
+       "definition": "The subject drug has specific dosing guidelines or recommendations for the medical condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.914
+        ],
+        [
+         "has dosage form",
+         0.8846
+        ],
+        [
+         "treats",
+         0.8807
+        ],
+        [
+         "used in population",
+         0.8659
+        ],
+        [
+         "has administration instruction",
+         0.8643
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has recommended dose",
+        "angina pectoris"
+       ],
+       "raw_relation": "has dosage instruction for",
+       "definition": "The subject drug has specific dosing guidelines or recommendations for the medical condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.914
+        ],
+        [
+         "has dosage form",
+         0.8846
+        ],
+        [
+         "treats",
+         0.8807
+        ],
+        [
+         "used in population",
+         0.8659
+        ],
+        [
+         "has administration instruction",
+         0.8643
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has recommended dose",
+        "coronary artery disease"
+       ],
+       "raw_relation": "has dosage instruction for",
+       "definition": "The subject drug has specific dosing guidelines or recommendations for the medical condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.914
+        ],
+        [
+         "has dosage form",
+         0.8846
+        ],
+        [
+         "treats",
+         0.8807
+        ],
+        [
+         "used in population",
+         0.8659
+        ],
+        [
+         "has administration instruction",
+         0.8643
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has recommended dose",
+        "geriatric hypertension"
+       ],
+       "raw_relation": "has dosage instruction for",
+       "definition": "The subject drug has specific dosing guidelines or recommendations for the medical condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.914
+        ],
+        [
+         "has dosage form",
+         0.8846
+        ],
+        [
+         "treats",
+         0.8807
+        ],
+        [
+         "used in population",
+         0.8659
+        ],
+        [
+         "has administration instruction",
+         0.8643
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has recommended dose",
+        "geriatric angina pectoris"
+       ],
+       "raw_relation": "has dosage instruction for",
+       "definition": "The subject drug has specific dosing guidelines or recommendations for the medical condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.914
+        ],
+        [
+         "has dosage form",
+         0.8846
+        ],
+        [
+         "treats",
+         0.8807
+        ],
+        [
+         "used in population",
+         0.8659
+        ],
+        [
+         "has administration instruction",
+         0.8643
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "amlodipine#dosage#1",
+     "section_id": "dosage",
+     "section_heading": "Amlodipine Dosing Information",
+     "text": "Initial dose: 5 mg orally once a day Maintenance dose: 5 to 10 mg orally once a day Maximum dose: 10 mg/day.. Uses: Alone or in combination with other antianginal agents for the symptomatic treatment of chronic stable angina -Alone or in combination with other antianginal agents for the treatment of confirmed/suspected vasospastic angina -To reduce the risk of hospitalization for angina and to reduce the risk of a coronary revascularization procedure in patients with recently documented CAD by angiography and without heart failure or an ejection fraction less than 40%\nUsual Pediatric Dose for Hypertension:\n6 to 17 years: -Maintenance dose: 2.5 to 5 mg orally once a day -Maximum dose: 5 mg/day Comments: Doses higher than 5 mg have not been studied in pediatric patients. The dosage should be adjusted according to patient response. In general, titration should proceed over 7 to 14 days. If clinically warranted, titration may proceed more rapidly, provided the patient is assessed frequently. Use: Alone or in combination with other antihypertensive agents to treat hypertension",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Amlodipine\", \"has recommended dose\", \"5 mg once daily\"], [\"Amlodipine\", \"has maintenance dose\", \"5 to 10 mg once daily\"], [\"Amlodipine\", \"has maximum dose\", \"10 mg/day\"], [\"Amlodipine\", \"treats\", \"chronic stable angina\"], [\"Amlodipine\", \"used in combination with\", \"other antianginal agents\"], [\"Amlodipine\", \"treats\", \"vasospastic angina\"], [\"Amlodipine\", \"reduces risk of\", \"hospitalization for angina\"], [\"Amlodipine\", \"reduces risk of\", \"coronary revascularization procedure\"], [\"Amlodipine\", \"has pediatric maintenance dose\", \"2.5 to 5 mg once daily\"], [\"Amlodipine\", \"has pediatric maximum dose\", \"5 mg/day\"], [\"Amlodipine\", \"has warning\", \"doses higher than 5 mg not studied in pediatric patients\"], [\"Amlodipine\", \"has administration instruction\", \"titrate over 7 to 14 days\"], [\"Amlodipine\", \"has administration instruction\", \"titration may proceed more rapidly with frequent assessment\"], [\"Amlodipine\", \"used in combination with\", \"other antihypertensive agents\"], [\"Amlodipine\", \"treats\", \"hypertension\"]]",
+     "oie": [
+      [
+       "Amlodipine",
+       "has recommended dose",
+       "5 mg once daily"
+      ],
+      [
+       "Amlodipine",
+       "has maintenance dose",
+       "5 to 10 mg once daily"
+      ],
+      [
+       "Amlodipine",
+       "has maximum dose",
+       "10 mg/day"
+      ],
+      [
+       "Amlodipine",
+       "treats",
+       "chronic stable angina"
+      ],
+      [
+       "Amlodipine",
+       "used in combination with",
+       "other antianginal agents"
+      ],
+      [
+       "Amlodipine",
+       "treats",
+       "vasospastic angina"
+      ],
+      [
+       "Amlodipine",
+       "reduces risk of",
+       "hospitalization for angina"
+      ],
+      [
+       "Amlodipine",
+       "reduces risk of",
+       "coronary revascularization procedure"
+      ],
+      [
+       "Amlodipine",
+       "has pediatric maintenance dose",
+       "2.5 to 5 mg once daily"
+      ],
+      [
+       "Amlodipine",
+       "has pediatric maximum dose",
+       "5 mg/day"
+      ],
+      [
+       "Amlodipine",
+       "has warning",
+       "doses higher than 5 mg not studied in pediatric patients"
+      ],
+      [
+       "Amlodipine",
+       "has administration instruction",
+       "titrate over 7 to 14 days"
+      ],
+      [
+       "Amlodipine",
+       "has administration instruction",
+       "titration may proceed more rapidly with frequent assessment"
+      ],
+      [
+       "Amlodipine",
+       "used in combination with",
+       "other antihypertensive agents"
+      ],
+      [
+       "Amlodipine",
+       "treats",
+       "hypertension"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug should be titrated or administered according to the specified instructions for optimal safety and efficacy.",
+      "has maintenance dose": "The subject drug is prescribed at the dose range specified by the object entity for ongoing management of the condition.",
+      "has maximum dose": "The highest recommended dose of the subject drug for a given patient population or condition is specified by the object entity.",
+      "has pediatric maintenance dose": "The recommended dose range for the subject drug in pediatric patients for ongoing management of the condition is specified by the object entity.",
+      "has pediatric maximum dose": "The highest recommended dose of the subject drug for pediatric patients is specified by the object entity.",
+      "has recommended dose": "The initial or standard dose of the subject drug for adult patients is specified by the object entity.",
+      "has warning": "The subject drug has a caution or limitation regarding the use of doses or populations specified by the object entity.",
+      "reduces risk of": "The subject drug is used to lower the risk of the medical event or condition specified by the object entity.",
+      "treats": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+      "used in combination with": "The subject drug is prescribed alongside other medications specified by the object entity to achieve therapeutic effect."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Amlodipine",
+        "has recommended dose",
+        "5 mg once daily"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The initial or standard dose of the subject drug for adult patients is specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has recommended dose",
+        "5 to 10 mg once daily"
+       ],
+       "raw_relation": "has maintenance dose",
+       "definition": "The subject drug is prescribed at the dose range specified by the object entity for ongoing management of the condition.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.9155
+        ],
+        [
+         "has dosage form",
+         0.8764
+        ],
+        [
+         "treats",
+         0.8744
+        ],
+        [
+         "has strength",
+         0.8671
+        ],
+        [
+         "used in population",
+         0.8638
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has maximum dose",
+        "10 mg/day"
+       ],
+       "raw_relation": "has maximum dose",
+       "definition": "The highest recommended dose of the subject drug for a given patient population or condition is specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "treats",
+        "chronic stable angina"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "used in combination with",
+        "other antianginal agents"
+       ],
+       "raw_relation": "used in combination with",
+       "definition": "The subject drug is prescribed alongside other medications specified by the object entity to achieve therapeutic effect.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "treats",
+        "vasospastic angina"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "reduces risk of",
+        "hospitalization for angina"
+       ],
+       "raw_relation": "reduces risk of",
+       "definition": "The subject drug is used to lower the risk of the medical event or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "reduces risk of",
+        "coronary revascularization procedure"
+       ],
+       "raw_relation": "reduces risk of",
+       "definition": "The subject drug is used to lower the risk of the medical event or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has recommended dose",
+        "2.5 to 5 mg once daily"
+       ],
+       "raw_relation": "has pediatric maintenance dose",
+       "definition": "The recommended dose range for the subject drug in pediatric patients for ongoing management of the condition is specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.8689
+        ],
+        [
+         "used in population",
+         0.8318
+        ],
+        [
+         "has strength",
+         0.8284
+        ],
+        [
+         "has dosage form",
+         0.8228
+        ],
+        [
+         "treats",
+         0.8043
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has maximum dose",
+        "5 mg/day"
+       ],
+       "raw_relation": "has pediatric maximum dose",
+       "definition": "The highest recommended dose of the subject drug for pediatric patients is specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.8437
+        ],
+        [
+         "has strength",
+         0.832
+        ],
+        [
+         "has maximum dose",
+         0.8191
+        ],
+        [
+         "has dosage form",
+         0.8113
+        ],
+        [
+         "used in population",
+         0.8033
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has warning",
+        "doses higher than 5 mg not studied in pediatric patients"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug has a caution or limitation regarding the use of doses or populations specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has administration instruction",
+        "titrate over 7 to 14 days"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be titrated or administered according to the specified instructions for optimal safety and efficacy.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "has administration instruction",
+        "titration may proceed more rapidly with frequent assessment"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be titrated or administered according to the specified instructions for optimal safety and efficacy.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "used in combination with",
+        "other antihypertensive agents"
+       ],
+       "raw_relation": "used in combination with",
+       "definition": "The subject drug is prescribed alongside other medications specified by the object entity to achieve therapeutic effect.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Amlodipine",
+        "treats",
+        "hypertension"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to treat or manage the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "amlodipine#missed-dose#0",
+     "section_id": "missed-dose",
+     "section_heading": "What happens if I miss a dose?",
+     "text": "Take the medicine as soon as you can, but skip the missed dose if you are more than 12 hours late for the dose. Do not take two doses at one time.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"amlodipine\", \"has missed dose instruction\", \"take as soon as possible if more than 12 hours late\"], [\"amlodipine\", \"has administration instruction\", \"do not take two doses at one time\"]]",
+     "oie": [
+      [
+       "amlodipine",
+       "has missed dose instruction",
+       "take as soon as possible if more than 12 hours late"
+      ],
+      [
+       "amlodipine",
+       "has administration instruction",
+       "do not take two doses at one time"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug includes a specific instruction regarding its administration that patients should follow to ensure safe and effective use.",
+      "has missed dose instruction": "If a dose of the subject drug is missed and more than 12 hours have passed, the patient should take it as soon as possible, following the specified guidance."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "amlodipine",
+        "has missed dose instruction",
+        "take as soon as possible if more than 12 hours late"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "If a dose of the subject drug is missed and more than 12 hours have passed, the patient should take it as soon as possible, following the specified guidance.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has administration instruction",
+        "do not take two doses at one time"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug includes a specific instruction regarding its administration that patients should follow to ensure safe and effective use.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "amlodipine#overdose#0",
+     "section_id": "overdose",
+     "section_heading": "What happens if I overdose?",
+     "text": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.\nOverdose symptoms may include rapid heartbeats, redness or warmth in your arms or legs, or fainting.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"amlodipine\", \"has overdose instruction\", \"seek emergency medical attention\"], [\"amlodipine\", \"has overdose instruction\", \"call Poison Help line at 1-800-222-1222\"], [\"amlodipine\", \"has overdose symptom\", \"rapid heartbeats\"], [\"amlodipine\", \"has overdose symptom\", \"redness or warmth in arms or legs\"], [\"amlodipine\", \"has overdose symptom\", \"fainting\"]]",
+     "oie": [
+      [
+       "amlodipine",
+       "has overdose instruction",
+       "seek emergency medical attention"
+      ],
+      [
+       "amlodipine",
+       "has overdose instruction",
+       "call Poison Help line at 1-800-222-1222"
+      ],
+      [
+       "amlodipine",
+       "has overdose symptom",
+       "rapid heartbeats"
+      ],
+      [
+       "amlodipine",
+       "has overdose symptom",
+       "redness or warmth in arms or legs"
+      ],
+      [
+       "amlodipine",
+       "has overdose symptom",
+       "fainting"
+      ]
+     ],
+     "schema_definition": {
+      "has overdose instruction": "The subject drug requires the action specified by the object entity in case of overdose.",
+      "has overdose symptom": "An overdose of the subject drug may cause the symptom specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "amlodipine",
+        "has overdose instruction",
+        "seek emergency medical attention"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has overdose instruction",
+        "call Poison Help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has overdose symptom",
+        "rapid heartbeats"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has overdose symptom",
+        "redness or warmth in arms or legs"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has overdose symptom",
+        "fainting"
+       ],
+       "raw_relation": "has overdose symptom",
+       "definition": "An overdose of the subject drug may cause the symptom specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "amlodipine#what-to-avoid#0",
+     "section_id": "what-to-avoid",
+     "section_heading": "What should I avoid while taking amlodipine?",
+     "text": "Avoid getting up too fast from a sitting or lying position, or you may feel dizzy.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"amlodipine\", \"has precaution\", \"avoid rapid position changes\"]]",
+     "oie": [
+      [
+       "amlodipine",
+       "has precaution",
+       "avoid rapid position changes"
+      ]
+     ],
+     "schema_definition": {
+      "has precaution": "The subject drug requires patients to avoid the specified action or condition to prevent potential adverse effects."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "amlodipine",
+        "has warning",
+        "avoid rapid position changes"
+       ],
+       "raw_relation": "has precaution",
+       "definition": "The subject drug requires patients to avoid the specified action or condition to prevent potential adverse effects.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should be avoided with",
+         0.852
+        ],
+        [
+         "use with caution in",
+         0.8186
+        ],
+        [
+         "reduces risk of",
+         0.8127
+        ],
+        [
+         "not used to treat",
+         0.8045
+        ],
+        [
+         "has warning",
+         0.7975
+        ]
+       ],
+       "answer": "E"
+      }
+     ]
+    },
+    {
+     "chunk_id": "amlodipine#interactions#0",
+     "section_id": "interactions",
+     "section_heading": "What other drugs will affect amlodipine?",
+     "text": "Sometimes it is not safe to use certain medicines at the same time. Some drugs can affect your blood levels of other drugs you use, which may increase side effects or make the medicines less effective.\nOther drugs may interact with amlodipine, including prescription and over-the-counter medicines, vitamins, and herbal products. Tell your doctor about all other medicines you use.\nTell your doctor if you take simvastatin. You should not take more than 20 mg of simvastatin daily while taking amlodipine.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"amlodipine\", \"interacts with\", \"prescription medicines\"], [\"amlodipine\", \"interacts with\", \"over-the-counter medicines\"], [\"amlodipine\", \"interacts with\", \"vitamins\"], [\"amlodipine\", \"interacts with\", \"herbal products\"], [\"amlodipine\", \"has interaction warning\", \"simvastatin\"], [\"amlodipine\", \"has dosage restriction with\", \"simvastatin\"], [\"simvastatin\", \"has maximum daily dose\", \"20 mg\"]])",
+     "oie": [
+      [
+       "amlodipine",
+       "interacts with",
+       "prescription medicines"
+      ],
+      [
+       "amlodipine",
+       "interacts with",
+       "over-the-counter medicines"
+      ],
+      [
+       "amlodipine",
+       "interacts with",
+       "vitamins"
+      ],
+      [
+       "amlodipine",
+       "interacts with",
+       "herbal products"
+      ],
+      [
+       "amlodipine",
+       "has interaction warning",
+       "simvastatin"
+      ],
+      [
+       "amlodipine",
+       "has dosage restriction with",
+       "simvastatin"
+      ],
+      [
+       "simvastatin",
+       "has maximum daily dose",
+       "20 mg"
+      ]
+     ],
+     "schema_definition": {
+      "interacts with": "The subject drug may have a pharmacological interaction with the object drug or substance, potentially affecting its efficacy or increasing side effects.",
+      "has dosage restriction with": "The subject drug requires a specific dosage limit when used concurrently with the object drug or substance to ensure safety.",
+      "has interaction warning": "The subject drug carries a warning that its use with the object drug or substance may lead to adverse effects or reduced effectiveness.",
+      "has maximum daily dose": "The object drug has a defined upper limit for daily intake, which must be adhered to when used in combination with the subject drug."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "amlodipine",
+        "interacts with",
+        "prescription medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object drug or substance, potentially affecting its efficacy or increasing side effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "interacts with",
+        "over-the-counter medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object drug or substance, potentially affecting its efficacy or increasing side effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "interacts with",
+        "vitamins"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object drug or substance, potentially affecting its efficacy or increasing side effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "interacts with",
+        "herbal products"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the object drug or substance, potentially affecting its efficacy or increasing side effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has warning",
+        "simvastatin"
+       ],
+       "raw_relation": "has interaction warning",
+       "definition": "The subject drug carries a warning that its use with the object drug or substance may lead to adverse effects or reduced effectiveness.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has warning",
+         0.8735
+        ],
+        [
+         "has side effect",
+         0.8723
+        ],
+        [
+         "interacts with",
+         0.869
+        ],
+        [
+         "has serious side effect",
+         0.8395
+        ],
+        [
+         "reduces risk of",
+         0.8265
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "amlodipine",
+        "has warning",
+        "simvastatin"
+       ],
+       "raw_relation": "has dosage restriction with",
+       "definition": "The subject drug requires a specific dosage limit when used concurrently with the object drug or substance to ensure safety.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has recommended dose",
+         0.8144
+        ],
+        [
+         "has dosage form",
+         0.8141
+        ],
+        [
+         "has warning",
+         0.811
+        ],
+        [
+         "has strength",
+         0.8083
+        ],
+        [
+         "has administration instruction",
+         0.8079
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "simvastatin",
+        "has maximum dose",
+        "20 mg"
+       ],
+       "raw_relation": "has maximum daily dose",
+       "definition": "The object drug has a defined upper limit for daily intake, which must be adhered to when used in combination with the subject drug.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has maximum dose",
+         0.8254
+        ],
+        [
+         "has administration instruction",
+         0.7939
+        ],
+        [
+         "has recommended dose",
+         0.7823
+        ],
+        [
+         "used in combination with",
+         0.7796
+        ],
+        [
+         "has dosage form",
+         0.7791
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "treats",
+    "high blood pressure"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "treats",
+    "angina"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "belongs to drug class",
+    "calcium channel blockers"
+   ],
+   "raw_relation": "belongs to drug class",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "has mechanism of action",
+    "relaxing and widening blood vessels"
+   ],
+   "raw_relation": "has mechanism of action",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "has mechanism of action",
+    "blood vessels"
+   ],
+   "raw_relation": "improves blood flow",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "increases level of",
+    "increasing blood supply to heart"
+   ],
+   "raw_relation": "controls angina by",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "not used to treat",
+    "acute chest pain"
+   ],
+   "raw_relation": "does not stop chest pain once it starts",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "used in population",
+    "adults and children at least 6 years old"
+   ],
+   "raw_relation": "has recommended use",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "reduces risk of",
+    "stroke"
+   ],
+   "raw_relation": "reduces risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "reduces risk of",
+    "heart attack"
+   ],
+   "raw_relation": "reduces risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "has dosage form",
+    "oral tablet"
+   ],
+   "raw_relation": "has dosage form",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "has strength",
+    "5 mg"
+   ],
+   "raw_relation": "has strength",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "has strength",
+    "10 mg"
+   ],
+   "raw_relation": "has strength",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "has strength",
+    "2.5 mg"
+   ],
+   "raw_relation": "has strength",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "has dosage form",
+    "oral solution"
+   ],
+   "raw_relation": "has dosage form",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "has dosage form",
+    "oral suspension"
+   ],
+   "raw_relation": "has dosage form",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "has dosage form",
+    "single-dose powder for oral solution"
+   ],
+   "raw_relation": "has dosage form",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "has brand name",
+    "Norvasc"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "has brand name",
+    "Norliqva"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "has brand name",
+    "Katerzia"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "Amlodipine",
+    "has brand name",
+    "Sdamlo"
+   ],
+   "raw_relation": "has brand name",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has side effect",
+    "dizziness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has side effect",
+    "drowsiness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has side effect",
+    "swelling of legs or ankles"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has side effect",
+    "irregular heartbeat"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has side effect",
+    "pounding heartbeats or fluttering in chest"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has side effect",
+    "muscle stiffness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has side effect",
+    "uncontrolled muscle movements"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has side effect",
+    "feeling tired"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has side effect",
+    "stomach pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has side effect",
+    "nausea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has side effect",
+    "flushing"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has warning",
+    "chest pain may worsen on initiation"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has warning",
+    "risk of heart attack on initiation"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has serious side effect",
+    "chest pain or pressure"
+   ],
+   "raw_relation": "has symptom of serious event",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has serious side effect",
+    "pain spreading to jaw or shoulder"
+   ],
+   "raw_relation": "has symptom of serious event",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has serious side effect",
+    "nausea"
+   ],
+   "raw_relation": "has symptom of serious event",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has serious side effect",
+    "sweating"
+   ],
+   "raw_relation": "has symptom of serious event",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has instruction",
+    "seek emergency medical attention for worsening chest pain"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has instruction",
+    "call doctor immediately for light-headed feeling"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has side effect",
+    "unknown side effects"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has instruction",
+    "call doctor for medical advice about side effects"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "amlodipine",
+    "has instruction",
+    "report side effects to FDA at 1-800-FDA-1088"
+   ],
+   "raw_relation": "has reporting instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amlodipine",
+    "used in combination with",
+    "congestive heart failure evaluation"
+   ],
+   "raw_relation": "should be used with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amlodipine",
+    "requires monitoring of",
+    "liver disease evaluation"
+   ],
+   "raw_relation": "should be used with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amlodipine",
+    "interacts with",
+    "alcohol"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amlodipine",
+    "has warning",
+    "low blood pressure"
+   ],
+   "raw_relation": "has risk factor",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amlodipine",
+    "has serious side effect",
+    "alcohol use"
+   ],
+   "raw_relation": "has side effect exacerbation",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amlodipine",
+    "treats",
+    "high blood pressure"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amlodipine",
+    "used in combination with",
+    "diet"
+   ],
+   "raw_relation": "has treatment component",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amlodipine",
+    "used in combination with",
+    "exercise"
+   ],
+   "raw_relation": "has treatment component",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amlodipine",
+    "used in combination with",
+    "weight control"
+   ],
+   "raw_relation": "has treatment component",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amlodipine",
+    "used in combination with",
+    "other medications"
+   ],
+   "raw_relation": "has treatment component",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amlodipine",
+    "has warning",
+    "chest pain may worsen at start or dose increase"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amlodipine",
+    "requires monitoring of",
+    "blood pressure"
+   ],
+   "raw_relation": "requires monitoring of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amlodipine",
+    "interacts with",
+    "other heart or blood pressure medications"
+   ],
+   "raw_relation": "has medication interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amlodipine",
+    "has side effect",
+    "worsening chest pain"
+   ],
+   "raw_relation": "has symptom",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "Amlodipine",
+    "has instruction",
+    "call doctor if chest pain is severe or ongoing"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "amlodipine",
+    "contraindicated in",
+    "allergy to amlodipine"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "amlodipine",
+    "use with caution in",
+    "aortic stenosis"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "amlodipine",
+    "use with caution in",
+    "heart problems"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "amlodipine",
+    "use with caution in",
+    "coronary artery disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "amlodipine",
+    "use with caution in",
+    "liver disease"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "amlodipine",
+    "has pregnancy or breastfeeding warning",
+    "may harm an unborn baby"
+   ],
+   "raw_relation": "has pregnancy or breastfeeding warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "amlodipine",
+    "has pregnancy or breastfeeding warning",
+    "do not breastfeed"
+   ],
+   "raw_relation": "has breastfeeding instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "amlodipine",
+    "has pregnancy or breastfeeding warning",
+    "can stop breastfeeding or take different medicine"
+   ],
+   "raw_relation": "has breastfeeding instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "has administration instruction",
+    "take exactly as prescribed by your doctor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "has administration instruction",
+    "follow all directions on prescription label"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "has administration instruction",
+    "read all medication guides or instruction sheets"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "has administration instruction",
+    "doctor may occasionally change your dose"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "has administration instruction",
+    "once per day"
+   ],
+   "raw_relation": "has dosing frequency",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "has administration instruction",
+    "take at the same time each day with or without food"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "has administration instruction",
+    "shake the oral suspension"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "has administration instruction",
+    "measure dose with supplied measuring device"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "has dosage form",
+    "oral solution"
+   ],
+   "raw_relation": "has dosage form",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "has dosage form",
+    "oral tablet"
+   ],
+   "raw_relation": "has dosage form",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "has dosage form",
+    "mix powder with water to make liquid"
+   ],
+   "raw_relation": "has preparation method",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "has storage instruction",
+    "throw away mixed Sdamlo if not taken within 60 minutes"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "requires monitoring of",
+    "blood pressure check often"
+   ],
+   "raw_relation": "has monitoring requirement",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "has instruction",
+    "continue use even if feeling well if high blood pressure"
+   ],
+   "raw_relation": "has patient instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "has instruction",
+    "high blood pressure often has no symptoms"
+   ],
+   "raw_relation": "has patient instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "has instruction",
+    "do not change doses or stop medication without doctor's advice"
+   ],
+   "raw_relation": "has patient instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "used in combination with",
+    "diet"
+   ],
+   "raw_relation": "has treatment component",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "used in combination with",
+    "exercise"
+   ],
+   "raw_relation": "has treatment component",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "used in combination with",
+    "weight control"
+   ],
+   "raw_relation": "has treatment component",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#directions#0",
+   "section_id": "directions",
+   "triplet": [
+    "Amlodipine",
+    "treats",
+    "blood tests"
+   ],
+   "raw_relation": "has treatment component",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#directions#1",
+   "section_id": "directions",
+   "triplet": [
+    "amlodipine",
+    "has storage instruction",
+    "store oral tablet at room temperature away from moisture and heat and light"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#directions#1",
+   "section_id": "directions",
+   "triplet": [
+    "amlodipine",
+    "has storage instruction",
+    "store oral suspension in refrigerator and do not freeze"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "amlodipine",
+    "has recommended dose",
+    "5 mg once daily"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "amlodipine",
+    "has recommended dose",
+    "5 to 10 mg once daily"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "amlodipine",
+    "has maximum dose",
+    "10 mg/day"
+   ],
+   "raw_relation": "has maximum dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "amlodipine",
+    "has recommended dose",
+    "5 mg once daily"
+   ],
+   "raw_relation": "has initial dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "amlodipine",
+    "has recommended dose",
+    "2.5 mg once daily"
+   ],
+   "raw_relation": "has initial dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "amlodipine",
+    "has recommended dose",
+    "5 to 10 mg once daily"
+   ],
+   "raw_relation": "has maintenance dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "amlodipine",
+    "has recommended dose",
+    "2.5 to 10 mg once daily"
+   ],
+   "raw_relation": "has maintenance dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "amlodipine",
+    "has recommended dose",
+    "hypertension"
+   ],
+   "raw_relation": "has dosage instruction for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "amlodipine",
+    "has recommended dose",
+    "angina pectoris"
+   ],
+   "raw_relation": "has dosage instruction for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "amlodipine",
+    "has recommended dose",
+    "coronary artery disease"
+   ],
+   "raw_relation": "has dosage instruction for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "amlodipine",
+    "has recommended dose",
+    "geriatric hypertension"
+   ],
+   "raw_relation": "has dosage instruction for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "amlodipine",
+    "has recommended dose",
+    "geriatric angina pectoris"
+   ],
+   "raw_relation": "has dosage instruction for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Amlodipine",
+    "has recommended dose",
+    "5 mg once daily"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Amlodipine",
+    "has recommended dose",
+    "5 to 10 mg once daily"
+   ],
+   "raw_relation": "has maintenance dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Amlodipine",
+    "has maximum dose",
+    "10 mg/day"
+   ],
+   "raw_relation": "has maximum dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Amlodipine",
+    "treats",
+    "chronic stable angina"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Amlodipine",
+    "used in combination with",
+    "other antianginal agents"
+   ],
+   "raw_relation": "used in combination with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Amlodipine",
+    "treats",
+    "vasospastic angina"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Amlodipine",
+    "reduces risk of",
+    "hospitalization for angina"
+   ],
+   "raw_relation": "reduces risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Amlodipine",
+    "reduces risk of",
+    "coronary revascularization procedure"
+   ],
+   "raw_relation": "reduces risk of",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Amlodipine",
+    "has recommended dose",
+    "2.5 to 5 mg once daily"
+   ],
+   "raw_relation": "has pediatric maintenance dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Amlodipine",
+    "has maximum dose",
+    "5 mg/day"
+   ],
+   "raw_relation": "has pediatric maximum dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Amlodipine",
+    "has warning",
+    "doses higher than 5 mg not studied in pediatric patients"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Amlodipine",
+    "has administration instruction",
+    "titrate over 7 to 14 days"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Amlodipine",
+    "has administration instruction",
+    "titration may proceed more rapidly with frequent assessment"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Amlodipine",
+    "used in combination with",
+    "other antihypertensive agents"
+   ],
+   "raw_relation": "used in combination with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "Amlodipine",
+    "treats",
+    "hypertension"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "amlodipine",
+    "has missed dose instruction",
+    "take as soon as possible if more than 12 hours late"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "amlodipine",
+    "has administration instruction",
+    "do not take two doses at one time"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "amlodipine",
+    "has overdose instruction",
+    "seek emergency medical attention"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "amlodipine",
+    "has overdose instruction",
+    "call Poison Help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "amlodipine",
+    "has overdose symptom",
+    "rapid heartbeats"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "amlodipine",
+    "has overdose symptom",
+    "redness or warmth in arms or legs"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "amlodipine",
+    "has overdose symptom",
+    "fainting"
+   ],
+   "raw_relation": "has overdose symptom",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "amlodipine",
+    "has warning",
+    "avoid rapid position changes"
+   ],
+   "raw_relation": "has precaution",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "amlodipine",
+    "interacts with",
+    "prescription medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "amlodipine",
+    "interacts with",
+    "over-the-counter medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "amlodipine",
+    "interacts with",
+    "vitamins"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "amlodipine",
+    "interacts with",
+    "herbal products"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "amlodipine#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "amlodipine",
+    "has warning",
+    "simvastatin"
+   ],
+   "raw_relation": "has interaction warning",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "amlodipine",
+    "has warning",
+    "simvastatin"
+   ],
+   "raw_relation": "has dosage restriction with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "amlodipine#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "simvastatin",
+    "has maximum dose",
+    "20 mg"
+   ],
+   "raw_relation": "has maximum daily dose",
+   "status": "mapped"
+  }
+ ],
+ "name": "Amlodipine",
+ "slug": "amlodipine",
+ "n_chunks": 13,
+ "seconds": 16.5,
+ "llm_model": "drugkg-llm"
+}

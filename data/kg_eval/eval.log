@@ -1,0 +1,560 @@
+
+===== [2026-10-10 00:24:58] 0. stop vLLM servers to free both GPUs
+index, memory.used [MiB]
+0, 41 MiB
+1, 18 MiB
+
+===== [2026-10-10 00:25:03] 1. recall [text_edc]: prepare candidates (Qwen3-Embedding-0.6B, GPU0)
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 7820.72it/s]
+embedded=48/14127
+embedded=1008/14127
+embedded=1968/14127
+embedded=2928/14127
+embedded=3888/14127
+embedded=4848/14127
+embedded=5808/14127
+embedded=6768/14127
+embedded=7728/14127
+embedded=8688/14127
+embedded=9648/14127
+embedded=10608/14127
+embedded=11568/14127
+embedded=12528/14127
+embedded=13488/14127
+{"graph_total_edges": 12233, "selected_edge_count": 12233, "gt_count": 1894, "reused_judgment_count": 0}
+
+===== [2026-10-10 00:25:35] 1. recall [text_edc]: judge (Qwen3.5-9B, 2 shards on GPU0/GPU1)
+===== [2026-10-10 01:15:51] restarted after fixing the wait deadlock
+
+===== [2026-10-10 01:15:51] 0. stop vLLM servers to free both GPUs
+index, memory.used [MiB]
+0, 41 MiB
+1, 18 MiB
+
+===== [2026-10-10 01:15:51] 1. recall [text_edc]: prepare candidates (Qwen3-Embedding-0.6B, GPU0)
+candidates exist, reusing
+
+===== [2026-10-10 01:15:51] 1. recall [text_edc]: judge (Qwen3.5-9B, 2 shards on GPU0/GPU1)
+tail: option used in invalid context -- 2
+===== [2026-10-10 01:26:05] restarted after fixing tail syntax
+
+===== [2026-10-10 01:26:05] 0. stop vLLM servers to free both GPUs
+index, memory.used [MiB]
+0, 41 MiB
+1, 18 MiB
+
+===== [2026-10-10 01:26:05] 1. recall [text_edc]: prepare candidates (Qwen3-Embedding-0.6B, GPU0)
+candidates exist, reusing
+
+===== [2026-10-10 01:26:05] 1. recall [text_edc]: judge (Qwen3.5-9B, 2 shards on GPU0/GPU1)
+==> /home/heesun/graph/data/kg_eval/recall_text_edc/judge_0.log <==
+shard=0 targets=0
+shard=0 targets=0
+
+==> /home/heesun/graph/data/kg_eval/recall_text_edc/judge_1.log <==
+shard=1 targets=0
+shard=1 targets=0
+
+===== [2026-10-10 01:26:09] 1. recall [text_edc]: summarize
+  "match_percent": 28.6,
+  "match_or_partial_percent": 77.7
+}
+  "match_percent": 28.6,
+  "match_or_partial_percent": 77.7,
+      "match_percent": 52.8,
+      "match_or_partial_percent": 91.7
+      "match_percent": 17.2,
+      "match_or_partial_percent": 82.8
+      "match_percent": 31.4,
+      "match_or_partial_percent": 68.6
+      "match_percent": 16.7,
+      "match_or_partial_percent": 83.3
+      "match_percent": 17.6,
+      "match_or_partial_percent": 85.3
+      "match_percent": 17.1,
+      "match_or_partial_percent": 57.1
+      "match_percent": 15.6,
+      "match_or_partial_percent": 75.0
+      "match_percent": 52.9,
+      "match_or_partial_percent": 79.4
+      "match_percent": 29.0,
+      "match_or_partial_percent": 71.0
+      "match_percent": 53.8,
+      "match_or_partial_percent": 87.2
+      "match_percent": 15.2,
+      "match_or_partial_percent": 81.8
+      "match_percent": 19.4,
+      "match_or_partial_percent": 83.9
+      "match_percent": 17.1,
+      "match_or_partial_percent": 88.6
+      "match_percent": 36.4,
+      "match_or_partial_percent": 81.8
+      "match_percent": 27.6,
+      "match_or_partial_percent": 86.2
+      "match_percent": 37.5,
+      "match_or_partial_percent": 84.4
+      "match_percent": 18.8,
+      "match_or_partial_percent": 54.2
+      "match_percent": 56.2,
+      "match_or_partial_percent": 87.5
+      "match_percent": 42.4,
+      "match_or_partial_percent": 72.7
+      "match_percent": 27.5,
+      "match_or_partial_percent": 65.0
+      "match_percent": 45.9,
+      "match_or_partial_percent": 83.8
+      "match_percent": 22.6,
+      "match_or_partial_percent": 71.0
+      "match_percent": 28.9,
+      "match_or_partial_percent": 84.2
+      "match_percent": 37.5,
+      "match_or_partial_percent": 92.5
+      "match_percent": 23.5,
+      "match_or_partial_percent": 82.4
+      "match_percent": 16.0,
+      "match_or_partial_percent": 70.0
+      "match_percent": 48.5,
+      "match_or_partial_percent": 84.8
+      "match_percent": 11.5,
+      "match_or_partial_percent": 76.9
+      "match_percent": 26.7,
+      "match_or_partial_percent": 76.7
+      "match_percent": 13.3,
+      "match_or_partial_percent": 90.0
+      "match_percent": 24.4,
+      "match_or_partial_percent": 73.2
+      "match_percent": 25.6,
+      "match_or_partial_percent": 79.1
+      "match_percent": 25.5,
+      "match_or_partial_percent": 76.6
+      "match_percent": 7.5,
+      "match_or_partial_percent": 80.0
+      "match_percent": 37.7,
+      "match_or_partial_percent": 92.5
+      "match_percent": 51.7,
+      "match_or_partial_percent": 93.1
+      "match_percent": 43.8,
+      "match_or_partial_percent": 75.0
+      "match_percent": 27.9,
+      "match_or_partial_percent": 76.7
+      "match_percent": 22.9,
+      "match_or_partial_percent": 60.0
+      "match_percent": 20.3,
+      "match_or_partial_percent": 81.2
+      "match_percent": 14.6,
+      "match_or_partial_percent": 75.0
+      "match_percent": 36.1,
+      "match_or_partial_percent": 80.6
+      "match_percent": 37.7,
+      "match_or_partial_percent": 67.9
+      "match_percent": 29.7,
+      "match_or_partial_percent": 75.7
+      "match_percent": 27.8,
+      "match_or_partial_percent": 66.7
+      "match_percent": 26.8,
+      "match_or_partial_percent": 46.3
+      "match_percent": 17.5,
+      "match_or_partial_percent": 72.5
+      "match_percent": 25.7,
+      "match_or_partial_percent": 88.6
+      "match_percent": 19.7,
+      "match_or_partial_percent": 78.7
+      "match_percent": 41.0,
+      "match_or_partial_percent": 82.0
+      "match_percent": 30.6,
+      "match_or_partial_percent": 78.8
+      "match_percent": 27.0,
+      "match_or_partial_percent": 76.7
+
+===== [2026-10-10 01:26:14] 1. recall [decomp_edc]: prepare candidates (Qwen3-Embedding-0.6B, GPU0)
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 8262.85it/s]
+embedded=48/15092
+embedded=1008/15092
+embedded=1968/15092
+embedded=2928/15092
+embedded=3888/15092
+embedded=4848/15092
+embedded=5808/15092
+embedded=6768/15092
+embedded=7728/15092
+embedded=8688/15092
+embedded=9648/15092
+embedded=10608/15092
+embedded=11568/15092
+embedded=12528/15092
+embedded=13488/15092
+embedded=14448/15092
+{"graph_total_edges": 13198, "selected_edge_count": 13198, "gt_count": 1894, "reused_judgment_count": 0}
+
+===== [2026-10-10 01:26:41] 1. recall [decomp_edc]: judge (Qwen3.5-9B, 2 shards on GPU0/GPU1)
+==> /home/heesun/graph/data/kg_eval/recall_decomp_edc/judge_0.log <==
+judged=924/947
+completed
+
+==> /home/heesun/graph/data/kg_eval/recall_decomp_edc/judge_1.log <==
+judged=924/947
+completed
+
+===== [2026-10-10 01:38:18] 1. recall [decomp_edc]: summarize
+Traceback (most recent call last):
+  File "/home/heesun/graph/scripts/compare_gt_graph_semantics.py", line 703, in <module>
+    raise SystemExit(main())
+  File "/home/heesun/graph/scripts/compare_gt_graph_semantics.py", line 698, in main
+    else:summarize(args.output_dir)
+  File "/home/heesun/graph/scripts/compare_gt_graph_semantics.py", line 526, in summarize
+    raise ValueError(f"Invalid judgments require retry or review: {unresolved[:10]}")
+ValueError: Invalid judgments require retry or review: ['GT43_0007']
+===== [2026-10-10 01:52:14] restarted after JSON repair of GT43_0007 (decomp_edc)
+
+===== [2026-10-10 01:52:14] 0. stop vLLM servers to free both GPUs
+index, memory.used [MiB]
+0, 41 MiB
+1, 18 MiB
+
+===== [2026-10-10 01:52:14] 1. recall [text_edc]: already done, skipped
+
+===== [2026-10-10 01:52:14] 1. recall [decomp_edc]: prepare candidates (Qwen3-Embedding-0.6B, GPU0)
+candidates exist, reusing
+
+===== [2026-10-10 01:52:14] 1. recall [decomp_edc]: judge (Qwen3.5-9B, 2 shards on GPU0/GPU1)
+==> /home/heesun/graph/data/kg_eval/recall_decomp_edc/judge_0.log <==
+completed
+shard=0 targets=0
+
+==> /home/heesun/graph/data/kg_eval/recall_decomp_edc/judge_1.log <==
+completed
+shard=1 targets=0
+
+===== [2026-10-10 01:52:18] 1. recall [decomp_edc]: repair judgments whose JSON only lacks a closing quote/brace, then summarize
+{"repaired": []}
+  "match_percent": 28.6,
+  "match_or_partial_percent": 77.1
+}
+  "match_percent": 28.6,
+  "match_or_partial_percent": 77.1,
+      "match_percent": 61.1,
+      "match_or_partial_percent": 97.2
+      "match_percent": 13.8,
+      "match_or_partial_percent": 58.6
+      "match_percent": 31.4,
+      "match_or_partial_percent": 71.4
+      "match_percent": 16.7,
+      "match_or_partial_percent": 76.7
+      "match_percent": 20.6,
+      "match_or_partial_percent": 70.6
+      "match_percent": 17.1,
+      "match_or_partial_percent": 57.1
+      "match_percent": 18.8,
+      "match_or_partial_percent": 87.5
+      "match_percent": 61.8,
+      "match_or_partial_percent": 91.2
+      "match_percent": 32.3,
+      "match_or_partial_percent": 77.4
+      "match_percent": 53.8,
+      "match_or_partial_percent": 92.3
+      "match_percent": 18.2,
+      "match_or_partial_percent": 78.8
+      "match_percent": 22.6,
+      "match_or_partial_percent": 93.5
+      "match_percent": 17.1,
+      "match_or_partial_percent": 94.3
+      "match_percent": 40.9,
+      "match_or_partial_percent": 81.8
+      "match_percent": 17.2,
+      "match_or_partial_percent": 79.3
+      "match_percent": 34.4,
+      "match_or_partial_percent": 90.6
+      "match_percent": 25.0,
+      "match_or_partial_percent": 60.4
+      "match_percent": 53.1,
+      "match_or_partial_percent": 84.4
+      "match_percent": 39.4,
+      "match_or_partial_percent": 81.8
+      "match_percent": 32.5,
+      "match_or_partial_percent": 75.0
+      "match_percent": 27.0,
+      "match_or_partial_percent": 64.9
+      "match_percent": 29.0,
+      "match_or_partial_percent": 83.9
+      "match_percent": 21.1,
+      "match_or_partial_percent": 84.2
+      "match_percent": 37.5,
+      "match_or_partial_percent": 90.0
+      "match_percent": 20.6,
+      "match_or_partial_percent": 76.5
+      "match_percent": 22.0,
+      "match_or_partial_percent": 70.0
+      "match_percent": 42.4,
+      "match_or_partial_percent": 84.8
+      "match_percent": 19.2,
+      "match_or_partial_percent": 73.1
+      "match_percent": 26.7,
+      "match_or_partial_percent": 66.7
+      "match_percent": 13.3,
+      "match_or_partial_percent": 80.0
+      "match_percent": 26.8,
+      "match_or_partial_percent": 78.0
+      "match_percent": 23.3,
+      "match_or_partial_percent": 79.1
+      "match_percent": 27.7,
+      "match_or_partial_percent": 78.7
+      "match_percent": 12.5,
+      "match_or_partial_percent": 87.5
+      "match_percent": 37.7,
+      "match_or_partial_percent": 86.8
+      "match_percent": 48.3,
+      "match_or_partial_percent": 93.1
+      "match_percent": 46.9,
+      "match_or_partial_percent": 71.9
+      "match_percent": 16.3,
+      "match_or_partial_percent": 67.4
+      "match_percent": 25.7,
+      "match_or_partial_percent": 60.0
+      "match_percent": 23.4,
+      "match_or_partial_percent": 76.6
+      "match_percent": 14.6,
+      "match_or_partial_percent": 79.2
+      "match_percent": 41.7,
+      "match_or_partial_percent": 75.0
+      "match_percent": 34.0,
+      "match_or_partial_percent": 58.5
+      "match_percent": 29.7,
+      "match_or_partial_percent": 70.3
+      "match_percent": 11.1,
+      "match_or_partial_percent": 44.4
+      "match_percent": 29.3,
+      "match_or_partial_percent": 61.0
+      "match_percent": 17.5,
+      "match_or_partial_percent": 75.0
+      "match_percent": 11.4,
+      "match_or_partial_percent": 74.3
+      "match_percent": 21.3,
+      "match_or_partial_percent": 82.0
+      "match_percent": 47.5,
+      "match_or_partial_percent": 88.5
+      "match_percent": 30.7,
+      "match_or_partial_percent": 79.8
+      "match_percent": 26.9,
+      "match_or_partial_percent": 74.9
+
+===== [2026-10-10 01:52:24] 1. recall [coref_decomp_edc]: prepare candidates (Qwen3-Embedding-0.6B, GPU0)
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 8502.38it/s]
+embedded=48/15138
+embedded=1008/15138
+embedded=1968/15138
+embedded=2928/15138
+embedded=3888/15138
+embedded=4848/15138
+embedded=5808/15138
+embedded=6768/15138
+embedded=7728/15138
+embedded=8688/15138
+embedded=9648/15138
+embedded=10608/15138
+embedded=11568/15138
+embedded=12528/15138
+embedded=13488/15138
+embedded=14448/15138
+{"graph_total_edges": 13244, "selected_edge_count": 13244, "gt_count": 1894, "reused_judgment_count": 0}
+
+===== [2026-10-10 01:52:52] 1. recall [coref_decomp_edc]: judge (Qwen3.5-9B, 2 shards on GPU0/GPU1)
+==> /home/heesun/graph/data/kg_eval/recall_coref_decomp_edc/judge_0.log <==
+judged=924/947
+completed
+
+==> /home/heesun/graph/data/kg_eval/recall_coref_decomp_edc/judge_1.log <==
+judged=924/947
+completed
+
+===== [2026-10-10 02:04:24] 1. recall [coref_decomp_edc]: repair judgments whose JSON only lacks a closing quote/brace, then summarize
+{"repaired": [{"file": "judgments_0.jsonl", "gt_id": "GT26_0017", "status": "match", "appended": "}"}, {"file": "judgments_0.jsonl", "gt_id": "GT33_0014", "status": "match", "appended": "}"}, {"file": "judgments_0.jsonl", "gt_id": "GT35_0031", "status": "partial", "appended": "\"}"}, {"file": "judgments_0.jsonl", "gt_id": "GT36_0008", "status": "match", "appended": "}"}, {"file": "judgments_1.jsonl", "gt_id": "GT08_0027", "status": "match", "appended": "}"}, {"file": "judgments_1.jsonl", "gt_id": "GT18_0009", "status": "match", "appended": "}"}, {"file": "judgments_1.jsonl", "gt_id": "GT19_0013", "status": "match", "appended": "}"}]}
+  "match_percent": 27.5,
+  "match_or_partial_percent": 75.3
+}
+  "match_percent": 27.5,
+  "match_or_partial_percent": 75.3,
+      "match_percent": 58.3,
+      "match_or_partial_percent": 94.4
+      "match_percent": 10.3,
+      "match_or_partial_percent": 51.7
+      "match_percent": 34.3,
+      "match_or_partial_percent": 65.7
+      "match_percent": 16.7,
+      "match_or_partial_percent": 80.0
+      "match_percent": 20.6,
+      "match_or_partial_percent": 79.4
+      "match_percent": 17.1,
+      "match_or_partial_percent": 57.1
+      "match_percent": 15.6,
+      "match_or_partial_percent": 90.6
+      "match_percent": 44.1,
+      "match_or_partial_percent": 85.3
+      "match_percent": 32.3,
+      "match_or_partial_percent": 67.7
+      "match_percent": 53.8,
+      "match_or_partial_percent": 92.3
+      "match_percent": 18.2,
+      "match_or_partial_percent": 57.6
+      "match_percent": 22.6,
+      "match_or_partial_percent": 87.1
+      "match_percent": 17.1,
+      "match_or_partial_percent": 85.7
+      "match_percent": 40.9,
+      "match_or_partial_percent": 77.3
+      "match_percent": 20.7,
+      "match_or_partial_percent": 82.8
+      "match_percent": 37.5,
+      "match_or_partial_percent": 78.1
+      "match_percent": 25.0,
+      "match_or_partial_percent": 64.6
+      "match_percent": 34.4,
+      "match_or_partial_percent": 75.0
+      "match_percent": 39.4,
+      "match_or_partial_percent": 78.8
+      "match_percent": 27.5,
+      "match_or_partial_percent": 75.0
+      "match_percent": 24.3,
+      "match_or_partial_percent": 59.5
+      "match_percent": 25.8,
+      "match_or_partial_percent": 58.1
+      "match_percent": 23.7,
+      "match_or_partial_percent": 86.8
+      "match_percent": 20.0,
+      "match_or_partial_percent": 77.5
+      "match_percent": 26.5,
+      "match_or_partial_percent": 82.4
+      "match_percent": 22.0,
+      "match_or_partial_percent": 70.0
+      "match_percent": 39.4,
+      "match_or_partial_percent": 84.8
+      "match_percent": 19.2,
+      "match_or_partial_percent": 76.9
+      "match_percent": 30.0,
+      "match_or_partial_percent": 73.3
+      "match_percent": 13.3,
+      "match_or_partial_percent": 90.0
+      "match_percent": 24.4,
+      "match_or_partial_percent": 78.0
+      "match_percent": 23.3,
+      "match_or_partial_percent": 79.1
+      "match_percent": 27.7,
+      "match_or_partial_percent": 78.7
+      "match_percent": 12.5,
+      "match_or_partial_percent": 80.0
+      "match_percent": 35.8,
+      "match_or_partial_percent": 90.6
+      "match_percent": 44.8,
+      "match_or_partial_percent": 89.7
+      "match_percent": 43.8,
+      "match_or_partial_percent": 68.8
+      "match_percent": 16.3,
+      "match_or_partial_percent": 65.1
+      "match_percent": 22.9,
+      "match_or_partial_percent": 54.3
+      "match_percent": 20.3,
+      "match_or_partial_percent": 79.7
+      "match_percent": 16.7,
+      "match_or_partial_percent": 79.2
+      "match_percent": 41.7,
+      "match_or_partial_percent": 75.0
+      "match_percent": 35.8,
+      "match_or_partial_percent": 66.0
+      "match_percent": 32.4,
+      "match_or_partial_percent": 73.0
+      "match_percent": 13.9,
+      "match_or_partial_percent": 47.2
+      "match_percent": 31.7,
+      "match_or_partial_percent": 65.9
+      "match_percent": 17.5,
+      "match_or_partial_percent": 75.0
+      "match_percent": 11.4,
+      "match_or_partial_percent": 74.3
+      "match_percent": 21.3,
+      "match_or_partial_percent": 75.4
+      "match_percent": 47.5,
+      "match_or_partial_percent": 82.0
+      "match_percent": 28.4,
+      "match_or_partial_percent": 75.6
+      "match_percent": 26.7,
+      "match_or_partial_percent": 75.1
+
+===== [2026-10-10 02:04:30] 2. precision: start Qwen3.5-27B-GPTQ-Int4 judge (vLLM TP=2, :8003)
+
+===== [2026-10-10 02:11:03] 2. precision: sample 10 EDC triples per drug per KG, judge against the original page section
+{"coref_decomp_edc:original_section": 500, "decomp_edc:original_section": 500, "text_edc:original_section": 500}
+items=1500 todo=1500
+judged=100/1500
+judged=200/1500
+judged=300/1500
+judged=400/1500
+judged=500/1500
+judged=600/1500
+judged=700/1500
+judged=800/1500
+judged=900/1500
+judged=1000/1500
+judged=1100/1500
+judged=1200/1500
+judged=1300/1500
+judged=1400/1500
+judged=1500/1500
+  "labels_normalized_from_error_type": 0,
+  "precision_strict": 47.8,
+  "precision_strict_ci95": [
+   43.5,
+   52.2
+  ],
+  "precision_lenient": 87.0,
+  "precision_lenient_ci95": [
+   83.8,
+   89.7
+  ]
+ },
+ "coref_decomp_edc": {
+  "n": 500,
+  "labels": {
+   "partial": 204,
+   "correct": 203,
+   "incorrect": 92,
+   "parse_error": 1
+  },
+  "incorrect_errors": {
+   "wrong_relation": 75,
+   "wrong_entity": 7,
+   "uninformative": 4,
+   "wrong_direction": 4,
+   "not_in_text": 2
+  },
+  "labels_normalized_from_error_type": 1,
+  "precision_strict": 40.6,
+  "precision_strict_ci95": [
+   36.4,
+   45.0
+  ],
+  "precision_lenient": 81.4,
+  "precision_lenient_ci95": [
+   77.8,
+   84.6
+  ]
+ }
+}
+
+===== [2026-10-10 02:27:52] 3. combined report -> drug-kg/output/report/precision_recall_comparison.md
+# 정확도·재현율 비교 (자동 판정)
+
+- **재현율**: GT 초안 1,894개(50개 약, 사람 미검수·비완전 주석) 중 KG가 담은 비율. 팀원 스크립트 `compare_gt_graph_semantics.py`를 그대로 사용(Qwen3-Embedding 후보 검색 + Qwen3.5-9B 판정). 엄격 = match, 관대 = match + partial.
+- **정확도**: KG마다 EDC 트리플을 약별 10개씩 무작위 추출(500개)해, 해당 트리플이 나온 **원래 페이지 섹션 원문**과 대조. Qwen3.5-27B가 KG 출처를 모른 채 섞어서 판정. 엄격 = correct, 관대 = correct + partial. 괄호는 95% 신뢰구간.
+- F1은 같은 기준(엄격끼리, 관대끼리)의 정확도와 재현율로 계산한 참고값입니다.
+
+| KG | 트리플 | 정확도 엄격 | 정확도 관대 | 재현율 엄격 | 재현율 관대 | F1 엄격 | F1 관대 |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 원문 입력 + EDC | 12233 | 48.0 (44–52) | 88.4 (85–91) | 28.6 | 77.7 | 35.8 | 82.7 |
+| 문장 분해 + EDC | 13198 | 47.8 (44–52) | 87.0 (84–90) | 28.6 | 77.1 | 35.8 | 81.8 |
+| 대명사 치환 + 문장 분해 + EDC | 13244 | 40.6 (36–45) | 81.4 (78–85) | 27.5 | 75.3 | 32.8 | 78.2 |
+| 문장 분해 + EDC + KGGen 정규화 (팀원) | 11746 | – | – | 15.9 | 50.5 | – | – |
+
+## 정확도: 틀린 트리플의 오류 유형 (500개 중 개수)
+
+| 오류 유형 | 원문 입력 + EDC | 문장 분해 + EDC | 대명사 치환 + 문장 분해 + EDC |
+
+===== [2026-10-10 02:27:52] EVAL_DONE

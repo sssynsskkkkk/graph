@@ -1,0 +1,851 @@
+{
+  "metric": "provisional_AI_judged_reference_overlap_not_precision_recall_F1",
+  "gt_status": "AI_draft_not_exhaustive_not_human_gold",
+  "graph_selected_document_presence": 50,
+  "selected_document_count": 50,
+  "reference_count": 1894,
+  "status_counts": {
+    "match": 301,
+    "partial": 656,
+    "no_match": 937
+  },
+  "status_percentages": {
+    "match": 15.89,
+    "partial": 34.64,
+    "no_match": 49.47
+  },
+  "match_percent": 15.9,
+  "match_or_partial_percent": 50.5,
+  "graph_selected_unique_edge_count": 11746,
+  "reused_judgment_count": 850,
+  "cosine_used_for": "candidate retrieval only, not a correctness threshold",
+  "qualification_handling": "Conservatively partial whenever GT has qualifiers, even if a candidate might retain them",
+  "contradiction_guard_count": 6,
+  "contradiction_guard_policy": "Disjoint explicit dose quantities and distinct abuse/misuse/addiction targets are not partial matches",
+  "macro_match_percent": 16.2,
+  "macro_match_or_partial_percent": 51.0,
+  "aggregation": "Micro percentages weight each selected GT relation equally; macro weights each drug equally",
+  "retrieval_limitations": "no_match means neither an explicit synonym rule match in all same-document edges nor a semantic LLM match in top retrieved candidates; not proven absent from full graph",
+  "documents": [
+    {
+      "rank": 1,
+      "drug": "Atorvastatin",
+      "document_slug": "atorvastatin",
+      "document_present": true,
+      "document_edge_count": 242,
+      "literal_document_drug_node": "atorvastatin",
+      "gt_count": 36,
+      "semantic_counts": {
+        "match": 17,
+        "partial": 8,
+        "no_match": 11
+      },
+      "match_percent": 47.2,
+      "match_or_partial_percent": 69.4
+    },
+    {
+      "rank": 2,
+      "drug": "Levothyroxine",
+      "document_slug": "levothyroxine",
+      "document_present": true,
+      "document_edge_count": 353,
+      "literal_document_drug_node": "levothyroxine",
+      "gt_count": 29,
+      "semantic_counts": {
+        "no_match": 14,
+        "partial": 11,
+        "match": 4
+      },
+      "match_percent": 13.8,
+      "match_or_partial_percent": 51.7
+    },
+    {
+      "rank": 3,
+      "drug": "Metformin",
+      "document_slug": "metformin",
+      "document_present": true,
+      "document_edge_count": 318,
+      "literal_document_drug_node": "metformin",
+      "gt_count": 35,
+      "semantic_counts": {
+        "partial": 14,
+        "match": 6,
+        "no_match": 15
+      },
+      "match_percent": 17.1,
+      "match_or_partial_percent": 57.1
+    },
+    {
+      "rank": 4,
+      "drug": "Amlodipine",
+      "document_slug": "amlodipine",
+      "document_present": true,
+      "document_edge_count": 152,
+      "literal_document_drug_node": null,
+      "gt_count": 30,
+      "semantic_counts": {
+        "match": 8,
+        "partial": 15,
+        "no_match": 7
+      },
+      "match_percent": 26.7,
+      "match_or_partial_percent": 76.7
+    },
+    {
+      "rank": 5,
+      "drug": "Lisinopril",
+      "document_slug": "lisinopril",
+      "document_present": true,
+      "document_edge_count": 216,
+      "literal_document_drug_node": "lisinopril",
+      "gt_count": 34,
+      "semantic_counts": {
+        "partial": 12,
+        "no_match": 15,
+        "match": 7
+      },
+      "match_percent": 20.6,
+      "match_or_partial_percent": 55.9
+    },
+    {
+      "rank": 6,
+      "drug": "Albuterol",
+      "document_slug": "albuterol",
+      "document_present": true,
+      "document_edge_count": 142,
+      "literal_document_drug_node": "albuterol_inhalation",
+      "gt_count": 35,
+      "semantic_counts": {
+        "match": 4,
+        "partial": 9,
+        "no_match": 22
+      },
+      "match_percent": 11.4,
+      "match_or_partial_percent": 37.1
+    },
+    {
+      "rank": 7,
+      "drug": "Losartan",
+      "document_slug": "losartan",
+      "document_present": true,
+      "document_edge_count": 141,
+      "literal_document_drug_node": "losartan",
+      "gt_count": 32,
+      "semantic_counts": {
+        "partial": 17,
+        "no_match": 11,
+        "match": 4
+      },
+      "match_percent": 12.5,
+      "match_or_partial_percent": 65.6
+    },
+    {
+      "rank": 8,
+      "drug": "Metoprolol",
+      "document_slug": "metoprolol",
+      "document_present": true,
+      "document_edge_count": 361,
+      "literal_document_drug_node": "metoprolol",
+      "gt_count": 34,
+      "semantic_counts": {
+        "match": 9,
+        "no_match": 13,
+        "partial": 12
+      },
+      "match_percent": 26.5,
+      "match_or_partial_percent": 61.8
+    },
+    {
+      "rank": 9,
+      "drug": "Rosuvastatin",
+      "document_slug": "rosuvastatin",
+      "document_present": true,
+      "document_edge_count": 205,
+      "literal_document_drug_node": "rosuvastatin",
+      "gt_count": 31,
+      "semantic_counts": {
+        "partial": 17,
+        "no_match": 12,
+        "match": 2
+      },
+      "match_percent": 6.5,
+      "match_or_partial_percent": 61.3
+    },
+    {
+      "rank": 10,
+      "drug": "Omeprazole",
+      "document_slug": "omeprazole",
+      "document_present": true,
+      "document_edge_count": 202,
+      "literal_document_drug_node": "omeprazole",
+      "gt_count": 39,
+      "semantic_counts": {
+        "match": 18,
+        "no_match": 17,
+        "partial": 4
+      },
+      "match_percent": 46.2,
+      "match_or_partial_percent": 56.4
+    },
+    {
+      "rank": 11,
+      "drug": "Gabapentin",
+      "document_slug": "gabapentin",
+      "document_present": true,
+      "document_edge_count": 321,
+      "literal_document_drug_node": "gabapentin",
+      "gt_count": 33,
+      "semantic_counts": {
+        "no_match": 18,
+        "partial": 14,
+        "match": 1
+      },
+      "match_percent": 3.0,
+      "match_or_partial_percent": 45.5
+    },
+    {
+      "rank": 12,
+      "drug": "Sertraline",
+      "document_slug": "sertraline",
+      "document_present": true,
+      "document_edge_count": 607,
+      "literal_document_drug_node": null,
+      "gt_count": 31,
+      "semantic_counts": {
+        "partial": 17,
+        "no_match": 14
+      },
+      "match_percent": 0.0,
+      "match_or_partial_percent": 54.8
+    },
+    {
+      "rank": 13,
+      "drug": "Escitalopram",
+      "document_slug": "escitalopram",
+      "document_present": true,
+      "document_edge_count": 205,
+      "literal_document_drug_node": "escitalopram",
+      "gt_count": 35,
+      "semantic_counts": {
+        "match": 2,
+        "partial": 17,
+        "no_match": 16
+      },
+      "match_percent": 5.7,
+      "match_or_partial_percent": 54.3
+    },
+    {
+      "rank": 14,
+      "drug": "Semaglutide",
+      "document_slug": "semaglutide",
+      "document_present": true,
+      "document_edge_count": 414,
+      "literal_document_drug_node": "semaglutide",
+      "gt_count": 22,
+      "semantic_counts": {
+        "match": 7,
+        "no_match": 8,
+        "partial": 7
+      },
+      "match_percent": 31.8,
+      "match_or_partial_percent": 63.6
+    },
+    {
+      "rank": 15,
+      "drug": "Dextroamphetamine + Amphetamine salts",
+      "document_slug": "adderall",
+      "document_present": true,
+      "document_edge_count": 284,
+      "literal_document_drug_node": null,
+      "gt_count": 29,
+      "semantic_counts": {
+        "partial": 16,
+        "no_match": 13
+      },
+      "match_percent": 0.0,
+      "match_or_partial_percent": 55.2
+    },
+    {
+      "rank": 16,
+      "drug": "Pantoprazole",
+      "document_slug": "pantoprazole",
+      "document_present": true,
+      "document_edge_count": 198,
+      "literal_document_drug_node": null,
+      "gt_count": 32,
+      "semantic_counts": {
+        "match": 8,
+        "partial": 16,
+        "no_match": 8
+      },
+      "match_percent": 25.0,
+      "match_or_partial_percent": 75.0
+    },
+    {
+      "rank": 17,
+      "drug": "Bupropion",
+      "document_slug": "bupropion",
+      "document_present": true,
+      "document_edge_count": 349,
+      "literal_document_drug_node": null,
+      "gt_count": 48,
+      "semantic_counts": {
+        "partial": 23,
+        "no_match": 23,
+        "match": 2
+      },
+      "match_percent": 4.2,
+      "match_or_partial_percent": 52.1
+    },
+    {
+      "rank": 18,
+      "drug": "Hydrochlorothiazide",
+      "document_slug": "hydrochlorothiazide",
+      "document_present": true,
+      "document_edge_count": 321,
+      "literal_document_drug_node": null,
+      "gt_count": 32,
+      "semantic_counts": {
+        "match": 9,
+        "partial": 12,
+        "no_match": 11
+      },
+      "match_percent": 28.1,
+      "match_or_partial_percent": 65.6
+    },
+    {
+      "rank": 19,
+      "drug": "Fluoxetine",
+      "document_slug": "fluoxetine",
+      "document_present": true,
+      "document_edge_count": 383,
+      "literal_document_drug_node": "fluoxetine",
+      "gt_count": 33,
+      "semantic_counts": {
+        "match": 9,
+        "partial": 19,
+        "no_match": 5
+      },
+      "match_percent": 27.3,
+      "match_or_partial_percent": 84.8
+    },
+    {
+      "rank": 20,
+      "drug": "Trazodone",
+      "document_slug": "trazodone",
+      "document_present": true,
+      "document_edge_count": 213,
+      "literal_document_drug_node": "trazodone",
+      "gt_count": 40,
+      "semantic_counts": {
+        "no_match": 19,
+        "match": 6,
+        "partial": 15
+      },
+      "match_percent": 15.0,
+      "match_or_partial_percent": 52.5
+    },
+    {
+      "rank": 21,
+      "drug": "Montelukast",
+      "document_slug": "montelukast",
+      "document_present": true,
+      "document_edge_count": 129,
+      "literal_document_drug_node": "montelukast",
+      "gt_count": 37,
+      "semantic_counts": {
+        "match": 4,
+        "no_match": 19,
+        "partial": 14
+      },
+      "match_percent": 10.8,
+      "match_or_partial_percent": 48.6
+    },
+    {
+      "rank": 22,
+      "drug": "Amoxicillin",
+      "document_slug": "amoxicillin",
+      "document_present": true,
+      "document_edge_count": 129,
+      "literal_document_drug_node": "amoxicillin",
+      "gt_count": 31,
+      "semantic_counts": {
+        "match": 8,
+        "no_match": 14,
+        "partial": 9
+      },
+      "match_percent": 25.8,
+      "match_or_partial_percent": 54.8
+    },
+    {
+      "rank": 23,
+      "drug": "Fluticasone",
+      "document_slug": "flonase",
+      "document_present": true,
+      "document_edge_count": 163,
+      "literal_document_drug_node": "flonase_nasal_spray",
+      "gt_count": 38,
+      "semantic_counts": {
+        "no_match": 18,
+        "partial": 13,
+        "match": 7
+      },
+      "match_percent": 18.4,
+      "match_or_partial_percent": 52.6
+    },
+    {
+      "rank": 24,
+      "drug": "Tamsulosin",
+      "document_slug": "tamsulosin",
+      "document_present": true,
+      "document_edge_count": 172,
+      "literal_document_drug_node": "tamsulosin",
+      "gt_count": 40,
+      "semantic_counts": {
+        "no_match": 21,
+        "match": 6,
+        "partial": 13
+      },
+      "match_percent": 15.0,
+      "match_or_partial_percent": 47.5
+    },
+    {
+      "rank": 25,
+      "drug": "Apixaban",
+      "document_slug": "apixaban",
+      "document_present": true,
+      "document_edge_count": 160,
+      "literal_document_drug_node": "apixaban",
+      "gt_count": 34,
+      "semantic_counts": {
+        "no_match": 12,
+        "partial": 14,
+        "match": 8
+      },
+      "match_percent": 23.5,
+      "match_or_partial_percent": 64.7
+    },
+    {
+      "rank": 26,
+      "drug": "Simvastatin",
+      "document_slug": "simvastatin",
+      "document_present": true,
+      "document_edge_count": 176,
+      "literal_document_drug_node": "simvastatin",
+      "gt_count": 50,
+      "semantic_counts": {
+        "match": 10,
+        "no_match": 10,
+        "partial": 30
+      },
+      "match_percent": 20.0,
+      "match_or_partial_percent": 80.0
+    },
+    {
+      "rank": 27,
+      "drug": "Insulin Glargine",
+      "document_slug": "insulin-glargine",
+      "document_present": true,
+      "document_edge_count": 231,
+      "literal_document_drug_node": "insulin_glargine",
+      "gt_count": 33,
+      "semantic_counts": {
+        "match": 7,
+        "partial": 6,
+        "no_match": 20
+      },
+      "match_percent": 21.2,
+      "match_or_partial_percent": 39.4
+    },
+    {
+      "rank": 28,
+      "drug": "Empagliflozin",
+      "document_slug": "empagliflozin",
+      "document_present": true,
+      "document_edge_count": 146,
+      "literal_document_drug_node": "empagliflozin",
+      "gt_count": 26,
+      "semantic_counts": {
+        "partial": 10,
+        "no_match": 14,
+        "match": 2
+      },
+      "match_percent": 7.7,
+      "match_or_partial_percent": 46.2
+    },
+    {
+      "rank": 29,
+      "drug": "Furosemide",
+      "document_slug": "furosemide",
+      "document_present": true,
+      "document_edge_count": 282,
+      "literal_document_drug_node": "furosemide",
+      "gt_count": 30,
+      "semantic_counts": {
+        "match": 6,
+        "partial": 8,
+        "no_match": 16
+      },
+      "match_percent": 20.0,
+      "match_or_partial_percent": 46.7
+    },
+    {
+      "rank": 30,
+      "drug": "Meloxicam",
+      "document_slug": "meloxicam",
+      "document_present": true,
+      "document_edge_count": 229,
+      "literal_document_drug_node": "meloxicam",
+      "gt_count": 30,
+      "semantic_counts": {
+        "match": 2,
+        "partial": 15,
+        "no_match": 13
+      },
+      "match_percent": 6.7,
+      "match_or_partial_percent": 56.7
+    },
+    {
+      "rank": 31,
+      "drug": "Acetaminophen + Hydrocodone",
+      "document_slug": "hydrocodone-acetaminophen",
+      "document_present": true,
+      "document_edge_count": 181,
+      "literal_document_drug_node": null,
+      "gt_count": 41,
+      "semantic_counts": {
+        "match": 3,
+        "no_match": 28,
+        "partial": 10
+      },
+      "match_percent": 7.3,
+      "match_or_partial_percent": 31.7
+    },
+    {
+      "rank": 32,
+      "drug": "Tirzepatide",
+      "document_slug": "tirzepatide",
+      "document_present": true,
+      "document_edge_count": 384,
+      "literal_document_drug_node": "tirzepatide",
+      "gt_count": 43,
+      "semantic_counts": {
+        "no_match": 21,
+        "partial": 13,
+        "match": 9
+      },
+      "match_percent": 20.9,
+      "match_or_partial_percent": 51.2
+    },
+    {
+      "rank": 33,
+      "drug": "Methylphenidate",
+      "document_slug": "methylphenidate",
+      "document_present": true,
+      "document_edge_count": 243,
+      "literal_document_drug_node": "methylphenidate",
+      "gt_count": 47,
+      "semantic_counts": {
+        "match": 11,
+        "partial": 19,
+        "no_match": 17
+      },
+      "match_percent": 23.4,
+      "match_or_partial_percent": 63.8
+    },
+    {
+      "rank": 34,
+      "drug": "Duloxetine",
+      "document_slug": "duloxetine",
+      "document_present": true,
+      "document_edge_count": 197,
+      "literal_document_drug_node": null,
+      "gt_count": 40,
+      "semantic_counts": {
+        "no_match": 23,
+        "partial": 15,
+        "match": 2
+      },
+      "match_percent": 5.0,
+      "match_or_partial_percent": 42.5
+    },
+    {
+      "rank": 35,
+      "drug": "Prednisone",
+      "document_slug": "prednisone",
+      "document_present": true,
+      "document_edge_count": 420,
+      "literal_document_drug_node": "prednisone",
+      "gt_count": 53,
+      "semantic_counts": {
+        "match": 12,
+        "no_match": 22,
+        "partial": 19
+      },
+      "match_percent": 22.6,
+      "match_or_partial_percent": 58.5
+    },
+    {
+      "rank": 36,
+      "drug": "Carvedilol",
+      "document_slug": "carvedilol",
+      "document_present": true,
+      "document_edge_count": 134,
+      "literal_document_drug_node": null,
+      "gt_count": 29,
+      "semantic_counts": {
+        "no_match": 28,
+        "partial": 1
+      },
+      "match_percent": 0.0,
+      "match_or_partial_percent": 3.4
+    },
+    {
+      "rank": 37,
+      "drug": "Famotidine",
+      "document_slug": "famotidine",
+      "document_present": true,
+      "document_edge_count": 111,
+      "literal_document_drug_node": "famotidine",
+      "gt_count": 32,
+      "semantic_counts": {
+        "match": 9,
+        "no_match": 17,
+        "partial": 6
+      },
+      "match_percent": 28.1,
+      "match_or_partial_percent": 46.9
+    },
+    {
+      "rank": 38,
+      "drug": "Ibuprofen",
+      "document_slug": "ibuprofen",
+      "document_present": true,
+      "document_edge_count": 184,
+      "literal_document_drug_node": "ibuprofen",
+      "gt_count": 43,
+      "semantic_counts": {
+        "match": 4,
+        "no_match": 23,
+        "partial": 16
+      },
+      "match_percent": 9.3,
+      "match_or_partial_percent": 46.5
+    },
+    {
+      "rank": 39,
+      "drug": "Buspirone",
+      "document_slug": "buspirone",
+      "document_present": true,
+      "document_edge_count": 117,
+      "literal_document_drug_node": "buspirone",
+      "gt_count": 35,
+      "semantic_counts": {
+        "match": 7,
+        "no_match": 19,
+        "partial": 9
+      },
+      "match_percent": 20.0,
+      "match_or_partial_percent": 45.7
+    },
+    {
+      "rank": 40,
+      "drug": "Venlafaxine",
+      "document_slug": "venlafaxine",
+      "document_present": true,
+      "document_edge_count": 261,
+      "literal_document_drug_node": "venlafaxine",
+      "gt_count": 64,
+      "semantic_counts": {
+        "partial": 25,
+        "no_match": 28,
+        "match": 11
+      },
+      "match_percent": 17.2,
+      "match_or_partial_percent": 56.2
+    },
+    {
+      "rank": 41,
+      "drug": "Tramadol",
+      "document_slug": "tramadol",
+      "document_present": true,
+      "document_edge_count": 424,
+      "literal_document_drug_node": "tramadol",
+      "gt_count": 48,
+      "semantic_counts": {
+        "match": 4,
+        "partial": 16,
+        "no_match": 28
+      },
+      "match_percent": 8.3,
+      "match_or_partial_percent": 41.7
+    },
+    {
+      "rank": 42,
+      "drug": "Potassium Chloride",
+      "document_slug": "potassium-chloride",
+      "document_present": true,
+      "document_edge_count": 153,
+      "literal_document_drug_node": "potassium_chloride",
+      "gt_count": 36,
+      "semantic_counts": {
+        "match": 11,
+        "partial": 13,
+        "no_match": 12
+      },
+      "match_percent": 30.6,
+      "match_or_partial_percent": 66.7
+    },
+    {
+      "rank": 43,
+      "drug": "Hydroxyzine",
+      "document_slug": "hydroxyzine",
+      "document_present": true,
+      "document_edge_count": 225,
+      "literal_document_drug_node": "hydroxyzine",
+      "gt_count": 53,
+      "semantic_counts": {
+        "match": 9,
+        "no_match": 36,
+        "partial": 8
+      },
+      "match_percent": 17.0,
+      "match_or_partial_percent": 32.1
+    },
+    {
+      "rank": 44,
+      "drug": "Allopurinol",
+      "document_slug": "allopurinol",
+      "document_present": true,
+      "document_edge_count": 165,
+      "literal_document_drug_node": "allopurinol",
+      "gt_count": 37,
+      "semantic_counts": {
+        "match": 7,
+        "partial": 10,
+        "no_match": 20
+      },
+      "match_percent": 18.9,
+      "match_or_partial_percent": 45.9
+    },
+    {
+      "rank": 45,
+      "drug": "Clopidogrel",
+      "document_slug": "clopidogrel",
+      "document_present": true,
+      "document_edge_count": 143,
+      "literal_document_drug_node": "clopidogrel",
+      "gt_count": 36,
+      "semantic_counts": {
+        "no_match": 21,
+        "partial": 12,
+        "match": 3
+      },
+      "match_percent": 8.3,
+      "match_or_partial_percent": 41.7
+    },
+    {
+      "rank": 46,
+      "drug": "Ergocalciferol",
+      "document_slug": "mtm/ergocalciferol",
+      "document_present": true,
+      "document_edge_count": 117,
+      "literal_document_drug_node": null,
+      "gt_count": 41,
+      "semantic_counts": {
+        "no_match": 29,
+        "match": 6,
+        "partial": 6
+      },
+      "match_percent": 14.6,
+      "match_or_partial_percent": 29.3
+    },
+    {
+      "rank": 47,
+      "drug": "Cetirizine",
+      "document_slug": "cetirizine",
+      "document_present": true,
+      "document_edge_count": 117,
+      "literal_document_drug_node": null,
+      "gt_count": 40,
+      "semantic_counts": {
+        "no_match": 39,
+        "partial": 1
+      },
+      "match_percent": 0.0,
+      "match_or_partial_percent": 2.5
+    },
+    {
+      "rank": 48,
+      "drug": "Ondansetron",
+      "document_slug": "ondansetron",
+      "document_present": true,
+      "document_edge_count": 200,
+      "literal_document_drug_node": null,
+      "gt_count": 35,
+      "semantic_counts": {
+        "no_match": 26,
+        "partial": 5,
+        "match": 4
+      },
+      "match_percent": 11.4,
+      "match_or_partial_percent": 25.7
+    },
+    {
+      "rank": 49,
+      "drug": "Cyclobenzaprine",
+      "document_slug": "cyclobenzaprine",
+      "document_present": true,
+      "document_edge_count": 359,
+      "literal_document_drug_node": "cyclobenzaprine",
+      "gt_count": 61,
+      "semantic_counts": {
+        "match": 2,
+        "partial": 28,
+        "no_match": 31
+      },
+      "match_percent": 3.3,
+      "match_or_partial_percent": 49.2
+    },
+    {
+      "rank": 50,
+      "drug": "Spironolactone",
+      "document_slug": "spironolactone",
+      "document_present": true,
+      "document_edge_count": 408,
+      "literal_document_drug_node": null,
+      "gt_count": 61,
+      "semantic_counts": {
+        "no_match": 40,
+        "match": 4,
+        "partial": 17
+      },
+      "match_percent": 6.6,
+      "match_or_partial_percent": 34.4
+    }
+  ],
+  "rank_groups": [
+    {
+      "group": "ranks_1_25",
+      "reference_count": 850,
+      "status_counts": {
+        "match": 156,
+        "partial": 338,
+        "no_match": 356
+      },
+      "match_percent": 18.4,
+      "match_or_partial_percent": 58.1
+    },
+    {
+      "group": "ranks_26_50",
+      "reference_count": 1044,
+      "status_counts": {
+        "match": 145,
+        "no_match": 581,
+        "partial": 318
+      },
+      "match_percent": 13.9,
+      "match_or_partial_percent": 44.3
+    }
+  ]
+}

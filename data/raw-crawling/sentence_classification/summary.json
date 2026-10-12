@@ -1,0 +1,606 @@
+{
+  "model": "models/codekg_bert_large/final_model",
+  "html_count": 50,
+  "sentence_count": 9829,
+  "label_counts": {
+    "Complex Sentence": 775,
+    "Compound Sentence": 1050,
+    "Compound-Complex Sentence": 175,
+    "Incomplete Sentence": 5594,
+    "Simple Sentence": 2235
+  },
+  "drugs": [
+    {
+      "drug": "Adderall",
+      "source_file": "data/raw-crawling/raw-crawling/adderall.html",
+      "sentence_count": 225,
+      "label_counts": {
+        "Complex Sentence": 15,
+        "Compound Sentence": 32,
+        "Compound-Complex Sentence": 2,
+        "Incomplete Sentence": 122,
+        "Simple Sentence": 54
+      }
+    },
+    {
+      "drug": "Albuterol Inhalation",
+      "source_file": "data/raw-crawling/raw-crawling/albuterol.html",
+      "sentence_count": 173,
+      "label_counts": {
+        "Complex Sentence": 6,
+        "Compound Sentence": 8,
+        "Incomplete Sentence": 123,
+        "Simple Sentence": 36
+      }
+    },
+    {
+      "drug": "Allopurinol",
+      "source_file": "data/raw-crawling/raw-crawling/allopurinol.html",
+      "sentence_count": 146,
+      "label_counts": {
+        "Complex Sentence": 4,
+        "Compound Sentence": 6,
+        "Compound-Complex Sentence": 1,
+        "Incomplete Sentence": 102,
+        "Simple Sentence": 33
+      }
+    },
+    {
+      "drug": "Amlodipine",
+      "source_file": "data/raw-crawling/raw-crawling/amlodipine.html",
+      "sentence_count": 166,
+      "label_counts": {
+        "Complex Sentence": 18,
+        "Compound Sentence": 10,
+        "Compound-Complex Sentence": 2,
+        "Incomplete Sentence": 102,
+        "Simple Sentence": 34
+      }
+    },
+    {
+      "drug": "Amoxicillin",
+      "source_file": "data/raw-crawling/raw-crawling/amoxicillin.html",
+      "sentence_count": 151,
+      "label_counts": {
+        "Complex Sentence": 13,
+        "Compound Sentence": 12,
+        "Compound-Complex Sentence": 2,
+        "Incomplete Sentence": 82,
+        "Simple Sentence": 42
+      }
+    },
+    {
+      "drug": "Apixaban",
+      "source_file": "data/raw-crawling/raw-crawling/apixaban.html",
+      "sentence_count": 141,
+      "label_counts": {
+        "Complex Sentence": 17,
+        "Compound Sentence": 5,
+        "Compound-Complex Sentence": 2,
+        "Incomplete Sentence": 87,
+        "Simple Sentence": 30
+      }
+    },
+    {
+      "drug": "Atorvastatin",
+      "source_file": "data/raw-crawling/raw-crawling/atorvastatin.html",
+      "sentence_count": 183,
+      "label_counts": {
+        "Complex Sentence": 21,
+        "Compound Sentence": 20,
+        "Compound-Complex Sentence": 2,
+        "Incomplete Sentence": 97,
+        "Simple Sentence": 43
+      }
+    },
+    {
+      "drug": "Bupropion",
+      "source_file": "data/raw-crawling/raw-crawling/bupropion.html",
+      "sentence_count": 220,
+      "label_counts": {
+        "Complex Sentence": 21,
+        "Compound Sentence": 21,
+        "Compound-Complex Sentence": 5,
+        "Incomplete Sentence": 109,
+        "Simple Sentence": 64
+      }
+    },
+    {
+      "drug": "Buspirone",
+      "source_file": "data/raw-crawling/raw-crawling/buspirone.html",
+      "sentence_count": 110,
+      "label_counts": {
+        "Complex Sentence": 7,
+        "Compound Sentence": 7,
+        "Incomplete Sentence": 70,
+        "Simple Sentence": 26
+      }
+    },
+    {
+      "drug": "Carvedilol",
+      "source_file": "data/raw-crawling/raw-crawling/carvedilol.html",
+      "sentence_count": 143,
+      "label_counts": {
+        "Complex Sentence": 6,
+        "Compound Sentence": 8,
+        "Incomplete Sentence": 100,
+        "Simple Sentence": 29
+      }
+    },
+    {
+      "drug": "Cetirizine",
+      "source_file": "data/raw-crawling/raw-crawling/cetirizine.html",
+      "sentence_count": 136,
+      "label_counts": {
+        "Complex Sentence": 10,
+        "Compound Sentence": 17,
+        "Compound-Complex Sentence": 1,
+        "Incomplete Sentence": 77,
+        "Simple Sentence": 31
+      }
+    },
+    {
+      "drug": "Clopidogrel",
+      "source_file": "data/raw-crawling/raw-crawling/clopidogrel.html",
+      "sentence_count": 132,
+      "label_counts": {
+        "Complex Sentence": 10,
+        "Compound Sentence": 8,
+        "Incomplete Sentence": 88,
+        "Simple Sentence": 26
+      }
+    },
+    {
+      "drug": "Cyclobenzaprine",
+      "source_file": "data/raw-crawling/raw-crawling/cyclobenzaprine.html",
+      "sentence_count": 309,
+      "label_counts": {
+        "Complex Sentence": 23,
+        "Compound Sentence": 56,
+        "Compound-Complex Sentence": 11,
+        "Incomplete Sentence": 167,
+        "Simple Sentence": 52
+      }
+    },
+    {
+      "drug": "Duloxetine",
+      "source_file": "data/raw-crawling/raw-crawling/duloxetine.html",
+      "sentence_count": 193,
+      "label_counts": {
+        "Complex Sentence": 9,
+        "Compound Sentence": 21,
+        "Compound-Complex Sentence": 3,
+        "Incomplete Sentence": 109,
+        "Simple Sentence": 51
+      }
+    },
+    {
+      "drug": "Empagliflozin",
+      "source_file": "data/raw-crawling/raw-crawling/empagliflozin.html",
+      "sentence_count": 115,
+      "label_counts": {
+        "Complex Sentence": 7,
+        "Compound Sentence": 5,
+        "Compound-Complex Sentence": 1,
+        "Incomplete Sentence": 79,
+        "Simple Sentence": 23
+      }
+    },
+    {
+      "drug": "Escitalopram",
+      "source_file": "data/raw-crawling/raw-crawling/escitalopram.html",
+      "sentence_count": 179,
+      "label_counts": {
+        "Complex Sentence": 11,
+        "Compound Sentence": 10,
+        "Compound-Complex Sentence": 5,
+        "Incomplete Sentence": 115,
+        "Simple Sentence": 38
+      }
+    },
+    {
+      "drug": "Famotidine",
+      "source_file": "data/raw-crawling/raw-crawling/famotidine.html",
+      "sentence_count": 137,
+      "label_counts": {
+        "Complex Sentence": 11,
+        "Compound Sentence": 9,
+        "Compound-Complex Sentence": 1,
+        "Incomplete Sentence": 91,
+        "Simple Sentence": 25
+      }
+    },
+    {
+      "drug": "Flonase Nasal Spray",
+      "source_file": "data/raw-crawling/raw-crawling/flonase.html",
+      "sentence_count": 158,
+      "label_counts": {
+        "Complex Sentence": 7,
+        "Compound Sentence": 20,
+        "Compound-Complex Sentence": 1,
+        "Incomplete Sentence": 92,
+        "Simple Sentence": 38
+      }
+    },
+    {
+      "drug": "Fluoxetine",
+      "source_file": "data/raw-crawling/raw-crawling/fluoxetine.html",
+      "sentence_count": 278,
+      "label_counts": {
+        "Complex Sentence": 31,
+        "Compound Sentence": 36,
+        "Compound-Complex Sentence": 8,
+        "Incomplete Sentence": 127,
+        "Simple Sentence": 76
+      }
+    },
+    {
+      "drug": "Furosemide",
+      "source_file": "data/raw-crawling/raw-crawling/furosemide.html",
+      "sentence_count": 198,
+      "label_counts": {
+        "Complex Sentence": 15,
+        "Compound Sentence": 22,
+        "Compound-Complex Sentence": 2,
+        "Incomplete Sentence": 114,
+        "Simple Sentence": 45
+      }
+    },
+    {
+      "drug": "Gabapentin",
+      "source_file": "data/raw-crawling/raw-crawling/gabapentin.html",
+      "sentence_count": 256,
+      "label_counts": {
+        "Complex Sentence": 16,
+        "Compound Sentence": 33,
+        "Compound-Complex Sentence": 8,
+        "Incomplete Sentence": 134,
+        "Simple Sentence": 65
+      }
+    },
+    {
+      "drug": "Hydrochlorothiazide (HCTZ)",
+      "source_file": "data/raw-crawling/raw-crawling/hydrochlorothiazide.html",
+      "sentence_count": 246,
+      "label_counts": {
+        "Complex Sentence": 19,
+        "Compound Sentence": 37,
+        "Compound-Complex Sentence": 6,
+        "Incomplete Sentence": 137,
+        "Simple Sentence": 47
+      }
+    },
+    {
+      "drug": "Hydrocodone and Acetaminophen",
+      "source_file": "data/raw-crawling/raw-crawling/hydrocodone-acetaminophen.html",
+      "sentence_count": 139,
+      "label_counts": {
+        "Complex Sentence": 14,
+        "Compound Sentence": 7,
+        "Compound-Complex Sentence": 1,
+        "Incomplete Sentence": 96,
+        "Simple Sentence": 21
+      }
+    },
+    {
+      "drug": "Hydroxyzine",
+      "source_file": "data/raw-crawling/raw-crawling/hydroxyzine.html",
+      "sentence_count": 243,
+      "label_counts": {
+        "Complex Sentence": 21,
+        "Compound Sentence": 32,
+        "Compound-Complex Sentence": 2,
+        "Incomplete Sentence": 124,
+        "Simple Sentence": 64
+      }
+    },
+    {
+      "drug": "Ibuprofen",
+      "source_file": "data/raw-crawling/raw-crawling/ibuprofen.html",
+      "sentence_count": 169,
+      "label_counts": {
+        "Complex Sentence": 10,
+        "Compound Sentence": 13,
+        "Compound-Complex Sentence": 4,
+        "Incomplete Sentence": 114,
+        "Simple Sentence": 28
+      }
+    },
+    {
+      "drug": "Insulin glargine",
+      "source_file": "data/raw-crawling/raw-crawling/insulin-glargine.html",
+      "sentence_count": 174,
+      "label_counts": {
+        "Complex Sentence": 9,
+        "Compound Sentence": 11,
+        "Compound-Complex Sentence": 3,
+        "Incomplete Sentence": 99,
+        "Simple Sentence": 52
+      }
+    },
+    {
+      "drug": "Levothyroxine",
+      "source_file": "data/raw-crawling/raw-crawling/levothyroxine.html",
+      "sentence_count": 240,
+      "label_counts": {
+        "Complex Sentence": 20,
+        "Compound Sentence": 33,
+        "Compound-Complex Sentence": 6,
+        "Incomplete Sentence": 131,
+        "Simple Sentence": 50
+      }
+    },
+    {
+      "drug": "Lisinopril",
+      "source_file": "data/raw-crawling/raw-crawling/lisinopril.html",
+      "sentence_count": 176,
+      "label_counts": {
+        "Complex Sentence": 17,
+        "Compound Sentence": 19,
+        "Incomplete Sentence": 103,
+        "Simple Sentence": 37
+      }
+    },
+    {
+      "drug": "Losartan",
+      "source_file": "data/raw-crawling/raw-crawling/losartan.html",
+      "sentence_count": 140,
+      "label_counts": {
+        "Complex Sentence": 11,
+        "Compound Sentence": 11,
+        "Compound-Complex Sentence": 3,
+        "Incomplete Sentence": 90,
+        "Simple Sentence": 25
+      }
+    },
+    {
+      "drug": "Meloxicam",
+      "source_file": "data/raw-crawling/raw-crawling/meloxicam.html",
+      "sentence_count": 194,
+      "label_counts": {
+        "Complex Sentence": 6,
+        "Compound Sentence": 21,
+        "Compound-Complex Sentence": 2,
+        "Incomplete Sentence": 118,
+        "Simple Sentence": 47
+      }
+    },
+    {
+      "drug": "Metformin",
+      "source_file": "data/raw-crawling/raw-crawling/metformin.html",
+      "sentence_count": 212,
+      "label_counts": {
+        "Complex Sentence": 34,
+        "Compound Sentence": 24,
+        "Compound-Complex Sentence": 8,
+        "Incomplete Sentence": 104,
+        "Simple Sentence": 42
+      }
+    },
+    {
+      "drug": "Methylphenidate",
+      "source_file": "data/raw-crawling/raw-crawling/methylphenidate.html",
+      "sentence_count": 188,
+      "label_counts": {
+        "Complex Sentence": 9,
+        "Compound Sentence": 8,
+        "Compound-Complex Sentence": 1,
+        "Incomplete Sentence": 133,
+        "Simple Sentence": 37
+      }
+    },
+    {
+      "drug": "Metoprolol",
+      "source_file": "data/raw-crawling/raw-crawling/metoprolol.html",
+      "sentence_count": 312,
+      "label_counts": {
+        "Complex Sentence": 35,
+        "Compound Sentence": 50,
+        "Compound-Complex Sentence": 5,
+        "Incomplete Sentence": 123,
+        "Simple Sentence": 99
+      }
+    },
+    {
+      "drug": "Montelukast",
+      "source_file": "data/raw-crawling/raw-crawling/montelukast.html",
+      "sentence_count": 114,
+      "label_counts": {
+        "Complex Sentence": 10,
+        "Compound Sentence": 12,
+        "Incomplete Sentence": 76,
+        "Simple Sentence": 16
+      }
+    },
+    {
+      "drug": "Ergocalciferol",
+      "source_file": "data/raw-crawling/raw-crawling/mtm__ergocalciferol.html",
+      "sentence_count": 99,
+      "label_counts": {
+        "Complex Sentence": 5,
+        "Compound Sentence": 7,
+        "Compound-Complex Sentence": 2,
+        "Incomplete Sentence": 66,
+        "Simple Sentence": 19
+      }
+    },
+    {
+      "drug": "Omeprazole",
+      "source_file": "data/raw-crawling/raw-crawling/omeprazole.html",
+      "sentence_count": 214,
+      "label_counts": {
+        "Complex Sentence": 14,
+        "Compound Sentence": 19,
+        "Compound-Complex Sentence": 2,
+        "Incomplete Sentence": 139,
+        "Simple Sentence": 40
+      }
+    },
+    {
+      "drug": "Ondansetron",
+      "source_file": "data/raw-crawling/raw-crawling/ondansetron.html",
+      "sentence_count": 199,
+      "label_counts": {
+        "Complex Sentence": 13,
+        "Compound Sentence": 9,
+        "Compound-Complex Sentence": 9,
+        "Incomplete Sentence": 129,
+        "Simple Sentence": 39
+      }
+    },
+    {
+      "drug": "Pantoprazole",
+      "source_file": "data/raw-crawling/raw-crawling/pantoprazole.html",
+      "sentence_count": 202,
+      "label_counts": {
+        "Complex Sentence": 16,
+        "Compound Sentence": 19,
+        "Compound-Complex Sentence": 1,
+        "Incomplete Sentence": 119,
+        "Simple Sentence": 47
+      }
+    },
+    {
+      "drug": "Potassium Chloride",
+      "source_file": "data/raw-crawling/raw-crawling/potassium-chloride.html",
+      "sentence_count": 152,
+      "label_counts": {
+        "Complex Sentence": 6,
+        "Compound Sentence": 8,
+        "Compound-Complex Sentence": 1,
+        "Incomplete Sentence": 106,
+        "Simple Sentence": 31
+      }
+    },
+    {
+      "drug": "Prednisone",
+      "source_file": "data/raw-crawling/raw-crawling/prednisone.html",
+      "sentence_count": 265,
+      "label_counts": {
+        "Complex Sentence": 15,
+        "Compound Sentence": 49,
+        "Compound-Complex Sentence": 8,
+        "Incomplete Sentence": 120,
+        "Simple Sentence": 73
+      }
+    },
+    {
+      "drug": "Rosuvastatin",
+      "source_file": "data/raw-crawling/raw-crawling/rosuvastatin.html",
+      "sentence_count": 191,
+      "label_counts": {
+        "Complex Sentence": 15,
+        "Compound Sentence": 13,
+        "Incomplete Sentence": 132,
+        "Simple Sentence": 31
+      }
+    },
+    {
+      "drug": "Semaglutide",
+      "source_file": "data/raw-crawling/raw-crawling/semaglutide.html",
+      "sentence_count": 366,
+      "label_counts": {
+        "Complex Sentence": 28,
+        "Compound Sentence": 39,
+        "Compound-Complex Sentence": 2,
+        "Incomplete Sentence": 194,
+        "Simple Sentence": 103
+      }
+    },
+    {
+      "drug": "Sertraline",
+      "source_file": "data/raw-crawling/raw-crawling/sertraline.html",
+      "sentence_count": 314,
+      "label_counts": {
+        "Complex Sentence": 30,
+        "Compound Sentence": 65,
+        "Compound-Complex Sentence": 15,
+        "Incomplete Sentence": 125,
+        "Simple Sentence": 79
+      }
+    },
+    {
+      "drug": "Simvastatin",
+      "source_file": "data/raw-crawling/raw-crawling/simvastatin.html",
+      "sentence_count": 169,
+      "label_counts": {
+        "Complex Sentence": 12,
+        "Compound Sentence": 4,
+        "Compound-Complex Sentence": 2,
+        "Incomplete Sentence": 112,
+        "Simple Sentence": 39
+      }
+    },
+    {
+      "drug": "Spironolactone",
+      "source_file": "data/raw-crawling/raw-crawling/spironolactone.html",
+      "sentence_count": 264,
+      "label_counts": {
+        "Complex Sentence": 33,
+        "Compound Sentence": 56,
+        "Compound-Complex Sentence": 17,
+        "Incomplete Sentence": 95,
+        "Simple Sentence": 63
+      }
+    },
+    {
+      "drug": "Tamsulosin",
+      "source_file": "data/raw-crawling/raw-crawling/tamsulosin.html",
+      "sentence_count": 129,
+      "label_counts": {
+        "Complex Sentence": 5,
+        "Compound Sentence": 12,
+        "Incomplete Sentence": 80,
+        "Simple Sentence": 32
+      }
+    },
+    {
+      "drug": "Tirzepatide",
+      "source_file": "data/raw-crawling/raw-crawling/tirzepatide.html",
+      "sentence_count": 288,
+      "label_counts": {
+        "Complex Sentence": 34,
+        "Compound Sentence": 37,
+        "Compound-Complex Sentence": 5,
+        "Incomplete Sentence": 161,
+        "Simple Sentence": 51
+      }
+    },
+    {
+      "drug": "Tramadol",
+      "source_file": "data/raw-crawling/raw-crawling/tramadol.html",
+      "sentence_count": 305,
+      "label_counts": {
+        "Complex Sentence": 36,
+        "Compound Sentence": 41,
+        "Compound-Complex Sentence": 6,
+        "Incomplete Sentence": 143,
+        "Simple Sentence": 79
+      }
+    },
+    {
+      "drug": "Trazodone",
+      "source_file": "data/raw-crawling/raw-crawling/trazodone.html",
+      "sentence_count": 183,
+      "label_counts": {
+        "Complex Sentence": 12,
+        "Compound Sentence": 17,
+        "Compound-Complex Sentence": 3,
+        "Incomplete Sentence": 107,
+        "Simple Sentence": 44
+      }
+    },
+    {
+      "drug": "Venlafaxine",
+      "source_file": "data/raw-crawling/raw-crawling/venlafaxine.html",
+      "sentence_count": 193,
+      "label_counts": {
+        "Complex Sentence": 8,
+        "Compound Sentence": 11,
+        "Compound-Complex Sentence": 4,
+        "Incomplete Sentence": 131,
+        "Simple Sentence": 39
+      }
+    }
+  ]
+}

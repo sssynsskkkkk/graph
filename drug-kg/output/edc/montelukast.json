@@ -1,0 +1,4518 @@
+{
+ "iterations": [
+  {
+   "iteration": 0,
+   "chunks": [
+    {
+     "chunk_id": "montelukast#uses#0",
+     "section_id": "uses",
+     "section_heading": "What is montelukast?",
+     "text": "Montelukast helps to reduce inflammation and may be used to prevent asthma attacks in adults and children at least 2 years old.\nMontelukast is also used to prevent exercise-induced bronchoconstriction (a narrowing of the air passages in the lungs due to exercise that is also known as exercise-induced asthma) in adults and children who are at least 6 years old.\nFor adults and children at least 2 years old with symptoms of seasonal allergic rhinitis, and people over 6 months old with perennial (year-round) allergies, montelukast may be considered when other treatments have not worked.\nIf you already take montelukast regularly to prevent asthma or allergy symptoms, do not take an extra dose to treat exercise-induced bronchoconstriction.\nMontelukast is not a fast-acting rescue medicine for asthma attacks and needs to be taken daily to work properly.\nMontelukast was FDA-approved in 1998.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"montelukast\", \"reduces inflammation\", \"asthma attacks\"], [\"montelukast\", \"treats\", \"exercise-induced bronchoconstriction\"], [\"montelukast\", \"treats\", \"seasonal allergic rhinitis\"], [\"montelukast\", \"treats\", \"perennial allergic rhinitis\"], [\"montelukast\", \"has recommended use in\", \"adults and children at least 2 years old\"], [\"montelukast\", \"has recommended use in\", \"children at least 6 years old\"], [\"montelukast\", \"has recommended use in\", \"people over 6 months old\"], [\"montelukast\", \"has instruction for missed dose\", \"do not take extra dose for exercise-induced bronchoconstriction\"], [\"montelukast\", \"is not a rescue medicine for\", \"asthma attacks\"], [\"montelukast\", \"has administration instruction\", \"taken daily to work properly\"], [\"montelukast\", \"has fda approval year\", \"1998\"]]",
+     "oie": [
+      [
+       "montelukast",
+       "reduces inflammation",
+       "asthma attacks"
+      ],
+      [
+       "montelukast",
+       "treats",
+       "exercise-induced bronchoconstriction"
+      ],
+      [
+       "montelukast",
+       "treats",
+       "seasonal allergic rhinitis"
+      ],
+      [
+       "montelukast",
+       "treats",
+       "perennial allergic rhinitis"
+      ],
+      [
+       "montelukast",
+       "has recommended use in",
+       "adults and children at least 2 years old"
+      ],
+      [
+       "montelukast",
+       "has recommended use in",
+       "children at least 6 years old"
+      ],
+      [
+       "montelukast",
+       "has recommended use in",
+       "people over 6 months old"
+      ],
+      [
+       "montelukast",
+       "has instruction for missed dose",
+       "do not take extra dose for exercise-induced bronchoconstriction"
+      ],
+      [
+       "montelukast",
+       "is not a rescue medicine for",
+       "asthma attacks"
+      ],
+      [
+       "montelukast",
+       "has administration instruction",
+       "taken daily to work properly"
+      ],
+      [
+       "montelukast",
+       "has fda approval year",
+       "1998"
+      ]
+     ],
+     "schema_definition": {
+      "reduces inflammation": "The subject drug helps to decrease inflammation associated with the condition specified by the object entity.",
+      "treats": "The subject drug is used to manage or prevent the medical condition specified by the object entity.",
+      "has recommended use in": "The subject drug is recommended for use in the patient population specified by the object entity.",
+      "has administration instruction": "The subject drug requires the specific dosing or usage practice specified by the object entity to be effective.",
+      "has instruction for missed dose": "If a dose of the subject drug is missed, the patient should follow the instruction specified by the object entity.",
+      "is not a rescue medicine for": "The subject drug is not intended to provide immediate relief for the condition specified by the object entity.",
+      "has fda approval year": "The subject drug received formal approval from the U.S. Food and Drug Administration in the year specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "montelukast",
+        "has mechanism of action",
+        "asthma attacks"
+       ],
+       "raw_relation": "reduces inflammation",
+       "definition": "The subject drug helps to decrease inflammation associated with the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "reduces risk of",
+         0.8539
+        ],
+        [
+         "treats",
+         0.8452
+        ],
+        [
+         "has mechanism of action",
+         0.8302
+        ],
+        [
+         "may reduce response to",
+         0.8259
+        ],
+        [
+         "lowers level of",
+         0.82
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "treats",
+        "exercise-induced bronchoconstriction"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or prevent the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "treats",
+        "seasonal allergic rhinitis"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or prevent the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "treats",
+        "perennial allergic rhinitis"
+       ],
+       "raw_relation": "treats",
+       "definition": "The subject drug is used to manage or prevent the medical condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "used in population",
+        "adults and children at least 2 years old"
+       ],
+       "raw_relation": "has recommended use in",
+       "definition": "The subject drug is recommended for use in the patient population specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.939
+        ],
+        [
+         "treats",
+         0.8943
+        ],
+        [
+         "has recommended dose",
+         0.8841
+        ],
+        [
+         "has dosage form",
+         0.8806
+        ],
+        [
+         "belongs to drug class",
+         0.872
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "used in population",
+        "children at least 6 years old"
+       ],
+       "raw_relation": "has recommended use in",
+       "definition": "The subject drug is recommended for use in the patient population specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.939
+        ],
+        [
+         "treats",
+         0.8943
+        ],
+        [
+         "has recommended dose",
+         0.8841
+        ],
+        [
+         "has dosage form",
+         0.8806
+        ],
+        [
+         "belongs to drug class",
+         0.872
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "used in population",
+        "people over 6 months old"
+       ],
+       "raw_relation": "has recommended use in",
+       "definition": "The subject drug is recommended for use in the patient population specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "used in population",
+         0.939
+        ],
+        [
+         "treats",
+         0.8943
+        ],
+        [
+         "has recommended dose",
+         0.8841
+        ],
+        [
+         "has dosage form",
+         0.8806
+        ],
+        [
+         "belongs to drug class",
+         0.872
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has missed dose instruction",
+        "do not take extra dose for exercise-induced bronchoconstriction"
+       ],
+       "raw_relation": "has instruction for missed dose",
+       "definition": "If a dose of the subject drug is missed, the patient should follow the instruction specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has missed dose instruction",
+         0.9979
+        ],
+        [
+         "has overdose instruction",
+         0.8914
+        ],
+        [
+         "requires monitoring of",
+         0.8247
+        ],
+        [
+         "has recommended dose",
+         0.8183
+        ],
+        [
+         "has storage instruction",
+         0.8111
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "not used to treat",
+        "asthma attacks"
+       ],
+       "raw_relation": "is not a rescue medicine for",
+       "definition": "The subject drug is not intended to provide immediate relief for the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "does not reduce risk of",
+         0.8793
+        ],
+        [
+         "contraindicated in",
+         0.841
+        ],
+        [
+         "not used to treat",
+         0.8325
+        ],
+        [
+         "not effectively removed by",
+         0.8314
+        ],
+        [
+         "should not be stored in",
+         0.8261
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has administration instruction",
+        "taken daily to work properly"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug requires the specific dosing or usage practice specified by the object entity to be effective.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "fda approval year",
+        "1998"
+       ],
+       "raw_relation": "has fda approval year",
+       "definition": "The subject drug received formal approval from the U.S. Food and Drug Administration in the year specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "fda approval year",
+         0.9532
+        ],
+        [
+         "used in population",
+         0.7937
+        ],
+        [
+         "manufactured by",
+         0.79
+        ],
+        [
+         "has dosage form",
+         0.7885
+        ],
+        [
+         "contains ingredient",
+         0.7761
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "montelukast#warnings#0",
+     "section_id": "warnings",
+     "section_heading": "Warnings",
+     "text": "Stop taking montelukast and call your doctor right away if you have any unusual changes in mood or behavior (such as agitation, confusion, depression, sleep problems, compulsive behaviors, hallucinations, or suicidal thoughts or actions).\nTell your doctor right away if you have signs of blood vessel inflammation: flu-like symptoms, severe sinus pain, a skin rash, numbness or a \"pins and needles\" feeling in your arms or legs.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"montelukast\", \"has warning\", \"unusual mood or behavior changes\"], [\"montelukast\", \"has warning\", \"blood vessel inflammation\"], [\"montelukast\", \"has symptom of\", \"agitation\"], [\"montelukast\", \"has symptom of\", \"confusion\"], [\"montelukast\", \"has symptom of\", \"depression\"], [\"montelukast\", \"has symptom of\", \"sleep problems\"], [\"montelukast\", \"has symptom of\", \"compulsive behaviors\"], [\"montelukast\", \"has symptom of\", \"hallucinations\"], [\"montelukast\", \"has symptom of\", \"suicidal thoughts or actions\"], [\"montelukast\", \"has symptom of\", \"flu-like symptoms\"], [\"montelukast\", \"has symptom of\", \"severe sinus pain\"], [\"montelukast\", \"has symptom of\", \"skin rash\"], [\"montelukast\", \"has symptom of\", \"numbness\"], [\"montelukast\", \"has symptom of\", \"pins and needles in arms or legs\"]]",
+     "oie": [
+      [
+       "montelukast",
+       "has warning",
+       "unusual mood or behavior changes"
+      ],
+      [
+       "montelukast",
+       "has warning",
+       "blood vessel inflammation"
+      ],
+      [
+       "montelukast",
+       "has symptom of",
+       "agitation"
+      ],
+      [
+       "montelukast",
+       "has symptom of",
+       "confusion"
+      ],
+      [
+       "montelukast",
+       "has symptom of",
+       "depression"
+      ],
+      [
+       "montelukast",
+       "has symptom of",
+       "sleep problems"
+      ],
+      [
+       "montelukast",
+       "has symptom of",
+       "compulsive behaviors"
+      ],
+      [
+       "montelukast",
+       "has symptom of",
+       "hallucinations"
+      ],
+      [
+       "montelukast",
+       "has symptom of",
+       "suicidal thoughts or actions"
+      ],
+      [
+       "montelukast",
+       "has symptom of",
+       "flu-like symptoms"
+      ],
+      [
+       "montelukast",
+       "has symptom of",
+       "severe sinus pain"
+      ],
+      [
+       "montelukast",
+       "has symptom of",
+       "skin rash"
+      ],
+      [
+       "montelukast",
+       "has symptom of",
+       "numbness"
+      ],
+      [
+       "montelukast",
+       "has symptom of",
+       "pins and needles in arms or legs"
+      ]
+     ],
+     "schema_definition": {
+      "has symptom of": "The subject drug may cause the specific symptom specified by the object entity, which patients should be aware of.",
+      "has warning": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or symptom specified by the object entity, requiring immediate medical attention."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "montelukast",
+        "has warning",
+        "unusual mood or behavior changes"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or symptom specified by the object entity, requiring immediate medical attention.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has warning",
+        "blood vessel inflammation"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug carries a caution or alert regarding the potential occurrence of the condition or symptom specified by the object entity, requiring immediate medical attention.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "agitation"
+       ],
+       "raw_relation": "has symptom of",
+       "definition": "The subject drug may cause the specific symptom specified by the object entity, which patients should be aware of.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9163
+        ],
+        [
+         "mimics symptoms of",
+         0.8966
+        ],
+        [
+         "has overdose symptom",
+         0.884
+        ],
+        [
+         "should inform doctor about",
+         0.8762
+        ],
+        [
+         "requires monitoring of",
+         0.8747
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "confusion"
+       ],
+       "raw_relation": "has symptom of",
+       "definition": "The subject drug may cause the specific symptom specified by the object entity, which patients should be aware of.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9163
+        ],
+        [
+         "mimics symptoms of",
+         0.8966
+        ],
+        [
+         "has overdose symptom",
+         0.884
+        ],
+        [
+         "should inform doctor about",
+         0.8762
+        ],
+        [
+         "requires monitoring of",
+         0.8747
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "depression"
+       ],
+       "raw_relation": "has symptom of",
+       "definition": "The subject drug may cause the specific symptom specified by the object entity, which patients should be aware of.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9163
+        ],
+        [
+         "mimics symptoms of",
+         0.8966
+        ],
+        [
+         "has overdose symptom",
+         0.884
+        ],
+        [
+         "should inform doctor about",
+         0.8762
+        ],
+        [
+         "requires monitoring of",
+         0.8747
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "sleep problems"
+       ],
+       "raw_relation": "has symptom of",
+       "definition": "The subject drug may cause the specific symptom specified by the object entity, which patients should be aware of.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9163
+        ],
+        [
+         "mimics symptoms of",
+         0.8966
+        ],
+        [
+         "has overdose symptom",
+         0.884
+        ],
+        [
+         "should inform doctor about",
+         0.8762
+        ],
+        [
+         "requires monitoring of",
+         0.8747
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "compulsive behaviors"
+       ],
+       "raw_relation": "has symptom of",
+       "definition": "The subject drug may cause the specific symptom specified by the object entity, which patients should be aware of.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9163
+        ],
+        [
+         "mimics symptoms of",
+         0.8966
+        ],
+        [
+         "has overdose symptom",
+         0.884
+        ],
+        [
+         "should inform doctor about",
+         0.8762
+        ],
+        [
+         "requires monitoring of",
+         0.8747
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "hallucinations"
+       ],
+       "raw_relation": "has symptom of",
+       "definition": "The subject drug may cause the specific symptom specified by the object entity, which patients should be aware of.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9163
+        ],
+        [
+         "mimics symptoms of",
+         0.8966
+        ],
+        [
+         "has overdose symptom",
+         0.884
+        ],
+        [
+         "should inform doctor about",
+         0.8762
+        ],
+        [
+         "requires monitoring of",
+         0.8747
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "suicidal thoughts or actions"
+       ],
+       "raw_relation": "has symptom of",
+       "definition": "The subject drug may cause the specific symptom specified by the object entity, which patients should be aware of.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9163
+        ],
+        [
+         "mimics symptoms of",
+         0.8966
+        ],
+        [
+         "has overdose symptom",
+         0.884
+        ],
+        [
+         "should inform doctor about",
+         0.8762
+        ],
+        [
+         "requires monitoring of",
+         0.8747
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "flu-like symptoms"
+       ],
+       "raw_relation": "has symptom of",
+       "definition": "The subject drug may cause the specific symptom specified by the object entity, which patients should be aware of.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9163
+        ],
+        [
+         "mimics symptoms of",
+         0.8966
+        ],
+        [
+         "has overdose symptom",
+         0.884
+        ],
+        [
+         "should inform doctor about",
+         0.8762
+        ],
+        [
+         "requires monitoring of",
+         0.8747
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "severe sinus pain"
+       ],
+       "raw_relation": "has symptom of",
+       "definition": "The subject drug may cause the specific symptom specified by the object entity, which patients should be aware of.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9163
+        ],
+        [
+         "mimics symptoms of",
+         0.8966
+        ],
+        [
+         "has overdose symptom",
+         0.884
+        ],
+        [
+         "should inform doctor about",
+         0.8762
+        ],
+        [
+         "requires monitoring of",
+         0.8747
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "skin rash"
+       ],
+       "raw_relation": "has symptom of",
+       "definition": "The subject drug may cause the specific symptom specified by the object entity, which patients should be aware of.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9163
+        ],
+        [
+         "mimics symptoms of",
+         0.8966
+        ],
+        [
+         "has overdose symptom",
+         0.884
+        ],
+        [
+         "should inform doctor about",
+         0.8762
+        ],
+        [
+         "requires monitoring of",
+         0.8747
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "numbness"
+       ],
+       "raw_relation": "has symptom of",
+       "definition": "The subject drug may cause the specific symptom specified by the object entity, which patients should be aware of.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9163
+        ],
+        [
+         "mimics symptoms of",
+         0.8966
+        ],
+        [
+         "has overdose symptom",
+         0.884
+        ],
+        [
+         "should inform doctor about",
+         0.8762
+        ],
+        [
+         "requires monitoring of",
+         0.8747
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "pins and needles in arms or legs"
+       ],
+       "raw_relation": "has symptom of",
+       "definition": "The subject drug may cause the specific symptom specified by the object entity, which patients should be aware of.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.9163
+        ],
+        [
+         "mimics symptoms of",
+         0.8966
+        ],
+        [
+         "has overdose symptom",
+         0.884
+        ],
+        [
+         "should inform doctor about",
+         0.8762
+        ],
+        [
+         "requires monitoring of",
+         0.8747
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "montelukast#before-taking#0",
+     "section_id": "before-taking",
+     "section_heading": "Before taking this medicine",
+     "text": "You should not use montelukast if you are allergic to it.\nTell your doctor if you have ever had:\n- mental illness or psychosis; or\n- asthma, or a history of severe allergic reaction (sneezing, runny or stuffy nose, wheezing, shortness of breath) after taking aspirin or another NSAID.\nThe chewable montelukast tablet may contain phenylalanine and could be harmful if you have phenylketonuria (PKU).\nTell your doctor if you are pregnant or breastfeeding.\nDo not give this medicine to a child without a doctor's advice.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"montelukast\", \"contraindicated in\", \"allergy to montelukast\"], [\"montelukast\", \"use with caution in\", \"mental illness or psychosis\"], [\"montelukast\", \"use with caution in\", \"asthma\"], [\"montelukast\", \"use with caution in\", \"severe allergic reaction to aspirin or NSAID\"], [\"montelukast\", \"has warning\", \"contains phenylalanine\"], [\"montelukast\", \"has warning\", \"harmful in phenylketonuria\"], [\"montelukast\", \"requires medical supervision in\", \"pregnancy\"], [\"montelukast\", \"requires medical supervision in\", \"breastfeeding\"], [\"montelukast\", \"should not be given to\", \"children without doctor's advice\"]]",
+     "oie": [
+      [
+       "montelukast",
+       "contraindicated in",
+       "allergy to montelukast"
+      ],
+      [
+       "montelukast",
+       "use with caution in",
+       "mental illness or psychosis"
+      ],
+      [
+       "montelukast",
+       "use with caution in",
+       "asthma"
+      ],
+      [
+       "montelukast",
+       "use with caution in",
+       "severe allergic reaction to aspirin or NSAID"
+      ],
+      [
+       "montelukast",
+       "has warning",
+       "contains phenylalanine"
+      ],
+      [
+       "montelukast",
+       "has warning",
+       "harmful in phenylketonuria"
+      ],
+      [
+       "montelukast",
+       "requires medical supervision in",
+       "pregnancy"
+      ],
+      [
+       "montelukast",
+       "requires medical supervision in",
+       "breastfeeding"
+      ],
+      [
+       "montelukast",
+       "should not be given to",
+       "children without doctor's advice"
+      ]
+     ],
+     "schema_definition": {
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "has warning": "The subject drug contains the component or has the characteristic specified by the object entity, which may pose a risk to certain patients.",
+      "requires medical supervision in": "The subject drug should be used under medical guidance for patients who have the condition specified by the object entity.",
+      "should not be given to": "The subject drug should not be administered to the specified group of individuals without prior medical evaluation or authorization.",
+      "use with caution in": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "montelukast",
+        "contraindicated in",
+        "allergy to montelukast"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "use with caution in",
+        "mental illness or psychosis"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "use with caution in",
+        "asthma"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "use with caution in",
+        "severe allergic reaction to aspirin or NSAID"
+       ],
+       "raw_relation": "use with caution in",
+       "definition": "The subject drug may be unsafe or require medical supervision for patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has warning",
+        "contains phenylalanine"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug contains the component or has the characteristic specified by the object entity, which may pose a risk to certain patients.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has warning",
+        "harmful in phenylketonuria"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug contains the component or has the characteristic specified by the object entity, which may pose a risk to certain patients.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "should inform doctor about",
+        "pregnancy"
+       ],
+       "raw_relation": "requires medical supervision in",
+       "definition": "The subject drug should be used under medical guidance for patients who have the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "treats",
+         0.9052
+        ],
+        [
+         "should inform doctor about",
+         0.8827
+        ],
+        [
+         "requires monitoring of",
+         0.8799
+        ],
+        [
+         "used in population",
+         0.8702
+        ],
+        [
+         "has administration instruction",
+         0.8681
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "should inform doctor about",
+        "breastfeeding"
+       ],
+       "raw_relation": "requires medical supervision in",
+       "definition": "The subject drug should be used under medical guidance for patients who have the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "treats",
+         0.9052
+        ],
+        [
+         "should inform doctor about",
+         0.8827
+        ],
+        [
+         "requires monitoring of",
+         0.8799
+        ],
+        [
+         "used in population",
+         0.8702
+        ],
+        [
+         "has administration instruction",
+         0.8681
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "contraindicated in",
+        "children without doctor's advice"
+       ],
+       "raw_relation": "should not be given to",
+       "definition": "The subject drug should not be administered to the specified group of individuals without prior medical evaluation or authorization.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "contraindicated in",
+         0.8256
+        ],
+        [
+         "has repeat course interval restriction",
+         0.8102
+        ],
+        [
+         "does not reduce risk of",
+         0.7837
+        ],
+        [
+         "should not be taken",
+         0.7761
+        ],
+        [
+         "not approved for",
+         0.7728
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "montelukast#dosage#0",
+     "section_id": "dosage",
+     "section_heading": "How should I take montelukast?",
+     "text": "Take montelukast exactly as prescribed by your doctor and read all medication guides or instruction sheets about montelukast.\nMontelukast is not a fast-acting rescue medicine for asthma attacks. Seek medical attention if your breathing problems get worse quickly, or if you think your medications are not working.\nMontelukast is usually taken once every evening, with or without food.\nFor exercise-induced bronchoconstriction, take a single dose at least 2 hours before exercise, and do not take another dose for at least 24 hours.\nSwallow the regular tablet whole, with a glass of water.\nYou must chew the chewable tablet before you swallow it.\nPlace the oral granules directly in your mouth and swallow, or mix them with applesauce, mashed carrots, rice, or ice cream. The granules may also be mixed with baby formula or breast milk. Do not use any other type of liquid. Use the mixture within 15 minutes. Do not save for later use.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"montelukast\", \"has administration instruction\", \"take exactly as prescribed by your doctor\"], [\"montelukast\", \"has administration instruction\", \"read all medication guides or instruction sheets\"], [\"montelukast\", \"is not a\", \"fast-acting rescue medicine for asthma attacks\"], [\"montelukast\", \"requires medical attention if\", \"breathing problems get worse quickly\"], [\"montelukast\", \"requires medical attention if\", \"medications are not working\"], [\"montelukast\", \"has recommended dose\", \"once every evening with or without food\"], [\"montelukast\", \"has specific dose instruction for\", \"exercise-induced bronchoconstriction\"], [\"montelukast\", \"has dose timing instruction for\", \"at least 2 hours before exercise\"], [\"montelukast\", \"has dose timing instruction for\", \"do not take another dose for at least 24 hours\"], [\"montelukast\", \"has administration instruction\", \"swallow regular tablet whole with a glass of water\"], [\"montelukast\", \"has administration instruction\", \"chew chewable tablet before swallowing\"], [\"montelukast\", \"has administration instruction\", \"place oral granules directly in mouth and swallow\"], [\"montelukast\", \"has administration instruction\", \"mix oral granules with applesauce, mashed carrots, rice, or ice cream\"], [\"montelukast\", \"has administration instruction\", \"mix oral granules with baby formula or breast milk\"], [\"montelukast\", \"has administration instruction\", \"do not use any other type of liquid\"], [\"montelukast\", \"has administration instruction\", \"use mixture within 15 minutes\"], [\"montelukast\", \"has administration instruction\", \"do not save for later use\"]]",
+     "oie": [
+      [
+       "montelukast",
+       "has administration instruction",
+       "take exactly as prescribed by your doctor"
+      ],
+      [
+       "montelukast",
+       "has administration instruction",
+       "read all medication guides or instruction sheets"
+      ],
+      [
+       "montelukast",
+       "is not a",
+       "fast-acting rescue medicine for asthma attacks"
+      ],
+      [
+       "montelukast",
+       "requires medical attention if",
+       "breathing problems get worse quickly"
+      ],
+      [
+       "montelukast",
+       "requires medical attention if",
+       "medications are not working"
+      ],
+      [
+       "montelukast",
+       "has recommended dose",
+       "once every evening with or without food"
+      ],
+      [
+       "montelukast",
+       "has specific dose instruction for",
+       "exercise-induced bronchoconstriction"
+      ],
+      [
+       "montelukast",
+       "has dose timing instruction for",
+       "at least 2 hours before exercise"
+      ],
+      [
+       "montelukast",
+       "has dose timing instruction for",
+       "do not take another dose for at least 24 hours"
+      ],
+      [
+       "montelukast",
+       "has administration instruction",
+       "swallow regular tablet whole with a glass of water"
+      ],
+      [
+       "montelukast",
+       "has administration instruction",
+       "chew chewable tablet before swallowing"
+      ],
+      [
+       "montelukast",
+       "has administration instruction",
+       "place oral granules directly in mouth and swallow"
+      ],
+      [
+       "montelukast",
+       "has administration instruction",
+       "mix oral granules with applesauce, mashed carrots, rice, or ice cream"
+      ],
+      [
+       "montelukast",
+       "has administration instruction",
+       "mix oral granules with baby formula or breast milk"
+      ],
+      [
+       "montelukast",
+       "has administration instruction",
+       "do not use any other type of liquid"
+      ],
+      [
+       "montelukast",
+       "has administration instruction",
+       "use mixture within 15 minutes"
+      ],
+      [
+       "montelukast",
+       "has administration instruction",
+       "do not save for later use"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+      "has dose timing instruction for": "The subject drug must be taken at the specified time or under the time constraints described by the object entity.",
+      "has recommended dose": "The subject drug is typically prescribed at the dose frequency and conditions specified by the object entity.",
+      "has specific dose instruction for": "The subject drug has particular dosing instructions for the specified medical condition or scenario.",
+      "is not a": "The subject drug does not function as a fast-acting rescue treatment for the condition specified by the object entity.",
+      "requires medical attention if": "The subject drug necessitates immediate medical evaluation if the condition or symptom specified by the object entity occurs."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "montelukast",
+        "has administration instruction",
+        "take exactly as prescribed by your doctor"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has administration instruction",
+        "read all medication guides or instruction sheets"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "not used to treat",
+        "fast-acting rescue medicine for asthma attacks"
+       ],
+       "raw_relation": "is not a",
+       "definition": "The subject drug does not function as a fast-acting rescue treatment for the condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "does not reduce risk of",
+         0.8701
+        ],
+        [
+         "not effectively removed by",
+         0.8451
+        ],
+        [
+         "should not be stored in",
+         0.834
+        ],
+        [
+         "not used to treat",
+         0.8312
+        ],
+        [
+         "contraindicated in",
+         0.8267
+        ]
+       ],
+       "answer": "D"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has serious side effect",
+        "breathing problems get worse quickly"
+       ],
+       "raw_relation": "requires medical attention if",
+       "definition": "The subject drug necessitates immediate medical evaluation if the condition or symptom specified by the object entity occurs.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires monitoring of",
+         0.852
+        ],
+        [
+         "mimics symptoms of",
+         0.8425
+        ],
+        [
+         "has side effect",
+         0.8337
+        ],
+        [
+         "has serious side effect",
+         0.8326
+        ],
+        [
+         "use with caution in",
+         0.8204
+        ]
+       ],
+       "answer": "D"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has serious side effect",
+        "medications are not working"
+       ],
+       "raw_relation": "requires medical attention if",
+       "definition": "The subject drug necessitates immediate medical evaluation if the condition or symptom specified by the object entity occurs.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "requires monitoring of",
+         0.852
+        ],
+        [
+         "mimics symptoms of",
+         0.8425
+        ],
+        [
+         "has side effect",
+         0.8337
+        ],
+        [
+         "has serious side effect",
+         0.8326
+        ],
+        [
+         "use with caution in",
+         0.8204
+        ]
+       ],
+       "answer": "D"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has recommended dose",
+        "once every evening with or without food"
+       ],
+       "raw_relation": "has recommended dose",
+       "definition": "The subject drug is typically prescribed at the dose frequency and conditions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has indication for initial dose",
+        "exercise-induced bronchoconstriction"
+       ],
+       "raw_relation": "has specific dose instruction for",
+       "definition": "The subject drug has particular dosing instructions for the specified medical condition or scenario.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has indication for initial dose",
+         0.8942
+        ],
+        [
+         "has recommended dose",
+         0.8829
+        ],
+        [
+         "has dosage form",
+         0.8565
+        ],
+        [
+         "has strength",
+         0.8404
+        ],
+        [
+         "requires use of",
+         0.8322
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has administration instruction",
+        "at least 2 hours before exercise"
+       ],
+       "raw_relation": "has dose timing instruction for",
+       "definition": "The subject drug must be taken at the specified time or under the time constraints described by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.9094
+        ],
+        [
+         "has duration of treatment",
+         0.8894
+        ],
+        [
+         "has onset of effect",
+         0.8528
+        ],
+        [
+         "has recommended dose",
+         0.8494
+        ],
+        [
+         "has dosage form",
+         0.8461
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has administration instruction",
+        "do not take another dose for at least 24 hours"
+       ],
+       "raw_relation": "has dose timing instruction for",
+       "definition": "The subject drug must be taken at the specified time or under the time constraints described by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has administration instruction",
+         0.9094
+        ],
+        [
+         "has duration of treatment",
+         0.8894
+        ],
+        [
+         "has onset of effect",
+         0.8528
+        ],
+        [
+         "has recommended dose",
+         0.8494
+        ],
+        [
+         "has dosage form",
+         0.8461
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has administration instruction",
+        "swallow regular tablet whole with a glass of water"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has administration instruction",
+        "chew chewable tablet before swallowing"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has administration instruction",
+        "place oral granules directly in mouth and swallow"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has administration instruction",
+        "mix oral granules with applesauce, mashed carrots, rice, or ice cream"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has administration instruction",
+        "mix oral granules with baby formula or breast milk"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has administration instruction",
+        "do not use any other type of liquid"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has administration instruction",
+        "use mixture within 15 minutes"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has administration instruction",
+        "do not save for later use"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the specific instructions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "montelukast#dosage#1",
+     "section_id": "dosage",
+     "section_heading": "How should I take montelukast?",
+     "text": "If you also use an oral steroid medication, you should not stop using it suddenly when you start taking montelukast. Follow your doctor's instructions about tapering your dose.\nDo not change your dose or stop using asthma medication without your doctor's advice.\nStore montelukast at room temperature away from moisture and heat. Do not open a packet of montelukast oral granules until you are ready to use them.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"montelukast\", \"should not be started with\", \"oral steroid medication without tapering\"], [\"montelukast\", \"requires doctor supervision for dose changes\"], [\"montelukast\", \"has storage instruction\", \"store at room temperature away from moisture and heat\"], [\"montelukast\", \"has administration instruction\", \"do not open packet until ready to use\"]]",
+     "oie": [
+      [
+       "montelukast",
+       "should not be started with",
+       "oral steroid medication without tapering"
+      ],
+      [
+       "montelukast",
+       "has storage instruction",
+       "store at room temperature away from moisture and heat"
+      ],
+      [
+       "montelukast",
+       "has administration instruction",
+       "do not open packet until ready to use"
+      ]
+     ],
+     "schema_definition": {
+      "has administration instruction": "The subject drug should be administered according to the instruction specified by the object entity.",
+      "has storage instruction": "The subject drug should be stored under the conditions specified by the object entity.",
+      "should not be started with": "The subject drug should not be initiated in combination with the specified medication without following a prescribed tapering regimen."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "montelukast",
+        "requires doctor consultation before discontinuation",
+        "oral steroid medication without tapering"
+       ],
+       "raw_relation": "should not be started with",
+       "definition": "The subject drug should not be initiated in combination with the specified medication without following a prescribed tapering regimen.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has repeat course interval restriction",
+         0.8012
+        ],
+        [
+         "contraindicated in",
+         0.7797
+        ],
+        [
+         "requires doctor consultation before discontinuation",
+         0.777
+        ],
+        [
+         "should not be taken",
+         0.7723
+        ],
+        [
+         "should not be stopped during",
+         0.7715
+        ]
+       ],
+       "answer": "C"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has storage instruction",
+        "store at room temperature away from moisture and heat"
+       ],
+       "raw_relation": "has storage instruction",
+       "definition": "The subject drug should be stored under the conditions specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has administration instruction",
+        "do not open packet until ready to use"
+       ],
+       "raw_relation": "has administration instruction",
+       "definition": "The subject drug should be administered according to the instruction specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "montelukast#missed-dose#0",
+     "section_id": "missed-dose",
+     "section_heading": "What happens if I miss a dose of montelukast?",
+     "text": "If you miss a dose of montelukast, skip the missed dose and use your next dose at the regular time. Do not use two doses at one time.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"montelukast\", \"has missed dose instruction\", \"skip missed dose and take next dose at regular time\"], [\"montelukast\", \"has missed dose instruction\", \"do not take two doses at one time\"]]",
+     "oie": [
+      [
+       "montelukast",
+       "has missed dose instruction",
+       "skip missed dose and take next dose at regular time"
+      ],
+      [
+       "montelukast",
+       "has missed dose instruction",
+       "do not take two doses at one time"
+      ]
+     ],
+     "schema_definition": {
+      "has missed dose instruction": "The subject drug provides specific guidance on how to manage a missed dose, including actions to take with respect to the timing and dosage of subsequent doses."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "montelukast",
+        "has missed dose instruction",
+        "skip missed dose and take next dose at regular time"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug provides specific guidance on how to manage a missed dose, including actions to take with respect to the timing and dosage of subsequent doses.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has missed dose instruction",
+        "do not take two doses at one time"
+       ],
+       "raw_relation": "has missed dose instruction",
+       "definition": "The subject drug provides specific guidance on how to manage a missed dose, including actions to take with respect to the timing and dosage of subsequent doses.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "montelukast#overdose#0",
+     "section_id": "overdose",
+     "section_heading": "What happens if I overdose?",
+     "text": "Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"Montelukast\", \"has overdose instruction\", \"seek emergency medical attention\"], [\"Montelukast\", \"has overdose instruction\", \"call Poison Help line at 1-800-222-1222\"]]",
+     "oie": [
+      [
+       "Montelukast",
+       "has overdose instruction",
+       "seek emergency medical attention"
+      ],
+      [
+       "Montelukast",
+       "has overdose instruction",
+       "call Poison Help line at 1-800-222-1222"
+      ]
+     ],
+     "schema_definition": {
+      "has overdose instruction": "The subject drug requires the action specified by the object entity in case of overdose."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "Montelukast",
+        "has overdose instruction",
+        "seek emergency medical attention"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "Montelukast",
+        "has overdose instruction",
+        "call Poison Help line at 1-800-222-1222"
+       ],
+       "raw_relation": "has overdose instruction",
+       "definition": "The subject drug requires the action specified by the object entity in case of overdose.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      }
+     ]
+    },
+    {
+     "chunk_id": "montelukast#what-to-avoid#0",
+     "section_id": "what-to-avoid",
+     "section_heading": "What should I avoid while taking montelukast?",
+     "text": "Avoid situations or activities that may trigger an asthma attack.\nIf your asthma symptoms get worse when you take aspirin, avoid taking aspirin or other NSAIDs (nonsteroidal anti-inflammatory drugs) such as ibuprofen (Advil, Motrin), naproxen (Aleve), celecoxib, diclofenac, indomethacin, meloxicam, and others.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"montelukast\", \"avoids situations that trigger\", \"asthma attack\"], [\"montelukast\", \"contraindicated in\", \"aspirin-exacerbated asthma\"], [\"montelukast\", \"interacts with\", \"NSAIDs\"], [\"montelukast\", \"should avoid\", \"aspirin\"], [\"montelukast\", \"should avoid\", \"ibuprofen\"], [\"montelukast\", \"should avoid\", \"naproxen\"], [\"montelukast\", \"should avoid\", \"celecoxib\"], [\"montelukast\", \"should avoid\", \"diclofenac\"], [\"montelukast\", \"should avoid\", \"indomethacin\"], [\"montelukast\", \"should avoid\", \"meloxicam\"]]",
+     "oie": [
+      [
+       "montelukast",
+       "avoids situations that trigger",
+       "asthma attack"
+      ],
+      [
+       "montelukast",
+       "contraindicated in",
+       "aspirin-exacerbated asthma"
+      ],
+      [
+       "montelukast",
+       "interacts with",
+       "NSAIDs"
+      ],
+      [
+       "montelukast",
+       "should avoid",
+       "aspirin"
+      ],
+      [
+       "montelukast",
+       "should avoid",
+       "ibuprofen"
+      ],
+      [
+       "montelukast",
+       "should avoid",
+       "naproxen"
+      ],
+      [
+       "montelukast",
+       "should avoid",
+       "celecoxib"
+      ],
+      [
+       "montelukast",
+       "should avoid",
+       "diclofenac"
+      ],
+      [
+       "montelukast",
+       "should avoid",
+       "indomethacin"
+      ],
+      [
+       "montelukast",
+       "should avoid",
+       "meloxicam"
+      ]
+     ],
+     "schema_definition": {
+      "avoids situations that trigger": "The subject drug is intended to prevent or reduce the occurrence of the medical event or condition specified by the object entity.",
+      "contraindicated in": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+      "interacts with": "The subject drug may produce a pharmacological interaction when co-administered with the substance specified by the object entity.",
+      "should avoid": "Patients taking the subject drug should refrain from using the substance or activity specified by the object entity."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "montelukast",
+        "reduces risk of",
+        "asthma attack"
+       ],
+       "raw_relation": "avoids situations that trigger",
+       "definition": "The subject drug is intended to prevent or reduce the occurrence of the medical event or condition specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "reduces risk of",
+         0.9544
+        ],
+        [
+         "treats",
+         0.8911
+        ],
+        [
+         "should be avoided with",
+         0.8433
+        ],
+        [
+         "has warning",
+         0.8418
+        ],
+        [
+         "has side effect",
+         0.84
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "contraindicated in",
+        "aspirin-exacerbated asthma"
+       ],
+       "raw_relation": "contraindicated in",
+       "definition": "The subject drug should not be used by patients who have the condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "interacts with",
+        "NSAIDs"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may produce a pharmacological interaction when co-administered with the substance specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "should be avoided with",
+        "aspirin"
+       ],
+       "raw_relation": "should avoid",
+       "definition": "Patients taking the subject drug should refrain from using the substance or activity specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should be avoided with",
+         0.9631
+        ],
+        [
+         "contraindicated in",
+         0.9053
+        ],
+        [
+         "should not be taken",
+         0.868
+        ],
+        [
+         "has legal restriction",
+         0.8294
+        ],
+        [
+         "should not be stored in",
+         0.7995
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "should be avoided with",
+        "ibuprofen"
+       ],
+       "raw_relation": "should avoid",
+       "definition": "Patients taking the subject drug should refrain from using the substance or activity specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should be avoided with",
+         0.9631
+        ],
+        [
+         "contraindicated in",
+         0.9053
+        ],
+        [
+         "should not be taken",
+         0.868
+        ],
+        [
+         "has legal restriction",
+         0.8294
+        ],
+        [
+         "should not be stored in",
+         0.7995
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "should be avoided with",
+        "naproxen"
+       ],
+       "raw_relation": "should avoid",
+       "definition": "Patients taking the subject drug should refrain from using the substance or activity specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should be avoided with",
+         0.9631
+        ],
+        [
+         "contraindicated in",
+         0.9053
+        ],
+        [
+         "should not be taken",
+         0.868
+        ],
+        [
+         "has legal restriction",
+         0.8294
+        ],
+        [
+         "should not be stored in",
+         0.7995
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "should be avoided with",
+        "celecoxib"
+       ],
+       "raw_relation": "should avoid",
+       "definition": "Patients taking the subject drug should refrain from using the substance or activity specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should be avoided with",
+         0.9631
+        ],
+        [
+         "contraindicated in",
+         0.9053
+        ],
+        [
+         "should not be taken",
+         0.868
+        ],
+        [
+         "has legal restriction",
+         0.8294
+        ],
+        [
+         "should not be stored in",
+         0.7995
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "should be avoided with",
+        "diclofenac"
+       ],
+       "raw_relation": "should avoid",
+       "definition": "Patients taking the subject drug should refrain from using the substance or activity specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should be avoided with",
+         0.9631
+        ],
+        [
+         "contraindicated in",
+         0.9053
+        ],
+        [
+         "should not be taken",
+         0.868
+        ],
+        [
+         "has legal restriction",
+         0.8294
+        ],
+        [
+         "should not be stored in",
+         0.7995
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "should be avoided with",
+        "indomethacin"
+       ],
+       "raw_relation": "should avoid",
+       "definition": "Patients taking the subject drug should refrain from using the substance or activity specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should be avoided with",
+         0.9631
+        ],
+        [
+         "contraindicated in",
+         0.9053
+        ],
+        [
+         "should not be taken",
+         0.868
+        ],
+        [
+         "has legal restriction",
+         0.8294
+        ],
+        [
+         "should not be stored in",
+         0.7995
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "should be avoided with",
+        "meloxicam"
+       ],
+       "raw_relation": "should avoid",
+       "definition": "Patients taking the subject drug should refrain from using the substance or activity specified by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should be avoided with",
+         0.9631
+        ],
+        [
+         "contraindicated in",
+         0.9053
+        ],
+        [
+         "should not be taken",
+         0.868
+        ],
+        [
+         "has legal restriction",
+         0.8294
+        ],
+        [
+         "should not be stored in",
+         0.7995
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    },
+    {
+     "chunk_id": "montelukast#side-effects#0",
+     "section_id": "side-effects",
+     "section_heading": "Montelukast side effects",
+     "text": "Get emergency medical help if you have signs of an allergic reaction to montelukast: hives, blisters, severe itching; difficult breathing; swelling of your face, lips, tongue, or throat.\nTell your doctor right away if you have signs of blood vessel inflammation: flu-like symptoms, severe sinus pain, a skin rash, numbness or a \"pins and needles\" feeling in your arms or legs.\nSome people using montelukast have had new or worsening mental problems. Stop taking montelukast and call your doctor right away if you have unusual changes in mood or behavior, such as:\n- agitation, aggression, feeling restless or irritable;\n- anxiety, depression, confusion, problems with memory or attention;\n- stuttering, tremors, uncontrolled muscle movements;\n- suicidal thoughts or actions;\n- hallucinations, sleep problems, vivid, dreams, sleep-walking; or\n- compulsive or repetitive behaviors.\nCommon side effects of montelukast may include:\n- stomach pain, diarrhea;\n- fever or other flu symptoms;\n- ear pain or full feeling, trouble hearing;\n- headache; or",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"montelukast\", \"has serious side effect\", \"allergic reaction\"], [\"montelukast\", \"has side effect\", \"stomach pain\"], [\"montelukast\", \"has side effect\", \"diarrhea\"], [\"montelukast\", \"has side effect\", \"fever\"], [\"montelukast\", \"has side effect\", \"ear pain\"], [\"montelukast\", \"has side effect\", \"trouble hearing\"], [\"montelukast\", \"has side effect\", \"headache\"], [\"montelukast\", \"has side effect\", \"flu-like symptoms\"], [\"montelukast\", \"has side effect\", \"severe sinus pain\"], [\"montelukast\", \"has side effect\", \"skin rash\"], [\"montelukast\", \"has side effect\", \"numbness\"], [\"montelukast\", \"has side effect\", \"pins and needles\"], [\"montelukast\", \"has side effect\", \"agitation\"], [\"montelukast\", \"has side effect\", \"aggression\"], [\"montelukast\", \"has side effect\", \"restlessness\"], [\"montelukast\", \"has side effect\", \"irritability\"], [\"montelukast\", \"has side effect\", \"anxiety\"], [\"montelukast\", \"has side effect\", \"depression\"], [\"montelukast\", \"has side effect\", \"confusion\"], [\"montelukast\", \"has side effect\", \"memory problems\"], [\"montelukast\", \"has side effect\", \"attention problems\"], [\"montelukast\", \"has side effect\", \"stuttering\"], [\"montelukast\", \"has side effect\", \"tremors\"], [\"montelukast\", \"has side effect\", \"uncontrolled muscle movements\"], [\"montelukast\", \"has side effect\", \"suicidal thoughts\"], [\"montelukast\", \"has side effect\", \"suicidal actions\"], [\"montelukast\", \"has side effect\", \"hallucinations\"], [\"montelukast\", \"has side effect\", \"sleep problems\"], [\"montelukast\", \"has side effect\", \"vivid dreams\"], [\"montelukast\", \"has side effect\", \"sleep walking\"], [\"montelukast\", \"has side effect\", \"compulsive behaviors\"], [\"montelukast\", \"has side effect\", \"severe itching\"], [\"montelukast\", \"has side effect\", \"blisters\"], [\"montelukast\", \"has side effect\", \"difficulty breathing\"], [\"montelukast\", \"has side effect\", \"swelling of face\"], [\"montelukast\", \"has side effect\", \"swelling of lips\"], [\"montelukast\", \"has side effect\", \"swelling of tongue\"], [\"montelukast\", \"has side effect\", \"swelling of throat\"], [\"montelukast\", \"requires emergency medical help for\", \"allergic reaction\"], [\"montelukast\", \"requires immediate doctor notification for\", \"blood vessel inflammation\"], [\"montelukast\", \"requires immediate doctor notification for\", \"unusual mood or behavior changes\"]]",
+     "oie": [
+      [
+       "montelukast",
+       "has serious side effect",
+       "allergic reaction"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "stomach pain"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "diarrhea"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "fever"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "ear pain"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "trouble hearing"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "headache"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "flu-like symptoms"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "severe sinus pain"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "skin rash"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "numbness"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "pins and needles"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "agitation"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "aggression"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "restlessness"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "irritability"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "anxiety"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "depression"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "confusion"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "memory problems"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "attention problems"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "stuttering"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "tremors"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "uncontrolled muscle movements"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "suicidal thoughts"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "suicidal actions"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "hallucinations"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "sleep problems"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "vivid dreams"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "sleep walking"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "compulsive behaviors"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "severe itching"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "blisters"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "difficulty breathing"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "swelling of face"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "swelling of lips"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "swelling of tongue"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "swelling of throat"
+      ],
+      [
+       "montelukast",
+       "requires emergency medical help for",
+       "allergic reaction"
+      ],
+      [
+       "montelukast",
+       "requires immediate doctor notification for",
+       "blood vessel inflammation"
+      ],
+      [
+       "montelukast",
+       "requires immediate doctor notification for",
+       "unusual mood or behavior changes"
+      ]
+     ],
+     "schema_definition": {
+      "has serious side effect": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+      "has side effect": "The subject drug may cause the symptom or condition specified by the object entity.",
+      "requires emergency medical help for": "The subject drug may lead to the condition specified by the object entity, which requires immediate emergency medical intervention.",
+      "requires immediate doctor notification for": "The subject drug may lead to the condition specified by the object entity, which requires prompt reporting to a healthcare provider."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "montelukast",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "has serious side effect",
+       "definition": "The subject drug may cause the serious or dangerous adverse effect specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "stomach pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "diarrhea"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "fever"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "ear pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "trouble hearing"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "headache"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "flu-like symptoms"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "severe sinus pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "skin rash"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "numbness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "pins and needles"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "agitation"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "aggression"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "restlessness"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "irritability"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "anxiety"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "depression"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "confusion"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "memory problems"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "attention problems"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "stuttering"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "tremors"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "uncontrolled muscle movements"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "suicidal thoughts"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "suicidal actions"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "hallucinations"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "sleep problems"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "vivid dreams"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "sleep walking"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "compulsive behaviors"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "severe itching"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "blisters"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "difficulty breathing"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "swelling of face"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "swelling of lips"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "swelling of tongue"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "swelling of throat"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has serious side effect",
+        "allergic reaction"
+       ],
+       "raw_relation": "requires emergency medical help for",
+       "definition": "The subject drug may lead to the condition specified by the object entity, which requires immediate emergency medical intervention.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has serious side effect",
+         0.8574
+        ],
+        [
+         "has overdose symptom",
+         0.8492
+        ],
+        [
+         "use with caution in",
+         0.8378
+        ],
+        [
+         "has side effect",
+         0.8319
+        ],
+        [
+         "has warning",
+         0.8275
+        ]
+       ],
+       "answer": "A"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "should inform doctor about",
+        "blood vessel inflammation"
+       ],
+       "raw_relation": "requires immediate doctor notification for",
+       "definition": "The subject drug may lead to the condition specified by the object entity, which requires prompt reporting to a healthcare provider.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8853
+        ],
+        [
+         "should inform doctor about",
+         0.8752
+        ],
+        [
+         "requires monitoring of",
+         0.8687
+        ],
+        [
+         "has serious side effect",
+         0.8639
+        ],
+        [
+         "use with caution in",
+         0.8565
+        ]
+       ],
+       "answer": "B"
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "should inform doctor about",
+        "unusual mood or behavior changes"
+       ],
+       "raw_relation": "requires immediate doctor notification for",
+       "definition": "The subject drug may lead to the condition specified by the object entity, which requires prompt reporting to a healthcare provider.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8853
+        ],
+        [
+         "should inform doctor about",
+         0.8752
+        ],
+        [
+         "requires monitoring of",
+         0.8687
+        ],
+        [
+         "has serious side effect",
+         0.8639
+        ],
+        [
+         "use with caution in",
+         0.8565
+        ]
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "chunk_id": "montelukast#side-effects#1",
+     "section_id": "side-effects",
+     "section_heading": "Montelukast side effects",
+     "text": "- cold symptoms such as runny or stuffy nose, sinus pain, cough, sore throat.\nThis is not a complete list of side effects and others may occur. Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"montelukast\", \"has side effect\", \"runny nose\"], [\"montelukast\", \"has side effect\", \"stuffy nose\"], [\"montelukast\", \"has side effect\", \"sinus pain\"], [\"montelukast\", \"has side effect\", \"cough\"], [\"montelukast\", \"has side effect\", \"sore throat\"], [\"montelukast\", \"has warning\", \"not a complete list of side effects\"], [\"montelukast\", \"has instruction\", \"call doctor for medical advice about side effects\"], [\"montelukast\", \"has reporting instruction\", \"report side effects to FDA at 1-800-FDA-1088\"]]",
+     "oie": [
+      [
+       "montelukast",
+       "has side effect",
+       "runny nose"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "stuffy nose"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "sinus pain"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "cough"
+      ],
+      [
+       "montelukast",
+       "has side effect",
+       "sore throat"
+      ],
+      [
+       "montelukast",
+       "has warning",
+       "not a complete list of side effects"
+      ],
+      [
+       "montelukast",
+       "has instruction",
+       "call doctor for medical advice about side effects"
+      ],
+      [
+       "montelukast",
+       "has reporting instruction",
+       "report side effects to FDA at 1-800-FDA-1088"
+      ]
+     ],
+     "schema_definition": {
+      "has side effect": "The subject drug may cause the medical symptom or condition specified by the object entity.",
+      "has instruction": "The subject drug comes with a recommendation or directive for patients to take specific action regarding side effects, such as consulting a healthcare provider.",
+      "has reporting instruction": "Patients taking the subject drug are advised to report certain adverse effects to a specified authority or contact, as indicated by the object entity.",
+      "has warning": "The subject drug includes a caution that the listed effects are not exhaustive and other side effects may occur."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "runny nose"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "stuffy nose"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "sinus pain"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "cough"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has side effect",
+        "sore throat"
+       ],
+       "raw_relation": "has side effect",
+       "definition": "The subject drug may cause the medical symptom or condition specified by the object entity.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has warning",
+        "not a complete list of side effects"
+       ],
+       "raw_relation": "has warning",
+       "definition": "The subject drug includes a caution that the listed effects are not exhaustive and other side effects may occur.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "has instruction",
+        "call doctor for medical advice about side effects"
+       ],
+       "raw_relation": "has instruction",
+       "definition": "The subject drug comes with a recommendation or directive for patients to take specific action regarding side effects, such as consulting a healthcare provider.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "should inform doctor about",
+        "report side effects to FDA at 1-800-FDA-1088"
+       ],
+       "raw_relation": "has reporting instruction",
+       "definition": "Patients taking the subject drug are advised to report certain adverse effects to a specified authority or contact, as indicated by the object entity.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "has side effect",
+         0.8955
+        ],
+        [
+         "should inform doctor about",
+         0.8822
+        ],
+        [
+         "has serious side effect",
+         0.8644
+        ],
+        [
+         "use with caution in",
+         0.8531
+        ],
+        [
+         "requires monitoring of",
+         0.8365
+        ]
+       ],
+       "answer": "B"
+      }
+     ]
+    },
+    {
+     "chunk_id": "montelukast#interactions#0",
+     "section_id": "interactions",
+     "section_heading": "What other drugs will affect montelukast?",
+     "text": "Other drugs may affect montelukast, including prescription and over-the-counter medicines, vitamins, and herbal products. Tell your doctor about all other medicines you use.",
+     "entity_hint": null,
+     "relation_hint": null,
+     "oie_raw": "[[\"montelukast\", \"interacts with\", \"prescription medicines\"], [\"montelukast\", \"interacts with\", \"over-the-counter medicines\"], [\"montelukast\", \"interacts with\", \"vitamins\"], [\"montelukast\", \"interacts with\", \"herbal products\"], [\"montelukast\", \"requires disclosure of\", \"all other medicines used\"]]",
+     "oie": [
+      [
+       "montelukast",
+       "interacts with",
+       "prescription medicines"
+      ],
+      [
+       "montelukast",
+       "interacts with",
+       "over-the-counter medicines"
+      ],
+      [
+       "montelukast",
+       "interacts with",
+       "vitamins"
+      ],
+      [
+       "montelukast",
+       "interacts with",
+       "herbal products"
+      ],
+      [
+       "montelukast",
+       "requires disclosure of",
+       "all other medicines used"
+      ]
+     ],
+     "schema_definition": {
+      "interacts with": "The subject drug may have a pharmacological interaction with the substance specified by the object entity, potentially affecting its efficacy or increasing the risk of adverse effects.",
+      "requires disclosure of": "Patients using the subject drug should inform their healthcare provider about all other medicines, including those specified by the object entity, to ensure safe and effective treatment."
+     },
+     "schema_canonicalization": [
+      {
+       "triplet": [
+        "montelukast",
+        "interacts with",
+        "prescription medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance specified by the object entity, potentially affecting its efficacy or increasing the risk of adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "interacts with",
+        "over-the-counter medicines"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance specified by the object entity, potentially affecting its efficacy or increasing the risk of adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "interacts with",
+        "vitamins"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance specified by the object entity, potentially affecting its efficacy or increasing the risk of adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "interacts with",
+        "herbal products"
+       ],
+       "raw_relation": "interacts with",
+       "definition": "The subject drug may have a pharmacological interaction with the substance specified by the object entity, potentially affecting its efficacy or increasing the risk of adverse effects.",
+       "status": "direct",
+       "candidates": [],
+       "answer": null
+      },
+      {
+       "triplet": [
+        "montelukast",
+        "should inform doctor about",
+        "all other medicines used"
+       ],
+       "raw_relation": "requires disclosure of",
+       "definition": "Patients using the subject drug should inform their healthcare provider about all other medicines, including those specified by the object entity, to ensure safe and effective treatment.",
+       "status": "mapped",
+       "candidates": [
+        [
+         "should inform doctor about",
+         0.8689
+        ],
+        [
+         "requires use of",
+         0.8225
+        ],
+        [
+         "requires monitoring of",
+         0.8169
+        ],
+        [
+         "use with caution in",
+         0.8106
+        ],
+        [
+         "treats",
+         0.8088
+        ]
+       ],
+       "answer": "A"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "final_triplets": [
+  {
+   "chunk_id": "montelukast#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "montelukast",
+    "has mechanism of action",
+    "asthma attacks"
+   ],
+   "raw_relation": "reduces inflammation",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "montelukast",
+    "treats",
+    "exercise-induced bronchoconstriction"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "montelukast",
+    "treats",
+    "seasonal allergic rhinitis"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "montelukast",
+    "treats",
+    "perennial allergic rhinitis"
+   ],
+   "raw_relation": "treats",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "montelukast",
+    "used in population",
+    "adults and children at least 2 years old"
+   ],
+   "raw_relation": "has recommended use in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "montelukast",
+    "used in population",
+    "children at least 6 years old"
+   ],
+   "raw_relation": "has recommended use in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "montelukast",
+    "used in population",
+    "people over 6 months old"
+   ],
+   "raw_relation": "has recommended use in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "montelukast",
+    "has missed dose instruction",
+    "do not take extra dose for exercise-induced bronchoconstriction"
+   ],
+   "raw_relation": "has instruction for missed dose",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "montelukast",
+    "not used to treat",
+    "asthma attacks"
+   ],
+   "raw_relation": "is not a rescue medicine for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "montelukast",
+    "has administration instruction",
+    "taken daily to work properly"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#uses#0",
+   "section_id": "uses",
+   "triplet": [
+    "montelukast",
+    "fda approval year",
+    "1998"
+   ],
+   "raw_relation": "has fda approval year",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "montelukast",
+    "has warning",
+    "unusual mood or behavior changes"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "montelukast",
+    "has warning",
+    "blood vessel inflammation"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "agitation"
+   ],
+   "raw_relation": "has symptom of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "confusion"
+   ],
+   "raw_relation": "has symptom of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "depression"
+   ],
+   "raw_relation": "has symptom of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "sleep problems"
+   ],
+   "raw_relation": "has symptom of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "compulsive behaviors"
+   ],
+   "raw_relation": "has symptom of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "hallucinations"
+   ],
+   "raw_relation": "has symptom of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "suicidal thoughts or actions"
+   ],
+   "raw_relation": "has symptom of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "flu-like symptoms"
+   ],
+   "raw_relation": "has symptom of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "severe sinus pain"
+   ],
+   "raw_relation": "has symptom of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "skin rash"
+   ],
+   "raw_relation": "has symptom of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "numbness"
+   ],
+   "raw_relation": "has symptom of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#warnings#0",
+   "section_id": "warnings",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "pins and needles in arms or legs"
+   ],
+   "raw_relation": "has symptom of",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "montelukast",
+    "contraindicated in",
+    "allergy to montelukast"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "montelukast",
+    "use with caution in",
+    "mental illness or psychosis"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "montelukast",
+    "use with caution in",
+    "asthma"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "montelukast",
+    "use with caution in",
+    "severe allergic reaction to aspirin or NSAID"
+   ],
+   "raw_relation": "use with caution in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "montelukast",
+    "has warning",
+    "contains phenylalanine"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "montelukast",
+    "has warning",
+    "harmful in phenylketonuria"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "montelukast",
+    "should inform doctor about",
+    "pregnancy"
+   ],
+   "raw_relation": "requires medical supervision in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "montelukast",
+    "should inform doctor about",
+    "breastfeeding"
+   ],
+   "raw_relation": "requires medical supervision in",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#before-taking#0",
+   "section_id": "before-taking",
+   "triplet": [
+    "montelukast",
+    "contraindicated in",
+    "children without doctor's advice"
+   ],
+   "raw_relation": "should not be given to",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "has administration instruction",
+    "take exactly as prescribed by your doctor"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "has administration instruction",
+    "read all medication guides or instruction sheets"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "not used to treat",
+    "fast-acting rescue medicine for asthma attacks"
+   ],
+   "raw_relation": "is not a",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "has serious side effect",
+    "breathing problems get worse quickly"
+   ],
+   "raw_relation": "requires medical attention if",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "has serious side effect",
+    "medications are not working"
+   ],
+   "raw_relation": "requires medical attention if",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "has recommended dose",
+    "once every evening with or without food"
+   ],
+   "raw_relation": "has recommended dose",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "has indication for initial dose",
+    "exercise-induced bronchoconstriction"
+   ],
+   "raw_relation": "has specific dose instruction for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "has administration instruction",
+    "at least 2 hours before exercise"
+   ],
+   "raw_relation": "has dose timing instruction for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "has administration instruction",
+    "do not take another dose for at least 24 hours"
+   ],
+   "raw_relation": "has dose timing instruction for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "has administration instruction",
+    "swallow regular tablet whole with a glass of water"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "has administration instruction",
+    "chew chewable tablet before swallowing"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "has administration instruction",
+    "place oral granules directly in mouth and swallow"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "has administration instruction",
+    "mix oral granules with applesauce, mashed carrots, rice, or ice cream"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "has administration instruction",
+    "mix oral granules with baby formula or breast milk"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "has administration instruction",
+    "do not use any other type of liquid"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "has administration instruction",
+    "use mixture within 15 minutes"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#dosage#0",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "has administration instruction",
+    "do not save for later use"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "requires doctor consultation before discontinuation",
+    "oral steroid medication without tapering"
+   ],
+   "raw_relation": "should not be started with",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "has storage instruction",
+    "store at room temperature away from moisture and heat"
+   ],
+   "raw_relation": "has storage instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#dosage#1",
+   "section_id": "dosage",
+   "triplet": [
+    "montelukast",
+    "has administration instruction",
+    "do not open packet until ready to use"
+   ],
+   "raw_relation": "has administration instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "montelukast",
+    "has missed dose instruction",
+    "skip missed dose and take next dose at regular time"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#missed-dose#0",
+   "section_id": "missed-dose",
+   "triplet": [
+    "montelukast",
+    "has missed dose instruction",
+    "do not take two doses at one time"
+   ],
+   "raw_relation": "has missed dose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "Montelukast",
+    "has overdose instruction",
+    "seek emergency medical attention"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#overdose#0",
+   "section_id": "overdose",
+   "triplet": [
+    "Montelukast",
+    "has overdose instruction",
+    "call Poison Help line at 1-800-222-1222"
+   ],
+   "raw_relation": "has overdose instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "montelukast",
+    "reduces risk of",
+    "asthma attack"
+   ],
+   "raw_relation": "avoids situations that trigger",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "montelukast",
+    "contraindicated in",
+    "aspirin-exacerbated asthma"
+   ],
+   "raw_relation": "contraindicated in",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "montelukast",
+    "interacts with",
+    "NSAIDs"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "montelukast",
+    "should be avoided with",
+    "aspirin"
+   ],
+   "raw_relation": "should avoid",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "montelukast",
+    "should be avoided with",
+    "ibuprofen"
+   ],
+   "raw_relation": "should avoid",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "montelukast",
+    "should be avoided with",
+    "naproxen"
+   ],
+   "raw_relation": "should avoid",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "montelukast",
+    "should be avoided with",
+    "celecoxib"
+   ],
+   "raw_relation": "should avoid",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "montelukast",
+    "should be avoided with",
+    "diclofenac"
+   ],
+   "raw_relation": "should avoid",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "montelukast",
+    "should be avoided with",
+    "indomethacin"
+   ],
+   "raw_relation": "should avoid",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#what-to-avoid#0",
+   "section_id": "what-to-avoid",
+   "triplet": [
+    "montelukast",
+    "should be avoided with",
+    "meloxicam"
+   ],
+   "raw_relation": "should avoid",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "has serious side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "stomach pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "diarrhea"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "fever"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "ear pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "trouble hearing"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "headache"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "flu-like symptoms"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "severe sinus pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "skin rash"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "numbness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "pins and needles"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "agitation"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "aggression"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "restlessness"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "irritability"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "anxiety"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "depression"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "confusion"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "memory problems"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "attention problems"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "stuttering"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "tremors"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "uncontrolled muscle movements"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "suicidal thoughts"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "suicidal actions"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "hallucinations"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "sleep problems"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "vivid dreams"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "sleep walking"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "compulsive behaviors"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "severe itching"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "blisters"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "difficulty breathing"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "swelling of face"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "swelling of lips"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "swelling of tongue"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "swelling of throat"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has serious side effect",
+    "allergic reaction"
+   ],
+   "raw_relation": "requires emergency medical help for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "should inform doctor about",
+    "blood vessel inflammation"
+   ],
+   "raw_relation": "requires immediate doctor notification for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#0",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "should inform doctor about",
+    "unusual mood or behavior changes"
+   ],
+   "raw_relation": "requires immediate doctor notification for",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "runny nose"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "stuffy nose"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "sinus pain"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "cough"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has side effect",
+    "sore throat"
+   ],
+   "raw_relation": "has side effect",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has warning",
+    "not a complete list of side effects"
+   ],
+   "raw_relation": "has warning",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "has instruction",
+    "call doctor for medical advice about side effects"
+   ],
+   "raw_relation": "has instruction",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#side-effects#1",
+   "section_id": "side-effects",
+   "triplet": [
+    "montelukast",
+    "should inform doctor about",
+    "report side effects to FDA at 1-800-FDA-1088"
+   ],
+   "raw_relation": "has reporting instruction",
+   "status": "mapped"
+  },
+  {
+   "chunk_id": "montelukast#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "montelukast",
+    "interacts with",
+    "prescription medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "montelukast",
+    "interacts with",
+    "over-the-counter medicines"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "montelukast",
+    "interacts with",
+    "vitamins"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "montelukast",
+    "interacts with",
+    "herbal products"
+   ],
+   "raw_relation": "interacts with",
+   "status": "direct"
+  },
+  {
+   "chunk_id": "montelukast#interactions#0",
+   "section_id": "interactions",
+   "triplet": [
+    "montelukast",
+    "should inform doctor about",
+    "all other medicines used"
+   ],
+   "raw_relation": "requires disclosure of",
+   "status": "mapped"
+  }
+ ],
+ "name": "Montelukast",
+ "slug": "montelukast",
+ "n_chunks": 11,
+ "seconds": 17.4,
+ "llm_model": "drugkg-llm"
+}
